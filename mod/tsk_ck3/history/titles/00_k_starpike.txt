@@ -1,0 +1,35 @@
+k_starpike = {
+	800.1.1={
+		liege=e_reach
+	}
+}
+d_starpike = {
+	800.1.1={
+		liege=k_starpike
+	}
+}
+c_em1c = {
+	800.1.1={
+		liege=d_starpike
+	}
+}
+d_ashford = {
+	800.1.1={
+		liege=k_starpike
+	}
+}
+c_em2c = {
+	800.1.1={
+		liege=d_ashford
+	}
+}
+d_herefort = {
+	800.1.1={
+		liege=k_starpike
+	}
+}
+c_em3c = {
+	800.1.1={
+		liege=d_herefort
+	}
+}

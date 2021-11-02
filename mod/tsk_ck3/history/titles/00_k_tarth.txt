@@ -1,0 +1,25 @@
+k_tarth = {
+	800.1.1={
+		liege=e_stormlands
+	}
+}
+d_southern_tarth = {
+	800.1.1={
+		liege=k_tarth
+	}
+}
+c_stc1 = {
+	800.1.1={
+		liege=d_southern_tarth
+	}
+}
+d_northern_tarth = {
+	800.1.1={
+		liege=k_tarth
+	}
+}
+c_stc2 = {
+	800.1.1={
+		liege=d_northern_tarth
+	}
+}

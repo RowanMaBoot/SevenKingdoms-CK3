@@ -1,0 +1,45 @@
+k_mudlands = {
+	800.1.1={
+		liege=e_riverlands
+	}
+}
+d_seaguard = {
+	800.1.1={
+		liege=k_mudlands
+	}
+}
+c_rmtt = {
+	800.1.1={
+		liege=d_seaguard
+	}
+}
+d_grey_watch = {
+	800.1.1={
+		liege=k_mudlands
+	}
+}
+c_rmgw = {
+	800.1.1={
+		liege=d_grey_watch
+	}
+}
+d_river_marshes = {
+	800.1.1={
+		liege=k_mudlands
+	}
+}
+c_rmrm = {
+	800.1.1={
+		liege=d_river_marshes
+	}
+}
+d_cape_of_eagles = {
+	800.1.1={
+		liege=k_mudlands
+	}
+}
+c_rmce = {
+	800.1.1={
+		liege=d_cape_of_eagles
+	}
+}

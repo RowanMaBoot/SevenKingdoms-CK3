@@ -1,0 +1,35 @@
+k_shield_islands = {
+	800.1.1={
+		liege=e_reach
+	}
+}
+d_outer_shields = {
+	800.1.1={
+		liege=k_shield_islands
+	}
+}
+c_rsios = {
+	800.1.1={
+		liege=d_outer_shields
+	}
+}
+d_inner_shields = {
+	800.1.1={
+		liege=k_shield_islands
+	}
+}
+c_rsiis = {
+	800.1.1={
+		liege=d_inner_shields
+	}
+}
+d_northern_shields = {
+	800.1.1={
+		liege=k_shield_islands
+	}
+}
+c_rsins = {
+	800.1.1={
+		liege=d_northern_shields
+	}
+}

@@ -1,0 +1,65 @@
+k_antler_vale = {
+	800.1.1={
+		liege=e_beyond_the_wall
+	}
+}
+d_antler_vale = {
+	800.1.1={
+		liege=k_antler_vale
+	}
+}
+c_winter_keep = {
+	800.1.1={
+		liege=d_antler_vale
+	}
+}
+c_antler_vale = {
+	800.1.1={
+		liege=d_antler_vale
+	}
+}
+c_wightward = {
+	800.1.1={
+		liege=d_antler_vale
+	}
+}
+d_crasters_keep = {
+	800.1.1={
+		liege=k_antler_vale
+	}
+}
+c_crasters_keep = {
+	800.1.1={
+		liege=d_crasters_keep
+	}
+}
+c_screaming_woods = {
+	800.1.1={
+		liege=d_crasters_keep
+	}
+}
+c_sacrificial_grove = {
+	800.1.1={
+		liege=d_crasters_keep
+	}
+}
+d_keening_arch = {
+	800.1.1={
+		liege=k_antler_vale
+	}
+}
+c_thatchers_holdfast = {
+	800.1.1={
+		liege=d_keening_arch
+	}
+}
+c_keening_arch = {
+	800.1.1={
+		liege=d_keening_arch
+	}
+}
+c_thirsting_rapids = {
+	800.1.1={
+		liege=d_keening_arch
+	}
+}

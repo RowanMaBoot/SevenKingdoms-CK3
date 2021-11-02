@@ -1,0 +1,45 @@
+k_lowlands = {
+	800.1.1={
+		liege=e_vale
+	}
+}
+d_iron_oaks = {
+	800.1.1={
+		liege=k_lowlands
+	}
+}
+c_vlio = {
+	800.1.1={
+		liege=d_iron_oaks
+	}
+}
+d_longbow = {
+	800.1.1={
+		liege=k_lowlands
+	}
+}
+c_vllb = {
+	800.1.1={
+		liege=d_longbow
+	}
+}
+d_baelish_keep = {
+	800.1.1={
+		liege=k_lowlands
+	}
+}
+c_vlbk = {
+	800.1.1={
+		liege=d_baelish_keep
+	}
+}
+d_plancard = {
+	800.1.1={
+		liege=k_lowlands
+	}
+}
+c_vlpc = {
+	800.1.1={
+		liege=d_plancard
+	}
+}

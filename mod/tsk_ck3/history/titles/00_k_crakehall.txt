@@ -1,0 +1,25 @@
+k_crakehall = {
+	800.1.1={
+		liege=e_westerlands
+	}
+}
+d_crakehall = {
+	800.1.1={
+		liege=k_crakehall
+	}
+}
+c_wcc = {
+	800.1.1={
+		liege=d_crakehall
+	}
+}
+d_seapoint = {
+	800.1.1={
+		liege=k_crakehall
+	}
+}
+c_wcs = {
+	800.1.1={
+		liege=d_seapoint
+	}
+}

@@ -1,0 +1,45 @@
+k_kingswood = {
+	800.1.1={
+		liege=e_stormlands
+	}
+}
+d_kingswood = {
+	800.1.1={
+		liege=k_kingswood
+	}
+}
+c_kwc1 = {
+	800.1.1={
+		liege=d_kingswood
+	}
+}
+d_kwd1 = {
+	800.1.1={
+		liege=k_kingswood
+	}
+}
+c_kwc2 = {
+	800.1.1={
+		liege=d_kwd1
+	}
+}
+d_kwd2 = {
+	800.1.1={
+		liege=k_kingswood
+	}
+}
+c_kwc3 = {
+	800.1.1={
+		liege=d_kwd2
+	}
+}
+d_kwd3 = {
+	800.1.1={
+		liege=k_kingswood
+	}
+}
+c_kwc4 = {
+	800.1.1={
+		liege=d_kwd3
+	}
+}

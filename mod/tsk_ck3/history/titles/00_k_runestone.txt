@@ -1,0 +1,45 @@
+k_runestone = {
+	800.1.1={
+		liege=e_vale
+	}
+}
+d_gulltown = {
+	800.1.1={
+		liege=k_runestone
+	}
+}
+c_vrgt = {
+	800.1.1={
+		liege=d_gulltown
+	}
+}
+d_runestone = {
+	800.1.1={
+		liege=k_runestone
+	}
+}
+c_vrrs = {
+	800.1.1={
+		liege=d_runestone
+	}
+}
+d_redfort = {
+	800.1.1={
+		liege=k_runestone
+	}
+}
+c_vrrf = {
+	800.1.1={
+		liege=d_redfort
+	}
+}
+d_wakers_pass = {
+	800.1.1={
+		liege=k_runestone
+	}
+}
+c_vrwp = {
+	800.1.1={
+		liege=d_wakers_pass
+	}
+}

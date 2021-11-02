@@ -1,0 +1,35 @@
+k_haunted_shores = {
+	800.1.1={
+		liege=e_beyond_the_wall
+	}
+}
+d_hardhome = {
+	800.1.1={
+		liege=k_haunted_shores
+	}
+}
+c_bwhh = {
+	800.1.1={
+		liege=d_hardhome
+	}
+}
+d_northern_shore = {
+	800.1.1={
+		liege=k_haunted_shores
+	}
+}
+c_bwns = {
+	800.1.1={
+		liege=d_northern_shore
+	}
+}
+d_haunted_forest = {
+	800.1.1={
+		liege=k_haunted_shores
+	}
+}
+c_bwhf = {
+	800.1.1={
+		liege=d_haunted_forest
+	}
+}

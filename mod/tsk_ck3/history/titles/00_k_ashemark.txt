@@ -1,0 +1,35 @@
+k_ashemark = {
+	800.1.1={
+		liege=e_westerlands
+	}
+}
+d_ashemark = {
+	800.1.1={
+		liege=k_ashemark
+	}
+}
+c_waa = {
+	800.1.1={
+		liege=d_ashemark
+	}
+}
+d_the_crag = {
+	800.1.1={
+		liege=k_ashemark
+	}
+}
+c_wac = {
+	800.1.1={
+		liege=d_the_crag
+	}
+}
+d_banefort = {
+	800.1.1={
+		liege=k_ashemark
+	}
+}
+c_wab = {
+	800.1.1={
+		liege=d_banefort
+	}
+}

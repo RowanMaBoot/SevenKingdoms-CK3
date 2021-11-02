@@ -1,0 +1,25 @@
+k_mountain_clans = {
+	800.1.1={
+		liege=e_vale
+	}
+}
+d_blackrock = {
+	800.1.1={
+		liege=k_mountain_clans
+	}
+}
+c_vmcb = {
+	800.1.1={
+		liege=d_blackrock
+	}
+}
+d_deep_vales = {
+	800.1.1={
+		liege=k_mountain_clans
+	}
+}
+c_vmcf = {
+	800.1.1={
+		liege=d_deep_vales
+	}
+}

@@ -1,0 +1,35 @@
+k_storrolds_point = {
+	800.1.1={
+		liege=e_beyond_the_wall
+	}
+}
+d_the_gap = {
+	800.1.1={
+		liege=k_storrolds_point
+	}
+}
+c_bwg = {
+	800.1.1={
+		liege=d_the_gap
+	}
+}
+d_ruddy_hall = {
+	800.1.1={
+		liege=k_storrolds_point
+	}
+}
+c_bwrh = {
+	800.1.1={
+		liege=d_ruddy_hall
+	}
+}
+d_winter_keep = {
+	800.1.1={
+		liege=k_storrolds_point
+	}
+}
+c_bwwk = {
+	800.1.1={
+		liege=d_winter_keep
+	}
+}

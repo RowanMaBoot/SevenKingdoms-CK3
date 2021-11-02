@@ -1,0 +1,40 @@
+k_high_heart = {
+	800.1.1={
+		liege=e_riverlands
+	}
+}
+d_high_heart = {
+	800.1.1={
+		liege=k_high_heart
+	}
+}
+c_rrhh = {
+	800.1.1={
+		liege=d_high_heart
+	}
+}
+d_riverrrun = {
+	800.1.1={
+		liege=k_high_heart
+	}
+}
+c_rrrr = {
+	800.1.1={
+		liege=d_riverrrun
+	}
+}
+c_rtrh = {
+	800.1.1={
+		liege=d_riverrrun
+	}
+}
+d_stone_hedge = {
+	800.1.1={
+		liege=k_high_heart
+	}
+}
+c_rrsh = {
+	800.1.1={
+		liege=d_stone_hedge
+	}
+}

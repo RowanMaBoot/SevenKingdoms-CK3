@@ -1,0 +1,35 @@
+k_sandstone = {
+	800.1.1={
+		liege=e_dorne
+	}
+}
+d_sandstone = {
+	800.1.1={
+		liege=k_sandstone
+	}
+}
+c_d24 = {
+	800.1.1={
+		liege=d_sandstone
+	}
+}
+d_sulphur = {
+	800.1.1={
+		liege=k_sandstone
+	}
+}
+c_d25 = {
+	800.1.1={
+		liege=d_sulphur
+	}
+}
+d_scorched_rock = {
+	800.1.1={
+		liege=k_sandstone
+	}
+}
+c_d26 = {
+	800.1.1={
+		liege=d_scorched_rock
+	}
+}

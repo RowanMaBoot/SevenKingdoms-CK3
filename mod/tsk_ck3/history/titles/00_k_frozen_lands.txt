@@ -1,0 +1,70 @@
+k_frozen_lands = {
+	800.1.1={
+		liege=e_beyond_the_wall
+	}
+}
+d_bubbling_pools = {
+	800.1.1={
+		liege=k_frozen_lands
+	}
+}
+c_rowans_hearth = {
+	800.1.1={
+		liege=d_bubbling_pools
+	}
+}
+c_icewater_hills = {
+	800.1.1={
+		liege=d_bubbling_pools
+	}
+}
+c_obsidian_pools = {
+	800.1.1={
+		liege=d_bubbling_pools
+	}
+}
+c_rumbling_giant = {
+	800.1.1={
+		liege=d_bubbling_pools
+	}
+}
+d_crystal_lake = {
+	800.1.1={
+		liege=k_frozen_lands
+	}
+}
+c_crystal_lake = {
+	800.1.1={
+		liege=d_crystal_lake
+	}
+}
+c_melting_springs = {
+	800.1.1={
+		liege=d_crystal_lake
+	}
+}
+c_last_tree = {
+	800.1.1={
+		liege=d_crystal_lake
+	}
+}
+d_snowfall_vale = {
+	800.1.1={
+		liege=k_frozen_lands
+	}
+}
+c_frozen_snake_hall = {
+	800.1.1={
+		liege=d_snowfall_vale
+	}
+}
+c_weirbridge = {
+	800.1.1={
+		liege=d_snowfall_vale
+	}
+}
+c_tumbling_ice = {
+	800.1.1={
+		liege=d_snowfall_vale
+	}
+}

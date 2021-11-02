@@ -1,0 +1,15 @@
+k_lonely_light = {
+	800.1.1={
+		liege=e_iron_islands
+	}
+}
+d_lonely_light = {
+	800.1.1={
+		liege=k_lonely_light
+	}
+}
+c_ill = {
+	800.1.1={
+		liege=d_lonely_light
+	}
+}

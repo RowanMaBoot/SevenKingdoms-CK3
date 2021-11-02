@@ -1,0 +1,75 @@
+k_redroost = {
+	800.1.1={
+		liege=e_stormlands
+	}
+}
+d_griffons_roost = {
+	800.1.1={
+		liege=k_redroost
+	}
+}
+c_griffons_roost = {
+	800.1.1={
+		liege=d_griffons_roost
+	}
+}
+c_griffon_pass = {
+	800.1.1={
+		liege=d_griffons_roost
+	}
+}
+c_p5 = {
+	800.1.1={
+		liege=d_griffons_roost
+	}
+}
+c_p6 = {
+	800.1.1={
+		liege=d_griffons_roost
+	}
+}
+c_p7 = {
+	800.1.1={
+		liege=d_griffons_roost
+	}
+}
+d_adderdell = {
+	800.1.1={
+		liege=k_redroost
+	}
+}
+c_adderdell = {
+	800.1.1={
+		liege=d_adderdell
+	}
+}
+c_p8 = {
+	800.1.1={
+		liege=d_adderdell
+	}
+}
+c_p9 = {
+	800.1.1={
+		liege=d_adderdell
+	}
+}
+d_griffon_watch = {
+	800.1.1={
+		liege=k_redroost
+	}
+}
+c_griffon_watch = {
+	800.1.1={
+		liege=d_griffon_watch
+	}
+}
+c_p10 = {
+	800.1.1={
+		liege=d_griffon_watch
+	}
+}
+c_p11 = {
+	800.1.1={
+		liege=d_griffon_watch
+	}
+}

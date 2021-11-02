@@ -1,0 +1,35 @@
+k_southstone = {
+	800.1.1={
+		liege=e_riverlands
+	}
+}
+d_stonehedge = {
+	800.1.1={
+		liege=k_southstone
+	}
+}
+c_stonehedge = {
+	800.1.1={
+		liege=d_stonehedge
+	}
+}
+c_redstream = {
+	800.1.1={
+		liege=d_stonehedge
+	}
+}
+c_tridents_mouth = {
+	800.1.1={
+		liege=d_stonehedge
+	}
+}
+c_goodbrook = {
+	800.1.1={
+		liege=d_stonehedge
+	}
+}
+c_lychester = {
+	800.1.1={
+		liege=d_stonehedge
+	}
+}

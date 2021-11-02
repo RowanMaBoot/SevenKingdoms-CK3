@@ -1,0 +1,65 @@
+k_oldtown = {
+	800.1.1={
+		liege=e_reach
+	}
+}
+d_sun_house = {
+	800.1.1={
+		liege=k_oldtown
+	}
+}
+c_o1c = {
+	800.1.1={
+		liege=d_sun_house
+	}
+}
+d_three_towers = {
+	800.1.1={
+		liege=k_oldtown
+	}
+}
+c_o2c = {
+	800.1.1={
+		liege=d_three_towers
+	}
+}
+d_oldtown = {
+	800.1.1={
+		liege=k_oldtown
+	}
+}
+c_o3c = {
+	800.1.1={
+		liege=d_oldtown
+	}
+}
+d_uplands = {
+	800.1.1={
+		liege=k_oldtown
+	}
+}
+c_o4c = {
+	800.1.1={
+		liege=d_uplands
+	}
+}
+d_blackcrown = {
+	800.1.1={
+		liege=k_oldtown
+	}
+}
+c_o5c = {
+	800.1.1={
+		liege=d_blackcrown
+	}
+}
+d_bandallon = {
+	800.1.1={
+		liege=k_oldtown
+	}
+}
+c_o6c = {
+	800.1.1={
+		liege=d_bandallon
+	}
+}

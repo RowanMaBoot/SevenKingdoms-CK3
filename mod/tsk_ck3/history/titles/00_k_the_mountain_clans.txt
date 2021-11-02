@@ -1,0 +1,47 @@
+k_the_mountain_clans = {
+}
+d_littlefinger = {
+	800.1.1={
+		liege=k_the_mountain_clans
+	}
+}
+c_littlefinger = {
+	800.1.1={
+		liege=d_littlefinger
+	}
+}
+c_allemont = {
+	800.1.1={
+		liege=d_littlefinger
+	}
+}
+c_swan_isle = {
+	800.1.1={
+		liege=d_littlefinger
+	}
+}
+d_hill_and_home = {
+	800.1.1={
+		liege=k_the_mountain_clans
+	}
+}
+c_deep_hills = {
+	800.1.1={
+		liege=d_hill_and_home
+	}
+}
+c_bearded_axe_pass = {
+	800.1.1={
+		liege=d_hill_and_home
+	}
+}
+c_seagull_coast = {
+	800.1.1={
+		liege=d_hill_and_home
+	}
+}
+c_fainting_pass = {
+	800.1.1={
+		liege=d_hill_and_home
+	}
+}

@@ -1,0 +1,25 @@
+k_last_hearth = {
+	800.1.1={
+		liege=e_the_north
+	}
+}
+d_last_hearth = {
+	800.1.1={
+		liege=k_last_hearth
+	}
+}
+c_tnlh = {
+	800.1.1={
+		liege=d_last_hearth
+	}
+}
+d_gift = {
+	800.1.1={
+		liege=k_last_hearth
+	}
+}
+c_tng = {
+	800.1.1={
+		liege=d_gift
+	}
+}

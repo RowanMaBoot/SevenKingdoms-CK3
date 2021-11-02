@@ -1,0 +1,55 @@
+k_the_arbor = {
+	800.1.1={
+		liege=e_reach
+	}
+}
+d_the_arbor = {
+	800.1.1={
+		liege=k_the_arbor
+	}
+}
+c_abor_keep = {
+	800.1.1={
+		liege=d_the_arbor
+	}
+}
+c_arbor = {
+	800.1.1={
+		liege=d_the_arbor
+	}
+}
+c_mermaid_shore = {
+	800.1.1={
+		liege=d_the_arbor
+	}
+}
+c_ryamsport = {
+	800.1.1={
+		liege=d_the_arbor
+	}
+}
+c_wyne_coast = {
+	800.1.1={
+		liege=d_the_arbor
+	}
+}
+d_wyneshield = {
+	800.1.1={
+		liege=k_the_arbor
+	}
+}
+c_wyneshield = {
+	800.1.1={
+		liege=d_wyneshield
+	}
+}
+c_wyneport = {
+	800.1.1={
+		liege=d_wyneshield
+	}
+}
+c_oldwyne = {
+	800.1.1={
+		liege=d_wyneshield
+	}
+}

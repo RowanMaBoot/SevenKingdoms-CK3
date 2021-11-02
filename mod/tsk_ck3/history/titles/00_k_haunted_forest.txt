@@ -1,0 +1,90 @@
+k_haunted_forest = {
+	800.1.1={
+		liege=e_beyond_the_wall
+	}
+}
+d_hardhome = {
+	800.1.1={
+		liege=k_haunted_forest
+	}
+}
+c_hardhome = {
+	800.1.1={
+		liege=d_hardhome
+	}
+}
+c_storrolds_point = {
+	800.1.1={
+		liege=d_hardhome
+	}
+}
+c_bearview = {
+	800.1.1={
+		liege=d_hardhome
+	}
+}
+c_the_gorge = {
+	800.1.1={
+		liege=d_hardhome
+	}
+}
+c_oldstreams = {
+	800.1.1={
+		liege=d_hardhome
+	}
+}
+c_wightbarrier = {
+	800.1.1={
+		liege=d_hardhome
+	}
+}
+d_northern_shore = {
+	800.1.1={
+		liege=k_haunted_forest
+	}
+}
+c_icehome = {
+	800.1.1={
+		liege=d_northern_shore
+	}
+}
+c_shivering_post = {
+	800.1.1={
+		liege=d_northern_shore
+	}
+}
+c_wightpyre = {
+	800.1.1={
+		liege=d_northern_shore
+	}
+}
+c_crimson_grove = {
+	800.1.1={
+		liege=d_northern_shore
+	}
+}
+d_shivering_forest = {
+	800.1.1={
+		liege=k_haunted_forest
+	}
+}
+c_shivering_forest = {
+	800.1.1={
+		liege=d_shivering_forest
+	}
+}
+c_bloody_forest = {
+	800.1.1={
+		liege=d_shivering_forest
+	}
+}
+c_ash_barrows = {
+	800.1.1={
+		liege=d_shivering_forest
+	}
+}
+c_last_pyre = {
+	800.1.1={
+		liege=d_shivering_forest
+	}
+}

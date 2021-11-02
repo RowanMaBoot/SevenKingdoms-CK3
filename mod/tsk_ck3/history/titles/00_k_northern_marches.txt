@@ -1,0 +1,35 @@
+k_northern_marches = {
+	800.1.1={
+		liege=e_reach
+	}
+}
+d_grassy_vale = {
+	800.1.1={
+		liege=k_northern_marches
+	}
+}
+c_nm1c = {
+	800.1.1={
+		liege=d_grassy_vale
+	}
+}
+d_bitter_bridge = {
+	800.1.1={
+		liege=k_northern_marches
+	}
+}
+c_nm2c = {
+	800.1.1={
+		liege=d_bitter_bridge
+	}
+}
+d_tumbleton = {
+	800.1.1={
+		liege=k_northern_marches
+	}
+}
+c_nm3c = {
+	800.1.1={
+		liege=d_tumbleton
+	}
+}

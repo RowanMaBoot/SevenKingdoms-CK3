@@ -1,0 +1,35 @@
+k_white_knife = {
+	800.1.1={
+		liege=e_the_north
+	}
+}
+d_oldcastle = {
+	800.1.1={
+		liege=k_white_knife
+	}
+}
+c_tnoc = {
+	800.1.1={
+		liege=d_oldcastle
+	}
+}
+d_white_knife = {
+	800.1.1={
+		liege=k_white_knife
+	}
+}
+c_tnwk = {
+	800.1.1={
+		liege=d_white_knife
+	}
+}
+d_ramsgate = {
+	800.1.1={
+		liege=k_white_knife
+	}
+}
+c_tnr = {
+	800.1.1={
+		liege=d_ramsgate
+	}
+}

@@ -1,0 +1,25 @@
+k_greenblood = {
+	800.1.1={
+		liege=e_dorne
+	}
+}
+d_central_greenblood = {
+	800.1.1={
+		liege=k_greenblood
+	}
+}
+c_d9 = {
+	800.1.1={
+		liege=d_central_greenblood
+	}
+}
+d_western_greenblood = {
+	800.1.1={
+		liege=k_greenblood
+	}
+}
+c_d10 = {
+	800.1.1={
+		liege=d_western_greenblood
+	}
+}

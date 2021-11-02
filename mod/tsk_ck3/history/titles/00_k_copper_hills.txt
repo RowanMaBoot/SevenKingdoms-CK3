@@ -1,0 +1,25 @@
+k_copper_hills = {
+	800.1.1={
+		liege=e_westerlands
+	}
+}
+d_copper_hills = {
+	800.1.1={
+		liege=k_copper_hills
+	}
+}
+c_wcch = {
+	800.1.1={
+		liege=d_copper_hills
+	}
+}
+d_copper_pass = {
+	800.1.1={
+		liege=k_copper_hills
+	}
+}
+c_wccp = {
+	800.1.1={
+		liege=d_copper_pass
+	}
+}

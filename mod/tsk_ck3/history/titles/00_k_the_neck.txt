@@ -1,0 +1,55 @@
+k_the_neck = {
+	800.1.1={
+		liege=e_the_north
+	}
+}
+d_the_border_marches = {
+	800.1.1={
+		liege=k_the_neck
+	}
+}
+c_tnbm = {
+	800.1.1={
+		liege=d_the_border_marches
+	}
+}
+d_the_neck = {
+	800.1.1={
+		liege=k_the_neck
+	}
+}
+c_tntn = {
+	800.1.1={
+		liege=d_the_neck
+	}
+}
+d_greywater = {
+	800.1.1={
+		liege=k_the_neck
+	}
+}
+c_tngw = {
+	800.1.1={
+		liege=d_greywater
+	}
+}
+d_flints_finger = {
+	800.1.1={
+		liege=k_the_neck
+	}
+}
+c_tnff = {
+	800.1.1={
+		liege=d_flints_finger
+	}
+}
+d_cape_kraken = {
+	800.1.1={
+		liege=k_the_neck
+	}
+}
+c_tnck = {
+	800.1.1={
+		liege=d_cape_kraken
+	}
+}

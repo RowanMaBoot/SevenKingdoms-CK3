@@ -1,0 +1,70 @@
+k_the_boneway = {
+	800.1.1={
+		liege=e_dorne
+	}
+}
+d_wyl = {
+	800.1.1={
+		liege=k_the_boneway
+	}
+}
+c_wyl = {
+	800.1.1={
+		liege=d_wyl
+	}
+}
+c_wyl_harbour = {
+	800.1.1={
+		liege=d_wyl
+	}
+}
+c_bone_bridge = {
+	800.1.1={
+		liege=d_wyl
+	}
+}
+c_boneyard = {
+	800.1.1={
+		liege=d_wyl
+	}
+}
+d_boneway = {
+	800.1.1={
+		liege=k_the_boneway
+	}
+}
+c_boneway = {
+	800.1.1={
+		liege=d_boneway
+	}
+}
+c_southmere = {
+	800.1.1={
+		liege=d_boneway
+	}
+}
+d_vultures_roost = {
+	800.1.1={
+		liege=k_the_boneway
+	}
+}
+c_vulture_keep = {
+	800.1.1={
+		liege=d_vultures_roost
+	}
+}
+c_fleshrock = {
+	800.1.1={
+		liege=d_vultures_roost
+	}
+}
+c_oldbridge = {
+	800.1.1={
+		liege=d_vultures_roost
+	}
+}
+c_way_watcher = {
+	800.1.1={
+		liege=d_vultures_roost
+	}
+}

@@ -1,0 +1,35 @@
+k_the_fingers = {
+	800.1.1={
+		liege=e_vale
+	}
+}
+d_the_fingers = {
+	800.1.1={
+		liege=k_the_fingers
+	}
+}
+c_vfff = {
+	800.1.1={
+		liege=d_the_fingers
+	}
+}
+d_hearts_home = {
+	800.1.1={
+		liege=k_the_fingers
+	}
+}
+c_vfhh = {
+	800.1.1={
+		liege=d_hearts_home
+	}
+}
+d_allemont = {
+	800.1.1={
+		liege=k_the_fingers
+	}
+}
+c_vfam = {
+	800.1.1={
+		liege=d_allemont
+	}
+}

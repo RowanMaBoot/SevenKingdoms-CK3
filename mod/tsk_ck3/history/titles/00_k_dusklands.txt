@@ -1,0 +1,35 @@
+k_dusklands = {
+	800.1.1={
+		liege=e_dusklands
+	}
+}
+d_rosby = {
+	800.1.1={
+		liege=k_dusklands
+	}
+}
+c_ddr = {
+	800.1.1={
+		liege=d_rosby
+	}
+}
+d_duskendale = {
+	800.1.1={
+		liege=k_dusklands
+	}
+}
+c_ddd = {
+	800.1.1={
+		liege=d_duskendale
+	}
+}
+d_sows_horn = {
+	800.1.1={
+		liege=k_dusklands
+	}
+}
+c_ddsh = {
+	800.1.1={
+		liege=d_sows_horn
+	}
+}

@@ -1,0 +1,35 @@
+k_fair_isle = {
+	800.1.1={
+		liege=e_westerlands
+	}
+}
+d_fair_isle = {
+	800.1.1={
+		liege=k_fair_isle
+	}
+}
+c_wfi = {
+	800.1.1={
+		liege=d_fair_isle
+	}
+}
+d_kayce = {
+	800.1.1={
+		liege=k_fair_isle
+	}
+}
+c_wfk = {
+	800.1.1={
+		liege=d_kayce
+	}
+}
+d_fair_vale = {
+	800.1.1={
+		liege=k_fair_isle
+	}
+}
+c_wffv = {
+	800.1.1={
+		liege=d_fair_vale
+	}
+}

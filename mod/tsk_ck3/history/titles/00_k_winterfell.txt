@@ -1,0 +1,35 @@
+k_winterfell = {
+	800.1.1={
+		liege=e_the_north
+	}
+}
+d_winterfell = {
+	800.1.1={
+		liege=k_winterfell
+	}
+}
+c_tnwf = {
+	800.1.1={
+		liege=d_winterfell
+	}
+}
+d_cerwyns_fold = {
+	800.1.1={
+		liege=k_winterfell
+	}
+}
+c_ncf = {
+	800.1.1={
+		liege=d_cerwyns_fold
+	}
+}
+d_moat_cailin = {
+	800.1.1={
+		liege=k_winterfell
+	}
+}
+c_tnmc = {
+	800.1.1={
+		liege=d_moat_cailin
+	}
+}

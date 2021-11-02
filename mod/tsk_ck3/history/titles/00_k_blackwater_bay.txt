@@ -1,0 +1,35 @@
+k_blackwater_bay = {
+	800.1.1={
+		liege=e_dusklands
+	}
+}
+d_wake_point = {
+	800.1.1={
+		liege=k_blackwater_bay
+	}
+}
+c_dbwp = {
+	800.1.1={
+		liege=d_wake_point
+	}
+}
+d_blackwater_crossing = {
+	800.1.1={
+		liege=k_blackwater_bay
+	}
+}
+c_dbbc = {
+	800.1.1={
+		liege=d_blackwater_crossing
+	}
+}
+d_kings_landing = {
+	800.1.1={
+		liege=k_blackwater_bay
+	}
+}
+c_dbkl = {
+	800.1.1={
+		liege=d_kings_landing
+	}
+}

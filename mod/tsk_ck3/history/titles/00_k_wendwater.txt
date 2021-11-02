@@ -1,0 +1,35 @@
+k_wendwater = {
+	800.1.1={
+		liege=e_stormlands
+	}
+}
+d_wendwater = {
+	800.1.1={
+		liege=k_wendwater
+	}
+}
+c_mh1 = {
+	800.1.1={
+		liege=d_wendwater
+	}
+}
+d_stone_dance = {
+	800.1.1={
+		liege=k_wendwater
+	}
+}
+c_mc2 = {
+	800.1.1={
+		liege=d_stone_dance
+	}
+}
+d_masseys_hook = {
+	800.1.1={
+		liege=k_wendwater
+	}
+}
+c_mc3 = {
+	800.1.1={
+		liege=d_masseys_hook
+	}
+}

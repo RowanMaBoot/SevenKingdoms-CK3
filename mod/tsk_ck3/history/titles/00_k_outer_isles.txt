@@ -1,0 +1,15 @@
+k_outer_isles = {
+	800.1.1={
+		liege=e_iron_islands
+	}
+}
+d_outer_isles = {
+	800.1.1={
+		liege=k_outer_isles
+	}
+}
+c_iiii = {
+	800.1.1={
+		liege=d_outer_isles
+	}
+}

@@ -1,0 +1,25 @@
+k_northern_highlands = {
+	800.1.1={
+		liege=e_beyond_the_wall
+	}
+}
+d_thenn = {
+	800.1.1={
+		liege=k_northern_highlands
+	}
+}
+c_bwt = {
+	800.1.1={
+		liege=d_thenn
+	}
+}
+d_frigid_heights = {
+	800.1.1={
+		liege=k_northern_highlands
+	}
+}
+c_bwfh = {
+	800.1.1={
+		liege=d_frigid_heights
+	}
+}

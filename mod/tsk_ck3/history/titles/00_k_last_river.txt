@@ -1,0 +1,25 @@
+k_last_river = {
+	800.1.1={
+		liege=e_the_north
+	}
+}
+d_long_lake = {
+	800.1.1={
+		liege=k_last_river
+	}
+}
+c_tnll = {
+	800.1.1={
+		liege=d_long_lake
+	}
+}
+d_last_river = {
+	800.1.1={
+		liege=k_last_river
+	}
+}
+c_tnlr = {
+	800.1.1={
+		liege=d_last_river
+	}
+}
