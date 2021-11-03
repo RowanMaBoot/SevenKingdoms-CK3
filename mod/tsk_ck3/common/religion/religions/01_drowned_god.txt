@@ -1,4 +1,4 @@
-old_gods_religion = {
+drowned_god_religion = {
 	family = rf_pagan
 	graphical_faith = pagan_gfx
 
@@ -33,8 +33,8 @@ old_gods_religion = {
 	doctrine = doctrine_clerical_succession_temporal_appointment
 
 	traits = {
-		virtues = { brave forgiving poet }
-		sins = { craven deceitful }
+		virtues = { brave wrathful vengeful poet one_eyed }
+		sins = { craven deceitful forgiving }
 	}
 
 	reserved_male_names = {
@@ -59,85 +59,85 @@ old_gods_religion = {
 
 	localization = {
 		#HighGodName
-		HighGodName = the_old_gods_high_god_name
-		HighGodNamePossessive = the_old_gods_high_god_name_possessive
+		HighGodName = the_drowned_god_high_god_name
+		HighGodNamePossessive = the_drowned_god_high_god_name_possessive
 		HighGodNameSheHe = CHARACTER_SHEHE_HE
 		HighGodHerselfHimself = CHARACTER_HIMSELF
 		HighGodHerHis = CHARACTER_HERHIS_HIS
 
 		#Creator
-		CreatorName = the_old_gods_creator_god_name
-		CreatorNamePossessive = the_old_gods_creator_god_name_possessive
+		CreatorName = the_drowned_god_creator_god_name
+		CreatorNamePossessive = the_drowned_god_creator_god_name_possessive
 		CreatorSheHe = CHARACTER_SHEHE_HE
 		CreatorHerHis = CHARACTER_HERHIS_HIS
 		CreatorHerHim = CHARACTER_HERHIM_HIM
 
 		#HealthGod
-		HealthGodName = the_old_gods_health_god_name
-		HealthGodNamePossessive = the_old_gods_health_god_name_possessive
+		HealthGodName = the_drowned_god_health_god_name
+		HealthGodNamePossessive = the_drowned_god_health_god_name_possessive
 		HealthGodSheHe = CHARACTER_SHEHE_SHE
 		HealthGodHerHis = CHARACTER_HERHIS_HER
 		HealthGodHerHim = CHARACTER_HERHIM_HER
 
 		#FertilityGod
-		FertilityGodName = the_old_gods_fertility_god_name
-		FertilityGodNamePossessive = the_old_gods_fertility_god_name_possessive
+		FertilityGodName = the_drowned_god_fertility_god_name
+		FertilityGodNamePossessive = the_drowned_god_fertility_god_name_possessive
 		FertilityGodSheHe = CHARACTER_SHEHE_SHE
 		FertilityGodHerHis = CHARACTER_HERHIS_HER
 		FertilityGodHerHim = CHARACTER_HERHIM_HER
 
 		#WealthGod
-		WealthGodName = the_old_gods_wealth_god_name
-		WealthGodNamePossessive = the_old_gods_wealth_god_name_possessive
+		WealthGodName = the_drowned_god_wealth_god_name
+		WealthGodNamePossessive = the_drowned_god_wealth_god_name_possessive
 		WealthGodSheHe = CHARACTER_SHEHE_HE
 		WealthGodHerHis = CHARACTER_HERHIS_HIS
 		WealthGodHerHim = CHARACTER_HERHIM_HIM
 
 		#HouseholdGod
-		HouseholdGodName = the_old_gods_household_god_name
-		HouseholdGodNamePossessive = the_old_gods_household_god_name_possessive
+		HouseholdGodName = the_drowned_god_household_god_name
+		HouseholdGodNamePossessive = the_drowned_god_household_god_name_possessive
 		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
 		HouseholdGodHerHis = CHARACTER_HERHIS_HER
 		HouseholdGodHerHim = CHARACTER_HERHIM_HER
 
 		#FateGod
-		FateGodName = the_old_gods_fate_god_name
-		FateGodNamePossessive = the_old_gods_fate_god_name_possessive
+		FateGodName = the_drowned_god_fate_god_name
+		FateGodNamePossessive = the_drowned_god_fate_god_name_possessive
 		FateGodSheHe = CHARACTER_SHEHE_THEY
 		FateGodHerHis = CHARACTER_HERHIS_THEIR
 		FateGodHerHim = CHARACTER_HERHIM_THEM
 
 		#KnowledgeGod
-		KnowledgeGodName = the_old_gods_knowledge_god_name
-		KnowledgeGodNamePossessive = the_old_gods_knowledge_god_name_possessive
+		KnowledgeGodName = the_drowned_god_knowledge_god_name
+		KnowledgeGodNamePossessive = the_drowned_god_knowledge_god_name_possessive
 		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
 		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
 		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
 
 		#WarGod
-		WarGodName = the_old_gods_war_god_name
-		WarGodNamePossessive = the_old_gods_war_god_name_possessive
+		WarGodName = the_drowned_god_war_god_name
+		WarGodNamePossessive = the_drowned_god_war_god_name_possessive
 		WarGodSheHe = CHARACTER_SHEHE_HE
 		WarGodHerHis = CHARACTER_HERHIS_HIS
 		WarGodHerHim = CHARACTER_HERHIM_HIM
 
 		#TricksterGod
-		TricksterGodName = the_old_gods_trickster_god_name
-		TricksterGodNamePossessive = the_old_gods_trickster_god_name_possessive
+		TricksterGodName = the_drowned_god_trickster_god_name
+		TricksterGodNamePossessive = the_drowned_god_trickster_god_name_possessive
 		TricksterGodSheHe = CHARACTER_SHEHE_HE
 		TricksterGodHerHis = CHARACTER_HERHIS_HIS
 		TricksterGodHerHim = CHARACTER_HERHIM_HIM
 
 		#NightGod
-		NightGodName = the_old_gods_night_god_name
-		NightGodNamePossessive = the_old_gods_night_god_name_possessive
+		NightGodName = the_drowned_god_night_god_name
+		NightGodNamePossessive = the_drowned_god_night_god_name_possessive
 		NightGodSheHe = CHARACTER_SHEHE_SHE
 		NightGodHerHis = CHARACTER_HERHIS_HER
 		NightGodHerHim = CHARACTER_HERHIM_HER
 
 		#WaterGod
-		WaterGodName = the_old_gods_water_god_name
-		WaterGodNamePossessive = the_old_gods_water_god_name_possessive
+		WaterGodName = the_drowned_god_water_god_name
+		WaterGodNamePossessive = the_drowned_god_water_god_name_possessive
 		WaterGodSheHe = CHARACTER_SHEHE_HE
 		WaterGodHerHis = CHARACTER_HERHIS_HIS
 		WaterGodHerHim = CHARACTER_HERHIM_HIM
@@ -145,46 +145,46 @@ old_gods_religion = {
 
 		PantheonTerm = religion_the_gods
 		PantheonTermHasHave = pantheon_term_have
-		GoodGodNames = { the_old_gods_good_god_thor the_old_gods_good_god_baldr the_old_gods_good_god_freyja the_old_gods_good_god_tyr the_old_gods_good_god_sif}
-		DevilName = the_old_gods_devil_name
-		DevilNamePossessive = the_old_gods_devil_name_possessive
+		GoodGodNames = { the_drowned_god_good_god_thor the_drowned_god_good_god_baldr the_drowned_god_good_god_freyja the_drowned_god_good_god_tyr the_drowned_god_good_god_sif}
+		DevilName = the_drowned_god_devil_name
+		DevilNamePossessive = the_drowned_god_devil_name_possessive
 		DevilSheHe = CHARACTER_SHEHE_HE
 		DevilHerHis = CHARACTER_HERHIS_HIS
 		DevilHerselfHimself = CHARACTER_HIMSELF
-		EvilGodNames = { the_old_gods_evil_god_surtr the_old_gods_evil_god_ymir }
+		EvilGodNames = { the_drowned_god_evil_god_surtr the_drowned_god_evil_god_ymir }
 		HouseOfWorship = paganism_house_of_worship
 		HouseOfWorshipPlural = paganism_house_of_worship_plural
-		ReligiousSymbol = the_old_gods_religious_symbol
-		ReligiousText = the_old_gods_religious_text
-		ReligiousHeadName = the_old_gods_religious_head_title
-		ReligiousHeadTitleName = the_old_gods_religious_head_title_name
+		ReligiousSymbol = the_drowned_god_religious_symbol
+		ReligiousText = the_drowned_god_religious_text
+		ReligiousHeadName = the_drowned_god_religious_head_title
+		ReligiousHeadTitleName = the_drowned_god_religious_head_title_name
 		DevoteeMale = paganism_devotee
 		DevoteeMalePlural = paganism_devoteeplural
 		DevoteeFemale = paganism_devotee
 		DevoteeFemalePlural = paganism_devoteeplural
 		DevoteeNeuter = paganism_devotee
 		DevoteeNeuterPlural = paganism_devoteeplural
-		PriestMale = the_old_gods_priest_male
-		PriestMalePlural = the_old_gods_priest_male_plural
-		PriestFemale = the_old_gods_priest_female
-		PriestFemalePlural = the_old_gods_priest_female_plural
-		PriestNeuter = the_old_gods_priest_neuter
-		PriestNeuterPlural = the_old_gods_priest_neuter_plural
+		PriestMale = the_drowned_god_priest_male
+		PriestMalePlural = the_drowned_god_priest_male_plural
+		PriestFemale = the_drowned_god_priest_female
+		PriestFemalePlural = the_drowned_god_priest_female_plural
+		PriestNeuter = the_drowned_god_priest_neuter
+		PriestNeuterPlural = the_drowned_god_priest_neuter_plural
 		AltPriestTermPlural = paganism_priest_alternate_plural
-		BishopMale = the_old_gods_bishop_male
-		BishopMalePlural = the_old_gods_bishop_male_plural
-		BishopFemale = the_old_gods_bishop_female
-		BishopFemalePlural = the_old_gods_bishop_female_plural
-		BishopNeuter = the_old_gods_bishop_neuter
-		BishopNeuterPlural = the_old_gods_bishop_neuter_plural
-		DivineRealm = the_old_gods_divine_realm
-		PositiveAfterLife = the_old_gods_positive_afterlife
-		NegativeAfterLife = the_old_gods_death_deity_name
-		DeathDeityName = the_old_gods_death_deity_name
-		DeathDeityNamePossessive = the_old_gods_death_deity_name_possessive
+		BishopMale = the_drowned_god_bishop_male
+		BishopMalePlural = the_drowned_god_bishop_male_plural
+		BishopFemale = the_drowned_god_bishop_female
+		BishopFemalePlural = the_drowned_god_bishop_female_plural
+		BishopNeuter = the_drowned_god_bishop_neuter
+		BishopNeuterPlural = the_drowned_god_bishop_neuter_plural
+		DivineRealm = the_drowned_god_divine_realm
+		PositiveAfterLife = the_drowned_god_positive_afterlife
+		NegativeAfterLife = the_drowned_god_death_deity_name
+		DeathDeityName = the_drowned_god_death_deity_name
+		DeathDeityNamePossessive = the_drowned_god_death_deity_name_possessive
 		DeathDeitySheHe = CHARACTER_SHEHE_SHE
 		DeathDeityHerHis = CHARACTER_HERHIS_HER
-		WitchGodName = the_old_gods_good_god_freyja
+		WitchGodName = the_drowned_god_good_god_freyja
 		WitchGodHerHis = CHARACTER_HERHIS_HER
 		WitchGodSheHe = CHARACTER_SHEHE_HE
 		WitchGodHerHim = CHARACTER_HERHIM_HER
@@ -197,14 +197,15 @@ old_gods_religion = {
 	}
 
 	faiths = {
-		the_old_gods = {
-			color = { 0.390 0.234 0.234 }
+        the_drowned_god = {
+			color = { 0.41 0.43 0.50 }
 			icon = germanic
 			reformed_icon = germanic_reformed
 
 			doctrine = unreformed_faith_doctrine
 
 			doctrine = tenet_warmonger
+
 			doctrine_selection_pair = {
 				requires_dlc_flag = the_northern_lords
 				doctrine = tenet_gruesome_festivals
@@ -216,5 +217,5 @@ old_gods_religion = {
 				fallback_doctrine = tenet_ancestor_worship
 			}
 		}
-	}
+    }
 }
