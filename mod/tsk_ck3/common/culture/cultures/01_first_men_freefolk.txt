@@ -1,0 +1,2589 @@
+north_germanic_group = {
+	
+	graphical_cultures = {
+		norse_unit_gfx
+		western_coa_gfx
+		western_building_gfx
+		fp1_norse_clothing_gfx
+		northern_clothing_gfx
+		northern_unit_gfx
+		norse_building_gfx
+		}
+
+	mercenary_names = {
+		{ name = "mercenary_company_thinglith" coat_of_arms = "mc_thinglith" }
+		{ name = "mercenary_company_army_of_kylfingar" }
+		{ name = "mercenary_company_company_of_jarl_landless" }
+		{ name = "mercenary_company_huscarls_of_the_sea" }
+		{ name = "mercenary_company_band_of_firesmoke" }
+		{ name = "mercenary_company_queens_hird" }
+	}
+	
+	wildling = {
+		graphical_cultures = {
+			norse_coa_gfx
+		}
+		
+		color = { 0.2 0.45 0.65 }
+	
+		character_modifier = {
+			ai_war_chance = 1
+			ai_war_cooldown = -0.5
+		}
+		
+		# T_ 222 þ 254 Ð 208 T_ 240 E_
+
+		cadet_dynasty_names = {
+			"dynn_StO_rr"
+			"dynn_Borg"
+			"dynn_KrA_ka"
+			"dynn_Mikli"
+			"dynn_SmiD_r"
+			"dynn_MO_ring"
+			"dynn_GA_rdske2"
+			"dynn_Trolli"
+			"dynn_Kven"
+			"dynn_Toki"
+			"dynn_HA_rde"
+			"dynn_Eyjing"
+			"dynn_Orming"
+			"dynn_GoD_i"
+			"dynn_AustmaD_r"
+			"dynn_HA_vi"
+			"dynn_Rakki"
+			"dynn_Skrauti"
+			"dynn_Snarfari"
+			"dynn_Strangi"
+			"dynn_Snjalli"
+			"dynn_SU_rr"
+			"dynn_SkA_ld"
+			"dynn_Viss"
+			"dynn_T_rymr"
+			"dynn_T_vari"
+			"dynn_O_lfU_ss"
+			"dynn_O_rn"
+			"dynn_HvI_ti"
+			"dynn_Sterki"
+			"dynn_AuD_gi"
+			"dynn_RauD_i"
+			"dynn_Spaki"
+			"dynn_Svarti"
+			"dynn_Rammi"
+			"dynn_MjO_vi"
+			"dynn_RI_ki"
+			"dynn_Lambi"
+			"dynn_Skarfr"
+			"dynn_SkA_l"
+			"dynn_Sleggja"
+			"dynn_SmjO_r"
+			"dynn_Stjarna"
+			"dynn_StrU_gr"
+			"dynn_SA_lendingr"
+			"dynn_SU_rr"
+			"dynn_SA_lingr"
+			"dynn_Trausti"
+			"dynn_VeD_r"
+			"dynn_VA_mU_li"
+			"dynn_VA_ni"
+			"dynn_T_istill"
+			"dynn_T_jO_fi"
+			"dynn_T_ynning"
+			{ "dynnp_of" "dynn_Bebbanburg" }
+			"dynn_Byrrnesson"
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Dovre" }
+			{ "dynnp_af" "dynn_Dovre" }
+			"dynn_VeO_y"
+			{ "dynnp_af" "dynn_Raumsdalr" }
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
+			"dynn_Firdi"
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Skagen" }
+			{ "dynnp_af" "dynn_Skagen" }
+		}
+
+		dynasty_names = {
+			"dynn_StO_rr"
+			"dynn_Borg"
+			"dynn_KrA_ka"
+			"dynn_Mikli"
+			"dynn_SmiD_r"
+			"dynn_MO_ring"
+			"dynn_GA_rdske2"
+			"dynn_Trolli"
+			"dynn_Kven"
+			"dynn_Toki"
+			"dynn_HA_rde"
+			"dynn_Eyjing"
+			"dynn_Orming"
+			"dynn_GoD_i"
+			"dynn_AustmaD_r"
+			"dynn_HA_vi"
+			"dynn_Rakki"
+			"dynn_Skrauti"
+			"dynn_Snarfari"
+			"dynn_Strangi"
+			"dynn_Snjalli"
+			"dynn_SU_rr"
+			"dynn_SkA_ld"
+			"dynn_Viss"
+			"dynn_T_rymr"
+			"dynn_T_vari"
+			"dynn_O_lfU_ss"
+			"dynn_O_rn"
+			"dynn_HvI_ti"
+			"dynn_Sterki"
+			"dynn_AuD_gi"
+			"dynn_RauD_i"
+			"dynn_Spaki"
+			"dynn_Svarti"
+			"dynn_Rammi"
+			"dynn_MjO_vi"
+			"dynn_RI_ki"
+			"dynn_Lambi"
+			"dynn_Skarfr"
+			"dynn_SkA_l"
+			"dynn_Sleggja"
+			"dynn_SmjO_r"
+			"dynn_Stjarna"
+			"dynn_StrU_gr"
+			"dynn_SA_lendingr"
+			"dynn_SU_rr"
+			"dynn_SA_lingr"
+			"dynn_Trausti"
+			"dynn_VeD_r"
+			"dynn_VA_mU_li"
+			"dynn_VA_ni"
+			"dynn_T_istill"
+			"dynn_T_jO_fi"
+			"dynn_T_ynning"
+			{ "dynnp_of" "dynn_Bebbanburg" }
+			"dynn_Byrrnesson"
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Dovre" }
+			{ "dynnp_af" "dynn_Dovre" }
+			"dynn_VeO_y"
+			{ "dynnp_af" "dynn_Raumsdalr" }
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
+			"dynn_Firdi"
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Skagen" }
+			{ "dynnp_af" "dynn_Skagen" }
+		}
+		
+		male_names = {
+			Adol Aethon Alder Ale Alfyn Allan Aragr Arald Ardle Arne Arnolf Arson Arthor Artos Bael Baerik Bagir Bal Balder Balkar Balyg Bamirr Ban Barkar Barkund Barr Beor Bernarr 
+			Beron Bili Bjormir Bodger Boland Boradir Borald Borroq Bran Briar Brogg Bump Byam Byll Calon Caltram Canan Casey Caster Cayn Conall Cory Craster Cregan Curt Curtshanks Dan
+			Danny Daran Darkul Darkund Darr Davin Davy Del Devyn Dok Doln Dolner Domlech Dormund Dorren Doss Doval Drad Drald Dran Drest Drik Dryd Drydil Dryk Drykamar Dryn Dyre Dywen Egil Erik
+			Erpin Errok Eyron Farnor Fayn Galbart Galem Gariss Garkul Garok Gavin Gede Geir Gendel Gerrick Gerry Gert Gest Gomir Goran Gorigar Gorm Gormund Gorn Gorne Gornegg Gornlak Gotamyr Grag 
+			Gred Grigg Grim Grolaf Groval Grunnor Gunnar Haggon Hakon Halleck Hallis Halys Hankar Haran Hareth Harigg Harkul Harle Harlon Harmond Harodr Henk Howd Hranik Hygner Isrand Isyger Jagni Jarald 
+			Jarl Jeor Jhon Jojen Jorakul Joramun Joran Joraval Joravar Jormund Joseth Jyk Jym Karlon Kran Kul Kyleg Leck Lenn Lenyl Lokamun Lorn Lutrin Mael Maelchon Magorn Magrun Manath Mance Marl Mat Mavin
+			Medger Mikken Mor Mors Myk Naregg Narr Nils Noll Nord Nordar Odd Ondrew Orand Oreg Orell Orl Orleck Orm Ornmir Orvir Ottar Owen Qhorin Qorn Quent Quort Radir Ragnar Ragrad Ragy Rance Rand Raudill 
+			Raymun Raymund Redbreeches Rhodry Rigg Rook Rory Rubert Rudri Ryk Ryn Sigorn Skagni Skamun Skar Skarnir Skarolf Skaval Soren Steig Stek Stilner Stiv Stynar Styr Styrnor Svem Svenar Taran Thom 
+			Thorald Thorand Thorik Toke Toramun Toran Torbund Tore Toregg Torenir Torghen Tormun Tormund Torod Torwynd Tyk Tym Unen Valmund Valon Valorn Valv Varad Varald Varamyr Varn Vayon Vorel Vorwynd
+			Wallen Walton Wayn Wit Worg Wulf Yarold Ygon Yoren
+		}
+		female_names = {
+			Abrella Ada Alcea Ally Aly Alys Anesa Anise Ash Astera Bells Berny Berta Beth Betony Bluebell Bonny Brella Briar Brigit Bryony Buttercup Caminda Cana Canna Cassia Cassie Cedara Cherra 
+			Chicory Cicely Clary Clematis Daisy Dalla Dalthi Dana Dani Danny Davi Dorli Durila Dyah Edna Effie Elen Erena Erika Esgred Eva Fay Ferny Flora Freesia Freny Frenya Frynne Genna Gerie 
+			Gilly Gilny Grenda Grengin Gretchel Grethe Grisel Grisella Gwen Halda Hali Harma Harra Hattie Hazel Heather Helya Hemlock Herlina Hilde Hilly Holly Honeysuckle Inethe Ingiren Iona Isla Ivy 
+			Jackey Jenna Jez Jilly Jonella Jonnela Jonquil Jorelle Jyana Kadie Kadis Kalene Karly Kyra Lara Larkspur Larra Laurel Lennel Lenny Lily Linnea Lobelia Lupina Lyra Maege Maisie Maple Mari Marny
+			Maud Meera Meha Milly Minya Morien Morna Morra Morvana Mulberry Munda Muriel Murron Myrtle Nanna Nella Nelna Nesha Nettles Nilly Nonne Norna Nuala Oliwa Olwen Osha Palla Pansy Peigi Piney Poppy
+			Posy Ragwyle Rela Ros Rose Rosey Rowan Rowly Rue Ryka Sansa Sara Sera Seva Sheena Shona Slaine Sorcha Spruce Svala Tansy Tera Thistle Thorna Thyme Tilly Tyka Una Urielle Val Violet Willa Willow 
+			Winterberry Wynda Yarra Yasha Ygritte Ynne Ynness Ynny Yrya Ysilla Zia Zinnia
+		}
+		
+		dynasty_of_location_prefix = "dynnp_af"
+		
+		patronym_suffix_male = "dynnpat_suf_sson"
+		patronym_suffix_female = "dynnpat_suf_sdottir"
+		always_use_patronym = yes	
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		ethnicities = {
+			70 = caucasian_northern_blond
+			15 = caucasian_northern_ginger
+			10 = caucasian_northern_brown_hair
+			5 = caucasian_northern_dark_hair
+		}
+	}
+	
+	thenn = {
+		graphical_cultures = {
+			norse_coa_gfx
+		}
+		
+		color = { 0.3 0.55 0.8 }
+	
+		character_modifier = {
+			ai_war_chance = 1
+			ai_war_cooldown = -0.5
+		}
+		
+		# T_ 222 þ 254 Ð 208 T_ 240 E_
+
+		cadet_dynasty_names = {
+			"dynn_StO_rr"
+			"dynn_Borg"
+			"dynn_KrA_ka"
+			"dynn_Mikli"
+			"dynn_SmiD_r"
+			"dynn_MO_ring"
+			"dynn_GA_rdske2"
+			"dynn_Trolli"
+			"dynn_Kven"
+			"dynn_Toki"
+			"dynn_HA_rde"
+			"dynn_Eyjing"
+			"dynn_Orming"
+			"dynn_GoD_i"
+			"dynn_AustmaD_r"
+			"dynn_HA_vi"
+			"dynn_Rakki"
+			"dynn_Skrauti"
+			"dynn_Snarfari"
+			"dynn_Strangi"
+			"dynn_Snjalli"
+			"dynn_SU_rr"
+			"dynn_SkA_ld"
+			"dynn_Viss"
+			"dynn_T_rymr"
+			"dynn_T_vari"
+			"dynn_O_lfU_ss"
+			"dynn_O_rn"
+			"dynn_HvI_ti"
+			"dynn_Sterki"
+			"dynn_AuD_gi"
+			"dynn_RauD_i"
+			"dynn_Spaki"
+			"dynn_Svarti"
+			"dynn_Rammi"
+			"dynn_MjO_vi"
+			"dynn_RI_ki"
+			"dynn_Lambi"
+			"dynn_Skarfr"
+			"dynn_SkA_l"
+			"dynn_Sleggja"
+			"dynn_SmjO_r"
+			"dynn_Stjarna"
+			"dynn_StrU_gr"
+			"dynn_SA_lendingr"
+			"dynn_SU_rr"
+			"dynn_SA_lingr"
+			"dynn_Trausti"
+			"dynn_VeD_r"
+			"dynn_VA_mU_li"
+			"dynn_VA_ni"
+			"dynn_T_istill"
+			"dynn_T_jO_fi"
+			"dynn_T_ynning"
+			{ "dynnp_of" "dynn_Bebbanburg" }
+			"dynn_Byrrnesson"
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Dovre" }
+			{ "dynnp_af" "dynn_Dovre" }
+			"dynn_VeO_y"
+			{ "dynnp_af" "dynn_Raumsdalr" }
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
+			"dynn_Firdi"
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Skagen" }
+			{ "dynnp_af" "dynn_Skagen" }
+		}
+
+		dynasty_names = {
+			"dynn_StO_rr"
+			"dynn_Borg"
+			"dynn_KrA_ka"
+			"dynn_Mikli"
+			"dynn_SmiD_r"
+			"dynn_MO_ring"
+			"dynn_GA_rdske2"
+			"dynn_Trolli"
+			"dynn_Kven"
+			"dynn_Toki"
+			"dynn_HA_rde"
+			"dynn_Eyjing"
+			"dynn_Orming"
+			"dynn_GoD_i"
+			"dynn_AustmaD_r"
+			"dynn_HA_vi"
+			"dynn_Rakki"
+			"dynn_Skrauti"
+			"dynn_Snarfari"
+			"dynn_Strangi"
+			"dynn_Snjalli"
+			"dynn_SU_rr"
+			"dynn_SkA_ld"
+			"dynn_Viss"
+			"dynn_T_rymr"
+			"dynn_T_vari"
+			"dynn_O_lfU_ss"
+			"dynn_O_rn"
+			"dynn_HvI_ti"
+			"dynn_Sterki"
+			"dynn_AuD_gi"
+			"dynn_RauD_i"
+			"dynn_Spaki"
+			"dynn_Svarti"
+			"dynn_Rammi"
+			"dynn_MjO_vi"
+			"dynn_RI_ki"
+			"dynn_Lambi"
+			"dynn_Skarfr"
+			"dynn_SkA_l"
+			"dynn_Sleggja"
+			"dynn_SmjO_r"
+			"dynn_Stjarna"
+			"dynn_StrU_gr"
+			"dynn_SA_lendingr"
+			"dynn_SU_rr"
+			"dynn_SA_lingr"
+			"dynn_Trausti"
+			"dynn_VeD_r"
+			"dynn_VA_mU_li"
+			"dynn_VA_ni"
+			"dynn_T_istill"
+			"dynn_T_jO_fi"
+			"dynn_T_ynning"
+			{ "dynnp_of" "dynn_Bebbanburg" }
+			"dynn_Byrrnesson"
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Dovre" }
+			{ "dynnp_af" "dynn_Dovre" }
+			"dynn_VeO_y"
+			{ "dynnp_af" "dynn_Raumsdalr" }
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
+			"dynn_Firdi"
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Skagen" }
+			{ "dynnp_af" "dynn_Skagen" }
+		}
+		
+		male_names = {
+			Adol Aethon Alder Ale Alfyn Allan Aragr Arald Ardle Arne Arnolf Arson Arthor Artos Bael Baerik Bagir Bal Balder Balkar Balyg Bamirr Ban Barkar Barkund Barr Beor Bernarr 
+			Beron Bili Bjormir Bodger Boland Boradir Borald Borroq Bran Briar Brogg Bump Byam Byll Calon Caltram Canan Casey Caster Cayn Conall Cory Craster Cregan Curt Curtshanks Dan
+			Danny Daran Darkul Darkund Darr Davin Davy Del Devyn Dok Doln Dolner Domlech Dormund Dorren Doss Doval Drad Drald Dran Drest Drik Dryd Drydil Dryk Drykamar Dryn Dyre Dywen Egil Erik
+			Erpin Errok Eyron Farnor Fayn Galbart Galem Gariss Garkul Garok Gavin Gede Geir Gendel Gerrick Gerry Gert Gest Gomir Goran Gorigar Gorm Gormund Gorn Gorne Gornegg Gornlak Gotamyr Grag 
+			Gred Grigg Grim Grolaf Groval Grunnor Gunnar Haggon Hakon Halleck Hallis Halys Hankar Haran Hareth Harigg Harkul Harle Harlon Harmond Harodr Henk Howd Hranik Hygner Isrand Isyger Jagni Jarald 
+			Jarl Jeor Jhon Jojen Jorakul Joramun Joran Joraval Joravar Jormund Joseth Jyk Jym Karlon Kran Kul Kyleg Leck Lenn Lenyl Lokamun Lorn Lutrin Mael Maelchon Magorn Magrun Manath Mance Marl Mat Mavin
+			Medger Mikken Mor Mors Myk Naregg Narr Nils Noll Nord Nordar Odd Ondrew Orand Oreg Orell Orl Orleck Orm Ornmir Orvir Ottar Owen Qhorin Qorn Quent Quort Radir Ragnar Ragrad Ragy Rance Rand Raudill 
+			Raymun Raymund Redbreeches Rhodry Rigg Rook Rory Rubert Rudri Ryk Ryn Sigorn Skagni Skamun Skar Skarnir Skarolf Skaval Soren Steig Stek Stilner Stiv Stynar Styr Styrnor Svem Svenar Taran Thom 
+			Thorald Thorand Thorik Toke Toramun Toran Torbund Tore Toregg Torenir Torghen Tormun Tormund Torod Torwynd Tyk Tym Unen Valmund Valon Valorn Valv Varad Varald Varamyr Varn Vayon Vorel Vorwynd
+			Wallen Walton Wayn Wit Worg Wulf Yarold Ygon Yoren
+		}
+		female_names = {
+			Abrella Ada Alcea Ally Aly Alys Anesa Anise Ash Astera Bells Berny Berta Beth Betony Bluebell Bonny Brella Briar Brigit Bryony Buttercup Caminda Cana Canna Cassia Cassie Cedara Cherra 
+			Chicory Cicely Clary Clematis Daisy Dalla Dalthi Dana Dani Danny Davi Dorli Durila Dyah Edna Effie Elen Erena Erika Esgred Eva Fay Ferny Flora Freesia Freny Frenya Frynne Genna Gerie 
+			Gilly Gilny Grenda Grengin Gretchel Grethe Grisel Grisella Gwen Halda Hali Harma Harra Hattie Hazel Heather Helya Hemlock Herlina Hilde Hilly Holly Honeysuckle Inethe Ingiren Iona Isla Ivy 
+			Jackey Jenna Jez Jilly Jonella Jonnela Jonquil Jorelle Jyana Kadie Kadis Kalene Karly Kyra Lara Larkspur Larra Laurel Lennel Lenny Lily Linnea Lobelia Lupina Lyra Maege Maisie Maple Mari Marny
+			Maud Meera Meha Milly Minya Morien Morna Morra Morvana Mulberry Munda Muriel Murron Myrtle Nanna Nella Nelna Nesha Nettles Nilly Nonne Norna Nuala Oliwa Olwen Osha Palla Pansy Peigi Piney Poppy
+			Posy Ragwyle Rela Ros Rose Rosey Rowan Rowly Rue Ryka Sansa Sara Sera Seva Sheena Shona Slaine Sorcha Spruce Svala Tansy Tera Thistle Thorna Thyme Tilly Tyka Una Urielle Val Violet Willa Willow 
+			Winterberry Wynda Yarra Yasha Ygritte Ynne Ynness Ynny Yrya Ysilla Zia Zinnia
+		}
+		
+		dynasty_of_location_prefix = "dynnp_af"
+		
+		patronym_suffix_male = "dynnpat_suf_sson"
+		patronym_suffix_female = "dynnpat_suf_sdottir"
+		always_use_patronym = yes	
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		ethnicities = {
+			70 = caucasian_northern_blond
+			15 = caucasian_northern_ginger
+			10 = caucasian_northern_brown_hair
+			5 = caucasian_northern_dark_hair
+		}
+	}
+
+	nightrunners = {
+		graphical_cultures = {
+			norse_coa_gfx
+		}
+		
+		color = { 0.2 0.45 0.65 }
+	
+		character_modifier = {
+			ai_war_chance = 1
+			ai_war_cooldown = -0.5
+		}
+		
+		# T_ 222 þ 254 Ð 208 T_ 240 E_
+
+		cadet_dynasty_names = {
+			"dynn_StO_rr"
+			"dynn_Borg"
+			"dynn_KrA_ka"
+			"dynn_Mikli"
+			"dynn_SmiD_r"
+			"dynn_MO_ring"
+			"dynn_GA_rdske2"
+			"dynn_Trolli"
+			"dynn_Kven"
+			"dynn_Toki"
+			"dynn_HA_rde"
+			"dynn_Eyjing"
+			"dynn_Orming"
+			"dynn_GoD_i"
+			"dynn_AustmaD_r"
+			"dynn_HA_vi"
+			"dynn_Rakki"
+			"dynn_Skrauti"
+			"dynn_Snarfari"
+			"dynn_Strangi"
+			"dynn_Snjalli"
+			"dynn_SU_rr"
+			"dynn_SkA_ld"
+			"dynn_Viss"
+			"dynn_T_rymr"
+			"dynn_T_vari"
+			"dynn_O_lfU_ss"
+			"dynn_O_rn"
+			"dynn_HvI_ti"
+			"dynn_Sterki"
+			"dynn_AuD_gi"
+			"dynn_RauD_i"
+			"dynn_Spaki"
+			"dynn_Svarti"
+			"dynn_Rammi"
+			"dynn_MjO_vi"
+			"dynn_RI_ki"
+			"dynn_Lambi"
+			"dynn_Skarfr"
+			"dynn_SkA_l"
+			"dynn_Sleggja"
+			"dynn_SmjO_r"
+			"dynn_Stjarna"
+			"dynn_StrU_gr"
+			"dynn_SA_lendingr"
+			"dynn_SU_rr"
+			"dynn_SA_lingr"
+			"dynn_Trausti"
+			"dynn_VeD_r"
+			"dynn_VA_mU_li"
+			"dynn_VA_ni"
+			"dynn_T_istill"
+			"dynn_T_jO_fi"
+			"dynn_T_ynning"
+			{ "dynnp_of" "dynn_Bebbanburg" }
+			"dynn_Byrrnesson"
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Dovre" }
+			{ "dynnp_af" "dynn_Dovre" }
+			"dynn_VeO_y"
+			{ "dynnp_af" "dynn_Raumsdalr" }
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
+			"dynn_Firdi"
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Skagen" }
+			{ "dynnp_af" "dynn_Skagen" }
+		}
+
+		dynasty_names = {
+			"dynn_StO_rr"
+			"dynn_Borg"
+			"dynn_KrA_ka"
+			"dynn_Mikli"
+			"dynn_SmiD_r"
+			"dynn_MO_ring"
+			"dynn_GA_rdske2"
+			"dynn_Trolli"
+			"dynn_Kven"
+			"dynn_Toki"
+			"dynn_HA_rde"
+			"dynn_Eyjing"
+			"dynn_Orming"
+			"dynn_GoD_i"
+			"dynn_AustmaD_r"
+			"dynn_HA_vi"
+			"dynn_Rakki"
+			"dynn_Skrauti"
+			"dynn_Snarfari"
+			"dynn_Strangi"
+			"dynn_Snjalli"
+			"dynn_SU_rr"
+			"dynn_SkA_ld"
+			"dynn_Viss"
+			"dynn_T_rymr"
+			"dynn_T_vari"
+			"dynn_O_lfU_ss"
+			"dynn_O_rn"
+			"dynn_HvI_ti"
+			"dynn_Sterki"
+			"dynn_AuD_gi"
+			"dynn_RauD_i"
+			"dynn_Spaki"
+			"dynn_Svarti"
+			"dynn_Rammi"
+			"dynn_MjO_vi"
+			"dynn_RI_ki"
+			"dynn_Lambi"
+			"dynn_Skarfr"
+			"dynn_SkA_l"
+			"dynn_Sleggja"
+			"dynn_SmjO_r"
+			"dynn_Stjarna"
+			"dynn_StrU_gr"
+			"dynn_SA_lendingr"
+			"dynn_SU_rr"
+			"dynn_SA_lingr"
+			"dynn_Trausti"
+			"dynn_VeD_r"
+			"dynn_VA_mU_li"
+			"dynn_VA_ni"
+			"dynn_T_istill"
+			"dynn_T_jO_fi"
+			"dynn_T_ynning"
+			{ "dynnp_of" "dynn_Bebbanburg" }
+			"dynn_Byrrnesson"
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Dovre" }
+			{ "dynnp_af" "dynn_Dovre" }
+			"dynn_VeO_y"
+			{ "dynnp_af" "dynn_Raumsdalr" }
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
+			"dynn_Firdi"
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Skagen" }
+			{ "dynnp_af" "dynn_Skagen" }
+		}
+		
+		male_names = {
+			Adol Aethon Alder Ale Alfyn Allan Aragr Arald Ardle Arne Arnolf Arson Arthor Artos Bael Baerik Bagir Bal Balder Balkar Balyg Bamirr Ban Barkar Barkund Barr Beor Bernarr 
+			Beron Bili Bjormir Bodger Boland Boradir Borald Borroq Bran Briar Brogg Bump Byam Byll Calon Caltram Canan Casey Caster Cayn Conall Cory Craster Cregan Curt Curtshanks Dan
+			Danny Daran Darkul Darkund Darr Davin Davy Del Devyn Dok Doln Dolner Domlech Dormund Dorren Doss Doval Drad Drald Dran Drest Drik Dryd Drydil Dryk Drykamar Dryn Dyre Dywen Egil Erik
+			Erpin Errok Eyron Farnor Fayn Galbart Galem Gariss Garkul Garok Gavin Gede Geir Gendel Gerrick Gerry Gert Gest Gomir Goran Gorigar Gorm Gormund Gorn Gorne Gornegg Gornlak Gotamyr Grag 
+			Gred Grigg Grim Grolaf Groval Grunnor Gunnar Haggon Hakon Halleck Hallis Halys Hankar Haran Hareth Harigg Harkul Harle Harlon Harmond Harodr Henk Howd Hranik Hygner Isrand Isyger Jagni Jarald 
+			Jarl Jeor Jhon Jojen Jorakul Joramun Joran Joraval Joravar Jormund Joseth Jyk Jym Karlon Kran Kul Kyleg Leck Lenn Lenyl Lokamun Lorn Lutrin Mael Maelchon Magorn Magrun Manath Mance Marl Mat Mavin
+			Medger Mikken Mor Mors Myk Naregg Narr Nils Noll Nord Nordar Odd Ondrew Orand Oreg Orell Orl Orleck Orm Ornmir Orvir Ottar Owen Qhorin Qorn Quent Quort Radir Ragnar Ragrad Ragy Rance Rand Raudill 
+			Raymun Raymund Redbreeches Rhodry Rigg Rook Rory Rubert Rudri Ryk Ryn Sigorn Skagni Skamun Skar Skarnir Skarolf Skaval Soren Steig Stek Stilner Stiv Stynar Styr Styrnor Svem Svenar Taran Thom 
+			Thorald Thorand Thorik Toke Toramun Toran Torbund Tore Toregg Torenir Torghen Tormun Tormund Torod Torwynd Tyk Tym Unen Valmund Valon Valorn Valv Varad Varald Varamyr Varn Vayon Vorel Vorwynd
+			Wallen Walton Wayn Wit Worg Wulf Yarold Ygon Yoren
+		}
+		female_names = {
+			Abrella Ada Alcea Ally Aly Alys Anesa Anise Ash Astera Bells Berny Berta Beth Betony Bluebell Bonny Brella Briar Brigit Bryony Buttercup Caminda Cana Canna Cassia Cassie Cedara Cherra 
+			Chicory Cicely Clary Clematis Daisy Dalla Dalthi Dana Dani Danny Davi Dorli Durila Dyah Edna Effie Elen Erena Erika Esgred Eva Fay Ferny Flora Freesia Freny Frenya Frynne Genna Gerie 
+			Gilly Gilny Grenda Grengin Gretchel Grethe Grisel Grisella Gwen Halda Hali Harma Harra Hattie Hazel Heather Helya Hemlock Herlina Hilde Hilly Holly Honeysuckle Inethe Ingiren Iona Isla Ivy 
+			Jackey Jenna Jez Jilly Jonella Jonnela Jonquil Jorelle Jyana Kadie Kadis Kalene Karly Kyra Lara Larkspur Larra Laurel Lennel Lenny Lily Linnea Lobelia Lupina Lyra Maege Maisie Maple Mari Marny
+			Maud Meera Meha Milly Minya Morien Morna Morra Morvana Mulberry Munda Muriel Murron Myrtle Nanna Nella Nelna Nesha Nettles Nilly Nonne Norna Nuala Oliwa Olwen Osha Palla Pansy Peigi Piney Poppy
+			Posy Ragwyle Rela Ros Rose Rosey Rowan Rowly Rue Ryka Sansa Sara Sera Seva Sheena Shona Slaine Sorcha Spruce Svala Tansy Tera Thistle Thorna Thyme Tilly Tyka Una Urielle Val Violet Willa Willow 
+			Winterberry Wynda Yarra Yasha Ygritte Ynne Ynness Ynny Yrya Ysilla Zia Zinnia
+		}
+		
+		dynasty_of_location_prefix = "dynnp_af"
+		
+		patronym_suffix_male = "dynnpat_suf_sson"
+		patronym_suffix_female = "dynnpat_suf_sdottir"
+		always_use_patronym = yes	
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		ethnicities = {
+			70 = caucasian_northern_blond
+			15 = caucasian_northern_ginger
+			10 = caucasian_northern_brown_hair
+			5 = caucasian_northern_dark_hair
+		}
+	}
+	
+	frozen_shore = {
+		graphical_cultures = {
+			norse_coa_gfx
+		}
+		
+		color = { 0.2 0.45 0.65 }
+	
+		character_modifier = {
+			ai_war_chance = 1
+			ai_war_cooldown = -0.5
+		}
+		
+		# T_ 222 þ 254 Ð 208 T_ 240 E_
+
+		cadet_dynasty_names = {
+			"dynn_StO_rr"
+			"dynn_Borg"
+			"dynn_KrA_ka"
+			"dynn_Mikli"
+			"dynn_SmiD_r"
+			"dynn_MO_ring"
+			"dynn_GA_rdske2"
+			"dynn_Trolli"
+			"dynn_Kven"
+			"dynn_Toki"
+			"dynn_HA_rde"
+			"dynn_Eyjing"
+			"dynn_Orming"
+			"dynn_GoD_i"
+			"dynn_AustmaD_r"
+			"dynn_HA_vi"
+			"dynn_Rakki"
+			"dynn_Skrauti"
+			"dynn_Snarfari"
+			"dynn_Strangi"
+			"dynn_Snjalli"
+			"dynn_SU_rr"
+			"dynn_SkA_ld"
+			"dynn_Viss"
+			"dynn_T_rymr"
+			"dynn_T_vari"
+			"dynn_O_lfU_ss"
+			"dynn_O_rn"
+			"dynn_HvI_ti"
+			"dynn_Sterki"
+			"dynn_AuD_gi"
+			"dynn_RauD_i"
+			"dynn_Spaki"
+			"dynn_Svarti"
+			"dynn_Rammi"
+			"dynn_MjO_vi"
+			"dynn_RI_ki"
+			"dynn_Lambi"
+			"dynn_Skarfr"
+			"dynn_SkA_l"
+			"dynn_Sleggja"
+			"dynn_SmjO_r"
+			"dynn_Stjarna"
+			"dynn_StrU_gr"
+			"dynn_SA_lendingr"
+			"dynn_SU_rr"
+			"dynn_SA_lingr"
+			"dynn_Trausti"
+			"dynn_VeD_r"
+			"dynn_VA_mU_li"
+			"dynn_VA_ni"
+			"dynn_T_istill"
+			"dynn_T_jO_fi"
+			"dynn_T_ynning"
+			{ "dynnp_of" "dynn_Bebbanburg" }
+			"dynn_Byrrnesson"
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Dovre" }
+			{ "dynnp_af" "dynn_Dovre" }
+			"dynn_VeO_y"
+			{ "dynnp_af" "dynn_Raumsdalr" }
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
+			"dynn_Firdi"
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Skagen" }
+			{ "dynnp_af" "dynn_Skagen" }
+		}
+
+		dynasty_names = {
+			"dynn_StO_rr"
+			"dynn_Borg"
+			"dynn_KrA_ka"
+			"dynn_Mikli"
+			"dynn_SmiD_r"
+			"dynn_MO_ring"
+			"dynn_GA_rdske2"
+			"dynn_Trolli"
+			"dynn_Kven"
+			"dynn_Toki"
+			"dynn_HA_rde"
+			"dynn_Eyjing"
+			"dynn_Orming"
+			"dynn_GoD_i"
+			"dynn_AustmaD_r"
+			"dynn_HA_vi"
+			"dynn_Rakki"
+			"dynn_Skrauti"
+			"dynn_Snarfari"
+			"dynn_Strangi"
+			"dynn_Snjalli"
+			"dynn_SU_rr"
+			"dynn_SkA_ld"
+			"dynn_Viss"
+			"dynn_T_rymr"
+			"dynn_T_vari"
+			"dynn_O_lfU_ss"
+			"dynn_O_rn"
+			"dynn_HvI_ti"
+			"dynn_Sterki"
+			"dynn_AuD_gi"
+			"dynn_RauD_i"
+			"dynn_Spaki"
+			"dynn_Svarti"
+			"dynn_Rammi"
+			"dynn_MjO_vi"
+			"dynn_RI_ki"
+			"dynn_Lambi"
+			"dynn_Skarfr"
+			"dynn_SkA_l"
+			"dynn_Sleggja"
+			"dynn_SmjO_r"
+			"dynn_Stjarna"
+			"dynn_StrU_gr"
+			"dynn_SA_lendingr"
+			"dynn_SU_rr"
+			"dynn_SA_lingr"
+			"dynn_Trausti"
+			"dynn_VeD_r"
+			"dynn_VA_mU_li"
+			"dynn_VA_ni"
+			"dynn_T_istill"
+			"dynn_T_jO_fi"
+			"dynn_T_ynning"
+			{ "dynnp_of" "dynn_Bebbanburg" }
+			"dynn_Byrrnesson"
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Dovre" }
+			{ "dynnp_af" "dynn_Dovre" }
+			"dynn_VeO_y"
+			{ "dynnp_af" "dynn_Raumsdalr" }
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
+			"dynn_Firdi"
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Skagen" }
+			{ "dynnp_af" "dynn_Skagen" }
+		}
+		
+		male_names = {
+			Adol Aethon Alder Ale Alfyn Allan Aragr Arald Ardle Arne Arnolf Arson Arthor Artos Bael Baerik Bagir Bal Balder Balkar Balyg Bamirr Ban Barkar Barkund Barr Beor Bernarr 
+			Beron Bili Bjormir Bodger Boland Boradir Borald Borroq Bran Briar Brogg Bump Byam Byll Calon Caltram Canan Casey Caster Cayn Conall Cory Craster Cregan Curt Curtshanks Dan
+			Danny Daran Darkul Darkund Darr Davin Davy Del Devyn Dok Doln Dolner Domlech Dormund Dorren Doss Doval Drad Drald Dran Drest Drik Dryd Drydil Dryk Drykamar Dryn Dyre Dywen Egil Erik
+			Erpin Errok Eyron Farnor Fayn Galbart Galem Gariss Garkul Garok Gavin Gede Geir Gendel Gerrick Gerry Gert Gest Gomir Goran Gorigar Gorm Gormund Gorn Gorne Gornegg Gornlak Gotamyr Grag 
+			Gred Grigg Grim Grolaf Groval Grunnor Gunnar Haggon Hakon Halleck Hallis Halys Hankar Haran Hareth Harigg Harkul Harle Harlon Harmond Harodr Henk Howd Hranik Hygner Isrand Isyger Jagni Jarald 
+			Jarl Jeor Jhon Jojen Jorakul Joramun Joran Joraval Joravar Jormund Joseth Jyk Jym Karlon Kran Kul Kyleg Leck Lenn Lenyl Lokamun Lorn Lutrin Mael Maelchon Magorn Magrun Manath Mance Marl Mat Mavin
+			Medger Mikken Mor Mors Myk Naregg Narr Nils Noll Nord Nordar Odd Ondrew Orand Oreg Orell Orl Orleck Orm Ornmir Orvir Ottar Owen Qhorin Qorn Quent Quort Radir Ragnar Ragrad Ragy Rance Rand Raudill 
+			Raymun Raymund Redbreeches Rhodry Rigg Rook Rory Rubert Rudri Ryk Ryn Sigorn Skagni Skamun Skar Skarnir Skarolf Skaval Soren Steig Stek Stilner Stiv Stynar Styr Styrnor Svem Svenar Taran Thom 
+			Thorald Thorand Thorik Toke Toramun Toran Torbund Tore Toregg Torenir Torghen Tormun Tormund Torod Torwynd Tyk Tym Unen Valmund Valon Valorn Valv Varad Varald Varamyr Varn Vayon Vorel Vorwynd
+			Wallen Walton Wayn Wit Worg Wulf Yarold Ygon Yoren
+		}
+		female_names = {
+			Abrella Ada Alcea Ally Aly Alys Anesa Anise Ash Astera Bells Berny Berta Beth Betony Bluebell Bonny Brella Briar Brigit Bryony Buttercup Caminda Cana Canna Cassia Cassie Cedara Cherra 
+			Chicory Cicely Clary Clematis Daisy Dalla Dalthi Dana Dani Danny Davi Dorli Durila Dyah Edna Effie Elen Erena Erika Esgred Eva Fay Ferny Flora Freesia Freny Frenya Frynne Genna Gerie 
+			Gilly Gilny Grenda Grengin Gretchel Grethe Grisel Grisella Gwen Halda Hali Harma Harra Hattie Hazel Heather Helya Hemlock Herlina Hilde Hilly Holly Honeysuckle Inethe Ingiren Iona Isla Ivy 
+			Jackey Jenna Jez Jilly Jonella Jonnela Jonquil Jorelle Jyana Kadie Kadis Kalene Karly Kyra Lara Larkspur Larra Laurel Lennel Lenny Lily Linnea Lobelia Lupina Lyra Maege Maisie Maple Mari Marny
+			Maud Meera Meha Milly Minya Morien Morna Morra Morvana Mulberry Munda Muriel Murron Myrtle Nanna Nella Nelna Nesha Nettles Nilly Nonne Norna Nuala Oliwa Olwen Osha Palla Pansy Peigi Piney Poppy
+			Posy Ragwyle Rela Ros Rose Rosey Rowan Rowly Rue Ryka Sansa Sara Sera Seva Sheena Shona Slaine Sorcha Spruce Svala Tansy Tera Thistle Thorna Thyme Tilly Tyka Una Urielle Val Violet Willa Willow 
+			Winterberry Wynda Yarra Yasha Ygritte Ynne Ynness Ynny Yrya Ysilla Zia Zinnia
+		}
+		
+		dynasty_of_location_prefix = "dynnp_af"
+		
+		patronym_suffix_male = "dynnpat_suf_sson"
+		patronym_suffix_female = "dynnpat_suf_sdottir"
+		always_use_patronym = yes	
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		ethnicities = {
+			70 = caucasian_northern_blond
+			15 = caucasian_northern_ginger
+			10 = caucasian_northern_brown_hair
+			5 = caucasian_northern_dark_hair
+		}
+	}
+	
+	ice_rivermen = {
+		graphical_cultures = {
+			norse_coa_gfx
+		}
+		
+		color = { 0.2 0.45 0.65 }
+	
+		character_modifier = {
+			ai_war_chance = 1
+			ai_war_cooldown = -0.5
+		}
+		
+		# T_ 222 þ 254 Ð 208 T_ 240 E_
+
+		cadet_dynasty_names = {
+			"dynn_StO_rr"
+			"dynn_Borg"
+			"dynn_KrA_ka"
+			"dynn_Mikli"
+			"dynn_SmiD_r"
+			"dynn_MO_ring"
+			"dynn_GA_rdske2"
+			"dynn_Trolli"
+			"dynn_Kven"
+			"dynn_Toki"
+			"dynn_HA_rde"
+			"dynn_Eyjing"
+			"dynn_Orming"
+			"dynn_GoD_i"
+			"dynn_AustmaD_r"
+			"dynn_HA_vi"
+			"dynn_Rakki"
+			"dynn_Skrauti"
+			"dynn_Snarfari"
+			"dynn_Strangi"
+			"dynn_Snjalli"
+			"dynn_SU_rr"
+			"dynn_SkA_ld"
+			"dynn_Viss"
+			"dynn_T_rymr"
+			"dynn_T_vari"
+			"dynn_O_lfU_ss"
+			"dynn_O_rn"
+			"dynn_HvI_ti"
+			"dynn_Sterki"
+			"dynn_AuD_gi"
+			"dynn_RauD_i"
+			"dynn_Spaki"
+			"dynn_Svarti"
+			"dynn_Rammi"
+			"dynn_MjO_vi"
+			"dynn_RI_ki"
+			"dynn_Lambi"
+			"dynn_Skarfr"
+			"dynn_SkA_l"
+			"dynn_Sleggja"
+			"dynn_SmjO_r"
+			"dynn_Stjarna"
+			"dynn_StrU_gr"
+			"dynn_SA_lendingr"
+			"dynn_SU_rr"
+			"dynn_SA_lingr"
+			"dynn_Trausti"
+			"dynn_VeD_r"
+			"dynn_VA_mU_li"
+			"dynn_VA_ni"
+			"dynn_T_istill"
+			"dynn_T_jO_fi"
+			"dynn_T_ynning"
+			{ "dynnp_of" "dynn_Bebbanburg" }
+			"dynn_Byrrnesson"
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Dovre" }
+			{ "dynnp_af" "dynn_Dovre" }
+			"dynn_VeO_y"
+			{ "dynnp_af" "dynn_Raumsdalr" }
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
+			"dynn_Firdi"
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Skagen" }
+			{ "dynnp_af" "dynn_Skagen" }
+		}
+
+		dynasty_names = {
+			"dynn_StO_rr"
+			"dynn_Borg"
+			"dynn_KrA_ka"
+			"dynn_Mikli"
+			"dynn_SmiD_r"
+			"dynn_MO_ring"
+			"dynn_GA_rdske2"
+			"dynn_Trolli"
+			"dynn_Kven"
+			"dynn_Toki"
+			"dynn_HA_rde"
+			"dynn_Eyjing"
+			"dynn_Orming"
+			"dynn_GoD_i"
+			"dynn_AustmaD_r"
+			"dynn_HA_vi"
+			"dynn_Rakki"
+			"dynn_Skrauti"
+			"dynn_Snarfari"
+			"dynn_Strangi"
+			"dynn_Snjalli"
+			"dynn_SU_rr"
+			"dynn_SkA_ld"
+			"dynn_Viss"
+			"dynn_T_rymr"
+			"dynn_T_vari"
+			"dynn_O_lfU_ss"
+			"dynn_O_rn"
+			"dynn_HvI_ti"
+			"dynn_Sterki"
+			"dynn_AuD_gi"
+			"dynn_RauD_i"
+			"dynn_Spaki"
+			"dynn_Svarti"
+			"dynn_Rammi"
+			"dynn_MjO_vi"
+			"dynn_RI_ki"
+			"dynn_Lambi"
+			"dynn_Skarfr"
+			"dynn_SkA_l"
+			"dynn_Sleggja"
+			"dynn_SmjO_r"
+			"dynn_Stjarna"
+			"dynn_StrU_gr"
+			"dynn_SA_lendingr"
+			"dynn_SU_rr"
+			"dynn_SA_lingr"
+			"dynn_Trausti"
+			"dynn_VeD_r"
+			"dynn_VA_mU_li"
+			"dynn_VA_ni"
+			"dynn_T_istill"
+			"dynn_T_jO_fi"
+			"dynn_T_ynning"
+			{ "dynnp_of" "dynn_Bebbanburg" }
+			"dynn_Byrrnesson"
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Dovre" }
+			{ "dynnp_af" "dynn_Dovre" }
+			"dynn_VeO_y"
+			{ "dynnp_af" "dynn_Raumsdalr" }
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
+			"dynn_Firdi"
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Skagen" }
+			{ "dynnp_af" "dynn_Skagen" }
+		}
+		
+		male_names = {
+			Adol Aethon Alder Ale Alfyn Allan Aragr Arald Ardle Arne Arnolf Arson Arthor Artos Bael Baerik Bagir Bal Balder Balkar Balyg Bamirr Ban Barkar Barkund Barr Beor Bernarr 
+			Beron Bili Bjormir Bodger Boland Boradir Borald Borroq Bran Briar Brogg Bump Byam Byll Calon Caltram Canan Casey Caster Cayn Conall Cory Craster Cregan Curt Curtshanks Dan
+			Danny Daran Darkul Darkund Darr Davin Davy Del Devyn Dok Doln Dolner Domlech Dormund Dorren Doss Doval Drad Drald Dran Drest Drik Dryd Drydil Dryk Drykamar Dryn Dyre Dywen Egil Erik
+			Erpin Errok Eyron Farnor Fayn Galbart Galem Gariss Garkul Garok Gavin Gede Geir Gendel Gerrick Gerry Gert Gest Gomir Goran Gorigar Gorm Gormund Gorn Gorne Gornegg Gornlak Gotamyr Grag 
+			Gred Grigg Grim Grolaf Groval Grunnor Gunnar Haggon Hakon Halleck Hallis Halys Hankar Haran Hareth Harigg Harkul Harle Harlon Harmond Harodr Henk Howd Hranik Hygner Isrand Isyger Jagni Jarald 
+			Jarl Jeor Jhon Jojen Jorakul Joramun Joran Joraval Joravar Jormund Joseth Jyk Jym Karlon Kran Kul Kyleg Leck Lenn Lenyl Lokamun Lorn Lutrin Mael Maelchon Magorn Magrun Manath Mance Marl Mat Mavin
+			Medger Mikken Mor Mors Myk Naregg Narr Nils Noll Nord Nordar Odd Ondrew Orand Oreg Orell Orl Orleck Orm Ornmir Orvir Ottar Owen Qhorin Qorn Quent Quort Radir Ragnar Ragrad Ragy Rance Rand Raudill 
+			Raymun Raymund Redbreeches Rhodry Rigg Rook Rory Rubert Rudri Ryk Ryn Sigorn Skagni Skamun Skar Skarnir Skarolf Skaval Soren Steig Stek Stilner Stiv Stynar Styr Styrnor Svem Svenar Taran Thom 
+			Thorald Thorand Thorik Toke Toramun Toran Torbund Tore Toregg Torenir Torghen Tormun Tormund Torod Torwynd Tyk Tym Unen Valmund Valon Valorn Valv Varad Varald Varamyr Varn Vayon Vorel Vorwynd
+			Wallen Walton Wayn Wit Worg Wulf Yarold Ygon Yoren
+		}
+		female_names = {
+			Abrella Ada Alcea Ally Aly Alys Anesa Anise Ash Astera Bells Berny Berta Beth Betony Bluebell Bonny Brella Briar Brigit Bryony Buttercup Caminda Cana Canna Cassia Cassie Cedara Cherra 
+			Chicory Cicely Clary Clematis Daisy Dalla Dalthi Dana Dani Danny Davi Dorli Durila Dyah Edna Effie Elen Erena Erika Esgred Eva Fay Ferny Flora Freesia Freny Frenya Frynne Genna Gerie 
+			Gilly Gilny Grenda Grengin Gretchel Grethe Grisel Grisella Gwen Halda Hali Harma Harra Hattie Hazel Heather Helya Hemlock Herlina Hilde Hilly Holly Honeysuckle Inethe Ingiren Iona Isla Ivy 
+			Jackey Jenna Jez Jilly Jonella Jonnela Jonquil Jorelle Jyana Kadie Kadis Kalene Karly Kyra Lara Larkspur Larra Laurel Lennel Lenny Lily Linnea Lobelia Lupina Lyra Maege Maisie Maple Mari Marny
+			Maud Meera Meha Milly Minya Morien Morna Morra Morvana Mulberry Munda Muriel Murron Myrtle Nanna Nella Nelna Nesha Nettles Nilly Nonne Norna Nuala Oliwa Olwen Osha Palla Pansy Peigi Piney Poppy
+			Posy Ragwyle Rela Ros Rose Rosey Rowan Rowly Rue Ryka Sansa Sara Sera Seva Sheena Shona Slaine Sorcha Spruce Svala Tansy Tera Thistle Thorna Thyme Tilly Tyka Una Urielle Val Violet Willa Willow 
+			Winterberry Wynda Yarra Yasha Ygritte Ynne Ynness Ynny Yrya Ysilla Zia Zinnia
+		}
+		
+		dynasty_of_location_prefix = "dynnp_af"
+		
+		patronym_suffix_male = "dynnpat_suf_sson"
+		patronym_suffix_female = "dynnpat_suf_sdottir"
+		always_use_patronym = yes	
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		ethnicities = {
+			70 = caucasian_northern_blond
+			15 = caucasian_northern_ginger
+			10 = caucasian_northern_brown_hair
+			5 = caucasian_northern_dark_hair
+		}
+	}
+	
+	hornfoots = {
+		graphical_cultures = {
+			norse_coa_gfx
+		}
+		
+		color = { 0.2 0.45 0.65 }
+	
+		character_modifier = {
+			ai_war_chance = 1
+			ai_war_cooldown = -0.5
+		}
+		
+		# T_ 222 þ 254 Ð 208 T_ 240 E_
+
+		cadet_dynasty_names = {
+			"dynn_StO_rr"
+			"dynn_Borg"
+			"dynn_KrA_ka"
+			"dynn_Mikli"
+			"dynn_SmiD_r"
+			"dynn_MO_ring"
+			"dynn_GA_rdske2"
+			"dynn_Trolli"
+			"dynn_Kven"
+			"dynn_Toki"
+			"dynn_HA_rde"
+			"dynn_Eyjing"
+			"dynn_Orming"
+			"dynn_GoD_i"
+			"dynn_AustmaD_r"
+			"dynn_HA_vi"
+			"dynn_Rakki"
+			"dynn_Skrauti"
+			"dynn_Snarfari"
+			"dynn_Strangi"
+			"dynn_Snjalli"
+			"dynn_SU_rr"
+			"dynn_SkA_ld"
+			"dynn_Viss"
+			"dynn_T_rymr"
+			"dynn_T_vari"
+			"dynn_O_lfU_ss"
+			"dynn_O_rn"
+			"dynn_HvI_ti"
+			"dynn_Sterki"
+			"dynn_AuD_gi"
+			"dynn_RauD_i"
+			"dynn_Spaki"
+			"dynn_Svarti"
+			"dynn_Rammi"
+			"dynn_MjO_vi"
+			"dynn_RI_ki"
+			"dynn_Lambi"
+			"dynn_Skarfr"
+			"dynn_SkA_l"
+			"dynn_Sleggja"
+			"dynn_SmjO_r"
+			"dynn_Stjarna"
+			"dynn_StrU_gr"
+			"dynn_SA_lendingr"
+			"dynn_SU_rr"
+			"dynn_SA_lingr"
+			"dynn_Trausti"
+			"dynn_VeD_r"
+			"dynn_VA_mU_li"
+			"dynn_VA_ni"
+			"dynn_T_istill"
+			"dynn_T_jO_fi"
+			"dynn_T_ynning"
+			{ "dynnp_of" "dynn_Bebbanburg" }
+			"dynn_Byrrnesson"
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Dovre" }
+			{ "dynnp_af" "dynn_Dovre" }
+			"dynn_VeO_y"
+			{ "dynnp_af" "dynn_Raumsdalr" }
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
+			"dynn_Firdi"
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Skagen" }
+			{ "dynnp_af" "dynn_Skagen" }
+		}
+
+		dynasty_names = {
+			"dynn_StO_rr"
+			"dynn_Borg"
+			"dynn_KrA_ka"
+			"dynn_Mikli"
+			"dynn_SmiD_r"
+			"dynn_MO_ring"
+			"dynn_GA_rdske2"
+			"dynn_Trolli"
+			"dynn_Kven"
+			"dynn_Toki"
+			"dynn_HA_rde"
+			"dynn_Eyjing"
+			"dynn_Orming"
+			"dynn_GoD_i"
+			"dynn_AustmaD_r"
+			"dynn_HA_vi"
+			"dynn_Rakki"
+			"dynn_Skrauti"
+			"dynn_Snarfari"
+			"dynn_Strangi"
+			"dynn_Snjalli"
+			"dynn_SU_rr"
+			"dynn_SkA_ld"
+			"dynn_Viss"
+			"dynn_T_rymr"
+			"dynn_T_vari"
+			"dynn_O_lfU_ss"
+			"dynn_O_rn"
+			"dynn_HvI_ti"
+			"dynn_Sterki"
+			"dynn_AuD_gi"
+			"dynn_RauD_i"
+			"dynn_Spaki"
+			"dynn_Svarti"
+			"dynn_Rammi"
+			"dynn_MjO_vi"
+			"dynn_RI_ki"
+			"dynn_Lambi"
+			"dynn_Skarfr"
+			"dynn_SkA_l"
+			"dynn_Sleggja"
+			"dynn_SmjO_r"
+			"dynn_Stjarna"
+			"dynn_StrU_gr"
+			"dynn_SA_lendingr"
+			"dynn_SU_rr"
+			"dynn_SA_lingr"
+			"dynn_Trausti"
+			"dynn_VeD_r"
+			"dynn_VA_mU_li"
+			"dynn_VA_ni"
+			"dynn_T_istill"
+			"dynn_T_jO_fi"
+			"dynn_T_ynning"
+			{ "dynnp_of" "dynn_Bebbanburg" }
+			"dynn_Byrrnesson"
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Dovre" }
+			{ "dynnp_af" "dynn_Dovre" }
+			"dynn_VeO_y"
+			{ "dynnp_af" "dynn_Raumsdalr" }
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
+			"dynn_Firdi"
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Skagen" }
+			{ "dynnp_af" "dynn_Skagen" }
+		}
+		
+		male_names = {
+			Adol Aethon Alder Ale Alfyn Allan Aragr Arald Ardle Arne Arnolf Arson Arthor Artos Bael Baerik Bagir Bal Balder Balkar Balyg Bamirr Ban Barkar Barkund Barr Beor Bernarr 
+			Beron Bili Bjormir Bodger Boland Boradir Borald Borroq Bran Briar Brogg Bump Byam Byll Calon Caltram Canan Casey Caster Cayn Conall Cory Craster Cregan Curt Curtshanks Dan
+			Danny Daran Darkul Darkund Darr Davin Davy Del Devyn Dok Doln Dolner Domlech Dormund Dorren Doss Doval Drad Drald Dran Drest Drik Dryd Drydil Dryk Drykamar Dryn Dyre Dywen Egil Erik
+			Erpin Errok Eyron Farnor Fayn Galbart Galem Gariss Garkul Garok Gavin Gede Geir Gendel Gerrick Gerry Gert Gest Gomir Goran Gorigar Gorm Gormund Gorn Gorne Gornegg Gornlak Gotamyr Grag 
+			Gred Grigg Grim Grolaf Groval Grunnor Gunnar Haggon Hakon Halleck Hallis Halys Hankar Haran Hareth Harigg Harkul Harle Harlon Harmond Harodr Henk Howd Hranik Hygner Isrand Isyger Jagni Jarald 
+			Jarl Jeor Jhon Jojen Jorakul Joramun Joran Joraval Joravar Jormund Joseth Jyk Jym Karlon Kran Kul Kyleg Leck Lenn Lenyl Lokamun Lorn Lutrin Mael Maelchon Magorn Magrun Manath Mance Marl Mat Mavin
+			Medger Mikken Mor Mors Myk Naregg Narr Nils Noll Nord Nordar Odd Ondrew Orand Oreg Orell Orl Orleck Orm Ornmir Orvir Ottar Owen Qhorin Qorn Quent Quort Radir Ragnar Ragrad Ragy Rance Rand Raudill 
+			Raymun Raymund Redbreeches Rhodry Rigg Rook Rory Rubert Rudri Ryk Ryn Sigorn Skagni Skamun Skar Skarnir Skarolf Skaval Soren Steig Stek Stilner Stiv Stynar Styr Styrnor Svem Svenar Taran Thom 
+			Thorald Thorand Thorik Toke Toramun Toran Torbund Tore Toregg Torenir Torghen Tormun Tormund Torod Torwynd Tyk Tym Unen Valmund Valon Valorn Valv Varad Varald Varamyr Varn Vayon Vorel Vorwynd
+			Wallen Walton Wayn Wit Worg Wulf Yarold Ygon Yoren
+		}
+		female_names = {
+			Abrella Ada Alcea Ally Aly Alys Anesa Anise Ash Astera Bells Berny Berta Beth Betony Bluebell Bonny Brella Briar Brigit Bryony Buttercup Caminda Cana Canna Cassia Cassie Cedara Cherra 
+			Chicory Cicely Clary Clematis Daisy Dalla Dalthi Dana Dani Danny Davi Dorli Durila Dyah Edna Effie Elen Erena Erika Esgred Eva Fay Ferny Flora Freesia Freny Frenya Frynne Genna Gerie 
+			Gilly Gilny Grenda Grengin Gretchel Grethe Grisel Grisella Gwen Halda Hali Harma Harra Hattie Hazel Heather Helya Hemlock Herlina Hilde Hilly Holly Honeysuckle Inethe Ingiren Iona Isla Ivy 
+			Jackey Jenna Jez Jilly Jonella Jonnela Jonquil Jorelle Jyana Kadie Kadis Kalene Karly Kyra Lara Larkspur Larra Laurel Lennel Lenny Lily Linnea Lobelia Lupina Lyra Maege Maisie Maple Mari Marny
+			Maud Meera Meha Milly Minya Morien Morna Morra Morvana Mulberry Munda Muriel Murron Myrtle Nanna Nella Nelna Nesha Nettles Nilly Nonne Norna Nuala Oliwa Olwen Osha Palla Pansy Peigi Piney Poppy
+			Posy Ragwyle Rela Ros Rose Rosey Rowan Rowly Rue Ryka Sansa Sara Sera Seva Sheena Shona Slaine Sorcha Spruce Svala Tansy Tera Thistle Thorna Thyme Tilly Tyka Una Urielle Val Violet Willa Willow 
+			Winterberry Wynda Yarra Yasha Ygritte Ynne Ynness Ynny Yrya Ysilla Zia Zinnia
+		}
+		
+		dynasty_of_location_prefix = "dynnp_af"
+		
+		patronym_suffix_male = "dynnpat_suf_sson"
+		patronym_suffix_female = "dynnpat_suf_sdottir"
+		always_use_patronym = yes	
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		ethnicities = {
+			70 = caucasian_northern_blond
+			15 = caucasian_northern_ginger
+			10 = caucasian_northern_brown_hair
+			5 = caucasian_northern_dark_hair
+		}
+	}
+	
+	cavemen = {
+		graphical_cultures = {
+			norse_coa_gfx
+		}
+		
+		color = { 0.2 0.45 0.65 }
+	
+		character_modifier = {
+			ai_war_chance = 1
+			ai_war_cooldown = -0.5
+		}
+		
+		# T_ 222 þ 254 Ð 208 T_ 240 E_
+
+		cadet_dynasty_names = {
+			"dynn_StO_rr"
+			"dynn_Borg"
+			"dynn_KrA_ka"
+			"dynn_Mikli"
+			"dynn_SmiD_r"
+			"dynn_MO_ring"
+			"dynn_GA_rdske2"
+			"dynn_Trolli"
+			"dynn_Kven"
+			"dynn_Toki"
+			"dynn_HA_rde"
+			"dynn_Eyjing"
+			"dynn_Orming"
+			"dynn_GoD_i"
+			"dynn_AustmaD_r"
+			"dynn_HA_vi"
+			"dynn_Rakki"
+			"dynn_Skrauti"
+			"dynn_Snarfari"
+			"dynn_Strangi"
+			"dynn_Snjalli"
+			"dynn_SU_rr"
+			"dynn_SkA_ld"
+			"dynn_Viss"
+			"dynn_T_rymr"
+			"dynn_T_vari"
+			"dynn_O_lfU_ss"
+			"dynn_O_rn"
+			"dynn_HvI_ti"
+			"dynn_Sterki"
+			"dynn_AuD_gi"
+			"dynn_RauD_i"
+			"dynn_Spaki"
+			"dynn_Svarti"
+			"dynn_Rammi"
+			"dynn_MjO_vi"
+			"dynn_RI_ki"
+			"dynn_Lambi"
+			"dynn_Skarfr"
+			"dynn_SkA_l"
+			"dynn_Sleggja"
+			"dynn_SmjO_r"
+			"dynn_Stjarna"
+			"dynn_StrU_gr"
+			"dynn_SA_lendingr"
+			"dynn_SU_rr"
+			"dynn_SA_lingr"
+			"dynn_Trausti"
+			"dynn_VeD_r"
+			"dynn_VA_mU_li"
+			"dynn_VA_ni"
+			"dynn_T_istill"
+			"dynn_T_jO_fi"
+			"dynn_T_ynning"
+			{ "dynnp_of" "dynn_Bebbanburg" }
+			"dynn_Byrrnesson"
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Dovre" }
+			{ "dynnp_af" "dynn_Dovre" }
+			"dynn_VeO_y"
+			{ "dynnp_af" "dynn_Raumsdalr" }
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
+			"dynn_Firdi"
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Skagen" }
+			{ "dynnp_af" "dynn_Skagen" }
+		}
+
+		dynasty_names = {
+			"dynn_StO_rr"
+			"dynn_Borg"
+			"dynn_KrA_ka"
+			"dynn_Mikli"
+			"dynn_SmiD_r"
+			"dynn_MO_ring"
+			"dynn_GA_rdske2"
+			"dynn_Trolli"
+			"dynn_Kven"
+			"dynn_Toki"
+			"dynn_HA_rde"
+			"dynn_Eyjing"
+			"dynn_Orming"
+			"dynn_GoD_i"
+			"dynn_AustmaD_r"
+			"dynn_HA_vi"
+			"dynn_Rakki"
+			"dynn_Skrauti"
+			"dynn_Snarfari"
+			"dynn_Strangi"
+			"dynn_Snjalli"
+			"dynn_SU_rr"
+			"dynn_SkA_ld"
+			"dynn_Viss"
+			"dynn_T_rymr"
+			"dynn_T_vari"
+			"dynn_O_lfU_ss"
+			"dynn_O_rn"
+			"dynn_HvI_ti"
+			"dynn_Sterki"
+			"dynn_AuD_gi"
+			"dynn_RauD_i"
+			"dynn_Spaki"
+			"dynn_Svarti"
+			"dynn_Rammi"
+			"dynn_MjO_vi"
+			"dynn_RI_ki"
+			"dynn_Lambi"
+			"dynn_Skarfr"
+			"dynn_SkA_l"
+			"dynn_Sleggja"
+			"dynn_SmjO_r"
+			"dynn_Stjarna"
+			"dynn_StrU_gr"
+			"dynn_SA_lendingr"
+			"dynn_SU_rr"
+			"dynn_SA_lingr"
+			"dynn_Trausti"
+			"dynn_VeD_r"
+			"dynn_VA_mU_li"
+			"dynn_VA_ni"
+			"dynn_T_istill"
+			"dynn_T_jO_fi"
+			"dynn_T_ynning"
+			{ "dynnp_of" "dynn_Bebbanburg" }
+			"dynn_Byrrnesson"
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Dovre" }
+			{ "dynnp_af" "dynn_Dovre" }
+			"dynn_VeO_y"
+			{ "dynnp_af" "dynn_Raumsdalr" }
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
+			"dynn_Firdi"
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Skagen" }
+			{ "dynnp_af" "dynn_Skagen" }
+		}
+		
+		male_names = {
+			Adol Aethon Alder Ale Alfyn Allan Aragr Arald Ardle Arne Arnolf Arson Arthor Artos Bael Baerik Bagir Bal Balder Balkar Balyg Bamirr Ban Barkar Barkund Barr Beor Bernarr 
+			Beron Bili Bjormir Bodger Boland Boradir Borald Borroq Bran Briar Brogg Bump Byam Byll Calon Caltram Canan Casey Caster Cayn Conall Cory Craster Cregan Curt Curtshanks Dan
+			Danny Daran Darkul Darkund Darr Davin Davy Del Devyn Dok Doln Dolner Domlech Dormund Dorren Doss Doval Drad Drald Dran Drest Drik Dryd Drydil Dryk Drykamar Dryn Dyre Dywen Egil Erik
+			Erpin Errok Eyron Farnor Fayn Galbart Galem Gariss Garkul Garok Gavin Gede Geir Gendel Gerrick Gerry Gert Gest Gomir Goran Gorigar Gorm Gormund Gorn Gorne Gornegg Gornlak Gotamyr Grag 
+			Gred Grigg Grim Grolaf Groval Grunnor Gunnar Haggon Hakon Halleck Hallis Halys Hankar Haran Hareth Harigg Harkul Harle Harlon Harmond Harodr Henk Howd Hranik Hygner Isrand Isyger Jagni Jarald 
+			Jarl Jeor Jhon Jojen Jorakul Joramun Joran Joraval Joravar Jormund Joseth Jyk Jym Karlon Kran Kul Kyleg Leck Lenn Lenyl Lokamun Lorn Lutrin Mael Maelchon Magorn Magrun Manath Mance Marl Mat Mavin
+			Medger Mikken Mor Mors Myk Naregg Narr Nils Noll Nord Nordar Odd Ondrew Orand Oreg Orell Orl Orleck Orm Ornmir Orvir Ottar Owen Qhorin Qorn Quent Quort Radir Ragnar Ragrad Ragy Rance Rand Raudill 
+			Raymun Raymund Redbreeches Rhodry Rigg Rook Rory Rubert Rudri Ryk Ryn Sigorn Skagni Skamun Skar Skarnir Skarolf Skaval Soren Steig Stek Stilner Stiv Stynar Styr Styrnor Svem Svenar Taran Thom 
+			Thorald Thorand Thorik Toke Toramun Toran Torbund Tore Toregg Torenir Torghen Tormun Tormund Torod Torwynd Tyk Tym Unen Valmund Valon Valorn Valv Varad Varald Varamyr Varn Vayon Vorel Vorwynd
+			Wallen Walton Wayn Wit Worg Wulf Yarold Ygon Yoren
+		}
+		female_names = {
+			Abrella Ada Alcea Ally Aly Alys Anesa Anise Ash Astera Bells Berny Berta Beth Betony Bluebell Bonny Brella Briar Brigit Bryony Buttercup Caminda Cana Canna Cassia Cassie Cedara Cherra 
+			Chicory Cicely Clary Clematis Daisy Dalla Dalthi Dana Dani Danny Davi Dorli Durila Dyah Edna Effie Elen Erena Erika Esgred Eva Fay Ferny Flora Freesia Freny Frenya Frynne Genna Gerie 
+			Gilly Gilny Grenda Grengin Gretchel Grethe Grisel Grisella Gwen Halda Hali Harma Harra Hattie Hazel Heather Helya Hemlock Herlina Hilde Hilly Holly Honeysuckle Inethe Ingiren Iona Isla Ivy 
+			Jackey Jenna Jez Jilly Jonella Jonnela Jonquil Jorelle Jyana Kadie Kadis Kalene Karly Kyra Lara Larkspur Larra Laurel Lennel Lenny Lily Linnea Lobelia Lupina Lyra Maege Maisie Maple Mari Marny
+			Maud Meera Meha Milly Minya Morien Morna Morra Morvana Mulberry Munda Muriel Murron Myrtle Nanna Nella Nelna Nesha Nettles Nilly Nonne Norna Nuala Oliwa Olwen Osha Palla Pansy Peigi Piney Poppy
+			Posy Ragwyle Rela Ros Rose Rosey Rowan Rowly Rue Ryka Sansa Sara Sera Seva Sheena Shona Slaine Sorcha Spruce Svala Tansy Tera Thistle Thorna Thyme Tilly Tyka Una Urielle Val Violet Willa Willow 
+			Winterberry Wynda Yarra Yasha Ygritte Ynne Ynness Ynny Yrya Ysilla Zia Zinnia
+		}
+		
+		dynasty_of_location_prefix = "dynnp_af"
+		
+		patronym_suffix_male = "dynnpat_suf_sson"
+		patronym_suffix_female = "dynnpat_suf_sdottir"
+		always_use_patronym = yes	
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		ethnicities = {
+			70 = caucasian_northern_blond
+			15 = caucasian_northern_ginger
+			10 = caucasian_northern_brown_hair
+			5 = caucasian_northern_dark_hair
+		}
+	}
+	
+	gildlic = {
+		graphical_cultures = {
+			norse_coa_gfx
+		}
+		
+		color = { 0.2 0.45 0.65 }
+	
+		character_modifier = {
+			ai_war_chance = 1
+			ai_war_cooldown = -0.5
+		}
+		
+		# T_ 222 þ 254 Ð 208 T_ 240 E_
+
+		cadet_dynasty_names = {
+			"dynn_StO_rr"
+			"dynn_Borg"
+			"dynn_KrA_ka"
+			"dynn_Mikli"
+			"dynn_SmiD_r"
+			"dynn_MO_ring"
+			"dynn_GA_rdske2"
+			"dynn_Trolli"
+			"dynn_Kven"
+			"dynn_Toki"
+			"dynn_HA_rde"
+			"dynn_Eyjing"
+			"dynn_Orming"
+			"dynn_GoD_i"
+			"dynn_AustmaD_r"
+			"dynn_HA_vi"
+			"dynn_Rakki"
+			"dynn_Skrauti"
+			"dynn_Snarfari"
+			"dynn_Strangi"
+			"dynn_Snjalli"
+			"dynn_SU_rr"
+			"dynn_SkA_ld"
+			"dynn_Viss"
+			"dynn_T_rymr"
+			"dynn_T_vari"
+			"dynn_O_lfU_ss"
+			"dynn_O_rn"
+			"dynn_HvI_ti"
+			"dynn_Sterki"
+			"dynn_AuD_gi"
+			"dynn_RauD_i"
+			"dynn_Spaki"
+			"dynn_Svarti"
+			"dynn_Rammi"
+			"dynn_MjO_vi"
+			"dynn_RI_ki"
+			"dynn_Lambi"
+			"dynn_Skarfr"
+			"dynn_SkA_l"
+			"dynn_Sleggja"
+			"dynn_SmjO_r"
+			"dynn_Stjarna"
+			"dynn_StrU_gr"
+			"dynn_SA_lendingr"
+			"dynn_SU_rr"
+			"dynn_SA_lingr"
+			"dynn_Trausti"
+			"dynn_VeD_r"
+			"dynn_VA_mU_li"
+			"dynn_VA_ni"
+			"dynn_T_istill"
+			"dynn_T_jO_fi"
+			"dynn_T_ynning"
+			{ "dynnp_of" "dynn_Bebbanburg" }
+			"dynn_Byrrnesson"
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Dovre" }
+			{ "dynnp_af" "dynn_Dovre" }
+			"dynn_VeO_y"
+			{ "dynnp_af" "dynn_Raumsdalr" }
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
+			"dynn_Firdi"
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Skagen" }
+			{ "dynnp_af" "dynn_Skagen" }
+		}
+
+		dynasty_names = {
+			"dynn_StO_rr"
+			"dynn_Borg"
+			"dynn_KrA_ka"
+			"dynn_Mikli"
+			"dynn_SmiD_r"
+			"dynn_MO_ring"
+			"dynn_GA_rdske2"
+			"dynn_Trolli"
+			"dynn_Kven"
+			"dynn_Toki"
+			"dynn_HA_rde"
+			"dynn_Eyjing"
+			"dynn_Orming"
+			"dynn_GoD_i"
+			"dynn_AustmaD_r"
+			"dynn_HA_vi"
+			"dynn_Rakki"
+			"dynn_Skrauti"
+			"dynn_Snarfari"
+			"dynn_Strangi"
+			"dynn_Snjalli"
+			"dynn_SU_rr"
+			"dynn_SkA_ld"
+			"dynn_Viss"
+			"dynn_T_rymr"
+			"dynn_T_vari"
+			"dynn_O_lfU_ss"
+			"dynn_O_rn"
+			"dynn_HvI_ti"
+			"dynn_Sterki"
+			"dynn_AuD_gi"
+			"dynn_RauD_i"
+			"dynn_Spaki"
+			"dynn_Svarti"
+			"dynn_Rammi"
+			"dynn_MjO_vi"
+			"dynn_RI_ki"
+			"dynn_Lambi"
+			"dynn_Skarfr"
+			"dynn_SkA_l"
+			"dynn_Sleggja"
+			"dynn_SmjO_r"
+			"dynn_Stjarna"
+			"dynn_StrU_gr"
+			"dynn_SA_lendingr"
+			"dynn_SU_rr"
+			"dynn_SA_lingr"
+			"dynn_Trausti"
+			"dynn_VeD_r"
+			"dynn_VA_mU_li"
+			"dynn_VA_ni"
+			"dynn_T_istill"
+			"dynn_T_jO_fi"
+			"dynn_T_ynning"
+			{ "dynnp_of" "dynn_Bebbanburg" }
+			"dynn_Byrrnesson"
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Dovre" }
+			{ "dynnp_af" "dynn_Dovre" }
+			"dynn_VeO_y"
+			{ "dynnp_af" "dynn_Raumsdalr" }
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
+			"dynn_Firdi"
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Skagen" }
+			{ "dynnp_af" "dynn_Skagen" }
+		}
+		
+		male_names = {
+			Adol Aethon Alder Ale Alfyn Allan Aragr Arald Ardle Arne Arnolf Arson Arthor Artos Bael Baerik Bagir Bal Balder Balkar Balyg Bamirr Ban Barkar Barkund Barr Beor Bernarr 
+			Beron Bili Bjormir Bodger Boland Boradir Borald Borroq Bran Briar Brogg Bump Byam Byll Calon Caltram Canan Casey Caster Cayn Conall Cory Craster Cregan Curt Curtshanks Dan
+			Danny Daran Darkul Darkund Darr Davin Davy Del Devyn Dok Doln Dolner Domlech Dormund Dorren Doss Doval Drad Drald Dran Drest Drik Dryd Drydil Dryk Drykamar Dryn Dyre Dywen Egil Erik
+			Erpin Errok Eyron Farnor Fayn Galbart Galem Gariss Garkul Garok Gavin Gede Geir Gendel Gerrick Gerry Gert Gest Gomir Goran Gorigar Gorm Gormund Gorn Gorne Gornegg Gornlak Gotamyr Grag 
+			Gred Grigg Grim Grolaf Groval Grunnor Gunnar Haggon Hakon Halleck Hallis Halys Hankar Haran Hareth Harigg Harkul Harle Harlon Harmond Harodr Henk Howd Hranik Hygner Isrand Isyger Jagni Jarald 
+			Jarl Jeor Jhon Jojen Jorakul Joramun Joran Joraval Joravar Jormund Joseth Jyk Jym Karlon Kran Kul Kyleg Leck Lenn Lenyl Lokamun Lorn Lutrin Mael Maelchon Magorn Magrun Manath Mance Marl Mat Mavin
+			Medger Mikken Mor Mors Myk Naregg Narr Nils Noll Nord Nordar Odd Ondrew Orand Oreg Orell Orl Orleck Orm Ornmir Orvir Ottar Owen Qhorin Qorn Quent Quort Radir Ragnar Ragrad Ragy Rance Rand Raudill 
+			Raymun Raymund Redbreeches Rhodry Rigg Rook Rory Rubert Rudri Ryk Ryn Sigorn Skagni Skamun Skar Skarnir Skarolf Skaval Soren Steig Stek Stilner Stiv Stynar Styr Styrnor Svem Svenar Taran Thom 
+			Thorald Thorand Thorik Toke Toramun Toran Torbund Tore Toregg Torenir Torghen Tormun Tormund Torod Torwynd Tyk Tym Unen Valmund Valon Valorn Valv Varad Varald Varamyr Varn Vayon Vorel Vorwynd
+			Wallen Walton Wayn Wit Worg Wulf Yarold Ygon Yoren
+		}
+		female_names = {
+			Abrella Ada Alcea Ally Aly Alys Anesa Anise Ash Astera Bells Berny Berta Beth Betony Bluebell Bonny Brella Briar Brigit Bryony Buttercup Caminda Cana Canna Cassia Cassie Cedara Cherra 
+			Chicory Cicely Clary Clematis Daisy Dalla Dalthi Dana Dani Danny Davi Dorli Durila Dyah Edna Effie Elen Erena Erika Esgred Eva Fay Ferny Flora Freesia Freny Frenya Frynne Genna Gerie 
+			Gilly Gilny Grenda Grengin Gretchel Grethe Grisel Grisella Gwen Halda Hali Harma Harra Hattie Hazel Heather Helya Hemlock Herlina Hilde Hilly Holly Honeysuckle Inethe Ingiren Iona Isla Ivy 
+			Jackey Jenna Jez Jilly Jonella Jonnela Jonquil Jorelle Jyana Kadie Kadis Kalene Karly Kyra Lara Larkspur Larra Laurel Lennel Lenny Lily Linnea Lobelia Lupina Lyra Maege Maisie Maple Mari Marny
+			Maud Meera Meha Milly Minya Morien Morna Morra Morvana Mulberry Munda Muriel Murron Myrtle Nanna Nella Nelna Nesha Nettles Nilly Nonne Norna Nuala Oliwa Olwen Osha Palla Pansy Peigi Piney Poppy
+			Posy Ragwyle Rela Ros Rose Rosey Rowan Rowly Rue Ryka Sansa Sara Sera Seva Sheena Shona Slaine Sorcha Spruce Svala Tansy Tera Thistle Thorna Thyme Tilly Tyka Una Urielle Val Violet Willa Willow 
+			Winterberry Wynda Yarra Yasha Ygritte Ynne Ynness Ynny Yrya Ysilla Zia Zinnia
+		}
+		
+		dynasty_of_location_prefix = "dynnp_af"
+		
+		patronym_suffix_male = "dynnpat_suf_sson"
+		patronym_suffix_female = "dynnpat_suf_sdottir"
+		always_use_patronym = yes	
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		ethnicities = {
+			70 = caucasian_northern_blond
+			15 = caucasian_northern_ginger
+			10 = caucasian_northern_brown_hair
+			5 = caucasian_northern_dark_hair
+		}
+	}
+	
+	dumhic = {
+		graphical_cultures = {
+			norse_coa_gfx
+		}
+		
+		color = { 0.2 0.45 0.65 }
+	
+		character_modifier = {
+			ai_war_chance = 1
+			ai_war_cooldown = -0.5
+		}
+		
+		# T_ 222 þ 254 Ð 208 T_ 240 E_
+
+		cadet_dynasty_names = {
+			"dynn_StO_rr"
+			"dynn_Borg"
+			"dynn_KrA_ka"
+			"dynn_Mikli"
+			"dynn_SmiD_r"
+			"dynn_MO_ring"
+			"dynn_GA_rdske2"
+			"dynn_Trolli"
+			"dynn_Kven"
+			"dynn_Toki"
+			"dynn_HA_rde"
+			"dynn_Eyjing"
+			"dynn_Orming"
+			"dynn_GoD_i"
+			"dynn_AustmaD_r"
+			"dynn_HA_vi"
+			"dynn_Rakki"
+			"dynn_Skrauti"
+			"dynn_Snarfari"
+			"dynn_Strangi"
+			"dynn_Snjalli"
+			"dynn_SU_rr"
+			"dynn_SkA_ld"
+			"dynn_Viss"
+			"dynn_T_rymr"
+			"dynn_T_vari"
+			"dynn_O_lfU_ss"
+			"dynn_O_rn"
+			"dynn_HvI_ti"
+			"dynn_Sterki"
+			"dynn_AuD_gi"
+			"dynn_RauD_i"
+			"dynn_Spaki"
+			"dynn_Svarti"
+			"dynn_Rammi"
+			"dynn_MjO_vi"
+			"dynn_RI_ki"
+			"dynn_Lambi"
+			"dynn_Skarfr"
+			"dynn_SkA_l"
+			"dynn_Sleggja"
+			"dynn_SmjO_r"
+			"dynn_Stjarna"
+			"dynn_StrU_gr"
+			"dynn_SA_lendingr"
+			"dynn_SU_rr"
+			"dynn_SA_lingr"
+			"dynn_Trausti"
+			"dynn_VeD_r"
+			"dynn_VA_mU_li"
+			"dynn_VA_ni"
+			"dynn_T_istill"
+			"dynn_T_jO_fi"
+			"dynn_T_ynning"
+			{ "dynnp_of" "dynn_Bebbanburg" }
+			"dynn_Byrrnesson"
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Dovre" }
+			{ "dynnp_af" "dynn_Dovre" }
+			"dynn_VeO_y"
+			{ "dynnp_af" "dynn_Raumsdalr" }
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
+			"dynn_Firdi"
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Skagen" }
+			{ "dynnp_af" "dynn_Skagen" }
+		}
+
+		dynasty_names = {
+			"dynn_StO_rr"
+			"dynn_Borg"
+			"dynn_KrA_ka"
+			"dynn_Mikli"
+			"dynn_SmiD_r"
+			"dynn_MO_ring"
+			"dynn_GA_rdske2"
+			"dynn_Trolli"
+			"dynn_Kven"
+			"dynn_Toki"
+			"dynn_HA_rde"
+			"dynn_Eyjing"
+			"dynn_Orming"
+			"dynn_GoD_i"
+			"dynn_AustmaD_r"
+			"dynn_HA_vi"
+			"dynn_Rakki"
+			"dynn_Skrauti"
+			"dynn_Snarfari"
+			"dynn_Strangi"
+			"dynn_Snjalli"
+			"dynn_SU_rr"
+			"dynn_SkA_ld"
+			"dynn_Viss"
+			"dynn_T_rymr"
+			"dynn_T_vari"
+			"dynn_O_lfU_ss"
+			"dynn_O_rn"
+			"dynn_HvI_ti"
+			"dynn_Sterki"
+			"dynn_AuD_gi"
+			"dynn_RauD_i"
+			"dynn_Spaki"
+			"dynn_Svarti"
+			"dynn_Rammi"
+			"dynn_MjO_vi"
+			"dynn_RI_ki"
+			"dynn_Lambi"
+			"dynn_Skarfr"
+			"dynn_SkA_l"
+			"dynn_Sleggja"
+			"dynn_SmjO_r"
+			"dynn_Stjarna"
+			"dynn_StrU_gr"
+			"dynn_SA_lendingr"
+			"dynn_SU_rr"
+			"dynn_SA_lingr"
+			"dynn_Trausti"
+			"dynn_VeD_r"
+			"dynn_VA_mU_li"
+			"dynn_VA_ni"
+			"dynn_T_istill"
+			"dynn_T_jO_fi"
+			"dynn_T_ynning"
+			{ "dynnp_of" "dynn_Bebbanburg" }
+			"dynn_Byrrnesson"
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Dovre" }
+			{ "dynnp_af" "dynn_Dovre" }
+			"dynn_VeO_y"
+			{ "dynnp_af" "dynn_Raumsdalr" }
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
+			"dynn_Firdi"
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Skagen" }
+			{ "dynnp_af" "dynn_Skagen" }
+		}
+		
+		male_names = {
+			Adol Aethon Alder Ale Alfyn Allan Aragr Arald Ardle Arne Arnolf Arson Arthor Artos Bael Baerik Bagir Bal Balder Balkar Balyg Bamirr Ban Barkar Barkund Barr Beor Bernarr 
+			Beron Bili Bjormir Bodger Boland Boradir Borald Borroq Bran Briar Brogg Bump Byam Byll Calon Caltram Canan Casey Caster Cayn Conall Cory Craster Cregan Curt Curtshanks Dan
+			Danny Daran Darkul Darkund Darr Davin Davy Del Devyn Dok Doln Dolner Domlech Dormund Dorren Doss Doval Drad Drald Dran Drest Drik Dryd Drydil Dryk Drykamar Dryn Dyre Dywen Egil Erik
+			Erpin Errok Eyron Farnor Fayn Galbart Galem Gariss Garkul Garok Gavin Gede Geir Gendel Gerrick Gerry Gert Gest Gomir Goran Gorigar Gorm Gormund Gorn Gorne Gornegg Gornlak Gotamyr Grag 
+			Gred Grigg Grim Grolaf Groval Grunnor Gunnar Haggon Hakon Halleck Hallis Halys Hankar Haran Hareth Harigg Harkul Harle Harlon Harmond Harodr Henk Howd Hranik Hygner Isrand Isyger Jagni Jarald 
+			Jarl Jeor Jhon Jojen Jorakul Joramun Joran Joraval Joravar Jormund Joseth Jyk Jym Karlon Kran Kul Kyleg Leck Lenn Lenyl Lokamun Lorn Lutrin Mael Maelchon Magorn Magrun Manath Mance Marl Mat Mavin
+			Medger Mikken Mor Mors Myk Naregg Narr Nils Noll Nord Nordar Odd Ondrew Orand Oreg Orell Orl Orleck Orm Ornmir Orvir Ottar Owen Qhorin Qorn Quent Quort Radir Ragnar Ragrad Ragy Rance Rand Raudill 
+			Raymun Raymund Redbreeches Rhodry Rigg Rook Rory Rubert Rudri Ryk Ryn Sigorn Skagni Skamun Skar Skarnir Skarolf Skaval Soren Steig Stek Stilner Stiv Stynar Styr Styrnor Svem Svenar Taran Thom 
+			Thorald Thorand Thorik Toke Toramun Toran Torbund Tore Toregg Torenir Torghen Tormun Tormund Torod Torwynd Tyk Tym Unen Valmund Valon Valorn Valv Varad Varald Varamyr Varn Vayon Vorel Vorwynd
+			Wallen Walton Wayn Wit Worg Wulf Yarold Ygon Yoren
+		}
+		female_names = {
+			Abrella Ada Alcea Ally Aly Alys Anesa Anise Ash Astera Bells Berny Berta Beth Betony Bluebell Bonny Brella Briar Brigit Bryony Buttercup Caminda Cana Canna Cassia Cassie Cedara Cherra 
+			Chicory Cicely Clary Clematis Daisy Dalla Dalthi Dana Dani Danny Davi Dorli Durila Dyah Edna Effie Elen Erena Erika Esgred Eva Fay Ferny Flora Freesia Freny Frenya Frynne Genna Gerie 
+			Gilly Gilny Grenda Grengin Gretchel Grethe Grisel Grisella Gwen Halda Hali Harma Harra Hattie Hazel Heather Helya Hemlock Herlina Hilde Hilly Holly Honeysuckle Inethe Ingiren Iona Isla Ivy 
+			Jackey Jenna Jez Jilly Jonella Jonnela Jonquil Jorelle Jyana Kadie Kadis Kalene Karly Kyra Lara Larkspur Larra Laurel Lennel Lenny Lily Linnea Lobelia Lupina Lyra Maege Maisie Maple Mari Marny
+			Maud Meera Meha Milly Minya Morien Morna Morra Morvana Mulberry Munda Muriel Murron Myrtle Nanna Nella Nelna Nesha Nettles Nilly Nonne Norna Nuala Oliwa Olwen Osha Palla Pansy Peigi Piney Poppy
+			Posy Ragwyle Rela Ros Rose Rosey Rowan Rowly Rue Ryka Sansa Sara Sera Seva Sheena Shona Slaine Sorcha Spruce Svala Tansy Tera Thistle Thorna Thyme Tilly Tyka Una Urielle Val Violet Willa Willow 
+			Winterberry Wynda Yarra Yasha Ygritte Ynne Ynness Ynny Yrya Ysilla Zia Zinnia
+		}
+		
+		dynasty_of_location_prefix = "dynnp_af"
+		
+		patronym_suffix_male = "dynnpat_suf_sson"
+		patronym_suffix_female = "dynnpat_suf_sdottir"
+		always_use_patronym = yes	
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		ethnicities = {
+			70 = caucasian_northern_blond
+			15 = caucasian_northern_ginger
+			10 = caucasian_northern_brown_hair
+			5 = caucasian_northern_dark_hair
+		}
+	}
+	
+	hartenn = {
+		graphical_cultures = {
+			norse_coa_gfx
+		}
+		
+		color = { 0.2 0.45 0.65 }
+	
+		character_modifier = {
+			ai_war_chance = 1
+			ai_war_cooldown = -0.5
+		}
+		
+		# T_ 222 þ 254 Ð 208 T_ 240 E_
+
+		cadet_dynasty_names = {
+			"dynn_StO_rr"
+			"dynn_Borg"
+			"dynn_KrA_ka"
+			"dynn_Mikli"
+			"dynn_SmiD_r"
+			"dynn_MO_ring"
+			"dynn_GA_rdske2"
+			"dynn_Trolli"
+			"dynn_Kven"
+			"dynn_Toki"
+			"dynn_HA_rde"
+			"dynn_Eyjing"
+			"dynn_Orming"
+			"dynn_GoD_i"
+			"dynn_AustmaD_r"
+			"dynn_HA_vi"
+			"dynn_Rakki"
+			"dynn_Skrauti"
+			"dynn_Snarfari"
+			"dynn_Strangi"
+			"dynn_Snjalli"
+			"dynn_SU_rr"
+			"dynn_SkA_ld"
+			"dynn_Viss"
+			"dynn_T_rymr"
+			"dynn_T_vari"
+			"dynn_O_lfU_ss"
+			"dynn_O_rn"
+			"dynn_HvI_ti"
+			"dynn_Sterki"
+			"dynn_AuD_gi"
+			"dynn_RauD_i"
+			"dynn_Spaki"
+			"dynn_Svarti"
+			"dynn_Rammi"
+			"dynn_MjO_vi"
+			"dynn_RI_ki"
+			"dynn_Lambi"
+			"dynn_Skarfr"
+			"dynn_SkA_l"
+			"dynn_Sleggja"
+			"dynn_SmjO_r"
+			"dynn_Stjarna"
+			"dynn_StrU_gr"
+			"dynn_SA_lendingr"
+			"dynn_SU_rr"
+			"dynn_SA_lingr"
+			"dynn_Trausti"
+			"dynn_VeD_r"
+			"dynn_VA_mU_li"
+			"dynn_VA_ni"
+			"dynn_T_istill"
+			"dynn_T_jO_fi"
+			"dynn_T_ynning"
+			{ "dynnp_of" "dynn_Bebbanburg" }
+			"dynn_Byrrnesson"
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Dovre" }
+			{ "dynnp_af" "dynn_Dovre" }
+			"dynn_VeO_y"
+			{ "dynnp_af" "dynn_Raumsdalr" }
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
+			"dynn_Firdi"
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Skagen" }
+			{ "dynnp_af" "dynn_Skagen" }
+		}
+
+		dynasty_names = {
+			"dynn_StO_rr"
+			"dynn_Borg"
+			"dynn_KrA_ka"
+			"dynn_Mikli"
+			"dynn_SmiD_r"
+			"dynn_MO_ring"
+			"dynn_GA_rdske2"
+			"dynn_Trolli"
+			"dynn_Kven"
+			"dynn_Toki"
+			"dynn_HA_rde"
+			"dynn_Eyjing"
+			"dynn_Orming"
+			"dynn_GoD_i"
+			"dynn_AustmaD_r"
+			"dynn_HA_vi"
+			"dynn_Rakki"
+			"dynn_Skrauti"
+			"dynn_Snarfari"
+			"dynn_Strangi"
+			"dynn_Snjalli"
+			"dynn_SU_rr"
+			"dynn_SkA_ld"
+			"dynn_Viss"
+			"dynn_T_rymr"
+			"dynn_T_vari"
+			"dynn_O_lfU_ss"
+			"dynn_O_rn"
+			"dynn_HvI_ti"
+			"dynn_Sterki"
+			"dynn_AuD_gi"
+			"dynn_RauD_i"
+			"dynn_Spaki"
+			"dynn_Svarti"
+			"dynn_Rammi"
+			"dynn_MjO_vi"
+			"dynn_RI_ki"
+			"dynn_Lambi"
+			"dynn_Skarfr"
+			"dynn_SkA_l"
+			"dynn_Sleggja"
+			"dynn_SmjO_r"
+			"dynn_Stjarna"
+			"dynn_StrU_gr"
+			"dynn_SA_lendingr"
+			"dynn_SU_rr"
+			"dynn_SA_lingr"
+			"dynn_Trausti"
+			"dynn_VeD_r"
+			"dynn_VA_mU_li"
+			"dynn_VA_ni"
+			"dynn_T_istill"
+			"dynn_T_jO_fi"
+			"dynn_T_ynning"
+			{ "dynnp_of" "dynn_Bebbanburg" }
+			"dynn_Byrrnesson"
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Dovre" }
+			{ "dynnp_af" "dynn_Dovre" }
+			"dynn_VeO_y"
+			{ "dynnp_af" "dynn_Raumsdalr" }
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
+			"dynn_Firdi"
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Skagen" }
+			{ "dynnp_af" "dynn_Skagen" }
+		}
+		
+		male_names = {
+			Adol Aethon Alder Ale Alfyn Allan Aragr Arald Ardle Arne Arnolf Arson Arthor Artos Bael Baerik Bagir Bal Balder Balkar Balyg Bamirr Ban Barkar Barkund Barr Beor Bernarr 
+			Beron Bili Bjormir Bodger Boland Boradir Borald Borroq Bran Briar Brogg Bump Byam Byll Calon Caltram Canan Casey Caster Cayn Conall Cory Craster Cregan Curt Curtshanks Dan
+			Danny Daran Darkul Darkund Darr Davin Davy Del Devyn Dok Doln Dolner Domlech Dormund Dorren Doss Doval Drad Drald Dran Drest Drik Dryd Drydil Dryk Drykamar Dryn Dyre Dywen Egil Erik
+			Erpin Errok Eyron Farnor Fayn Galbart Galem Gariss Garkul Garok Gavin Gede Geir Gendel Gerrick Gerry Gert Gest Gomir Goran Gorigar Gorm Gormund Gorn Gorne Gornegg Gornlak Gotamyr Grag 
+			Gred Grigg Grim Grolaf Groval Grunnor Gunnar Haggon Hakon Halleck Hallis Halys Hankar Haran Hareth Harigg Harkul Harle Harlon Harmond Harodr Henk Howd Hranik Hygner Isrand Isyger Jagni Jarald 
+			Jarl Jeor Jhon Jojen Jorakul Joramun Joran Joraval Joravar Jormund Joseth Jyk Jym Karlon Kran Kul Kyleg Leck Lenn Lenyl Lokamun Lorn Lutrin Mael Maelchon Magorn Magrun Manath Mance Marl Mat Mavin
+			Medger Mikken Mor Mors Myk Naregg Narr Nils Noll Nord Nordar Odd Ondrew Orand Oreg Orell Orl Orleck Orm Ornmir Orvir Ottar Owen Qhorin Qorn Quent Quort Radir Ragnar Ragrad Ragy Rance Rand Raudill 
+			Raymun Raymund Redbreeches Rhodry Rigg Rook Rory Rubert Rudri Ryk Ryn Sigorn Skagni Skamun Skar Skarnir Skarolf Skaval Soren Steig Stek Stilner Stiv Stynar Styr Styrnor Svem Svenar Taran Thom 
+			Thorald Thorand Thorik Toke Toramun Toran Torbund Tore Toregg Torenir Torghen Tormun Tormund Torod Torwynd Tyk Tym Unen Valmund Valon Valorn Valv Varad Varald Varamyr Varn Vayon Vorel Vorwynd
+			Wallen Walton Wayn Wit Worg Wulf Yarold Ygon Yoren
+		}
+		female_names = {
+			Abrella Ada Alcea Ally Aly Alys Anesa Anise Ash Astera Bells Berny Berta Beth Betony Bluebell Bonny Brella Briar Brigit Bryony Buttercup Caminda Cana Canna Cassia Cassie Cedara Cherra 
+			Chicory Cicely Clary Clematis Daisy Dalla Dalthi Dana Dani Danny Davi Dorli Durila Dyah Edna Effie Elen Erena Erika Esgred Eva Fay Ferny Flora Freesia Freny Frenya Frynne Genna Gerie 
+			Gilly Gilny Grenda Grengin Gretchel Grethe Grisel Grisella Gwen Halda Hali Harma Harra Hattie Hazel Heather Helya Hemlock Herlina Hilde Hilly Holly Honeysuckle Inethe Ingiren Iona Isla Ivy 
+			Jackey Jenna Jez Jilly Jonella Jonnela Jonquil Jorelle Jyana Kadie Kadis Kalene Karly Kyra Lara Larkspur Larra Laurel Lennel Lenny Lily Linnea Lobelia Lupina Lyra Maege Maisie Maple Mari Marny
+			Maud Meera Meha Milly Minya Morien Morna Morra Morvana Mulberry Munda Muriel Murron Myrtle Nanna Nella Nelna Nesha Nettles Nilly Nonne Norna Nuala Oliwa Olwen Osha Palla Pansy Peigi Piney Poppy
+			Posy Ragwyle Rela Ros Rose Rosey Rowan Rowly Rue Ryka Sansa Sara Sera Seva Sheena Shona Slaine Sorcha Spruce Svala Tansy Tera Thistle Thorna Thyme Tilly Tyka Una Urielle Val Violet Willa Willow 
+			Winterberry Wynda Yarra Yasha Ygritte Ynne Ynness Ynny Yrya Ysilla Zia Zinnia
+		}
+		
+		dynasty_of_location_prefix = "dynnp_af"
+		
+		patronym_suffix_male = "dynnpat_suf_sson"
+		patronym_suffix_female = "dynnpat_suf_sdottir"
+		always_use_patronym = yes	
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		ethnicities = {
+			70 = caucasian_northern_blond
+			15 = caucasian_northern_ginger
+			10 = caucasian_northern_brown_hair
+			5 = caucasian_northern_dark_hair
+		}
+	}
+	
+	saliosi = {
+		graphical_cultures = {
+			norse_coa_gfx
+		}
+		
+		color = { 0.2 0.45 0.65 }
+	
+		character_modifier = {
+			ai_war_chance = 1
+			ai_war_cooldown = -0.5
+		}
+		
+		# T_ 222 þ 254 Ð 208 T_ 240 E_
+
+		cadet_dynasty_names = {
+			"dynn_StO_rr"
+			"dynn_Borg"
+			"dynn_KrA_ka"
+			"dynn_Mikli"
+			"dynn_SmiD_r"
+			"dynn_MO_ring"
+			"dynn_GA_rdske2"
+			"dynn_Trolli"
+			"dynn_Kven"
+			"dynn_Toki"
+			"dynn_HA_rde"
+			"dynn_Eyjing"
+			"dynn_Orming"
+			"dynn_GoD_i"
+			"dynn_AustmaD_r"
+			"dynn_HA_vi"
+			"dynn_Rakki"
+			"dynn_Skrauti"
+			"dynn_Snarfari"
+			"dynn_Strangi"
+			"dynn_Snjalli"
+			"dynn_SU_rr"
+			"dynn_SkA_ld"
+			"dynn_Viss"
+			"dynn_T_rymr"
+			"dynn_T_vari"
+			"dynn_O_lfU_ss"
+			"dynn_O_rn"
+			"dynn_HvI_ti"
+			"dynn_Sterki"
+			"dynn_AuD_gi"
+			"dynn_RauD_i"
+			"dynn_Spaki"
+			"dynn_Svarti"
+			"dynn_Rammi"
+			"dynn_MjO_vi"
+			"dynn_RI_ki"
+			"dynn_Lambi"
+			"dynn_Skarfr"
+			"dynn_SkA_l"
+			"dynn_Sleggja"
+			"dynn_SmjO_r"
+			"dynn_Stjarna"
+			"dynn_StrU_gr"
+			"dynn_SA_lendingr"
+			"dynn_SU_rr"
+			"dynn_SA_lingr"
+			"dynn_Trausti"
+			"dynn_VeD_r"
+			"dynn_VA_mU_li"
+			"dynn_VA_ni"
+			"dynn_T_istill"
+			"dynn_T_jO_fi"
+			"dynn_T_ynning"
+			{ "dynnp_of" "dynn_Bebbanburg" }
+			"dynn_Byrrnesson"
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Dovre" }
+			{ "dynnp_af" "dynn_Dovre" }
+			"dynn_VeO_y"
+			{ "dynnp_af" "dynn_Raumsdalr" }
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
+			"dynn_Firdi"
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Skagen" }
+			{ "dynnp_af" "dynn_Skagen" }
+		}
+
+		dynasty_names = {
+			"dynn_StO_rr"
+			"dynn_Borg"
+			"dynn_KrA_ka"
+			"dynn_Mikli"
+			"dynn_SmiD_r"
+			"dynn_MO_ring"
+			"dynn_GA_rdske2"
+			"dynn_Trolli"
+			"dynn_Kven"
+			"dynn_Toki"
+			"dynn_HA_rde"
+			"dynn_Eyjing"
+			"dynn_Orming"
+			"dynn_GoD_i"
+			"dynn_AustmaD_r"
+			"dynn_HA_vi"
+			"dynn_Rakki"
+			"dynn_Skrauti"
+			"dynn_Snarfari"
+			"dynn_Strangi"
+			"dynn_Snjalli"
+			"dynn_SU_rr"
+			"dynn_SkA_ld"
+			"dynn_Viss"
+			"dynn_T_rymr"
+			"dynn_T_vari"
+			"dynn_O_lfU_ss"
+			"dynn_O_rn"
+			"dynn_HvI_ti"
+			"dynn_Sterki"
+			"dynn_AuD_gi"
+			"dynn_RauD_i"
+			"dynn_Spaki"
+			"dynn_Svarti"
+			"dynn_Rammi"
+			"dynn_MjO_vi"
+			"dynn_RI_ki"
+			"dynn_Lambi"
+			"dynn_Skarfr"
+			"dynn_SkA_l"
+			"dynn_Sleggja"
+			"dynn_SmjO_r"
+			"dynn_Stjarna"
+			"dynn_StrU_gr"
+			"dynn_SA_lendingr"
+			"dynn_SU_rr"
+			"dynn_SA_lingr"
+			"dynn_Trausti"
+			"dynn_VeD_r"
+			"dynn_VA_mU_li"
+			"dynn_VA_ni"
+			"dynn_T_istill"
+			"dynn_T_jO_fi"
+			"dynn_T_ynning"
+			{ "dynnp_of" "dynn_Bebbanburg" }
+			"dynn_Byrrnesson"
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Dovre" }
+			{ "dynnp_af" "dynn_Dovre" }
+			"dynn_VeO_y"
+			{ "dynnp_af" "dynn_Raumsdalr" }
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
+			"dynn_Firdi"
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Skagen" }
+			{ "dynnp_af" "dynn_Skagen" }
+		}
+		
+		male_names = {
+			Adol Aethon Alder Ale Alfyn Allan Aragr Arald Ardle Arne Arnolf Arson Arthor Artos Bael Baerik Bagir Bal Balder Balkar Balyg Bamirr Ban Barkar Barkund Barr Beor Bernarr 
+			Beron Bili Bjormir Bodger Boland Boradir Borald Borroq Bran Briar Brogg Bump Byam Byll Calon Caltram Canan Casey Caster Cayn Conall Cory Craster Cregan Curt Curtshanks Dan
+			Danny Daran Darkul Darkund Darr Davin Davy Del Devyn Dok Doln Dolner Domlech Dormund Dorren Doss Doval Drad Drald Dran Drest Drik Dryd Drydil Dryk Drykamar Dryn Dyre Dywen Egil Erik
+			Erpin Errok Eyron Farnor Fayn Galbart Galem Gariss Garkul Garok Gavin Gede Geir Gendel Gerrick Gerry Gert Gest Gomir Goran Gorigar Gorm Gormund Gorn Gorne Gornegg Gornlak Gotamyr Grag 
+			Gred Grigg Grim Grolaf Groval Grunnor Gunnar Haggon Hakon Halleck Hallis Halys Hankar Haran Hareth Harigg Harkul Harle Harlon Harmond Harodr Henk Howd Hranik Hygner Isrand Isyger Jagni Jarald 
+			Jarl Jeor Jhon Jojen Jorakul Joramun Joran Joraval Joravar Jormund Joseth Jyk Jym Karlon Kran Kul Kyleg Leck Lenn Lenyl Lokamun Lorn Lutrin Mael Maelchon Magorn Magrun Manath Mance Marl Mat Mavin
+			Medger Mikken Mor Mors Myk Naregg Narr Nils Noll Nord Nordar Odd Ondrew Orand Oreg Orell Orl Orleck Orm Ornmir Orvir Ottar Owen Qhorin Qorn Quent Quort Radir Ragnar Ragrad Ragy Rance Rand Raudill 
+			Raymun Raymund Redbreeches Rhodry Rigg Rook Rory Rubert Rudri Ryk Ryn Sigorn Skagni Skamun Skar Skarnir Skarolf Skaval Soren Steig Stek Stilner Stiv Stynar Styr Styrnor Svem Svenar Taran Thom 
+			Thorald Thorand Thorik Toke Toramun Toran Torbund Tore Toregg Torenir Torghen Tormun Tormund Torod Torwynd Tyk Tym Unen Valmund Valon Valorn Valv Varad Varald Varamyr Varn Vayon Vorel Vorwynd
+			Wallen Walton Wayn Wit Worg Wulf Yarold Ygon Yoren
+		}
+		female_names = {
+			Abrella Ada Alcea Ally Aly Alys Anesa Anise Ash Astera Bells Berny Berta Beth Betony Bluebell Bonny Brella Briar Brigit Bryony Buttercup Caminda Cana Canna Cassia Cassie Cedara Cherra 
+			Chicory Cicely Clary Clematis Daisy Dalla Dalthi Dana Dani Danny Davi Dorli Durila Dyah Edna Effie Elen Erena Erika Esgred Eva Fay Ferny Flora Freesia Freny Frenya Frynne Genna Gerie 
+			Gilly Gilny Grenda Grengin Gretchel Grethe Grisel Grisella Gwen Halda Hali Harma Harra Hattie Hazel Heather Helya Hemlock Herlina Hilde Hilly Holly Honeysuckle Inethe Ingiren Iona Isla Ivy 
+			Jackey Jenna Jez Jilly Jonella Jonnela Jonquil Jorelle Jyana Kadie Kadis Kalene Karly Kyra Lara Larkspur Larra Laurel Lennel Lenny Lily Linnea Lobelia Lupina Lyra Maege Maisie Maple Mari Marny
+			Maud Meera Meha Milly Minya Morien Morna Morra Morvana Mulberry Munda Muriel Murron Myrtle Nanna Nella Nelna Nesha Nettles Nilly Nonne Norna Nuala Oliwa Olwen Osha Palla Pansy Peigi Piney Poppy
+			Posy Ragwyle Rela Ros Rose Rosey Rowan Rowly Rue Ryka Sansa Sara Sera Seva Sheena Shona Slaine Sorcha Spruce Svala Tansy Tera Thistle Thorna Thyme Tilly Tyka Una Urielle Val Violet Willa Willow 
+			Winterberry Wynda Yarra Yasha Ygritte Ynne Ynness Ynny Yrya Ysilla Zia Zinnia
+		}
+		
+		dynasty_of_location_prefix = "dynnp_af"
+		
+		patronym_suffix_male = "dynnpat_suf_sson"
+		patronym_suffix_female = "dynnpat_suf_sdottir"
+		always_use_patronym = yes	
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		ethnicities = {
+			70 = caucasian_northern_blond
+			15 = caucasian_northern_ginger
+			10 = caucasian_northern_brown_hair
+			5 = caucasian_northern_dark_hair
+		}
+	}
+	
+	harishic = {
+		graphical_cultures = {
+			norse_coa_gfx
+		}
+		
+		color = { 0.2 0.45 0.65 }
+	
+		character_modifier = {
+			ai_war_chance = 1
+			ai_war_cooldown = -0.5
+		}
+		
+		# T_ 222 þ 254 Ð 208 T_ 240 E_
+
+		cadet_dynasty_names = {
+			"dynn_StO_rr"
+			"dynn_Borg"
+			"dynn_KrA_ka"
+			"dynn_Mikli"
+			"dynn_SmiD_r"
+			"dynn_MO_ring"
+			"dynn_GA_rdske2"
+			"dynn_Trolli"
+			"dynn_Kven"
+			"dynn_Toki"
+			"dynn_HA_rde"
+			"dynn_Eyjing"
+			"dynn_Orming"
+			"dynn_GoD_i"
+			"dynn_AustmaD_r"
+			"dynn_HA_vi"
+			"dynn_Rakki"
+			"dynn_Skrauti"
+			"dynn_Snarfari"
+			"dynn_Strangi"
+			"dynn_Snjalli"
+			"dynn_SU_rr"
+			"dynn_SkA_ld"
+			"dynn_Viss"
+			"dynn_T_rymr"
+			"dynn_T_vari"
+			"dynn_O_lfU_ss"
+			"dynn_O_rn"
+			"dynn_HvI_ti"
+			"dynn_Sterki"
+			"dynn_AuD_gi"
+			"dynn_RauD_i"
+			"dynn_Spaki"
+			"dynn_Svarti"
+			"dynn_Rammi"
+			"dynn_MjO_vi"
+			"dynn_RI_ki"
+			"dynn_Lambi"
+			"dynn_Skarfr"
+			"dynn_SkA_l"
+			"dynn_Sleggja"
+			"dynn_SmjO_r"
+			"dynn_Stjarna"
+			"dynn_StrU_gr"
+			"dynn_SA_lendingr"
+			"dynn_SU_rr"
+			"dynn_SA_lingr"
+			"dynn_Trausti"
+			"dynn_VeD_r"
+			"dynn_VA_mU_li"
+			"dynn_VA_ni"
+			"dynn_T_istill"
+			"dynn_T_jO_fi"
+			"dynn_T_ynning"
+			{ "dynnp_of" "dynn_Bebbanburg" }
+			"dynn_Byrrnesson"
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Dovre" }
+			{ "dynnp_af" "dynn_Dovre" }
+			"dynn_VeO_y"
+			{ "dynnp_af" "dynn_Raumsdalr" }
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
+			"dynn_Firdi"
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Skagen" }
+			{ "dynnp_af" "dynn_Skagen" }
+		}
+
+		dynasty_names = {
+			"dynn_StO_rr"
+			"dynn_Borg"
+			"dynn_KrA_ka"
+			"dynn_Mikli"
+			"dynn_SmiD_r"
+			"dynn_MO_ring"
+			"dynn_GA_rdske2"
+			"dynn_Trolli"
+			"dynn_Kven"
+			"dynn_Toki"
+			"dynn_HA_rde"
+			"dynn_Eyjing"
+			"dynn_Orming"
+			"dynn_GoD_i"
+			"dynn_AustmaD_r"
+			"dynn_HA_vi"
+			"dynn_Rakki"
+			"dynn_Skrauti"
+			"dynn_Snarfari"
+			"dynn_Strangi"
+			"dynn_Snjalli"
+			"dynn_SU_rr"
+			"dynn_SkA_ld"
+			"dynn_Viss"
+			"dynn_T_rymr"
+			"dynn_T_vari"
+			"dynn_O_lfU_ss"
+			"dynn_O_rn"
+			"dynn_HvI_ti"
+			"dynn_Sterki"
+			"dynn_AuD_gi"
+			"dynn_RauD_i"
+			"dynn_Spaki"
+			"dynn_Svarti"
+			"dynn_Rammi"
+			"dynn_MjO_vi"
+			"dynn_RI_ki"
+			"dynn_Lambi"
+			"dynn_Skarfr"
+			"dynn_SkA_l"
+			"dynn_Sleggja"
+			"dynn_SmjO_r"
+			"dynn_Stjarna"
+			"dynn_StrU_gr"
+			"dynn_SA_lendingr"
+			"dynn_SU_rr"
+			"dynn_SA_lingr"
+			"dynn_Trausti"
+			"dynn_VeD_r"
+			"dynn_VA_mU_li"
+			"dynn_VA_ni"
+			"dynn_T_istill"
+			"dynn_T_jO_fi"
+			"dynn_T_ynning"
+			{ "dynnp_of" "dynn_Bebbanburg" }
+			"dynn_Byrrnesson"
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Raumariki" }
+			{ "dynnp_af" "dynn_Dovre" }
+			{ "dynnp_af" "dynn_Dovre" }
+			"dynn_VeO_y"
+			{ "dynnp_af" "dynn_Raumsdalr" }
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
+			"dynn_Firdi"
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aarhus" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Aalborg" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Varde" }
+			{ "dynnp_af" "dynn_Skagen" }
+			{ "dynnp_af" "dynn_Skagen" }
+		}
+		
+		male_names = {
+			Adol Aethon Alder Ale Alfyn Allan Aragr Arald Ardle Arne Arnolf Arson Arthor Artos Bael Baerik Bagir Bal Balder Balkar Balyg Bamirr Ban Barkar Barkund Barr Beor Bernarr 
+			Beron Bili Bjormir Bodger Boland Boradir Borald Borroq Bran Briar Brogg Bump Byam Byll Calon Caltram Canan Casey Caster Cayn Conall Cory Craster Cregan Curt Curtshanks Dan
+			Danny Daran Darkul Darkund Darr Davin Davy Del Devyn Dok Doln Dolner Domlech Dormund Dorren Doss Doval Drad Drald Dran Drest Drik Dryd Drydil Dryk Drykamar Dryn Dyre Dywen Egil Erik
+			Erpin Errok Eyron Farnor Fayn Galbart Galem Gariss Garkul Garok Gavin Gede Geir Gendel Gerrick Gerry Gert Gest Gomir Goran Gorigar Gorm Gormund Gorn Gorne Gornegg Gornlak Gotamyr Grag 
+			Gred Grigg Grim Grolaf Groval Grunnor Gunnar Haggon Hakon Halleck Hallis Halys Hankar Haran Hareth Harigg Harkul Harle Harlon Harmond Harodr Henk Howd Hranik Hygner Isrand Isyger Jagni Jarald 
+			Jarl Jeor Jhon Jojen Jorakul Joramun Joran Joraval Joravar Jormund Joseth Jyk Jym Karlon Kran Kul Kyleg Leck Lenn Lenyl Lokamun Lorn Lutrin Mael Maelchon Magorn Magrun Manath Mance Marl Mat Mavin
+			Medger Mikken Mor Mors Myk Naregg Narr Nils Noll Nord Nordar Odd Ondrew Orand Oreg Orell Orl Orleck Orm Ornmir Orvir Ottar Owen Qhorin Qorn Quent Quort Radir Ragnar Ragrad Ragy Rance Rand Raudill 
+			Raymun Raymund Redbreeches Rhodry Rigg Rook Rory Rubert Rudri Ryk Ryn Sigorn Skagni Skamun Skar Skarnir Skarolf Skaval Soren Steig Stek Stilner Stiv Stynar Styr Styrnor Svem Svenar Taran Thom 
+			Thorald Thorand Thorik Toke Toramun Toran Torbund Tore Toregg Torenir Torghen Tormun Tormund Torod Torwynd Tyk Tym Unen Valmund Valon Valorn Valv Varad Varald Varamyr Varn Vayon Vorel Vorwynd
+			Wallen Walton Wayn Wit Worg Wulf Yarold Ygon Yoren
+		}
+		female_names = {
+			Abrella Ada Alcea Ally Aly Alys Anesa Anise Ash Astera Bells Berny Berta Beth Betony Bluebell Bonny Brella Briar Brigit Bryony Buttercup Caminda Cana Canna Cassia Cassie Cedara Cherra 
+			Chicory Cicely Clary Clematis Daisy Dalla Dalthi Dana Dani Danny Davi Dorli Durila Dyah Edna Effie Elen Erena Erika Esgred Eva Fay Ferny Flora Freesia Freny Frenya Frynne Genna Gerie 
+			Gilly Gilny Grenda Grengin Gretchel Grethe Grisel Grisella Gwen Halda Hali Harma Harra Hattie Hazel Heather Helya Hemlock Herlina Hilde Hilly Holly Honeysuckle Inethe Ingiren Iona Isla Ivy 
+			Jackey Jenna Jez Jilly Jonella Jonnela Jonquil Jorelle Jyana Kadie Kadis Kalene Karly Kyra Lara Larkspur Larra Laurel Lennel Lenny Lily Linnea Lobelia Lupina Lyra Maege Maisie Maple Mari Marny
+			Maud Meera Meha Milly Minya Morien Morna Morra Morvana Mulberry Munda Muriel Murron Myrtle Nanna Nella Nelna Nesha Nettles Nilly Nonne Norna Nuala Oliwa Olwen Osha Palla Pansy Peigi Piney Poppy
+			Posy Ragwyle Rela Ros Rose Rosey Rowan Rowly Rue Ryka Sansa Sara Sera Seva Sheena Shona Slaine Sorcha Spruce Svala Tansy Tera Thistle Thorna Thyme Tilly Tyka Una Urielle Val Violet Willa Willow 
+			Winterberry Wynda Yarra Yasha Ygritte Ynne Ynness Ynny Yrya Ysilla Zia Zinnia
+		}
+		
+		dynasty_of_location_prefix = "dynnp_af"
+		
+		patronym_suffix_male = "dynnpat_suf_sson"
+		patronym_suffix_female = "dynnpat_suf_sdottir"
+		always_use_patronym = yes	
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		ethnicities = {
+			70 = caucasian_northern_blond
+			15 = caucasian_northern_ginger
+			10 = caucasian_northern_brown_hair
+			5 = caucasian_northern_dark_hair
+		}
+	}
+}
