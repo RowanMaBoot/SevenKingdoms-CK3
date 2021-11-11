@@ -1,17 +1,20 @@
-﻿bm_1000_test = {
-	start_date = 1000.1.1
+﻿
+
+bm_the_andal_invasion = {
+	start_date = 6566.4.1
 	is_playable = yes
 
+	# Tristifer Mudd
 	character = {
 		name = "bookmark_test_character"
 		dynasty = 5000000
 		dynasty_splendor_level = 1
 		type = male
-		birth = 980.1.1
-		title = k_test
+		birth = 6542.1.1
+		title = k_rivers_and_hills
 		government = feudal_government
-		culture = testish
-		religion = testism
+		culture = muddish
+		religion = the_old_gods
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = 6000000
 		position = { 765 590 }
