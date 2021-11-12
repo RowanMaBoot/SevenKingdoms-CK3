@@ -2,19 +2,547 @@ k_rivers_and_hills = {
 	800.1.1={
 		liege=e_riverlands
 	}
-	6563.1.1={holder=6000000}
+	4450.9.16 = {
+        holder = mudd_1 #Robard
+    }
+    4517.7.14 = {
+        holder = mudd_3 #Eddard
+    }
+    4574.11.22 = {
+        holder = mudd_5 #Ramsay
+    }
+    4562.11.17 = {
+        holder = mudd_7 #Garth
+    }
+    4637.11.16 = {
+        holder = mudd_9 #Domeric
+    }
+    4687.10.3 = {
+        holder = mudd_11 #Rickon
+    }
+    4728.8.17 = {
+        holder = mudd_13 #Arthor
+    }
+    4785.7.18 = {
+        holder = mudd_15 #Ondrew
+    }
+    4812.3.21 = {
+        holder = mudd_17 #Brandon
+    }
+    4890.5.26 = {
+        holder = mudd_19 #Royce
+    }
+    4910.2.4 = {
+        holder = mudd_21 #Brandon
+    }
+    4971.2.14 = {
+        holder = mudd_23 #Bannen
+    }
+    5040.9.21 = {
+        holder = mudd_25 #Wyl
+    }
+    5056.4.11 = {
+        holder = mudd_27 #Wyman
+    }
+    5092.8.1 = {
+        holder = mudd_29 #Torren
+    }
+    5125.9.3 = {
+        holder = mudd_31 #Ethan
+    }
+    5204.10.1 = {
+        holder = mudd_33 #Bannen
+    }
+    5226.10.18 = {
+        holder = mudd_35 #Beren
+    }
+    5290.9.12 = {
+        holder = mudd_37 #Hugo
+    }
+    5343.12.26 = {
+        holder = mudd_39 #Garth
+    }
+    5383.6.19 = {
+        holder = mudd_41 #Tomard
+    }
+    5431.6.27 = {
+        holder = mudd_43 #Ramsay
+    }
+    5465.2.3 = {
+        holder = mudd_45 #Bernarr
+    }
+    5531.7.28 = {
+        holder = mudd_47 #Ramsay
+    }
+    5574.7.20 = {
+        holder = mudd_49 #Qhorin
+    }
+    5574.4.8 = {
+        holder = mudd_51 #Ondrew
+    }
+    5633.10.5 = {
+        holder = mudd_53 #Robin
+    }
+    5670.9.12 = {
+        holder = mudd_55 #Arthor
+    }
+    5739.3.5 = {
+        holder = mudd_57 #Tomard
+    }
+    5778.5.11 = {
+        holder = mudd_59 #Errold
+    }
+    5803.1.14 = {
+        holder = mudd_61 #Beron
+    }
+    5839.10.3 = {
+        holder = mudd_63 #Bannen
+    }
+    5914.7.14 = {
+        holder = mudd_65 #Farlen
+    }
+    5939.6.25 = {
+        holder = mudd_67 #Cregan
+    }
+    5999.7.23 = {
+        holder = mudd_69 #Jonnel
+    }
+    6046.8.8 = {
+        holder = mudd_71 #Gawen
+    }
+    6083.9.21 = {
+        holder = mudd_73 #Arnolf
+    }
+    6130.7.12 = {
+        holder = mudd_75 #Bartimus
+    }
+    6171.7.9 = {
+        holder = mudd_77 #Artos
+    }
+    6230.8.23 = {
+        holder = mudd_79 #Rogar
+    }
+    6250.1.14 = {
+        holder = mudd_81 #Harlon
+    }
+    6307.1.7 = {
+        holder = mudd_83 #Eyron
+    }
+    6356.2.28 = {
+        holder = mudd_85 #Beron
+    }
+    6396.8.24 = {
+        holder = mudd_87 #Bennard
+    }
+    6431.8.25 = {
+        holder = mudd_89 #Harrion
+    }
+    6498.3.12 = {
+        holder = mudd_91 #Donnel
+    }
+    6533.5.28 = {
+        holder = mudd_93 #Tristifer
+    }
+    6600.11.20 = {
+        holder = mudd_95 #Eyron
+    }
+    6655.7.25 = {
+        holder = mudd_97 #Jory
+    }
+    6676.7.10 = {
+        holder = mudd_99 #Larence
+    }
+    6745.3.15 = {
+        holder = mudd_101 #Roose
+    }
+    6757.5.18 = {
+        holder = mudd_103 #Mark
+    }
+    6840.8.4 = {
+        holder = mudd_105 #Hareth
+    }
+    6883.3.20 = {
+        holder = mudd_107 #Torghen
+    }
+    6936.3.20 = {
+        holder = mudd_109 #Errold
+    }
+    6954.4.22 = {
+        holder = mudd_111 #Jon
+    }
+    6980.2.4 = {
+        holder = mudd_113 #Walton
+    }
+    6989.10.5 = {
+        holder = mudd_115 #Ondrew
+    }
+    7065.2.6 = {
+        holder = mudd_117 #Gawen
+    }
 }
 d_oldstones = {
 	800.1.1={
 		liege=k_rivers_and_hills
 	}
-	6563.1.1={holder=6000000}
+	4450.9.16 = {
+        holder = mudd_1 #Robard
+    }
+    4517.7.14 = {
+        holder = mudd_3 #Eddard
+    }
+    4574.11.22 = {
+        holder = mudd_5 #Ramsay
+    }
+    4562.11.17 = {
+        holder = mudd_7 #Garth
+    }
+    4637.11.16 = {
+        holder = mudd_9 #Domeric
+    }
+    4687.10.3 = {
+        holder = mudd_11 #Rickon
+    }
+    4728.8.17 = {
+        holder = mudd_13 #Arthor
+    }
+    4785.7.18 = {
+        holder = mudd_15 #Ondrew
+    }
+    4812.3.21 = {
+        holder = mudd_17 #Brandon
+    }
+    4890.5.26 = {
+        holder = mudd_19 #Royce
+    }
+    4910.2.4 = {
+        holder = mudd_21 #Brandon
+    }
+    4971.2.14 = {
+        holder = mudd_23 #Bannen
+    }
+    5040.9.21 = {
+        holder = mudd_25 #Wyl
+    }
+    5056.4.11 = {
+        holder = mudd_27 #Wyman
+    }
+    5092.8.1 = {
+        holder = mudd_29 #Torren
+    }
+    5125.9.3 = {
+        holder = mudd_31 #Ethan
+    }
+    5204.10.1 = {
+        holder = mudd_33 #Bannen
+    }
+    5226.10.18 = {
+        holder = mudd_35 #Beren
+    }
+    5290.9.12 = {
+        holder = mudd_37 #Hugo
+    }
+    5343.12.26 = {
+        holder = mudd_39 #Garth
+    }
+    5383.6.19 = {
+        holder = mudd_41 #Tomard
+    }
+    5431.6.27 = {
+        holder = mudd_43 #Ramsay
+    }
+    5465.2.3 = {
+        holder = mudd_45 #Bernarr
+    }
+    5531.7.28 = {
+        holder = mudd_47 #Ramsay
+    }
+    5574.7.20 = {
+        holder = mudd_49 #Qhorin
+    }
+    5574.4.8 = {
+        holder = mudd_51 #Ondrew
+    }
+    5633.10.5 = {
+        holder = mudd_53 #Robin
+    }
+    5670.9.12 = {
+        holder = mudd_55 #Arthor
+    }
+    5739.3.5 = {
+        holder = mudd_57 #Tomard
+    }
+    5778.5.11 = {
+        holder = mudd_59 #Errold
+    }
+    5803.1.14 = {
+        holder = mudd_61 #Beron
+    }
+    5839.10.3 = {
+        holder = mudd_63 #Bannen
+    }
+    5914.7.14 = {
+        holder = mudd_65 #Farlen
+    }
+    5939.6.25 = {
+        holder = mudd_67 #Cregan
+    }
+    5999.7.23 = {
+        holder = mudd_69 #Jonnel
+    }
+    6046.8.8 = {
+        holder = mudd_71 #Gawen
+    }
+    6083.9.21 = {
+        holder = mudd_73 #Arnolf
+    }
+    6130.7.12 = {
+        holder = mudd_75 #Bartimus
+    }
+    6171.7.9 = {
+        holder = mudd_77 #Artos
+    }
+    6230.8.23 = {
+        holder = mudd_79 #Rogar
+    }
+    6250.1.14 = {
+        holder = mudd_81 #Harlon
+    }
+    6307.1.7 = {
+        holder = mudd_83 #Eyron
+    }
+    6356.2.28 = {
+        holder = mudd_85 #Beron
+    }
+    6396.8.24 = {
+        holder = mudd_87 #Bennard
+    }
+    6431.8.25 = {
+        holder = mudd_89 #Harrion
+    }
+    6498.3.12 = {
+        holder = mudd_91 #Donnel
+    }
+    6533.5.28 = {
+        holder = mudd_93 #Benjen
+    }
+    6600.11.20 = {
+        holder = mudd_95 #Eyron
+    }
+    6655.7.25 = {
+        holder = mudd_97 #Jory
+    }
+    6676.7.10 = {
+        holder = mudd_99 #Larence
+    }
+    6745.3.15 = {
+        holder = mudd_101 #Roose
+    }
+    6757.5.18 = {
+        holder = mudd_103 #Mark
+    }
+    6840.8.4 = {
+        holder = mudd_105 #Hareth
+    }
+    6883.3.20 = {
+        holder = mudd_107 #Torghen
+    }
+    6936.3.20 = {
+        holder = mudd_109 #Errold
+    }
+    6954.4.22 = {
+        holder = mudd_111 #Jon
+    }
+    6980.2.4 = {
+        holder = mudd_113 #Walton
+    }
+    6989.10.5 = {
+        holder = mudd_115 #Ondrew
+    }
+    7065.2.6 = {
+        holder = mudd_117 #Gawen
+    }
 }
 c_oldstones = {
 	800.1.1={
 		liege=d_oldstones
 	}
-	6563.1.1={holder=6000000}
+	4450.9.16 = {
+        holder = mudd_1 #Robard
+    }
+    4517.7.14 = {
+        holder = mudd_3 #Eddard
+    }
+    4574.11.22 = {
+        holder = mudd_5 #Ramsay
+    }
+    4562.11.17 = {
+        holder = mudd_7 #Garth
+    }
+    4637.11.16 = {
+        holder = mudd_9 #Domeric
+    }
+    4687.10.3 = {
+        holder = mudd_11 #Rickon
+    }
+    4728.8.17 = {
+        holder = mudd_13 #Arthor
+    }
+    4785.7.18 = {
+        holder = mudd_15 #Ondrew
+    }
+    4812.3.21 = {
+        holder = mudd_17 #Brandon
+    }
+    4890.5.26 = {
+        holder = mudd_19 #Royce
+    }
+    4910.2.4 = {
+        holder = mudd_21 #Brandon
+    }
+    4971.2.14 = {
+        holder = mudd_23 #Bannen
+    }
+    5040.9.21 = {
+        holder = mudd_25 #Wyl
+    }
+    5056.4.11 = {
+        holder = mudd_27 #Wyman
+    }
+    5092.8.1 = {
+        holder = mudd_29 #Torren
+    }
+    5125.9.3 = {
+        holder = mudd_31 #Ethan
+    }
+    5204.10.1 = {
+        holder = mudd_33 #Bannen
+    }
+    5226.10.18 = {
+        holder = mudd_35 #Beren
+    }
+    5290.9.12 = {
+        holder = mudd_37 #Hugo
+    }
+    5343.12.26 = {
+        holder = mudd_39 #Garth
+    }
+    5383.6.19 = {
+        holder = mudd_41 #Tomard
+    }
+    5431.6.27 = {
+        holder = mudd_43 #Ramsay
+    }
+    5465.2.3 = {
+        holder = mudd_45 #Bernarr
+    }
+    5531.7.28 = {
+        holder = mudd_47 #Ramsay
+    }
+    5574.7.20 = {
+        holder = mudd_49 #Qhorin
+    }
+    5574.4.8 = {
+        holder = mudd_51 #Ondrew
+    }
+    5633.10.5 = {
+        holder = mudd_53 #Robin
+    }
+    5670.9.12 = {
+        holder = mudd_55 #Arthor
+    }
+    5739.3.5 = {
+        holder = mudd_57 #Tomard
+    }
+    5778.5.11 = {
+        holder = mudd_59 #Errold
+    }
+    5803.1.14 = {
+        holder = mudd_61 #Beron
+    }
+    5839.10.3 = {
+        holder = mudd_63 #Bannen
+    }
+    5914.7.14 = {
+        holder = mudd_65 #Farlen
+    }
+    5939.6.25 = {
+        holder = mudd_67 #Cregan
+    }
+    5999.7.23 = {
+        holder = mudd_69 #Jonnel
+    }
+    6046.8.8 = {
+        holder = mudd_71 #Gawen
+    }
+    6083.9.21 = {
+        holder = mudd_73 #Arnolf
+    }
+    6130.7.12 = {
+        holder = mudd_75 #Bartimus
+    }
+    6171.7.9 = {
+        holder = mudd_77 #Artos
+    }
+    6230.8.23 = {
+        holder = mudd_79 #Rogar
+    }
+    6250.1.14 = {
+        holder = mudd_81 #Harlon
+    }
+    6307.1.7 = {
+        holder = mudd_83 #Eyron
+    }
+    6356.2.28 = {
+        holder = mudd_85 #Beron
+    }
+    6396.8.24 = {
+        holder = mudd_87 #Bennard
+    }
+    6431.8.25 = {
+        holder = mudd_89 #Harrion
+    }
+    6498.3.12 = {
+        holder = mudd_91 #Donnel
+    }
+    6533.5.28 = {
+        holder = mudd_93 #Benjen
+    }
+    6600.11.20 = {
+        holder = mudd_95 #Eyron
+    }
+    6655.7.25 = {
+        holder = mudd_97 #Jory
+    }
+    6676.7.10 = {
+        holder = mudd_99 #Larence
+    }
+    6745.3.15 = {
+        holder = mudd_101 #Roose
+    }
+    6757.5.18 = {
+        holder = mudd_103 #Mark
+    }
+    6840.8.4 = {
+        holder = mudd_105 #Hareth
+    }
+    6883.3.20 = {
+        holder = mudd_107 #Torghen
+    }
+    6936.3.20 = {
+        holder = mudd_109 #Errold
+    }
+    6954.4.22 = {
+        holder = mudd_111 #Jon
+    }
+    6980.2.4 = {
+        holder = mudd_113 #Walton
+    }
+    6989.10.5 = {
+        holder = mudd_115 #Ondrew
+    }
+    7065.2.6 = {
+        holder = mudd_117 #Gawen
+    }
 }
 d_the_twins = {
 	800.1.1={

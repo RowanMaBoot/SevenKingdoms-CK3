@@ -1,0 +1,4033 @@
+mudd_1 = {
+    name = "Robard"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    trait = lustful
+    trait = arrogant
+    trait = compassionate
+
+    diplomacy = 23
+    martial = 17
+    stewardship = 15
+    intrigue = 23
+    learning = 27
+    prowess = 23
+
+    trait = education_learning_4
+
+    4450.9.16 = {
+        birth = yes
+    }
+
+    4471.2.2 = {
+        add_spouse = mudd_2
+    }
+
+    4517.7.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_2 = {
+    name = "Lyanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = craven
+    trait = deceitful
+    trait = zealous
+
+    diplomacy = 6
+    martial = 1
+    stewardship = 8
+    intrigue = 4
+    learning = 3
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    4454.1.11 = {
+        birth = yes
+    }
+
+    4538.5.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_3 = {
+    name = "Eddard"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_1
+    mother = mudd_2
+
+    trait = humble
+    trait = greedy
+    trait = callous
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 3
+    intrigue = 6
+    learning = 4
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    4493.5.5 = {
+        birth = yes
+    }
+
+    4518.1.1 = {
+        add_spouse = mudd_4
+    }
+
+    4574.11.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_4 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = lazy
+    trait = greedy
+    trait = temperate
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 2
+    intrigue = 9
+    learning = 2
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    4501.1.24 = {
+        birth = yes
+    }
+
+    4572.1.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_5 = {
+    name = "Ramsay"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_3
+    mother = mudd_4
+
+    trait = diligent
+    trait = compassionate
+    trait = arbitrary
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    4526.1.24 = {
+        birth = yes
+    }
+
+    4552.5.12 = {
+        add_spouse = mudd_6
+    }
+
+    4562.11.17 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+mudd_6 = {
+    name = "Lynarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = zealous
+    trait = lazy
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 4
+    intrigue = 2
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_2
+
+    4535.10.14 = {
+        birth = yes
+    }
+
+    4609.9.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_7 = {
+    name = "Garth"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_5
+    mother = mudd_6
+
+    trait = diligent
+    trait = cynical
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    4562.1.18 = {
+        birth = yes
+    }
+
+    4610.11.16 = {
+        add_spouse = mudd_8
+    }
+
+    4637.11.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_8 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = chaste
+    trait = zealous
+    trait = humble
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 3
+
+    trait = education_stewardship_4
+
+    4593.8.21 = {
+        birth = yes
+    }
+
+    4671.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_9 = {
+    name = "Domeric"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_7
+    mother = mudd_8
+
+    trait = sadistic
+    trait = impatient
+    trait = humble
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 4
+    intrigue = 4
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    4617.2.10 = {
+        birth = yes
+    }
+
+    4643.12.14 = {
+        add_spouse = mudd_10
+    }
+
+    4687.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_10 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = paranoid
+    trait = callous
+    trait = patient
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 3
+    intrigue = 9
+    learning = 7
+    prowess = 9
+
+    trait = education_intrigue_2
+
+    4626.10.24 = {
+        birth = yes
+    }
+
+    4695.10.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_11 = {
+    name = "Rickon"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_9
+    mother = mudd_10
+
+    trait = lazy
+    trait = callous
+    trait = trusting
+
+    diplomacy = 6
+    martial = 1
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    4658.7.27 = {
+        birth = yes
+    }
+
+    4701.10.17 = {
+        add_spouse = mudd_12
+    }
+
+    4728.8.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_12 = {
+    name = "Donella"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = impatient
+    trait = just
+    trait = vengeful
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 10
+    prowess = 11
+
+    trait = education_learning_3
+
+    4684.6.22 = {
+        birth = yes
+    }
+
+    4752.7.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_13 = {
+    name = "Arthor"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_11
+    mother = mudd_12
+
+    trait = vengeful
+    trait = greedy
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_4
+
+    4701.5.4 = {
+        birth = yes
+    }
+
+    4733.2.17 = {
+        add_spouse = mudd_14
+    }
+
+    4785.7.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_14 = {
+    name = "Leana"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = just
+    trait = shy
+    trait = temperate
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 3
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_3
+
+    4716.8.17 = {
+        birth = yes
+    }
+
+    4795.11.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_15 = {
+    name = "Ondrew"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_13
+    mother = mudd_14
+
+    trait = just
+    trait = gluttonous
+    trait = sadistic
+
+    diplomacy = 9
+    martial = 9
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    4737.10.23 = {
+        birth = yes
+    }
+
+    4779.6.19 = {
+        add_spouse = mudd_16
+    }
+
+    4812.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_16 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = lustful
+    trait = greedy
+    trait = content
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 4
+    intrigue = 10
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    4762.12.8 = {
+        birth = yes
+    }
+
+    4831.3.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_17 = {
+    name = "Brandon"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_15
+    mother = mudd_16
+
+    trait = just
+    trait = chaste
+    trait = lazy
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 3
+    intrigue = 4
+    learning = 7
+    prowess = 4
+
+    trait = education_learning_4
+
+    4805.11.7 = {
+        birth = yes
+    }
+
+    4825.10.15 = {
+        add_spouse = mudd_18
+    }
+
+    4890.5.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_18 = {
+    name = "Alyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = diligent
+    trait = generous
+    trait = craven
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 8
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    4808.5.11 = {
+        birth = yes
+    }
+
+    4885.9.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_19 = {
+    name = "Royce"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_17
+    mother = mudd_18
+
+    trait = gregarious
+    trait = wrathful
+    trait = arrogant
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    4842.4.19 = {
+        birth = yes
+    }
+
+    4891.7.28 = {
+        add_spouse = mudd_20
+    }
+
+    4910.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_20 = {
+    name = "Lacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = gregarious
+    trait = stubborn
+    trait = patient
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_2
+
+    4874.10.18 = {
+        birth = yes
+    }
+
+    4951.11.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_21 = {
+    name = "Brandon"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_19
+    mother = mudd_20
+
+    trait = gregarious
+    trait = zealous
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 2
+    intrigue = 3
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_2
+
+    4901.6.10 = {
+        birth = yes
+    }
+
+    4945.8.9 = {
+        add_spouse = mudd_22
+    }
+
+    4971.2.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_22 = {
+    name = "Arya"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = ambitious
+    trait = stubborn
+    trait = diligent
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 6
+    intrigue = 3
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_2
+
+    4928.8.21 = {
+        birth = yes
+    }
+
+    5003.11.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_23 = {
+    name = "Bannen"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_21
+    mother = mudd_22
+
+    trait = vengeful
+    trait = shy
+    trait = lustful
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 3
+    intrigue = 2
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    4961.2.2 = {
+        birth = yes
+    }
+
+    4976.2.21 = {
+        add_spouse = mudd_24
+    }
+
+    5040.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_24 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = callous
+    trait = forgiving
+    trait = deceitful
+
+    diplomacy = 1
+    martial = 9
+    stewardship = 11
+    intrigue = 3
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    4959.1.18 = {
+        birth = yes
+    }
+
+    5035.5.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_25 = {
+    name = "Wyl"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_23
+    mother = mudd_24
+
+    trait = gregarious
+    trait = arbitrary
+    trait = callous
+
+    diplomacy = 10
+    martial = 9
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 2
+
+    trait = education_diplomacy_3
+
+    4984.4.24 = {
+        birth = yes
+    }
+
+    5007.11.2 = {
+        add_spouse = mudd_26
+    }
+
+    5056.4.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_26 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = arrogant
+    trait = diligent
+    trait = ambitious
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    4990.10.25 = {
+        birth = yes
+    }
+
+    5062.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_27 = {
+    name = "Wyman"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_25
+    mother = mudd_26
+
+    trait = chaste
+    trait = compassionate
+    trait = lazy
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    5007.8.7 = {
+        birth = yes
+    }
+
+    5027.7.5 = {
+        add_spouse = mudd_28
+    }
+
+    5092.8.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_28 = {
+    name = "Jorelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = arbitrary
+    trait = fickle
+    trait = lazy
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 3
+    learning = 5
+    prowess = 10
+
+    trait = education_martial_3
+
+    5010.5.19 = {
+        birth = yes
+    }
+
+    5076.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_29 = {
+    name = "Torren"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_27
+    mother = mudd_28
+
+    trait = lazy
+    trait = arrogant
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 4
+
+    trait = education_stewardship_4
+
+    5048.6.28 = {
+        birth = yes
+    }
+
+    5092.5.23 = {
+        add_spouse = mudd_30
+    }
+
+    5125.9.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_30 = {
+    name = "Raya"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = arbitrary
+    trait = callous
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 4
+    learning = 9
+    prowess = 3
+
+    trait = education_learning_2
+
+    5075.4.18 = {
+        birth = yes
+    }
+
+    5159.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_31 = {
+    name = "Ethan"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_29
+    mother = mudd_30
+
+    trait = greedy
+    trait = paranoid
+    trait = callous
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 3
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    5124.7.27 = {
+        birth = yes
+    }
+
+    5125.1.1 = {
+        give_nickname = nick_the_compassionate
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    5158.9.7 = {
+        add_spouse = mudd_32
+    }
+
+    5204.10.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_32 = {
+    name = "Serra"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = calm
+    trait = content
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 8
+    prowess = 2
+
+    trait = education_learning_3
+
+    5141.6.25 = {
+        birth = yes
+    }
+
+    5209.4.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_33 = {
+    name = "Bannen"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_31
+    mother = mudd_32
+
+    trait = trusting
+    trait = ambitious
+    trait = lustful
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 1
+    learning = 7
+    prowess = 9
+
+    trait = education_learning_4
+
+    5172.11.19 = {
+        birth = yes
+    }
+
+    5216.12.25 = {
+        add_spouse = mudd_34
+    }
+
+    5226.10.18 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+mudd_34 = {
+    name = "Margaret"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = diligent
+    trait = craven
+    trait = calm
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_2
+
+    5199.4.17 = {
+        birth = yes
+    }
+
+    5285.11.26 = {
+        death = { death_reason = death_bubonic_plague }
+    }
+}
+
+mudd_35 = {
+    name = "Beren"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_33
+    mother = mudd_34
+
+    trait = vengeful
+    trait = generous
+    trait = humble
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_4
+
+    5224.3.23 = {
+        birth = yes
+    }
+
+    5255.3.4 = {
+        add_spouse = mudd_36
+    }
+
+    5290.9.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_36 = {
+    name = "Shiera"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = zealous
+    trait = humble
+    trait = chaste
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 2
+    intrigue = 4
+    learning = 9
+    prowess = 8
+
+    trait = education_learning_4
+
+    5238.6.14 = {
+        birth = yes
+    }
+
+    5317.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_37 = {
+    name = "Hugo"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_35
+    mother = mudd_36
+
+    trait = cynical
+    trait = lustful
+    trait = brave
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 9
+
+    trait = education_martial_2
+
+    5287.8.28 = {
+        birth = yes
+    }
+
+    5301.12.19 = {
+        add_spouse = mudd_38
+    }
+
+    5343.12.26 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+mudd_38 = {
+    name = "Donella"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = shy
+    trait = temperate
+    trait = content
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    5284.9.10 = {
+        birth = yes
+    }
+
+    5358.7.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_39 = {
+    name = "Garth"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_37
+    mother = mudd_38
+
+    trait = gluttonous
+    trait = humble
+    trait = diligent
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 3
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    5309.9.17 = {
+        birth = yes
+    }
+
+    5358.2.4 = {
+        add_spouse = mudd_40
+    }
+
+    5383.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_40 = {
+    name = "Perra"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = paranoid
+    trait = compassionate
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 11
+    intrigue = 7
+    learning = 4
+    prowess = 9
+
+    trait = education_stewardship_1
+
+    5341.1.9 = {
+        birth = yes
+    }
+
+    5416.7.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_41 = {
+    name = "Tomard"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_39
+    mother = mudd_40
+
+    trait = diligent
+    trait = chaste
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 3
+    learning = 2
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    5365.3.24 = {
+        birth = yes
+    }
+
+    5389.8.11 = {
+        add_spouse = mudd_42
+    }
+
+    5431.6.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_42 = {
+    name = "Wynafryd"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = sadistic
+    trait = ambitious
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 3
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    5372.7.17 = {
+        birth = yes
+    }
+
+    5457.8.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_43 = {
+    name = "Ramsay"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_41
+    mother = mudd_42
+
+    trait = gregarious
+    trait = greedy
+    trait = zealous
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 10
+    prowess = 10
+
+    trait = education_learning_3
+
+    5410.3.22 = {
+        birth = yes
+    }
+
+    5455.11.7 = {
+        add_spouse = mudd_44
+    }
+
+    5465.2.3 = {
+        death = { death_reason = death_raid }
+    }
+}
+
+mudd_44 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = stubborn
+    trait = callous
+    trait = zealous
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_3
+
+    5438.7.26 = {
+        birth = yes
+    }
+
+    5515.4.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_45 = {
+    name = "Bernarr"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_43
+    mother = mudd_44
+
+    trait = ambitious
+    trait = gregarious
+    trait = trusting
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 2
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    5460.9.3 = {
+        birth = yes
+    }
+
+    5496.3.25 = {
+        add_spouse = mudd_46
+    }
+
+    5531.7.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_46 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = fickle
+    trait = humble
+    trait = generous
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 6
+    intrigue = 8
+    learning = 9
+    prowess = 4
+
+    trait = education_martial_3
+
+    5479.11.27 = {
+        birth = yes
+    }
+
+    5558.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_47 = {
+    name = "Ramsay"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_45
+    mother = mudd_46
+
+    trait = cynical
+    trait = deceitful
+    trait = temperate
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 2
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    5507.10.25 = {
+        birth = yes
+    }
+
+    5533.4.17 = {
+        add_spouse = mudd_48
+    }
+
+    5574.7.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_48 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = arrogant
+    trait = stubborn
+    trait = generous
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 4
+    intrigue = 7
+    learning = 3
+    prowess = 2
+
+    trait = education_intrigue_1
+
+    5516.8.13 = {
+        birth = yes
+    }
+
+    5589.7.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_49 = {
+    name = "Qhorin"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_47
+    mother = mudd_48
+
+    trait = just
+    trait = ambitious
+    trait = greedy
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    5542.4.27 = {
+        birth = yes
+    }
+
+    5556.8.13 = {
+        add_spouse = mudd_50
+    }
+
+    5574.4.8 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+mudd_50 = {
+    name = "Gilliane"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = gluttonous
+    trait = gregarious
+    trait = honest
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 6
+    intrigue = 9
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    5539.2.23 = {
+        birth = yes
+    }
+
+    5611.5.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_51 = {
+    name = "Ondrew"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_49
+    mother = mudd_50
+
+    trait = lustful
+    trait = gluttonous
+    trait = content
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    5567.11.14 = {
+        birth = yes
+    }
+
+    5598.2.12 = {
+        add_spouse = mudd_52
+    }
+
+    5633.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_52 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = brave
+    trait = temperate
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 1
+    stewardship = 4
+    intrigue = 3
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    5581.2.10 = {
+        birth = yes
+    }
+
+    5660.1.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_53 = {
+    name = "Robin"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_51
+    mother = mudd_52
+
+    trait = callous
+    trait = chaste
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 1
+    prowess = 6
+
+    trait = education_martial_4
+
+    5624.2.26 = {
+        birth = yes
+    }
+
+    5660.9.20 = {
+        add_spouse = mudd_54
+    }
+
+    5670.9.12 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+mudd_54 = {
+    name = "Barbrey"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = lazy
+    trait = forgiving
+    trait = impatient
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 10
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    5643.10.18 = {
+        birth = yes
+    }
+
+    5725.7.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_55 = {
+    name = "Arthor"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_53
+    mother = mudd_54
+
+    trait = content
+    trait = humble
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_1
+
+    5666.11.5 = {
+        birth = yes
+    }
+
+    5684.8.18 = {
+        add_spouse = mudd_56
+    }
+
+    5739.3.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_56 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = compassionate
+    trait = vengeful
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 10
+
+    trait = education_diplomacy_4
+
+    5667.7.4 = {
+        birth = yes
+    }
+
+    5736.4.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_57 = {
+    name = "Tomard"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_55
+    mother = mudd_56
+
+    trait = diligent
+    trait = lustful
+    trait = paranoid
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 9
+    intrigue = 3
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    5703.2.5 = {
+        birth = yes
+    }
+
+    5717.11.14 = {
+        add_spouse = mudd_58
+    }
+
+    5778.5.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_58 = {
+    name = "Lyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = fickle
+    trait = gregarious
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    5700.3.17 = {
+        birth = yes
+    }
+
+    5775.11.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_59 = {
+    name = "Errold"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_57
+    mother = mudd_58
+
+    trait = impatient
+    trait = gluttonous
+    trait = trusting
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 9
+    learning = 8
+    prowess = 11
+
+    trait = education_intrigue_2
+
+    5718.12.17 = {
+        birth = yes
+    }
+
+    5759.8.10 = {
+        add_spouse = mudd_60
+    }
+
+    5803.1.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_60 = {
+    name = "Barba"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = content
+    trait = honest
+    trait = temperate
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_learning_3
+
+    5742.7.15 = {
+        birth = yes
+    }
+
+    5810.6.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_61 = {
+    name = "Beron"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_59
+    mother = mudd_60
+
+    trait = gluttonous
+    trait = chaste
+    trait = generous
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 8
+    intrigue = 2
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    5770.10.21 = {
+        birth = yes
+    }
+
+    5809.2.3 = {
+        add_spouse = mudd_62
+    }
+
+    5839.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_62 = {
+    name = "Berena"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = patient
+    trait = cynical
+    trait = forgiving
+
+    diplomacy = 1
+    martial = 6
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    5792.8.25 = {
+        birth = yes
+    }
+
+    5858.5.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_63 = {
+    name = "Bannen"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_61
+    mother = mudd_62
+
+    trait = temperate
+    trait = patient
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 4
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    5837.3.27 = {
+        birth = yes
+    }
+
+    5856.1.15 = {
+        add_spouse = mudd_64
+    }
+
+    5914.7.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_64 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = calm
+    trait = craven
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 10
+    stewardship = 5
+    intrigue = 5
+    learning = 9
+    prowess = 6
+
+    trait = education_martial_2
+
+    5839.4.22 = {
+        birth = yes
+    }
+
+    5921.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_65 = {
+    name = "Farlen"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_63
+    mother = mudd_64
+
+    trait = generous
+    trait = patient
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 3
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    5888.9.23 = {
+        birth = yes
+    }
+
+    5917.11.13 = {
+        add_spouse = mudd_66
+    }
+
+    5939.6.25 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+mudd_66 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = stubborn
+    trait = just
+    trait = deceitful
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 6
+    intrigue = 8
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_3
+
+    5900.6.6 = {
+        birth = yes
+    }
+
+    5976.2.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_67 = {
+    name = "Cregan"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_65
+    mother = mudd_66
+
+    trait = brave
+    trait = arrogant
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 8
+    intrigue = 9
+    learning = 6
+    prowess = 10
+
+    trait = education_intrigue_3
+
+    5931.12.19 = {
+        birth = yes
+    }
+
+    5957.5.24 = {
+        add_spouse = mudd_68
+    }
+
+    5999.7.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_68 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = patient
+    trait = greedy
+    trait = trusting
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_2
+
+    5940.5.6 = {
+        birth = yes
+    }
+
+    6015.3.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_69 = {
+    name = "Jonnel"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_67
+    mother = mudd_68
+
+    trait = gluttonous
+    trait = just
+    trait = greedy
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 4
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    5970.11.17 = {
+        birth = yes
+    }
+
+    5994.12.11 = {
+        add_spouse = mudd_70
+    }
+
+    6046.8.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_70 = {
+    name = "Maege"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = gregarious
+    trait = honest
+    trait = craven
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    5977.5.10 = {
+        birth = yes
+    }
+
+    6052.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_71 = {
+    name = "Gawen"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_69
+    mother = mudd_70
+
+    trait = greedy
+    trait = zealous
+    trait = brave
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 4
+    intrigue = 2
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_1
+
+    6016.9.16 = {
+        birth = yes
+    }
+
+    6045.9.13 = {
+        add_spouse = mudd_72
+    }
+
+    6083.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_72 = {
+    name = "Bethany"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = calm
+    trait = cynical
+    trait = lazy
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 2
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6028.2.15 = {
+        birth = yes
+    }
+
+    6105.10.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_73 = {
+    name = "Arnolf"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_71
+    mother = mudd_72
+
+    trait = content
+    trait = lazy
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 10
+    prowess = 9
+
+    trait = education_learning_2
+
+    6049.3.18 = {
+        birth = yes
+    }
+
+    6070.9.1 = {
+        add_spouse = mudd_74
+    }
+
+    6130.7.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_74 = {
+    name = "Danelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = humble
+    trait = temperate
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    6053.7.15 = {
+        birth = yes
+    }
+
+    6132.9.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_75 = {
+    name = "Bartimus"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_73
+    mother = mudd_74
+
+    trait = deceitful
+    trait = gregarious
+    trait = fickle
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 8
+    intrigue = 8
+    learning = 3
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6102.11.18 = {
+        birth = yes
+    }
+
+    6132.11.26 = {
+        add_spouse = mudd_76
+    }
+
+    6171.7.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_76 = {
+    name = "Darlessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = calm
+    trait = vengeful
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_2
+
+    6115.5.25 = {
+        birth = yes
+    }
+
+    6181.2.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_77 = {
+    name = "Artos"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_75
+    mother = mudd_76
+
+    trait = fickle
+    trait = gluttonous
+    trait = cynical
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 2
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6151.7.20 = {
+        birth = yes
+    }
+
+    6173.2.27 = {
+        add_spouse = mudd_78
+    }
+
+    6230.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_78 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = arrogant
+    trait = diligent
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 5
+    intrigue = 5
+    learning = 9
+    prowess = 4
+
+    trait = education_martial_2
+
+    6156.2.10 = {
+        birth = yes
+    }
+
+    6230.12.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_79 = {
+    name = "Rogar"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_77
+    mother = mudd_78
+
+    trait = trusting
+    trait = gluttonous
+    trait = just
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 9
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6175.3.25 = {
+        birth = yes
+    }
+
+    6214.5.10 = {
+        add_spouse = mudd_80
+    }
+
+    6250.1.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_80 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = patient
+    trait = shy
+    trait = sadistic
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_3
+
+    6197.12.16 = {
+        birth = yes
+    }
+
+    6267.12.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_81 = {
+    name = "Harlon"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_79
+    mother = mudd_80
+
+    trait = chaste
+    trait = diligent
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 7
+    intrigue = 9
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6237.7.23 = {
+        birth = yes
+    }
+
+    6272.11.25 = {
+        add_spouse = mudd_82
+    }
+
+    6307.1.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_82 = {
+    name = "Lacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = craven
+    trait = gluttonous
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 6
+    intrigue = 3
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6255.4.3 = {
+        birth = yes
+    }
+
+    6334.7.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_83 = {
+    name = "Eyron"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_81
+    mother = mudd_82
+
+    trait = stubborn
+    trait = lazy
+    trait = craven
+
+    diplomacy = 1
+    martial = 5
+    stewardship = 3
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_learning_3
+
+    6285.4.14 = {
+        birth = yes
+    }
+
+    6312.12.1 = {
+        add_spouse = mudd_84
+    }
+
+    6356.2.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_84 = {
+    name = "Mariah"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = patient
+    trait = diligent
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 3
+    learning = 1
+    prowess = 8
+
+    trait = education_martial_4
+
+    6295.12.27 = {
+        birth = yes
+    }
+
+    6365.8.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_85 = {
+    name = "Beron"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_83
+    mother = mudd_84
+
+    trait = sadistic
+    trait = greedy
+    trait = calm
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 9
+    intrigue = 7
+    learning = 8
+    prowess = 3
+
+    trait = education_stewardship_2
+
+    6329.4.12 = {
+        birth = yes
+    }
+
+    6349.7.28 = {
+        add_spouse = mudd_86
+    }
+
+    6396.8.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_86 = {
+    name = "Bethany"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = diligent
+    trait = greedy
+    trait = content
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 7
+    intrigue = 3
+    learning = 7
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    6332.12.17 = {
+        birth = yes
+    }
+
+    6411.5.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_87 = {
+    name = "Bennard"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_85
+    mother = mudd_86
+
+    trait = trusting
+    trait = humble
+    trait = temperate
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 5
+    intrigue = 8
+    learning = 2
+    prowess = 4
+
+    trait = education_intrigue_1
+
+    6350.11.3 = {
+        birth = yes
+    }
+
+    6395.1.25 = {
+        add_spouse = mudd_88
+    }
+
+    6431.8.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_88 = {
+    name = "Perra"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = generous
+    trait = ambitious
+    trait = shy
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    6378.7.27 = {
+        birth = yes
+    }
+
+    6445.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_89 = {
+    name = "Harrion"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_87
+    mother = mudd_88
+
+    trait = impatient
+    trait = wrathful
+    trait = zealous
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 4
+    intrigue = 10
+    learning = 7
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    6425.9.17 = {
+        birth = yes
+    }
+
+    6461.11.5 = {
+        add_spouse = mudd_90
+    }
+
+    6498.3.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_90 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = arbitrary
+    trait = temperate
+    trait = greedy
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 3
+    intrigue = 5
+    learning = 8
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6444.6.12 = {
+        birth = yes
+    }
+
+    6514.8.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_91 = {
+    name = "Donnel"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_89
+    mother = mudd_90
+
+    trait = shy
+    trait = trusting
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_1
+
+    6467.12.12 = {
+        birth = yes
+    }
+
+    6517.11.9 = {
+        add_spouse = mudd_92
+    }
+
+    6533.5.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_92 = {
+    name = "Jonella"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = callous
+    trait = forgiving
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 2
+    intrigue = 4
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    6500.12.7 = {
+        birth = yes
+    }
+
+    6579.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_93 = {
+    name = "Tristifer"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_91
+    mother = mudd_92
+
+    trait = ambitious
+    trait = patient
+    trait = wrathful
+
+    diplomacy = 9
+    martial = 16
+    stewardship = 6
+    intrigue = 6
+    learning = 3
+    prowess = 14
+
+    trait = education_martial_4
+
+    6518.4.22 = {
+        birth = yes
+    }
+
+    6559.2.7 = {
+        add_spouse = mudd_94
+    }
+
+    6600.11.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_94 = {
+    name = "Branda"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = zealous
+    trait = chaste
+    trait = trusting
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6542.12.23 = {
+        birth = yes
+    }
+
+    6621.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_95 = {
+    name = "Eyron"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_93
+    mother = mudd_94
+
+    trait = lazy
+    trait = content
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_2
+
+    6573.5.13 = {
+        birth = yes
+    }
+
+    6603.8.3 = {
+        add_spouse = mudd_96
+    }
+
+    6655.7.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_96 = {
+    name = "Wynafryd"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = deceitful
+    trait = arbitrary
+    trait = lazy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 2
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_3
+
+    6586.3.11 = {
+        birth = yes
+    }
+
+    6668.8.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_97 = {
+    name = "Jory"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_95
+    mother = mudd_96
+
+    trait = gregarious
+    trait = chaste
+    trait = patient
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6619.9.16 = {
+        birth = yes
+    }
+
+    6643.11.14 = {
+        add_spouse = mudd_98
+    }
+
+    6676.7.10 = {
+        death = { death_reason = death_maimed }
+    }
+}
+
+mudd_98 = {
+    name = "Raya"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = lustful
+    trait = vengeful
+    trait = humble
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6626.3.11 = {
+        birth = yes
+    }
+
+    6704.4.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_99 = {
+    name = "Larence"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_97
+    mother = mudd_98
+
+    trait = compassionate
+    trait = paranoid
+    trait = impatient
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 6
+    prowess = 10
+
+    trait = education_diplomacy_4
+
+    6674.4.11 = {
+        birth = yes
+    }
+
+    6693.6.24 = {
+        add_spouse = mudd_100
+    }
+
+    6745.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_100 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = deceitful
+    trait = sadistic
+    trait = wrathful
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 3
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    6676.9.13 = {
+        birth = yes
+    }
+
+    6755.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_101 = {
+    name = "Roose"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_99
+    mother = mudd_100
+
+    trait = arbitrary
+    trait = stubborn
+    trait = calm
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    6705.5.9 = {
+        birth = yes
+    }
+
+    6747.12.5 = {
+        add_spouse = mudd_102
+    }
+
+    6757.5.18 = {
+        death = { death_reason = death_piteously_cut_down }
+    }
+}
+
+mudd_102 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = arbitrary
+    trait = greedy
+    trait = chaste
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6730.12.22 = {
+        birth = yes
+    }
+
+    6813.3.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_103 = {
+    name = "Mark"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_101
+    mother = mudd_102
+
+    trait = gluttonous
+    trait = ambitious
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 9
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6756.4.1 = {
+        birth = yes
+    }
+
+    6798.3.14 = {
+        add_spouse = mudd_104
+    }
+
+    6840.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_104 = {
+    name = "Leana"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = lazy
+    trait = compassionate
+    trait = fickle
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 2
+
+    trait = education_martial_2
+
+    6781.11.26 = {
+        birth = yes
+    }
+
+    6847.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_105 = {
+    name = "Hareth"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_103
+    mother = mudd_104
+
+    trait = trusting
+    trait = callous
+    trait = zealous
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6817.7.28 = {
+        birth = yes
+    }
+
+    6847.6.13 = {
+        add_spouse = mudd_106
+    }
+
+    6883.3.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_106 = {
+    name = "Gilliane"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = temperate
+    trait = deceitful
+    trait = arbitrary
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 3
+    intrigue = 7
+    learning = 6
+    prowess = 2
+
+    trait = education_diplomacy_2
+
+    6830.1.27 = {
+        birth = yes
+    }
+
+    6913.5.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_107 = {
+    name = "Torghen"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_105
+    mother = mudd_106
+
+    trait = brave
+    trait = arbitrary
+    trait = humble
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 4
+    prowess = 8
+
+    trait = education_intrigue_1
+
+    6851.3.1 = {
+        birth = yes
+    }
+
+    6875.4.9 = {
+        add_spouse = mudd_108
+    }
+
+    6936.3.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_108 = {
+    name = "Arrana"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = honest
+    trait = paranoid
+    trait = generous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 10
+    prowess = 6
+
+    trait = education_learning_2
+
+    6858.2.28 = {
+        birth = yes
+    }
+
+    6928.4.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_109 = {
+    name = "Errold"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_107
+    mother = mudd_108
+
+    trait = callous
+    trait = just
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_4
+
+    6883.10.24 = {
+        birth = yes
+    }
+
+    6902.1.28 = {
+        add_spouse = mudd_110
+    }
+
+    6954.4.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_110 = {
+    name = "Arra"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = paranoid
+    trait = diligent
+    trait = forgiving
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 2
+    intrigue = 6
+    learning = 4
+    prowess = 9
+
+    trait = education_intrigue_4
+
+    6885.2.3 = {
+        birth = yes
+    }
+
+    6965.5.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_111 = {
+    name = "Jon"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_109
+    mother = mudd_110
+
+    trait = honest
+    trait = zealous
+    trait = calm
+
+    diplomacy = 8
+    martial = 2
+    stewardship = 5
+    intrigue = 1
+    learning = 7
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6911.5.6 = {
+        birth = yes
+    }
+
+    6938.5.11 = {
+        add_spouse = mudd_112
+    }
+
+    6980.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_112 = {
+    name = "Berena"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = greedy
+    trait = just
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 3
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_2
+
+    6921.5.24 = {
+        birth = yes
+    }
+
+    7001.8.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_113 = {
+    name = "Walton"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_111
+    mother = mudd_112
+
+    trait = humble
+    trait = honest
+    trait = lazy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 2
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_3
+
+    6944.7.4 = {
+        birth = yes
+    }
+
+    6979.8.12 = {
+        add_spouse = mudd_114
+    }
+
+    6989.10.5 = {
+        death = { death_reason = death_vanished  }
+    }
+}
+
+mudd_114 = {
+    name = "Jonnela"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = wrathful
+    trait = patient
+    trait = trusting
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 7
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_1
+
+    6962.6.19 = {
+        birth = yes
+    }
+
+    7041.4.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_115 = {
+    name = "Ondrew"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_113
+    mother = mudd_114
+
+    trait = fickle
+    trait = gluttonous
+    trait = lazy
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 8
+    intrigue = 4
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    6983.4.28 = {
+        birth = yes
+    }
+
+    6997.8.27 = {
+        add_spouse = mudd_116
+    }
+
+    7065.2.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_116 = {
+    name = "Dacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = zealous
+    trait = paranoid
+    trait = impatient
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 2
+    prowess = 3
+
+    trait = education_intrigue_4
+
+    6980.2.7 = {
+        birth = yes
+    }
+
+    7058.6.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_117 = {
+    name = "Gawen"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_115
+    mother = mudd_116
+
+    trait = ambitious
+    trait = just
+    trait = sadistic
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 5
+    intrigue = 2
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6999.6.14 = {
+        birth = yes
+    }
+
+    7023.9.9 = {
+        add_spouse = mudd_118
+    }
+
+    7081.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_118 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = arrogant
+    trait = lazy
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 4
+    intrigue = 4
+    learning = 8
+    prowess = 5
+
+    trait = education_martial_2
+
+    7006.4.9 = {
+        birth = yes
+    }
+
+    7090.4.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_119 = {
+    name = "Sybelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_117
+    mother = mudd_118
+
+    trait = compassionate
+    trait = deceitful
+    trait = impatient
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 9
+    prowess = 2
+
+    trait = education_learning_2
+
+    7031.9.19 = {
+        birth = yes
+    }
+
+    7116.5.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_120 = {
+    name = "Quent"
+
+    dynasty = Mudd
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_117
+    mother = mudd_118
+
+    trait = gluttonous
+    trait = arbitrary
+    trait = craven
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    7038.5.11 = {
+        birth = yes
+    }
+
+    7067.7.4 = {
+        add_spouse = mudd_121
+    }
+
+    7105.9.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_121 = {
+    name = "Barbara"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = humble
+    trait = lustful
+    trait = calm
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 3
+    intrigue = 7
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_1
+
+    7050.5.27 = {
+        birth = yes
+    }
+
+    7122.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_122 = {
+    name = "Lyessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_117
+    mother = mudd_118
+
+    trait = diligent
+    trait = craven
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    7041.9.22 = {
+        birth = yes
+    }
+
+    7119.10.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_123 = {
+    name = "Arra"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_117
+    mother = mudd_118
+
+    trait = fickle
+    trait = vengeful
+    trait = zealous
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 9
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    7044.9.5 = {
+        birth = yes
+    }
+
+    7124.6.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mudd_124 = {
+    name = "Barba"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    father = mudd_113
+    mother = mudd_114
+
+    trait = greedy
+    trait = gluttonous
+    trait = cynical
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 11
+    intrigue = 5
+    learning = 9
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6986.5.19 = {
+        birth = yes
+    }
+
+    7054.7.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
