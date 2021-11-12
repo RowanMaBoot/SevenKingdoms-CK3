@@ -1,7 +1,18 @@
 texticon = {
+	icon = old_gods_main_icon
+	iconsize = {
+		texture = "gfx/interface/icons/faith/old_gods_main.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+##########################################
+texticon = {
 	icon = catholic_icon
 	iconsize = {
-		texture = "gfx/interface/icons/faith/catholic.dds"	
+		texture = "gfx/interface/icons/faith/catholic.dds"
 		size = { 25 25 }
 		offset = { 0 6 }
 		fontsize = 16
