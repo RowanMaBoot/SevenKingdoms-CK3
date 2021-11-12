@@ -4,7 +4,7 @@
 
  ## Era Dates
  ERA_DAWN_END:0 "'(int32)500'"
- ERA_HEROES_END:0 "'(int32)6300'"
+ ERA_HEROES_END:0 "'(int32)6000'"
  ERA_ANDAL_END:0 "'(int32)7897'"
  ERA_DOOM_END:0 "'(int32)8000'"
 
@@ -15,7 +15,7 @@
  ERA_4E_IG:0 "Select_CString( GreaterThan_int32( '(int32)$YEAR$', FixedPointToInt(EmptyScope.ScriptValue('era_4_year'))), '4.A.', $ERA_2E_IG$ )"
  ERA_3E_IG:0 "Select_CString( GreaterThan_int32( '(int32)$YEAR$', $ERA_DOOM_END$), 'A.C.', $ERA_2E_IG$ )"
  ERA_2E_IG:0 "Select_CString( GreaterThan_int32( '(int32)$YEAR$', $ERA_ANDAL_END$), 'A.D.', $ERA_1E_IG$ )"
- ERA_1E_IG:0 "Select_CString( GreaterThan_int32( '(int32)$YEAR$', $ERA_HEROES_END$ ), 'A.I.', $ERA_YT_IG$ )"
+ ERA_1E_IG:0 "Select_CString( GreaterThan_int32( '(int32)$YEAR$', $ERA_HEROES_END$ ), 'A.E.', $ERA_YT_IG$ )"
  ERA_YT_IG:0 "Select_CString( GreaterThan_int32( '(int32)$YEAR$', $ERA_DAWN_END$ ), 'A.H.', 'D.A.' )"
  # YEAR
  YEAR_SEL_IG:0 "[Select_int32( GreaterThanOrEqualTo_int32(FixedPointToInt(EmptyScope.ScriptValue('era_4_year')), '(int32)1'), $YEAR_4E_IG$, $YEAR_3E_IG$)]"
@@ -30,7 +30,7 @@
  # ERA
  ERA_SEL_SGI:0 "[Select_CString( GreaterThanOrEqualTo_int32($ERA_DOOM_END$, '(int32)1'), $ERA_3E_SGI$, $ERA_2E_SGI$)]"
  ERA_3E_SGI:0 "Select_CString( GreaterThanOrEqualTo_int32( GameSetup.GetSelectedBookmark.GetDate.GetYear, $ERA_DOOM_END$ ), 'A.C. ', $ERA_2E_SGI$ )"
- ERA_2E_SGI:0 "Select_CString( GreaterThanOrEqualTo_int32( GameSetup.GetSelectedBookmark.GetDate.GetYear, $ERA_ANDAL_END$ ), 'A.C. ', 'A.I. ' )"
+ ERA_2E_SGI:0 "Select_CString( GreaterThanOrEqualTo_int32( GameSetup.GetSelectedBookmark.GetDate.GetYear, $ERA_ANDAL_END$ ), 'A.C. ', 'A.E. ' )"
  # YEAR
  YEAR_SEL_SGI:0 "[Select_int32( GreaterThanOrEqualTo_int32($ERA_DOOM_END$, '(int32)1'), $YEAR_3E_SGI$, $YEAR_2E_SGI$)]"
  YEAR_3E_SGI:0 "Select_int32( GreaterThanOrEqualTo_int32( GameSetup.GetSelectedBookmark.GetDate.GetYear, $ERA_DOOM_END$), Subtract_int32( GameSetup.GetSelectedBookmark.GetDate.GetYear, Multiply_int32( Subtract_int32( BoolTo1And2( GreaterThanOrEqualTo_int32( GameSetup.GetSelectedBookmark.GetDate.GetYear, $ERA_DOOM_END$ ) ), '(int32)1' ), $ERA_DOOM_END$ ) ), $YEAR_2E_SGI$ )"
@@ -39,7 +39,7 @@
  # ERA
  ERA_SEL_SR:0 "[Select_CString( GreaterThanOrEqualTo_int32($ERA_DOOM_END$, '(int32)1'), $ERA_3E_SR$, $ERA_2E_SR$)]"
  ERA_3E_SR:0 "Select_CString( GreaterThanOrEqualTo_int32( GameSetup.GetSelectedBookmark.GetDate.GetYear, $ERA_DOOM_END$ ), 'A.C. ', $ERA_2E_SR$ )"
- ERA_2E_SR:0 "Select_CString( GreaterThanOrEqualTo_int32( GameSetup.GetSelectedBookmark.GetDate.GetYear, $ERA_ANDAL_END$ ), 'A.C. ', 'A.I. ' )"
+ ERA_2E_SR:0 "Select_CString( GreaterThanOrEqualTo_int32( GameSetup.GetSelectedBookmark.GetDate.GetYear, $ERA_ANDAL_END$ ), 'A.C. ', 'A.E. ' )"
  # YEAR
  YEAR_SEL_SR:0 "[Select_int32( GreaterThanOrEqualTo_int32($ERA_DOOM_END$, '(int32)1'), $YEAR_3E_SR$, $YEAR_2E_SR$)]"
  YEAR_3E_SR:0 "Select_int32( GreaterThanOrEqualTo_int32( GameSetup.GetSelectedBookmark.GetDate.GetYear, $ERA_DOOM_END$), Subtract_int32( GameSetup.GetSelectedBookmark.GetDate.GetYear, Multiply_int32( Subtract_int32( BoolTo1And2( GreaterThanOrEqualTo_int32( GameSetup.GetSelectedBookmark.GetDate.GetYear, $ERA_DOOM_END$ ) ), '(int32)1' ), $ERA_DOOM_END$ ) ), $YEAR_2E_SR$ )"
@@ -48,7 +48,7 @@
  # ERA
  ERA_SEL_BSD:0 "[Select_CString( GreaterThanOrEqualTo_int32($ERA_DOOM_END$, '(int32)1'), $ERA_3E_BSD$, $ERA_2E_BSD$)]"
  ERA_3E_BSD:0 "Select_CString( GreaterThanOrEqualTo_int32( GameSetup.GetSelectedDate.GetYear, $ERA_DOOM_END$ ), 'A.C. ', $ERA_2E_BSD$ )"
- ERA_2E_BSD:0 "Select_CString( GreaterThanOrEqualTo_int32( GameSetup.GetSelectedDate.GetYear, $ERA_ANDAL_END$ ), 'A.C. ', 'A.I. ' )"
+ ERA_2E_BSD:0 "Select_CString( GreaterThanOrEqualTo_int32( GameSetup.GetSelectedDate.GetYear, $ERA_ANDAL_END$ ), 'A.C. ', 'A.E. ' )"
  # YEAR
  YEAR_SEL_BSD:0 "[Select_int32( GreaterThanOrEqualTo_int32($ERA_DOOM_END$, '(int32)1'), $YEAR_3E_BSD$, $YEAR_2E_BSD$)]"
  YEAR_3E_BSD:0 "Select_int32( GreaterThanOrEqualTo_int32( GameSetup.GetSelectedDate.GetYear, $ERA_DOOM_END$), Subtract_int32( GameSetup.GetSelectedDate.GetYear, Multiply_int32( Subtract_int32( BoolTo1And2( GreaterThanOrEqualTo_int32( GameSetup.GetSelectedDate.GetYear, $ERA_DOOM_END$ ) ), '(int32)1' ), $ERA_DOOM_END$ ) ), $YEAR_2E_BSD$ )"
