@@ -8,28 +8,48 @@ d_blackmont = {
 		liege=k_blackmont
 	}
 }
-c_d34 = {
+c_blackmont = {
 	800.1.1={
 		liege=d_blackmont
 	}
 }
-d_bone_pass = {
+c_north_carrion_pass = {
+	800.1.1={
+		liege=d_blackmont
+	}
+}
+c_dead_mans_foothills = {
+	800.1.1={
+		liege=d_blackmont
+	}
+}
+c_south_carrion_pass = {
+	800.1.1={
+		liege=d_blackmont
+	}
+}
+d_gravesend = {
 	800.1.1={
 		liege=k_blackmont
 	}
 }
-c_d41 = {
+c_gravesend = {
 	800.1.1={
-		liege=d_bone_pass
+		liege=d_gravesend
 	}
 }
-d_graves_end = {
+c_redsun = {
 	800.1.1={
-		liege=k_blackmont
+		liege=d_gravesend
 	}
 }
-c_d42 = {
+c_dust_hall = {
 	800.1.1={
-		liege=d_graves_end
+		liege=d_gravesend
+	}
+}
+c_vultures_watch = {
+	800.1.1={
+		liege=d_gravesend
 	}
 }

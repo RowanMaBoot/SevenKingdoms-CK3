@@ -3,14 +3,34 @@ k_lowlands = {
 		liege=e_vale
 	}
 }
-d_iron_oaks = {
+d_ironoaks = {
 	800.1.1={
 		liege=k_lowlands
 	}
 }
-c_vlio = {
+c_ironoaks = {
 	800.1.1={
-		liege=d_iron_oaks
+		liege=d_ironoaks
+	}
+}
+c_waynecroft = {
+	800.1.1={
+		liege=d_ironoaks
+	}
+}
+c_timberton = {
+	800.1.1={
+		liege=d_ironoaks
+	}
+}
+c_ruthermont = {
+	800.1.1={
+		liege=d_ironoaks
+	}
+}
+c_mont_grousset = {
+	800.1.1={
+		liege=d_ironoaks
 	}
 }
 d_longbow = {
@@ -18,7 +38,22 @@ d_longbow = {
 		liege=k_lowlands
 	}
 }
-c_vllb = {
+c_longbow = {
+	800.1.1={
+		liege=d_longbow
+	}
+}
+c_hunters_point = {
+	800.1.1={
+		liege=d_longbow
+	}
+}
+c_fletcham = {
+	800.1.1={
+		liege=d_longbow
+	}
+}
+c_anchor = {
 	800.1.1={
 		liege=d_longbow
 	}
@@ -28,7 +63,22 @@ d_baelish_keep = {
 		liege=k_lowlands
 	}
 }
-c_vlbk = {
+c_baelish_keep = {
+	800.1.1={
+		liege=d_baelish_keep
+	}
+}
+c_baels_hearth = {
+	800.1.1={
+		liege=d_baelish_keep
+	}
+}
+c_mildor = {
+	800.1.1={
+		liege=d_baelish_keep
+	}
+}
+c_scarle = {
 	800.1.1={
 		liege=d_baelish_keep
 	}
@@ -38,7 +88,22 @@ d_plancard = {
 		liege=k_lowlands
 	}
 }
-c_vlpc = {
+c_plancard = {
+	800.1.1={
+		liege=d_plancard
+	}
+}
+c_ajoncour = {
+	800.1.1={
+		liege=d_plancard
+	}
+}
+c_tessieu = {
+	800.1.1={
+		liege=d_plancard
+	}
+}
+c_vanasque = {
 	800.1.1={
 		liege=d_plancard
 	}

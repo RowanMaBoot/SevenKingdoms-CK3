@@ -1,14 +1,31 @@
 k_obsidian_isles = {
-	800.1.1={
-		liege=e_dusklands
-	}
 }
 d_dragonstone = {
 	800.1.1={
 		liege=k_obsidian_isles
 	}
 }
-c_ddds = {
+c_dragonstone_isle = {
+	800.1.1={
+		liege=d_dragonstone
+	}
+}
+c_driftmark = {
+	800.1.1={
+		liege=d_dragonstone
+	}
+}
+c_smouldering_isles = {
+	800.1.1={
+		liege=d_dragonstone
+	}
+}
+c_ember_isle = {
+	800.1.1={
+		liege=d_dragonstone
+	}
+}
+c_obsidian = {
 	800.1.1={
 		liege=d_dragonstone
 	}

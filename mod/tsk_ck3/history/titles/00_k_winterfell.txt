@@ -368,7 +368,7 @@ d_winterfell = {
         holder = stark_122 #Wayn
     }
 }
-c_tnwf = {
+c_winterfell = {
 	800.1.1={
 		liege=d_winterfell
 	}
@@ -553,14 +553,49 @@ c_tnwf = {
         holder = stark_122 #Wayn
     }
 }
-d_cerwyns_fold = {
+c_bear_springs = {
+	800.1.1={
+		liege=d_winterfell
+	}
+}
+c_wolves_woods = {
+	800.1.1={
+		liege=d_winterfell
+	}
+}
+c_ashwood = {
+	800.1.1={
+		liege=d_winterfell
+	}
+}
+c_wolf_river = {
+	800.1.1={
+		liege=d_winterfell
+	}
+}
+d_elkstone = {
 	800.1.1={
 		liege=k_winterfell
 	}
 }
-c_ncf = {
+c_elkstone = {
 	800.1.1={
-		liege=d_cerwyns_fold
+		liege=d_elkstone
+	}
+}
+c_llanwyrst = {
+	800.1.1={
+		liege=d_elkstone
+	}
+}
+c_elk_crossing = {
+	800.1.1={
+		liege=d_elkstone
+	}
+}
+c_fawning_grove = {
+	800.1.1={
+		liege=d_elkstone
 	}
 }
 d_moat_cailin = {
@@ -568,7 +603,22 @@ d_moat_cailin = {
 		liege=k_winterfell
 	}
 }
-c_tnmc = {
+c_moat_cailin = {
+	800.1.1={
+		liege=d_moat_cailin
+	}
+}
+c_bitter_fens = {
+	800.1.1={
+		liege=d_moat_cailin
+	}
+}
+c_oldfort = {
+	800.1.1={
+		liege=d_moat_cailin
+	}
+}
+c_drowned_barrows = {
 	800.1.1={
 		liege=d_moat_cailin
 	}

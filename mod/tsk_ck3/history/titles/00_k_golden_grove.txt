@@ -3,24 +3,34 @@ k_golden_grove = {
 		liege=e_reach
 	}
 }
-d_silver_stream = {
+d_old_oak = {
 	800.1.1={
 		liege=k_golden_grove
 	}
 }
-c_g1c = {
+c_old_oak = {
 	800.1.1={
-		liege=d_silver_stream
+		liege=d_old_oak
 	}
 }
-d_ocean_road = {
+c_oceanview = {
 	800.1.1={
-		liege=k_golden_grove
+		liege=d_old_oak
 	}
 }
-c_g2c = {
+c_old_grove = {
 	800.1.1={
-		liege=d_ocean_road
+		liege=d_old_oak
+	}
+}
+c_oakzar = {
+	800.1.1={
+		liege=d_old_oak
+	}
+}
+c_ocean_gate = {
+	800.1.1={
+		liege=d_old_oak
 	}
 }
 d_golden_grove = {
@@ -28,18 +38,118 @@ d_golden_grove = {
 		liege=k_golden_grove
 	}
 }
-c_g3c = {
+c_golden_grove = {
 	800.1.1={
 		liege=d_golden_grove
 	}
 }
-d_old_oak = {
+c_reachd24 = {
+	800.1.1={
+		liege=d_golden_grove
+	}
+}
+c_reachd25 = {
+	800.1.1={
+		liege=d_golden_grove
+	}
+}
+c_reachd26 = {
+	800.1.1={
+		liege=d_golden_grove
+	}
+}
+d_ivy_hall = {
 	800.1.1={
 		liege=k_golden_grove
 	}
 }
-c_g4c = {
+c_ivy_hall = {
 	800.1.1={
-		liege=d_old_oak
+		liege=d_ivy_hall
+	}
+}
+c_reachd27 = {
+	800.1.1={
+		liege=d_ivy_hall
+	}
+}
+c_reachd28 = {
+	800.1.1={
+		liege=d_ivy_hall
+	}
+}
+d_golden_fields = {
+	800.1.1={
+		liege=k_golden_grove
+	}
+}
+c_golden_fields = {
+	800.1.1={
+		liege=d_golden_fields
+	}
+}
+c_reachd29 = {
+	800.1.1={
+		liege=d_golden_fields
+	}
+}
+c_reachd30 = {
+	800.1.1={
+		liege=d_golden_fields
+	}
+}
+c_reachd31 = {
+	800.1.1={
+		liege=d_golden_fields
+	}
+}
+d_catswold = {
+	800.1.1={
+		liege=k_golden_grove
+	}
+}
+c_catswold = {
+	800.1.1={
+		liege=d_catswold
+	}
+}
+c_reachd32 = {
+	800.1.1={
+		liege=d_catswold
+	}
+}
+c_reachd33 = {
+	800.1.1={
+		liege=d_catswold
+	}
+}
+c_reachd34 = {
+	800.1.1={
+		liege=d_catswold
+	}
+}
+d_red_meadows = {
+	800.1.1={
+		liege=k_golden_grove
+	}
+}
+c_red_meadows = {
+	800.1.1={
+		liege=d_red_meadows
+	}
+}
+c_reachd35 = {
+	800.1.1={
+		liege=d_red_meadows
+	}
+}
+c_reachd36 = {
+	800.1.1={
+		liege=d_red_meadows
+	}
+}
+c_reachd37 = {
+	800.1.1={
+		liege=d_red_meadows
 	}
 }

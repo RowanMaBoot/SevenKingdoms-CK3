@@ -1,15 +1,42 @@
 k_the_sisters = {
-	800.1.1={
-		liege=e_vale
-	}
 }
 d_the_sisters = {
 	800.1.1={
 		liege=k_the_sisters
 	}
 }
-c_vtss = {
+c_biteport = {
 	800.1.1={
 		liege=d_the_sisters
+	}
+}
+d_sweetsister = {
+	800.1.1={
+		liege=k_the_sisters
+	}
+}
+c_sweetsister = {
+	800.1.1={
+		liege=d_sweetsister
+	}
+}
+c_sisterton = {
+	800.1.1={
+		liege=d_sweetsister
+	}
+}
+d_long_sister = {
+	800.1.1={
+		liege=k_the_sisters
+	}
+}
+c_longsister = {
+	800.1.1={
+		liege=d_long_sister
+	}
+}
+c_maidens_watch = {
+	800.1.1={
+		liege=d_long_sister
 	}
 }

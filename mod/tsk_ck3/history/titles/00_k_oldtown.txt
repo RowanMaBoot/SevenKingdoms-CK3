@@ -3,14 +3,34 @@ k_oldtown = {
 		liege=e_reach
 	}
 }
-d_sun_house = {
+d_sunhouse = {
 	800.1.1={
 		liege=k_oldtown
 	}
 }
-c_o1c = {
+c_sunhouse = {
 	800.1.1={
-		liege=d_sun_house
+		liege=d_sunhouse
+	}
+}
+c_sun_isle = {
+	800.1.1={
+		liege=d_sunhouse
+	}
+}
+c_sunflower_fields = {
+	800.1.1={
+		liege=d_sunhouse
+	}
+}
+c_falmouth = {
+	800.1.1={
+		liege=d_sunhouse
+	}
+}
+c_camborne = {
+	800.1.1={
+		liege=d_sunhouse
 	}
 }
 d_three_towers = {
@@ -18,7 +38,22 @@ d_three_towers = {
 		liege=k_oldtown
 	}
 }
-c_o2c = {
+c_the_towers = {
+	800.1.1={
+		liege=d_three_towers
+	}
+}
+c_dawntower = {
+	800.1.1={
+		liege=d_three_towers
+	}
+}
+c_derbier = {
+	800.1.1={
+		liege=d_three_towers
+	}
+}
+c_towton = {
 	800.1.1={
 		liege=d_three_towers
 	}
@@ -28,19 +63,104 @@ d_oldtown = {
 		liege=k_oldtown
 	}
 }
-c_o3c = {
+c_oldtown = {
 	800.1.1={
 		liege=d_oldtown
 	}
 }
-d_uplands = {
+c_maidens_rest = {
+	800.1.1={
+		liege=d_oldtown
+	}
+}
+c_oldguard = {
+	800.1.1={
+		liege=d_oldtown
+	}
+}
+c_grey_gardens = {
+	800.1.1={
+		liege=d_oldtown
+	}
+}
+c_sevenland = {
+	800.1.1={
+		liege=d_oldtown
+	}
+}
+d_laketown = {
 	800.1.1={
 		liege=k_oldtown
 	}
 }
-c_o4c = {
+c_laketown = {
 	800.1.1={
-		liege=d_uplands
+		liege=d_laketown
+	}
+}
+c_horon = {
+	800.1.1={
+		liege=d_laketown
+	}
+}
+c_lipistream = {
+	800.1.1={
+		liege=d_laketown
+	}
+}
+c_northlake = {
+	800.1.1={
+		liege=d_laketown
+	}
+}
+d_lowlands = {
+	800.1.1={
+		liege=k_oldtown
+	}
+}
+c_lowlands = {
+	800.1.1={
+		liege=d_lowlands
+	}
+}
+c_helston = {
+	800.1.1={
+		liege=d_lowlands
+	}
+}
+c_lorlan = {
+	800.1.1={
+		liege=d_lowlands
+	}
+}
+c_bodmin = {
+	800.1.1={
+		liege=d_lowlands
+	}
+}
+d_midlands = {
+	800.1.1={
+		liege=k_oldtown
+	}
+}
+c_midton = {
+	800.1.1={
+		liege=d_midlands
+	}
+}
+c_stonewall = {
+	800.1.1={
+		liege=d_midlands
+	}
+}
+c_tanner = {
+	800.1.1={
+		liege=d_midlands
+	}
+}
+c_rhit = {
+	800.1.1={
+		liege=d_midlands
 	}
 }
 d_blackcrown = {
@@ -48,7 +168,32 @@ d_blackcrown = {
 		liege=k_oldtown
 	}
 }
-c_o5c = {
+c_blackcrown = {
+	800.1.1={
+		liege=d_blackcrown
+	}
+}
+c_gull_coast = {
+	800.1.1={
+		liege=d_blackcrown
+	}
+}
+c_greyland = {
+	800.1.1={
+		liege=d_blackcrown
+	}
+}
+c_oldcrown = {
+	800.1.1={
+		liege=d_blackcrown
+	}
+}
+c_black_crow = {
+	800.1.1={
+		liege=d_blackcrown
+	}
+}
+c_black_ford = {
 	800.1.1={
 		liege=d_blackcrown
 	}
@@ -58,7 +203,27 @@ d_bandallon = {
 		liege=k_oldtown
 	}
 }
-c_o6c = {
+c_bandallon = {
+	800.1.1={
+		liege=d_bandallon
+	}
+}
+c_capribad = {
+	800.1.1={
+		liege=d_bandallon
+	}
+}
+c_bandland = {
+	800.1.1={
+		liege=d_bandallon
+	}
+}
+c_badcoast = {
+	800.1.1={
+		liege=d_bandallon
+	}
+}
+c_widemouth_bay = {
 	800.1.1={
 		liege=d_bandallon
 	}

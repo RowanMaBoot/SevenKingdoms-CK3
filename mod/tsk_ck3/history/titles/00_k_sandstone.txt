@@ -8,28 +8,78 @@ d_sandstone = {
 		liege=k_sandstone
 	}
 }
-c_d24 = {
+c_sandstone = {
 	800.1.1={
 		liege=d_sandstone
 	}
 }
-d_sulphur = {
+c_vart = {
+	800.1.1={
+		liege=d_sandstone
+	}
+}
+c_limestone_pass = {
+	800.1.1={
+		liege=d_sandstone
+	}
+}
+c_oldspring = {
+	800.1.1={
+		liege=d_sandstone
+	}
+}
+d_goodsprings = {
 	800.1.1={
 		liege=k_sandstone
 	}
 }
-c_d25 = {
+c_goodspring = {
 	800.1.1={
-		liege=d_sulphur
+		liege=d_goodsprings
 	}
 }
-d_scorched_rock = {
+c_lime_cliffs = {
+	800.1.1={
+		liege=d_goodsprings
+	}
+}
+c_quartz_run = {
+	800.1.1={
+		liege=d_goodsprings
+	}
+}
+d_silent_desert = {
 	800.1.1={
 		liege=k_sandstone
 	}
 }
-c_d26 = {
+c_silent_desert = {
 	800.1.1={
-		liege=d_scorched_rock
+		liege=d_silent_desert
+	}
+}
+c_fallen_port = {
+	800.1.1={
+		liege=d_silent_desert
+	}
+}
+d_moonkeep = {
+	800.1.1={
+		liege=k_sandstone
+	}
+}
+c_moonkeep = {
+	800.1.1={
+		liege=d_moonkeep
+	}
+}
+c_evening_coast = {
+	800.1.1={
+		liege=d_moonkeep
+	}
+}
+c_silent_watcher = {
+	800.1.1={
+		liege=d_moonkeep
 	}
 }

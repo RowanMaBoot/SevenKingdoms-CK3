@@ -8,7 +8,22 @@ d_starpike = {
 		liege=k_starpike
 	}
 }
-c_em1c = {
+c_starpike = {
+	800.1.1={
+		liege=d_starpike
+	}
+}
+c_hollyhall = {
+	800.1.1={
+		liege=d_starpike
+	}
+}
+c_appleton = {
+	800.1.1={
+		liege=d_starpike
+	}
+}
+c_cider_hall = {
 	800.1.1={
 		liege=d_starpike
 	}
@@ -18,18 +33,93 @@ d_ashford = {
 		liege=k_starpike
 	}
 }
-c_em2c = {
+c_ashford = {
 	800.1.1={
 		liege=d_ashford
 	}
 }
-d_herefort = {
+c_ash_gate = {
+	800.1.1={
+		liege=d_ashford
+	}
+}
+c_herefort = {
+	800.1.1={
+		liege=d_ashford
+	}
+}
+c_hardin = {
+	800.1.1={
+		liege=d_ashford
+	}
+}
+d_grassy_vale = {
 	800.1.1={
 		liege=k_starpike
 	}
 }
-c_em3c = {
+c_grassy_vale = {
 	800.1.1={
-		liege=d_herefort
+		liege=d_grassy_vale
+	}
+}
+c_meadow_stream = {
+	800.1.1={
+		liege=d_grassy_vale
+	}
+}
+c_gnoll_fork = {
+	800.1.1={
+		liege=d_grassy_vale
+	}
+}
+c_southstream = {
+	800.1.1={
+		liege=d_grassy_vale
+	}
+}
+d_longtable = {
+	800.1.1={
+		liege=k_starpike
+	}
+}
+c_longtable = {
+	800.1.1={
+		liege=d_longtable
+	}
+}
+c_wijsgate = {
+	800.1.1={
+		liege=d_longtable
+	}
+}
+c_pear_orchards = {
+	800.1.1={
+		liege=d_longtable
+	}
+}
+c_long_castle = {
+	800.1.1={
+		liege=d_longtable
+	}
+}
+d_blaze_watch = {
+	800.1.1={
+		liege=k_starpike
+	}
+}
+c_blaze_watch = {
+	800.1.1={
+		liege=d_blaze_watch
+	}
+}
+c_cinders = {
+	800.1.1={
+		liege=d_blaze_watch
+	}
+}
+c_bochester = {
+	800.1.1={
+		liege=d_blaze_watch
 	}
 }

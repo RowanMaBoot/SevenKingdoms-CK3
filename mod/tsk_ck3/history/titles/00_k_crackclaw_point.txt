@@ -3,33 +3,93 @@ k_crackclaw_point = {
 		liege=e_dusklands
 	}
 }
-d_claw_isle = {
+d_south_crackclaw = {
 	800.1.1={
 		liege=k_crackclaw_point
 	}
 }
-c_dcci = {
+c_south_crackclaw = {
 	800.1.1={
-		liege=d_claw_isle
+		liege=d_south_crackclaw
 	}
 }
-d_black_crab_bay = {
+c_the_whispers = {
+	800.1.1={
+		liege=d_south_crackclaw
+	}
+}
+c_whispering_forest = {
+	800.1.1={
+		liege=d_south_crackclaw
+	}
+}
+c_claw_isle = {
+	800.1.1={
+		liege=d_south_crackclaw
+	}
+}
+d_crackclaw = {
 	800.1.1={
 		liege=k_crackclaw_point
 	}
 }
-c_dcbc = {
+c_dyre_den = {
 	800.1.1={
-		liege=d_black_crab_bay
+		liege=d_crackclaw
 	}
 }
-d_maidenpool = {
+c_cracked_cliffs = {
+	800.1.1={
+		liege=d_crackclaw
+	}
+}
+c_strongcliff = {
+	800.1.1={
+		liege=d_crackclaw
+	}
+}
+d_crackclaw_point = {
 	800.1.1={
 		liege=k_crackclaw_point
 	}
 }
-c_dcm = {
+c_cracked_heart = {
 	800.1.1={
-		liege=d_maidenpool
+		liege=d_crackclaw_point
+	}
+}
+c_southspur = {
+	800.1.1={
+		liege=d_crackclaw_point
+	}
+}
+c_northspur = {
+	800.1.1={
+		liege=d_crackclaw_point
+	}
+}
+c_rondell = {
+	800.1.1={
+		liege=d_crackclaw_point
+	}
+}
+d_crows_nest = {
+	800.1.1={
+		liege=k_crackclaw_point
+	}
+}
+c_cape_of_songs = {
+	800.1.1={
+		liege=d_crows_nest
+	}
+}
+c_woodhollow = {
+	800.1.1={
+		liege=d_crows_nest
+	}
+}
+c_wings_wake = {
+	800.1.1={
+		liege=d_crows_nest
 	}
 }

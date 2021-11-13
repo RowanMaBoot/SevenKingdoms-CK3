@@ -3,24 +3,124 @@ k_bay_of_claws = {
 		liege=e_riverlands
 	}
 }
-d_greensword = {
-	800.1.1={
-		liege=k_bay_of_claws
-	}
-}
-c_rbcm = {
-	800.1.1={
-		liege=d_greensword
-	}
-}
 d_maidenpool = {
 	800.1.1={
 		liege=k_bay_of_claws
 	}
 }
-c_rbcl = {
+c_maidenpool = {
 	800.1.1={
 		liege=d_maidenpool
+	}
+}
+c_espen = {
+	800.1.1={
+		liege=d_maidenpool
+	}
+}
+c_yon = {
+	800.1.1={
+		liege=d_maidenpool
+	}
+}
+c_lord_harons_tower = {
+	800.1.1={
+		liege=d_maidenpool
+	}
+}
+d_blue_maw = {
+	800.1.1={
+		liege=k_bay_of_claws
+	}
+}
+c_blue_maw_hold = {
+	800.1.1={
+		liege=d_blue_maw
+	}
+}
+c_old_maw = {
+	800.1.1={
+		liege=d_blue_maw
+	}
+}
+c_shamblers_rest = {
+	800.1.1={
+		liege=d_blue_maw
+	}
+}
+d_maidens_fray = {
+	800.1.1={
+		liege=k_bay_of_claws
+	}
+}
+c_antlers = {
+	800.1.1={
+		liege=d_maidens_fray
+	}
+}
+c_crawfish = {
+	800.1.1={
+		liege=d_maidens_fray
+	}
+}
+c_antton = {
+	800.1.1={
+		liege=d_maidens_fray
+	}
+}
+d_darry = {
+	800.1.1={
+		liege=k_bay_of_claws
+	}
+}
+c_darry = {
+	800.1.1={
+		liege=d_darry
+	}
+}
+c_saltpoole = {
+	800.1.1={
+		liege=d_darry
+	}
+}
+c_sandwind = {
+	800.1.1={
+		liege=d_darry
+	}
+}
+c_mountriver = {
+	800.1.1={
+		liege=d_darry
+	}
+}
+c_cliffen = {
+	800.1.1={
+		liege=d_darry
+	}
+}
+d_the_rapids = {
+	800.1.1={
+		liege=k_bay_of_claws
+	}
+}
+c_rapid_keep = {
+	800.1.1={
+		liege=d_the_rapids
+	}
+}
+c_clawpoole = {
+	800.1.1={
+		liege=d_the_rapids
+	}
+}
+c_rapid_rise = {
+	800.1.1={
+		liege=d_the_rapids
+	}
+}
+c_coalton = {
+	800.1.1={
+		liege=d_the_rapids
 	}
 }
 d_saltpans = {
@@ -28,28 +128,63 @@ d_saltpans = {
 		liege=k_bay_of_claws
 	}
 }
-c_rbcs = {
+c_saltpans = {
 	800.1.1={
 		liege=d_saltpans
 	}
 }
-d_bay_of_crabs = {
+c_saltsea = {
+	800.1.1={
+		liege=d_saltpans
+	}
+}
+c_oceansee = {
+	800.1.1={
+		liege=d_saltpans
+	}
+}
+c_mandrake = {
+	800.1.1={
+		liege=d_saltpans
+	}
+}
+d_claw_bay = {
 	800.1.1={
 		liege=k_bay_of_claws
 	}
 }
-c_rbcb = {
+c_wickenden = {
 	800.1.1={
-		liege=d_bay_of_crabs
+		liege=d_claw_bay
 	}
 }
-d_coal_hills = {
+c_barrin = {
+	800.1.1={
+		liege=d_claw_bay
+	}
+}
+c_tefel = {
+	800.1.1={
+		liege=d_claw_bay
+	}
+}
+d_upmont = {
 	800.1.1={
 		liege=k_bay_of_claws
 	}
 }
-c_rbch = {
+c_upmont = {
 	800.1.1={
-		liege=d_coal_hills
+		liege=d_upmont
+	}
+}
+c_mountainton = {
+	800.1.1={
+		liege=d_upmont
+	}
+}
+c_saltmine = {
+	800.1.1={
+		liege=d_upmont
 	}
 }

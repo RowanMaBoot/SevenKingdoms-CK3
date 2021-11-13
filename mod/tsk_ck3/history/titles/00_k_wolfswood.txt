@@ -3,34 +3,29 @@ k_wolfswood = {
 		liege=e_the_north
 	}
 }
-d_sea_dragon_point = {
+d_wolfswood = {
 	800.1.1={
 		liege=k_wolfswood
 	}
 }
-c_nsdp = {
+c_deepwood_motte = {
 	800.1.1={
-		liege=d_sea_dragon_point
+		liege=d_wolfswood
 	}
 }
-d_torrhens_square = {
+c_frostwood = {
 	800.1.1={
-		liege=k_wolfswood
+		liege=d_wolfswood
 	}
 }
-c_tnts = {
+c_ironrath = {
 	800.1.1={
-		liege=d_torrhens_square
+		liege=d_wolfswood
 	}
 }
-d_deepwood_motte = {
+c_blackgrove = {
 	800.1.1={
-		liege=k_wolfswood
-	}
-}
-c_tndm = {
-	800.1.1={
-		liege=d_deepwood_motte
+		liege=d_wolfswood
 	}
 }
 d_bear_island = {
@@ -38,8 +33,103 @@ d_bear_island = {
 		liege=k_wolfswood
 	}
 }
-c_tnb = {
+c_bear_hold = {
 	800.1.1={
 		liege=d_bear_island
+	}
+}
+c_bearwood = {
+	800.1.1={
+		liege=d_bear_island
+	}
+}
+c_woodfoot_watch = {
+	800.1.1={
+		liege=d_bear_island
+	}
+}
+c_bearstone = {
+	800.1.1={
+		liege=d_bear_island
+	}
+}
+d_torrhens_square = {
+	800.1.1={
+		liege=k_wolfswood
+	}
+}
+c_torrhens_square = {
+	800.1.1={
+		liege=d_torrhens_square
+	}
+}
+c_wolfwood = {
+	800.1.1={
+		liege=d_torrhens_square
+	}
+}
+c_torrhen_isle = {
+	800.1.1={
+		liege=d_torrhens_square
+	}
+}
+c_eastedge_barrens = {
+	800.1.1={
+		liege=d_torrhens_square
+	}
+}
+c_meander = {
+	800.1.1={
+		liege=d_torrhens_square
+	}
+}
+d_whitehills = {
+	800.1.1={
+		liege=k_wolfswood
+	}
+}
+c_whitehill_tower = {
+	800.1.1={
+		liege=d_whitehills
+	}
+}
+c_shady_thicket = {
+	800.1.1={
+		liege=d_whitehills
+	}
+}
+c_beargrove = {
+	800.1.1={
+		liege=d_whitehills
+	}
+}
+c_edgewood = {
+	800.1.1={
+		liege=d_whitehills
+	}
+}
+d_greyfields = {
+	800.1.1={
+		liege=k_wolfswood
+	}
+}
+c_greyfield_holdfast = {
+	800.1.1={
+		liege=d_greyfields
+	}
+}
+c_stonewatch = {
+	800.1.1={
+		liege=d_greyfields
+	}
+}
+c_castlewood = {
+	800.1.1={
+		liege=d_greyfields
+	}
+}
+c_meadfast = {
+	800.1.1={
+		liege=d_greyfields
 	}
 }

@@ -3,14 +3,54 @@ k_the_barrows = {
 		liege=e_the_north
 	}
 }
-d_barrowlands = {
+d_barrowton = {
 	800.1.1={
 		liege=k_the_barrows
 	}
 }
-c_tnbl = {
+c_barrowton = {
 	800.1.1={
-		liege=d_barrowlands
+		liege=d_barrowton
+	}
+}
+c_eastbarrow = {
+	800.1.1={
+		liege=d_barrowton
+	}
+}
+c_weir_mounds = {
+	800.1.1={
+		liege=d_barrowton
+	}
+}
+c_spearmouth = {
+	800.1.1={
+		liege=d_barrowton
+	}
+}
+d_the_rills = {
+	800.1.1={
+		liege=k_the_barrows
+	}
+}
+c_hardwood_hold = {
+	800.1.1={
+		liege=d_the_rills
+	}
+}
+c_highbarrow = {
+	800.1.1={
+		liege=d_the_rills
+	}
+}
+c_bell_tower = {
+	800.1.1={
+		liege=d_the_rills
+	}
+}
+c_rillgate = {
+	800.1.1={
+		liege=d_the_rills
 	}
 }
 d_stony_shore = {
@@ -18,7 +58,22 @@ d_stony_shore = {
 		liege=k_the_barrows
 	}
 }
-c_tnss = {
+c_greystone_hearth = {
+	800.1.1={
+		liege=d_stony_shore
+	}
+}
+c_the_stony_shore = {
+	800.1.1={
+		liege=d_stony_shore
+	}
+}
+c_pebblecoast = {
+	800.1.1={
+		liege=d_stony_shore
+	}
+}
+c_dire_gate = {
 	800.1.1={
 		liege=d_stony_shore
 	}

@@ -1,25 +1,55 @@
 k_masseys_hook = {
 	800.1.1={
-		liege=e_stormlands
+		liege=e_dusklands
 	}
 }
-d_stone_dance = {
+d_massey = {
 	800.1.1={
 		liege=k_masseys_hook
 	}
 }
-c_mc2 = {
+c_sharp_point = {
 	800.1.1={
-		liege=d_stone_dance
+		liege=d_massey
 	}
 }
-d_sharp_point = {
+c_sweetpoint_sound = {
+	800.1.1={
+		liege=d_massey
+	}
+}
+c_massey = {
+	800.1.1={
+		liege=d_massey
+	}
+}
+c_chaucer = {
+	800.1.1={
+		liege=d_massey
+	}
+}
+d_wendfront = {
 	800.1.1={
 		liege=k_masseys_hook
 	}
 }
-c_mc3 = {
+c_wendfront = {
 	800.1.1={
-		liege=d_sharp_point
+		liege=d_wendfront
+	}
+}
+c_orandale = {
+	800.1.1={
+		liege=d_wendfront
+	}
+}
+c_chertsy = {
+	800.1.1={
+		liege=d_wendfront
+	}
+}
+c_sandpit_hall = {
+	800.1.1={
+		liege=d_wendfront
 	}
 }

@@ -3,33 +3,113 @@ k_the_fingers = {
 		liege=e_vale
 	}
 }
-d_the_fingers = {
+d_strongsong = {
 	800.1.1={
 		liege=k_the_fingers
 	}
 }
-c_vfff = {
+c_strongsong = {
 	800.1.1={
-		liege=d_the_fingers
+		liege=d_strongsong
 	}
 }
-d_hearts_home = {
+c_tesston = {
+	800.1.1={
+		liege=d_strongsong
+	}
+}
+c_eager_arm = {
+	800.1.1={
+		liege=d_strongsong
+	}
+}
+c_blakes_wood = {
+	800.1.1={
+		liege=d_strongsong
+	}
+}
+d_falconers_vale = {
 	800.1.1={
 		liege=k_the_fingers
 	}
 }
-c_vfhh = {
+c_falcons_nest = {
 	800.1.1={
-		liege=d_hearts_home
+		liege=d_falconers_vale
 	}
 }
-d_allemont = {
+c_harrieton = {
+	800.1.1={
+		liege=d_falconers_vale
+	}
+}
+c_dukes_fold = {
+	800.1.1={
+		liege=d_falconers_vale
+	}
+}
+c_scorned_weir = {
+	800.1.1={
+		liege=d_falconers_vale
+	}
+}
+d_coldwater = {
 	800.1.1={
 		liege=k_the_fingers
 	}
 }
-c_vfam = {
+c_broken_finger = {
 	800.1.1={
-		liege=d_allemont
+		liege=d_coldwater
+	}
+}
+c_knuckle = {
+	800.1.1={
+		liege=d_coldwater
+	}
+}
+c_coldwater_isle = {
+	800.1.1={
+		liege=d_coldwater
+	}
+}
+c_shipbreaker = {
+	800.1.1={
+		liege=d_coldwater
+	}
+}
+c_coldwater_bay = {
+	800.1.1={
+		liege=d_coldwater
+	}
+}
+d_snake_woods = {
+	800.1.1={
+		liege=k_the_fingers
+	}
+}
+c_snake_woods = {
+	800.1.1={
+		liege=d_snake_woods
+	}
+}
+c_timberknuckle = {
+	800.1.1={
+		liege=d_snake_woods
+	}
+}
+c_splitjoint = {
+	800.1.1={
+		liege=d_snake_woods
+	}
+}
+c_central_finger = {
+	800.1.1={
+		liege=d_snake_woods
+	}
+}
+c_longfinger = {
+	800.1.1={
+		liege=d_snake_woods
 	}
 }

@@ -3,13 +3,88 @@ k_mistwood = {
 		liege=e_stormlands
 	}
 }
+d_lockport = {
+	800.1.1={
+		liege=k_mistwood
+	}
+}
+c_lockport = {
+	800.1.1={
+		liege=d_lockport
+	}
+}
+c_p25 = {
+	800.1.1={
+		liege=d_lockport
+	}
+}
+c_p26 = {
+	800.1.1={
+		liege=d_lockport
+	}
+}
+c_p27 = {
+	800.1.1={
+		liege=d_lockport
+	}
+}
+c_wrath_isle = {
+	800.1.1={
+		liege=d_lockport
+	}
+}
+c_sober_isle = {
+	800.1.1={
+		liege=d_lockport
+	}
+}
 d_mistwood = {
 	800.1.1={
 		liege=k_mistwood
 	}
 }
-c_mc1 = {
+c_mistwood = {
 	800.1.1={
 		liege=d_mistwood
+	}
+}
+c_p28 = {
+	800.1.1={
+		liege=d_mistwood
+	}
+}
+c_mistwood_isle = {
+	800.1.1={
+		liege=d_mistwood
+	}
+}
+c_p29 = {
+	800.1.1={
+		liege=d_mistwood
+	}
+}
+d_weeping_coast = {
+	800.1.1={
+		liege=k_mistwood
+	}
+}
+c_weeping_coast = {
+	800.1.1={
+		liege=d_weeping_coast
+	}
+}
+c_p30 = {
+	800.1.1={
+		liege=d_weeping_coast
+	}
+}
+c_p31 = {
+	800.1.1={
+		liege=d_weeping_coast
+	}
+}
+c_p32 = {
+	800.1.1={
+		liege=d_weeping_coast
 	}
 }

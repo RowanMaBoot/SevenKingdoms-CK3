@@ -3,34 +3,79 @@ k_sunspear = {
 		liege=e_dorne
 	}
 }
-d_tower_of_the_sun = {
+d_sunspear = {
 	800.1.1={
 		liege=k_sunspear
 	}
 }
-c_totsc = {
+c_sunspear = {
 	800.1.1={
-		liege=d_tower_of_the_sun
+		liege=d_sunspear
 	}
 }
-d_the_vipers_nest = {
+c_the_shadow_town = {
+	800.1.1={
+		liege=d_sunspear
+	}
+}
+c_spear_tower = {
+	800.1.1={
+		liege=d_sunspear
+	}
+}
+c_water_gardens = {
+	800.1.1={
+		liege=d_sunspear
+	}
+}
+d_spotswood = {
 	800.1.1={
 		liege=k_sunspear
 	}
 }
-c_vnc1 = {
+c_tower_of_the_sun = {
 	800.1.1={
-		liege=d_the_vipers_nest
+		liege=d_spotswood
 	}
 }
-d_the_broken_arm = {
+c_greystoke = {
+	800.1.1={
+		liege=d_spotswood
+	}
+}
+c_olive_grove = {
+	800.1.1={
+		liege=d_spotswood
+	}
+}
+c_spotswood = {
+	800.1.1={
+		liege=d_spotswood
+	}
+}
+d_broken_arm = {
 	800.1.1={
 		liege=k_sunspear
 	}
 }
-c_bac1 = {
+c_broken_arm = {
 	800.1.1={
-		liege=d_the_broken_arm
+		liege=d_broken_arm
+	}
+}
+c_tribunal = {
+	800.1.1={
+		liege=d_broken_arm
+	}
+}
+c_threefold_gate = {
+	800.1.1={
+		liege=d_broken_arm
+	}
+}
+c_whitecliff = {
+	800.1.1={
+		liege=d_broken_arm
 	}
 }
 d_ghost_hill = {
@@ -38,18 +83,23 @@ d_ghost_hill = {
 		liege=k_sunspear
 	}
 }
-c_d3 = {
+c_ghost_hill = {
 	800.1.1={
 		liege=d_ghost_hill
 	}
 }
-d_sunspear = {
+c_planky_town = {
 	800.1.1={
-		liege=k_sunspear
+		liege=d_ghost_hill
 	}
 }
-c_d5 = {
+c_sandgate = {
 	800.1.1={
-		liege=d_sunspear
+		liege=d_ghost_hill
+	}
+}
+c_shadow_palace = {
+	800.1.1={
+		liege=d_ghost_hill
 	}
 }

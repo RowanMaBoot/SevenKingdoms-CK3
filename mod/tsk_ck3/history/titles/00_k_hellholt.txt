@@ -3,33 +3,93 @@ k_hellholt = {
 		liege=e_dorne
 	}
 }
-d_d21 = {
+d_hellmont = {
 	800.1.1={
 		liege=k_hellholt
 	}
 }
-c_d21 = {
+c_hellholt = {
 	800.1.1={
-		liege=d_d21
+		liege=d_hellmont
 	}
 }
-d_d22 = {
+c_fiend_keep = {
+	800.1.1={
+		liege=d_hellmont
+	}
+}
+c_nymerwell = {
+	800.1.1={
+		liege=d_hellmont
+	}
+}
+c_brinepass = {
+	800.1.1={
+		liege=d_hellmont
+	}
+}
+d_brimstone = {
 	800.1.1={
 		liege=k_hellholt
 	}
 }
-c_d22 = {
+c_brimstone = {
 	800.1.1={
-		liege=d_d22
+		liege=d_brimstone
 	}
 }
-d_hellholt = {
+c_goatvale = {
+	800.1.1={
+		liege=d_brimstone
+	}
+}
+c_tepids = {
+	800.1.1={
+		liege=d_brimstone
+	}
+}
+d_tidmarsh = {
 	800.1.1={
 		liege=k_hellholt
 	}
 }
-c_d23 = {
+c_tidmarsh = {
 	800.1.1={
-		liege=d_hellholt
+		liege=d_tidmarsh
+	}
+}
+c_tdm1 = {
+	800.1.1={
+		liege=d_tidmarsh
+	}
+}
+c_tdm2 = {
+	800.1.1={
+		liege=d_tidmarsh
+	}
+}
+c_tdm3 = {
+	800.1.1={
+		liege=d_tidmarsh
+	}
+}
+d_desert_rush = {
+	800.1.1={
+		liege=k_hellholt
+	}
+}
+c_desert_rush = {
+	800.1.1={
+		liege=d_desert_rush
+	}
+}
+c_vaith_crossing = {
+	800.1.1={
+		liege=d_desert_rush
+	}
+}
+c_viperpass = {
+	800.1.1={
+		liege=d_desert_rush
 	}
 }

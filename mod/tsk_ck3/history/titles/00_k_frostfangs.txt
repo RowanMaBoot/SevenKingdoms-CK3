@@ -3,53 +3,98 @@ k_frostfangs = {
 		liege=e_beyond_the_wall
 	}
 }
-d_frozen_bay = {
-	800.1.1={
-		liege=k_frostfangs
-	}
-}
-c_bwfb = {
-	800.1.1={
-		liege=d_frozen_bay
-	}
-}
-d_southern_peaks = {
-	800.1.1={
-		liege=k_frostfangs
-	}
-}
-c_bwsp = {
-	800.1.1={
-		liege=d_southern_peaks
-	}
-}
-d_seal_bay = {
-	800.1.1={
-		liege=k_frostfangs
-	}
-}
-c_bwsb = {
-	800.1.1={
-		liege=d_seal_bay
-	}
-}
-d_blue_peaks = {
-	800.1.1={
-		liege=k_frostfangs
-	}
-}
-c_bwbp = {
-	800.1.1={
-		liege=d_blue_peaks
-	}
-}
 d_fist_of_the_first_men = {
 	800.1.1={
 		liege=k_frostfangs
 	}
 }
-c_bwffm = {
+c_fist_of_the_first_men = {
 	800.1.1={
 		liege=d_fist_of_the_first_men
+	}
+}
+c_ice_thicket = {
+	800.1.1={
+		liege=d_fist_of_the_first_men
+	}
+}
+c_giants_stair = {
+	800.1.1={
+		liege=d_fist_of_the_first_men
+	}
+}
+d_upper_frostfangs = {
+	800.1.1={
+		liege=k_frostfangs
+	}
+}
+c_shadow_arch = {
+	800.1.1={
+		liege=d_upper_frostfangs
+	}
+}
+c_shivering_peak = {
+	800.1.1={
+		liege=d_upper_frostfangs
+	}
+}
+c_blue_horn = {
+	800.1.1={
+		liege=d_upper_frostfangs
+	}
+}
+c_rumbling_rush = {
+	800.1.1={
+		liege=d_upper_frostfangs
+	}
+}
+d_lower_frostfangs = {
+	800.1.1={
+		liege=k_frostfangs
+	}
+}
+c_giants_foot = {
+	800.1.1={
+		liege=d_lower_frostfangs
+	}
+}
+c_old_iron = {
+	800.1.1={
+		liege=d_lower_frostfangs
+	}
+}
+c_broken_keep = {
+	800.1.1={
+		liege=d_lower_frostfangs
+	}
+}
+c_dangling_pines = {
+	800.1.1={
+		liege=d_lower_frostfangs
+	}
+}
+d_the_gap = {
+	800.1.1={
+		liege=k_frostfangs
+	}
+}
+c_whitetree = {
+	800.1.1={
+		liege=d_the_gap
+	}
+}
+c_antler_rise = {
+	800.1.1={
+		liege=d_the_gap
+	}
+}
+c_deep_valley = {
+	800.1.1={
+		liege=d_the_gap
+	}
+}
+c_cold_corpse_grove = {
+	800.1.1={
+		liege=d_the_gap
 	}
 }

@@ -3,33 +3,153 @@ k_wendwater = {
 		liege=e_stormlands
 	}
 }
+d_eastwood = {
+	800.1.1={
+		liege=k_wendwater
+	}
+}
+c_eastwood_hall = {
+	800.1.1={
+		liege=d_eastwood
+	}
+}
+c_p61 = {
+	800.1.1={
+		liege=d_eastwood
+	}
+}
+c_p62 = {
+	800.1.1={
+		liege=d_eastwood
+	}
+}
+c_p63 = {
+	800.1.1={
+		liege=d_eastwood
+	}
+}
 d_wendwater = {
 	800.1.1={
 		liege=k_wendwater
 	}
 }
-c_mh1 = {
+c_wendwater = {
 	800.1.1={
 		liege=d_wendwater
 	}
 }
-d_stone_dance = {
+c_p64 = {
+	800.1.1={
+		liege=d_wendwater
+	}
+}
+c_p65 = {
+	800.1.1={
+		liege=d_wendwater
+	}
+}
+c_p66 = {
+	800.1.1={
+		liege=d_wendwater
+	}
+}
+d_princes_clearing = {
 	800.1.1={
 		liege=k_wendwater
 	}
 }
-c_mc2 = {
+c_princes_clearing = {
 	800.1.1={
-		liege=d_stone_dance
+		liege=d_princes_clearing
 	}
 }
-d_masseys_hook = {
+c_p67 = {
+	800.1.1={
+		liege=d_princes_clearing
+	}
+}
+c_p68 = {
+	800.1.1={
+		liege=d_princes_clearing
+	}
+}
+d_felwood = {
 	800.1.1={
 		liege=k_wendwater
 	}
 }
-c_mc3 = {
+c_felwood = {
 	800.1.1={
-		liege=d_masseys_hook
+		liege=d_felwood
+	}
+}
+c_p69 = {
+	800.1.1={
+		liege=d_felwood
+	}
+}
+c_p70 = {
+	800.1.1={
+		liege=d_felwood
+	}
+}
+c_p71 = {
+	800.1.1={
+		liege=d_felwood
+	}
+}
+c_p72 = {
+	800.1.1={
+		liege=d_felwood
+	}
+}
+d_kingswood = {
+	800.1.1={
+		liege=k_wendwater
+	}
+}
+c_kingswood = {
+	800.1.1={
+		liege=d_kingswood
+	}
+}
+c_poachers_pass = {
+	800.1.1={
+		liege=d_kingswood
+	}
+}
+c_weirwoods = {
+	800.1.1={
+		liege=d_kingswood
+	}
+}
+c_lumber_hold = {
+	800.1.1={
+		liege=d_kingswood
+	}
+}
+d_blackwater_coast = {
+	800.1.1={
+		liege=k_wendwater
+	}
+}
+c_blackwater_coast = {
+	800.1.1={
+		liege=d_blackwater_coast
+	}
+}
+c_p73 = {
+	800.1.1={
+		liege=d_blackwater_coast
+	}
+}
+c_p74 = {
+	800.1.1={
+		liege=d_blackwater_coast
+	}
+}
+c_p75 = {
+	800.1.1={
+		liege=d_blackwater_coast
 	}
 }

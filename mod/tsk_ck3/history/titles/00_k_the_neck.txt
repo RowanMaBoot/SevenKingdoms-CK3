@@ -3,34 +3,104 @@ k_the_neck = {
 		liege=e_the_north
 	}
 }
-d_the_border_marches = {
+d_fever = {
 	800.1.1={
 		liege=k_the_neck
 	}
 }
-c_tnbm = {
+c_greywater_watch = {
 	800.1.1={
-		liege=d_the_border_marches
+		liege=d_fever
 	}
 }
-d_the_neck = {
+c_greydun = {
+	800.1.1={
+		liege=d_fever
+	}
+}
+c_woodend = {
+	800.1.1={
+		liege=d_fever
+	}
+}
+c_reedhall = {
+	800.1.1={
+		liege=d_fever
+	}
+}
+d_silvereed = {
 	800.1.1={
 		liege=k_the_neck
 	}
 }
-c_tntn = {
+c_silvereed = {
 	800.1.1={
-		liege=d_the_neck
+		liege=d_silvereed
 	}
 }
-d_greywater = {
+c_sorrows = {
+	800.1.1={
+		liege=d_silvereed
+	}
+}
+c_silver_marsh = {
+	800.1.1={
+		liege=d_silvereed
+	}
+}
+c_sunken_grove = {
+	800.1.1={
+		liege=d_silvereed
+	}
+}
+d_border_marches = {
 	800.1.1={
 		liege=k_the_neck
 	}
 }
-c_tngw = {
+c_iron_bog = {
 	800.1.1={
-		liege=d_greywater
+		liege=d_border_marches
+	}
+}
+c_lowbarrows = {
+	800.1.1={
+		liege=d_border_marches
+	}
+}
+c_blistering_fens = {
+	800.1.1={
+		liege=d_border_marches
+	}
+}
+c_sunken_fort = {
+	800.1.1={
+		liege=d_border_marches
+	}
+}
+d_flint_cliffs = {
+	800.1.1={
+		liege=k_the_neck
+	}
+}
+c_tamms_crannog = {
+	800.1.1={
+		liege=d_flint_cliffs
+	}
+}
+c_flinn_fort = {
+	800.1.1={
+		liege=d_flint_cliffs
+	}
+}
+c_crayhold = {
+	800.1.1={
+		liege=d_flint_cliffs
+	}
+}
+c_crawcliff = {
+	800.1.1={
+		liege=d_flint_cliffs
 	}
 }
 d_flints_finger = {
@@ -38,18 +108,23 @@ d_flints_finger = {
 		liege=k_the_neck
 	}
 }
-c_tnff = {
+c_ring_rock = {
 	800.1.1={
 		liege=d_flints_finger
 	}
 }
-d_cape_kraken = {
+c_flints_finger = {
 	800.1.1={
-		liege=k_the_neck
+		liege=d_flints_finger
 	}
 }
-c_tnck = {
+c_green_hill = {
 	800.1.1={
-		liege=d_cape_kraken
+		liege=d_flints_finger
+	}
+}
+c_cape_kraken = {
+	800.1.1={
+		liege=d_flints_finger
 	}
 }

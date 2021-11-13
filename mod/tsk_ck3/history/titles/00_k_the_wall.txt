@@ -3,13 +3,58 @@ k_the_wall = {
 		liege=e_the_wall
 	}
 }
-d_the_wall = {
+d_castle_black = {
 	800.1.1={
 		liege=k_the_wall
 	}
 }
-c_tw = {
+c_castle_black = {
 	800.1.1={
-		liege=d_the_wall
+		liege=d_castle_black
+	}
+}
+d_eastwatch_by_the_sea = {
+	800.1.1={
+		liege=k_the_wall
+	}
+}
+c_eastwatch_by_the_sea = {
+	800.1.1={
+		liege=d_eastwatch_by_the_sea
+	}
+}
+d_shadow_tower = {
+	800.1.1={
+		liege=k_the_wall
+	}
+}
+c_shadow_tower = {
+	800.1.1={
+		liege=d_shadow_tower
+	}
+}
+d_brandons_gift = {
+	800.1.1={
+		liege=k_the_wall
+	}
+}
+c_moles_town = {
+	800.1.1={
+		liege=d_brandons_gift
+	}
+}
+c_brandons_fort = {
+	800.1.1={
+		liege=d_brandons_gift
+	}
+}
+d_gift = {
+	800.1.1={
+		liege=k_the_wall
+	}
+}
+c_queenscrown = {
+	800.1.1={
+		liege=d_gift
 	}
 }

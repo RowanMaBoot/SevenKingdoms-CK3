@@ -3,83 +3,98 @@ k_rainwood = {
 		liege=e_stormlands
 	}
 }
-d_r1 = {
+d_rain_house = {
 	800.1.1={
 		liege=k_rainwood
 	}
 }
-c_rc1 = {
+c_rain_house = {
 	800.1.1={
-		liege=d_r1
+		liege=d_rain_house
 	}
 }
-d_r2 = {
+c_p12 = {
+	800.1.1={
+		liege=d_rain_house
+	}
+}
+c_p13 = {
+	800.1.1={
+		liege=d_rain_house
+	}
+}
+c_p14 = {
+	800.1.1={
+		liege=d_rain_house
+	}
+}
+c_dummy69 = {
+	800.1.1={
+		liege=d_rain_house
+	}
+}
+c_rain_isle = {
+	800.1.1={
+		liege=d_rain_house
+	}
+}
+d_rainwood = {
 	800.1.1={
 		liege=k_rainwood
 	}
 }
-c_rc2 = {
+c_p15 = {
 	800.1.1={
-		liege=d_r2
+		liege=d_rainwood
 	}
 }
-d_r3 = {
+c_p16 = {
+	800.1.1={
+		liege=d_rainwood
+	}
+}
+c_p17 = {
+	800.1.1={
+		liege=d_rainwood
+	}
+}
+d_crow_coast = {
 	800.1.1={
 		liege=k_rainwood
 	}
 }
-c_rc3 = {
+c_p18 = {
 	800.1.1={
-		liege=d_r3
+		liege=d_crow_coast
 	}
 }
-d_r4 = {
+c_p19 = {
+	800.1.1={
+		liege=d_crow_coast
+	}
+}
+c_p20 = {
+	800.1.1={
+		liege=d_crow_coast
+	}
+}
+d_misty_cove = {
 	800.1.1={
 		liege=k_rainwood
 	}
 }
-c_rc4 = {
+c_smugglers_cove = {
 	800.1.1={
-		liege=d_r4
+		liege=d_misty_cove
 	}
 }
-d_r5 = {
+c_p22 = {
 	800.1.1={
-		liege=k_rainwood
+		liege=d_misty_cove
 	}
 }
-c_rc5 = {
+c_misty_hills = {
 	800.1.1={
-		liege=d_r5
-	}
-}
-d_r6 = {
-	800.1.1={
-		liege=k_rainwood
-	}
-}
-c_rc6 = {
-	800.1.1={
-		liege=d_r6
-	}
-}
-d_r7 = {
-	800.1.1={
-		liege=k_rainwood
-	}
-}
-c_rc7 = {
-	800.1.1={
-		liege=d_r7
-	}
-}
-d_r8 = {
-	800.1.1={
-		liege=k_rainwood
-	}
-}
-c_rc8 = {
-	800.1.1={
-		liege=d_r8
+		liege=d_misty_cove
 	}
 }

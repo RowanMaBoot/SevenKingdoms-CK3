@@ -3,33 +3,123 @@ k_dusklands = {
 		liege=e_dusklands
 	}
 }
-d_rosby = {
-	800.1.1={
-		liege=k_dusklands
-	}
-}
-c_ddr = {
-	800.1.1={
-		liege=d_rosby
-	}
-}
 d_duskendale = {
 	800.1.1={
 		liege=k_dusklands
 	}
 }
-c_ddd = {
+c_duskendale = {
 	800.1.1={
 		liege=d_duskendale
 	}
 }
-d_sows_horn = {
+c_darrys_end = {
+	800.1.1={
+		liege=d_duskendale
+	}
+}
+c_rooks_rest = {
+	800.1.1={
+		liege=d_duskendale
+	}
+}
+d_dorlale = {
 	800.1.1={
 		liege=k_dusklands
 	}
 }
-c_ddsh = {
+c_dorlale = {
 	800.1.1={
-		liege=d_sows_horn
+		liege=d_dorlale
+	}
+}
+c_whitmoor = {
+	800.1.1={
+		liege=d_dorlale
+	}
+}
+c_rockly = {
+	800.1.1={
+		liege=d_dorlale
+	}
+}
+d_crystal_ridge = {
+	800.1.1={
+		liege=k_dusklands
+	}
+}
+c_crystalmere = {
+	800.1.1={
+		liege=d_crystal_ridge
+	}
+}
+c_drake_ridge = {
+	800.1.1={
+		liege=d_crystal_ridge
+	}
+}
+c_esterhill = {
+	800.1.1={
+		liege=d_crystal_ridge
+	}
+}
+d_anterland = {
+	800.1.1={
+		liege=k_dusklands
+	}
+}
+c_the_antlers = {
+	800.1.1={
+		liege=d_anterland
+	}
+}
+c_fuisse = {
+	800.1.1={
+		liege=d_anterland
+	}
+}
+c_stoneroll = {
+	800.1.1={
+		liege=d_anterland
+	}
+}
+d_montroll = {
+	800.1.1={
+		liege=k_dusklands
+	}
+}
+c_montroll = {
+	800.1.1={
+		liege=d_montroll
+	}
+}
+c_dragon_marsh = {
+	800.1.1={
+		liege=d_montroll
+	}
+}
+c_fall_woods = {
+	800.1.1={
+		liege=d_montroll
+	}
+}
+d_mormtley = {
+	800.1.1={
+		liege=k_dusklands
+	}
+}
+c_mormead = {
+	800.1.1={
+		liege=d_mormtley
+	}
+}
+c_apt = {
+	800.1.1={
+		liege=d_mormtley
+	}
+}
+c_corcourt = {
+	800.1.1={
+		liege=d_mormtley
 	}
 }

@@ -3,23 +3,58 @@ k_last_hearth = {
 		liege=e_the_north
 	}
 }
+d_the_weeping_shore = {
+	800.1.1={
+		liege=k_last_hearth
+	}
+}
+c_karhold = {
+	800.1.1={
+		liege=d_the_weeping_shore
+	}
+}
+c_the_grey_cliffs = {
+	800.1.1={
+		liege=d_the_weeping_shore
+	}
+}
+c_barbleton = {
+	800.1.1={
+		liege=d_the_weeping_shore
+	}
+}
+c_the_weeping_shore = {
+	800.1.1={
+		liege=d_the_weeping_shore
+	}
+}
+c_east_harbour = {
+	800.1.1={
+		liege=d_the_weeping_shore
+	}
+}
 d_last_hearth = {
 	800.1.1={
 		liege=k_last_hearth
 	}
 }
-c_tnlh = {
+c_last_hearth = {
 	800.1.1={
 		liege=d_last_hearth
 	}
 }
-d_gift = {
+c_lonely_hill = {
 	800.1.1={
-		liege=k_last_hearth
+		liege=d_last_hearth
 	}
 }
-c_tng = {
+c_northwold = {
 	800.1.1={
-		liege=d_gift
+		liege=d_last_hearth
+	}
+}
+c_snowdell = {
+	800.1.1={
+		liege=d_last_hearth
 	}
 }

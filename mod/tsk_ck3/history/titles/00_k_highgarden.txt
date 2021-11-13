@@ -3,34 +3,164 @@ k_highgarden = {
 		liege=e_reach
 	}
 }
-d_brightwater = {
-	800.1.1={
-		liege=k_highgarden
-	}
-}
-c_h1c = {
-	800.1.1={
-		liege=d_brightwater
-	}
-}
 d_highgarden = {
 	800.1.1={
 		liege=k_highgarden
 	}
 }
-c_h2c = {
+c_highgarden = {
 	800.1.1={
 		liege=d_highgarden
 	}
 }
-d_oceanside = {
+c_rose_coast = {
+	800.1.1={
+		liege=d_highgarden
+	}
+}
+c_rose_meadows = {
+	800.1.1={
+		liege=d_highgarden
+	}
+}
+c_rose_tower = {
+	800.1.1={
+		liege=d_highgarden
+	}
+}
+c_apple_hall = {
+	800.1.1={
+		liege=d_highgarden
+	}
+}
+d_brightwater = {
 	800.1.1={
 		liege=k_highgarden
 	}
 }
-c_h3c = {
+c_brightwater = {
 	800.1.1={
-		liege=d_oceanside
+		liege=d_brightwater
+	}
+}
+c_twinsbury = {
+	800.1.1={
+		liege=d_brightwater
+	}
+}
+c_warchester = {
+	800.1.1={
+		liege=d_brightwater
+	}
+}
+c_safford = {
+	800.1.1={
+		liege=d_brightwater
+	}
+}
+d_oldstream = {
+	800.1.1={
+		liege=k_highgarden
+	}
+}
+c_oldstream = {
+	800.1.1={
+		liege=d_oldstream
+	}
+}
+c_green_coast = {
+	800.1.1={
+		liege=d_oldstream
+	}
+}
+c_apple_orchards = {
+	800.1.1={
+		liege=d_oldstream
+	}
+}
+c_old_stones = {
+	800.1.1={
+		liege=d_oldstream
+	}
+}
+d_saffron_road = {
+	800.1.1={
+		liege=k_highgarden
+	}
+}
+c_saffron = {
+	800.1.1={
+		liege=d_saffron_road
+	}
+}
+c_rhsrc1 = {
+	800.1.1={
+		liege=d_saffron_road
+	}
+}
+c_rhsrc2 = {
+	800.1.1={
+		liege=d_saffron_road
+	}
+}
+c_rhsrc3 = {
+	800.1.1={
+		liege=d_saffron_road
+	}
+}
+d_mandervale = {
+	800.1.1={
+		liege=k_highgarden
+	}
+}
+c_mandervale = {
+	800.1.1={
+		liege=d_mandervale
+	}
+}
+c_manderheart = {
+	800.1.1={
+		liege=d_mandervale
+	}
+}
+c_gold_coast = {
+	800.1.1={
+		liege=d_mandervale
+	}
+}
+c_reachd1 = {
+	800.1.1={
+		liege=d_mandervale
+	}
+}
+c_reachd2 = {
+	800.1.1={
+		liege=d_mandervale
+	}
+}
+d_green_arm = {
+	800.1.1={
+		liege=k_highgarden
+	}
+}
+c_green_arm = {
+	800.1.1={
+		liege=d_green_arm
+	}
+}
+c_green_fort = {
+	800.1.1={
+		liege=d_green_arm
+	}
+}
+c_reachd3 = {
+	800.1.1={
+		liege=d_green_arm
+	}
+}
+c_reachd4 = {
+	800.1.1={
+		liege=d_green_arm
 	}
 }
 d_mander = {
@@ -38,18 +168,23 @@ d_mander = {
 		liege=k_highgarden
 	}
 }
-c_h4c = {
+c_reachd5 = {
 	800.1.1={
 		liege=d_mander
 	}
 }
-d_longtable = {
+c_mander = {
 	800.1.1={
-		liege=k_highgarden
+		liege=d_mander
 	}
 }
-c_h5c = {
+c_manderfort = {
 	800.1.1={
-		liege=d_longtable
+		liege=d_mander
+	}
+}
+c_reachd7 = {
+	800.1.1={
+		liege=d_mander
 	}
 }

@@ -1,25 +1,105 @@
 k_mountain_clans = {
 	800.1.1={
-		liege=e_vale
+		liege=e_the_north
 	}
 }
-d_blackrock = {
+d_lakevale = {
 	800.1.1={
 		liege=k_mountain_clans
 	}
 }
-c_vmcb = {
+c_oldfang = {
 	800.1.1={
-		liege=d_blackrock
+		liege=d_lakevale
 	}
 }
-d_deep_vales = {
+c_last_drink = {
+	800.1.1={
+		liege=d_lakevale
+	}
+}
+c_frozen_stream = {
+	800.1.1={
+		liege=d_lakevale
+	}
+}
+c_woodhaven = {
+	800.1.1={
+		liege=d_lakevale
+	}
+}
+d_shadowmore = {
 	800.1.1={
 		liege=k_mountain_clans
 	}
 }
-c_vmcf = {
+c_shadowmore = {
 	800.1.1={
-		liege=d_deep_vales
+		liege=d_shadowmore
+	}
+}
+c_arrendell = {
+	800.1.1={
+		liege=d_shadowmore
+	}
+}
+c_crows_edge = {
+	800.1.1={
+		liege=d_shadowmore
+	}
+}
+d_northern_clans = {
+	800.1.1={
+		liege=k_mountain_clans
+	}
+}
+c_flint_keep = {
+	800.1.1={
+		liege=d_northern_clans
+	}
+}
+c_harclay = {
+	800.1.1={
+		liege=d_northern_clans
+	}
+}
+c_shale = {
+	800.1.1={
+		liege=d_northern_clans
+	}
+}
+c_northtown = {
+	800.1.1={
+		liege=d_northern_clans
+	}
+}
+c_forskane = {
+	800.1.1={
+		liege=d_northern_clans
+	}
+}
+d_central_clans = {
+	800.1.1={
+		liege=k_mountain_clans
+	}
+}
+c_knott = {
+	800.1.1={
+		liege=d_central_clans
+	}
+}
+c_wull = {
+	800.1.1={
+		liege=d_central_clans
+	}
+}
+c_caw = {
+	800.1.1={
+		liege=d_central_clans
+	}
+}
+c_liddle = {
+	800.1.1={
+		liege=d_central_clans
 	}
 }
