@@ -1,0 +1,4966 @@
+mormont_1 = {
+    name = "Aethan"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = honest
+    trait = vengeful
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 7
+    intrigue = 8
+    learning = 3
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    4430.12.1 = {
+        birth = yes
+    }
+
+    4470.5.18 = {
+        add_spouse = mormont_2
+    }
+
+    4498.12.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_2 = {
+    name = "Alyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = honest
+    trait = diligent
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 9
+    learning = 8
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    4453.12.26 = {
+        birth = yes
+    }
+
+    4536.1.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_3 = {
+    name = "Larence"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_1
+    mother = mormont_2
+
+    trait = vengeful
+    trait = honest
+    trait = craven
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_4
+
+    4493.1.25 = {
+        birth = yes
+    }
+
+    4528.1.20 = {
+        add_spouse = mormont_4
+    }
+
+    4575.9.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_4 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = wrathful
+    trait = impatient
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_4
+
+    4511.3.4 = {
+        birth = yes
+    }
+
+    4586.4.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_5 = {
+    name = "Heward"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_3
+    mother = mormont_4
+
+    trait = impatient
+    trait = vengeful
+    trait = paranoid
+
+    diplomacy = 23
+    martial = 20
+    stewardship = 20
+    intrigue = 13
+    learning = 10
+    prowess = 23
+
+    trait = education_diplomacy_4
+
+    4547.1.21 = {
+        birth = yes
+    }
+
+    4568.2.11 = {
+        add_spouse = mormont_6
+    }
+
+    4621.2.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_6 = {
+    name = "Barbrey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = craven
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 9
+    intrigue = 5
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    4551.12.17 = {
+        birth = yes
+    }
+
+    4617.5.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_7 = {
+    name = "Bass"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_5
+    mother = mormont_6
+
+    trait = humble
+    trait = calm
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    4591.5.8 = {
+        birth = yes
+    }
+
+    4630.4.3 = {
+        add_spouse = mormont_8
+    }
+
+    4658.8.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_8 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = callous
+    trait = brave
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_2
+
+    4613.1.23 = {
+        birth = yes
+    }
+
+    4698.5.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_9 = {
+    name = "Bartimus"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_7
+    mother = mormont_8
+
+    trait = impatient
+    trait = humble
+    trait = generous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 4
+    intrigue = 9
+    learning = 5
+    prowess = 9
+
+    trait = education_intrigue_4
+
+    4632.1.13 = {
+        birth = yes
+    }
+
+    4676.9.22 = {
+        add_spouse = mormont_10
+    }
+
+    4714.7.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_10 = {
+    name = "Raya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = calm
+    trait = gregarious
+
+    diplomacy = 2
+    martial = 9
+    stewardship = 8
+    intrigue = 8
+    learning = 5
+    prowess = 10
+
+    trait = education_martial_3
+
+    4659.10.6 = {
+        birth = yes
+    }
+
+    4724.4.23 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+mormont_11 = {
+    name = "Cley"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_9
+    mother = mormont_10
+
+    trait = diligent
+    trait = gluttonous
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 10
+    learning = 8
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    4705.5.9 = {
+        birth = yes
+    }
+
+    4737.5.9 = {
+        add_spouse = mormont_12
+    }
+
+    4775.3.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_12 = {
+    name = "Berena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = lustful
+    trait = content
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_2
+
+    4720.2.9 = {
+        birth = yes
+    }
+
+    4803.3.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_13 = {
+    name = "Yoren"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_11
+    mother = mormont_12
+
+    trait = deceitful
+    trait = greedy
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 9
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    4759.6.21 = {
+        birth = yes
+    }
+
+    4808.10.14 = {
+        add_spouse = mormont_14
+    }
+
+    4829.7.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_14 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = just
+    trait = craven
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_3
+
+    4791.9.16 = {
+        birth = yes
+    }
+
+    4867.5.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_15 = {
+    name = "Jojen"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_13
+    mother = mormont_14
+
+    trait = ambitious
+    trait = paranoid
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    4810.8.1 = {
+        birth = yes
+    }
+
+    4852.9.14 = {
+        add_spouse = mormont_16
+    }
+
+    4879.8.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_16 = {
+    name = "Bethany"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = gluttonous
+    trait = fickle
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 5
+    intrigue = 10
+    learning = 7
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    4835.12.4 = {
+        birth = yes
+    }
+
+    4913.2.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_17 = {
+    name = "Arnolf"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_15
+    mother = mormont_16
+
+    trait = forgiving
+    trait = calm
+    trait = shy
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 7
+    intrigue = 3
+    learning = 4
+    prowess = 11
+
+    trait = education_martial_2
+
+    4868.5.19 = {
+        birth = yes
+    }
+
+    4896.6.13 = {
+        add_spouse = mormont_18
+    }
+
+    4953.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_18 = {
+    name = "Alyx"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = cynical
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 3
+    intrigue = 4
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_3
+
+    4879.2.5 = {
+        birth = yes
+    }
+
+    4948.4.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_19 = {
+    name = "Donnel"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_17
+    mother = mormont_18
+
+    trait = humble
+    trait = gregarious
+    trait = calm
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    4914.11.19 = {
+        birth = yes
+    }
+
+    4947.10.20 = {
+        add_spouse = mormont_20
+    }
+
+    4999.6.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_20 = {
+    name = "Wylla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = humble
+    trait = diligent
+    trait = arbitrary
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_3
+
+    4930.5.1 = {
+        birth = yes
+    }
+
+    5008.5.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_21 = {
+    name = "Walder"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_19
+    mother = mormont_20
+
+    trait = honest
+    trait = lazy
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 6
+    intrigue = 1
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_3
+
+    4976.2.22 = {
+        birth = yes
+    }
+
+    5021.3.19 = {
+        add_spouse = mormont_22
+    }
+
+    5046.4.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_22 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = fickle
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    5004.11.12 = {
+        birth = yes
+    }
+
+    5081.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_23 = {
+    name = "Walder"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_21
+    mother = mormont_22
+
+    trait = craven
+    trait = just
+    trait = forgiving
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 7
+    intrigue = 10
+    learning = 7
+    prowess = 3
+
+    trait = education_intrigue_1
+
+    5033.11.24 = {
+        birth = yes
+    }
+
+    5081.5.13 = {
+        add_spouse = mormont_24
+    }
+
+    5117.11.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_24 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = greedy
+    trait = forgiving
+    trait = arbitrary
+
+    diplomacy = 10
+    martial = 1
+    stewardship = 11
+    intrigue = 8
+    learning = 4
+    prowess = 4
+
+    trait = education_stewardship_1
+
+    5064.9.27 = {
+        birth = yes
+    }
+
+    5144.5.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_25 = {
+    name = "Leobald"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_23
+    mother = mormont_24
+
+    trait = calm
+    trait = trusting
+    trait = callous
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 2
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    5111.10.21 = {
+        birth = yes
+    }
+
+    5157.6.1 = {
+        add_spouse = mormont_26
+    }
+
+    5188.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_26 = {
+    name = "Shiera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = brave
+    trait = just
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 8
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    5140.12.17 = {
+        birth = yes
+    }
+
+    5225.9.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_27 = {
+    name = "Dywen"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_25
+    mother = mormont_26
+
+    trait = patient
+    trait = calm
+    trait = arbitrary
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_learning_2
+
+    5185.1.21 = {
+        birth = yes
+    }
+
+    5234.6.20 = {
+        add_spouse = mormont_28
+    }
+
+    5253.7.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_28 = {
+    name = "Arra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = gluttonous
+    trait = impatient
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 3
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_4
+
+    5217.7.3 = {
+        birth = yes
+    }
+
+    5295.7.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_29 = {
+    name = "Cregan"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_27
+    mother = mormont_28
+
+    trait = vengeful
+    trait = shy
+    trait = content
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 5
+    intrigue = 5
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_4
+
+    5238.7.18 = {
+        birth = yes
+    }
+
+    5260.10.14 = {
+        add_spouse = mormont_30
+    }
+
+    5314.1.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_30 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = deceitful
+    trait = compassionate
+    trait = craven
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    5243.3.25 = {
+        birth = yes
+    }
+
+    5316.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_31 = {
+    name = "Barth"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_29
+    mother = mormont_30
+
+    trait = generous
+    trait = gluttonous
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 3
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    5262.12.18 = {
+        birth = yes
+    }
+
+    5310.2.22 = {
+        add_spouse = mormont_32
+    }
+
+    5341.2.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_32 = {
+    name = "Meliana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = patient
+    trait = zealous
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 8
+    intrigue = 4
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_2
+
+    5293.7.8 = {
+        birth = yes
+    }
+
+    5377.11.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_33 = {
+    name = "Arthor"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_31
+    mother = mormont_32
+
+    trait = stubborn
+    trait = zealous
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 4
+    intrigue = 6
+    learning = 6
+    prowess = 2
+
+    trait = education_intrigue_1
+
+    5310.9.15 = {
+        birth = yes
+    }
+
+    5348.1.1 = {
+        add_spouse = mormont_34
+    }
+
+    5380.11.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_34 = {
+    name = "Darlessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = compassionate
+    trait = honest
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 2
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_3
+
+    5331.9.20 = {
+        birth = yes
+    }
+
+    5407.7.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_35 = {
+    name = "Cellador"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_33
+    mother = mormont_34
+
+    trait = ambitious
+    trait = vengeful
+    trait = wrathful
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 5
+    intrigue = 10
+    learning = 10
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    5372.3.26 = {
+        birth = yes
+    }
+
+    5408.8.25 = {
+        add_spouse = mormont_36
+    }
+
+    5461.6.25 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+mormont_36 = {
+    name = "Lyessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = honest
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 6
+    intrigue = 9
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_2
+
+    5391.1.16 = {
+        birth = yes
+    }
+
+    5475.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_37 = {
+    name = "Artos"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_35
+    mother = mormont_36
+
+    trait = paranoid
+    trait = diligent
+    trait = chaste
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 3
+    intrigue = 4
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_3
+
+    5429.4.13 = {
+        birth = yes
+    }
+
+    5467.6.24 = {
+        add_spouse = mormont_38
+    }
+
+    5501.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_38 = {
+    name = "Mylessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = greedy
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    5450.9.24 = {
+        birth = yes
+    }
+
+    5521.6.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_39 = {
+    name = "Larence"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_37
+    mother = mormont_38
+
+    trait = cynical
+    trait = generous
+    trait = callous
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    5491.12.21 = {
+        birth = yes
+    }
+
+    5505.9.11 = {
+        add_spouse = mormont_40
+    }
+
+    5564.9.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_40 = {
+    name = "Gilliane"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = greedy
+    trait = vengeful
+    trait = humble
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_3
+
+    5488.12.14 = {
+        birth = yes
+    }
+
+    5565.1.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_41 = {
+    name = "Wylis"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_39
+    mother = mormont_40
+
+    trait = cynical
+    trait = craven
+    trait = lustful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_3
+
+    5536.9.14 = {
+        birth = yes
+    }
+
+    5573.9.6 = {
+        add_spouse = mormont_42
+    }
+
+    5614.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_42 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = trusting
+    trait = zealous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 1
+    learning = 9
+    prowess = 8
+
+    trait = education_learning_3
+
+    5556.7.8 = {
+        birth = yes
+    }
+
+    5633.3.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_43 = {
+    name = "Rickard"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_41
+    mother = mormont_42
+
+    trait = chaste
+    trait = trusting
+    trait = lazy
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_3
+
+    5596.11.21 = {
+        birth = yes
+    }
+
+    5617.8.1 = {
+        add_spouse = mormont_44
+    }
+
+    5627.8.22 = {
+        death = { death_reason = death_viciously_dismembered }
+    }
+}
+
+mormont_44 = {
+    name = "Leana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = chaste
+    trait = honest
+    trait = greedy
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_learning_4
+
+    5600.6.8 = {
+        birth = yes
+    }
+
+    5669.1.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_45 = {
+    name = "Harwood"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_43
+    mother = mormont_44
+
+    trait = lustful
+    trait = callous
+    trait = generous
+
+    diplomacy = 8
+    martial = 2
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    5618.5.11 = {
+        birth = yes
+    }
+
+    5662.9.17 = {
+        add_spouse = mormont_46
+    }
+
+    5696.7.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_46 = {
+    name = "Raya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = trusting
+    trait = greedy
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 10
+    prowess = 6
+
+    trait = education_learning_3
+
+    5645.5.4 = {
+        birth = yes
+    }
+
+    5715.5.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_47 = {
+    name = "Morgan"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_45
+    mother = mormont_46
+
+    trait = greedy
+    trait = forgiving
+    trait = paranoid
+
+    diplomacy = 16
+    martial = 20
+    stewardship = 14
+    intrigue = 22
+    learning = 19
+    prowess = 23
+
+    trait = education_intrigue_4
+
+    5673.11.3 = {
+        birth = yes
+    }
+
+    5722.7.24 = {
+        add_spouse = mormont_48
+    }
+
+    5752.9.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_48 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = humble
+    trait = shy
+    trait = deceitful
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 9
+
+    trait = education_martial_2
+
+    5705.11.23 = {
+        birth = yes
+    }
+
+    5781.1.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_49 = {
+    name = "Pate"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_47
+    mother = mormont_48
+
+    trait = stubborn
+    trait = deceitful
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    5725.1.19 = {
+        birth = yes
+    }
+
+    5746.12.24 = {
+        add_spouse = mormont_50
+    }
+
+    5808.10.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_50 = {
+    name = "Shiera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = fickle
+    trait = just
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_3
+
+    5729.12.7 = {
+        birth = yes
+    }
+
+    5803.9.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_51 = {
+    name = "Mikken"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_49
+    mother = mormont_50
+
+    trait = greedy
+    trait = deceitful
+    trait = trusting
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_3
+
+    5769.7.25 = {
+        birth = yes
+    }
+
+    5801.6.7 = {
+        add_spouse = mormont_52
+    }
+
+    5842.4.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_52 = {
+    name = "Barbrey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = chaste
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_2
+
+    5784.3.16 = {
+        birth = yes
+    }
+
+    5852.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_53 = {
+    name = "Luton"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_51
+    mother = mormont_52
+
+    trait = content
+    trait = fickle
+    trait = gregarious
+
+    diplomacy = 11
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 4
+    prowess = 10
+
+    trait = education_diplomacy_4
+
+    5829.11.12 = {
+        birth = yes
+    }
+
+    5846.5.10 = {
+        add_spouse = mormont_54
+    }
+
+    5912.2.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_54 = {
+    name = "Dacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = temperate
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 2
+
+    trait = education_intrigue_3
+
+    5829.9.24 = {
+        birth = yes
+    }
+
+    5894.4.6 = {
+        death = { death_reason = death_poison  }
+    }
+}
+
+mormont_55 = {
+    name = "Harrion"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_53
+    mother = mormont_54
+
+    trait = callous
+    trait = lustful
+    trait = just
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 8
+    intrigue = 1
+    learning = 8
+    prowess = 5
+
+    trait = education_martial_3
+
+    5868.11.26 = {
+        birth = yes
+    }
+
+    5894.2.6 = {
+        add_spouse = mormont_56
+    }
+
+    5946.4.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_56 = {
+    name = "Mylessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = wrathful
+    trait = humble
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_3
+
+    5877.2.11 = {
+        birth = yes
+    }
+
+    5961.2.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_57 = {
+    name = "Ethan"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_55
+    mother = mormont_56
+
+    trait = content
+    trait = forgiving
+    trait = callous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 3
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    5899.9.2 = {
+        birth = yes
+    }
+
+    5926.9.6 = {
+        add_spouse = mormont_58
+    }
+
+    5965.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_58 = {
+    name = "Berena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = zealous
+    trait = deceitful
+    trait = callous
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 8
+    intrigue = 10
+    learning = 4
+    prowess = 2
+
+    trait = education_intrigue_2
+
+    5909.8.24 = {
+        birth = yes
+    }
+
+    5988.8.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_59 = {
+    name = "Rickard"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_57
+    mother = mormont_58
+
+    trait = zealous
+    trait = fickle
+    trait = lazy
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    5928.11.17 = {
+        birth = yes
+    }
+
+    5970.11.12 = {
+        add_spouse = mormont_60
+    }
+
+    6006.2.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_60 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = lustful
+    trait = patient
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 11
+    intrigue = 5
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    5953.5.8 = {
+        birth = yes
+    }
+
+    6028.1.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_61 = {
+    name = "Damon"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_59
+    mother = mormont_60
+
+    trait = brave
+    trait = chaste
+    trait = gluttonous
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    5984.12.19 = {
+        birth = yes
+    }
+
+    6031.11.8 = {
+        add_spouse = mormont_62
+    }
+
+    6062.4.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_62 = {
+    name = "Serra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = greedy
+    trait = brave
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 2
+    prowess = 2
+
+    trait = education_intrigue_3
+
+    6014.2.3 = {
+        birth = yes
+    }
+
+    6089.2.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_63 = {
+    name = "Cayn"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_61
+    mother = mormont_62
+
+    trait = temperate
+    trait = shy
+    trait = zealous
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 9
+    intrigue = 4
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_4
+
+    6041.4.1 = {
+        birth = yes
+    }
+
+    6081.11.12 = {
+        add_spouse = mormont_64
+    }
+
+    6126.10.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_64 = {
+    name = "Lyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = diligent
+    trait = zealous
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6064.4.22 = {
+        birth = yes
+    }
+
+    6144.10.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_65 = {
+    name = "Bartimus"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_63
+    mother = mormont_64
+
+    trait = sadistic
+    trait = lustful
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 9
+
+    trait = education_martial_3
+
+    6100.9.15 = {
+        birth = yes
+    }
+
+    6137.3.16 = {
+        add_spouse = mormont_66
+    }
+
+    6176.5.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_66 = {
+    name = "Jonella"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = just
+    trait = ambitious
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 4
+    intrigue = 8
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6120.1.1 = {
+        birth = yes
+    }
+
+    6197.7.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_67 = {
+    name = "Martyn"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_65
+    mother = mormont_66
+
+    trait = content
+    trait = zealous
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 1
+    prowess = 6
+
+    trait = education_martial_2
+
+    6162.12.17 = {
+        birth = yes
+    }
+
+    6192.5.12 = {
+        add_spouse = mormont_68
+    }
+
+    6231.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_68 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = chaste
+    trait = just
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_1
+
+    6175.12.25 = {
+        birth = yes
+    }
+
+    6260.4.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_69 = {
+    name = "Roger"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_67
+    mother = mormont_68
+
+    trait = vengeful
+    trait = deceitful
+    trait = humble
+
+    diplomacy = 7
+    martial = 1
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6224.3.26 = {
+        birth = yes
+    }
+
+    6266.4.11 = {
+        add_spouse = mormont_70
+    }
+
+    6276.12.24 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+mormont_70 = {
+    name = "Lyanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = compassionate
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 8
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6249.11.20 = {
+        birth = yes
+    }
+
+    6316.5.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_71 = {
+    name = "Kyle"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_69
+    mother = mormont_70
+
+    trait = wrathful
+    trait = compassionate
+    trait = brave
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 2
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6272.10.23 = {
+        birth = yes
+    }
+
+    6302.7.18 = {
+        add_spouse = mormont_72
+    }
+
+    6355.3.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_72 = {
+    name = "Perra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = temperate
+    trait = calm
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 3
+    learning = 2
+    prowess = 7
+
+    trait = education_martial_3
+
+    6285.9.19 = {
+        birth = yes
+    }
+
+    6360.7.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_73 = {
+    name = "Barth"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_71
+    mother = mormont_72
+
+    trait = chaste
+    trait = humble
+    trait = impatient
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    6310.11.20 = {
+        birth = yes
+    }
+
+    6338.1.17 = {
+        add_spouse = mormont_74
+    }
+
+    6376.12.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_74 = {
+    name = "Jorelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = stubborn
+    trait = callous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 10
+    learning = 8
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6321.8.20 = {
+        birth = yes
+    }
+
+    6395.4.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_75 = {
+    name = "Howland"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_73
+    mother = mormont_74
+
+    trait = callous
+    trait = forgiving
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_4
+
+    6344.1.27 = {
+        birth = yes
+    }
+
+    6364.10.15 = {
+        add_spouse = mormont_76
+    }
+
+    6418.1.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_76 = {
+    name = "Branda"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = paranoid
+    trait = patient
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 4
+    intrigue = 3
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    6347.8.27 = {
+        birth = yes
+    }
+
+    6428.7.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_77 = {
+    name = "Wayn"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_75
+    mother = mormont_76
+
+    trait = generous
+    trait = craven
+    trait = temperate
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 8
+    intrigue = 9
+    learning = 9
+    prowess = 8
+
+    trait = education_intrigue_4
+
+    6382.9.14 = {
+        birth = yes
+    }
+
+    6400.12.2 = {
+        add_spouse = mormont_78
+    }
+
+    6461.7.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_78 = {
+    name = "Marna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = diligent
+    trait = ambitious
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    6383.6.17 = {
+        birth = yes
+    }
+
+    6436.12.1 = {
+        death = { death_reason = death_training_accident  }
+    }
+}
+
+mormont_79 = {
+    name = "Farlen"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_77
+    mother = mormont_78
+
+    trait = arrogant
+    trait = gluttonous
+    trait = callous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_2
+
+    6405.12.11 = {
+        birth = yes
+    }
+
+    6443.12.16 = {
+        add_spouse = mormont_80
+    }
+
+    6473.11.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_80 = {
+    name = "Beth"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = deceitful
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 8
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6426.1.13 = {
+        birth = yes
+    }
+
+    6503.7.2 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+mormont_81 = {
+    name = "Donnel"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_79
+    mother = mormont_80
+
+    trait = callous
+    trait = forgiving
+    trait = lazy
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6449.2.19 = {
+        birth = yes
+    }
+
+    6496.2.20 = {
+        add_spouse = mormont_82
+    }
+
+    6521.12.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_82 = {
+    name = "Mylessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = stubborn
+    trait = generous
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 1
+    intrigue = 6
+    learning = 5
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    6479.8.3 = {
+        birth = yes
+    }
+
+    6545.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_83 = {
+    name = "Heward"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_81
+    mother = mormont_82
+
+    trait = forgiving
+    trait = compassionate
+    trait = just
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    6521.7.21 = {
+        birth = yes
+    }
+
+    6562.7.5 = {
+        add_spouse = mormont_84
+    }
+
+    6572.2.20 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+mormont_84 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = just
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6545.10.6 = {
+        birth = yes
+    }
+
+    6624.7.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_85 = {
+    name = "Arthor"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_83
+    mother = mormont_84
+
+    trait = impatient
+    trait = vengeful
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    6563.1.10 = {
+        birth = yes
+    }
+
+    6577.12.9 = {
+        add_spouse = mormont_86
+    }
+
+    6636.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_86 = {
+    name = "Meliana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = patient
+    trait = greedy
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6560.2.15 = {
+        birth = yes
+    }
+
+    6628.7.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_87 = {
+    name = "Mallador"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_85
+    mother = mormont_86
+
+    trait = fickle
+    trait = honest
+    trait = zealous
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6590.12.20 = {
+        birth = yes
+    }
+
+    6639.12.12 = {
+        add_spouse = mormont_88
+    }
+
+    6663.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_88 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = gregarious
+    trait = ambitious
+
+    diplomacy = 10
+    martial = 4
+    stewardship = 3
+    intrigue = 9
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    6622.2.26 = {
+        birth = yes
+    }
+
+    6690.5.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_89 = {
+    name = "Kyle"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_87
+    mother = mormont_88
+
+    trait = lustful
+    trait = fickle
+    trait = diligent
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 9
+    intrigue = 10
+    learning = 4
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    6647.10.21 = {
+        birth = yes
+    }
+
+    6669.3.19 = {
+        add_spouse = mormont_90
+    }
+
+    6704.12.22 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+mormont_90 = {
+    name = "Berena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = chaste
+    trait = greedy
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6652.10.28 = {
+        birth = yes
+    }
+
+    6720.9.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_91 = {
+    name = "Jonnel"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_89
+    mother = mormont_90
+
+    trait = callous
+    trait = lazy
+    trait = patient
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 3
+
+    trait = education_diplomacy_1
+
+    6680.2.12 = {
+        birth = yes
+    }
+
+    6714.11.10 = {
+        add_spouse = mormont_92
+    }
+
+    6748.11.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_92 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = arrogant
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 9
+
+    trait = education_learning_1
+
+    6697.11.27 = {
+        birth = yes
+    }
+
+    6774.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_93 = {
+    name = "Robett"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_91
+    mother = mormont_92
+
+    trait = impatient
+    trait = brave
+    trait = zealous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 4
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6729.5.25 = {
+        birth = yes
+    }
+
+    6757.2.24 = {
+        add_spouse = mormont_94
+    }
+
+    6797.3.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_94 = {
+    name = "Shiera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = forgiving
+    trait = chaste
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 3
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6740.1.14 = {
+        birth = yes
+    }
+
+    6815.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_95 = {
+    name = "Qhorin"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_93
+    mother = mormont_94
+
+    trait = humble
+    trait = chaste
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 9
+    intrigue = 4
+    learning = 8
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    6771.1.19 = {
+        birth = yes
+    }
+
+    6802.10.24 = {
+        add_spouse = mormont_96
+    }
+
+    6846.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_96 = {
+    name = "Jeyne"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = fickle
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_martial_2
+
+    6785.10.25 = {
+        birth = yes
+    }
+
+    6852.11.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_97 = {
+    name = "Damon"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_95
+    mother = mormont_96
+
+    trait = callous
+    trait = arrogant
+    trait = diligent
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_1
+
+    6824.9.27 = {
+        birth = yes
+    }
+
+    6856.9.1 = {
+        add_spouse = mormont_98
+    }
+
+    6866.3.19 = {
+        death = { death_reason = death_attacked }
+    }
+}
+
+mormont_98 = {
+    name = "Lyessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = greedy
+    trait = honest
+    trait = zealous
+
+    diplomacy = 6
+    martial = 11
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_2
+
+    6839.3.26 = {
+        birth = yes
+    }
+
+    6924.11.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_99 = {
+    name = "Wendel"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_97
+    mother = mormont_98
+
+    trait = stubborn
+    trait = greedy
+    trait = lazy
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 10
+    intrigue = 10
+    learning = 2
+    prowess = 2
+
+    trait = education_stewardship_4
+
+    6861.3.5 = {
+        birth = yes
+    }
+
+    6879.5.27 = {
+        add_spouse = mormont_100
+    }
+
+    6931.5.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_100 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = content
+    trait = cynical
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 3
+    intrigue = 8
+    learning = 2
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6862.2.25 = {
+        birth = yes
+    }
+
+    6934.11.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_101 = {
+    name = "Harwood"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_99
+    mother = mormont_100
+
+    trait = paranoid
+    trait = brave
+    trait = lazy
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 7
+    intrigue = 3
+    learning = 4
+    prowess = 1
+
+    trait = education_diplomacy_3
+
+    6891.1.2 = {
+        birth = yes
+    }
+
+    6922.8.8 = {
+        add_spouse = mormont_102
+    }
+
+    6972.1.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_102 = {
+    name = "Elyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = impatient
+    trait = vengeful
+    trait = trusting
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 7
+    prowess = 2
+
+    trait = education_stewardship_2
+
+    6905.5.10 = {
+        birth = yes
+    }
+
+    6975.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_103 = {
+    name = "Robard"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_101
+    mother = mormont_102
+
+    trait = content
+    trait = gluttonous
+    trait = craven
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6946.2.16 = {
+        birth = yes
+    }
+
+    6983.8.12 = {
+        add_spouse = mormont_104
+    }
+
+    7022.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_104 = {
+    name = "Serra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = just
+    trait = patient
+    trait = cynical
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 4
+    learning = 8
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    6966.9.27 = {
+        birth = yes
+    }
+
+    7035.5.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_105 = {
+    name = "Morgan"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_103
+    mother = mormont_104
+
+    trait = patient
+    trait = sadistic
+    trait = diligent
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6989.2.18 = {
+        birth = yes
+    }
+
+    7027.7.25 = {
+        add_spouse = mormont_106
+    }
+
+    7064.10.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_106 = {
+    name = "Perra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = stubborn
+    trait = callous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 2
+    intrigue = 6
+    learning = 5
+    prowess = 2
+
+    trait = education_martial_3
+
+    7010.7.4 = {
+        birth = yes
+    }
+
+    7091.7.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_107 = {
+    name = "Mors"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_105
+    mother = mormont_106
+
+    trait = fickle
+    trait = shy
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 10
+    learning = 4
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    7048.6.20 = {
+        birth = yes
+    }
+
+    7063.12.15 = {
+        add_spouse = mormont_108
+    }
+
+    7125.5.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_108 = {
+    name = "Barbara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = calm
+    trait = temperate
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 9
+    intrigue = 3
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_4
+
+    7046.8.12 = {
+        birth = yes
+    }
+
+    7115.8.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_109 = {
+    name = "Bartimus"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_107
+    mother = mormont_108
+
+    trait = gluttonous
+    trait = gregarious
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 3
+
+    trait = education_martial_3
+
+    7093.1.26 = {
+        birth = yes
+    }
+
+    7129.8.8 = {
+        add_spouse = mormont_110
+    }
+
+    7175.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_110 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = callous
+    trait = zealous
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 3
+    prowess = 6
+
+    trait = education_martial_3
+
+    7112.1.20 = {
+        birth = yes
+    }
+
+    7188.11.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_111 = {
+    name = "Edrick"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_109
+    mother = mormont_110
+
+    trait = cynical
+    trait = gregarious
+    trait = wrathful
+
+    diplomacy = 8
+    martial = 10
+    stewardship = 4
+    intrigue = 5
+    learning = 8
+    prowess = 8
+
+    trait = education_martial_2
+
+    7129.6.20 = {
+        birth = yes
+    }
+
+    7152.4.12 = {
+        add_spouse = mormont_112
+    }
+
+    7201.1.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_112 = {
+    name = "Serra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = brave
+    trait = temperate
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 7
+    intrigue = 8
+    learning = 10
+    prowess = 6
+
+    trait = education_learning_2
+
+    7135.8.22 = {
+        birth = yes
+    }
+
+    7217.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_113 = {
+    name = "Eddard"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_111
+    mother = mormont_112
+
+    trait = diligent
+    trait = honest
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 9
+    intrigue = 5
+    learning = 3
+    prowess = 10
+
+    trait = education_martial_3
+
+    7158.10.12 = {
+        birth = yes
+    }
+
+    7174.2.18 = {
+        add_spouse = mormont_114
+    }
+
+    7235.2.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_114 = {
+    name = "Arya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = wrathful
+    trait = patient
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_4
+
+    7157.7.24 = {
+        birth = yes
+    }
+
+    7240.2.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_115 = {
+    name = "Morgan"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_113
+    mother = mormont_114
+
+    trait = lazy
+    trait = lustful
+    trait = compassionate
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 2
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    7176.9.24 = {
+        birth = yes
+    }
+
+    7204.4.14 = {
+        add_spouse = mormont_116
+    }
+
+    7258.8.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_116 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = impatient
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 8
+    intrigue = 8
+    learning = 4
+    prowess = 2
+
+    trait = education_stewardship_2
+
+    7187.4.21 = {
+        birth = yes
+    }
+
+    7263.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_117 = {
+    name = "Tomard"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_115
+    mother = mormont_116
+
+    trait = temperate
+    trait = wrathful
+    trait = forgiving
+
+    diplomacy = 9
+    martial = 10
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_3
+
+    7221.6.25 = {
+        birth = yes
+    }
+
+    7245.8.28 = {
+        add_spouse = mormont_118
+    }
+
+    7290.2.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_118 = {
+    name = "Gilliane"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = greedy
+    trait = compassionate
+    trait = fickle
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 6
+    intrigue = 10
+    learning = 5
+    prowess = 9
+
+    trait = education_intrigue_2
+
+    7228.11.28 = {
+        birth = yes
+    }
+
+    7298.8.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_119 = {
+    name = "Barth"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_117
+    mother = mormont_118
+
+    trait = impatient
+    trait = callous
+    trait = vengeful
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    7246.7.2 = {
+        birth = yes
+    }
+
+    7273.1.1 = {
+        add_spouse = mormont_120
+    }
+
+    7325.2.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_120 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = greedy
+    trait = temperate
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_3
+
+    7256.2.25 = {
+        birth = yes
+    }
+
+    7340.9.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_121 = {
+    name = "Bowen"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_117
+    mother = mormont_118
+
+    trait = gregarious
+    trait = stubborn
+    trait = impatient
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 7
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    7254.12.5 = {
+        birth = yes
+    }
+
+    7301.4.10 = {
+        add_spouse = mormont_122
+    }
+
+    7323.10.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_122 = {
+    name = "Perra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = greedy
+    trait = vengeful
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    7284.9.12 = {
+        birth = yes
+    }
+
+    7363.8.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_123 = {
+    name = "Arthor"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_117
+    mother = mormont_118
+
+    trait = paranoid
+    trait = zealous
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 9
+
+    trait = education_diplomacy_1
+
+    7258.12.2 = {
+        birth = yes
+    }
+
+    7294.5.4 = {
+        add_spouse = mormont_124
+    }
+
+    7304.2.21 = {
+        death = { death_reason = death_treatment }
+    }
+}
+
+mormont_124 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = honest
+    trait = temperate
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 4
+    intrigue = 5
+    learning = 2
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    7277.12.24 = {
+        birth = yes
+    }
+
+    7361.11.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_125 = {
+    name = "Gariss"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_117
+    mother = mormont_118
+
+    trait = sadistic
+    trait = patient
+    trait = lustful
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    7261.4.23 = {
+        birth = yes
+    }
+
+    7279.5.23 = {
+        add_spouse = mormont_126
+    }
+
+    7330.7.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_126 = {
+    name = "Danelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = impatient
+    trait = trusting
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    7262.4.16 = {
+        birth = yes
+    }
+
+    7333.7.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_127 = {
+    name = "Howland"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_111
+    mother = mormont_112
+
+    trait = gluttonous
+    trait = forgiving
+    trait = generous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_2
+
+    7164.8.27 = {
+        birth = yes
+    }
+
+    7210.12.22 = {
+        add_spouse = mormont_128
+    }
+
+    7239.4.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_128 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = greedy
+    trait = brave
+    trait = arbitrary
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 4
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_4
+
+    7193.7.23 = {
+        birth = yes
+    }
+
+    7273.9.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_129 = {
+    name = "Danelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_127
+    mother = mormont_128
+
+    trait = wrathful
+    trait = ambitious
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 9
+
+    trait = education_martial_2
+
+    7211.10.20 = {
+        birth = yes
+    }
+
+    7249.6.3 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+mormont_130 = {
+    name = "Mors"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_127
+    mother = mormont_128
+
+    trait = impatient
+    trait = deceitful
+    trait = just
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_2
+
+    7216.9.18 = {
+        birth = yes
+    }
+
+    7252.1.17 = {
+        add_spouse = mormont_131
+    }
+
+    7298.1.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_131 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = humble
+    trait = content
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    7235.1.16 = {
+        birth = yes
+    }
+
+    7310.11.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_132 = {
+    name = "Mors"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_130
+    mother = mormont_131
+
+    trait = generous
+    trait = shy
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 4
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    7261.9.17 = {
+        birth = yes
+    }
+
+    7307.9.20 = {
+        add_spouse = mormont_133
+    }
+
+    7342.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_133 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = just
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 6
+    prowess = 3
+
+    trait = education_intrigue_4
+
+    7290.2.25 = {
+        birth = yes
+    }
+
+    7369.2.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_134 = {
+    name = "Torrhen"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_132
+    mother = mormont_133
+
+    trait = arrogant
+    trait = stubborn
+    trait = impatient
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 3
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    7315.5.12 = {
+        birth = yes
+    }
+
+    7340.5.15 = {
+        add_spouse = mormont_135
+    }
+
+    7387.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_135 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = chaste
+    trait = shy
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    7323.2.27 = {
+        birth = yes
+    }
+
+    7395.7.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_136 = {
+    name = "Garth"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_132
+    mother = mormont_133
+
+    trait = honest
+    trait = gregarious
+    trait = impatient
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    7327.9.9 = {
+        birth = yes
+    }
+
+    7349.2.2 = {
+        add_spouse = mormont_137
+    }
+
+    7405.8.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_137 = {
+    name = "Raya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = humble
+    trait = deceitful
+    trait = wrathful
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 5
+    intrigue = 9
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    7332.10.7 = {
+        birth = yes
+    }
+
+    7404.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_138 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_130
+    mother = mormont_131
+
+    trait = craven
+    trait = lustful
+    trait = calm
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    7266.7.24 = {
+        birth = yes
+    }
+
+    7334.6.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_139 = {
+    name = "Kyle"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_127
+    mother = mormont_128
+
+    trait = arrogant
+    trait = chaste
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 9
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    7224.5.8 = {
+        birth = yes
+    }
+
+    7243.6.12 = {
+        add_spouse = mormont_140
+    }
+
+    7291.12.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_140 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = honest
+    trait = chaste
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_1
+
+    7226.8.18 = {
+        birth = yes
+    }
+
+    7292.9.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_141 = {
+    name = "Jonella"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_139
+    mother = mormont_140
+
+    trait = diligent
+    trait = ambitious
+    trait = greedy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_learning_3
+
+    7253.2.25 = {
+        birth = yes
+    }
+
+    7330.12.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_142 = {
+    name = "Owen"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_139
+    mother = mormont_140
+
+    trait = lazy
+    trait = shy
+    trait = vengeful
+
+    diplomacy = 24
+    martial = 21
+    stewardship = 15
+    intrigue = 17
+    learning = 13
+    prowess = 17
+
+    trait = education_diplomacy_4
+
+    7255.7.24 = {
+        birth = yes
+    }
+
+    7269.10.9 = {
+        add_spouse = mormont_143
+    }
+
+    7339.12.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_143 = {
+    name = "Margaret"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = calm
+    trait = cynical
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    7252.5.16 = {
+        birth = yes
+    }
+
+    7324.12.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_144 = {
+    name = "Martyn"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_142
+    mother = mormont_143
+
+    trait = impatient
+    trait = ambitious
+    trait = honest
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 1
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_3
+
+    7283.8.5 = {
+        birth = yes
+    }
+
+    7333.1.21 = {
+        add_spouse = mormont_145
+    }
+
+    7349.5.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_145 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = chaste
+    trait = lazy
+
+    diplomacy = 5
+    martial = 11
+    stewardship = 9
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    7316.2.11 = {
+        birth = yes
+    }
+
+    7383.6.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_146 = {
+    name = "Alaric"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_139
+    mother = mormont_140
+
+    trait = content
+    trait = just
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 3
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_2
+
+    7257.10.21 = {
+        birth = yes
+    }
+
+    7277.4.20 = {
+        add_spouse = mormont_147
+    }
+
+    7331.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_147 = {
+    name = "Bethany"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = stubborn
+    trait = callous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 3
+    learning = 11
+    prowess = 7
+
+    trait = education_learning_1
+
+    7260.5.24 = {
+        birth = yes
+    }
+
+    7333.8.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_148 = {
+    name = "Torrhen"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_146
+    mother = mormont_147
+
+    trait = humble
+    trait = forgiving
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_3
+
+    7288.11.17 = {
+        birth = yes
+    }
+
+    7303.12.13 = {
+        add_spouse = mormont_149
+    }
+
+    7368.6.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_149 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = content
+    trait = lustful
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_3
+
+    7286.3.25 = {
+        birth = yes
+    }
+
+    7366.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_150 = {
+    name = "Gariss"
+
+    dynasty = dynasty_mormont
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_146
+    mother = mormont_147
+
+    trait = impatient
+    trait = craven
+    trait = generous
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 2
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    7293.1.17 = {
+        birth = yes
+    }
+
+    7338.10.28 = {
+        add_spouse = mormont_151
+    }
+
+    7368.4.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_151 = {
+    name = "Alysane"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = honest
+    trait = fickle
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    7321.11.23 = {
+        birth = yes
+    }
+
+    7405.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_152 = {
+    name = "Lacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_111
+    mother = mormont_112
+
+    trait = chaste
+    trait = honest
+    trait = content
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 7
+    intrigue = 2
+    learning = 8
+    prowess = 5
+
+    trait = education_martial_1
+
+    7167.5.13 = {
+        birth = yes
+    }
+
+    7238.11.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mormont_153 = {
+    name = "Shiera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = mormont_111
+    mother = mormont_112
+
+    trait = compassionate
+    trait = arbitrary
+    trait = brave
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 2
+    prowess = 8
+
+    trait = education_martial_3
+
+    7172.3.15 = {
+        birth = yes
+    }
+
+    7245.6.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
