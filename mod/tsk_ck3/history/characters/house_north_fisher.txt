@@ -1,484 +1,2174 @@
-fisher_1 = {
-    name = "Hoarfrost"
+fisher_n_1 = {
+    name = "Beren"
 
-    dynasty = dynasty_fisher
+    dynasty = dynasty_fisher_n
     religion = the_old_gods
     culture = northmen
 
-    trait = arbitrary
-    trait = greedy
-    trait = fickle
+    trait = ambitious
+    trait = trusting
+    trait = sadistic
 
     diplomacy = 6
-    martial = 7
-    stewardship = 4
+    martial = 5
+    stewardship = 7
     intrigue = 2
-    learning = 7
-    prowess = 4
+    learning = 5
+    prowess = 8
 
-    trait = education_martial_1
+    trait = education_stewardship_2
 
-    4430.10.3 = {
+    4430.2.28 = {
         birth = yes
     }
 
-    4470.4.1 = {
-        add_spouse = fisher_2
+    4475.4.17 = {
+        add_spouse = fisher_n_2
     }
 
-    4505.7.1 = {
+    4496.1.2 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-fisher_2 = {
-    name = "Arsa"
+fisher_n_2 = {
+    name = "Beth"
     female = yes
 
     religion = the_old_gods
     culture = northmen
 
-    trait = chaste
+    trait = just
     trait = arrogant
-    trait = impatient
+    trait = forgiving
 
-    diplomacy = 7
-    martial = 3
-    stewardship = 7
-    intrigue = 6
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 2
     learning = 5
     prowess = 7
 
-    trait = education_diplomacy_3
+    trait = education_diplomacy_4
 
-    4453.1.10 = {
+    4458.7.1 = {
         birth = yes
     }
 
-    4530.3.15 = {
+    4527.3.7 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-fisher_3 = {
-    name = "Rodrik"
+fisher_n_3 = {
+    name = "Medger"
 
-    dynasty = dynasty_fisher
+    dynasty = dynasty_fisher_n
     religion = the_old_gods
     culture = northmen
 
-    father = fisher_1
-    mother = fisher_2
+    father = fisher_n_1
+    mother = fisher_n_2
 
-    trait = fickle
-    trait = shy
     trait = humble
+    trait = lazy
+    trait = impatient
 
-    diplomacy = 4
-    martial = 4
-    stewardship = 9
-    intrigue = 9
-    learning = 7
-    prowess = 5
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 3
+    prowess = 7
 
-    trait = education_stewardship_1
+    trait = education_diplomacy_2
 
-    4471.6.9 = {
+    4490.6.16 = {
         birth = yes
     }
 
-    4512.2.5 = {
-        add_spouse = fisher_4
+    4508.3.2 = {
+        add_spouse = fisher_n_4
     }
 
-    4551.9.1 = {
+    4560.2.6 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-fisher_4 = {
-    name = "Alys"
+fisher_n_4 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = deceitful
+    trait = cynical
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    4491.8.28 = {
+        birth = yes
+    }
+
+    4566.4.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_5 = {
+    name = "Qhorin"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_3
+    mother = fisher_n_4
+
+    trait = sadistic
+    trait = calm
+    trait = fickle
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 10
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    4522.4.17 = {
+        birth = yes
+    }
+
+    4556.12.18 = {
+        add_spouse = fisher_n_6
+    }
+
+    4589.5.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_6 = {
+    name = "Margaret"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = ambitious
+    trait = craven
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_1
+
+    4539.4.10 = {
+        birth = yes
+    }
+
+    4621.8.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_7 = {
+    name = "Alaric"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_5
+    mother = fisher_n_6
+
+    trait = gluttonous
+    trait = chaste
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_3
+
+    4564.5.27 = {
+        birth = yes
+    }
+
+    4609.3.23 = {
+        add_spouse = fisher_n_8
+    }
+
+    4619.7.11 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+fisher_n_8 = {
+    name = "Jonella"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = honest
+    trait = brave
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 8
+    intrigue = 3
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    4592.6.17 = {
+        birth = yes
+    }
+
+    4662.5.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_9 = {
+    name = "Pate"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_7
+    mother = fisher_n_8
+
+    trait = content
+    trait = lustful
+    trait = wrathful
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    4612.9.26 = {
+        birth = yes
+    }
+
+    4648.4.19 = {
+        add_spouse = fisher_n_10
+    }
+
+    4687.9.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_10 = {
+    name = "Beth"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = lazy
+    trait = gluttonous
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 10
+
+    trait = education_diplomacy_2
+
+    4631.7.2 = {
+        birth = yes
+    }
+
+    4707.9.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_11 = {
+    name = "Quent"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_9
+    mother = fisher_n_10
+
+    trait = shy
+    trait = callous
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    4673.2.28 = {
+        birth = yes
+    }
+
+    4713.3.8 = {
+        add_spouse = fisher_n_12
+    }
+
+    4752.1.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_12 = {
+    name = "Donella"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = paranoid
+    trait = fickle
+
+    diplomacy = 8
+    martial = 10
+    stewardship = 4
+    intrigue = 7
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_3
+
+    4696.7.21 = {
+        birth = yes
+    }
+
+    4763.1.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_13 = {
+    name = "Benjen"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_11
+    mother = fisher_n_12
+
+    trait = trusting
+    trait = arbitrary
+    trait = zealous
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 7
+    intrigue = 3
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    4739.2.20 = {
+        birth = yes
+    }
+
+    4788.1.2 = {
+        add_spouse = fisher_n_14
+    }
+
+    4798.8.17 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+fisher_n_14 = {
+    name = "Elyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = paranoid
+    trait = shy
+    trait = sadistic
+
+    diplomacy = 1
+    martial = 7
+    stewardship = 4
+    intrigue = 10
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_1
+
+    4771.11.21 = {
+        birth = yes
+    }
+
+    4853.10.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_15 = {
+    name = "Chayle"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_13
+    mother = fisher_n_14
+
+    trait = content
+    trait = diligent
+    trait = calm
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    4793.11.14 = {
+        birth = yes
+    }
+
+    4829.2.2 = {
+        add_spouse = fisher_n_16
+    }
+
+    4863.2.12 = {
+        death = { death_reason = death_bubonic_plague }
+    }
+}
+
+fisher_n_16 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = paranoid
+    trait = honest
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    4812.8.4 = {
+        birth = yes
+    }
+
+    4888.1.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_17 = {
+    name = "Edric"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_15
+    mother = fisher_n_16
+
+    trait = sadistic
+    trait = content
+    trait = lazy
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 4
+    intrigue = 3
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_4
+
+    4854.8.8 = {
+        birth = yes
+    }
+
+    4878.10.15 = {
+        add_spouse = fisher_n_18
+    }
+
+    4898.1.8 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+fisher_n_18 = {
+    name = "Kyra"
     female = yes
 
     religion = the_old_gods
     culture = northmen
 
     trait = stubborn
-    trait = trusting
-    trait = callous
+    trait = wrathful
+    trait = content
 
-    diplomacy = 10
-    martial = 2
-    stewardship = 5
-    intrigue = 8
-    learning = 4
-    prowess = 6
+    diplomacy = 8
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 8
 
-    trait = education_diplomacy_3
+    trait = education_diplomacy_4
 
-    4495.8.24 = {
+    4861.9.2 = {
         birth = yes
     }
 
-    4564.2.13 = {
+    4928.9.4 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-fisher_5 = {
-    name = "Mark"
+fisher_n_19 = {
+    name = "Jeor"
 
-    dynasty = dynasty_fisher
+    dynasty = dynasty_fisher_n
     religion = the_old_gods
     culture = northmen
 
-    father = fisher_3
-    mother = fisher_4
+    father = fisher_n_17
+    mother = fisher_n_18
 
-    trait = deceitful
-    trait = lazy
-    trait = sadistic
+    trait = content
+    trait = cynical
+    trait = honest
 
-    diplomacy = 5
-    martial = 3
-    stewardship = 7
-    intrigue = 5
-    learning = 5
-    prowess = 3
+    diplomacy = 6
+    martial = 11
+    stewardship = 3
+    intrigue = 6
+    learning = 9
+    prowess = 2
 
-    trait = education_stewardship_4
+    trait = education_martial_3
 
-    4526.8.6 = {
+    4887.12.16 = {
         birth = yes
     }
 
-    4560.8.5 = {
-        add_spouse = fisher_6
+    4922.10.20 = {
+        add_spouse = fisher_n_20
     }
 
-    4592.2.16 = {
+    4961.10.22 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-fisher_6 = {
+fisher_n_20 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = compassionate
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    4905.10.4 = {
+        birth = yes
+    }
+
+    4978.9.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_21 = {
+    name = "Rogar"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_19
+    mother = fisher_n_20
+
+    trait = wrathful
+    trait = humble
+    trait = shy
+
+    diplomacy = 11
+    martial = 6
+    stewardship = 9
+    intrigue = 8
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    4947.7.16 = {
+        birth = yes
+    }
+
+    4974.8.25 = {
+        add_spouse = fisher_n_22
+    }
+
+    5020.5.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_22 = {
+    name = "Jeyne"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = trusting
+    trait = brave
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    4957.5.24 = {
+        birth = yes
+    }
+
+    5031.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_23 = {
+    name = "Leobald"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_21
+    mother = fisher_n_22
+
+    trait = patient
+    trait = diligent
+    trait = trusting
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 8
+    intrigue = 8
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    4979.9.12 = {
+        birth = yes
+    }
+
+    5007.12.9 = {
+        add_spouse = fisher_n_24
+    }
+
+    5062.4.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_24 = {
     name = "Maegelle"
     female = yes
 
     religion = the_old_gods
     culture = northmen
 
-    trait = arrogant
-    trait = gluttonous
-    trait = vengeful
+    trait = greedy
+    trait = honest
+    trait = fickle
 
     diplomacy = 7
-    martial = 4
+    martial = 6
     stewardship = 6
     intrigue = 4
-    learning = 3
-    prowess = 5
+    learning = 6
+    prowess = 7
 
-    trait = education_diplomacy_3
+    trait = education_diplomacy_2
 
-    4543.4.24 = {
+    4990.4.16 = {
         birth = yes
     }
 
-    4613.10.22 = {
-        death = { death_reason = death_natural_causes }
+    5052.12.4 = {
+        death = { death_reason = death_typhus }
     }
 }
 
-fisher_7 = {
-    name = "Edderion"
+fisher_n_25 = {
+    name = "Alaric"
 
-    dynasty = dynasty_fisher
+    dynasty = dynasty_fisher_n
     religion = the_old_gods
     culture = northmen
 
-    father = fisher_5
-    mother = fisher_6
+    father = fisher_n_23
+    mother = fisher_n_24
 
-    trait = humble
-    trait = generous
-    trait = deceitful
+    trait = chaste
+    trait = brave
+    trait = calm
 
     diplomacy = 9
-    martial = 8
-    stewardship = 10
-    intrigue = 5
-    learning = 7
-    prowess = 4
-
-    trait = education_stewardship_4
-
-    4585.8.5 = {
-        birth = yes
-    }
-
-    4626.3.1 = {
-        add_spouse = fisher_8
-    }
-
-    4662.3.18 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_8 = {
-    name = "Danelle"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = patient
-    trait = wrathful
-    trait = arbitrary
-
-    diplomacy = 5
-    martial = 7
-    stewardship = 11
-    intrigue = 6
-    learning = 8
-    prowess = 3
-
-    trait = education_stewardship_4
-
-    4609.6.9 = {
-        birth = yes
-    }
-
-    4682.12.14 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_9 = {
-    name = "Hullen"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_7
-    mother = fisher_8
-
-    trait = deceitful
-    trait = cynical
-    trait = craven
-
-    diplomacy = 6
-    martial = 6
+    martial = 5
     stewardship = 5
-    intrigue = 5
-    learning = 8
-    prowess = 3
+    intrigue = 2
+    learning = 6
+    prowess = 8
 
-    trait = education_learning_4
+    trait = education_diplomacy_2
 
-    4636.6.11 = {
+    5015.4.6 = {
         birth = yes
     }
 
-    4660.8.5 = {
-        add_spouse = fisher_10
+    5055.7.22 = {
+        add_spouse = fisher_n_26
     }
 
-    4716.2.7 = {
+    5084.8.22 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-fisher_10 = {
-    name = "Branda"
+fisher_n_26 = {
+    name = "Shiera"
     female = yes
 
     religion = the_old_gods
     culture = northmen
 
+    trait = calm
+    trait = fickle
     trait = humble
-    trait = brave
-    trait = honest
 
-    diplomacy = 5
+    diplomacy = 9
     martial = 6
-    stewardship = 6
-    intrigue = 6
-    learning = 2
-    prowess = 9
+    stewardship = 4
+    intrigue = 7
+    learning = 3
+    prowess = 8
 
-    trait = education_martial_2
+    trait = education_diplomacy_2
 
-    4643.4.28 = {
+    5038.7.23 = {
         birth = yes
     }
 
-    4720.3.13 = {
+    5113.7.22 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-fisher_11 = {
-    name = "Brenett"
+fisher_n_27 = {
+    name = "Byam"
 
-    dynasty = dynasty_fisher
+    dynasty = dynasty_fisher_n
     religion = the_old_gods
     culture = northmen
 
-    father = fisher_9
-    mother = fisher_10
+    father = fisher_n_25
+    mother = fisher_n_26
 
-    trait = arrogant
-    trait = chaste
-    trait = patient
+    trait = brave
+    trait = lustful
+    trait = humble
 
     diplomacy = 8
     martial = 8
-    stewardship = 5
-    intrigue = 9
+    stewardship = 3
+    intrigue = 6
     learning = 5
-    prowess = 7
+    prowess = 4
 
-    trait = education_intrigue_4
+    trait = education_diplomacy_2
 
-    4665.3.8 = {
+    5079.8.12 = {
         birth = yes
     }
 
-    4710.10.10 = {
-        add_spouse = fisher_12
+    5129.8.17 = {
+        add_spouse = fisher_n_28
     }
 
-    4731.5.21 = {
+    5154.8.11 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-fisher_12 = {
+fisher_n_28 = {
+    name = "Lynarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = trusting
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 2
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    5112.4.27 = {
+        birth = yes
+    }
+
+    5190.5.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_29 = {
+    name = "Galbart"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_27
+    mother = fisher_n_28
+
+    trait = brave
+    trait = deceitful
+    trait = zealous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 9
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    5130.5.3 = {
+        birth = yes
+    }
+
+    5145.10.4 = {
+        add_spouse = fisher_n_30
+    }
+
+    5213.9.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_30 = {
+    name = "Barba"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = paranoid
+    trait = greedy
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 7
+    intrigue = 10
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    5128.11.22 = {
+        birth = yes
+    }
+
+    5212.11.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_31 = {
+    name = "Benjen"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_29
+    mother = fisher_n_30
+
+    trait = callous
+    trait = arbitrary
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 10
+    prowess = 2
+
+    trait = education_learning_3
+
+    5163.2.13 = {
+        birth = yes
+    }
+
+    5204.10.3 = {
+        add_spouse = fisher_n_32
+    }
+
+    5244.2.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_32 = {
+    name = "Jorelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = compassionate
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    5187.8.14 = {
+        birth = yes
+    }
+
+    5260.10.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_33 = {
+    name = "Edwyle"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_31
+    mother = fisher_n_32
+
+    trait = temperate
+    trait = ambitious
+    trait = fickle
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 3
+
+    trait = education_stewardship_4
+
+    5210.3.6 = {
+        birth = yes
+    }
+
+    5238.4.15 = {
+        add_spouse = fisher_n_34
+    }
+
+    5287.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_34 = {
+    name = "Donella"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = content
+    trait = stubborn
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_3
+
+    5221.1.1 = {
+        birth = yes
+    }
+
+    5297.2.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_35 = {
+    name = "Ethan"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_33
+    mother = fisher_n_34
+
+    trait = deceitful
+    trait = chaste
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 11
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    5264.7.11 = {
+        birth = yes
+    }
+
+    5291.3.7 = {
+        add_spouse = fisher_n_36
+    }
+
+    5336.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_36 = {
+    name = "Margaret"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = shy
+    trait = lazy
+    trait = trusting
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 4
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    5274.9.14 = {
+        birth = yes
+    }
+
+    5352.9.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_37 = {
+    name = "Hugo"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_35
+    mother = fisher_n_36
+
+    trait = chaste
+    trait = temperate
+    trait = brave
+
+    diplomacy = 10
+    martial = 9
+    stewardship = 7
+    intrigue = 10
+    learning = 10
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    5309.12.22 = {
+        birth = yes
+    }
+
+    5353.8.9 = {
+        add_spouse = fisher_n_38
+    }
+
+    5377.4.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_38 = {
+    name = "Arrana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = gregarious
+    trait = diligent
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 7
+    intrigue = 5
+    learning = 9
+    prowess = 4
+
+    trait = education_martial_2
+
+    5336.4.6 = {
+        birth = yes
+    }
+
+    5410.1.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_39 = {
+    name = "Wayn"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_37
+    mother = fisher_n_38
+
+    trait = callous
+    trait = patient
+    trait = zealous
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    5377.4.18 = {
+        birth = yes
+    }
+
+    5427.12.20 = {
+        add_spouse = fisher_n_40
+    }
+
+    5457.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_40 = {
+    name = "Jonella"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = lustful
+    trait = impatient
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 8
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_1
+
+    5410.10.9 = {
+        birth = yes
+    }
+
+    5489.12.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_41 = {
+    name = "Benjicot"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_39
+    mother = fisher_n_40
+
+    trait = lustful
+    trait = calm
+    trait = cynical
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    5449.11.26 = {
+        birth = yes
+    }
+
+    5492.5.9 = {
+        add_spouse = fisher_n_42
+    }
+
+    5520.1.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_42 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = fickle
+    trait = shy
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 9
+    intrigue = 10
+    learning = 8
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    5475.6.22 = {
+        birth = yes
+    }
+
+    5546.2.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_43 = {
+    name = "Halys"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_41
+    mother = fisher_n_42
+
+    trait = arbitrary
+    trait = calm
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 9
+    intrigue = 8
+    learning = 8
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    5499.10.2 = {
+        birth = yes
+    }
+
+    5548.3.13 = {
+        add_spouse = fisher_n_44
+    }
+
+    5574.7.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_44 = {
+    name = "Lysa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = impatient
+    trait = content
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    5531.3.1 = {
+        birth = yes
+    }
+
+    5611.9.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_45 = {
+    name = "Dorren"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_43
+    mother = fisher_n_44
+
+    trait = fickle
+    trait = humble
+    trait = shy
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 9
+
+    trait = education_intrigue_4
+
+    5573.12.10 = {
+        birth = yes
+    }
+
+    5614.12.23 = {
+        add_spouse = fisher_n_46
+    }
+
+    5640.11.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_46 = {
     name = "Mylessa"
     female = yes
 
     religion = the_old_gods
     culture = northmen
 
-    trait = zealous
-    trait = content
-    trait = vengeful
+    trait = gluttonous
+    trait = diligent
+    trait = deceitful
 
-    diplomacy = 5
-    martial = 10
-    stewardship = 8
-    intrigue = 9
-    learning = 8
-    prowess = 7
+    diplomacy = 4
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 5
 
-    trait = education_martial_4
+    trait = education_learning_2
 
-    4693.9.17 = {
+    5597.12.28 = {
         birth = yes
     }
 
-    4777.7.23 = {
+    5664.1.15 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-fisher_13 = {
-    name = "Byam"
+fisher_n_47 = {
+    name = "Edwyle"
 
-    dynasty = dynasty_fisher
+    dynasty = dynasty_fisher_n
     religion = the_old_gods
     culture = northmen
 
-    father = fisher_11
-    mother = fisher_12
+    father = fisher_n_45
+    mother = fisher_n_46
 
-    trait = brave
-    trait = forgiving
-    trait = paranoid
+    trait = arrogant
+    trait = content
+    trait = calm
 
-    diplomacy = 20
-    martial = 26
-    stewardship = 23
-    intrigue = 23
-    learning = 16
-    prowess = 21
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 10
+    prowess = 4
 
-    trait = education_martial_4
+    trait = education_learning_3
 
-    4711.1.17 = {
+    5637.10.3 = {
         birth = yes
     }
 
-    4739.9.14 = {
-        add_spouse = fisher_14
+    5687.7.6 = {
+        add_spouse = fisher_n_48
     }
 
-    4749.10.18 = {
+    5709.11.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_48 = {
+    name = "Serra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = calm
+    trait = honest
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 3
+    intrigue = 4
+    learning = 9
+    prowess = 3
+
+    trait = education_martial_2
+
+    5670.1.14 = {
+        birth = yes
+    }
+
+    5746.8.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_49 = {
+    name = "Beron"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_47
+    mother = fisher_n_48
+
+    trait = brave
+    trait = gluttonous
+    trait = lustful
+
+    diplomacy = 8
+    martial = 2
+    stewardship = 4
+    intrigue = 5
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    5691.4.11 = {
+        birth = yes
+    }
+
+    5740.1.20 = {
+        add_spouse = fisher_n_50
+    }
+
+    5765.7.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_50 = {
+    name = "Mylessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = shy
+    trait = generous
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 11
+    prowess = 6
+
+    trait = education_learning_3
+
+    5723.12.6 = {
+        birth = yes
+    }
+
+    5803.7.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_51 = {
+    name = "Jorah"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_49
+    mother = fisher_n_50
+
+    trait = temperate
+    trait = chaste
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 11
+    intrigue = 8
+    learning = 8
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    5749.1.19 = {
+        birth = yes
+    }
+
+    5765.2.2 = {
+        add_spouse = fisher_n_52
+    }
+
+    5809.6.18 = {
         death = { death_reason = death_battle }
     }
 }
 
-fisher_14 = {
+fisher_n_52 = {
+    name = "Alyx"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = paranoid
+    trait = calm
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 7
+    learning = 4
+    prowess = 4
+
+    trait = education_stewardship_4
+
+    5748.12.17 = {
+        birth = yes
+    }
+
+    5824.1.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_53 = {
+    name = "Owen"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_51
+    mother = fisher_n_52
+
+    trait = forgiving
+    trait = zealous
+    trait = brave
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    5795.8.17 = {
+        birth = yes
+    }
+
+    5844.12.27 = {
+        add_spouse = fisher_n_54
+    }
+
+    5872.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_54 = {
+    name = "Barba"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = lustful
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    5827.12.4 = {
+        birth = yes
+    }
+
+    5909.3.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_55 = {
+    name = "Harlon"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_53
+    mother = fisher_n_54
+
+    trait = craven
+    trait = paranoid
+    trait = lazy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_3
+
+    5865.8.17 = {
+        birth = yes
+    }
+
+    5890.8.3 = {
+        add_spouse = fisher_n_56
+    }
+
+    5938.3.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_56 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = cynical
+    trait = trusting
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    5873.4.9 = {
+        birth = yes
+    }
+
+    5941.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_57 = {
+    name = "Damon"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_55
+    mother = fisher_n_56
+
+    trait = chaste
+    trait = brave
+    trait = sadistic
+
+    diplomacy = 10
+    martial = 3
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    5895.10.21 = {
+        birth = yes
+    }
+
+    5925.12.14 = {
+        add_spouse = fisher_n_58
+    }
+
+    5962.9.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_58 = {
+    name = "Jeyne"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = humble
+    trait = generous
+    trait = stubborn
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    5908.12.26 = {
+        birth = yes
+    }
+
+    5979.4.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_59 = {
+    name = "Chayle"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_57
+    mother = fisher_n_58
+
+    trait = arbitrary
+    trait = deceitful
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 7
+    intrigue = 4
+    learning = 9
+    prowess = 8
+
+    trait = education_martial_2
+
+    5955.3.22 = {
+        birth = yes
+    }
+
+    6003.4.23 = {
+        add_spouse = fisher_n_60
+    }
+
+    6024.4.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_60 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = zealous
+    trait = paranoid
+    trait = ambitious
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 10
+    intrigue = 5
+    learning = 5
+    prowess = 1
+
+    trait = education_stewardship_2
+
+    5986.4.9 = {
+        birth = yes
+    }
+
+    6052.3.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_61 = {
+    name = "Cregard"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_59
+    mother = fisher_n_60
+
+    trait = craven
+    trait = paranoid
+    trait = wrathful
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 9
+    learning = 6
+    prowess = 9
+
+    trait = education_intrigue_2
+
+    6023.5.21 = {
+        birth = yes
+    }
+
+    6041.6.19 = {
+        add_spouse = fisher_n_62
+    }
+
+    6089.10.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_62 = {
     name = "Lyessa"
     female = yes
 
     religion = the_old_gods
     culture = northmen
 
-    trait = impatient
-    trait = paranoid
-    trait = lazy
+    trait = arrogant
+    trait = cynical
+    trait = gregarious
 
-    diplomacy = 8
+    diplomacy = 2
     martial = 4
-    stewardship = 8
-    intrigue = 9
-    learning = 4
-    prowess = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 8
+    prowess = 3
 
-    trait = education_intrigue_2
+    trait = education_learning_1
 
-    4722.6.22 = {
+    6024.8.14 = {
         birth = yes
     }
 
-    4805.12.14 = {
+    6104.9.20 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-fisher_15 = {
-    name = "Medger"
+fisher_n_63 = {
+    name = "Domeric"
 
-    dynasty = dynasty_fisher
+    dynasty = dynasty_fisher_n
     religion = the_old_gods
     culture = northmen
 
-    father = fisher_13
-    mother = fisher_14
+    father = fisher_n_61
+    mother = fisher_n_62
 
-    trait = gregarious
+    trait = compassionate
+    trait = greedy
     trait = deceitful
-    trait = callous
 
-    diplomacy = 4
-    martial = 5
-    stewardship = 1
-    intrigue = 7
-    learning = 3
-    prowess = 4
+    diplomacy = 10
+    martial = 4
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 7
 
-    trait = education_intrigue_3
+    trait = education_diplomacy_2
 
-    4740.8.20 = {
+    6054.4.25 = {
         birth = yes
     }
 
-    4741.10.22 = {
-        give_nickname = nick_the_sly
+    6099.1.21 = {
+        add_spouse = fisher_n_64
+    }
+
+    6118.8.10 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+fisher_n_64 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = brave
+    trait = gluttonous
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_4
+
+    6082.3.4 = {
+        birth = yes
+    }
+
+    6153.3.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_65 = {
+    name = "Torghen"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_63
+    mother = fisher_n_64
+
+    trait = paranoid
+    trait = gregarious
+    trait = patient
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 9
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6118.4.18 = {
+        birth = yes
+    }
+
+    6136.5.21 = {
+        add_spouse = fisher_n_66
+    }
+
+    6188.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_66 = {
+    name = "Wynafryd"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = diligent
+    trait = zealous
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6119.6.5 = {
+        birth = yes
+    }
+
+    6202.5.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_67 = {
+    name = "Beren"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_65
+    mother = fisher_n_66
+
+    trait = honest
+    trait = callous
+    trait = generous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 8
+    intrigue = 9
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6168.4.18 = {
+        birth = yes
+    }
+
+    6169.3.10 = {
+        give_nickname = nick_the_truthspeaker
         effect = {
             add_character_flag = {
                 flag = had_nickname_event
@@ -486,3872 +2176,2490 @@ fisher_15 = {
         }
     }
 
-    4775.1.15 = {
-        add_spouse = fisher_16
+    6211.7.12 = {
+        add_spouse = fisher_n_68
     }
 
-    4810.4.22 = {
+    6239.11.15 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-fisher_16 = {
-    name = "Leana"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = greedy
-    trait = compassionate
-    trait = honest
-
-    diplomacy = 4
-    martial = 7
-    stewardship = 3
-    intrigue = 8
-    learning = 4
-    prowess = 6
-
-    trait = education_intrigue_2
-
-    4758.11.12 = {
-        birth = yes
-    }
-
-    4837.8.1 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_17 = {
-    name = "Hother"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_15
-    mother = fisher_16
-
-    trait = lazy
-    trait = vengeful
-    trait = chaste
-
-    diplomacy = 6
-    martial = 5
-    stewardship = 4
-    intrigue = 6
-    learning = 7
-    prowess = 4
-
-    trait = education_learning_4
-
-    4796.5.15 = {
-        birth = yes
-    }
-
-    4831.8.8 = {
-        add_spouse = fisher_18
-    }
-
-    4871.10.24 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_18 = {
-    name = "Barba"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = trusting
-    trait = gluttonous
-    trait = ambitious
-
-    diplomacy = 8
-    martial = 6
-    stewardship = 5
-    intrigue = 5
-    learning = 5
-    prowess = 8
-
-    trait = education_diplomacy_2
-
-    4814.6.14 = {
-        birth = yes
-    }
-
-    4896.2.26 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_19 = {
-    name = "Wynton"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_17
-    mother = fisher_18
-
-    trait = just
-    trait = content
-    trait = calm
-
-    diplomacy = 6
-    martial = 5
-    stewardship = 7
-    intrigue = 10
-    learning = 7
-    prowess = 7
-
-    trait = education_intrigue_3
-
-    4834.12.13 = {
-        birth = yes
-    }
-
-    4857.9.7 = {
-        add_spouse = fisher_20
-    }
-
-    4909.2.15 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_20 = {
-    name = "Perra"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = paranoid
-    trait = gregarious
-    trait = wrathful
-
-    diplomacy = 2
-    martial = 6
-    stewardship = 5
-    intrigue = 6
-    learning = 3
-    prowess = 4
-
-    trait = education_martial_3
-
-    4840.6.9 = {
-        birth = yes
-    }
-
-    4923.11.21 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_21 = {
-    name = "Barthogan"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_19
-    mother = fisher_20
-
-    trait = gregarious
-    trait = arrogant
-    trait = craven
-
-    diplomacy = 7
-    martial = 4
-    stewardship = 3
-    intrigue = 5
-    learning = 4
-    prowess = 4
-
-    trait = education_diplomacy_2
-
-    4865.4.26 = {
-        birth = yes
-    }
-
-    4901.2.14 = {
-        add_spouse = fisher_22
-    }
-
-    4948.8.14 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_22 = {
-    name = "Melantha"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = forgiving
-    trait = fickle
-    trait = trusting
-
-    diplomacy = 10
-    martial = 5
-    stewardship = 5
-    intrigue = 7
-    learning = 6
-    prowess = 7
-
-    trait = education_diplomacy_3
-
-    4884.3.18 = {
-        birth = yes
-    }
-
-    4960.1.16 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_23 = {
-    name = "Edwyn"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_21
-    mother = fisher_22
-
-    trait = gregarious
-    trait = content
-    trait = diligent
-
-    diplomacy = 24
-    martial = 14
-    stewardship = 15
-    intrigue = 16
-    learning = 27
-    prowess = 23
-
-    trait = education_learning_4
-
-    4907.1.1 = {
-        birth = yes
-    }
-
-    4940.11.1 = {
-        add_spouse = fisher_24
-    }
-
-    4982.4.27 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_24 = {
-    name = "Maegelle"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = greedy
-    trait = gregarious
-    trait = patient
-
-    diplomacy = 4
-    martial = 3
-    stewardship = 4
-    intrigue = 6
-    learning = 7
-    prowess = 5
-
-    trait = education_learning_4
-
-    4923.9.6 = {
-        birth = yes
-    }
-
-    5006.10.13 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_25 = {
-    name = "Bannen"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_23
-    mother = fisher_24
-
-    trait = chaste
-    trait = shy
-    trait = humble
-
-    diplomacy = 7
-    martial = 7
-    stewardship = 6
-    intrigue = 3
-    learning = 8
-    prowess = 3
-
-    trait = education_learning_3
-
-    4958.8.21 = {
-        birth = yes
-    }
-
-    4981.5.15 = {
-        add_spouse = fisher_26
-    }
-
-    5024.1.23 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_26 = {
-    name = "Larra"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = shy
-    trait = sadistic
-    trait = brave
-
-    diplomacy = 7
-    martial = 7
-    stewardship = 5
-    intrigue = 7
-    learning = 3
-    prowess = 6
-
-    trait = education_diplomacy_2
-
-    4964.7.13 = {
-        birth = yes
-    }
-
-    5032.6.11 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_27 = {
-    name = "Alyn"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_25
-    mother = fisher_26
-
-    trait = temperate
-    trait = forgiving
-    trait = diligent
-
-    diplomacy = 6
-    martial = 7
-    stewardship = 4
-    intrigue = 5
-    learning = 6
-    prowess = 6
-
-    trait = education_martial_2
-
-    4998.8.24 = {
-        birth = yes
-    }
-
-    5043.11.4 = {
-        add_spouse = fisher_28
-    }
-
-    5069.6.26 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_28 = {
-    name = "Marissa"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = compassionate
-    trait = craven
-    trait = arrogant
-
-    diplomacy = 7
-    martial = 3
-    stewardship = 5
-    intrigue = 8
-    learning = 6
-    prowess = 7
-
-    trait = education_intrigue_4
-
-    5026.7.9 = {
-        birth = yes
-    }
-
-    5099.7.8 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_29 = {
-    name = "Donnor"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_27
-    mother = fisher_28
-
-    trait = deceitful
-    trait = fickle
-    trait = compassionate
-
-    diplomacy = 3
-    martial = 5
-    stewardship = 3
-    intrigue = 4
-    learning = 4
-    prowess = 5
-
-    trait = education_martial_2
-
-    5043.11.4 = {
-        birth = yes
-    }
-
-    5079.4.5 = {
-        add_spouse = fisher_30
-    }
-
-    5124.7.5 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_30 = {
-    name = "Harra"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = gluttonous
-    trait = generous
-    trait = arbitrary
-
-    diplomacy = 4
-    martial = 9
-    stewardship = 4
-    intrigue = 10
-    learning = 5
-    prowess = 4
-
-    trait = education_intrigue_2
-
-    5062.6.9 = {
-        birth = yes
-    }
-
-    5134.12.25 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_31 = {
-    name = "Edwyn"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_29
-    mother = fisher_30
-
-    trait = zealous
-    trait = forgiving
-    trait = impatient
-
-    diplomacy = 5
-    martial = 4
-    stewardship = 6
-    intrigue = 3
-    learning = 6
-    prowess = 5
-
-    trait = education_stewardship_2
-
-    5095.5.7 = {
-        birth = yes
-    }
-
-    5144.9.21 = {
-        add_spouse = fisher_32
-    }
-
-    5173.12.21 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_32 = {
-    name = "Barbara"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = greedy
-    trait = diligent
-    trait = trusting
-
-    diplomacy = 4
-    martial = 5
-    stewardship = 6
-    intrigue = 6
-    learning = 5
-    prowess = 5
-
-    trait = education_stewardship_1
-
-    5127.2.9 = {
-        birth = yes
-    }
-
-    5200.11.14 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_33 = {
-    name = "Alaric"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_31
-    mother = fisher_32
-
-    trait = diligent
-    trait = fickle
-    trait = content
-
-    diplomacy = 5
-    martial = 4
-    stewardship = 6
-    intrigue = 5
-    learning = 5
-    prowess = 8
-
-    trait = education_stewardship_3
-
-    5156.7.14 = {
-        birth = yes
-    }
-
-    5202.8.27 = {
-        add_spouse = fisher_34
-    }
-
-    5226.9.28 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_34 = {
-    name = "Jynessa"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = sadistic
-    trait = patient
-    trait = deceitful
-
-    diplomacy = 5
-    martial = 7
-    stewardship = 5
-    intrigue = 6
-    learning = 7
-    prowess = 5
-
-    trait = education_martial_2
-
-    5185.10.15 = {
-        birth = yes
-    }
-
-    5264.12.13 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_35 = {
-    name = "Walton"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_33
-    mother = fisher_34
-
-    trait = paranoid
-    trait = calm
-    trait = greedy
-
-    diplomacy = 6
-    martial = 5
-    stewardship = 3
-    intrigue = 10
-    learning = 7
-    prowess = 8
-
-    trait = education_intrigue_4
-
-    5225.12.26 = {
-        birth = yes
-    }
-
-    5260.6.28 = {
-        add_spouse = fisher_36
-    }
-
-    5301.7.6 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_36 = {
-    name = "Marissa"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = vengeful
-    trait = brave
-    trait = zealous
-
-    diplomacy = 6
-    martial = 4
-    stewardship = 6
-    intrigue = 7
-    learning = 4
-    prowess = 5
-
-    trait = education_intrigue_3
-
-    5243.5.18 = {
-        birth = yes
-    }
-
-    5326.8.12 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_37 = {
-    name = "Rogar"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_35
-    mother = fisher_36
-
-    trait = arbitrary
-    trait = lazy
-    trait = wrathful
-
-    diplomacy = 5
-    martial = 2
-    stewardship = 8
-    intrigue = 8
-    learning = 1
-    prowess = 7
-
-    trait = education_stewardship_3
-
-    5289.12.10 = {
-        birth = yes
-    }
-
-    5323.11.2 = {
-        add_spouse = fisher_38
-    }
-
-    5369.4.13 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_38 = {
-    name = "Perra"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = deceitful
-    trait = paranoid
-    trait = zealous
-
-    diplomacy = 4
-    martial = 6
-    stewardship = 4
-    intrigue = 8
-    learning = 4
-    prowess = 4
-
-    trait = education_intrigue_4
-
-    5306.8.16 = {
-        birth = yes
-    }
-
-    5375.12.24 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_39 = {
-    name = "Arnolf"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_37
-    mother = fisher_38
-
-    trait = zealous
-    trait = lustful
-    trait = callous
-
-    diplomacy = 7
-    martial = 3
-    stewardship = 9
-    intrigue = 4
-    learning = 3
-    prowess = 8
-
-    trait = education_stewardship_3
-
-    5332.1.8 = {
-        birth = yes
-    }
-
-    5373.5.11 = {
-        add_spouse = fisher_40
-    }
-
-    5399.7.19 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_40 = {
-    name = "Sansa"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = chaste
-    trait = vengeful
-    trait = temperate
-
-    diplomacy = 6
-    martial = 6
-    stewardship = 6
-    intrigue = 6
-    learning = 4
-    prowess = 4
-
-    trait = education_diplomacy_3
-
-    5356.2.13 = {
-        birth = yes
-    }
-
-    5439.3.7 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_41 = {
-    name = "Howland"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_39
-    mother = fisher_40
-
-    trait = sadistic
-    trait = arbitrary
-    trait = chaste
-
-    diplomacy = 8
-    martial = 6
-    stewardship = 11
-    intrigue = 6
-    learning = 9
-    prowess = 6
-
-    trait = education_stewardship_3
-
-    5392.6.25 = {
-        birth = yes
-    }
-
-    5431.6.20 = {
-        add_spouse = fisher_42
-    }
-
-    5477.9.16 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_42 = {
-    name = "Lysara"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = shy
-    trait = paranoid
-    trait = humble
-
-    diplomacy = 6
-    martial = 7
-    stewardship = 2
-    intrigue = 3
-    learning = 4
-    prowess = 11
-
-    trait = education_martial_3
-
-    5414.3.25 = {
-        birth = yes
-    }
-
-    5488.11.22 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_43 = {
-    name = "Bennard"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_41
-    mother = fisher_42
-
-    trait = just
-    trait = craven
-    trait = callous
-
-    diplomacy = 4
-    martial = 4
-    stewardship = 6
-    intrigue = 8
-    learning = 10
-    prowess = 4
-
-    trait = education_learning_4
-
-    5438.11.4 = {
-        birth = yes
-    }
-
-    5486.12.3 = {
-        add_spouse = fisher_44
-    }
-
-    5505.3.21 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_44 = {
-    name = "Kyra"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = generous
-    trait = stubborn
-    trait = deceitful
-
-    diplomacy = 6
-    martial = 4
-    stewardship = 7
-    intrigue = 5
-    learning = 8
-    prowess = 6
-
-    trait = education_learning_3
-
-    5469.11.17 = {
-        birth = yes
-    }
-
-    5544.1.7 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_45 = {
-    name = "Dorren"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_43
-    mother = fisher_44
-
-    trait = craven
-    trait = stubborn
-    trait = wrathful
-
-    diplomacy = 22
-    martial = 13
-    stewardship = 15
-    intrigue = 22
-    learning = 12
-    prowess = 20
-
-    trait = education_diplomacy_4
-
-    5486.11.6 = {
-        birth = yes
-    }
-
-    5525.11.9 = {
-        add_spouse = fisher_46
-    }
-
-    5535.12.11 = {
-        death = { death_reason = death_battle }
-    }
-}
-
-fisher_46 = {
-    name = "Alyssa"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = gluttonous
-    trait = humble
-    trait = gregarious
-
-    diplomacy = 6
-    martial = 3
-    stewardship = 4
-    intrigue = 9
-    learning = 9
-    prowess = 2
-
-    trait = education_intrigue_3
-
-    5508.10.3 = {
-        birth = yes
-    }
-
-    5591.8.15 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_47 = {
-    name = "Wyman"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_45
-    mother = fisher_46
-
-    trait = generous
-    trait = gluttonous
-    trait = humble
-
-    diplomacy = 7
-    martial = 6
-    stewardship = 8
-    intrigue = 5
-    learning = 3
-    prowess = 3
-
-    trait = education_stewardship_3
-
-    5525.5.23 = {
-        birth = yes
-    }
-
-    5571.3.21 = {
-        add_spouse = fisher_48
-    }
-
-    5609.12.12 = {
-        death = { death_reason = death_cancer }
-    }
-}
-
-fisher_48 = {
-    name = "Barbrey"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = generous
-    trait = arbitrary
-    trait = humble
-
-    diplomacy = 5
-    martial = 6
-    stewardship = 6
-    intrigue = 5
-    learning = 5
-    prowess = 6
-
-    trait = education_martial_3
-
-    5554.4.8 = {
-        birth = yes
-    }
-
-    5631.9.16 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_49 = {
-    name = "Wyl"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_47
-    mother = fisher_48
-
-    trait = greedy
-    trait = callous
-    trait = vengeful
-
-    diplomacy = 1
-    martial = 4
-    stewardship = 6
-    intrigue = 6
-    learning = 7
-    prowess = 5
-
-    trait = education_learning_3
-
-    5604.6.9 = {
-        birth = yes
-    }
-
-    5654.1.24 = {
-        add_spouse = fisher_50
-    }
-
-    5677.8.7 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_50 = {
-    name = "Donella"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = humble
-    trait = vengeful
-    trait = greedy
-
-    diplomacy = 6
-    martial = 6
-    stewardship = 7
-    intrigue = 7
-    learning = 9
-    prowess = 11
-
-    trait = education_learning_3
-
-    5637.11.18 = {
-        birth = yes
-    }
-
-    5708.7.9 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_51 = {
-    name = "Osric"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_49
-    mother = fisher_50
-
-    trait = ambitious
-    trait = stubborn
-    trait = lazy
-
-    diplomacy = 6
-    martial = 3
-    stewardship = 7
-    intrigue = 3
-    learning = 7
-    prowess = 7
-
-    trait = education_stewardship_1
-
-    5661.8.27 = {
-        birth = yes
-    }
-
-    5706.1.8 = {
-        add_spouse = fisher_52
-    }
-
-    5730.2.11 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_52 = {
-    name = "Barba"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = arbitrary
-    trait = temperate
-    trait = deceitful
-
-    diplomacy = 5
-    martial = 4
-    stewardship = 2
-    intrigue = 6
-    learning = 7
-    prowess = 6
-
-    trait = education_learning_4
-
-    5689.5.27 = {
-        birth = yes
-    }
-
-    5760.8.11 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_53 = {
-    name = "Torghen"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_51
-    mother = fisher_52
-
-    trait = craven
-    trait = humble
-    trait = sadistic
-
-    diplomacy = 7
-    martial = 6
-    stewardship = 8
-    intrigue = 4
-    learning = 5
-    prowess = 5
-
-    trait = education_stewardship_2
-
-    5728.8.16 = {
-        birth = yes
-    }
-
-    5757.10.1 = {
-        add_spouse = fisher_54
-    }
-
-    5796.3.11 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_54 = {
-    name = "Jynessa"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = stubborn
-    trait = brave
-    trait = compassionate
-
-    diplomacy = 11
-    martial = 5
-    stewardship = 6
-    intrigue = 4
-    learning = 4
-    prowess = 9
-
-    trait = education_diplomacy_4
-
-    5740.9.10 = {
-        birth = yes
-    }
-
-    5811.4.16 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_55 = {
-    name = "Edrick"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_53
-    mother = fisher_54
-
-    trait = arbitrary
-    trait = fickle
-    trait = deceitful
-
-    diplomacy = 9
-    martial = 2
-    stewardship = 4
-    intrigue = 4
-    learning = 10
-    prowess = 8
-
-    trait = education_learning_4
-
-    5761.5.6 = {
-        birth = yes
-    }
-
-    5780.4.25 = {
-        add_spouse = fisher_56
-    }
-
-    5813.12.9 = {
-        death = { death_reason = death_siege }
-    }
-}
-
-fisher_56 = {
-    name = "Bessa"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = lustful
-    trait = temperate
-    trait = vengeful
-
-    diplomacy = 6
-    martial = 7
-    stewardship = 5
-    intrigue = 5
-    learning = 4
-    prowess = 6
-
-    trait = education_martial_4
-
-    5763.7.8 = {
-        birth = yes
-    }
-
-    5842.3.1 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_57 = {
-    name = "Edwyn"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_55
-    mother = fisher_56
-
-    trait = sadistic
-    trait = temperate
-    trait = chaste
-
-    diplomacy = 8
-    martial = 5
-    stewardship = 7
-    intrigue = 5
-    learning = 5
-    prowess = 7
-
-    trait = education_diplomacy_1
-
-    5808.5.22 = {
-        birth = yes
-    }
-
-    5833.1.4 = {
-        add_spouse = fisher_58
-    }
-
-    5847.1.23 = {
-        death = { death_reason = death_wounds }
-    }
-}
-
-fisher_58 = {
-    name = "Bellena"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = wrathful
-    trait = gregarious
-    trait = generous
-
-    diplomacy = 5
-    martial = 7
-    stewardship = 5
-    intrigue = 8
-    learning = 11
-    prowess = 6
-
-    trait = education_learning_3
-
-    5816.5.25 = {
-        birth = yes
-    }
-
-    5891.3.13 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_59 = {
-    name = "Daryn"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_57
-    mother = fisher_58
-
-    trait = temperate
-    trait = greedy
-    trait = lazy
-
-    diplomacy = 2
-    martial = 6
-    stewardship = 2
-    intrigue = 7
-    learning = 3
-    prowess = 5
-
-    trait = education_intrigue_2
-
-    5836.9.26 = {
-        birth = yes
-    }
-
-    5861.7.24 = {
-        add_spouse = fisher_60
-    }
-
-    5911.3.27 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_60 = {
-    name = "Perra"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = arrogant
-    trait = paranoid
-    trait = gluttonous
-
-    diplomacy = 6
-    martial = 6
-    stewardship = 7
-    intrigue = 7
-    learning = 6
-    prowess = 6
-
-    trait = education_stewardship_4
-
-    5844.2.16 = {
-        birth = yes
-    }
-
-    5929.8.15 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_61 = {
-    name = "Donnor"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_59
-    mother = fisher_60
-
-    trait = arbitrary
-    trait = stubborn
-    trait = diligent
-
-    diplomacy = 4
-    martial = 5
-    stewardship = 4
-    intrigue = 8
-    learning = 7
-    prowess = 3
-
-    trait = education_intrigue_2
-
-    5885.11.2 = {
-        birth = yes
-    }
-
-    5903.12.11 = {
-        add_spouse = fisher_62
-    }
-
-    5956.6.20 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_62 = {
-    name = "Arya"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = lustful
-    trait = impatient
-    trait = vengeful
-
-    diplomacy = 6
-    martial = 5
-    stewardship = 4
-    intrigue = 6
-    learning = 6
-    prowess = 8
-
-    trait = education_diplomacy_3
-
-    5886.4.2 = {
-        birth = yes
-    }
-
-    5954.4.14 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_63 = {
-    name = "Walton"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_61
-    mother = fisher_62
-
-    trait = impatient
-    trait = forgiving
-    trait = lazy
-
-    diplomacy = 8
-    martial = 4
-    stewardship = 4
-    intrigue = 4
-    learning = 6
-    prowess = 8
-
-    trait = education_diplomacy_3
-
-    5907.1.20 = {
-        birth = yes
-    }
-
-    5933.5.26 = {
-        add_spouse = fisher_64
-    }
-
-    5982.7.12 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_64 = {
-    name = "Arra"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = patient
-    trait = greedy
-    trait = lustful
-
-    diplomacy = 9
-    martial = 8
-    stewardship = 9
-    intrigue = 6
-    learning = 5
-    prowess = 1
-
-    trait = education_diplomacy_3
-
-    5916.2.19 = {
-        birth = yes
-    }
-
-    5993.10.5 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_65 = {
-    name = "Walton"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_63
-    mother = fisher_64
-
-    trait = trusting
-    trait = greedy
-    trait = gregarious
-
-    diplomacy = 4
-    martial = 5
-    stewardship = 5
-    intrigue = 8
-    learning = 7
-    prowess = 9
-
-    trait = education_intrigue_2
-
-    5950.2.4 = {
-        birth = yes
-    }
-
-    5965.10.11 = {
-        add_spouse = fisher_66
-    }
-
-    6034.12.11 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_66 = {
-    name = "Berena"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = callous
-    trait = wrathful
-    trait = gluttonous
-
-    diplomacy = 7
-    martial = 1
-    stewardship = 6
-    intrigue = 1
-    learning = 7
-    prowess = 7
-
-    trait = education_diplomacy_4
-
-    5948.12.10 = {
-        birth = yes
-    }
-
-    6027.2.22 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_67 = {
-    name = "Danny"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_65
-    mother = fisher_66
-
-    trait = zealous
-    trait = diligent
-    trait = temperate
-
-    diplomacy = 6
-    martial = 4
-    stewardship = 6
-    intrigue = 4
-    learning = 5
-    prowess = 7
-
-    trait = education_diplomacy_3
-
-    5968.7.8 = {
-        birth = yes
-    }
-
-    5985.12.25 = {
-        add_spouse = fisher_68
-    }
-
-    6044.11.2 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_68 = {
-    name = "Maegelle"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = gregarious
-    trait = gluttonous
-    trait = craven
-
-    diplomacy = 5
-    martial = 8
-    stewardship = 10
-    intrigue = 5
-    learning = 9
-    prowess = 7
-
-    trait = education_stewardship_3
-
-    5968.10.25 = {
-        birth = yes
-    }
-
-    6039.10.2 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_69 = {
-    name = "Luton"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_67
-    mother = fisher_68
-
-    trait = fickle
-    trait = lustful
-    trait = just
-
-    diplomacy = 7
-    martial = 5
-    stewardship = 5
-    intrigue = 3
-    learning = 8
-    prowess = 4
-
-    trait = education_learning_3
-
-    5993.5.2 = {
-        birth = yes
-    }
-
-    6038.12.8 = {
-        add_spouse = fisher_70
-    }
-
-    6070.2.22 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_70 = {
-    name = "Lysa"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = impatient
-    trait = gluttonous
-    trait = forgiving
-
-    diplomacy = 7
-    martial = 5
-    stewardship = 6
-    intrigue = 8
-    learning = 6
-    prowess = 5
-
-    trait = education_intrigue_4
-
-    6021.4.2 = {
-        birth = yes
-    }
-
-    6093.8.17 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_71 = {
-    name = "Jon"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_69
-    mother = fisher_70
-
-    trait = impatient
-    trait = wrathful
-    trait = diligent
-
-    diplomacy = 4
-    martial = 7
-    stewardship = 9
-    intrigue = 4
-    learning = 6
-    prowess = 6
-
-    trait = education_stewardship_3
-
-    6068.8.26 = {
-        birth = yes
-    }
-
-    6090.2.6 = {
-        add_spouse = fisher_72
-    }
-
-    6138.10.7 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_72 = {
-    name = "Branda"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = temperate
-    trait = calm
-    trait = diligent
-
-    diplomacy = 4
-    martial = 5
-    stewardship = 5
-    intrigue = 4
-    learning = 3
-    prowess = 5
-
-    trait = education_martial_3
-
-    6073.5.8 = {
-        birth = yes
-    }
-
-    6152.9.11 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_73 = {
-    name = "Cregan"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_71
-    mother = fisher_72
-
-    trait = forgiving
-    trait = zealous
-    trait = gluttonous
-
-    diplomacy = 3
-    martial = 7
-    stewardship = 9
-    intrigue = 6
-    learning = 7
-    prowess = 8
-
-    trait = education_stewardship_3
-
-    6121.1.2 = {
-        birth = yes
-    }
-
-    6143.7.21 = {
-        add_spouse = fisher_74
-    }
-
-    6204.10.21 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_74 = {
-    name = "Danelle"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = humble
-    trait = ambitious
-    trait = fickle
-
-    diplomacy = 8
-    martial = 8
-    stewardship = 5
-    intrigue = 5
-    learning = 7
-    prowess = 5
-
-    trait = education_diplomacy_4
-
-    6126.5.3 = {
-        birth = yes
-    }
-
-    6196.10.5 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_75 = {
-    name = "Wynton"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_73
-    mother = fisher_74
-
-    trait = vengeful
-    trait = paranoid
-    trait = stubborn
-
-    diplomacy = 3
-    martial = 4
-    stewardship = 4
-    intrigue = 7
-    learning = 10
-    prowess = 5
-
-    trait = education_learning_2
-
-    6158.7.16 = {
-        birth = yes
-    }
-
-    6173.10.23 = {
-        add_spouse = fisher_76
-    }
-
-    6243.12.26 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_76 = {
-    name = "Jocelyn"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = callous
-    trait = deceitful
-    trait = temperate
-
-    diplomacy = 11
-    martial = 8
-    stewardship = 8
-    intrigue = 6
-    learning = 7
-    prowess = 8
-
-    trait = education_diplomacy_3
-
-    6156.1.9 = {
-        birth = yes
-    }
-
-    6223.9.7 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_77 = {
-    name = "Jeor"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_75
-    mother = fisher_76
-
-    trait = deceitful
-    trait = arrogant
-    trait = brave
-
-    diplomacy = 7
-    martial = 5
-    stewardship = 7
-    intrigue = 5
-    learning = 5
-    prowess = 7
-
-    trait = education_diplomacy_4
-
-    6194.12.12 = {
-        birth = yes
-    }
-
-    6244.8.3 = {
-        add_spouse = fisher_78
-    }
-
-    6275.7.25 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_78 = {
-    name = "Meliana"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = temperate
-    trait = just
-    trait = diligent
-
-    diplomacy = 7
-    martial = 3
-    stewardship = 5
-    intrigue = 6
-    learning = 5
-    prowess = 6
-
-    trait = education_diplomacy_2
-
-    6227.9.26 = {
-        birth = yes
-    }
-
-    6296.1.26 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_79 = {
-    name = "Garth"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_77
-    mother = fisher_78
-
-    trait = honest
-    trait = craven
-    trait = humble
-
-    diplomacy = 6
-    martial = 6
-    stewardship = 5
-    intrigue = 5
-    learning = 6
-    prowess = 6
-
-    trait = education_diplomacy_2
-
-    6246.6.19 = {
-        birth = yes
-    }
-
-    6274.4.13 = {
-        add_spouse = fisher_80
-    }
-
-    6322.7.10 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_80 = {
-    name = "Leona"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = content
-    trait = craven
-    trait = shy
-
-    diplomacy = 5
-    martial = 9
-    stewardship = 7
-    intrigue = 3
-    learning = 9
-    prowess = 5
-
-    trait = education_martial_3
-
-    6257.12.24 = {
-        birth = yes
-    }
-
-    6332.11.9 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_81 = {
-    name = "Theo"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_79
-    mother = fisher_80
-
-    trait = lustful
-    trait = shy
-    trait = trusting
-
-    diplomacy = 7
-    martial = 7
-    stewardship = 4
-    intrigue = 4
-    learning = 9
-    prowess = 7
-
-    trait = education_learning_4
-
-    6293.12.20 = {
-        birth = yes
-    }
-
-    6339.2.3 = {
-        add_spouse = fisher_82
-    }
-
-    6368.3.23 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_82 = {
-    name = "Jocelyn"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = craven
-    trait = paranoid
-    trait = arrogant
-
-    diplomacy = 5
-    martial = 6
-    stewardship = 7
-    intrigue = 7
-    learning = 9
-    prowess = 5
-
-    trait = education_learning_2
-
-    6322.1.26 = {
-        birth = yes
-    }
-
-    6398.4.19 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_83 = {
-    name = "Jojen"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_81
-    mother = fisher_82
-
-    trait = trusting
-    trait = arrogant
-    trait = impatient
-
-    diplomacy = 7
-    martial = 5
-    stewardship = 5
-    intrigue = 6
-    learning = 6
-    prowess = 9
-
-    trait = education_diplomacy_1
-
-    6365.8.17 = {
-        birth = yes
-    }
-
-    6385.2.7 = {
-        add_spouse = fisher_84
-    }
-
-    6436.4.4 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_84 = {
-    name = "Alysane"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = patient
-    trait = greedy
-    trait = wrathful
-
-    diplomacy = 5
-    martial = 6
-    stewardship = 5
-    intrigue = 6
-    learning = 11
-    prowess = 7
-
-    trait = education_learning_3
-
-    6368.2.15 = {
-        birth = yes
-    }
-
-    6447.2.6 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_85 = {
-    name = "Hother"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_83
-    mother = fisher_84
-
-    trait = craven
-    trait = shy
-    trait = generous
-
-    diplomacy = 3
-    martial = 6
-    stewardship = 5
-    intrigue = 7
-    learning = 5
-    prowess = 5
-
-    trait = education_intrigue_4
-
-    6385.6.21 = {
-        birth = yes
-    }
-
-    6410.3.10 = {
-        add_spouse = fisher_86
-    }
-
-    6459.8.24 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_86 = {
-    name = "Lacey"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = cynical
-    trait = lustful
-    trait = temperate
-
-    diplomacy = 6
-    martial = 7
-    stewardship = 9
-    intrigue = 11
-    learning = 7
-    prowess = 8
-
-    trait = education_intrigue_3
-
-    6393.8.13 = {
-        birth = yes
-    }
-
-    6469.12.7 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_87 = {
-    name = "Ethan"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_85
-    mother = fisher_86
-
-    trait = arrogant
-    trait = cynical
-    trait = stubborn
-
-    diplomacy = 7
-    martial = 5
-    stewardship = 7
-    intrigue = 4
-    learning = 5
-    prowess = 3
-
-    trait = education_diplomacy_3
-
-    6427.5.22 = {
-        birth = yes
-    }
-
-    6462.5.9 = {
-        add_spouse = fisher_88
-    }
-
-    6494.6.19 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_88 = {
-    name = "Alysane"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = brave
-    trait = callous
-    trait = lazy
-
-    diplomacy = 6
-    martial = 6
-    stewardship = 7
-    intrigue = 9
-    learning = 6
-    prowess = 10
-
-    trait = education_intrigue_4
-
-    6445.2.13 = {
-        birth = yes
-    }
-
-    6526.10.14 = {
-        death = { death_reason = death_consumption }
-    }
-}
-
-fisher_89 = {
-    name = "Wayn"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_87
-    mother = fisher_88
-
-    trait = arrogant
-    trait = shy
-    trait = diligent
-
-    diplomacy = 6
-    martial = 5
-    stewardship = 2
-    intrigue = 4
-    learning = 2
-    prowess = 5
-
-    trait = education_diplomacy_4
-
-    6483.11.7 = {
-        birth = yes
-    }
-
-    6501.6.25 = {
-        add_spouse = fisher_90
-    }
-
-    6549.9.9 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_90 = {
-    name = "Serena"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = trusting
-    trait = zealous
-    trait = content
-
-    diplomacy = 4
-    martial = 9
-    stewardship = 5
-    intrigue = 8
-    learning = 7
-    prowess = 4
-
-    trait = education_martial_2
-
-    6484.9.4 = {
-        birth = yes
-    }
-
-    6551.6.14 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_91 = {
-    name = "Jojen"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_89
-    mother = fisher_90
-
-    trait = arbitrary
-    trait = vengeful
-    trait = chaste
-
-    diplomacy = 2
-    martial = 6
-    stewardship = 7
-    intrigue = 10
-    learning = 4
-    prowess = 2
-
-    trait = education_intrigue_3
-
-    6528.2.9 = {
-        birth = yes
-    }
-
-    6544.11.3 = {
-        add_spouse = fisher_92
-    }
-
-    6611.4.7 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_92 = {
+fisher_n_68 = {
     name = "Mylessa"
     female = yes
 
     religion = the_old_gods
     culture = northmen
 
-    trait = callous
-    trait = deceitful
-    trait = chaste
-
-    diplomacy = 7
-    martial = 7
-    stewardship = 6
-    intrigue = 5
-    learning = 5
-    prowess = 6
-
-    trait = education_diplomacy_2
-
-    6527.10.22 = {
-        birth = yes
-    }
-
-    6611.9.25 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_93 = {
-    name = "Gawen"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_91
-    mother = fisher_92
-
-    trait = compassionate
-    trait = gregarious
-    trait = trusting
-
-    diplomacy = 6
-    martial = 5
-    stewardship = 6
-    intrigue = 3
-    learning = 7
-    prowess = 7
-
-    trait = education_learning_2
-
-    6563.8.14 = {
-        birth = yes
-    }
-
-    6600.6.6 = {
-        add_spouse = fisher_94
-    }
-
-    6639.11.8 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_94 = {
-    name = "Margaret"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = just
     trait = greedy
+    trait = just
     trait = vengeful
-
-    diplomacy = 2
-    martial = 6
-    stewardship = 6
-    intrigue = 5
-    learning = 6
-    prowess = 5
-
-    trait = education_martial_1
-
-    6583.7.2 = {
-        birth = yes
-    }
-
-    6652.10.26 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_95 = {
-    name = "Wayn"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_93
-    mother = fisher_94
-
-    trait = paranoid
-    trait = craven
-    trait = arrogant
 
     diplomacy = 9
     martial = 4
-    stewardship = 6
-    intrigue = 9
-    learning = 6
-    prowess = 8
-
-    trait = education_diplomacy_2
-
-    6612.4.5 = {
-        birth = yes
-    }
-
-    6634.1.21 = {
-        add_spouse = fisher_96
-    }
-
-    6694.12.21 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_96 = {
-    name = "Darlessa"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = arrogant
-    trait = forgiving
-    trait = brave
-
-    diplomacy = 2
-    martial = 11
-    stewardship = 5
-    intrigue = 4
-    learning = 9
-    prowess = 7
-
-    trait = education_martial_4
-
-    6617.6.16 = {
-        birth = yes
-    }
-
-    6686.2.7 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_97 = {
-    name = "Harwin"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_95
-    mother = fisher_96
-
-    trait = fickle
-    trait = zealous
-    trait = patient
-
-    diplomacy = 4
-    martial = 8
-    stewardship = 7
-    intrigue = 4
-    learning = 2
-    prowess = 7
-
-    trait = education_martial_2
-
-    6636.12.3 = {
-        birth = yes
-    }
-
-    6677.3.14 = {
-        add_spouse = fisher_98
-    }
-
-    6711.9.5 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_98 = {
-    name = "Bellena"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = humble
-    trait = generous
-    trait = stubborn
-
-    diplomacy = 4
-    martial = 9
     stewardship = 4
-    intrigue = 7
-    learning = 10
-    prowess = 4
-
-    trait = education_learning_1
-
-    6660.12.26 = {
-        birth = yes
-    }
-
-    6739.6.7 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_99 = {
-    name = "Elric"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_97
-    mother = fisher_98
-
-    trait = ambitious
-    trait = sadistic
-    trait = compassionate
-
-    diplomacy = 10
-    martial = 3
-    stewardship = 2
-    intrigue = 5
-    learning = 5
-    prowess = 6
+    intrigue = 9
+    learning = 7
+    prowess = 7
 
     trait = education_diplomacy_3
 
-    6708.3.15 = {
+    6194.8.19 = {
         birth = yes
     }
 
-    6756.3.19 = {
-        add_spouse = fisher_100
-    }
-
-    6782.9.17 = {
+    6275.9.20 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-fisher_100 = {
-    name = "Sansa"
-    female = yes
+fisher_n_69 = {
+    name = "Damon"
 
+    dynasty = dynasty_fisher_n
     religion = the_old_gods
     culture = northmen
 
-    trait = paranoid
-    trait = brave
-    trait = cynical
+    father = fisher_n_67
+    mother = fisher_n_68
 
-    diplomacy = 3
-    martial = 6
-    stewardship = 8
-    intrigue = 5
-    learning = 6
-    prowess = 8
-
-    trait = education_stewardship_3
-
-    6739.5.27 = {
-        birth = yes
-    }
-
-    6805.5.24 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_101 = {
-    name = "Beron"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_99
-    mother = fisher_100
-
-    trait = gregarious
-    trait = content
+    trait = stubborn
+    trait = craven
     trait = trusting
 
-    diplomacy = 4
-    martial = 10
+    diplomacy = 8
+    martial = 7
     stewardship = 7
-    intrigue = 5
-    learning = 5
-    prowess = 6
+    intrigue = 7
+    learning = 4
+    prowess = 3
 
-    trait = education_martial_2
+    trait = education_diplomacy_2
 
-    6766.2.14 = {
+    6214.6.19 = {
         birth = yes
     }
 
-    6801.9.24 = {
-        add_spouse = fisher_102
+    6253.11.21 = {
+        add_spouse = fisher_n_70
     }
 
-    6837.12.2 = {
+    6280.11.18 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-fisher_102 = {
-    name = "Alyssa"
+fisher_n_70 = {
+    name = "Rowena"
     female = yes
 
     religion = the_old_gods
     culture = northmen
 
+    trait = sadistic
+    trait = generous
     trait = diligent
-    trait = lustful
-    trait = ambitious
 
-    diplomacy = 2
-    martial = 4
-    stewardship = 7
+    diplomacy = 7
+    martial = 6
+    stewardship = 9
     intrigue = 5
     learning = 6
-    prowess = 7
+    prowess = 5
 
     trait = education_stewardship_3
 
-    6784.11.18 = {
+    6236.10.9 = {
         birth = yes
     }
 
-    6862.1.21 = {
+    6306.10.4 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-fisher_103 = {
-    name = "Eddard"
+fisher_n_71 = {
+    name = "Martyn"
 
-    dynasty = dynasty_fisher
+    dynasty = dynasty_fisher_n
     religion = the_old_gods
     culture = northmen
 
-    father = fisher_101
-    mother = fisher_102
+    father = fisher_n_69
+    mother = fisher_n_70
 
+    trait = calm
+    trait = shy
     trait = paranoid
-    trait = stubborn
-    trait = patient
 
-    diplomacy = 7
-    martial = 7
+    diplomacy = 6
+    martial = 8
     stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 8
+
+    trait = education_martial_3
+
+    6276.2.10 = {
+        birth = yes
+    }
+
+    6314.7.7 = {
+        add_spouse = fisher_n_72
+    }
+
+    6364.4.6 = {
+        death = { death_reason = death_great_pox }
+    }
+}
+
+fisher_n_72 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = lazy
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
     intrigue = 9
-    learning = 6
-    prowess = 3
+    learning = 7
+    prowess = 7
 
     trait = education_intrigue_2
 
-    6824.10.7 = {
+    6297.10.7 = {
         birth = yes
     }
 
-    6871.6.5 = {
-        add_spouse = fisher_104
-    }
-
-    6881.4.6 = {
-        death = { death_reason = death_chopped_to_pieces }
-    }
-}
-
-fisher_104 = {
-    name = "Barbara"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = stubborn
-    trait = forgiving
-    trait = deceitful
-
-    diplomacy = 10
-    martial = 9
-    stewardship = 9
-    intrigue = 9
-    learning = 7
-    prowess = 5
-
-    trait = education_diplomacy_2
-
-    6854.7.11 = {
-        birth = yes
-    }
-
-    6937.12.6 = {
+    6367.12.3 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-fisher_105 = {
-    name = "Medger"
+fisher_n_73 = {
+    name = "Hareth"
 
-    dynasty = dynasty_fisher
+    dynasty = dynasty_fisher_n
     religion = the_old_gods
     culture = northmen
 
-    father = fisher_103
-    mother = fisher_104
-
-    trait = content
-    trait = calm
-    trait = honest
-
-    diplomacy = 7
-    martial = 6
-    stewardship = 10
-    intrigue = 8
-    learning = 5
-    prowess = 6
-
-    trait = education_stewardship_2
-
-    6872.8.13 = {
-        birth = yes
-    }
-
-    6902.7.19 = {
-        add_spouse = fisher_106
-    }
-
-    6948.7.7 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_106 = {
-    name = "Alysane"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = impatient
-    trait = diligent
-    trait = vengeful
-
-    diplomacy = 5
-    martial = 3
-    stewardship = 10
-    intrigue = 8
-    learning = 10
-    prowess = 3
-
-    trait = education_stewardship_3
-
-    6885.7.6 = {
-        birth = yes
-    }
-
-    6923.9.28 = {
-        death = { death_reason = death_plotting  }
-    }
-}
-
-fisher_107 = {
-    name = "Howland"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_105
-    mother = fisher_106
+    father = fisher_n_71
+    mother = fisher_n_72
 
     trait = humble
-    trait = temperate
-    trait = lazy
+    trait = fickle
+    trait = wrathful
 
-    diplomacy = 6
-    martial = 2
+    diplomacy = 5
+    martial = 7
     stewardship = 6
-    intrigue = 4
-    learning = 3
-    prowess = 4
+    intrigue = 5
+    learning = 10
+    prowess = 8
 
-    trait = education_diplomacy_2
+    trait = education_learning_2
 
-    6921.4.10 = {
+    6330.10.2 = {
         birth = yes
     }
 
-    6950.8.15 = {
-        add_spouse = fisher_108
+    6347.3.15 = {
+        add_spouse = fisher_n_74
     }
 
-    7001.10.2 = {
-        death = { death_reason = death_natural_causes }
+    6357.6.6 = {
+        death = { death_reason = death_typhus }
     }
 }
 
-fisher_108 = {
+fisher_n_74 = {
     name = "Bethany"
     female = yes
 
     religion = the_old_gods
     culture = northmen
 
-    trait = generous
-    trait = brave
-    trait = diligent
-
-    diplomacy = 6
-    martial = 6
-    stewardship = 7
-    intrigue = 6
-    learning = 5
-    prowess = 8
-
-    trait = education_stewardship_2
-
-    6933.7.5 = {
-        birth = yes
-    }
-
-    7003.11.19 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_109 = {
-    name = "Helman"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_107
-    mother = fisher_108
-
-    trait = just
-    trait = ambitious
-    trait = paranoid
-
-    diplomacy = 6
-    martial = 9
-    stewardship = 6
-    intrigue = 3
-    learning = 7
-    prowess = 10
-
-    trait = education_martial_1
-
-    6981.2.25 = {
-        birth = yes
-    }
-
-    7018.10.16 = {
-        add_spouse = fisher_110
-    }
-
-    7058.2.21 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_110 = {
-    name = "Leona"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = generous
+    trait = gluttonous
     trait = arbitrary
-    trait = zealous
-
-    diplomacy = 3
-    martial = 6
-    stewardship = 1
-    intrigue = 10
-    learning = 6
-    prowess = 5
-
-    trait = education_intrigue_3
-
-    7001.3.2 = {
-        birth = yes
-    }
-
-    7072.5.2 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_111 = {
-    name = "Alyn"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_109
-    mother = fisher_110
-
-    trait = wrathful
-    trait = chaste
-    trait = arbitrary
-
-    diplomacy = 7
-    martial = 9
-    stewardship = 5
-    intrigue = 4
-    learning = 8
-    prowess = 6
-
-    trait = education_martial_3
-
-    7043.12.28 = {
-        birth = yes
-    }
-
-    7065.9.10 = {
-        add_spouse = fisher_112
-    }
-
-    7124.5.24 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_112 = {
-    name = "Lynarra"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = vengeful
-    trait = lazy
-    trait = honest
+    trait = stubborn
 
     diplomacy = 6
-    martial = 5
+    martial = 4
     stewardship = 7
     intrigue = 5
-    learning = 7
-    prowess = 1
+    learning = 3
+    prowess = 2
 
-    trait = education_stewardship_2
+    trait = education_stewardship_4
 
-    7048.2.11 = {
+    6330.10.23 = {
         birth = yes
     }
 
-    7123.10.19 = {
+    6398.3.11 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-fisher_113 = {
-    name = "Domeric"
+fisher_n_75 = {
+    name = "Duncan"
 
-    dynasty = dynasty_fisher
+    dynasty = dynasty_fisher_n
     religion = the_old_gods
     culture = northmen
 
-    father = fisher_111
-    mother = fisher_112
+    father = fisher_n_73
+    mother = fisher_n_74
 
-    trait = trusting
-    trait = calm
-    trait = arrogant
+    trait = compassionate
+    trait = wrathful
+    trait = paranoid
 
     diplomacy = 7
-    martial = 7
-    stewardship = 2
-    intrigue = 6
-    learning = 8
-    prowess = 9
+    martial = 8
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 1
 
-    trait = education_learning_4
+    trait = education_martial_2
 
-    7067.7.9 = {
+    6354.10.19 = {
         birth = yes
     }
 
-    7101.10.22 = {
-        add_spouse = fisher_114
+    6355.3.12 = {
+        give_nickname = nick_the_generous
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
     }
 
-    7143.12.22 = {
+    6385.12.4 = {
+        add_spouse = fisher_n_76
+    }
+
+    6434.2.13 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-fisher_114 = {
-    name = "Elyana"
+fisher_n_76 = {
+    name = "Jocelyn"
     female = yes
 
     religion = the_old_gods
     culture = northmen
 
-    trait = forgiving
+    trait = chaste
     trait = temperate
-    trait = sadistic
-
-    diplomacy = 11
-    martial = 2
-    stewardship = 5
-    intrigue = 4
-    learning = 6
-    prowess = 7
-
-    trait = education_diplomacy_4
-
-    7084.3.14 = {
-        birth = yes
-    }
-
-    7160.3.26 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_115 = {
-    name = "Theon"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_113
-    mother = fisher_114
-
-    trait = content
-    trait = just
-    trait = brave
+    trait = greedy
 
     diplomacy = 5
-    martial = 8
-    stewardship = 4
+    martial = 4
+    stewardship = 7
     intrigue = 8
     learning = 8
     prowess = 4
 
-    trait = education_martial_3
+    trait = education_intrigue_2
 
-    7113.2.28 = {
+    6368.9.20 = {
         birth = yes
     }
 
-    7149.9.24 = {
-        add_spouse = fisher_116
-    }
-
-    7159.5.17 = {
-        death = { death_reason = death_beaten }
-    }
-}
-
-fisher_116 = {
-    name = "Arra"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = humble
-    trait = impatient
-    trait = trusting
-
-    diplomacy = 5
-    martial = 8
-    stewardship = 8
-    intrigue = 7
-    learning = 4
-    prowess = 4
-
-    trait = education_martial_3
-
-    7132.2.22 = {
-        birth = yes
-    }
-
-    7211.5.13 = {
+    6437.4.11 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-fisher_117 = {
-    name = "Marissa"
-    female = yes
+fisher_n_77 = {
+    name = "Qhorin"
 
+    dynasty = dynasty_fisher_n
     religion = the_old_gods
     culture = northmen
 
-    father = fisher_115
-    mother = fisher_116
+    father = fisher_n_75
+    mother = fisher_n_76
 
-    trait = diligent
-    trait = shy
-    trait = ambitious
-
-    diplomacy = 5
-    martial = 1
-    stewardship = 1
-    intrigue = 7
-    learning = 8
-    prowess = 6
-
-    trait = education_learning_3
-
-    7150.6.19 = {
-        birth = yes
-    }
-
-    7155.11.25 = {
-        death = { death_reason = death_cancer }
-    }
-}
-
-fisher_118 = {
-    name = "Donnis"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_115
-    mother = fisher_116
-
-    trait = lazy
     trait = honest
-    trait = temperate
-
-    diplomacy = 9
-    martial = 4
-    stewardship = 8
-    intrigue = 5
-    learning = 4
-    prowess = 6
-
-    trait = education_diplomacy_4
-
-    7152.9.21 = {
-        birth = yes
-    }
-
-    7186.10.2 = {
-        add_spouse = fisher_119
-    }
-
-    7222.6.3 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_119 = {
-    name = "Berena"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = gluttonous
-    trait = diligent
-    trait = trusting
-
-    diplomacy = 7
-    martial = 4
-    stewardship = 9
-    intrigue = 5
-    learning = 6
-    prowess = 5
-
-    trait = education_stewardship_3
-
-    7169.9.9 = {
-        birth = yes
-    }
-
-    7243.8.21 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_120 = {
-    name = "Aethan"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_118
-    mother = fisher_119
-
-    trait = deceitful
-    trait = temperate
-    trait = craven
+    trait = arrogant
+    trait = vengeful
 
     diplomacy = 6
-    martial = 10
-    stewardship = 6
-    intrigue = 4
-    learning = 8
-    prowess = 9
-
-    trait = education_martial_3
-
-    7188.12.24 = {
-        birth = yes
-    }
-
-    7207.12.8 = {
-        add_spouse = fisher_121
-    }
-
-    7266.11.2 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_121 = {
-    name = "Sybelle"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = vengeful
-    trait = fickle
-    trait = calm
-
-    diplomacy = 8
-    martial = 10
-    stewardship = 3
-    intrigue = 5
-    learning = 4
+    martial = 9
+    stewardship = 5
+    intrigue = 8
+    learning = 7
     prowess = 4
 
-    trait = education_martial_3
+    trait = education_martial_1
 
-    7190.12.2 = {
+    6402.2.7 = {
         birth = yes
     }
 
-    7264.8.23 = {
+    6445.2.5 = {
+        add_spouse = fisher_n_78
+    }
+
+    6487.7.6 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-fisher_122 = {
-    name = "Marna"
+fisher_n_78 = {
+    name = "Maege"
     female = yes
 
     religion = the_old_gods
     culture = northmen
 
-    father = fisher_118
-    mother = fisher_119
+    trait = lustful
+    trait = temperate
+    trait = vengeful
 
-    trait = arbitrary
-    trait = content
-    trait = shy
-
-    diplomacy = 6
-    martial = 4
-    stewardship = 7
-    intrigue = 3
-    learning = 7
-    prowess = 7
-
-    trait = education_stewardship_2
-
-    7193.5.9 = {
-        birth = yes
-    }
-
-    7276.1.25 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_123 = {
-    name = "Cregan"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_118
-    mother = fisher_119
-
-    trait = calm
-    trait = arbitrary
-    trait = lazy
-
-    diplomacy = 6
-    martial = 5
-    stewardship = 9
-    intrigue = 6
-    learning = 7
-    prowess = 7
-
-    trait = education_stewardship_2
-
-    7199.6.7 = {
-        birth = yes
-    }
-
-    7223.11.28 = {
-        add_spouse = fisher_124
-    }
-
-    7263.3.3 = {
-        death = { death_reason = death_smallpox }
-    }
-}
-
-fisher_124 = {
-    name = "Jonella"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = callous
-    trait = shy
-    trait = just
-
-    diplomacy = 1
-    martial = 4
-    stewardship = 8
-    intrigue = 5
-    learning = 6
-    prowess = 6
-
-    trait = education_stewardship_4
-
-    7206.4.10 = {
-        birth = yes
-    }
-
-    7275.6.8 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_125 = {
-    name = "Danny"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_115
-    mother = fisher_116
-
-    trait = ambitious
-    trait = sadistic
-    trait = paranoid
-
-    diplomacy = 4
-    martial = 5
+    diplomacy = 10
+    martial = 9
     stewardship = 5
-    intrigue = 5
-    learning = 7
-    prowess = 3
-
-    trait = education_learning_3
-
-    7155.5.28 = {
-        birth = yes
-    }
-
-    7233.9.19 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_126 = {
-    name = "Eddard"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_113
-    mother = fisher_114
-
-    trait = calm
-    trait = just
-    trait = ambitious
-
-    diplomacy = 7
-    martial = 7
-    stewardship = 7
-    intrigue = 5
-    learning = 7
-    prowess = 7
+    intrigue = 6
+    learning = 6
+    prowess = 8
 
     trait = education_diplomacy_3
 
-    7121.5.2 = {
+    6428.2.1 = {
         birth = yes
     }
 
-    7152.3.20 = {
-        add_spouse = fisher_127
-    }
-
-    7164.5.20 = {
-        death = { death_reason = death_attacked }
+    6508.2.4 = {
+        death = { death_reason = death_natural_causes }
     }
 }
 
-fisher_127 = {
-    name = "Lyessa"
-    female = yes
+fisher_n_79 = {
+    name = "Duncan"
 
+    dynasty = dynasty_fisher_n
     religion = the_old_gods
     culture = northmen
 
+    father = fisher_n_77
+    mother = fisher_n_78
+
+    trait = craven
+    trait = shy
     trait = arrogant
-    trait = arbitrary
-    trait = paranoid
-
-    diplomacy = 3
-    martial = 3
-    stewardship = 5
-    intrigue = 6
-    learning = 8
-    prowess = 2
-
-    trait = education_learning_4
-
-    7135.11.27 = {
-        birth = yes
-    }
-
-    7210.5.2 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_128 = {
-    name = "Walton"
-
-    dynasty = dynasty_fisher
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_126
-    mother = fisher_127
-
-    trait = compassionate
-    trait = just
-    trait = impatient
-
-    diplomacy = 11
-    martial = 7
-    stewardship = 8
-    intrigue = 5
-    learning = 10
-    prowess = 7
-
-    trait = education_diplomacy_2
-
-    7158.1.17 = {
-        birth = yes
-    }
-
-    7174.8.2 = {
-        add_spouse = fisher_129
-    }
-
-    7231.6.21 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_129 = {
-    name = "Arrana"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    trait = chaste
-    trait = content
-    trait = fickle
-
-    diplomacy = 5
-    martial = 8
-    stewardship = 4
-    intrigue = 5
-    learning = 6
-    prowess = 7
-
-    trait = education_martial_2
-
-    7157.6.15 = {
-        birth = yes
-    }
-
-    7227.12.12 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-fisher_130 = {
-    name = "Melantha"
-    female = yes
-
-    religion = the_old_gods
-    culture = northmen
-
-    father = fisher_128
-    mother = fisher_129
-
-    trait = content
-    trait = lazy
-    trait = wrathful
 
     diplomacy = 6
     martial = 4
-    stewardship = 4
+    stewardship = 10
+    intrigue = 6
+    learning = 4
+    prowess = 11
+
+    trait = education_stewardship_4
+
+    6466.12.8 = {
+        birth = yes
+    }
+
+    6516.11.20 = {
+        add_spouse = fisher_n_80
+    }
+
+    6549.5.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_80 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = impatient
+    trait = diligent
+    trait = honest
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_2
+
+    6499.5.2 = {
+        birth = yes
+    }
+
+    6568.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_81 = {
+    name = "Harmond"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_79
+    mother = fisher_n_80
+
+    trait = wrathful
+    trait = honest
+    trait = stubborn
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6545.2.1 = {
+        birth = yes
+    }
+
+    6577.1.9 = {
+        add_spouse = fisher_n_82
+    }
+
+    6627.9.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_82 = {
+    name = "Serra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = deceitful
+    trait = diligent
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_2
+
+    6560.2.23 = {
+        birth = yes
+    }
+
+    6626.9.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_83 = {
+    name = "Hugo"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_81
+    mother = fisher_n_82
+
+    trait = gregarious
+    trait = forgiving
+    trait = lazy
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 2
     intrigue = 7
     learning = 5
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6607.5.12 = {
+        birth = yes
+    }
+
+    6628.3.21 = {
+        add_spouse = fisher_n_84
+    }
+
+    6638.2.15 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+fisher_n_84 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = greedy
+    trait = cynical
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 2
+    intrigue = 6
+    learning = 5
+    prowess = 9
+
+    trait = education_martial_2
+
+    6611.7.27 = {
+        birth = yes
+    }
+
+    6688.4.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_85 = {
+    name = "Theon"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_83
+    mother = fisher_n_84
+
+    trait = trusting
+    trait = greedy
+    trait = just
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 11
+    learning = 9
     prowess = 8
 
     trait = education_intrigue_3
 
-    7180.10.20 = {
+    6630.9.16 = {
         birth = yes
     }
 
-    7255.1.10 = {
+    6679.6.27 = {
+        add_spouse = fisher_n_86
+    }
+
+    6714.2.23 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-fisher_131 = {
+fisher_n_86 = {
     name = "Sarra"
     female = yes
 
     religion = the_old_gods
     culture = northmen
 
-    father = fisher_128
-    mother = fisher_129
+    trait = honest
+    trait = content
+    trait = generous
 
-    trait = shy
-    trait = calm
-    trait = stubborn
+    diplomacy = 5
+    martial = 3
+    stewardship = 9
+    intrigue = 5
+    learning = 4
+    prowess = 8
 
-    diplomacy = 8
-    martial = 8
-    stewardship = 2
-    intrigue = 4
-    learning = 7
-    prowess = 6
+    trait = education_stewardship_2
 
-    trait = education_diplomacy_3
-
-    7182.11.10 = {
+    6662.5.16 = {
         birth = yes
     }
 
-    7255.9.18 = {
+    6731.9.10 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-fisher_132 = {
-    name = "Wynton"
+fisher_n_87 = {
+    name = "Heward"
 
-    dynasty = dynasty_fisher
+    dynasty = dynasty_fisher_n
     religion = the_old_gods
     culture = northmen
 
-    father = fisher_128
-    mother = fisher_129
+    father = fisher_n_85
+    mother = fisher_n_86
 
-    trait = content
-    trait = forgiving
-    trait = sadistic
+    trait = fickle
+    trait = callous
+    trait = impatient
 
-    diplomacy = 9
-    martial = 9
+    diplomacy = 8
+    martial = 8
     stewardship = 3
-    intrigue = 5
-    learning = 8
-    prowess = 7
+    intrigue = 3
+    learning = 7
+    prowess = 5
 
     trait = education_diplomacy_3
 
-    7185.10.13 = {
+    6703.3.12 = {
         birth = yes
     }
 
-    7205.10.20 = {
-        add_spouse = fisher_133
+    6739.2.4 = {
+        add_spouse = fisher_n_88
     }
 
-    7251.12.15 = {
+    6777.10.22 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-fisher_133 = {
-    name = "Alysane"
+fisher_n_88 = {
+    name = "Lysa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = greedy
+    trait = calm
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 3
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_2
+
+    6722.2.26 = {
+        birth = yes
+    }
+
+    6792.1.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_89 = {
+    name = "Chayle"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_87
+    mother = fisher_n_88
+
+    trait = callous
+    trait = gluttonous
+    trait = zealous
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 4
+    intrigue = 8
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_4
+
+    6741.3.10 = {
+        birth = yes
+    }
+
+    6786.12.5 = {
+        add_spouse = fisher_n_90
+    }
+
+    6813.8.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_90 = {
+    name = "Meliana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = chaste
+    trait = calm
+    trait = forgiving
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 2
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6769.12.5 = {
+        birth = yes
+    }
+
+    6839.10.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_91 = {
+    name = "Garth"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_89
+    mother = fisher_n_90
+
+    trait = gluttonous
+    trait = honest
+    trait = lustful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 3
+    prowess = 3
+
+    trait = education_intrigue_1
+
+    6788.9.15 = {
+        birth = yes
+    }
+
+    6813.10.4 = {
+        add_spouse = fisher_n_92
+    }
+
+    6857.5.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_92 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = brave
+    trait = fickle
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    6796.11.23 = {
+        birth = yes
+    }
+
+    6862.2.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_93 = {
+    name = "Bass"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_91
+    mother = fisher_n_92
+
+    trait = just
+    trait = greedy
+    trait = patient
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 4
+    intrigue = 3
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6846.6.16 = {
+        birth = yes
+    }
+
+    6892.6.19 = {
+        add_spouse = fisher_n_94
+    }
+
+    6905.2.18 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+fisher_n_94 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = content
+    trait = generous
+
+    diplomacy = 6
+    martial = 11
+    stewardship = 10
+    intrigue = 5
+    learning = 9
+    prowess = 4
+
+    trait = education_martial_2
+
+    6875.2.19 = {
+        birth = yes
+    }
+
+    6950.9.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_95 = {
+    name = "Robb"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_93
+    mother = fisher_n_94
+
+    trait = brave
+    trait = trusting
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_learning_3
+
+    6892.12.24 = {
+        birth = yes
+    }
+
+    6923.7.7 = {
+        add_spouse = fisher_n_96
+    }
+
+    6962.10.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_96 = {
+    name = "Mylessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = arbitrary
+    trait = chaste
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 3
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6906.5.9 = {
+        birth = yes
+    }
+
+    6974.2.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_97 = {
+    name = "Rickard"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_95
+    mother = fisher_n_96
+
+    trait = compassionate
+    trait = zealous
+    trait = honest
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6938.3.9 = {
+        birth = yes
+    }
+
+    6972.8.20 = {
+        add_spouse = fisher_n_98
+    }
+
+    7009.9.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_98 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = humble
+    trait = wrathful
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_4
+
+    6955.8.27 = {
+        birth = yes
+    }
+
+    7024.10.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_99 = {
+    name = "Heward"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_97
+    mother = fisher_n_98
+
+    trait = content
+    trait = wrathful
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_2
+
+    6972.6.2 = {
+        birth = yes
+    }
+
+    6994.11.9 = {
+        add_spouse = fisher_n_100
+    }
+
+    7050.4.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_100 = {
+    name = "Jynessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = trusting
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 8
+    intrigue = 2
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_1
+
+    6977.9.19 = {
+        birth = yes
+    }
+
+    7045.11.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_101 = {
+    name = "Benfred"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_99
+    mother = fisher_n_100
+
+    trait = paranoid
+    trait = brave
+    trait = diligent
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    7015.11.3 = {
+        birth = yes
+    }
+
+    7048.10.12 = {
+        add_spouse = fisher_n_102
+    }
+
+    7084.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_102 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = chaste
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_3
+
+    7031.11.18 = {
+        birth = yes
+    }
+
+    7104.2.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_103 = {
+    name = "Willam"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_101
+    mother = fisher_n_102
+
+    trait = brave
+    trait = ambitious
+    trait = just
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 9
+    learning = 8
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    7053.1.28 = {
+        birth = yes
+    }
+
+    7080.1.4 = {
+        add_spouse = fisher_n_104
+    }
+
+    7090.1.28 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+fisher_n_104 = {
+    name = "Wynafryd"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = ambitious
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 3
+    intrigue = 6
+    learning = 10
+    prowess = 8
+
+    trait = education_learning_1
+
+    7063.6.8 = {
+        birth = yes
+    }
+
+    7136.11.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_105 = {
+    name = "Edrick"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_103
+    mother = fisher_n_104
+
+    trait = arbitrary
+    trait = patient
+    trait = temperate
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    7081.11.7 = {
+        birth = yes
+    }
+
+    7124.7.24 = {
+        add_spouse = fisher_n_106
+    }
+
+    7161.2.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_106 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = greedy
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 8
+    intrigue = 8
+    learning = 4
+    prowess = 9
+
+    trait = education_stewardship_4
+
+    7107.1.14 = {
+        birth = yes
+    }
+
+    7179.3.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_107 = {
+    name = "Jon"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_105
+    mother = fisher_n_106
+
+    trait = diligent
+    trait = honest
+    trait = cynical
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 10
+
+    trait = education_diplomacy_4
+
+    7146.12.6 = {
+        birth = yes
+    }
+
+    7173.4.11 = {
+        add_spouse = fisher_n_108
+    }
+
+    7219.11.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_108 = {
+    name = "Arrana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = diligent
+    trait = brave
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    7156.9.8 = {
+        birth = yes
+    }
+
+    7233.12.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_109 = {
+    name = "Hugo"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_107
+    mother = fisher_n_108
+
+    trait = arbitrary
+    trait = humble
+    trait = content
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 11
+    intrigue = 8
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    7203.10.19 = {
+        birth = yes
+    }
+
+    7251.2.11 = {
+        add_spouse = fisher_n_110
+    }
+
+    7279.11.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_110 = {
+    name = "Barbara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = generous
+    trait = callous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    7234.6.10 = {
+        birth = yes
+    }
+
+    7305.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_111 = {
+    name = "Theon"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_109
+    mother = fisher_n_110
+
+    trait = just
+    trait = temperate
+    trait = chaste
+
+    diplomacy = 1
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_3
+
+    7255.9.17 = {
+        birth = yes
+    }
+
+    7288.8.19 = {
+        add_spouse = fisher_n_112
+    }
+
+    7340.8.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_112 = {
+    name = "Wynafryd"
     female = yes
 
     religion = the_old_gods
     culture = northmen
 
     trait = honest
-    trait = gregarious
-    trait = forgiving
+    trait = greedy
+    trait = humble
 
-    diplomacy = 8
-    martial = 5
-    stewardship = 9
-    intrigue = 7
-    learning = 5
+    diplomacy = 7
+    martial = 3
+    stewardship = 6
+    intrigue = 4
+    learning = 7
     prowess = 5
 
-    trait = education_stewardship_3
+    trait = education_diplomacy_2
 
-    7188.11.26 = {
+    7271.9.1 = {
         birth = yes
     }
 
-    7269.5.24 = {
+    7353.12.18 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-fisher_134 = {
-    name = "Donella"
+fisher_n_113 = {
+    name = "Lysara"
     female = yes
 
     religion = the_old_gods
     culture = northmen
 
-    father = fisher_126
-    mother = fisher_127
+    father = fisher_n_111
+    mother = fisher_n_112
 
-    trait = deceitful
-    trait = lustful
-    trait = humble
+    trait = trusting
+    trait = forgiving
+    trait = gregarious
 
-    diplomacy = 2
-    martial = 5
-    stewardship = 6
-    intrigue = 8
-    learning = 4
-    prowess = 1
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 4
+    learning = 10
+    prowess = 6
 
-    trait = education_intrigue_3
+    trait = education_learning_3
 
-    7161.5.20 = {
+    7293.12.2 = {
         birth = yes
     }
 
-    7236.9.23 = {
+    7371.12.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_114 = {
+    name = "Damon"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_111
+    mother = fisher_n_112
+
+    trait = stubborn
+    trait = patient
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_2
+
+    7298.12.4 = {
+        birth = yes
+    }
+
+    7323.6.19 = {
+        add_spouse = fisher_n_115
+    }
+
+    7374.11.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_115 = {
+    name = "Beth"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = deceitful
+    trait = callous
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    7306.8.11 = {
+        birth = yes
+    }
+
+    7378.12.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_116 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_114
+    mother = fisher_n_115
+
+    trait = stubborn
+    trait = sadistic
+    trait = diligent
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 4
+    intrigue = 8
+    learning = 6
+    prowess = 9
+
+    trait = education_martial_1
+
+    7330.11.11 = {
+        birth = yes
+    }
+
+    7412.11.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_117 = {
+    name = "Tomard"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_114
+    mother = fisher_n_115
+
+    trait = chaste
+    trait = paranoid
+    trait = callous
+
+    diplomacy = 3
+    martial = 11
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 10
+
+    trait = education_martial_3
+
+    7333.12.7 = {
+        birth = yes
+    }
+
+    7361.5.13 = {
+        add_spouse = fisher_n_118
+    }
+
+    7371.7.23 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+fisher_n_118 = {
+    name = "Arya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = chaste
+    trait = gregarious
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 5
+    intrigue = 4
+    learning = 8
+    prowess = 10
+
+    trait = education_martial_3
+
+    7344.1.19 = {
+        birth = yes
+    }
+
+    7420.3.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_119 = {
+    name = "Wylla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_117
+    mother = fisher_n_118
+
+    trait = arrogant
+    trait = craven
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 10
+    learning = 4
+    prowess = 10
+
+    trait = education_intrigue_4
+
+    7362.8.17 = {
+        birth = yes
+    }
+
+    7441.11.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_120 = {
+    name = "Garth"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_117
+    mother = fisher_n_118
+
+    trait = impatient
+    trait = gluttonous
+    trait = fickle
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 2
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    7363.10.4 = {
+        birth = yes
+    }
+
+    7401.9.14 = {
+        add_spouse = fisher_n_121
+    }
+
+    7432.4.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_121 = {
+    name = "Arrana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = deceitful
+    trait = craven
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 4
+    intrigue = 9
+    learning = 4
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    7384.3.8 = {
+        birth = yes
+    }
+
+    7465.5.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_122 = {
+    name = "Barba"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_120
+    mother = fisher_n_121
+
+    trait = chaste
+    trait = greedy
+    trait = calm
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    7403.11.4 = {
+        birth = yes
+    }
+
+    7475.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_123 = {
+    name = "Alyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_120
+    mother = fisher_n_121
+
+    trait = just
+    trait = chaste
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 4
+    intrigue = 5
+    learning = 4
+    prowess = 3
+
+    trait = education_martial_2
+
+    7405.5.25 = {
+        birth = yes
+    }
+
+    7432.8.22 = {
+        death = { death_reason = death_torture  }
+    }
+}
+
+fisher_n_124 = {
+    name = "Elric"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_120
+    mother = fisher_n_121
+
+    trait = gluttonous
+    trait = just
+    trait = patient
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 6
+    intrigue = 3
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_4
+
+    7409.9.23 = {
+        birth = yes
+    }
+
+    7450.3.24 = {
+        add_spouse = fisher_n_125
+    }
+
+    7475.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_125 = {
+    name = "Jorelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = craven
+    trait = fickle
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 2
+    learning = 7
+    prowess = 4
+
+    trait = education_learning_4
+
+    7433.11.4 = {
+        birth = yes
+    }
+
+    7502.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_126 = {
+    name = "Shiera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_114
+    mother = fisher_n_115
+
+    trait = gluttonous
+    trait = diligent
+    trait = humble
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_4
+
+    7337.11.8 = {
+        birth = yes
+    }
+
+    7403.2.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_127 = {
+    name = "Harrion"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_111
+    mother = fisher_n_112
+
+    trait = deceitful
+    trait = impatient
+    trait = generous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_2
+
+    7303.11.14 = {
+        birth = yes
+    }
+
+    7344.4.8 = {
+        add_spouse = fisher_n_128
+    }
+
+    7354.8.21 = {
+        death = { death_reason = death_beaten }
+    }
+}
+
+fisher_n_128 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = wrathful
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_2
+
+    7327.3.16 = {
+        birth = yes
+    }
+
+    7406.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_129 = {
+    name = "Bowen"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_127
+    mother = fisher_n_128
+
+    trait = calm
+    trait = forgiving
+    trait = zealous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    7344.5.6 = {
+        birth = yes
+    }
+
+    7371.4.4 = {
+        add_spouse = fisher_n_130
+    }
+
+    7415.10.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_130 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = brave
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_3
+
+    7354.7.9 = {
+        birth = yes
+    }
+
+    7420.6.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_131 = {
+    name = "Torren"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_129
+    mother = fisher_n_130
+
+    trait = honest
+    trait = patient
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 10
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_2
+
+    7373.1.17 = {
+        birth = yes
+    }
+
+    7412.12.24 = {
+        add_spouse = fisher_n_132
+    }
+
+    7449.1.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_132 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = ambitious
+    trait = lustful
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_2
+
+    7395.7.13 = {
+        birth = yes
+    }
+
+    7478.11.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_133 = {
+    name = "Elric"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_131
+    mother = fisher_n_132
+
+    trait = forgiving
+    trait = zealous
+    trait = diligent
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 3
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    7428.11.22 = {
+        birth = yes
+    }
+
+    7460.7.3 = {
+        add_spouse = fisher_n_134
+    }
+
+    7500.10.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_134 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = stubborn
+    trait = just
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_learning_3
+
+    7443.1.14 = {
+        birth = yes
+    }
+
+    7470.12.12 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+fisher_n_135 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_131
+    mother = fisher_n_132
+
+    trait = callous
+    trait = just
+    trait = fickle
+
+    diplomacy = 10
+    martial = 3
+    stewardship = 6
+    intrigue = 4
+    learning = 2
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    7434.1.12 = {
+        birth = yes
+    }
+
+    7504.5.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_136 = {
+    name = "Wendel"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_129
+    mother = fisher_n_130
+
+    trait = generous
+    trait = brave
+    trait = paranoid
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    7379.12.15 = {
+        birth = yes
+    }
+
+    7380.7.25 = {
+        give_nickname = nick_the_immortal
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    7408.8.1 = {
+        add_spouse = fisher_n_137
+    }
+
+    7451.11.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_137 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = shy
+    trait = lustful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 3
+    intrigue = 8
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_1
+
+    7391.3.18 = {
+        birth = yes
+    }
+
+    7469.10.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_138 = {
+    name = "Lynarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_136
+    mother = fisher_n_137
+
+    trait = shy
+    trait = greedy
+    trait = just
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 3
+    intrigue = 7
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    7413.2.28 = {
+        birth = yes
+    }
+
+    7485.7.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_139 = {
+    name = "Hullen"
+
+    dynasty = dynasty_fisher_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_136
+    mother = fisher_n_137
+
+    trait = compassionate
+    trait = generous
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 3
+    prowess = 3
+
+    trait = education_martial_1
+
+    7426.10.7 = {
+        birth = yes
+    }
+
+    7448.12.5 = {
+        add_spouse = fisher_n_140
+    }
+
+    7501.4.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_140 = {
+    name = "Raya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = just
+    trait = humble
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    7431.3.22 = {
+        birth = yes
+    }
+
+    7504.10.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_141 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_129
+    mother = fisher_n_130
+
+    trait = shy
+    trait = arbitrary
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 2
+    intrigue = 7
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_2
+
+    7387.3.10 = {
+        birth = yes
+    }
+
+    7462.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fisher_n_142 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_127
+    mother = fisher_n_128
+
+    trait = generous
+    trait = craven
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 8
+    intrigue = 3
+    learning = 4
+    prowess = 9
+
+    trait = education_martial_2
+
+    7345.2.27 = {
+        birth = yes
+    }
+
+    7418.12.3 = {
+        death = { death_reason = death_plotting  }
+    }
+}
+
+fisher_n_143 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = fisher_n_109
+    mother = fisher_n_110
+
+    trait = vengeful
+    trait = compassionate
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 3
+    intrigue = 8
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_2
+
+    7264.2.19 = {
+        birth = yes
+    }
+
+    7344.11.22 = {
         death = { death_reason = death_natural_causes }
     }
 }

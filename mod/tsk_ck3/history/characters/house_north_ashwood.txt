@@ -1,0 +1,7629 @@
+ashwood_1 = {
+    name = "Benjicot"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = paranoid
+    trait = content
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    4430.8.1 = {
+        birth = yes
+    }
+
+    4451.10.20 = {
+        add_spouse = ashwood_2
+    }
+
+    4503.10.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_2 = {
+    name = "Lysa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = paranoid
+    trait = temperate
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 4
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    4434.3.14 = {
+        birth = yes
+    }
+
+    4518.11.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_3 = {
+    name = "Eyron"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_1
+    mother = ashwood_2
+
+    trait = callous
+    trait = shy
+    trait = diligent
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 10
+    intrigue = 11
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    4452.3.23 = {
+        birth = yes
+    }
+
+    4489.12.8 = {
+        add_spouse = ashwood_4
+    }
+
+    4533.2.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_4 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = gluttonous
+    trait = brave
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 9
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    4472.3.27 = {
+        birth = yes
+    }
+
+    4540.4.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_5 = {
+    name = "Bowen"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_3
+    mother = ashwood_4
+
+    trait = callous
+    trait = humble
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 8
+    intrigue = 10
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    4508.11.5 = {
+        birth = yes
+    }
+
+    4544.12.19 = {
+        add_spouse = ashwood_6
+    }
+
+    4580.10.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_6 = {
+    name = "Jeyne"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = sadistic
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 9
+    intrigue = 8
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    4527.8.14 = {
+        birth = yes
+    }
+
+    4598.5.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_7 = {
+    name = "Roger"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_5
+    mother = ashwood_6
+
+    trait = shy
+    trait = generous
+    trait = diligent
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 10
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    4561.5.8 = {
+        birth = yes
+    }
+
+    4601.6.24 = {
+        add_spouse = ashwood_8
+    }
+
+    4631.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_8 = {
+    name = "Jonnela"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = arrogant
+    trait = impatient
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 9
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    4584.11.14 = {
+        birth = yes
+    }
+
+    4666.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_9 = {
+    name = "Wayn"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_7
+    mother = ashwood_8
+
+    trait = calm
+    trait = ambitious
+    trait = brave
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_3
+
+    4624.8.8 = {
+        birth = yes
+    }
+
+    4665.10.22 = {
+        add_spouse = ashwood_10
+    }
+
+    4700.5.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_10 = {
+    name = "Darlessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = brave
+    trait = cynical
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 6
+    intrigue = 3
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_3
+
+    4648.12.8 = {
+        birth = yes
+    }
+
+    4714.3.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_11 = {
+    name = "Roose"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_9
+    mother = ashwood_10
+
+    trait = callous
+    trait = wrathful
+    trait = content
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    4685.5.14 = {
+        birth = yes
+    }
+
+    4731.5.15 = {
+        add_spouse = ashwood_12
+    }
+
+    4758.11.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_12 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = lustful
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 11
+    stewardship = 3
+    intrigue = 4
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_4
+
+    4714.5.1 = {
+        birth = yes
+    }
+
+    4782.10.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_13 = {
+    name = "Medger"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_11
+    mother = ashwood_12
+
+    trait = temperate
+    trait = fickle
+    trait = greedy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    4751.8.17 = {
+        birth = yes
+    }
+
+    4776.6.13 = {
+        add_spouse = ashwood_14
+    }
+
+    4831.6.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_14 = {
+    name = "Arya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = humble
+    trait = gluttonous
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 3
+    intrigue = 11
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    4759.8.17 = {
+        birth = yes
+    }
+
+    4835.11.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_15 = {
+    name = "Ronnel"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_13
+    mother = ashwood_14
+
+    trait = arrogant
+    trait = shy
+    trait = brave
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_2
+
+    4792.4.20 = {
+        birth = yes
+    }
+
+    4828.5.21 = {
+        add_spouse = ashwood_16
+    }
+
+    4858.4.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_16 = {
+    name = "Mylessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = gregarious
+    trait = lazy
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_2
+
+    4811.10.25 = {
+        birth = yes
+    }
+
+    4894.2.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_17 = {
+    name = "Ronnel"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_15
+    mother = ashwood_16
+
+    trait = humble
+    trait = patient
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 6
+    intrigue = 8
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    4854.4.9 = {
+        birth = yes
+    }
+
+    4895.2.9 = {
+        add_spouse = ashwood_18
+    }
+
+    4930.12.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_18 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = paranoid
+    trait = ambitious
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    4878.4.8 = {
+        birth = yes
+    }
+
+    4958.12.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_19 = {
+    name = "Osric"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_17
+    mother = ashwood_18
+
+    trait = compassionate
+    trait = zealous
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 2
+    prowess = 7
+
+    trait = education_martial_3
+
+    4909.5.8 = {
+        birth = yes
+    }
+
+    4935.4.17 = {
+        add_spouse = ashwood_20
+    }
+
+    4981.8.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_20 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = deceitful
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 3
+    intrigue = 8
+    learning = 7
+    prowess = 2
+
+    trait = education_diplomacy_2
+
+    4918.7.16 = {
+        birth = yes
+    }
+
+    4989.6.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_21 = {
+    name = "Hullen"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_19
+    mother = ashwood_20
+
+    trait = zealous
+    trait = lustful
+    trait = patient
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 6
+    intrigue = 1
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_2
+
+    4941.7.9 = {
+        birth = yes
+    }
+
+    4981.6.24 = {
+        add_spouse = ashwood_22
+    }
+
+    5024.7.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_22 = {
+    name = "Meera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = craven
+    trait = cynical
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 9
+    intrigue = 8
+    learning = 3
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    4964.12.21 = {
+        birth = yes
+    }
+
+    5039.1.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_23 = {
+    name = "Hoarfrost"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_21
+    mother = ashwood_22
+
+    trait = compassionate
+    trait = brave
+    trait = paranoid
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_2
+
+    5011.2.21 = {
+        birth = yes
+    }
+
+    5050.12.19 = {
+        add_spouse = ashwood_24
+    }
+
+    5082.9.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_24 = {
+    name = "Mariah"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = compassionate
+    trait = chaste
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 2
+
+    trait = education_diplomacy_3
+
+    5033.8.11 = {
+        birth = yes
+    }
+
+    5105.1.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_25 = {
+    name = "Jory"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_23
+    mother = ashwood_24
+
+    trait = craven
+    trait = cynical
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_2
+
+    5074.10.23 = {
+        birth = yes
+    }
+
+    5088.2.14 = {
+        add_spouse = ashwood_26
+    }
+
+    5143.7.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_26 = {
+    name = "Serra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = diligent
+    trait = cynical
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_learning_3
+
+    5071.2.28 = {
+        birth = yes
+    }
+
+    5153.2.14 = {
+        death = { death_reason = death_bubonic_plague }
+    }
+}
+
+ashwood_27 = {
+    name = "Hallis"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_25
+    mother = ashwood_26
+
+    trait = lazy
+    trait = lustful
+    trait = temperate
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 4
+    intrigue = 5
+    learning = 8
+    prowess = 8
+
+    trait = education_martial_2
+
+    5114.11.15 = {
+        birth = yes
+    }
+
+    5135.7.19 = {
+        add_spouse = ashwood_28
+    }
+
+    5182.5.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_28 = {
+    name = "Dacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = sadistic
+    trait = brave
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_2
+
+    5118.9.1 = {
+        birth = yes
+    }
+
+    5193.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_29 = {
+    name = "Donnor"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_27
+    mother = ashwood_28
+
+    trait = brave
+    trait = zealous
+    trait = honest
+
+    diplomacy = 10
+    martial = 3
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    5168.10.26 = {
+        birth = yes
+    }
+
+    5189.6.2 = {
+        add_spouse = ashwood_30
+    }
+
+    5238.5.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_30 = {
+    name = "Sybelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = humble
+    trait = calm
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 3
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    5172.10.1 = {
+        birth = yes
+    }
+
+    5242.8.7 = {
+        death = { death_reason = death_murder  }
+    }
+}
+
+ashwood_31 = {
+    name = "Quent"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_29
+    mother = ashwood_30
+
+    trait = lustful
+    trait = arrogant
+    trait = cynical
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 11
+    intrigue = 10
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    5191.3.12 = {
+        birth = yes
+    }
+
+    5234.9.13 = {
+        add_spouse = ashwood_32
+    }
+
+    5267.3.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_32 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = zealous
+    trait = honest
+    trait = craven
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_2
+
+    5217.10.5 = {
+        birth = yes
+    }
+
+    5298.10.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_33 = {
+    name = "Lonnel"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_31
+    mother = ashwood_32
+
+    trait = arbitrary
+    trait = greedy
+    trait = chaste
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 9
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    5252.11.7 = {
+        birth = yes
+    }
+
+    5267.3.15 = {
+        add_spouse = ashwood_34
+    }
+
+    5326.2.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_34 = {
+    name = "Serena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = shy
+    trait = callous
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    5250.6.8 = {
+        birth = yes
+    }
+
+    5330.10.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_35 = {
+    name = "Harlon"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_33
+    mother = ashwood_34
+
+    trait = just
+    trait = impatient
+    trait = cynical
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 11
+
+    trait = education_martial_2
+
+    5295.2.16 = {
+        birth = yes
+    }
+
+    5335.1.22 = {
+        add_spouse = ashwood_36
+    }
+
+    5378.5.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_36 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = callous
+    trait = generous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_1
+
+    5318.5.16 = {
+        birth = yes
+    }
+
+    5389.10.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_37 = {
+    name = "Mark"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_35
+    mother = ashwood_36
+
+    trait = craven
+    trait = patient
+    trait = lazy
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_2
+
+    5353.10.5 = {
+        birth = yes
+    }
+
+    5368.7.2 = {
+        add_spouse = ashwood_38
+    }
+
+    5435.12.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_38 = {
+    name = "Serra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = stubborn
+    trait = temperate
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 8
+    intrigue = 8
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    5351.12.11 = {
+        birth = yes
+    }
+
+    5428.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_39 = {
+    name = "Barthogan"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_37
+    mother = ashwood_38
+
+    trait = arbitrary
+    trait = patient
+    trait = generous
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 3
+    learning = 8
+    prowess = 5
+
+    trait = education_martial_3
+
+    5399.7.23 = {
+        birth = yes
+    }
+
+    5438.8.1 = {
+        add_spouse = ashwood_40
+    }
+
+    5483.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_40 = {
+    name = "Wylla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = humble
+    trait = deceitful
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 8
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    5421.3.26 = {
+        birth = yes
+    }
+
+    5496.6.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_41 = {
+    name = "Robin"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_39
+    mother = ashwood_40
+
+    trait = generous
+    trait = fickle
+    trait = calm
+
+    diplomacy = 1
+    martial = 9
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_2
+
+    5462.2.4 = {
+        birth = yes
+    }
+
+    5505.8.10 = {
+        add_spouse = ashwood_42
+    }
+
+    5541.1.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_42 = {
+    name = "Berena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = cynical
+    trait = trusting
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    5488.3.18 = {
+        birth = yes
+    }
+
+    5556.10.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_43 = {
+    name = "Marlon"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_41
+    mother = ashwood_42
+
+    trait = craven
+    trait = zealous
+    trait = content
+
+    diplomacy = 3
+    martial = 11
+    stewardship = 7
+    intrigue = 3
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_4
+
+    5506.1.2 = {
+        birth = yes
+    }
+
+    5532.3.18 = {
+        add_spouse = ashwood_44
+    }
+
+    5584.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_44 = {
+    name = "Wynafryd"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = cynical
+    trait = lazy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 8
+    intrigue = 8
+    learning = 6
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    5515.6.26 = {
+        birth = yes
+    }
+
+    5596.10.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_45 = {
+    name = "Tomard"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_43
+    mother = ashwood_44
+
+    trait = just
+    trait = calm
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 4
+    intrigue = 4
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_2
+
+    5554.9.28 = {
+        birth = yes
+    }
+
+    5577.5.19 = {
+        add_spouse = ashwood_46
+    }
+
+    5635.11.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_46 = {
+    name = "Arra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = lazy
+    trait = callous
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 10
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    5560.8.19 = {
+        birth = yes
+    }
+
+    5629.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_47 = {
+    name = "Roger"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_45
+    mother = ashwood_46
+
+    trait = patient
+    trait = callous
+    trait = cynical
+
+    diplomacy = 4
+    martial = 10
+    stewardship = 7
+    intrigue = 6
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_3
+
+    5602.3.18 = {
+        birth = yes
+    }
+
+    5643.9.18 = {
+        add_spouse = ashwood_48
+    }
+
+    5685.11.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_48 = {
+    name = "Jynessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = fickle
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    5626.10.3 = {
+        birth = yes
+    }
+
+    5709.9.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_49 = {
+    name = "Farlen"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_47
+    mother = ashwood_48
+
+    trait = chaste
+    trait = patient
+    trait = fickle
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 5
+
+    trait = education_martial_3
+
+    5661.12.8 = {
+        birth = yes
+    }
+
+    5679.2.6 = {
+        add_spouse = ashwood_50
+    }
+
+    5727.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_50 = {
+    name = "Perra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = ambitious
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    5662.3.26 = {
+        birth = yes
+    }
+
+    5744.11.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_51 = {
+    name = "Harwin"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_49
+    mother = ashwood_50
+
+    trait = gluttonous
+    trait = gregarious
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 10
+    intrigue = 4
+    learning = 8
+    prowess = 4
+
+    trait = education_stewardship_1
+
+    5704.5.15 = {
+        birth = yes
+    }
+
+    5739.10.17 = {
+        add_spouse = ashwood_52
+    }
+
+    5783.11.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_52 = {
+    name = "Margaret"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = craven
+    trait = chaste
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 9
+    intrigue = 5
+    learning = 7
+    prowess = 9
+
+    trait = education_stewardship_4
+
+    5722.8.23 = {
+        birth = yes
+    }
+
+    5795.7.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_53 = {
+    name = "Harwood"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_51
+    mother = ashwood_52
+
+    trait = just
+    trait = impatient
+    trait = craven
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 8
+
+    trait = education_intrigue_4
+
+    5753.8.21 = {
+        birth = yes
+    }
+
+    5780.4.26 = {
+        add_spouse = ashwood_54
+    }
+
+    5819.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_54 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = callous
+    trait = trusting
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    5763.5.24 = {
+        birth = yes
+    }
+
+    5838.7.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_55 = {
+    name = "Alyn"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_53
+    mother = ashwood_54
+
+    trait = wrathful
+    trait = fickle
+    trait = callous
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 10
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_1
+
+    5793.1.5 = {
+        birth = yes
+    }
+
+    5835.4.2 = {
+        add_spouse = ashwood_56
+    }
+
+    5873.9.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_56 = {
+    name = "Lysa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = paranoid
+    trait = patient
+
+    diplomacy = 11
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 10
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    5818.12.19 = {
+        birth = yes
+    }
+
+    5903.9.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_57 = {
+    name = "Martyn"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_55
+    mother = ashwood_56
+
+    trait = brave
+    trait = lustful
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 3
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_2
+
+    5863.1.5 = {
+        birth = yes
+    }
+
+    5894.1.8 = {
+        add_spouse = ashwood_58
+    }
+
+    5937.1.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_58 = {
+    name = "Arra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = arrogant
+    trait = generous
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 10
+    intrigue = 11
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_4
+
+    5877.3.6 = {
+        birth = yes
+    }
+
+    5958.3.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_59 = {
+    name = "Hareth"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_57
+    mother = ashwood_58
+
+    trait = wrathful
+    trait = lazy
+    trait = shy
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 3
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_3
+
+    5900.7.16 = {
+        birth = yes
+    }
+
+    5941.5.8 = {
+        add_spouse = ashwood_60
+    }
+
+    5951.11.2 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+ashwood_60 = {
+    name = "Sarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = humble
+    trait = fickle
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 2
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    5924.1.28 = {
+        birth = yes
+    }
+
+    5995.7.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_61 = {
+    name = "Galbart"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_59
+    mother = ashwood_60
+
+    trait = content
+    trait = fickle
+    trait = temperate
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 9
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    5949.4.19 = {
+        birth = yes
+    }
+
+    5988.8.12 = {
+        add_spouse = ashwood_62
+    }
+
+    6029.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_62 = {
+    name = "Lyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = craven
+    trait = gluttonous
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_4
+
+    5971.10.9 = {
+        birth = yes
+    }
+
+    6047.12.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_63 = {
+    name = "Hareth"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_61
+    mother = ashwood_62
+
+    trait = vengeful
+    trait = ambitious
+    trait = patient
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_1
+
+    5998.5.24 = {
+        birth = yes
+    }
+
+    6029.10.19 = {
+        add_spouse = ashwood_64
+    }
+
+    6080.11.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_64 = {
+    name = "Mariah"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = callous
+    trait = vengeful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6012.9.28 = {
+        birth = yes
+    }
+
+    6091.1.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_65 = {
+    name = "Rodwell"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_63
+    mother = ashwood_64
+
+    trait = chaste
+    trait = zealous
+    trait = craven
+
+    diplomacy = 9
+    martial = 1
+    stewardship = 4
+    intrigue = 8
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6046.1.20 = {
+        birth = yes
+    }
+
+    6067.10.20 = {
+        add_spouse = ashwood_66
+    }
+
+    6093.6.26 = {
+        death = { death_reason = death_beaten }
+    }
+}
+
+ashwood_66 = {
+    name = "Marna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = chaste
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 3
+    intrigue = 11
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6050.1.8 = {
+        birth = yes
+    }
+
+    6116.4.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_67 = {
+    name = "Hullen"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_65
+    mother = ashwood_66
+
+    trait = cynical
+    trait = compassionate
+    trait = greedy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6067.3.5 = {
+        birth = yes
+    }
+
+    6108.9.24 = {
+        add_spouse = ashwood_68
+    }
+
+    6143.7.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_68 = {
+    name = "Jonella"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = impatient
+    trait = lustful
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 2
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_2
+
+    6091.11.25 = {
+        birth = yes
+    }
+
+    6120.12.15 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+ashwood_69 = {
+    name = "Willam"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_67
+    mother = ashwood_68
+
+    trait = fickle
+    trait = content
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 3
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6108.5.12 = {
+        birth = yes
+    }
+
+    6129.7.13 = {
+        add_spouse = ashwood_70
+    }
+
+    6176.10.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_70 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = humble
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_2
+
+    6112.6.1 = {
+        birth = yes
+    }
+
+    6190.12.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_71 = {
+    name = "Roger"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_69
+    mother = ashwood_70
+
+    trait = sadistic
+    trait = gregarious
+    trait = craven
+
+    diplomacy = 24
+    martial = 24
+    stewardship = 14
+    intrigue = 15
+    learning = 12
+    prowess = 19
+
+    trait = education_diplomacy_4
+
+    6132.8.19 = {
+        birth = yes
+    }
+
+    6181.10.19 = {
+        add_spouse = ashwood_72
+    }
+
+    6209.1.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_72 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = generous
+    trait = brave
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_4
+
+    6164.2.26 = {
+        birth = yes
+    }
+
+    6239.6.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_73 = {
+    name = "Artos"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_71
+    mother = ashwood_72
+
+    trait = gregarious
+    trait = craven
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 5
+    intrigue = 1
+    learning = 4
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    6207.10.14 = {
+        birth = yes
+    }
+
+    6242.12.26 = {
+        add_spouse = ashwood_74
+    }
+
+    6281.5.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_74 = {
+    name = "Danelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = sadistic
+    trait = forgiving
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_3
+
+    6225.3.26 = {
+        birth = yes
+    }
+
+    6298.11.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_75 = {
+    name = "Harwood"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_73
+    mother = ashwood_74
+
+    trait = temperate
+    trait = calm
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 7
+    intrigue = 5
+    learning = 2
+    prowess = 8
+
+    trait = education_stewardship_1
+
+    6269.5.17 = {
+        birth = yes
+    }
+
+    6312.10.27 = {
+        add_spouse = ashwood_76
+    }
+
+    6322.12.16 = {
+        death = { death_reason = death_bubonic_plague }
+    }
+}
+
+ashwood_76 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = gregarious
+    trait = impatient
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 1
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    6295.2.18 = {
+        birth = yes
+    }
+
+    6372.1.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_77 = {
+    name = "Robin"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_75
+    mother = ashwood_76
+
+    trait = diligent
+    trait = trusting
+    trait = content
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6312.2.1 = {
+        birth = yes
+    }
+
+    6333.7.2 = {
+        add_spouse = ashwood_78
+    }
+
+    6378.10.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_78 = {
+    name = "Perra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = deceitful
+    trait = zealous
+    trait = just
+
+    diplomacy = 6
+    martial = 1
+    stewardship = 2
+    intrigue = 1
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6316.10.12 = {
+        birth = yes
+    }
+
+    6395.4.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_79 = {
+    name = "Jonnel"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_77
+    mother = ashwood_78
+
+    trait = greedy
+    trait = temperate
+    trait = chaste
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 4
+    intrigue = 3
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_3
+
+    6344.12.25 = {
+        birth = yes
+    }
+
+    6361.10.19 = {
+        add_spouse = ashwood_80
+    }
+
+    6414.7.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_80 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = lustful
+    trait = arrogant
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6344.4.27 = {
+        birth = yes
+    }
+
+    6419.7.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_81 = {
+    name = "Martyn"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_79
+    mother = ashwood_80
+
+    trait = just
+    trait = calm
+    trait = diligent
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 6
+    prowess = 1
+
+    trait = education_diplomacy_3
+
+    6377.12.2 = {
+        birth = yes
+    }
+
+    6420.1.14 = {
+        add_spouse = ashwood_82
+    }
+
+    6446.8.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_82 = {
+    name = "Jonella"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = chaste
+    trait = sadistic
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_3
+
+    6403.8.22 = {
+        birth = yes
+    }
+
+    6472.2.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_83 = {
+    name = "Bartimus"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_81
+    mother = ashwood_82
+
+    trait = craven
+    trait = shy
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6422.10.25 = {
+        birth = yes
+    }
+
+    6452.10.27 = {
+        add_spouse = ashwood_84
+    }
+
+    6496.10.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_84 = {
+    name = "Jorelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = deceitful
+    trait = cynical
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 8
+    learning = 2
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6435.11.28 = {
+        birth = yes
+    }
+
+    6509.2.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_85 = {
+    name = "Jorah"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_83
+    mother = ashwood_84
+
+    trait = humble
+    trait = fickle
+    trait = impatient
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 8
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6465.2.8 = {
+        birth = yes
+    }
+
+    6500.1.23 = {
+        add_spouse = ashwood_86
+    }
+
+    6552.4.10 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+ashwood_86 = {
+    name = "Alyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = impatient
+    trait = arbitrary
+    trait = chaste
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 6
+    intrigue = 7
+    learning = 10
+    prowess = 4
+
+    trait = education_learning_3
+
+    6483.5.24 = {
+        birth = yes
+    }
+
+    6568.12.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_87 = {
+    name = "Brenett"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_85
+    mother = ashwood_86
+
+    trait = vengeful
+    trait = chaste
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 9
+    intrigue = 6
+    learning = 2
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6531.7.21 = {
+        birth = yes
+    }
+
+    6571.6.24 = {
+        add_spouse = ashwood_88
+    }
+
+    6599.2.6 = {
+        death = { death_reason = death_plotting  }
+    }
+}
+
+ashwood_88 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = greedy
+    trait = paranoid
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 6
+    intrigue = 9
+    learning = 5
+    prowess = 2
+
+    trait = education_intrigue_4
+
+    6554.1.26 = {
+        birth = yes
+    }
+
+    6621.11.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_89 = {
+    name = "Wylis"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_87
+    mother = ashwood_88
+
+    trait = brave
+    trait = humble
+    trait = compassionate
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 6
+    intrigue = 8
+    learning = 8
+    prowess = 8
+
+    trait = education_martial_4
+
+    6594.8.24 = {
+        birth = yes
+    }
+
+    6629.1.17 = {
+        add_spouse = ashwood_90
+    }
+
+    6673.8.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_90 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = sadistic
+    trait = trusting
+
+    diplomacy = 3
+    martial = 10
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    6612.11.16 = {
+        birth = yes
+    }
+
+    6639.6.16 = {
+        death = { death_reason = death_mysterious  }
+    }
+}
+
+ashwood_91 = {
+    name = "Tomard"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_89
+    mother = ashwood_90
+
+    trait = sadistic
+    trait = stubborn
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_2
+
+    6629.3.28 = {
+        birth = yes
+    }
+
+    6669.11.25 = {
+        add_spouse = ashwood_92
+    }
+
+    6701.7.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_92 = {
+    name = "Perra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = shy
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 3
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    6652.8.26 = {
+        birth = yes
+    }
+
+    6721.5.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_93 = {
+    name = "Jorah"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_91
+    mother = ashwood_92
+
+    trait = stubborn
+    trait = arrogant
+    trait = diligent
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 2
+    prowess = 9
+
+    trait = education_martial_3
+
+    6683.4.21 = {
+        birth = yes
+    }
+
+    6728.11.22 = {
+        add_spouse = ashwood_94
+    }
+
+    6764.10.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_94 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = chaste
+    trait = greedy
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 3
+    intrigue = 6
+    learning = 10
+    prowess = 11
+
+    trait = education_diplomacy_3
+
+    6711.11.9 = {
+        birth = yes
+    }
+
+    6780.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_95 = {
+    name = "Jeor"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_93
+    mother = ashwood_94
+
+    trait = temperate
+    trait = stubborn
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 3
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    6760.6.3 = {
+        birth = yes
+    }
+
+    6808.6.9 = {
+        add_spouse = ashwood_96
+    }
+
+    6833.10.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_96 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = wrathful
+    trait = gregarious
+
+    diplomacy = 2
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    6791.2.24 = {
+        birth = yes
+    }
+
+    6859.4.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_97 = {
+    name = "Arthor"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_95
+    mother = ashwood_96
+
+    trait = greedy
+    trait = deceitful
+    trait = zealous
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 7
+    intrigue = 7
+    learning = 10
+    prowess = 3
+
+    trait = education_learning_3
+
+    6827.11.8 = {
+        birth = yes
+    }
+
+    6850.5.23 = {
+        add_spouse = ashwood_98
+    }
+
+    6900.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_98 = {
+    name = "Gilliane"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = humble
+    trait = gluttonous
+    trait = fickle
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 5
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_4
+
+    6833.10.5 = {
+        birth = yes
+    }
+
+    6915.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_99 = {
+    name = "Harrion"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_97
+    mother = ashwood_98
+
+    trait = wrathful
+    trait = content
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6862.9.2 = {
+        birth = yes
+    }
+
+    6881.3.15 = {
+        add_spouse = ashwood_100
+    }
+
+    6929.12.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_100 = {
+    name = "Wylla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = ambitious
+    trait = patient
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_4
+
+    6864.3.13 = {
+        birth = yes
+    }
+
+    6942.1.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_101 = {
+    name = "Bannen"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_99
+    mother = ashwood_100
+
+    trait = lazy
+    trait = humble
+    trait = fickle
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    6904.9.14 = {
+        birth = yes
+    }
+
+    6948.11.14 = {
+        add_spouse = ashwood_102
+    }
+
+    6958.7.16 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+ashwood_102 = {
+    name = "Lacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = wrathful
+    trait = arrogant
+
+    diplomacy = 1
+    martial = 7
+    stewardship = 10
+    intrigue = 4
+    learning = 3
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    6931.12.25 = {
+        birth = yes
+    }
+
+    7010.12.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_103 = {
+    name = "Benjen"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_101
+    mother = ashwood_102
+
+    trait = chaste
+    trait = just
+    trait = callous
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    6956.5.14 = {
+        birth = yes
+    }
+
+    6977.1.11 = {
+        add_spouse = ashwood_104
+    }
+
+    7034.8.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_104 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = trusting
+    trait = lazy
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_3
+
+    6960.7.17 = {
+        birth = yes
+    }
+
+    7038.5.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_105 = {
+    name = "Jonnel"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_103
+    mother = ashwood_104
+
+    trait = wrathful
+    trait = craven
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_3
+
+    6995.11.11 = {
+        birth = yes
+    }
+
+    7035.3.18 = {
+        add_spouse = ashwood_106
+    }
+
+    7073.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_106 = {
+    name = "Alys"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = wrathful
+    trait = trusting
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 11
+    prowess = 5
+
+    trait = education_learning_2
+
+    7018.9.11 = {
+        birth = yes
+    }
+
+    7103.2.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_107 = {
+    name = "Luton"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_105
+    mother = ashwood_106
+
+    trait = zealous
+    trait = humble
+    trait = honest
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 9
+    intrigue = 9
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    7052.4.27 = {
+        birth = yes
+    }
+
+    7074.2.27 = {
+        add_spouse = ashwood_108
+    }
+
+    7133.8.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_108 = {
+    name = "Arya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = vengeful
+    trait = craven
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    7057.1.25 = {
+        birth = yes
+    }
+
+    7132.9.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_109 = {
+    name = "Tomard"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_107
+    mother = ashwood_108
+
+    trait = ambitious
+    trait = diligent
+    trait = shy
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 2
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_4
+
+    7086.8.8 = {
+        birth = yes
+    }
+
+    7122.8.26 = {
+        add_spouse = ashwood_110
+    }
+
+    7165.8.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_110 = {
+    name = "Donella"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = stubborn
+    trait = chaste
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 9
+
+    trait = education_stewardship_4
+
+    7105.9.27 = {
+        birth = yes
+    }
+
+    7175.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_111 = {
+    name = "Lonnel"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_109
+    mother = ashwood_110
+
+    trait = compassionate
+    trait = lazy
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 3
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    7125.8.2 = {
+        birth = yes
+    }
+
+    7141.10.24 = {
+        add_spouse = ashwood_112
+    }
+
+    7171.1.15 = {
+        death = { death_reason = death_ended_on_feast_table  }
+    }
+}
+
+ashwood_112 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = greedy
+    trait = content
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    7124.5.6 = {
+        birth = yes
+    }
+
+    7203.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_113 = {
+    name = "Mark"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_111
+    mother = ashwood_112
+
+    trait = gluttonous
+    trait = lustful
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 3
+    intrigue = 6
+    learning = 3
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    7164.8.25 = {
+        birth = yes
+    }
+
+    7206.7.28 = {
+        add_spouse = ashwood_114
+    }
+
+    7216.5.16 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+ashwood_114 = {
+    name = "Arrana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = shy
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 7
+    intrigue = 6
+    learning = 2
+    prowess = 11
+
+    trait = education_martial_4
+
+    7189.4.27 = {
+        birth = yes
+    }
+
+    7263.4.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_115 = {
+    name = "Lyessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_113
+    mother = ashwood_114
+
+    trait = arbitrary
+    trait = sadistic
+    trait = patient
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 5
+    intrigue = 6
+    learning = 10
+    prowess = 8
+
+    trait = education_learning_4
+
+    7207.9.2 = {
+        birth = yes
+    }
+
+    7292.1.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_116 = {
+    name = "Helman"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_113
+    mother = ashwood_114
+
+    trait = diligent
+    trait = cynical
+    trait = paranoid
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 5
+    intrigue = 8
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    7208.3.15 = {
+        birth = yes
+    }
+
+    7233.11.21 = {
+        add_spouse = ashwood_117
+    }
+
+    7288.10.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_117 = {
+    name = "Perra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = cynical
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    7216.9.2 = {
+        birth = yes
+    }
+
+    7287.11.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_118 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_116
+    mother = ashwood_117
+
+    trait = cynical
+    trait = wrathful
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_2
+
+    7241.11.13 = {
+        birth = yes
+    }
+
+    7315.7.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_119 = {
+    name = "Hallis"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_116
+    mother = ashwood_117
+
+    trait = stubborn
+    trait = deceitful
+    trait = temperate
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    7244.1.13 = {
+        birth = yes
+    }
+
+    7293.2.10 = {
+        add_spouse = ashwood_120
+    }
+
+    7324.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_120 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = shy
+    trait = humble
+    trait = generous
+
+    diplomacy = 9
+    martial = 10
+    stewardship = 8
+    intrigue = 4
+    learning = 2
+    prowess = 4
+
+    trait = education_martial_3
+
+    7276.12.9 = {
+        birth = yes
+    }
+
+    7356.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_121 = {
+    name = "Wayn"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_119
+    mother = ashwood_120
+
+    trait = just
+    trait = calm
+    trait = callous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_2
+
+    7301.12.14 = {
+        birth = yes
+    }
+
+    7336.8.23 = {
+        add_spouse = ashwood_122
+    }
+
+    7367.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_122 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = just
+    trait = gregarious
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    7319.5.10 = {
+        birth = yes
+    }
+
+    7394.7.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_123 = {
+    name = "Alyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_119
+    mother = ashwood_120
+
+    trait = gregarious
+    trait = content
+    trait = honest
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 7
+    intrigue = 8
+    learning = 3
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    7305.3.4 = {
+        birth = yes
+    }
+
+    7387.3.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_124 = {
+    name = "Alyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_116
+    mother = ashwood_117
+
+    trait = cynical
+    trait = callous
+    trait = brave
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 8
+    intrigue = 6
+    learning = 9
+    prowess = 5
+
+    trait = education_martial_2
+
+    7246.1.11 = {
+        birth = yes
+    }
+
+    7320.3.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_125 = {
+    name = "Mors"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_116
+    mother = ashwood_117
+
+    trait = deceitful
+    trait = lazy
+    trait = cynical
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 6
+    prowess = 2
+
+    trait = education_intrigue_2
+
+    7251.9.18 = {
+        birth = yes
+    }
+
+    7269.11.23 = {
+        add_spouse = ashwood_126
+    }
+
+    7318.8.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_126 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = forgiving
+    trait = patient
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 6
+    prowess = 2
+
+    trait = education_diplomacy_1
+
+    7252.2.15 = {
+        birth = yes
+    }
+
+    7320.1.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_127 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_125
+    mother = ashwood_126
+
+    trait = generous
+    trait = cynical
+    trait = brave
+
+    diplomacy = 8
+    martial = 11
+    stewardship = 4
+    intrigue = 8
+    learning = 6
+    prowess = 10
+
+    trait = education_martial_4
+
+    7283.10.21 = {
+        birth = yes
+    }
+
+    7367.11.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_128 = {
+    name = "Bartimus"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_125
+    mother = ashwood_126
+
+    trait = compassionate
+    trait = ambitious
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    7288.7.27 = {
+        birth = yes
+    }
+
+    7310.2.15 = {
+        add_spouse = ashwood_129
+    }
+
+    7365.4.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_129 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = callous
+    trait = brave
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_2
+
+    7293.3.20 = {
+        birth = yes
+    }
+
+    7368.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_130 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_113
+    mother = ashwood_114
+
+    trait = gluttonous
+    trait = lazy
+    trait = arbitrary
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    7210.6.4 = {
+        birth = yes
+    }
+
+    7288.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_131 = {
+    name = "Lynarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_109
+    mother = ashwood_110
+
+    trait = cynical
+    trait = arrogant
+    trait = stubborn
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 3
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    7133.1.25 = {
+        birth = yes
+    }
+
+    7213.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_132 = {
+    name = "Ronnel"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_109
+    mother = ashwood_110
+
+    trait = cynical
+    trait = honest
+    trait = temperate
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 3
+    intrigue = 10
+    learning = 3
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    7134.10.5 = {
+        birth = yes
+    }
+
+    7167.5.11 = {
+        add_spouse = ashwood_133
+    }
+
+    7202.5.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_133 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = calm
+    trait = shy
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    7150.5.14 = {
+        birth = yes
+    }
+
+    7217.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_134 = {
+    name = "Edrick"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_132
+    mother = ashwood_133
+
+    trait = vengeful
+    trait = arbitrary
+    trait = fickle
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 11
+    prowess = 5
+
+    trait = education_learning_2
+
+    7179.1.23 = {
+        birth = yes
+    }
+
+    7223.9.5 = {
+        add_spouse = ashwood_135
+    }
+
+    7249.11.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_135 = {
+    name = "Lynarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = honest
+    trait = gluttonous
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 2
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    7206.1.24 = {
+        birth = yes
+    }
+
+    7233.11.12 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+ashwood_136 = {
+    name = "Mallador"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_134
+    mother = ashwood_135
+
+    trait = forgiving
+    trait = deceitful
+    trait = paranoid
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 7
+    intrigue = 9
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    7225.6.4 = {
+        birth = yes
+    }
+
+    7251.2.28 = {
+        add_spouse = ashwood_137
+    }
+
+    7296.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_137 = {
+    name = "Jonnela"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = compassionate
+    trait = temperate
+
+    diplomacy = 5
+    martial = 11
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    7234.6.8 = {
+        birth = yes
+    }
+
+    7319.2.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_138 = {
+    name = "Harmond"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_136
+    mother = ashwood_137
+
+    trait = humble
+    trait = patient
+    trait = content
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 10
+    prowess = 11
+
+    trait = education_learning_2
+
+    7260.3.27 = {
+        birth = yes
+    }
+
+    7277.6.2 = {
+        add_spouse = ashwood_139
+    }
+
+    7345.12.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_139 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = diligent
+    trait = paranoid
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    7260.8.4 = {
+        birth = yes
+    }
+
+    7333.5.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_140 = {
+    name = "Harrion"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_138
+    mother = ashwood_139
+
+    trait = calm
+    trait = brave
+    trait = humble
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 8
+    intrigue = 10
+    learning = 9
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    7286.8.23 = {
+        birth = yes
+    }
+
+    7316.12.5 = {
+        add_spouse = ashwood_141
+    }
+
+    7359.8.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_141 = {
+    name = "Arya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = chaste
+    trait = gluttonous
+    trait = zealous
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 6
+    intrigue = 10
+    learning = 8
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    7299.7.8 = {
+        birth = yes
+    }
+
+    7366.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_142 = {
+    name = "Cregard"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_138
+    mother = ashwood_139
+
+    trait = sadistic
+    trait = arbitrary
+    trait = honest
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 2
+    prowess = 6
+
+    trait = education_martial_2
+
+    7289.4.5 = {
+        birth = yes
+    }
+
+    7311.5.13 = {
+        add_spouse = ashwood_143
+    }
+
+    7355.5.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_143 = {
+    name = "Barbrey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = paranoid
+    trait = diligent
+    trait = patient
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    7294.12.27 = {
+        birth = yes
+    }
+
+    7360.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_144 = {
+    name = "Harlon"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_138
+    mother = ashwood_139
+
+    trait = honest
+    trait = fickle
+    trait = compassionate
+
+    diplomacy = 4
+    martial = 10
+    stewardship = 3
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_3
+
+    7293.8.7 = {
+        birth = yes
+    }
+
+    7337.3.17 = {
+        add_spouse = ashwood_145
+    }
+
+    7369.12.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_145 = {
+    name = "Wynafryd"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = cynical
+    trait = honest
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 9
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    7320.6.4 = {
+        birth = yes
+    }
+
+    7397.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_146 = {
+    name = "Edderion"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_136
+    mother = ashwood_137
+
+    trait = stubborn
+    trait = diligent
+    trait = chaste
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    7268.6.9 = {
+        birth = yes
+    }
+
+    7290.8.15 = {
+        add_spouse = ashwood_147
+    }
+
+    7339.1.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_147 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = cynical
+    trait = stubborn
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 7
+
+    trait = education_learning_4
+
+    7273.12.18 = {
+        birth = yes
+    }
+
+    7309.11.3 = {
+        death = { death_reason = death_disappearance  }
+    }
+}
+
+ashwood_148 = {
+    name = "Hareth"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_146
+    mother = ashwood_147
+
+    trait = vengeful
+    trait = compassionate
+    trait = diligent
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 3
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    7292.5.25 = {
+        birth = yes
+    }
+
+    7325.4.17 = {
+        add_spouse = ashwood_149
+    }
+
+    7365.8.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_149 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = just
+    trait = lustful
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_4
+
+    7308.5.9 = {
+        birth = yes
+    }
+
+    7378.1.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_150 = {
+    name = "Meera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_146
+    mother = ashwood_147
+
+    trait = patient
+    trait = calm
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    7298.1.19 = {
+        birth = yes
+    }
+
+    7378.1.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_151 = {
+    name = "Hother"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_136
+    mother = ashwood_137
+
+    trait = content
+    trait = wrathful
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 9
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    7272.11.6 = {
+        birth = yes
+    }
+
+    7315.6.9 = {
+        add_spouse = ashwood_152
+    }
+
+    7339.4.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_152 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = cynical
+    trait = gluttonous
+    trait = generous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    7298.11.25 = {
+        birth = yes
+    }
+
+    7376.9.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_153 = {
+    name = "Harmond"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_151
+    mother = ashwood_152
+
+    trait = paranoid
+    trait = temperate
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    7318.10.6 = {
+        birth = yes
+    }
+
+    7360.12.2 = {
+        add_spouse = ashwood_154
+    }
+
+    7404.12.3 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+ashwood_154 = {
+    name = "Lyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = temperate
+    trait = just
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_learning_3
+
+    7343.8.1 = {
+        birth = yes
+    }
+
+    7423.5.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_155 = {
+    name = "Alyn"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_151
+    mother = ashwood_152
+
+    trait = arbitrary
+    trait = arrogant
+    trait = lazy
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 9
+    intrigue = 8
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    7324.1.10 = {
+        birth = yes
+    }
+
+    7368.3.8 = {
+        add_spouse = ashwood_156
+    }
+
+    7400.8.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_156 = {
+    name = "Barbara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = content
+    trait = patient
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 2
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    7351.4.8 = {
+        birth = yes
+    }
+
+    7433.2.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_157 = {
+    name = "Farlen"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_151
+    mother = ashwood_152
+
+    trait = calm
+    trait = fickle
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 4
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_2
+
+    7329.4.1 = {
+        birth = yes
+    }
+
+    7367.9.4 = {
+        add_spouse = ashwood_158
+    }
+
+    7377.10.14 = {
+        death = { death_reason = death_accident  }
+    }
+}
+
+ashwood_158 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = impatient
+    trait = fickle
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 11
+    intrigue = 7
+    learning = 8
+    prowess = 11
+
+    trait = education_stewardship_2
+
+    7350.11.18 = {
+        birth = yes
+    }
+
+    7426.2.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_159 = {
+    name = "Farlen"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_134
+    mother = ashwood_135
+
+    trait = chaste
+    trait = trusting
+    trait = cynical
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 7
+    intrigue = 2
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    7226.12.6 = {
+        birth = yes
+    }
+
+    7261.3.3 = {
+        add_spouse = ashwood_160
+    }
+
+    7303.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_160 = {
+    name = "Lyanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = brave
+    trait = humble
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 9
+
+    trait = education_martial_3
+
+    7244.12.3 = {
+        birth = yes
+    }
+
+    7325.12.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_161 = {
+    name = "Harwin"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_159
+    mother = ashwood_160
+
+    trait = honest
+    trait = calm
+    trait = lustful
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 2
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    7261.10.24 = {
+        birth = yes
+    }
+
+    7286.6.25 = {
+        add_spouse = ashwood_162
+    }
+
+    7333.4.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_162 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = lazy
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 3
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    7269.8.8 = {
+        birth = yes
+    }
+
+    7296.11.16 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+ashwood_163 = {
+    name = "Cregan"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_161
+    mother = ashwood_162
+
+    trait = patient
+    trait = lazy
+    trait = gregarious
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 10
+    intrigue = 5
+    learning = 8
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    7290.6.28 = {
+        birth = yes
+    }
+
+    7315.6.9 = {
+        add_spouse = ashwood_164
+    }
+
+    7325.10.18 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+ashwood_164 = {
+    name = "Jonnela"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = shy
+    trait = brave
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_1
+
+    7298.1.24 = {
+        birth = yes
+    }
+
+    7378.8.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_165 = {
+    name = "Danelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_161
+    mother = ashwood_162
+
+    trait = gluttonous
+    trait = ambitious
+    trait = generous
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    7292.7.25 = {
+        birth = yes
+    }
+
+    7372.1.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_166 = {
+    name = "Hareth"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_159
+    mother = ashwood_160
+
+    trait = sadistic
+    trait = impatient
+    trait = ambitious
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 7
+    intrigue = 3
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    7262.5.24 = {
+        birth = yes
+    }
+
+    7279.11.18 = {
+        add_spouse = ashwood_167
+    }
+
+    7329.3.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_167 = {
+    name = "Lyessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = generous
+    trait = impatient
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 1
+    learning = 7
+    prowess = 3
+
+    trait = education_learning_2
+
+    7262.6.26 = {
+        birth = yes
+    }
+
+    7311.7.17 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+ashwood_168 = {
+    name = "Harrion"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_166
+    mother = ashwood_167
+
+    trait = impatient
+    trait = lazy
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_2
+
+    7304.5.8 = {
+        birth = yes
+    }
+
+    7337.9.19 = {
+        add_spouse = ashwood_169
+    }
+
+    7374.5.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_169 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = greedy
+    trait = cynical
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    7320.10.22 = {
+        birth = yes
+    }
+
+    7394.1.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_170 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_134
+    mother = ashwood_135
+
+    trait = zealous
+    trait = gregarious
+    trait = calm
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 11
+    intrigue = 3
+    learning = 7
+    prowess = 1
+
+    trait = education_stewardship_3
+
+    7227.11.26 = {
+        birth = yes
+    }
+
+    7303.10.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_171 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_134
+    mother = ashwood_135
+
+    trait = impatient
+    trait = gregarious
+    trait = chaste
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 7
+    intrigue = 3
+    learning = 8
+    prowess = 8
+
+    trait = education_martial_3
+
+    7229.11.22 = {
+        birth = yes
+    }
+
+    7308.1.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_172 = {
+    name = "Robard"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_132
+    mother = ashwood_133
+
+    trait = ambitious
+    trait = gluttonous
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 3
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_1
+
+    7185.1.3 = {
+        birth = yes
+    }
+
+    7208.10.3 = {
+        add_spouse = ashwood_173
+    }
+
+    7257.8.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_173 = {
+    name = "Mariah"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = deceitful
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 1
+    intrigue = 10
+    learning = 9
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    7191.5.20 = {
+        birth = yes
+    }
+
+    7275.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_174 = {
+    name = "Arya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_172
+    mother = ashwood_173
+
+    trait = compassionate
+    trait = forgiving
+    trait = fickle
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 2
+    intrigue = 4
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_1
+
+    7217.9.4 = {
+        birth = yes
+    }
+
+    7283.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_175 = {
+    name = "Harwin"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_172
+    mother = ashwood_173
+
+    trait = fickle
+    trait = wrathful
+    trait = vengeful
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 2
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_3
+
+    7218.2.23 = {
+        birth = yes
+    }
+
+    7234.4.19 = {
+        add_spouse = ashwood_176
+    }
+
+    7295.10.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_176 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = temperate
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    7217.11.14 = {
+        birth = yes
+    }
+
+    7288.9.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_177 = {
+    name = "Branda"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_175
+    mother = ashwood_176
+
+    trait = fickle
+    trait = compassionate
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 2
+    intrigue = 5
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_2
+
+    7242.6.1 = {
+        birth = yes
+    }
+
+    7327.5.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_178 = {
+    name = "Quent"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_175
+    mother = ashwood_176
+
+    trait = paranoid
+    trait = sadistic
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    7244.11.11 = {
+        birth = yes
+    }
+
+    7277.3.12 = {
+        add_spouse = ashwood_179
+    }
+
+    7314.8.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_179 = {
+    name = "Arra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = humble
+    trait = ambitious
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 7
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    7260.11.10 = {
+        birth = yes
+    }
+
+    7295.8.26 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+ashwood_180 = {
+    name = "Benjen"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_178
+    mother = ashwood_179
+
+    trait = generous
+    trait = deceitful
+    trait = shy
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 11
+    prowess = 2
+
+    trait = education_learning_2
+
+    7281.10.17 = {
+        birth = yes
+    }
+
+    7315.7.10 = {
+        add_spouse = ashwood_181
+    }
+
+    7357.1.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_181 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = lazy
+    trait = content
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 9
+    intrigue = 6
+    learning = 3
+    prowess = 3
+
+    trait = education_stewardship_4
+
+    7298.9.6 = {
+        birth = yes
+    }
+
+    7365.9.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_182 = {
+    name = "Rowena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_178
+    mother = ashwood_179
+
+    trait = shy
+    trait = greedy
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 2
+    prowess = 6
+
+    trait = education_martial_2
+
+    7282.10.25 = {
+        birth = yes
+    }
+
+    7351.8.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_183 = {
+    name = "Leana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_178
+    mother = ashwood_179
+
+    trait = humble
+    trait = chaste
+    trait = cynical
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_2
+
+    7286.2.20 = {
+        birth = yes
+    }
+
+    7357.5.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_184 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_178
+    mother = ashwood_179
+
+    trait = deceitful
+    trait = paranoid
+    trait = chaste
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 3
+    intrigue = 8
+    learning = 3
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    7288.1.4 = {
+        birth = yes
+    }
+
+    7361.2.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_185 = {
+    name = "Jonnela"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_175
+    mother = ashwood_176
+
+    trait = honest
+    trait = calm
+    trait = shy
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 5
+    intrigue = 9
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    7246.10.25 = {
+        birth = yes
+    }
+
+    7312.5.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_186 = {
+    name = "Bannen"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_109
+    mother = ashwood_110
+
+    trait = temperate
+    trait = just
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 1
+    intrigue = 6
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_2
+
+    7137.11.23 = {
+        birth = yes
+    }
+
+    7182.4.14 = {
+        add_spouse = ashwood_187
+    }
+
+    7208.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_187 = {
+    name = "Meliana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = cynical
+    trait = gluttonous
+    trait = fickle
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 4
+    intrigue = 5
+    learning = 9
+    prowess = 3
+
+    trait = education_learning_2
+
+    7165.2.7 = {
+        birth = yes
+    }
+
+    7246.9.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_188 = {
+    name = "Harrion"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_186
+    mother = ashwood_187
+
+    trait = vengeful
+    trait = gregarious
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 3
+    intrigue = 5
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_2
+
+    7188.5.19 = {
+        birth = yes
+    }
+
+    7217.5.9 = {
+        add_spouse = ashwood_189
+    }
+
+    7258.4.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_189 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = lazy
+    trait = fickle
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 1
+
+    trait = education_martial_4
+
+    7200.9.17 = {
+        birth = yes
+    }
+
+    7277.1.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_190 = {
+    name = "Edric"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_188
+    mother = ashwood_189
+
+    trait = zealous
+    trait = arrogant
+    trait = patient
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    7224.10.8 = {
+        birth = yes
+    }
+
+    7240.2.5 = {
+        add_spouse = ashwood_191
+    }
+
+    7292.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_191 = {
+    name = "Alyx"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = cynical
+    trait = trusting
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 4
+    intrigue = 11
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    7223.3.5 = {
+        birth = yes
+    }
+
+    7296.8.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_192 = {
+    name = "Gawen"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_190
+    mother = ashwood_191
+
+    trait = sadistic
+    trait = gregarious
+    trait = patient
+
+    diplomacy = 11
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    7243.2.17 = {
+        birth = yes
+    }
+
+    7266.10.27 = {
+        add_spouse = ashwood_193
+    }
+
+    7328.6.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_193 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = generous
+    trait = shy
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_4
+
+    7249.3.27 = {
+        birth = yes
+    }
+
+    7320.12.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_194 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_192
+    mother = ashwood_193
+
+    trait = lustful
+    trait = diligent
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 4
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_3
+
+    7267.4.1 = {
+        birth = yes
+    }
+
+    7352.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_195 = {
+    name = "Bass"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_192
+    mother = ashwood_193
+
+    trait = patient
+    trait = ambitious
+    trait = calm
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 4
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_2
+
+    7269.12.24 = {
+        birth = yes
+    }
+
+    7297.7.25 = {
+        add_spouse = ashwood_196
+    }
+
+    7353.11.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_196 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = just
+    trait = sadistic
+    trait = honest
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_3
+
+    7280.11.13 = {
+        birth = yes
+    }
+
+    7352.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_197 = {
+    name = "Jonos"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_192
+    mother = ashwood_193
+
+    trait = arrogant
+    trait = paranoid
+    trait = temperate
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 3
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    7275.2.20 = {
+        birth = yes
+    }
+
+    7301.2.9 = {
+        add_spouse = ashwood_198
+    }
+
+    7321.11.28 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+ashwood_198 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = deceitful
+    trait = generous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    7284.3.28 = {
+        birth = yes
+    }
+
+    7365.4.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_199 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_192
+    mother = ashwood_193
+
+    trait = compassionate
+    trait = generous
+    trait = vengeful
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 6
+    intrigue = 10
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    7277.7.13 = {
+        birth = yes
+    }
+
+    7349.1.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_200 = {
+    name = "Yoren"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_188
+    mother = ashwood_189
+
+    trait = stubborn
+    trait = lustful
+    trait = sadistic
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 1
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    7229.8.25 = {
+        birth = yes
+    }
+
+    7251.1.7 = {
+        add_spouse = ashwood_201
+    }
+
+    7295.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_201 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = humble
+    trait = cynical
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    7234.3.5 = {
+        birth = yes
+    }
+
+    7319.11.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_202 = {
+    name = "Darlessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_200
+    mother = ashwood_201
+
+    trait = zealous
+    trait = honest
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    7257.12.21 = {
+        birth = yes
+    }
+
+    7337.1.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_203 = {
+    name = "Luton"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_200
+    mother = ashwood_201
+
+    trait = lazy
+    trait = compassionate
+    trait = brave
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 4
+    intrigue = 4
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_2
+
+    7266.9.3 = {
+        birth = yes
+    }
+
+    7308.10.7 = {
+        add_spouse = ashwood_204
+    }
+
+    7347.1.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_204 = {
+    name = "Darlessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = gluttonous
+    trait = just
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    7291.10.10 = {
+        birth = yes
+    }
+
+    7371.1.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_205 = {
+    name = "Elyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_203
+    mother = ashwood_204
+
+    trait = cynical
+    trait = trusting
+    trait = honest
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 1
+    intrigue = 4
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    7314.2.14 = {
+        birth = yes
+    }
+
+    7391.2.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_206 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_203
+    mother = ashwood_204
+
+    trait = forgiving
+    trait = just
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_4
+
+    7321.10.8 = {
+        birth = yes
+    }
+
+    7389.12.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_207 = {
+    name = "Marlon"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_203
+    mother = ashwood_204
+
+    trait = impatient
+    trait = callous
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 11
+    intrigue = 7
+    learning = 11
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    7322.5.14 = {
+        birth = yes
+    }
+
+    7361.2.13 = {
+        add_spouse = ashwood_208
+    }
+
+    7401.1.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_208 = {
+    name = "Jonnela"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = cynical
+    trait = trusting
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    7344.1.24 = {
+        birth = yes
+    }
+
+    7417.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_209 = {
+    name = "Rickard"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_200
+    mother = ashwood_201
+
+    trait = fickle
+    trait = arrogant
+    trait = zealous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    7270.12.28 = {
+        birth = yes
+    }
+
+    7271.3.21 = {
+        give_nickname = nick_the_gracious
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    7286.2.2 = {
+        add_spouse = ashwood_210
+    }
+
+    7344.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_210 = {
+    name = "Jynessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = arrogant
+    trait = brave
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 3
+    prowess = 1
+
+    trait = education_martial_2
+
+    7269.9.17 = {
+        birth = yes
+    }
+
+    7297.7.10 = {
+        death = { death_reason = death_plotting  }
+    }
+}
+
+ashwood_211 = {
+    name = "Luton"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_209
+    mother = ashwood_210
+
+    trait = generous
+    trait = arbitrary
+    trait = arrogant
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 1
+    intrigue = 7
+    learning = 5
+    prowess = 11
+
+    trait = education_diplomacy_3
+
+    7287.6.1 = {
+        birth = yes
+    }
+
+    7324.6.9 = {
+        add_spouse = ashwood_212
+    }
+
+    7370.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_212 = {
+    name = "Elyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = wrathful
+    trait = honest
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 2
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_3
+
+    7307.10.19 = {
+        birth = yes
+    }
+
+    7384.10.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_213 = {
+    name = "Theodan"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_188
+    mother = ashwood_189
+
+    trait = temperate
+    trait = honest
+    trait = lazy
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 9
+    intrigue = 2
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    7233.1.6 = {
+        birth = yes
+    }
+
+    7279.8.24 = {
+        add_spouse = ashwood_214
+    }
+
+    7318.4.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_214 = {
+    name = "Perra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = gluttonous
+    trait = generous
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 4
+    intrigue = 2
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_3
+
+    7262.4.19 = {
+        birth = yes
+    }
+
+    7347.10.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_215 = {
+    name = "Barbara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_213
+    mother = ashwood_214
+
+    trait = craven
+    trait = zealous
+    trait = just
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    7289.12.27 = {
+        birth = yes
+    }
+
+    7363.6.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_216 = {
+    name = "Elyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_213
+    mother = ashwood_214
+
+    trait = greedy
+    trait = impatient
+    trait = ambitious
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 4
+    prowess = 9
+
+    trait = education_martial_1
+
+    7296.12.20 = {
+        birth = yes
+    }
+
+    7376.5.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_217 = {
+    name = "Osric"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_213
+    mother = ashwood_214
+
+    trait = humble
+    trait = paranoid
+    trait = lustful
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 3
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    7300.9.22 = {
+        birth = yes
+    }
+
+    7346.10.25 = {
+        add_spouse = ashwood_218
+    }
+
+    7356.12.24 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+ashwood_218 = {
+    name = "Lysa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = trusting
+    trait = zealous
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 8
+    learning = 4
+    prowess = 4
+
+    trait = education_martial_2
+
+    7329.2.18 = {
+        birth = yes
+    }
+
+    7414.11.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_219 = {
+    name = "Artos"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_217
+    mother = ashwood_218
+
+    trait = trusting
+    trait = gluttonous
+    trait = impatient
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 1
+    intrigue = 5
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    7349.8.3 = {
+        birth = yes
+    }
+
+    7373.9.15 = {
+        add_spouse = ashwood_220
+    }
+
+    7426.8.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_220 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = humble
+    trait = zealous
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 10
+    learning = 7
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    7356.1.24 = {
+        birth = yes
+    }
+
+    7436.4.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_221 = {
+    name = "Royce"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_217
+    mother = ashwood_218
+
+    trait = brave
+    trait = lustful
+    trait = calm
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    7350.7.2 = {
+        birth = yes
+    }
+
+    7369.5.1 = {
+        add_spouse = ashwood_222
+    }
+
+    7433.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_222 = {
+    name = "Arra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = greedy
+    trait = patient
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    7352.6.22 = {
+        birth = yes
+    }
+
+    7427.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_223 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_217
+    mother = ashwood_218
+
+    trait = vengeful
+    trait = fickle
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    7351.9.15 = {
+        birth = yes
+    }
+
+    7435.4.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_224 = {
+    name = "Mallador"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_188
+    mother = ashwood_189
+
+    trait = paranoid
+    trait = patient
+    trait = gluttonous
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 3
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    7236.10.4 = {
+        birth = yes
+    }
+
+    7265.8.11 = {
+        add_spouse = ashwood_225
+    }
+
+    7302.5.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_225 = {
+    name = "Alys"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = fickle
+    trait = lustful
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 2
+    learning = 9
+    prowess = 2
+
+    trait = education_learning_2
+
+    7248.7.13 = {
+        birth = yes
+    }
+
+    7319.3.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_226 = {
+    name = "Torren"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_224
+    mother = ashwood_225
+
+    trait = lustful
+    trait = paranoid
+    trait = wrathful
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 6
+    intrigue = 2
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    7283.12.27 = {
+        birth = yes
+    }
+
+    7307.4.14 = {
+        add_spouse = ashwood_227
+    }
+
+    7351.11.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_227 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = paranoid
+    trait = brave
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 8
+    intrigue = 5
+    learning = 4
+    prowess = 9
+
+    trait = education_martial_4
+
+    7290.3.12 = {
+        birth = yes
+    }
+
+    7358.5.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_228 = {
+    name = "Robb"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_226
+    mother = ashwood_227
+
+    trait = callous
+    trait = patient
+    trait = gregarious
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 8
+    intrigue = 8
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    7309.9.14 = {
+        birth = yes
+    }
+
+    7346.12.14 = {
+        add_spouse = ashwood_229
+    }
+
+    7394.6.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_229 = {
+    name = "Barbrey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = deceitful
+    trait = brave
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 11
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    7329.12.15 = {
+        birth = yes
+    }
+
+    7406.4.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_230 = {
+    name = "Leobald"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_226
+    mother = ashwood_227
+
+    trait = just
+    trait = lustful
+    trait = brave
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    7315.11.15 = {
+        birth = yes
+    }
+
+    7336.8.4 = {
+        add_spouse = ashwood_231
+    }
+
+    7392.12.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_231 = {
+    name = "Alyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = forgiving
+    trait = shy
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 2
+    prowess = 2
+
+    trait = education_intrigue_3
+
+    7319.1.17 = {
+        birth = yes
+    }
+
+    7396.2.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_232 = {
+    name = "Daryn"
+
+    dynasty = dynasty_ashwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_226
+    mother = ashwood_227
+
+    trait = arrogant
+    trait = chaste
+    trait = trusting
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 3
+    intrigue = 10
+    learning = 4
+    prowess = 10
+
+    trait = education_intrigue_4
+
+    7319.3.8 = {
+        birth = yes
+    }
+
+    7360.7.27 = {
+        add_spouse = ashwood_233
+    }
+
+    7387.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_233 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = diligent
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 4
+    intrigue = 9
+    learning = 2
+    prowess = 8
+
+    trait = education_intrigue_4
+
+    7343.11.22 = {
+        birth = yes
+    }
+
+    7411.9.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_234 = {
+    name = "Lyessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_226
+    mother = ashwood_227
+
+    trait = gregarious
+    trait = diligent
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    7323.7.8 = {
+        birth = yes
+    }
+
+    7392.6.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ashwood_235 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = ashwood_186
+    mother = ashwood_187
+
+    trait = just
+    trait = sadistic
+    trait = vengeful
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    7190.3.19 = {
+        birth = yes
+    }
+
+    7256.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

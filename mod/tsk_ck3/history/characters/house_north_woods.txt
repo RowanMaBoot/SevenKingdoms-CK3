@@ -1,0 +1,4334 @@
+woods_1 = {
+    name = "Theo"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = lazy
+    trait = vengeful
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 9
+    intrigue = 7
+    learning = 3
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    4430.4.5 = {
+        birth = yes
+    }
+
+    4476.11.7 = {
+        add_spouse = woods_2
+    }
+
+    4486.12.17 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+woods_2 = {
+    name = "Jorelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = arbitrary
+    trait = fickle
+
+    diplomacy = 9
+    martial = 10
+    stewardship = 8
+    intrigue = 3
+    learning = 4
+    prowess = 10
+
+    trait = education_martial_4
+
+    4459.6.16 = {
+        birth = yes
+    }
+
+    4541.8.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_3 = {
+    name = "Cley"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_1
+    mother = woods_2
+
+    trait = stubborn
+    trait = craven
+    trait = chaste
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 10
+
+    trait = education_martial_1
+
+    4478.4.7 = {
+        birth = yes
+    }
+
+    4517.7.3 = {
+        add_spouse = woods_4
+    }
+
+    4546.8.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_4 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = shy
+    trait = forgiving
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    4500.3.11 = {
+        birth = yes
+    }
+
+    4576.9.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_5 = {
+    name = "Ondrew"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_3
+    mother = woods_4
+
+    trait = gregarious
+    trait = craven
+    trait = patient
+
+    diplomacy = 24
+    martial = 17
+    stewardship = 18
+    intrigue = 10
+    learning = 14
+    prowess = 24
+
+    trait = education_diplomacy_4
+
+    4526.4.25 = {
+        birth = yes
+    }
+
+    4544.3.26 = {
+        add_spouse = woods_6
+    }
+
+    4609.1.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_6 = {
+    name = "Donella"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = lazy
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    4527.7.5 = {
+        birth = yes
+    }
+
+    4597.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_7 = {
+    name = "Martyn"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_5
+    mother = woods_6
+
+    trait = diligent
+    trait = honest
+    trait = fickle
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 2
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_learning_2
+
+    4576.11.8 = {
+        birth = yes
+    }
+
+    4607.12.7 = {
+        add_spouse = woods_8
+    }
+
+    4647.10.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_8 = {
+    name = "Perra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = vengeful
+    trait = fickle
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    4590.4.22 = {
+        birth = yes
+    }
+
+    4663.6.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_9 = {
+    name = "Farlen"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_7
+    mother = woods_8
+
+    trait = generous
+    trait = forgiving
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 10
+    intrigue = 5
+    learning = 5
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    4623.3.11 = {
+        birth = yes
+    }
+
+    4637.12.28 = {
+        add_spouse = woods_10
+    }
+
+    4705.1.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_10 = {
+    name = "Lynarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = trusting
+    trait = lazy
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    4620.4.5 = {
+        birth = yes
+    }
+
+    4705.9.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_11 = {
+    name = "Morgan"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_9
+    mother = woods_10
+
+    trait = forgiving
+    trait = wrathful
+    trait = craven
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 2
+
+    trait = education_martial_3
+
+    4662.11.5 = {
+        birth = yes
+    }
+
+    4691.8.20 = {
+        add_spouse = woods_12
+    }
+
+    4728.5.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_12 = {
+    name = "Kyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = temperate
+    trait = brave
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 9
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    4674.3.8 = {
+        birth = yes
+    }
+
+    4748.4.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_13 = {
+    name = "Pate"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_11
+    mother = woods_12
+
+    trait = vengeful
+    trait = paranoid
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    4714.5.10 = {
+        birth = yes
+    }
+
+    4764.2.13 = {
+        add_spouse = woods_14
+    }
+
+    4794.1.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_14 = {
+    name = "Arya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = zealous
+    trait = greedy
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    4747.3.27 = {
+        birth = yes
+    }
+
+    4823.10.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_15 = {
+    name = "Benjen"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_13
+    mother = woods_14
+
+    trait = just
+    trait = deceitful
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 10
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    4784.10.10 = {
+        birth = yes
+    }
+
+    4811.6.10 = {
+        add_spouse = woods_16
+    }
+
+    4863.2.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_16 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = lustful
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    4794.10.7 = {
+        birth = yes
+    }
+
+    4864.6.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_17 = {
+    name = "Jon"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_15
+    mother = woods_16
+
+    trait = diligent
+    trait = temperate
+    trait = arrogant
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_2
+
+    4842.4.24 = {
+        birth = yes
+    }
+
+    4878.3.8 = {
+        add_spouse = woods_18
+    }
+
+    4908.9.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_18 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = paranoid
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 7
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_3
+
+    4861.7.25 = {
+        birth = yes
+    }
+
+    4940.5.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_19 = {
+    name = "Mikken"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_17
+    mother = woods_18
+
+    trait = callous
+    trait = temperate
+    trait = calm
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_3
+
+    4882.11.16 = {
+        birth = yes
+    }
+
+    4908.2.21 = {
+        add_spouse = woods_20
+    }
+
+    4963.4.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_20 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = honest
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 2
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_3
+
+    4891.10.28 = {
+        birth = yes
+    }
+
+    4970.12.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_21 = {
+    name = "Benfred"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_19
+    mother = woods_20
+
+    trait = vengeful
+    trait = arbitrary
+    trait = brave
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 8
+    intrigue = 7
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_4
+
+    4909.10.13 = {
+        birth = yes
+    }
+
+    4952.12.2 = {
+        add_spouse = woods_22
+    }
+
+    4987.7.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_22 = {
+    name = "Alys"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = shy
+    trait = ambitious
+    trait = trusting
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    4935.1.23 = {
+        birth = yes
+    }
+
+    5018.10.18 = {
+        death = { death_reason = death_horse_riding_accident  }
+    }
+}
+
+woods_23 = {
+    name = "Hallis"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_21
+    mother = woods_22
+
+    trait = patient
+    trait = greedy
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    4980.5.2 = {
+        birth = yes
+    }
+
+    5023.12.18 = {
+        add_spouse = woods_24
+    }
+
+    5063.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_24 = {
+    name = "Alysane"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = cynical
+    trait = impatient
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 10
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    5006.12.10 = {
+        birth = yes
+    }
+
+    5087.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_25 = {
+    name = "Jojen"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_23
+    mother = woods_24
+
+    trait = lazy
+    trait = wrathful
+    trait = fickle
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    5050.1.22 = {
+        birth = yes
+    }
+
+    5075.11.11 = {
+        add_spouse = woods_26
+    }
+
+    5123.2.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_26 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = temperate
+    trait = zealous
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    5058.11.13 = {
+        birth = yes
+    }
+
+    5141.12.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_27 = {
+    name = "Bartimus"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_25
+    mother = woods_26
+
+    trait = wrathful
+    trait = cynical
+    trait = diligent
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_4
+
+    5096.9.12 = {
+        birth = yes
+    }
+
+    5111.3.19 = {
+        add_spouse = woods_28
+    }
+
+    5175.2.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_28 = {
+    name = "Barbrey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = deceitful
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 5
+    intrigue = 10
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    5094.5.3 = {
+        birth = yes
+    }
+
+    5172.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_29 = {
+    name = "Mikken"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_27
+    mother = woods_28
+
+    trait = paranoid
+    trait = chaste
+    trait = arbitrary
+
+    diplomacy = 1
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_2
+
+    5136.1.2 = {
+        birth = yes
+    }
+
+    5150.11.18 = {
+        add_spouse = woods_30
+    }
+
+    5205.7.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_30 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = chaste
+    trait = honest
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    5133.9.21 = {
+        birth = yes
+    }
+
+    5213.3.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_31 = {
+    name = "Robin"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_29
+    mother = woods_30
+
+    trait = gluttonous
+    trait = patient
+    trait = ambitious
+
+    diplomacy = 1
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 2
+
+    trait = education_learning_3
+
+    5152.10.25 = {
+        birth = yes
+    }
+
+    5200.12.7 = {
+        add_spouse = woods_32
+    }
+
+    5221.3.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_32 = {
+    name = "Leana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = craven
+    trait = shy
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 3
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_2
+
+    5183.11.5 = {
+        birth = yes
+    }
+
+    5268.4.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_33 = {
+    name = "Gawen"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_31
+    mother = woods_32
+
+    trait = compassionate
+    trait = vengeful
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 10
+    stewardship = 9
+    intrigue = 2
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_2
+
+    5214.12.15 = {
+        birth = yes
+    }
+
+    5260.10.14 = {
+        add_spouse = woods_34
+    }
+
+    5297.1.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_34 = {
+    name = "Margaret"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = temperate
+    trait = brave
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 6
+    intrigue = 3
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_2
+
+    5243.4.25 = {
+        birth = yes
+    }
+
+    5326.1.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_35 = {
+    name = "Dorren"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_33
+    mother = woods_34
+
+    trait = arrogant
+    trait = wrathful
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 8
+    intrigue = 8
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    5287.6.5 = {
+        birth = yes
+    }
+
+    5304.12.20 = {
+        add_spouse = woods_36
+    }
+
+    5370.11.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_36 = {
+    name = "Arra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = impatient
+    trait = generous
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 6
+    intrigue = 2
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_4
+
+    5287.3.10 = {
+        birth = yes
+    }
+
+    5370.2.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_37 = {
+    name = "Halys"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_35
+    mother = woods_36
+
+    trait = forgiving
+    trait = lustful
+    trait = humble
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    5327.9.26 = {
+        birth = yes
+    }
+
+    5368.9.26 = {
+        add_spouse = woods_38
+    }
+
+    5378.2.11 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+woods_38 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = forgiving
+    trait = callous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    5351.2.7 = {
+        birth = yes
+    }
+
+    5421.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_39 = {
+    name = "Larence"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_37
+    mother = woods_38
+
+    trait = impatient
+    trait = diligent
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    5369.10.4 = {
+        birth = yes
+    }
+
+    5402.11.9 = {
+        add_spouse = woods_40
+    }
+
+    5441.8.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_40 = {
+    name = "Elyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = content
+    trait = chaste
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 9
+    intrigue = 8
+    learning = 8
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    5385.5.27 = {
+        birth = yes
+    }
+
+    5460.12.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_41 = {
+    name = "Harlon"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_39
+    mother = woods_40
+
+    trait = stubborn
+    trait = temperate
+    trait = callous
+
+    diplomacy = 7
+    martial = 11
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_3
+
+    5403.12.4 = {
+        birth = yes
+    }
+
+    5449.3.5 = {
+        add_spouse = woods_42
+    }
+
+    5471.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_42 = {
+    name = "Mariah"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = humble
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_2
+
+    5432.2.15 = {
+        birth = yes
+    }
+
+    5508.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_43 = {
+    name = "Torrhen"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_41
+    mother = woods_42
+
+    trait = compassionate
+    trait = gregarious
+    trait = sadistic
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 5
+    intrigue = 2
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    5462.1.17 = {
+        birth = yes
+    }
+
+    5489.4.6 = {
+        add_spouse = woods_44
+    }
+
+    5531.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_44 = {
+    name = "Lyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = honest
+    trait = humble
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    5472.6.19 = {
+        birth = yes
+    }
+
+    5557.1.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_45 = {
+    name = "Duncan"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_43
+    mother = woods_44
+
+    trait = compassionate
+    trait = lazy
+    trait = craven
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 10
+    prowess = 8
+
+    trait = education_learning_2
+
+    5498.4.12 = {
+        birth = yes
+    }
+
+    5499.1.10 = {
+        give_nickname = nick_the_whisperer
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    5533.5.4 = {
+        add_spouse = woods_46
+    }
+
+    5575.2.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_46 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = impatient
+    trait = lazy
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 7
+    intrigue = 5
+    learning = 7
+    prowess = 10
+
+    trait = education_diplomacy_1
+
+    5516.5.9 = {
+        birth = yes
+    }
+
+    5588.8.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_47 = {
+    name = "Walton"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_45
+    mother = woods_46
+
+    trait = forgiving
+    trait = arbitrary
+    trait = wrathful
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 2
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    5540.10.7 = {
+        birth = yes
+    }
+
+    5572.9.20 = {
+        add_spouse = woods_48
+    }
+
+    5611.11.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_48 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = patient
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    5555.8.27 = {
+        birth = yes
+    }
+
+    5640.4.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_49 = {
+    name = "Mikken"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_47
+    mother = woods_48
+
+    trait = gregarious
+    trait = greedy
+    trait = trusting
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 4
+    intrigue = 5
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_1
+
+    5572.8.10 = {
+        birth = yes
+    }
+
+    5591.4.27 = {
+        add_spouse = woods_50
+    }
+
+    5654.11.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_50 = {
+    name = "Marissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = wrathful
+    trait = impatient
+
+    diplomacy = 7
+    martial = 1
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    5574.9.8 = {
+        birth = yes
+    }
+
+    5643.9.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_51 = {
+    name = "Hugo"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_49
+    mother = woods_50
+
+    trait = deceitful
+    trait = wrathful
+    trait = impatient
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 9
+    intrigue = 4
+    learning = 10
+    prowess = 8
+
+    trait = education_learning_3
+
+    5610.12.13 = {
+        birth = yes
+    }
+
+    5627.12.4 = {
+        add_spouse = woods_52
+    }
+
+    5684.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_52 = {
+    name = "Lyanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = zealous
+    trait = honest
+    trait = shy
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 10
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    5610.4.21 = {
+        birth = yes
+    }
+
+    5691.10.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_53 = {
+    name = "Marlon"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_51
+    mother = woods_52
+
+    trait = gluttonous
+    trait = arbitrary
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 9
+    learning = 8
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    5628.7.28 = {
+        birth = yes
+    }
+
+    5678.1.24 = {
+        add_spouse = woods_54
+    }
+
+    5696.12.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_54 = {
+    name = "Barbara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = cynical
+    trait = calm
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 4
+    intrigue = 7
+    learning = 8
+    prowess = 2
+
+    trait = education_martial_2
+
+    5661.3.5 = {
+        birth = yes
+    }
+
+    5736.9.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_55 = {
+    name = "Owen"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_53
+    mother = woods_54
+
+    trait = diligent
+    trait = arrogant
+    trait = patient
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 8
+    intrigue = 4
+    learning = 6
+    prowess = 2
+
+    trait = education_martial_4
+
+    5691.10.26 = {
+        birth = yes
+    }
+
+    5707.10.6 = {
+        add_spouse = woods_56
+    }
+
+    5774.1.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_56 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = chaste
+    trait = humble
+
+    diplomacy = 11
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    5690.11.20 = {
+        birth = yes
+    }
+
+    5768.6.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_57 = {
+    name = "Osric"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_55
+    mother = woods_56
+
+    trait = ambitious
+    trait = vengeful
+    trait = compassionate
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 5
+    intrigue = 11
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_1
+
+    5734.12.14 = {
+        birth = yes
+    }
+
+    5755.8.17 = {
+        add_spouse = woods_58
+    }
+
+    5806.12.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_58 = {
+    name = "Sarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = temperate
+    trait = deceitful
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    5738.8.11 = {
+        birth = yes
+    }
+
+    5823.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_59 = {
+    name = "Bartimus"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_57
+    mother = woods_58
+
+    trait = sadistic
+    trait = lustful
+    trait = fickle
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    5783.8.6 = {
+        birth = yes
+    }
+
+    5826.8.15 = {
+        add_spouse = woods_60
+    }
+
+    5862.5.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_60 = {
+    name = "Alyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = content
+    trait = callous
+
+    diplomacy = 10
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    5809.4.1 = {
+        birth = yes
+    }
+
+    5893.10.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_61 = {
+    name = "Rodwell"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_59
+    mother = woods_60
+
+    trait = cynical
+    trait = just
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 4
+    prowess = 3
+
+    trait = education_stewardship_4
+
+    5842.3.5 = {
+        birth = yes
+    }
+
+    5892.9.20 = {
+        add_spouse = woods_62
+    }
+
+    5910.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_62 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = greedy
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_4
+
+    5875.4.15 = {
+        birth = yes
+    }
+
+    5955.8.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_63 = {
+    name = "Rodwell"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_61
+    mother = woods_62
+
+    trait = deceitful
+    trait = trusting
+    trait = humble
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_3
+
+    5899.12.15 = {
+        birth = yes
+    }
+
+    5921.5.3 = {
+        add_spouse = woods_64
+    }
+
+    5979.3.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_64 = {
+    name = "Arra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = honest
+    trait = cynical
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_4
+
+    5904.3.23 = {
+        birth = yes
+    }
+
+    5931.4.22 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+woods_65 = {
+    name = "Jon"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_63
+    mother = woods_64
+
+    trait = calm
+    trait = brave
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_learning_3
+
+    5927.11.19 = {
+        birth = yes
+    }
+
+    5951.12.4 = {
+        add_spouse = woods_66
+    }
+
+    5961.12.13 = {
+        death = { death_reason = death_raid }
+    }
+}
+
+woods_66 = {
+    name = "Elyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = paranoid
+    trait = stubborn
+    trait = zealous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 10
+    learning = 8
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    5934.4.13 = {
+        birth = yes
+    }
+
+    6011.2.12 = {
+        death = { death_reason = death_murder  }
+    }
+}
+
+woods_67 = {
+    name = "Harwin"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_65
+    mother = woods_66
+
+    trait = temperate
+    trait = lustful
+    trait = stubborn
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    5959.8.7 = {
+        birth = yes
+    }
+
+    5981.5.4 = {
+        add_spouse = woods_68
+    }
+
+    6025.4.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_68 = {
+    name = "Kyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = forgiving
+    trait = zealous
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    5964.8.4 = {
+        birth = yes
+    }
+
+    6040.11.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_69 = {
+    name = "Pate"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_67
+    mother = woods_68
+
+    trait = paranoid
+    trait = wrathful
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 10
+    learning = 8
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    5987.4.19 = {
+        birth = yes
+    }
+
+    6028.6.19 = {
+        add_spouse = woods_70
+    }
+
+    6070.2.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_70 = {
+    name = "Meliana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = honest
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 5
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_3
+
+    6011.8.21 = {
+        birth = yes
+    }
+
+    6057.1.15 = {
+        death = { death_reason = death_mysterious  }
+    }
+}
+
+woods_71 = {
+    name = "Arnolf"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_69
+    mother = woods_70
+
+    trait = brave
+    trait = trusting
+    trait = cynical
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 10
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6037.2.22 = {
+        birth = yes
+    }
+
+    6075.4.8 = {
+        add_spouse = woods_72
+    }
+
+    6115.10.16 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+woods_72 = {
+    name = "Raya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = zealous
+    trait = callous
+    trait = temperate
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_1
+
+    6058.6.4 = {
+        birth = yes
+    }
+
+    6133.11.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_73 = {
+    name = "Owen"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_71
+    mother = woods_72
+
+    trait = vengeful
+    trait = stubborn
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_4
+
+    6097.8.3 = {
+        birth = yes
+    }
+
+    6140.2.28 = {
+        add_spouse = woods_74
+    }
+
+    6174.10.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_74 = {
+    name = "Barbrey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = honest
+    trait = shy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6123.4.23 = {
+        birth = yes
+    }
+
+    6204.6.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_75 = {
+    name = "Farlen"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_73
+    mother = woods_74
+
+    trait = content
+    trait = fickle
+    trait = chaste
+
+    diplomacy = 10
+    martial = 10
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6154.8.16 = {
+        birth = yes
+    }
+
+    6169.9.1 = {
+        add_spouse = woods_76
+    }
+
+    6227.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_76 = {
+    name = "Sybelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = humble
+    trait = temperate
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    6152.4.26 = {
+        birth = yes
+    }
+
+    6221.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_77 = {
+    name = "Mallador"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_75
+    mother = woods_76
+
+    trait = sadistic
+    trait = humble
+    trait = chaste
+
+    diplomacy = 9
+    martial = 10
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_3
+
+    6170.5.27 = {
+        birth = yes
+    }
+
+    6191.6.20 = {
+        add_spouse = woods_78
+    }
+
+    6240.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_78 = {
+    name = "Arya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = stubborn
+    trait = craven
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_1
+
+    6174.4.16 = {
+        birth = yes
+    }
+
+    6244.3.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_79 = {
+    name = "Hallis"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_77
+    mother = woods_78
+
+    trait = gregarious
+    trait = chaste
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6218.4.14 = {
+        birth = yes
+    }
+
+    6258.1.2 = {
+        add_spouse = woods_80
+    }
+
+    6268.11.17 = {
+        death = { death_reason = death_torture  }
+    }
+}
+
+woods_80 = {
+    name = "Marna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = temperate
+    trait = greedy
+
+    diplomacy = 11
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    6241.4.22 = {
+        birth = yes
+    }
+
+    6313.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_81 = {
+    name = "Harrion"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_79
+    mother = woods_80
+
+    trait = temperate
+    trait = greedy
+    trait = fickle
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 7
+    intrigue = 11
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6266.7.19 = {
+        birth = yes
+    }
+
+    6294.4.21 = {
+        add_spouse = woods_82
+    }
+
+    6340.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_82 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = cynical
+    trait = trusting
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_2
+
+    6277.1.8 = {
+        birth = yes
+    }
+
+    6345.3.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_83 = {
+    name = "Wyl"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_81
+    mother = woods_82
+
+    trait = lustful
+    trait = wrathful
+    trait = patient
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 7
+    intrigue = 4
+    learning = 3
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6319.2.19 = {
+        birth = yes
+    }
+
+    6351.9.12 = {
+        add_spouse = woods_84
+    }
+
+    6390.1.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_84 = {
+    name = "Arra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = stubborn
+    trait = zealous
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 3
+    intrigue = 9
+    learning = 9
+    prowess = 9
+
+    trait = education_diplomacy_1
+
+    6334.6.25 = {
+        birth = yes
+    }
+
+    6401.1.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_85 = {
+    name = "Harwin"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_83
+    mother = woods_84
+
+    trait = chaste
+    trait = patient
+    trait = content
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 3
+
+    trait = education_intrigue_2
+
+    6365.6.26 = {
+        birth = yes
+    }
+
+    6400.10.14 = {
+        add_spouse = woods_86
+    }
+
+    6437.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_86 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = humble
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 2
+
+    trait = education_diplomacy_4
+
+    6383.5.12 = {
+        birth = yes
+    }
+
+    6449.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_87 = {
+    name = "Hareth"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_85
+    mother = woods_86
+
+    trait = honest
+    trait = trusting
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 10
+    intrigue = 1
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6426.3.22 = {
+        birth = yes
+    }
+
+    6464.3.17 = {
+        add_spouse = woods_88
+    }
+
+    6506.6.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_88 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = compassionate
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 4
+    intrigue = 3
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6447.3.23 = {
+        birth = yes
+    }
+
+    6531.5.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_89 = {
+    name = "Theo"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_87
+    mother = woods_88
+
+    trait = patient
+    trait = content
+    trait = generous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_2
+
+    6471.7.18 = {
+        birth = yes
+    }
+
+    6516.7.3 = {
+        add_spouse = woods_90
+    }
+
+    6541.4.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_90 = {
+    name = "Maege"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = wrathful
+    trait = shy
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 11
+
+    trait = education_diplomacy_3
+
+    6499.12.22 = {
+        birth = yes
+    }
+
+    6574.2.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_91 = {
+    name = "Aethan"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_89
+    mother = woods_90
+
+    trait = forgiving
+    trait = shy
+    trait = sadistic
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 1
+    intrigue = 10
+    learning = 9
+    prowess = 9
+
+    trait = education_intrigue_2
+
+    6536.7.19 = {
+        birth = yes
+    }
+
+    6555.11.6 = {
+        add_spouse = woods_92
+    }
+
+    6617.11.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_92 = {
+    name = "Danelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = shy
+    trait = zealous
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 9
+    learning = 7
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    6538.9.12 = {
+        birth = yes
+    }
+
+    6607.1.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_93 = {
+    name = "Jorah"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_91
+    mother = woods_92
+
+    trait = brave
+    trait = impatient
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6562.6.12 = {
+        birth = yes
+    }
+
+    6605.3.1 = {
+        add_spouse = woods_94
+    }
+
+    6639.10.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_94 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = trusting
+    trait = temperate
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 2
+    intrigue = 6
+    learning = 3
+    prowess = 3
+
+    trait = education_intrigue_1
+
+    6588.4.4 = {
+        birth = yes
+    }
+
+    6661.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_95 = {
+    name = "Rodwell"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_93
+    mother = woods_94
+
+    trait = arrogant
+    trait = diligent
+    trait = calm
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_2
+
+    6623.6.18 = {
+        birth = yes
+    }
+
+    6644.11.12 = {
+        add_spouse = woods_96
+    }
+
+    6697.8.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_96 = {
+    name = "Leana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = arrogant
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6627.6.4 = {
+        birth = yes
+    }
+
+    6699.4.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_97 = {
+    name = "Walton"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_95
+    mother = woods_96
+
+    trait = arbitrary
+    trait = vengeful
+    trait = calm
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 9
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6656.1.14 = {
+        birth = yes
+    }
+
+    6680.9.15 = {
+        add_spouse = woods_98
+    }
+
+    6735.5.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_98 = {
+    name = "Maege"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = just
+    trait = gregarious
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 7
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6663.4.19 = {
+        birth = yes
+    }
+
+    6737.9.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_99 = {
+    name = "Eyron"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_97
+    mother = woods_98
+
+    trait = sadistic
+    trait = gluttonous
+    trait = diligent
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 6
+    intrigue = 4
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    6691.9.14 = {
+        birth = yes
+    }
+
+    6738.4.4 = {
+        add_spouse = woods_100
+    }
+
+    6765.9.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_100 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = diligent
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 7
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    6721.5.13 = {
+        birth = yes
+    }
+
+    6806.4.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_101 = {
+    name = "Pate"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_99
+    mother = woods_100
+
+    trait = patient
+    trait = paranoid
+    trait = sadistic
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 4
+    intrigue = 8
+    learning = 2
+    prowess = 5
+
+    trait = education_martial_2
+
+    6755.11.6 = {
+        birth = yes
+    }
+
+    6778.11.14 = {
+        add_spouse = woods_102
+    }
+
+    6839.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_102 = {
+    name = "Perra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = ambitious
+    trait = wrathful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6761.1.7 = {
+        birth = yes
+    }
+
+    6839.7.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_103 = {
+    name = "Jeor"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_101
+    mother = woods_102
+
+    trait = ambitious
+    trait = deceitful
+    trait = calm
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 3
+
+    trait = education_intrigue_2
+
+    6798.2.9 = {
+        birth = yes
+    }
+
+    6799.2.2 = {
+        give_nickname = nick_the_bloody
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6838.12.14 = {
+        add_spouse = woods_104
+    }
+
+    6864.11.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_104 = {
+    name = "Jonnela"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = diligent
+    trait = temperate
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 10
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    6821.7.27 = {
+        birth = yes
+    }
+
+    6888.3.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_105 = {
+    name = "Bartimus"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_103
+    mother = woods_104
+
+    trait = generous
+    trait = vengeful
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 10
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    6840.5.15 = {
+        birth = yes
+    }
+
+    6887.3.26 = {
+        add_spouse = woods_106
+    }
+
+    6922.8.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_106 = {
+    name = "Beth"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = temperate
+    trait = chaste
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    6870.7.9 = {
+        birth = yes
+    }
+
+    6954.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_107 = {
+    name = "Ethan"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_105
+    mother = woods_106
+
+    trait = wrathful
+    trait = gluttonous
+    trait = gregarious
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 3
+    intrigue = 8
+    learning = 9
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6903.5.22 = {
+        birth = yes
+    }
+
+    6932.6.6 = {
+        add_spouse = woods_108
+    }
+
+    6982.10.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_108 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = humble
+    trait = honest
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6915.10.3 = {
+        birth = yes
+    }
+
+    6991.8.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_109 = {
+    name = "Wendel"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_107
+    mother = woods_108
+
+    trait = honest
+    trait = calm
+    trait = callous
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 4
+    intrigue = 8
+    learning = 7
+    prowess = 1
+
+    trait = education_diplomacy_2
+
+    6933.4.28 = {
+        birth = yes
+    }
+
+    6957.12.19 = {
+        add_spouse = woods_110
+    }
+
+    7017.6.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_110 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = deceitful
+    trait = shy
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_4
+
+    6940.6.17 = {
+        birth = yes
+    }
+
+    7023.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_111 = {
+    name = "Sybelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_109
+    mother = woods_110
+
+    trait = trusting
+    trait = lazy
+    trait = lustful
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 9
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    6964.11.24 = {
+        birth = yes
+    }
+
+    7032.9.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_112 = {
+    name = "Edrick"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_109
+    mother = woods_110
+
+    trait = arbitrary
+    trait = vengeful
+    trait = temperate
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6965.6.28 = {
+        birth = yes
+    }
+
+    7006.7.3 = {
+        add_spouse = woods_113
+    }
+
+    7033.5.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_113 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = arrogant
+    trait = temperate
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 3
+    intrigue = 7
+    learning = 8
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    6989.8.27 = {
+        birth = yes
+    }
+
+    7065.2.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_114 = {
+    name = "Luton"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_112
+    mother = woods_113
+
+    trait = generous
+    trait = paranoid
+    trait = brave
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    7015.7.4 = {
+        birth = yes
+    }
+
+    7037.9.6 = {
+        add_spouse = woods_115
+    }
+
+    7096.1.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_115 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = ambitious
+    trait = calm
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 6
+    intrigue = 3
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    7020.6.16 = {
+        birth = yes
+    }
+
+    7086.5.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_116 = {
+    name = "Edderion"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_114
+    mother = woods_115
+
+    trait = lazy
+    trait = greedy
+    trait = honest
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_3
+
+    7040.1.25 = {
+        birth = yes
+    }
+
+    7057.1.24 = {
+        add_spouse = woods_117
+    }
+
+    7113.4.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_117 = {
+    name = "Jonnela"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = chaste
+    trait = gregarious
+    trait = fickle
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 8
+    intrigue = 9
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    7040.5.17 = {
+        birth = yes
+    }
+
+    7116.6.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_118 = {
+    name = "Domeric"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_116
+    mother = woods_117
+
+    trait = deceitful
+    trait = chaste
+    trait = content
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 8
+    learning = 8
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    7067.9.17 = {
+        birth = yes
+    }
+
+    7110.12.27 = {
+        add_spouse = woods_119
+    }
+
+    7151.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_119 = {
+    name = "Gilliane"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = greedy
+    trait = paranoid
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_learning_2
+
+    7093.9.18 = {
+        birth = yes
+    }
+
+    7178.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_120 = {
+    name = "Bennard"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_118
+    mother = woods_119
+
+    trait = generous
+    trait = paranoid
+    trait = diligent
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_2
+
+    7117.10.21 = {
+        birth = yes
+    }
+
+    7144.6.8 = {
+        add_spouse = woods_121
+    }
+
+    7184.7.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_121 = {
+    name = "Serra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = arrogant
+    trait = greedy
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 4
+    intrigue = 3
+    learning = 7
+    prowess = 4
+
+    trait = education_learning_4
+
+    7127.5.5 = {
+        birth = yes
+    }
+
+    7194.2.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_122 = {
+    name = "Rickard"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_118
+    mother = woods_119
+
+    trait = brave
+    trait = chaste
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 8
+    intrigue = 9
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    7119.5.1 = {
+        birth = yes
+    }
+
+    7150.8.18 = {
+        add_spouse = woods_123
+    }
+
+    7191.8.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_123 = {
+    name = "Alyx"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = lazy
+    trait = patient
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 4
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_learning_2
+
+    7133.11.2 = {
+        birth = yes
+    }
+
+    7205.8.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_124 = {
+    name = "Lyessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_118
+    mother = woods_119
+
+    trait = generous
+    trait = deceitful
+    trait = trusting
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_4
+
+    7122.1.4 = {
+        birth = yes
+    }
+
+    7198.12.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_125 = {
+    name = "Wyl"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_116
+    mother = woods_117
+
+    trait = stubborn
+    trait = lustful
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    7070.7.8 = {
+        birth = yes
+    }
+
+    7103.9.4 = {
+        add_spouse = woods_126
+    }
+
+    7155.9.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_126 = {
+    name = "Lyessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = ambitious
+    trait = trusting
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    7086.4.13 = {
+        birth = yes
+    }
+
+    7165.6.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_127 = {
+    name = "Kyle"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_125
+    mother = woods_126
+
+    trait = arrogant
+    trait = patient
+    trait = greedy
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 9
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    7109.5.7 = {
+        birth = yes
+    }
+
+    7150.5.20 = {
+        add_spouse = woods_128
+    }
+
+    7187.3.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_128 = {
+    name = "Mylessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = deceitful
+    trait = compassionate
+
+    diplomacy = 10
+    martial = 9
+    stewardship = 6
+    intrigue = 5
+    learning = 10
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    7133.12.23 = {
+        birth = yes
+    }
+
+    7200.5.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_129 = {
+    name = "Heward"
+
+    dynasty = dynasty_woods
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_125
+    mother = woods_126
+
+    trait = craven
+    trait = forgiving
+    trait = arrogant
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 6
+    intrigue = 2
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    7113.9.23 = {
+        birth = yes
+    }
+
+    7151.9.21 = {
+        add_spouse = woods_130
+    }
+
+    7180.3.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_130 = {
+    name = "Branda"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = just
+    trait = impatient
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 1
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    7134.1.4 = {
+        birth = yes
+    }
+
+    7184.7.13 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+woods_131 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_125
+    mother = woods_126
+
+    trait = zealous
+    trait = arrogant
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 9
+    intrigue = 7
+    learning = 1
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    7118.5.2 = {
+        birth = yes
+    }
+
+    7200.5.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_132 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_116
+    mother = woods_117
+
+    trait = honest
+    trait = compassionate
+    trait = chaste
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_4
+
+    7075.3.4 = {
+        birth = yes
+    }
+
+    7150.9.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woods_133 = {
+    name = "Margaret"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = woods_112
+    mother = woods_113
+
+    trait = shy
+    trait = sadistic
+    trait = trusting
+
+    diplomacy = 10
+    martial = 4
+    stewardship = 6
+    intrigue = 4
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    7017.4.22 = {
+        birth = yes
+    }
+
+    7089.8.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
