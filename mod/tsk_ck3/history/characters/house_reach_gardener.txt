@@ -1,0 +1,10500 @@
+gardener_1 = {
+    name = "Vagmir"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    trait = calm
+    trait = brave
+    trait = vengeful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    1.10.22 = {
+        birth = yes
+    }
+
+    39.7.25 = {
+        add_spouse = gardener_2
+    }
+
+    81.5.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_2 = {
+    name = "Maege"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = ambitious
+    trait = shy
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 8
+    prowess = 9
+
+    trait = education_learning_3
+
+    22.5.13 = {
+        birth = yes
+    }
+
+    90.9.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_3 = {
+    name = "Sigfryd"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_1
+    mother = gardener_2
+
+    trait = sadistic
+    trait = patient
+    trait = generous
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 3
+    intrigue = 2
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    42.8.23 = {
+        birth = yes
+    }
+
+    61.8.10 = {
+        add_spouse = gardener_4
+    }
+
+    71.8.14 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+gardener_4 = {
+    name = "Iris"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = craven
+    trait = shy
+    trait = honest
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 10
+    intrigue = 3
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    44.12.5 = {
+        birth = yes
+    }
+
+    118.5.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_5 = {
+    name = "Rikulf"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_3
+    mother = gardener_4
+
+    trait = brave
+    trait = compassionate
+    trait = lustful
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 2
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    62.12.27 = {
+        birth = yes
+    }
+
+    91.2.23 = {
+        add_spouse = gardener_6
+    }
+
+    133.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_6 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = calm
+    trait = ambitious
+    trait = forgiving
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 3
+    intrigue = 8
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    74.3.8 = {
+        birth = yes
+    }
+
+    145.5.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_7 = {
+    name = "Egle"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_5
+    mother = gardener_6
+
+    trait = generous
+    trait = brave
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_3
+
+    92.12.22 = {
+        birth = yes
+    }
+
+    112.4.26 = {
+        add_spouse = gardener_8
+    }
+
+    158.8.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_8 = {
+    name = "Mariah"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = vengeful
+    trait = craven
+    trait = wrathful
+
+    diplomacy = 3
+    martial = 1
+    stewardship = 4
+    intrigue = 7
+    learning = 3
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    95.3.2 = {
+        birth = yes
+    }
+
+    162.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_9 = {
+    name = "Wylis"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_7
+    mother = gardener_8
+
+    trait = just
+    trait = paranoid
+    trait = cynical
+
+    diplomacy = 9
+    martial = 9
+    stewardship = 10
+    intrigue = 8
+    learning = 3
+    prowess = 2
+
+    trait = education_stewardship_3
+
+    112.3.26 = {
+        birth = yes
+    }
+
+    136.12.1 = {
+        add_spouse = gardener_10
+    }
+
+    159.4.7 = {
+        death = { death_reason = death_duel }
+    }
+}
+
+gardener_10 = {
+    name = "Ilyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = greedy
+    trait = lazy
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    119.12.27 = {
+        birth = yes
+    }
+
+    199.11.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_11 = {
+    name = "Ramsay"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_9
+    mother = gardener_10
+
+    trait = brave
+    trait = just
+    trait = humble
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 1
+    learning = 7
+    prowess = 7
+
+    trait = education_learning_3
+
+    140.2.1 = {
+        birth = yes
+    }
+
+    165.9.14 = {
+        add_spouse = gardener_12
+    }
+
+    206.5.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_12 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = paranoid
+    trait = calm
+    trait = compassionate
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_2
+
+    148.12.15 = {
+        birth = yes
+    }
+
+    217.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_13 = {
+    name = "Ulf"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_11
+    mother = gardener_12
+
+    trait = arbitrary
+    trait = honest
+    trait = humble
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    179.7.21 = {
+        birth = yes
+    }
+
+    213.10.18 = {
+        add_spouse = gardener_14
+    }
+
+    223.12.26 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+gardener_14 = {
+    name = "Fanni"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = impatient
+    trait = callous
+    trait = brave
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_learning_3
+
+    196.9.24 = {
+        birth = yes
+    }
+
+    277.10.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_15 = {
+    name = "Danny"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_13
+    mother = gardener_14
+
+    trait = generous
+    trait = just
+    trait = calm
+
+    diplomacy = 4
+    martial = 10
+    stewardship = 8
+    intrigue = 6
+    learning = 2
+    prowess = 8
+
+    trait = education_martial_3
+
+    216.5.15 = {
+        birth = yes
+    }
+
+    234.5.2 = {
+        add_spouse = gardener_16
+    }
+
+    285.9.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_16 = {
+    name = "Alyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = shy
+    trait = trusting
+    trait = impatient
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 9
+    learning = 4
+    prowess = 9
+
+    trait = education_intrigue_2
+
+    217.12.20 = {
+        birth = yes
+    }
+
+    287.6.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_17 = {
+    name = "Vesamir"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_15
+    mother = gardener_16
+
+    trait = cynical
+    trait = ambitious
+    trait = generous
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 10
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    249.8.13 = {
+        birth = yes
+    }
+
+    295.11.16 = {
+        add_spouse = gardener_18
+    }
+
+    305.8.18 = {
+        death = { death_reason = death_attacked }
+    }
+}
+
+gardener_18 = {
+    name = "Krysti"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = lustful
+    trait = compassionate
+    trait = wrathful
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    278.12.25 = {
+        birth = yes
+    }
+
+    345.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_19 = {
+    name = "Markus"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_17
+    mother = gardener_18
+
+    trait = compassionate
+    trait = gregarious
+    trait = greedy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 11
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    299.6.18 = {
+        birth = yes
+    }
+
+    347.9.7 = {
+        add_spouse = gardener_20
+    }
+
+    384.9.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_20 = {
+    name = "Jynessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = zealous
+    trait = shy
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 3
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    330.9.24 = {
+        birth = yes
+    }
+
+    359.8.22 = {
+        death = { death_reason = death_crushed  }
+    }
+}
+
+gardener_21 = {
+    name = "Barthogan"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_19
+    mother = gardener_20
+
+    trait = diligent
+    trait = sadistic
+    trait = impatient
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 5
+    intrigue = 2
+    learning = 3
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    356.4.12 = {
+        birth = yes
+    }
+
+    373.2.12 = {
+        add_spouse = gardener_22
+    }
+
+    422.8.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_22 = {
+    name = "Agnyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = patient
+    trait = forgiving
+    trait = trusting
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 2
+
+    trait = education_diplomacy_4
+
+    356.4.5 = {
+        birth = yes
+    }
+
+    437.10.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_23 = {
+    name = "Beron"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_21
+    mother = gardener_22
+
+    trait = craven
+    trait = trusting
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 4
+    intrigue = 3
+    learning = 6
+    prowess = 8
+
+    trait = education_learning_3
+
+    375.5.6 = {
+        birth = yes
+    }
+
+    424.2.25 = {
+        add_spouse = gardener_24
+    }
+
+    449.5.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_24 = {
+    name = "Krysti"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = patient
+    trait = arrogant
+    trait = trusting
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    407.2.3 = {
+        birth = yes
+    }
+
+    483.10.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_25 = {
+    name = "Vesimar"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_23
+    mother = gardener_24
+
+    trait = shy
+    trait = arrogant
+    trait = fickle
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    440.7.26 = {
+        birth = yes
+    }
+
+    441.10.28 = {
+        give_nickname = nick_the_truthseeker
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    467.9.18 = {
+        add_spouse = gardener_26
+    }
+
+    518.3.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_26 = {
+    name = "Fanni"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = diligent
+    trait = callous
+    trait = calm
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    450.4.28 = {
+        birth = yes
+    }
+
+    521.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_27 = {
+    name = "Loboda"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_25
+    mother = gardener_26
+
+    trait = greedy
+    trait = honest
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 6
+    intrigue = 2
+    learning = 6
+    prowess = 2
+
+    trait = education_stewardship_3
+
+    470.10.10 = {
+        birth = yes
+    }
+
+    516.7.5 = {
+        add_spouse = gardener_28
+    }
+
+    541.10.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_28 = {
+    name = "Magya"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = forgiving
+    trait = patient
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    499.7.26 = {
+        birth = yes
+    }
+
+    534.10.27 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+gardener_29 = {
+    name = "Falki"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_27
+    mother = gardener_28
+
+    trait = generous
+    trait = zealous
+    trait = temperate
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 8
+    learning = 2
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    532.7.12 = {
+        birth = yes
+    }
+
+    550.7.4 = {
+        add_spouse = gardener_30
+    }
+
+    607.10.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_30 = {
+    name = "Eva"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = chaste
+    trait = arrogant
+    trait = brave
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 4
+    intrigue = 6
+    learning = 10
+    prowess = 3
+
+    trait = education_learning_2
+
+    533.1.11 = {
+        birth = yes
+    }
+
+    610.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_31 = {
+    name = "Mattys"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_29
+    mother = gardener_30
+
+    trait = patient
+    trait = generous
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 10
+    stewardship = 7
+    intrigue = 9
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_3
+
+    560.12.27 = {
+        birth = yes
+    }
+
+    587.10.11 = {
+        add_spouse = gardener_32
+    }
+
+    633.11.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_32 = {
+    name = "Sera"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = humble
+    trait = paranoid
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    570.1.27 = {
+        birth = yes
+    }
+
+    655.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_33 = {
+    name = "Craster"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_31
+    mother = gardener_32
+
+    trait = patient
+    trait = gluttonous
+    trait = deceitful
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 11
+
+    trait = education_martial_3
+
+    599.11.5 = {
+        birth = yes
+    }
+
+    646.12.21 = {
+        add_spouse = gardener_34
+    }
+
+    665.10.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_34 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = craven
+    trait = arbitrary
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_2
+
+    629.9.15 = {
+        birth = yes
+    }
+
+    710.12.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_35 = {
+    name = "Kol"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_33
+    mother = gardener_34
+
+    trait = forgiving
+    trait = honest
+    trait = humble
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 1
+    intrigue = 8
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_3
+
+    659.8.20 = {
+        birth = yes
+    }
+
+    697.12.19 = {
+        add_spouse = gardener_36
+    }
+
+    731.5.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_36 = {
+    name = "Lynarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = generous
+    trait = arbitrary
+    trait = lazy
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_4
+
+    680.6.14 = {
+        birth = yes
+    }
+
+    716.7.27 = {
+        death = { death_reason = death_mysterious  }
+    }
+}
+
+gardener_37 = {
+    name = "Neddard"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_35
+    mother = gardener_36
+
+    trait = arrogant
+    trait = brave
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    705.5.11 = {
+        birth = yes
+    }
+
+    740.6.10 = {
+        add_spouse = gardener_38
+    }
+
+    773.5.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_38 = {
+    name = "Meliana"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = arbitrary
+    trait = honest
+    trait = craven
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_3
+
+    723.6.2 = {
+        birth = yes
+    }
+
+    799.5.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_39 = {
+    name = "Ulfr"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_37
+    mother = gardener_38
+
+    trait = arrogant
+    trait = gluttonous
+    trait = paranoid
+
+    diplomacy = 2
+    martial = 2
+    stewardship = 9
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    751.2.25 = {
+        birth = yes
+    }
+
+    793.11.15 = {
+        add_spouse = gardener_40
+    }
+
+    829.4.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_40 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = ambitious
+    trait = forgiving
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 7
+    intrigue = 8
+    learning = 2
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    776.11.28 = {
+        birth = yes
+    }
+
+    853.12.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_41 = {
+    name = "Damon"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_39
+    mother = gardener_40
+
+    trait = generous
+    trait = content
+    trait = just
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 8
+    intrigue = 3
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_4
+
+    798.9.2 = {
+        birth = yes
+    }
+
+    814.3.17 = {
+        add_spouse = gardener_42
+    }
+
+    867.1.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_42 = {
+    name = "Frenya"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = brave
+    trait = vengeful
+    trait = trusting
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    797.12.21 = {
+        birth = yes
+    }
+
+    882.3.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_43 = {
+    name = "Torghen"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_41
+    mother = gardener_42
+
+    trait = vengeful
+    trait = zealous
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 2
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_3
+
+    820.7.6 = {
+        birth = yes
+    }
+
+    866.9.15 = {
+        add_spouse = gardener_44
+    }
+
+    903.11.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_44 = {
+    name = "Iris"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = lustful
+    trait = trusting
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 2
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    849.3.15 = {
+        birth = yes
+    }
+
+    927.3.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_45 = {
+    name = "Robin"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_43
+    mother = gardener_44
+
+    trait = lazy
+    trait = vengeful
+    trait = greedy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 3
+    learning = 3
+    prowess = 9
+
+    trait = education_martial_3
+
+    874.1.27 = {
+        birth = yes
+    }
+
+    899.3.6 = {
+        add_spouse = gardener_46
+    }
+
+    948.12.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_46 = {
+    name = "Wylla"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = zealous
+    trait = callous
+    trait = craven
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 2
+
+    trait = education_martial_3
+
+    882.7.11 = {
+        birth = yes
+    }
+
+    964.2.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_47 = {
+    name = "Desmond"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_45
+    mother = gardener_46
+
+    trait = chaste
+    trait = zealous
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 10
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_stewardship_1
+
+    922.10.21 = {
+        birth = yes
+    }
+
+    950.10.23 = {
+        add_spouse = gardener_48
+    }
+
+    989.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_48 = {
+    name = "Lacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = lazy
+    trait = content
+    trait = impatient
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 9
+    learning = 7
+    prowess = 8
+
+    trait = education_intrigue_1
+
+    933.3.11 = {
+        birth = yes
+    }
+
+    960.8.19 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+gardener_49 = {
+    name = "Alic"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_47
+    mother = gardener_48
+
+    trait = stubborn
+    trait = trusting
+    trait = cynical
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    956.8.14 = {
+        birth = yes
+    }
+
+    985.4.7 = {
+        add_spouse = gardener_50
+    }
+
+    1027.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_50 = {
+    name = "Caty"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = vengeful
+    trait = generous
+    trait = paranoid
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 9
+    intrigue = 5
+    learning = 1
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    968.10.11 = {
+        birth = yes
+    }
+
+    1004.12.26 = {
+        death = { death_reason = death_horse_riding_accident  }
+    }
+}
+
+gardener_51 = {
+    name = "Walton"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_49
+    mother = gardener_50
+
+    trait = humble
+    trait = compassionate
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    992.5.9 = {
+        birth = yes
+    }
+
+    1024.10.2 = {
+        add_spouse = gardener_52
+    }
+
+    1061.2.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_52 = {
+    name = "Lyanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = deceitful
+    trait = stubborn
+    trait = greedy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_2
+
+    1007.10.9 = {
+        birth = yes
+    }
+
+    1081.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_53 = {
+    name = "Garth"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_51
+    mother = gardener_52
+
+    trait = honest
+    trait = stubborn
+    trait = generous
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 3
+    intrigue = 2
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_4
+
+    1036.5.1 = {
+        birth = yes
+    }
+
+    1086.3.2 = {
+        add_spouse = gardener_54
+    }
+
+    1109.11.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_54 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = wrathful
+    trait = patient
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_learning_3
+
+    1069.4.4 = {
+        birth = yes
+    }
+
+    1138.9.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_55 = {
+    name = "Steen"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_53
+    mother = gardener_54
+
+    trait = vengeful
+    trait = generous
+    trait = cynical
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 6
+    intrigue = 9
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    1096.6.10 = {
+        birth = yes
+    }
+
+    1113.6.6 = {
+        add_spouse = gardener_56
+    }
+
+    1170.6.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_56 = {
+    name = "Jynessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = humble
+    trait = wrathful
+    trait = callous
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 7
+    intrigue = 10
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    1096.3.7 = {
+        birth = yes
+    }
+
+    1166.5.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_57 = {
+    name = "Hother"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_55
+    mother = gardener_56
+
+    trait = callous
+    trait = impatient
+    trait = zealous
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    1133.5.13 = {
+        birth = yes
+    }
+
+    1159.3.28 = {
+        add_spouse = gardener_58
+    }
+
+    1202.11.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_58 = {
+    name = "Gilliane"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = cynical
+    trait = fickle
+    trait = greedy
+
+    diplomacy = 9
+    martial = 9
+    stewardship = 4
+    intrigue = 6
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    1142.4.17 = {
+        birth = yes
+    }
+
+    1227.6.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_59 = {
+    name = "Arthor"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_57
+    mother = gardener_58
+
+    trait = patient
+    trait = greedy
+    trait = callous
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    1185.10.18 = {
+        birth = yes
+    }
+
+    1231.4.9 = {
+        add_spouse = gardener_60
+    }
+
+    1267.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_60 = {
+    name = "Sera"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = wrathful
+    trait = zealous
+    trait = patient
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 2
+    intrigue = 9
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_2
+
+    1214.2.22 = {
+        birth = yes
+    }
+
+    1297.9.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_61 = {
+    name = "Hother"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_59
+    mother = gardener_60
+
+    trait = impatient
+    trait = diligent
+    trait = greedy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 2
+    intrigue = 6
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_3
+
+    1233.10.3 = {
+        birth = yes
+    }
+
+    1279.3.8 = {
+        add_spouse = gardener_62
+    }
+
+    1314.8.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_62 = {
+    name = "Maege"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = forgiving
+    trait = impatient
+    trait = zealous
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    1262.12.21 = {
+        birth = yes
+    }
+
+    1329.10.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_63 = {
+    name = "Bartimus"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_61
+    mother = gardener_62
+
+    trait = generous
+    trait = ambitious
+    trait = chaste
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 6
+    intrigue = 10
+    learning = 10
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    1300.4.7 = {
+        birth = yes
+    }
+
+    1323.12.10 = {
+        add_spouse = gardener_64
+    }
+
+    1346.11.25 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+gardener_64 = {
+    name = "Cat"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = impatient
+    trait = stubborn
+    trait = temperate
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 3
+    intrigue = 3
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    1306.10.10 = {
+        birth = yes
+    }
+
+    1376.12.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_65 = {
+    name = "Hrayn"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_63
+    mother = gardener_64
+
+    trait = gluttonous
+    trait = fickle
+    trait = humble
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 2
+    intrigue = 8
+    learning = 9
+    prowess = 6
+
+    trait = education_martial_4
+
+    1324.3.9 = {
+        birth = yes
+    }
+
+    1346.9.16 = {
+        add_spouse = gardener_66
+    }
+
+    1390.6.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_66 = {
+    name = "Tessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = just
+    trait = gluttonous
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 2
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    1329.1.11 = {
+        birth = yes
+    }
+
+    1403.6.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_67 = {
+    name = "Danny"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_65
+    mother = gardener_66
+
+    trait = arrogant
+    trait = chaste
+    trait = fickle
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 2
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    1356.5.22 = {
+        birth = yes
+    }
+
+    1387.2.8 = {
+        add_spouse = gardener_68
+    }
+
+    1425.4.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_68 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = impatient
+    trait = greedy
+    trait = cynical
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 6
+    intrigue = 4
+    learning = 2
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    1370.5.23 = {
+        birth = yes
+    }
+
+    1451.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_69 = {
+    name = "Hoarfrost"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_67
+    mother = gardener_68
+
+    trait = callous
+    trait = trusting
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 6
+    intrigue = 8
+    learning = 1
+    prowess = 4
+
+    trait = education_martial_4
+
+    1404.11.14 = {
+        birth = yes
+    }
+
+    1424.8.27 = {
+        add_spouse = gardener_70
+    }
+
+    1434.7.11 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+gardener_70 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = arrogant
+    trait = calm
+    trait = lazy
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 2
+    prowess = 5
+
+    trait = education_martial_1
+
+    1407.5.22 = {
+        birth = yes
+    }
+
+    1474.5.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_71 = {
+    name = "Teo"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_69
+    mother = gardener_70
+
+    trait = callous
+    trait = zealous
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 3
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    1426.12.14 = {
+        birth = yes
+    }
+
+    1458.11.21 = {
+        add_spouse = gardener_72
+    }
+
+    1502.9.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_72 = {
+    name = "Ewa"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = just
+    trait = vengeful
+    trait = diligent
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 3
+    intrigue = 9
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    1441.8.10 = {
+        birth = yes
+    }
+
+    1524.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_73 = {
+    name = "Hallis"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_71
+    mother = gardener_72
+
+    trait = gregarious
+    trait = generous
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    1463.6.22 = {
+        birth = yes
+    }
+
+    1484.3.21 = {
+        add_spouse = gardener_74
+    }
+
+    1494.9.26 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+gardener_74 = {
+    name = "Alys"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = vengeful
+    trait = patient
+    trait = generous
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 2
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    1467.3.13 = {
+        birth = yes
+    }
+
+    1540.11.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_75 = {
+    name = "Folke"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_73
+    mother = gardener_74
+
+    trait = generous
+    trait = just
+    trait = fickle
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    1493.9.10 = {
+        birth = yes
+    }
+
+    1538.1.7 = {
+        add_spouse = gardener_76
+    }
+
+    1564.3.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_76 = {
+    name = "Edla"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = honest
+    trait = vengeful
+    trait = callous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    1521.9.19 = {
+        birth = yes
+    }
+
+    1605.2.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_77 = {
+    name = "Aefan"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_75
+    mother = gardener_76
+
+    trait = impatient
+    trait = chaste
+    trait = generous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    1546.1.18 = {
+        birth = yes
+    }
+
+    1591.3.12 = {
+        add_spouse = gardener_78
+    }
+
+    1616.1.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_78 = {
+    name = "Lysanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = honest
+    trait = zealous
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_4
+
+    1574.2.10 = {
+        birth = yes
+    }
+
+    1642.4.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_79 = {
+    name = "Filype"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_77
+    mother = gardener_78
+
+    trait = compassionate
+    trait = ambitious
+    trait = fickle
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 9
+
+    trait = education_intrigue_2
+
+    1596.10.24 = {
+        birth = yes
+    }
+
+    1635.7.16 = {
+        add_spouse = gardener_80
+    }
+
+    1670.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_80 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = cynical
+    trait = wrathful
+    trait = diligent
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    1618.6.1 = {
+        birth = yes
+    }
+
+    1670.12.5 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+gardener_81 = {
+    name = "Harrion"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_79
+    mother = gardener_80
+
+    trait = humble
+    trait = shy
+    trait = cynical
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 2
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    1653.6.26 = {
+        birth = yes
+    }
+
+    1682.8.24 = {
+        add_spouse = gardener_82
+    }
+
+    1696.11.2 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+gardener_82 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = lazy
+    trait = greedy
+    trait = honest
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_2
+
+    1665.10.15 = {
+        birth = yes
+    }
+
+    1740.6.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_83 = {
+    name = "Olaff"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_81
+    mother = gardener_82
+
+    trait = arrogant
+    trait = ambitious
+    trait = shy
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    1690.5.7 = {
+        birth = yes
+    }
+
+    1726.6.2 = {
+        add_spouse = gardener_84
+    }
+
+    1764.5.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_84 = {
+    name = "Rowena"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = ambitious
+    trait = cynical
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 3
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    1709.4.1 = {
+        birth = yes
+    }
+
+    1783.10.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_85 = {
+    name = "Beren"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_83
+    mother = gardener_84
+
+    trait = paranoid
+    trait = lazy
+    trait = wrathful
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    1749.1.9 = {
+        birth = yes
+    }
+
+    1784.2.2 = {
+        add_spouse = gardener_86
+    }
+
+    1827.4.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_86 = {
+    name = "Perra"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = forgiving
+    trait = greedy
+    trait = shy
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_learning_2
+
+    1767.9.25 = {
+        birth = yes
+    }
+
+    1846.12.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_87 = {
+    name = "Nikla"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_85
+    mother = gardener_86
+
+    trait = fickle
+    trait = impatient
+    trait = generous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 3
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    1812.2.27 = {
+        birth = yes
+    }
+
+    1827.8.25 = {
+        add_spouse = gardener_88
+    }
+
+    1897.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_88 = {
+    name = "Lyessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = impatient
+    trait = chaste
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 2
+    intrigue = 10
+    learning = 6
+    prowess = 2
+
+    trait = education_intrigue_4
+
+    1810.4.13 = {
+        birth = yes
+    }
+
+    1882.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_89 = {
+    name = "Alyn"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_87
+    mother = gardener_88
+
+    trait = deceitful
+    trait = greedy
+    trait = lustful
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 3
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_2
+
+    1837.10.26 = {
+        birth = yes
+    }
+
+    1868.10.15 = {
+        add_spouse = gardener_90
+    }
+
+    1922.12.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_90 = {
+    name = "Serra"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = generous
+    trait = stubborn
+    trait = content
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    1851.7.2 = {
+        birth = yes
+    }
+
+    1935.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_91 = {
+    name = "Rickon"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_89
+    mother = gardener_90
+
+    trait = lazy
+    trait = chaste
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 3
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    1894.2.18 = {
+        birth = yes
+    }
+
+    1936.5.1 = {
+        add_spouse = gardener_92
+    }
+
+    1978.9.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_92 = {
+    name = "Sage"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = honest
+    trait = shy
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    1919.8.17 = {
+        birth = yes
+    }
+
+    1949.6.4 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+gardener_93 = {
+    name = "Jory"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_91
+    mother = gardener_92
+
+    trait = arbitrary
+    trait = gregarious
+    trait = lazy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 9
+    learning = 9
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    1937.2.24 = {
+        birth = yes
+    }
+
+    1952.2.10 = {
+        add_spouse = gardener_94
+    }
+
+    1985.5.17 = {
+        death = { death_reason = death_drowned  }
+    }
+}
+
+gardener_94 = {
+    name = "Ewalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = calm
+    trait = temperate
+    trait = fickle
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 8
+    intrigue = 4
+    learning = 2
+    prowess = 7
+
+    trait = education_martial_1
+
+    1935.2.23 = {
+        birth = yes
+    }
+
+    2005.10.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_95 = {
+    name = "Craster"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_93
+    mother = gardener_94
+
+    trait = arrogant
+    trait = patient
+    trait = honest
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 1
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_2
+
+    1963.4.8 = {
+        birth = yes
+    }
+
+    2011.4.12 = {
+        add_spouse = gardener_96
+    }
+
+    2043.3.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_96 = {
+    name = "Elyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = fickle
+    trait = humble
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_4
+
+    1994.5.1 = {
+        birth = yes
+    }
+
+    2075.4.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_97 = {
+    name = "Rickon"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_95
+    mother = gardener_96
+
+    trait = patient
+    trait = greedy
+    trait = callous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 8
+    learning = 1
+    prowess = 6
+
+    trait = education_martial_2
+
+    2018.9.17 = {
+        birth = yes
+    }
+
+    2065.6.23 = {
+        add_spouse = gardener_98
+    }
+
+    2075.7.9 = {
+        death = { death_reason = death_duel }
+    }
+}
+
+gardener_98 = {
+    name = "Tylissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = vengeful
+    trait = deceitful
+    trait = brave
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_3
+
+    2048.5.26 = {
+        birth = yes
+    }
+
+    2125.1.10 = {
+        death = { death_reason = death_feast_accident  }
+    }
+}
+
+gardener_99 = {
+    name = "Tormand"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_97
+    mother = gardener_98
+
+    trait = trusting
+    trait = just
+    trait = impatient
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_2
+
+    2069.7.17 = {
+        birth = yes
+    }
+
+    2088.12.27 = {
+        add_spouse = gardener_100
+    }
+
+    2146.1.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_100 = {
+    name = "Berti"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = gluttonous
+    trait = content
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 10
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_3
+
+    2071.2.1 = {
+        birth = yes
+    }
+
+    2137.10.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_101 = {
+    name = "Teo"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_99
+    mother = gardener_100
+
+    trait = impatient
+    trait = paranoid
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 10
+
+    trait = education_martial_2
+
+    2104.6.20 = {
+        birth = yes
+    }
+
+    2135.6.6 = {
+        add_spouse = gardener_102
+    }
+
+    2174.5.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_102 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = brave
+    trait = just
+    trait = cynical
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_1
+
+    2118.8.17 = {
+        birth = yes
+    }
+
+    2191.2.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_103 = {
+    name = "Theo"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_101
+    mother = gardener_102
+
+    trait = wrathful
+    trait = generous
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 3
+    prowess = 6
+
+    trait = education_martial_4
+
+    2155.8.24 = {
+        birth = yes
+    }
+
+    2185.8.19 = {
+        add_spouse = gardener_104
+    }
+
+    2195.4.13 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+gardener_104 = {
+    name = "Raya"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = impatient
+    trait = stubborn
+    trait = brave
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_3
+
+    2168.11.3 = {
+        birth = yes
+    }
+
+    2252.12.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_105 = {
+    name = "Mors"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_103
+    mother = gardener_104
+
+    trait = vengeful
+    trait = craven
+    trait = generous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 8
+    intrigue = 3
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    2193.4.2 = {
+        birth = yes
+    }
+
+    2232.6.4 = {
+        add_spouse = gardener_106
+    }
+
+    2280.4.23 = {
+        death = { death_reason = death_accident  }
+    }
+}
+
+gardener_106 = {
+    name = "Eva"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = stubborn
+    trait = arrogant
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_2
+
+    2215.2.11 = {
+        birth = yes
+    }
+
+    2296.6.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_107 = {
+    name = "Jonos"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_105
+    mother = gardener_106
+
+    trait = wrathful
+    trait = impatient
+    trait = shy
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    2257.8.17 = {
+        birth = yes
+    }
+
+    2277.8.12 = {
+        add_spouse = gardener_108
+    }
+
+    2341.6.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_108 = {
+    name = "Tora"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = honest
+    trait = compassionate
+    trait = trusting
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_1
+
+    2260.12.25 = {
+        birth = yes
+    }
+
+    2336.7.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_109 = {
+    name = "Wayn"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_107
+    mother = gardener_108
+
+    trait = patient
+    trait = forgiving
+    trait = content
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 2
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    2278.10.12 = {
+        birth = yes
+    }
+
+    2304.4.4 = {
+        add_spouse = gardener_110
+    }
+
+    2358.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_110 = {
+    name = "Magya"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = fickle
+    trait = sadistic
+    trait = humble
+
+    diplomacy = 9
+    martial = 3
+    stewardship = 7
+    intrigue = 2
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    2287.6.7 = {
+        birth = yes
+    }
+
+    2363.5.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_111 = {
+    name = "Calon"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_109
+    mother = gardener_110
+
+    trait = vengeful
+    trait = chaste
+    trait = paranoid
+
+    diplomacy = 1
+    martial = 5
+    stewardship = 2
+    intrigue = 7
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    2308.10.14 = {
+        birth = yes
+    }
+
+    2330.1.17 = {
+        add_spouse = gardener_112
+    }
+
+    2367.4.27 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+gardener_112 = {
+    name = "Sage"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = zealous
+    trait = compassionate
+    trait = calm
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 2
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    2313.3.19 = {
+        birth = yes
+    }
+
+    2394.6.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_113 = {
+    name = "Bo"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_111
+    mother = gardener_112
+
+    trait = craven
+    trait = wrathful
+    trait = impatient
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    2356.11.14 = {
+        birth = yes
+    }
+
+    2375.2.26 = {
+        add_spouse = gardener_114
+    }
+
+    2430.4.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_114 = {
+    name = "Tora"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = sadistic
+    trait = greedy
+    trait = trusting
+
+    diplomacy = 8
+    martial = 2
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    2358.9.13 = {
+        birth = yes
+    }
+
+    2435.6.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_115 = {
+    name = "Robett"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_113
+    mother = gardener_114
+
+    trait = temperate
+    trait = fickle
+    trait = patient
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_3
+
+    2379.11.14 = {
+        birth = yes
+    }
+
+    2429.9.10 = {
+        add_spouse = gardener_116
+    }
+
+    2446.5.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_116 = {
+    name = "Elyassa"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = chaste
+    trait = arbitrary
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    2412.5.14 = {
+        birth = yes
+    }
+
+    2439.3.16 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+gardener_117 = {
+    name = "Cley"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_115
+    mother = gardener_116
+
+    trait = fickle
+    trait = generous
+    trait = chaste
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 9
+
+    trait = education_martial_2
+
+    2429.12.5 = {
+        birth = yes
+    }
+
+    2445.9.21 = {
+        add_spouse = gardener_118
+    }
+
+    2495.5.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_118 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = content
+    trait = gregarious
+    trait = diligent
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 10
+    intrigue = 8
+    learning = 5
+    prowess = 2
+
+    trait = education_stewardship_4
+
+    2428.2.27 = {
+        birth = yes
+    }
+
+    2495.8.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_119 = {
+    name = "Cayn"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_117
+    mother = gardener_118
+
+    trait = diligent
+    trait = honest
+    trait = calm
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 9
+
+    trait = education_learning_2
+
+    2465.8.24 = {
+        birth = yes
+    }
+
+    2515.6.28 = {
+        add_spouse = gardener_120
+    }
+
+    2546.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_120 = {
+    name = "Orya"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = content
+    trait = craven
+    trait = vengeful
+
+    diplomacy = 10
+    martial = 2
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    2498.10.1 = {
+        birth = yes
+    }
+
+    2525.4.22 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+gardener_121 = {
+    name = "Elyiot"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_119
+    mother = gardener_120
+
+    trait = lazy
+    trait = cynical
+    trait = ambitious
+
+    diplomacy = 9
+    martial = 9
+    stewardship = 5
+    intrigue = 8
+    learning = 4
+    prowess = 2
+
+    trait = education_diplomacy_1
+
+    2515.10.4 = {
+        birth = yes
+    }
+
+    2557.6.18 = {
+        add_spouse = gardener_122
+    }
+
+    2600.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_122 = {
+    name = "Berta"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = fickle
+    trait = ambitious
+    trait = lazy
+
+    diplomacy = 6
+    martial = 11
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_1
+
+    2540.11.11 = {
+        birth = yes
+    }
+
+    2610.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_123 = {
+    name = "Rickard"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_121
+    mother = gardener_122
+
+    trait = generous
+    trait = gregarious
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 3
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_1
+
+    2582.5.12 = {
+        birth = yes
+    }
+
+    2596.3.23 = {
+        add_spouse = gardener_124
+    }
+
+    2650.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_124 = {
+    name = "Berena"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = brave
+    trait = content
+    trait = fickle
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 6
+    intrigue = 9
+    learning = 3
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    2579.12.7 = {
+        birth = yes
+    }
+
+    2657.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_125 = {
+    name = "Mance"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_123
+    mother = gardener_124
+
+    trait = lazy
+    trait = fickle
+    trait = compassionate
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 7
+    intrigue = 10
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_4
+
+    2619.6.7 = {
+        birth = yes
+    }
+
+    2652.4.21 = {
+        add_spouse = gardener_126
+    }
+
+    2700.5.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_126 = {
+    name = "Rowena"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = just
+    trait = humble
+    trait = patient
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_4
+
+    2635.8.22 = {
+        birth = yes
+    }
+
+    2704.11.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_127 = {
+    name = "Lonnel"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_125
+    mother = gardener_126
+
+    trait = arrogant
+    trait = content
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 1
+
+    trait = education_intrigue_3
+
+    2666.5.5 = {
+        birth = yes
+    }
+
+    2714.10.28 = {
+        add_spouse = gardener_128
+    }
+
+    2747.10.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_128 = {
+    name = "Kristyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = fickle
+    trait = gluttonous
+    trait = content
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 2
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    2697.5.3 = {
+        birth = yes
+    }
+
+    2767.5.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_129 = {
+    name = "Niklys"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_127
+    mother = gardener_128
+
+    trait = humble
+    trait = fickle
+    trait = diligent
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 8
+    intrigue = 2
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    2742.8.25 = {
+        birth = yes
+    }
+
+    2762.5.11 = {
+        add_spouse = gardener_130
+    }
+
+    2810.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_130 = {
+    name = "Branda"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = greedy
+    trait = compassionate
+    trait = temperate
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 1
+    learning = 6
+    prowess = 10
+
+    trait = education_stewardship_4
+
+    2745.1.3 = {
+        birth = yes
+    }
+
+    2823.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_131 = {
+    name = "Vayon"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_129
+    mother = gardener_130
+
+    trait = humble
+    trait = craven
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 10
+
+    trait = education_intrigue_2
+
+    2778.10.27 = {
+        birth = yes
+    }
+
+    2801.8.22 = {
+        add_spouse = gardener_132
+    }
+
+    2851.10.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_132 = {
+    name = "Berta"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = vengeful
+    trait = sadistic
+    trait = trusting
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 8
+    learning = 6
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    2784.8.3 = {
+        birth = yes
+    }
+
+    2860.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_133 = {
+    name = "Dorren"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_131
+    mother = gardener_132
+
+    trait = content
+    trait = humble
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_3
+
+    2828.8.18 = {
+        birth = yes
+    }
+
+    2829.9.2 = {
+        give_nickname = nick_the_bloody
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    2851.12.25 = {
+        add_spouse = gardener_134
+    }
+
+    2906.1.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_134 = {
+    name = "Kristyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = vengeful
+    trait = cynical
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 4
+    intrigue = 3
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    2834.8.9 = {
+        birth = yes
+    }
+
+    2918.5.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_135 = {
+    name = "Mattys"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_133
+    mother = gardener_134
+
+    trait = temperate
+    trait = calm
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    2864.12.14 = {
+        birth = yes
+    }
+
+    2906.10.23 = {
+        add_spouse = gardener_136
+    }
+
+    2941.7.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_136 = {
+    name = "Alyx"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = content
+    trait = stubborn
+    trait = arrogant
+
+    diplomacy = 10
+    martial = 9
+    stewardship = 8
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    2889.2.11 = {
+        birth = yes
+    }
+
+    2964.5.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_137 = {
+    name = "Kollen"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_135
+    mother = gardener_136
+
+    trait = wrathful
+    trait = lustful
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 3
+    prowess = 6
+
+    trait = education_martial_4
+
+    2927.12.19 = {
+        birth = yes
+    }
+
+    2951.3.14 = {
+        add_spouse = gardener_138
+    }
+
+    3000.7.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_138 = {
+    name = "Serena"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = diligent
+    trait = brave
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 4
+    learning = 1
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    2934.4.25 = {
+        birth = yes
+    }
+
+    2961.4.13 = {
+        death = { death_reason = death_gout_ridden }
+    }
+}
+
+gardener_139 = {
+    name = "Kollen"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_137
+    mother = gardener_138
+
+    trait = greedy
+    trait = content
+    trait = diligent
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    2960.10.6 = {
+        birth = yes
+    }
+
+    2977.4.7 = {
+        add_spouse = gardener_140
+    }
+
+    3039.8.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_140 = {
+    name = "Ilyssi"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = humble
+    trait = calm
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_2
+
+    2960.11.15 = {
+        birth = yes
+    }
+
+    3017.1.10 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+gardener_141 = {
+    name = "Walton"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_139
+    mother = gardener_140
+
+    trait = shy
+    trait = patient
+    trait = chaste
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_1
+
+    3001.3.20 = {
+        birth = yes
+    }
+
+    3045.5.25 = {
+        add_spouse = gardener_142
+    }
+
+    3076.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_142 = {
+    name = "Beth"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = honest
+    trait = greedy
+    trait = patient
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    3028.4.7 = {
+        birth = yes
+    }
+
+    3078.2.22 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+gardener_143 = {
+    name = "Grimir"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_141
+    mother = gardener_142
+
+    trait = cynical
+    trait = craven
+    trait = patient
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 4
+    intrigue = 9
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    3066.12.1 = {
+        birth = yes
+    }
+
+    3105.8.11 = {
+        add_spouse = gardener_144
+    }
+
+    3137.2.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_144 = {
+    name = "Ilyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = sadistic
+    trait = greedy
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    3088.8.10 = {
+        birth = yes
+    }
+
+    3155.8.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_145 = {
+    name = "Oddr"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_143
+    mother = gardener_144
+
+    trait = shy
+    trait = paranoid
+    trait = brave
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 2
+    intrigue = 7
+    learning = 3
+    prowess = 1
+
+    trait = education_diplomacy_2
+
+    3108.9.12 = {
+        birth = yes
+    }
+
+    3139.9.24 = {
+        add_spouse = gardener_146
+    }
+
+    3188.12.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_146 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = humble
+    trait = diligent
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_4
+
+    3122.4.6 = {
+        birth = yes
+    }
+
+    3207.8.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_147 = {
+    name = "Dyncen"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_145
+    mother = gardener_146
+
+    trait = forgiving
+    trait = gluttonous
+    trait = arbitrary
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 8
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    3140.11.23 = {
+        birth = yes
+    }
+
+    3172.11.18 = {
+        add_spouse = gardener_148
+    }
+
+    3210.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_148 = {
+    name = "Elin"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = wrathful
+    trait = compassionate
+    trait = honest
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 2
+    intrigue = 9
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    3155.9.1 = {
+        birth = yes
+    }
+
+    3226.2.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_149 = {
+    name = "Danny"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_147
+    mother = gardener_148
+
+    trait = shy
+    trait = trusting
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 3
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    3187.5.27 = {
+        birth = yes
+    }
+
+    3234.3.19 = {
+        add_spouse = gardener_150
+    }
+
+    3270.8.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_150 = {
+    name = "Lydia"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = lazy
+    trait = brave
+    trait = zealous
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 7
+    intrigue = 10
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    3217.1.10 = {
+        birth = yes
+    }
+
+    3284.3.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_151 = {
+    name = "Skuli"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_149
+    mother = gardener_150
+
+    trait = arbitrary
+    trait = deceitful
+    trait = temperate
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_1
+
+    3257.3.7 = {
+        birth = yes
+    }
+
+    3286.4.1 = {
+        add_spouse = gardener_152
+    }
+
+    3323.7.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_152 = {
+    name = "Ylva"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = content
+    trait = shy
+    trait = patient
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 9
+    intrigue = 7
+    learning = 3
+    prowess = 10
+
+    trait = education_martial_2
+
+    3269.5.23 = {
+        birth = yes
+    }
+
+    3336.9.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_153 = {
+    name = "Bartimus"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_151
+    mother = gardener_152
+
+    trait = shy
+    trait = deceitful
+    trait = diligent
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 9
+    intrigue = 2
+    learning = 7
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    3305.12.25 = {
+        birth = yes
+    }
+
+    3349.2.21 = {
+        add_spouse = gardener_154
+    }
+
+    3385.1.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_154 = {
+    name = "Tora"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = impatient
+    trait = arbitrary
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    3332.9.3 = {
+        birth = yes
+    }
+
+    3411.7.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_155 = {
+    name = "Edwyn"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_153
+    mother = gardener_154
+
+    trait = lazy
+    trait = gregarious
+    trait = lustful
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 8
+    intrigue = 4
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_3
+
+    3361.12.1 = {
+        birth = yes
+    }
+
+    3392.4.14 = {
+        add_spouse = gardener_156
+    }
+
+    3443.4.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_156 = {
+    name = "Berena"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = calm
+    trait = greedy
+    trait = brave
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 10
+    learning = 9
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    3375.6.12 = {
+        birth = yes
+    }
+
+    3452.2.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_157 = {
+    name = "Aefan"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_155
+    mother = gardener_156
+
+    trait = gregarious
+    trait = chaste
+    trait = ambitious
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    3410.10.11 = {
+        birth = yes
+    }
+
+    3455.11.28 = {
+        add_spouse = gardener_158
+    }
+
+    3494.6.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_158 = {
+    name = "Magdalyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = content
+    trait = vengeful
+    trait = patient
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 3
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    3438.10.11 = {
+        birth = yes
+    }
+
+    3465.2.8 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+gardener_159 = {
+    name = "Vagmir"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_157
+    mother = gardener_158
+
+    trait = impatient
+    trait = diligent
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_1
+
+    3462.7.6 = {
+        birth = yes
+    }
+
+    3477.11.14 = {
+        add_spouse = gardener_160
+    }
+
+    3487.12.25 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+gardener_160 = {
+    name = "Rikyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = deceitful
+    trait = shy
+    trait = impatient
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 9
+    intrigue = 7
+    learning = 4
+    prowess = 4
+
+    trait = education_stewardship_1
+
+    3460.1.15 = {
+        birth = yes
+    }
+
+    3539.12.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_161 = {
+    name = "Jory"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_159
+    mother = gardener_160
+
+    trait = honest
+    trait = paranoid
+    trait = just
+
+    diplomacy = 9
+    martial = 10
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    3483.11.15 = {
+        birth = yes
+    }
+
+    3500.12.10 = {
+        add_spouse = gardener_162
+    }
+
+    3562.7.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_162 = {
+    name = "Jolyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = trusting
+    trait = impatient
+    trait = cynical
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 9
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_3
+
+    3483.4.16 = {
+        birth = yes
+    }
+
+    3566.10.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_163 = {
+    name = "Casimir"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_161
+    mother = gardener_162
+
+    trait = gluttonous
+    trait = compassionate
+    trait = zealous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 4
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_3
+
+    3515.5.24 = {
+        birth = yes
+    }
+
+    3550.2.22 = {
+        add_spouse = gardener_164
+    }
+
+    3590.8.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_164 = {
+    name = "Darlessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = impatient
+    trait = lazy
+    trait = chaste
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 5
+    intrigue = 3
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    3533.4.5 = {
+        birth = yes
+    }
+
+    3609.1.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_165 = {
+    name = "Markors"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_163
+    mother = gardener_164
+
+    trait = generous
+    trait = lustful
+    trait = paranoid
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_3
+
+    3555.7.7 = {
+        birth = yes
+    }
+
+    3571.11.28 = {
+        add_spouse = gardener_166
+    }
+
+    3640.10.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_166 = {
+    name = "Cecilia"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = shy
+    trait = honest
+    trait = craven
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    3554.1.19 = {
+        birth = yes
+    }
+
+    3638.8.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_167 = {
+    name = "Grim"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_165
+    mother = gardener_166
+
+    trait = compassionate
+    trait = paranoid
+    trait = diligent
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 4
+    intrigue = 11
+    learning = 5
+    prowess = 10
+
+    trait = education_intrigue_3
+
+    3592.4.27 = {
+        birth = yes
+    }
+
+    3618.12.26 = {
+        add_spouse = gardener_168
+    }
+
+    3673.4.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_168 = {
+    name = "Alysane"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = calm
+    trait = fickle
+    trait = gluttonous
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    3601.1.7 = {
+        birth = yes
+    }
+
+    3684.4.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_169 = {
+    name = "Eylif"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_167
+    mother = gardener_168
+
+    trait = callous
+    trait = patient
+    trait = fickle
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 10
+    prowess = 10
+
+    trait = education_learning_4
+
+    3636.4.24 = {
+        birth = yes
+    }
+
+    3659.3.27 = {
+        add_spouse = gardener_170
+    }
+
+    3717.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_170 = {
+    name = "Karci"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = chaste
+    trait = forgiving
+    trait = gregarious
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 3
+
+    trait = education_diplomacy_1
+
+    3642.6.15 = {
+        birth = yes
+    }
+
+    3725.5.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_171 = {
+    name = "Mattis"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_169
+    mother = gardener_170
+
+    trait = temperate
+    trait = arrogant
+    trait = callous
+
+    diplomacy = 9
+    martial = 2
+    stewardship = 3
+    intrigue = 2
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    3669.12.16 = {
+        birth = yes
+    }
+
+    3686.3.2 = {
+        add_spouse = gardener_172
+    }
+
+    3741.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_172 = {
+    name = "Lyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = gluttonous
+    trait = generous
+    trait = chaste
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    3669.8.6 = {
+        birth = yes
+    }
+
+    3741.4.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_173 = {
+    name = "Hareth"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_171
+    mother = gardener_172
+
+    trait = calm
+    trait = ambitious
+    trait = greedy
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_2
+
+    3702.9.9 = {
+        birth = yes
+    }
+
+    3703.4.12 = {
+        give_nickname = nick_the_valiant
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    3728.12.26 = {
+        add_spouse = gardener_174
+    }
+
+    3738.10.2 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+gardener_174 = {
+    name = "Berti"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = gluttonous
+    trait = zealous
+    trait = humble
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    3711.10.15 = {
+        birth = yes
+    }
+
+    3782.4.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_175 = {
+    name = "Olf"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_173
+    mother = gardener_174
+
+    trait = compassionate
+    trait = lazy
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    3729.2.15 = {
+        birth = yes
+    }
+
+    3773.4.12 = {
+        add_spouse = gardener_176
+    }
+
+    3802.4.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_176 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = gregarious
+    trait = ambitious
+    trait = craven
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    3756.3.11 = {
+        birth = yes
+    }
+
+    3840.7.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_177 = {
+    name = "Laen"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_175
+    mother = gardener_176
+
+    trait = paranoid
+    trait = impatient
+    trait = zealous
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    3777.2.7 = {
+        birth = yes
+    }
+
+    3813.3.8 = {
+        add_spouse = gardener_178
+    }
+
+    3823.1.6 = {
+        death = { death_reason = death_training_accident  }
+    }
+}
+
+gardener_178 = {
+    name = "Kristyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = chaste
+    trait = zealous
+    trait = calm
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    3796.6.25 = {
+        birth = yes
+    }
+
+    3878.5.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_179 = {
+    name = "Bowen"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_177
+    mother = gardener_178
+
+    trait = gluttonous
+    trait = impatient
+    trait = shy
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 10
+    intrigue = 9
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    3819.8.12 = {
+        birth = yes
+    }
+
+    3858.11.19 = {
+        add_spouse = gardener_180
+    }
+
+    3887.8.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_180 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = ambitious
+    trait = cynical
+    trait = chaste
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    3841.12.24 = {
+        birth = yes
+    }
+
+    3868.1.9 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+gardener_181 = {
+    name = "Greger"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_179
+    mother = gardener_180
+
+    trait = gregarious
+    trait = patient
+    trait = honest
+
+    diplomacy = 10
+    martial = 2
+    stewardship = 6
+    intrigue = 2
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    3862.7.19 = {
+        birth = yes
+    }
+
+    3902.2.19 = {
+        add_spouse = gardener_182
+    }
+
+    3933.12.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_182 = {
+    name = "Rikissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = craven
+    trait = just
+    trait = stubborn
+
+    diplomacy = 7
+    martial = 11
+    stewardship = 7
+    intrigue = 8
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_4
+
+    3885.8.19 = {
+        birth = yes
+    }
+
+    3969.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_183 = {
+    name = "Chayle"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_181
+    mother = gardener_182
+
+    trait = shy
+    trait = vengeful
+    trait = patient
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 7
+    learning = 4
+    prowess = 10
+
+    trait = education_stewardship_2
+
+    3907.1.17 = {
+        birth = yes
+    }
+
+    3944.4.3 = {
+        add_spouse = gardener_184
+    }
+
+    3965.9.19 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+gardener_184 = {
+    name = "Anna"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = paranoid
+    trait = lustful
+    trait = craven
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 4
+    intrigue = 8
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_3
+
+    3927.7.1 = {
+        birth = yes
+    }
+
+    3995.10.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_185 = {
+    name = "Casimir"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_183
+    mother = gardener_184
+
+    trait = trusting
+    trait = arrogant
+    trait = lazy
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_4
+
+    3959.5.24 = {
+        birth = yes
+    }
+
+    3989.3.14 = {
+        add_spouse = gardener_186
+    }
+
+    4044.4.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_186 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = arbitrary
+    trait = gregarious
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 9
+    prowess = 3
+
+    trait = education_learning_2
+
+    3972.7.5 = {
+        birth = yes
+    }
+
+    4028.5.5 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+gardener_187 = {
+    name = "Streen"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_185
+    mother = gardener_186
+
+    trait = temperate
+    trait = sadistic
+    trait = impatient
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 10
+    learning = 7
+    prowess = 9
+
+    trait = education_intrigue_4
+
+    4003.12.18 = {
+        birth = yes
+    }
+
+    4053.10.27 = {
+        add_spouse = gardener_188
+    }
+
+    4081.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_188 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = lustful
+    trait = paranoid
+    trait = callous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 2
+    intrigue = 4
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_2
+
+    4036.1.25 = {
+        birth = yes
+    }
+
+    4121.5.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_189 = {
+    name = "Ethan"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_187
+    mother = gardener_188
+
+    trait = diligent
+    trait = cynical
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    4057.7.3 = {
+        birth = yes
+    }
+
+    4076.3.8 = {
+        add_spouse = gardener_190
+    }
+
+    4124.2.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_190 = {
+    name = "Sybelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = paranoid
+    trait = diligent
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    4059.12.26 = {
+        birth = yes
+    }
+
+    4113.11.2 = {
+        death = { death_reason = death_great_pox }
+    }
+}
+
+gardener_191 = {
+    name = "Jeor"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_189
+    mother = gardener_190
+
+    trait = patient
+    trait = cynical
+    trait = calm
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    4099.6.13 = {
+        birth = yes
+    }
+
+    4116.6.22 = {
+        add_spouse = gardener_192
+    }
+
+    4180.7.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_192 = {
+    name = "Marna"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = compassionate
+    trait = greedy
+    trait = trusting
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    4099.7.12 = {
+        birth = yes
+    }
+
+    4177.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_193 = {
+    name = "Joseth"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_191
+    mother = gardener_192
+
+    trait = impatient
+    trait = brave
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    4140.2.23 = {
+        birth = yes
+    }
+
+    4165.5.14 = {
+        add_spouse = gardener_194
+    }
+
+    4207.4.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_194 = {
+    name = "Frenya"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = ambitious
+    trait = craven
+    trait = callous
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 11
+
+    trait = education_learning_4
+
+    4148.1.13 = {
+        birth = yes
+    }
+
+    4229.11.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_195 = {
+    name = "Dag"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_193
+    mother = gardener_194
+
+    trait = paranoid
+    trait = lustful
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 9
+    intrigue = 2
+    learning = 8
+    prowess = 5
+
+    trait = education_martial_2
+
+    4170.6.25 = {
+        birth = yes
+    }
+
+    4195.6.15 = {
+        add_spouse = gardener_196
+    }
+
+    4245.6.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_196 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = zealous
+    trait = gregarious
+    trait = callous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_learning_4
+
+    4178.9.14 = {
+        birth = yes
+    }
+
+    4256.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_197 = {
+    name = "Yoren"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_195
+    mother = gardener_196
+
+    trait = greedy
+    trait = deceitful
+    trait = shy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 3
+    intrigue = 8
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    4205.3.1 = {
+        birth = yes
+    }
+
+    4220.1.15 = {
+        add_spouse = gardener_198
+    }
+
+    4281.5.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_198 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = patient
+    trait = chaste
+    trait = generous
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    4203.1.2 = {
+        birth = yes
+    }
+
+    4283.8.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_199 = {
+    name = "Farlen"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_197
+    mother = gardener_198
+
+    trait = chaste
+    trait = forgiving
+    trait = paranoid
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    4243.3.26 = {
+        birth = yes
+    }
+
+    4275.8.4 = {
+        add_spouse = gardener_200
+    }
+
+    4321.10.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_200 = {
+    name = "Serra"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = just
+    trait = chaste
+    trait = honest
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 10
+    intrigue = 6
+    learning = 6
+    prowess = 3
+
+    trait = education_stewardship_1
+
+    4258.9.5 = {
+        birth = yes
+    }
+
+    4337.1.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_201 = {
+    name = "Ormyn"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_199
+    mother = gardener_200
+
+    trait = generous
+    trait = cynical
+    trait = brave
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 3
+    learning = 4
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    4282.6.5 = {
+        birth = yes
+    }
+
+    4314.2.15 = {
+        add_spouse = gardener_202
+    }
+
+    4365.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_202 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = arrogant
+    trait = gluttonous
+    trait = just
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    4297.10.18 = {
+        birth = yes
+    }
+
+    4366.9.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_203 = {
+    name = "Brenett"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_201
+    mother = gardener_202
+
+    trait = honest
+    trait = greedy
+    trait = chaste
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 5
+    intrigue = 4
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_3
+
+    4329.10.20 = {
+        birth = yes
+    }
+
+    4365.2.15 = {
+        add_spouse = gardener_204
+    }
+
+    4411.12.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_204 = {
+    name = "Frennie"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = lazy
+    trait = arrogant
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    4348.6.23 = {
+        birth = yes
+    }
+
+    4414.4.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_205 = {
+    name = "Petwyn"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_203
+    mother = gardener_204
+
+    trait = ambitious
+    trait = wrathful
+    trait = deceitful
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 10
+    intrigue = 9
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    4386.3.18 = {
+        birth = yes
+    }
+
+    4413.10.23 = {
+        add_spouse = gardener_206
+    }
+
+    4423.8.5 = {
+        death = { death_reason = death_treatment }
+    }
+}
+
+gardener_206 = {
+    name = "Darlessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = content
+    trait = greedy
+    trait = sadistic
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 4
+    intrigue = 3
+    learning = 9
+    prowess = 11
+
+    trait = education_learning_4
+
+    4396.7.10 = {
+        birth = yes
+    }
+
+    4474.11.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_207 = {
+    name = "Ronnel"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_205
+    mother = gardener_206
+
+    trait = ambitious
+    trait = patient
+    trait = arbitrary
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 1
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_1
+
+    4422.12.15 = {
+        birth = yes
+    }
+
+    4464.12.23 = {
+        add_spouse = gardener_208
+    }
+
+    4474.3.4 = {
+        death = { death_reason = death_beaten }
+    }
+}
+
+gardener_208 = {
+    name = "Kamyla"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = deceitful
+    trait = sadistic
+    trait = gregarious
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    4447.6.22 = {
+        birth = yes
+    }
+
+    4516.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_209 = {
+    name = "Hakon"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_207
+    mother = gardener_208
+
+    trait = patient
+    trait = callous
+    trait = calm
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 10
+    intrigue = 9
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    4471.3.12 = {
+        birth = yes
+    }
+
+    4491.1.7 = {
+        add_spouse = gardener_210
+    }
+
+    4538.7.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_210 = {
+    name = "Tora"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = forgiving
+    trait = arbitrary
+    trait = lazy
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 8
+    learning = 4
+    prowess = 3
+
+    trait = education_intrigue_4
+
+    4474.9.19 = {
+        birth = yes
+    }
+
+    4550.4.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_211 = {
+    name = "Artos"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_209
+    mother = gardener_210
+
+    trait = brave
+    trait = gluttonous
+    trait = shy
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    4491.8.23 = {
+        birth = yes
+    }
+
+    4521.2.16 = {
+        add_spouse = gardener_212
+    }
+
+    4565.5.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_212 = {
+    name = "Perra"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = shy
+    trait = deceitful
+    trait = trusting
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 3
+
+    trait = education_stewardship_2
+
+    4504.8.24 = {
+        birth = yes
+    }
+
+    4580.7.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_213 = {
+    name = "Baldr"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_211
+    mother = gardener_212
+
+    trait = content
+    trait = fickle
+    trait = callous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_2
+
+    4534.8.23 = {
+        birth = yes
+    }
+
+    4567.12.3 = {
+        add_spouse = gardener_214
+    }
+
+    4613.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_214 = {
+    name = "Anna"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = patient
+    trait = just
+    trait = brave
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    4550.6.27 = {
+        birth = yes
+    }
+
+    4627.11.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_215 = {
+    name = "Hullen"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_213
+    mother = gardener_214
+
+    trait = just
+    trait = stubborn
+    trait = lustful
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 10
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    4590.2.10 = {
+        birth = yes
+    }
+
+    4626.11.19 = {
+        add_spouse = gardener_216
+    }
+
+    4668.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_216 = {
+    name = "Margaret"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = lustful
+    trait = content
+    trait = trusting
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 3
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    4609.2.7 = {
+        birth = yes
+    }
+
+    4650.1.1 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+gardener_217 = {
+    name = "Ulthan"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_215
+    mother = gardener_216
+
+    trait = greedy
+    trait = impatient
+    trait = just
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 10
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    4643.11.1 = {
+        birth = yes
+    }
+
+    4666.10.9 = {
+        add_spouse = gardener_218
+    }
+
+    4717.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_218 = {
+    name = "Jonella"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = callous
+    trait = fickle
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_2
+
+    4649.3.14 = {
+        birth = yes
+    }
+
+    4716.9.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_219 = {
+    name = "Barthogan"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_217
+    mother = gardener_218
+
+    trait = shy
+    trait = compassionate
+    trait = content
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_1
+
+    4692.4.5 = {
+        birth = yes
+    }
+
+    4707.3.8 = {
+        add_spouse = gardener_220
+    }
+
+    4765.12.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_220 = {
+    name = "Kyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = vengeful
+    trait = arbitrary
+    trait = shy
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 5
+    intrigue = 11
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    4690.7.17 = {
+        birth = yes
+    }
+
+    4775.8.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_221 = {
+    name = "Petwyn"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_219
+    mother = gardener_220
+
+    trait = wrathful
+    trait = paranoid
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 4
+    intrigue = 8
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_3
+
+    4725.4.4 = {
+        birth = yes
+    }
+
+    4755.10.15 = {
+        add_spouse = gardener_222
+    }
+
+    4809.5.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_222 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = humble
+    trait = chaste
+    trait = content
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 1
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_4
+
+    4738.3.13 = {
+        birth = yes
+    }
+
+    4817.2.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_223 = {
+    name = "Casamir"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_221
+    mother = gardener_222
+
+    trait = greedy
+    trait = brave
+    trait = patient
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    4758.12.28 = {
+        birth = yes
+    }
+
+    4773.2.3 = {
+        add_spouse = gardener_224
+    }
+
+    4838.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_224 = {
+    name = "Kyli"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = brave
+    trait = stubborn
+    trait = calm
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_2
+
+    4756.4.28 = {
+        birth = yes
+    }
+
+    4822.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_225 = {
+    name = "Dann"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_223
+    mother = gardener_224
+
+    trait = temperate
+    trait = ambitious
+    trait = impatient
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 4
+    intrigue = 3
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    4794.6.20 = {
+        birth = yes
+    }
+
+    4795.6.10 = {
+        give_nickname = nick_the_tormentor
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    4832.10.12 = {
+        add_spouse = gardener_226
+    }
+
+    4878.9.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_226 = {
+    name = "Mylessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = forgiving
+    trait = diligent
+    trait = temperate
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    4815.5.15 = {
+        birth = yes
+    }
+
+    4882.12.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_227 = {
+    name = "Elric"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_225
+    mother = gardener_226
+
+    trait = deceitful
+    trait = callous
+    trait = greedy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    4841.2.1 = {
+        birth = yes
+    }
+
+    4855.6.13 = {
+        add_spouse = gardener_228
+    }
+
+    4909.5.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_228 = {
+    name = "Iris"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = arrogant
+    trait = paranoid
+    trait = craven
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    4838.7.12 = {
+        birth = yes
+    }
+
+    4912.10.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_229 = {
+    name = "Alic"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_227
+    mother = gardener_228
+
+    trait = arbitrary
+    trait = gregarious
+    trait = fickle
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 3
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    4868.8.18 = {
+        birth = yes
+    }
+
+    4884.12.20 = {
+        add_spouse = gardener_230
+    }
+
+    4951.9.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_230 = {
+    name = "Barbara"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = temperate
+    trait = craven
+    trait = content
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 2
+
+    trait = education_martial_3
+
+    4867.10.10 = {
+        birth = yes
+    }
+
+    4946.9.12 = {
+        death = { death_reason = death_training_accident  }
+    }
+}
+
+gardener_231 = {
+    name = "Hareth"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_229
+    mother = gardener_230
+
+    trait = arbitrary
+    trait = cynical
+    trait = vengeful
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 7
+    intrigue = 5
+    learning = 4
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    4908.2.26 = {
+        birth = yes
+    }
+
+    4923.5.23 = {
+        add_spouse = gardener_232
+    }
+
+    4976.9.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_232 = {
+    name = "Cecil"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = just
+    trait = greedy
+    trait = compassionate
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 10
+
+    trait = education_stewardship_2
+
+    4906.9.11 = {
+        birth = yes
+    }
+
+    4983.10.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_233 = {
+    name = "Magnar"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_231
+    mother = gardener_232
+
+    trait = callous
+    trait = ambitious
+    trait = arbitrary
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    4929.6.26 = {
+        birth = yes
+    }
+
+    4975.5.23 = {
+        add_spouse = gardener_234
+    }
+
+    5001.6.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_234 = {
+    name = "Lyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = greedy
+    trait = paranoid
+    trait = just
+
+    diplomacy = 9
+    martial = 2
+    stewardship = 10
+    intrigue = 8
+    learning = 9
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    4958.12.27 = {
+        birth = yes
+    }
+
+    5038.6.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_235 = {
+    name = "Kollen"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_233
+    mother = gardener_234
+
+    trait = forgiving
+    trait = wrathful
+    trait = impatient
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 9
+    prowess = 8
+
+    trait = education_learning_3
+
+    4976.7.13 = {
+        birth = yes
+    }
+
+    5008.1.13 = {
+        add_spouse = gardener_236
+    }
+
+    5052.10.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_236 = {
+    name = "Lyanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = humble
+    trait = zealous
+    trait = honest
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    4991.2.15 = {
+        birth = yes
+    }
+
+    5069.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_237 = {
+    name = "Qhorin"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_235
+    mother = gardener_236
+
+    trait = calm
+    trait = ambitious
+    trait = arbitrary
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_1
+
+    5019.9.24 = {
+        birth = yes
+    }
+
+    5054.9.9 = {
+        add_spouse = gardener_238
+    }
+
+    5099.7.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_238 = {
+    name = "Lyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = diligent
+    trait = impatient
+    trait = content
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_4
+
+    5037.2.8 = {
+        birth = yes
+    }
+
+    5119.4.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_239 = {
+    name = "Gariss"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_237
+    mother = gardener_238
+
+    trait = craven
+    trait = callous
+    trait = diligent
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    5055.3.23 = {
+        birth = yes
+    }
+
+    5093.6.6 = {
+        add_spouse = gardener_240
+    }
+
+    5121.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_240 = {
+    name = "Orya"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = greedy
+    trait = impatient
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    5076.10.10 = {
+        birth = yes
+    }
+
+    5160.4.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_241 = {
+    name = "Rolfwyn"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_239
+    mother = gardener_240
+
+    trait = ambitious
+    trait = wrathful
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_2
+
+    5110.10.9 = {
+        birth = yes
+    }
+
+    5131.6.1 = {
+        add_spouse = gardener_242
+    }
+
+    5185.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_242 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = honest
+    trait = callous
+    trait = vengeful
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 9
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    5114.6.9 = {
+        birth = yes
+    }
+
+    5197.2.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_243 = {
+    name = "Theon"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_241
+    mother = gardener_242
+
+    trait = chaste
+    trait = craven
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    5140.12.10 = {
+        birth = yes
+    }
+
+    5165.8.23 = {
+        add_spouse = gardener_244
+    }
+
+    5210.7.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_244 = {
+    name = "Isyabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = craven
+    trait = callous
+    trait = ambitious
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    5148.12.23 = {
+        birth = yes
+    }
+
+    5226.10.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_245 = {
+    name = "Ulward"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_243
+    mother = gardener_244
+
+    trait = honest
+    trait = stubborn
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 5
+    intrigue = 8
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_3
+
+    5169.7.16 = {
+        birth = yes
+    }
+
+    5186.1.24 = {
+        add_spouse = gardener_246
+    }
+
+    5203.4.13 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+gardener_246 = {
+    name = "Lyanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = content
+    trait = chaste
+    trait = honest
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 2
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_3
+
+    5169.3.17 = {
+        birth = yes
+    }
+
+    5250.4.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_247 = {
+    name = "Jorah"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_245
+    mother = gardener_246
+
+    trait = honest
+    trait = generous
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 4
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_3
+
+    5194.8.18 = {
+        birth = yes
+    }
+
+    5235.1.24 = {
+        add_spouse = gardener_248
+    }
+
+    5247.6.14 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+gardener_248 = {
+    name = "Mariah"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = zealous
+    trait = gregarious
+    trait = generous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 10
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    5218.8.14 = {
+        birth = yes
+    }
+
+    5303.7.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_249 = {
+    name = "Eyron"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_247
+    mother = gardener_248
+
+    trait = craven
+    trait = deceitful
+    trait = humble
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 2
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_3
+
+    5245.3.9 = {
+        birth = yes
+    }
+
+    5268.2.18 = {
+        add_spouse = gardener_250
+    }
+
+    5278.8.2 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+gardener_250 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = gluttonous
+    trait = generous
+    trait = honest
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 2
+    learning = 4
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    5251.5.10 = {
+        birth = yes
+    }
+
+    5330.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_251 = {
+    name = "Bowen"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_249
+    mother = gardener_250
+
+    trait = gregarious
+    trait = temperate
+    trait = lazy
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 2
+
+    trait = education_stewardship_2
+
+    5277.5.6 = {
+        birth = yes
+    }
+
+    5311.5.25 = {
+        add_spouse = gardener_252
+    }
+
+    5334.12.1 = {
+        death = { death_reason = death_great_pox }
+    }
+}
+
+gardener_252 = {
+    name = "Lynarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = deceitful
+    trait = vengeful
+    trait = zealous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    5294.5.26 = {
+        birth = yes
+    }
+
+    5377.11.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_253 = {
+    name = "Errold"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_251
+    mother = gardener_252
+
+    trait = diligent
+    trait = arrogant
+    trait = trusting
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 6
+    intrigue = 3
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    5323.2.1 = {
+        birth = yes
+    }
+
+    5352.3.18 = {
+        add_spouse = gardener_254
+    }
+
+    5400.9.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_254 = {
+    name = "Ewa"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = compassionate
+    trait = lazy
+    trait = fickle
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 5
+    intrigue = 11
+    learning = 5
+    prowess = 2
+
+    trait = education_intrigue_3
+
+    5335.2.14 = {
+        birth = yes
+    }
+
+    5405.10.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_255 = {
+    name = "Starkad"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_253
+    mother = gardener_254
+
+    trait = humble
+    trait = lazy
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 8
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_martial_1
+
+    5378.11.1 = {
+        birth = yes
+    }
+
+    5420.2.16 = {
+        add_spouse = gardener_256
+    }
+
+    5455.1.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_256 = {
+    name = "Sera"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = impatient
+    trait = stubborn
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 10
+    prowess = 8
+
+    trait = education_learning_2
+
+    5403.4.28 = {
+        birth = yes
+    }
+
+    5430.10.12 = {
+        death = { death_reason = death_bubonic_plague }
+    }
+}
+
+gardener_257 = {
+    name = "Royce"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_255
+    mother = gardener_256
+
+    trait = trusting
+    trait = brave
+    trait = gregarious
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    5428.8.23 = {
+        birth = yes
+    }
+
+    5459.4.20 = {
+        add_spouse = gardener_258
+    }
+
+    5507.12.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_258 = {
+    name = "Wylla"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = humble
+    trait = diligent
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    5442.7.28 = {
+        birth = yes
+    }
+
+    5525.3.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_259 = {
+    name = "Eyron"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_257
+    mother = gardener_258
+
+    trait = lustful
+    trait = cynical
+    trait = diligent
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    5481.9.6 = {
+        birth = yes
+    }
+
+    5510.7.15 = {
+        add_spouse = gardener_260
+    }
+
+    5566.11.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_260 = {
+    name = "Jonella"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = callous
+    trait = just
+    trait = generous
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_3
+
+    5493.9.1 = {
+        birth = yes
+    }
+
+    5574.8.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_261 = {
+    name = "Faste"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_259
+    mother = gardener_260
+
+    trait = fickle
+    trait = arbitrary
+    trait = patient
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 2
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    5520.4.15 = {
+        birth = yes
+    }
+
+    5557.9.14 = {
+        add_spouse = gardener_262
+    }
+
+    5602.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_262 = {
+    name = "Arra"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = stubborn
+    trait = zealous
+    trait = shy
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 2
+
+    trait = education_martial_4
+
+    5540.11.21 = {
+        birth = yes
+    }
+
+    5617.11.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_263 = {
+    name = "Ronnel"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_261
+    mother = gardener_262
+
+    trait = patient
+    trait = generous
+    trait = diligent
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    5572.7.18 = {
+        birth = yes
+    }
+
+    5591.5.11 = {
+        add_spouse = gardener_264
+    }
+
+    5642.10.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_264 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = lazy
+    trait = forgiving
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 3
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    5574.1.26 = {
+        birth = yes
+    }
+
+    5651.9.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_265 = {
+    name = "Edderion"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_263
+    mother = gardener_264
+
+    trait = humble
+    trait = trusting
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    5616.2.21 = {
+        birth = yes
+    }
+
+    5655.12.17 = {
+        add_spouse = gardener_266
+    }
+
+    5698.12.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_266 = {
+    name = "Ely"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = stubborn
+    trait = wrathful
+    trait = zealous
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 4
+    intrigue = 3
+    learning = 9
+    prowess = 5
+
+    trait = education_martial_2
+
+    5638.3.14 = {
+        birth = yes
+    }
+
+    5718.3.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_267 = {
+    name = "Hother"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_265
+    mother = gardener_266
+
+    trait = zealous
+    trait = stubborn
+    trait = diligent
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 2
+
+    trait = education_stewardship_2
+
+    5680.9.14 = {
+        birth = yes
+    }
+
+    5721.10.26 = {
+        add_spouse = gardener_268
+    }
+
+    5746.4.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_268 = {
+    name = "Frenya"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = temperate
+    trait = stubborn
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    5704.2.26 = {
+        birth = yes
+    }
+
+    5775.8.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_269 = {
+    name = "Edwyn"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_267
+    mother = gardener_268
+
+    trait = temperate
+    trait = chaste
+    trait = craven
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 5
+    intrigue = 10
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    5725.4.12 = {
+        birth = yes
+    }
+
+    5775.1.19 = {
+        add_spouse = gardener_270
+    }
+
+    5785.4.6 = {
+        death = { death_reason = death_ended_on_feast_table  }
+    }
+}
+
+gardener_270 = {
+    name = "Krystyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = calm
+    trait = lustful
+    trait = craven
+
+    diplomacy = 4
+    martial = 1
+    stewardship = 6
+    intrigue = 6
+    learning = 10
+    prowess = 6
+
+    trait = education_learning_2
+
+    5758.9.9 = {
+        birth = yes
+    }
+
+    5827.1.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_271 = {
+    name = "Beren"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_269
+    mother = gardener_270
+
+    trait = patient
+    trait = calm
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 2
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    5777.7.16 = {
+        birth = yes
+    }
+
+    5778.2.28 = {
+        give_nickname = nick_the_monster
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    5815.9.10 = {
+        add_spouse = gardener_272
+    }
+
+    5860.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_272 = {
+    name = "Jorelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = gregarious
+    trait = impatient
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    5798.8.21 = {
+        birth = yes
+    }
+
+    5878.2.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_273 = {
+    name = "Dann"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_271
+    mother = gardener_272
+
+    trait = lustful
+    trait = generous
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    5835.9.1 = {
+        birth = yes
+    }
+
+    5873.1.15 = {
+        add_spouse = gardener_274
+    }
+
+    5920.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_274 = {
+    name = "Lydia"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = honest
+    trait = calm
+    trait = gregarious
+
+    diplomacy = 3
+    martial = 10
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_4
+
+    5856.4.12 = {
+        birth = yes
+    }
+
+    5932.3.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_275 = {
+    name = "Gorm"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_273
+    mother = gardener_274
+
+    trait = content
+    trait = lazy
+    trait = just
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    5896.7.17 = {
+        birth = yes
+    }
+
+    5924.12.10 = {
+        add_spouse = gardener_276
+    }
+
+    5965.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_276 = {
+    name = "Ygritte"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = gluttonous
+    trait = impatient
+    trait = zealous
+
+    diplomacy = 9
+    martial = 9
+    stewardship = 6
+    intrigue = 9
+    learning = 9
+    prowess = 1
+
+    trait = education_diplomacy_3
+
+    5907.3.10 = {
+        birth = yes
+    }
+
+    5979.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_277 = {
+    name = "Farlen"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_275
+    mother = gardener_276
+
+    trait = temperate
+    trait = lustful
+    trait = content
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 8
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    5950.6.11 = {
+        birth = yes
+    }
+
+    5999.2.1 = {
+        add_spouse = gardener_278
+    }
+
+    6009.1.27 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+gardener_278 = {
+    name = "Elinan"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = wrathful
+    trait = impatient
+    trait = just
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 10
+    prowess = 8
+
+    trait = education_learning_3
+
+    5982.6.28 = {
+        birth = yes
+    }
+
+    6053.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_279 = {
+    name = "Mallador"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_277
+    mother = gardener_278
+
+    trait = forgiving
+    trait = compassionate
+    trait = cynical
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6004.4.4 = {
+        birth = yes
+    }
+
+    6050.3.27 = {
+        add_spouse = gardener_280
+    }
+
+    6082.11.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_280 = {
+    name = "Faya"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = lazy
+    trait = fickle
+    trait = generous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 8
+    intrigue = 1
+    learning = 5
+    prowess = 1
+
+    trait = education_martial_2
+
+    6033.2.19 = {
+        birth = yes
+    }
+
+    6113.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_281 = {
+    name = "Skule"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_279
+    mother = gardener_280
+
+    trait = greedy
+    trait = ambitious
+    trait = humble
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_1
+
+    6057.7.10 = {
+        birth = yes
+    }
+
+    6083.10.14 = {
+        add_spouse = gardener_282
+    }
+
+    6141.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_282 = {
+    name = "Izabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = greedy
+    trait = wrathful
+    trait = trusting
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 9
+    intrigue = 4
+    learning = 8
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6066.4.12 = {
+        birth = yes
+    }
+
+    6151.2.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_283 = {
+    name = "Ethan"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_281
+    mother = gardener_282
+
+    trait = cynical
+    trait = sadistic
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    6104.9.20 = {
+        birth = yes
+    }
+
+    6131.7.3 = {
+        add_spouse = gardener_284
+    }
+
+    6174.12.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_284 = {
+    name = "Rowena"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = ambitious
+    trait = arrogant
+    trait = callous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 3
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6114.2.17 = {
+        birth = yes
+    }
+
+    6199.9.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_285 = {
+    name = "Elyiot"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_283
+    mother = gardener_284
+
+    trait = sadistic
+    trait = deceitful
+    trait = diligent
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 10
+
+    trait = education_diplomacy_4
+
+    6147.1.4 = {
+        birth = yes
+    }
+
+    6166.10.22 = {
+        add_spouse = gardener_286
+    }
+
+    6221.5.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_286 = {
+    name = "Magya"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = chaste
+    trait = impatient
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 3
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_learning_2
+
+    6149.3.20 = {
+        birth = yes
+    }
+
+    6234.8.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_287 = {
+    name = "Halys"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_285
+    mother = gardener_286
+
+    trait = brave
+    trait = patient
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 4
+    learning = 8
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6183.8.6 = {
+        birth = yes
+    }
+
+    6213.6.26 = {
+        add_spouse = gardener_288
+    }
+
+    6253.5.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_288 = {
+    name = "Gilli"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = brave
+    trait = trusting
+    trait = lazy
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6196.5.9 = {
+        birth = yes
+    }
+
+    6265.9.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_289 = {
+    name = "Owen"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_287
+    mother = gardener_288
+
+    trait = humble
+    trait = lustful
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 3
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6232.3.13 = {
+        birth = yes
+    }
+
+    6263.2.19 = {
+        add_spouse = gardener_290
+    }
+
+    6313.11.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_290 = {
+    name = "Marissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = vengeful
+    trait = callous
+    trait = temperate
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 11
+    prowess = 7
+
+    trait = education_learning_1
+
+    6246.8.12 = {
+        birth = yes
+    }
+
+    6327.6.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_291 = {
+    name = "Theon"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_289
+    mother = gardener_290
+
+    trait = content
+    trait = lazy
+    trait = paranoid
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 9
+    intrigue = 7
+    learning = 9
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6263.7.18 = {
+        birth = yes
+    }
+
+    6283.11.20 = {
+        add_spouse = gardener_292
+    }
+
+    6340.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_292 = {
+    name = "Tyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = callous
+    trait = chaste
+    trait = impatient
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 9
+    intrigue = 5
+    learning = 10
+    prowess = 6
+
+    trait = education_learning_3
+
+    6266.2.15 = {
+        birth = yes
+    }
+
+    6337.1.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_293 = {
+    name = "Ely"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_291
+    mother = gardener_292
+
+    trait = content
+    trait = arbitrary
+    trait = diligent
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6284.12.2 = {
+        birth = yes
+    }
+
+    6364.2.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_294 = {
+    name = "Streen"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_291
+    mother = gardener_292
+
+    trait = paranoid
+    trait = just
+    trait = patient
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6286.5.17 = {
+        birth = yes
+    }
+
+    6328.5.8 = {
+        add_spouse = gardener_295
+    }
+
+    6361.5.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_295 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = arrogant
+    trait = patient
+    trait = zealous
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 11
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6311.7.27 = {
+        birth = yes
+    }
+
+    6379.9.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_296 = {
+    name = "Roger"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_294
+    mother = gardener_295
+
+    trait = content
+    trait = zealous
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6356.2.16 = {
+        birth = yes
+    }
+
+    6378.6.19 = {
+        add_spouse = gardener_297
+    }
+
+    6434.7.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_297 = {
+    name = "Berta"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = sadistic
+    trait = stubborn
+    trait = ambitious
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 2
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6361.12.1 = {
+        birth = yes
+    }
+
+    6436.6.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_298 = {
+    name = "Sera"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_296
+    mother = gardener_297
+
+    trait = gregarious
+    trait = temperate
+    trait = diligent
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    6392.10.19 = {
+        birth = yes
+    }
+
+    6433.4.25 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+gardener_299 = {
+    name = "Elric"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_296
+    mother = gardener_297
+
+    trait = lazy
+    trait = deceitful
+    trait = patient
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 8
+    intrigue = 7
+    learning = 3
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    6394.8.24 = {
+        birth = yes
+    }
+
+    6415.4.16 = {
+        add_spouse = gardener_300
+    }
+
+    6467.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_300 = {
+    name = "Tessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = lustful
+    trait = shy
+    trait = greedy
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 10
+    learning = 8
+    prowess = 2
+
+    trait = education_intrigue_3
+
+    6398.7.1 = {
+        birth = yes
+    }
+
+    6472.1.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_301 = {
+    name = "Ely"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_299
+    mother = gardener_300
+
+    trait = arbitrary
+    trait = paranoid
+    trait = shy
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 8
+    learning = 4
+    prowess = 9
+
+    trait = education_intrigue_1
+
+    6419.10.22 = {
+        birth = yes
+    }
+
+    6499.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_302 = {
+    name = "Dacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_299
+    mother = gardener_300
+
+    trait = generous
+    trait = trusting
+    trait = content
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 2
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_2
+
+    6421.9.2 = {
+        birth = yes
+    }
+
+    6476.3.4 = {
+        death = { death_reason = death_script_cruelty   }
+    }
+}
+
+gardener_303 = {
+    name = "Torren"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_299
+    mother = gardener_300
+
+    trait = humble
+    trait = lustful
+    trait = shy
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 3
+
+    trait = education_martial_2
+
+    6427.7.22 = {
+        birth = yes
+    }
+
+    6441.11.13 = {
+        add_spouse = gardener_304
+    }
+
+    6499.7.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_304 = {
+    name = "Cecil"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = just
+    trait = craven
+    trait = honest
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 7
+    intrigue = 7
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_3
+
+    6424.10.28 = {
+        birth = yes
+    }
+
+    6500.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_305 = {
+    name = "Agnyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_291
+    mother = gardener_292
+
+    trait = compassionate
+    trait = stubborn
+    trait = greedy
+
+    diplomacy = 3
+    martial = 1
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    6290.11.6 = {
+        birth = yes
+    }
+
+    6363.5.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_306 = {
+    name = "Dorren"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_291
+    mother = gardener_292
+
+    trait = gluttonous
+    trait = lazy
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 2
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6292.5.14 = {
+        birth = yes
+    }
+
+    6335.1.11 = {
+        add_spouse = gardener_307
+    }
+
+    6345.6.11 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+gardener_307 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = sadistic
+    trait = greedy
+    trait = lazy
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6318.11.27 = {
+        birth = yes
+    }
+
+    6396.12.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_308 = {
+    name = "Jorelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_306
+    mother = gardener_307
+
+    trait = chaste
+    trait = deceitful
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6340.11.19 = {
+        birth = yes
+    }
+
+    6420.5.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_309 = {
+    name = "Craster"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_306
+    mother = gardener_307
+
+    trait = wrathful
+    trait = patient
+    trait = shy
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 3
+    prowess = 10
+
+    trait = education_martial_3
+
+    6341.7.4 = {
+        birth = yes
+    }
+
+    6367.2.2 = {
+        add_spouse = gardener_310
+    }
+
+    6416.11.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_310 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = stubborn
+    trait = brave
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 11
+
+    trait = education_stewardship_2
+
+    6350.7.7 = {
+        birth = yes
+    }
+
+    6429.3.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_311 = {
+    name = "Jolanta"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_309
+    mother = gardener_310
+
+    trait = callous
+    trait = diligent
+    trait = shy
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 8
+    intrigue = 8
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6374.11.23 = {
+        birth = yes
+    }
+
+    6441.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_312 = {
+    name = "Barbrey"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_309
+    mother = gardener_310
+
+    trait = wrathful
+    trait = arrogant
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6380.3.17 = {
+        birth = yes
+    }
+
+    6447.10.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_313 = {
+    name = "Benjicot"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_309
+    mother = gardener_310
+
+    trait = deceitful
+    trait = temperate
+    trait = arbitrary
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 7
+    intrigue = 10
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6384.7.3 = {
+        birth = yes
+    }
+
+    6417.8.17 = {
+        add_spouse = gardener_314
+    }
+
+    6453.2.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_314 = {
+    name = "Arra"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = diligent
+    trait = arbitrary
+    trait = lustful
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 3
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    6400.6.14 = {
+        birth = yes
+    }
+
+    6485.1.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_315 = {
+    name = "Margaret"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_313
+    mother = gardener_314
+
+    trait = diligent
+    trait = cynical
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6419.6.24 = {
+        birth = yes
+    }
+
+    6485.4.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_316 = {
+    name = "Errold"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_313
+    mother = gardener_314
+
+    trait = compassionate
+    trait = brave
+    trait = humble
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 2
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_3
+
+    6426.9.23 = {
+        birth = yes
+    }
+
+    6459.3.13 = {
+        add_spouse = gardener_317
+    }
+
+    6492.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_317 = {
+    name = "Kamyla"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = wrathful
+    trait = arbitrary
+    trait = generous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 9
+
+    trait = education_martial_3
+
+    6442.5.1 = {
+        birth = yes
+    }
+
+    6469.10.10 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+gardener_318 = {
+    name = "Thora"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_313
+    mother = gardener_314
+
+    trait = temperate
+    trait = chaste
+    trait = honest
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_2
+
+    6430.6.10 = {
+        birth = yes
+    }
+
+    6497.12.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_319 = {
+    name = "Rodwell"
+
+    dynasty = dynasty_gardener
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_313
+    mother = gardener_314
+
+    trait = just
+    trait = lazy
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_2
+
+    6434.11.9 = {
+        birth = yes
+    }
+
+    6464.2.17 = {
+        add_spouse = gardener_320
+    }
+
+    6507.5.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_320 = {
+    name = "Serena"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    trait = deceitful
+    trait = paranoid
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 4
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_2
+
+    6447.12.27 = {
+        birth = yes
+    }
+
+    6524.11.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_321 = {
+    name = "Kristyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_289
+    mother = gardener_290
+
+    trait = gregarious
+    trait = arbitrary
+    trait = honest
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 4
+    intrigue = 5
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6270.5.6 = {
+        birth = yes
+    }
+
+    6338.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gardener_322 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = manderish
+
+    father = gardener_289
+    mother = gardener_290
+
+    trait = brave
+    trait = ambitious
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 9
+    intrigue = 7
+    learning = 4
+    prowess = 1
+
+    trait = education_stewardship_1
+
+    6277.5.27 = {
+        birth = yes
+    }
+
+    6284.6.23 = {
+        death = { death_reason = death_typhus }
+    }
+}

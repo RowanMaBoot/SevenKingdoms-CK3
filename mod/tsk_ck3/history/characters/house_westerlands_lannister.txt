@@ -1,0 +1,10614 @@
+lannister_1 = {
+    name = "Barth"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    trait = paranoid
+    trait = compassionate
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 1
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_4
+
+    1.3.21 = {
+        birth = yes
+    }
+
+    37.8.23 = {
+        add_spouse = lannister_2
+    }
+
+    84.6.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_2 = {
+    name = "Darlessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = paranoid
+    trait = chaste
+    trait = fickle
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 11
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    20.4.1 = {
+        birth = yes
+    }
+
+    101.10.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_3 = {
+    name = "Torghen"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_1
+    mother = lannister_2
+
+    trait = callous
+    trait = content
+    trait = chaste
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    51.12.17 = {
+        birth = yes
+    }
+
+    73.11.19 = {
+        add_spouse = lannister_4
+    }
+
+    118.11.22 = {
+        death = { death_reason = death_training_accident  }
+    }
+}
+
+lannister_4 = {
+    name = "Jorelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = diligent
+    trait = arbitrary
+    trait = lustful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    56.8.20 = {
+        birth = yes
+    }
+
+    140.11.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_5 = {
+    name = "Roger"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_3
+    mother = lannister_4
+
+    trait = brave
+    trait = zealous
+    trait = shy
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 9
+
+    trait = education_martial_2
+
+    78.1.17 = {
+        birth = yes
+    }
+
+    104.6.17 = {
+        add_spouse = lannister_6
+    }
+
+    158.12.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_6 = {
+    name = "Leana"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = calm
+    trait = stubborn
+    trait = diligent
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 5
+    intrigue = 8
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_2
+
+    87.5.12 = {
+        birth = yes
+    }
+
+    165.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_7 = {
+    name = "Porther"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_5
+    mother = lannister_6
+
+    trait = paranoid
+    trait = zealous
+    trait = just
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    126.10.4 = {
+        birth = yes
+    }
+
+    168.7.15 = {
+        add_spouse = lannister_8
+    }
+
+    198.12.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_8 = {
+    name = "Oraeya"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = greedy
+    trait = patient
+    trait = chaste
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 3
+    intrigue = 6
+    learning = 3
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    151.12.8 = {
+        birth = yes
+    }
+
+    221.11.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_9 = {
+    name = "Borin"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_7
+    mother = lannister_8
+
+    trait = content
+    trait = shy
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    196.1.23 = {
+        birth = yes
+    }
+
+    216.12.15 = {
+        add_spouse = lannister_10
+    }
+
+    280.1.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_10 = {
+    name = "Judyth"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = fickle
+    trait = humble
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    199.1.11 = {
+        birth = yes
+    }
+
+    276.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_11 = {
+    name = "Danny"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_9
+    mother = lannister_10
+
+    trait = ambitious
+    trait = gluttonous
+    trait = lustful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    240.7.24 = {
+        birth = yes
+    }
+
+    261.7.26 = {
+        add_spouse = lannister_12
+    }
+
+    319.12.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_12 = {
+    name = "Berena"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = honest
+    trait = fickle
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 10
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    244.10.17 = {
+        birth = yes
+    }
+
+    310.7.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_13 = {
+    name = "Torkel"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_11
+    mother = lannister_12
+
+    trait = arbitrary
+    trait = callous
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 7
+    intrigue = 2
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_3
+
+    274.1.4 = {
+        birth = yes
+    }
+
+    308.1.10 = {
+        add_spouse = lannister_14
+    }
+
+    346.12.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_14 = {
+    name = "Kymila"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = zealous
+    trait = generous
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_3
+
+    291.8.1 = {
+        birth = yes
+    }
+
+    365.3.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_15 = {
+    name = "Eddard"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_13
+    mother = lannister_14
+
+    trait = content
+    trait = craven
+    trait = greedy
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    312.11.23 = {
+        birth = yes
+    }
+
+    331.2.20 = {
+        add_spouse = lannister_16
+    }
+
+    341.1.7 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+lannister_16 = {
+    name = "Ricardya"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = patient
+    trait = fickle
+    trait = arbitrary
+
+    diplomacy = 9
+    martial = 3
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    314.3.6 = {
+        birth = yes
+    }
+
+    389.12.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_17 = {
+    name = "Alyc"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_15
+    mother = lannister_16
+
+    trait = trusting
+    trait = just
+    trait = generous
+
+    diplomacy = 9
+    martial = 3
+    stewardship = 3
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    332.1.26 = {
+        birth = yes
+    }
+
+    365.3.13 = {
+        add_spouse = lannister_18
+    }
+
+    412.5.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_18 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = paranoid
+    trait = forgiving
+    trait = honest
+
+    diplomacy = 10
+    martial = 3
+    stewardship = 5
+    intrigue = 10
+    learning = 8
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    348.3.1 = {
+        birth = yes
+    }
+
+    424.8.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_19 = {
+    name = "Mattis"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_17
+    mother = lannister_18
+
+    trait = greedy
+    trait = callous
+    trait = chaste
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    377.2.21 = {
+        birth = yes
+    }
+
+    425.2.14 = {
+        add_spouse = lannister_20
+    }
+
+    447.1.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_20 = {
+    name = "Berti"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = gluttonous
+    trait = arbitrary
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 1
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    408.2.13 = {
+        birth = yes
+    }
+
+    479.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_21 = {
+    name = "Tord"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_19
+    mother = lannister_20
+
+    trait = diligent
+    trait = content
+    trait = trusting
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_1
+
+    446.8.7 = {
+        birth = yes
+    }
+
+    466.10.25 = {
+        add_spouse = lannister_22
+    }
+
+    488.11.7 = {
+        death = { death_reason = death_maimed }
+    }
+}
+
+lannister_22 = {
+    name = "Kristyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = diligent
+    trait = gregarious
+    trait = greedy
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 9
+    intrigue = 8
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    449.2.20 = {
+        birth = yes
+    }
+
+    531.1.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_23 = {
+    name = "Streen"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_21
+    mother = lannister_22
+
+    trait = generous
+    trait = arrogant
+    trait = cynical
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 10
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    470.12.18 = {
+        birth = yes
+    }
+
+    486.3.10 = {
+        add_spouse = lannister_24
+    }
+
+    537.11.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_24 = {
+    name = "Robyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = sadistic
+    trait = arbitrary
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 2
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_3
+
+    469.1.17 = {
+        birth = yes
+    }
+
+    537.7.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_25 = {
+    name = "Bran"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_23
+    mother = lannister_24
+
+    trait = trusting
+    trait = ambitious
+    trait = craven
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    508.3.8 = {
+        birth = yes
+    }
+
+    538.5.25 = {
+        add_spouse = lannister_26
+    }
+
+    577.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_26 = {
+    name = "Sera"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = honest
+    trait = sadistic
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_3
+
+    521.7.15 = {
+        birth = yes
+    }
+
+    594.3.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_27 = {
+    name = "Ramsay"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_25
+    mother = lannister_26
+
+    trait = vengeful
+    trait = trusting
+    trait = calm
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 3
+    intrigue = 3
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    545.9.22 = {
+        birth = yes
+    }
+
+    584.10.11 = {
+        add_spouse = lannister_28
+    }
+
+    613.2.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_28 = {
+    name = "Kyt"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = just
+    trait = lazy
+    trait = zealous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 8
+    learning = 3
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    567.6.7 = {
+        birth = yes
+    }
+
+    606.7.27 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+lannister_29 = {
+    name = "Hugo"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_27
+    mother = lannister_28
+
+    trait = craven
+    trait = humble
+    trait = lazy
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    602.9.12 = {
+        birth = yes
+    }
+
+    636.5.15 = {
+        add_spouse = lannister_30
+    }
+
+    668.8.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_30 = {
+    name = "Faya"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = impatient
+    trait = lazy
+    trait = honest
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 8
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    619.9.4 = {
+        birth = yes
+    }
+
+    700.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_31 = {
+    name = "Morgan"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_29
+    mother = lannister_30
+
+    trait = vengeful
+    trait = sadistic
+    trait = compassionate
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 1
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    650.6.23 = {
+        birth = yes
+    }
+
+    692.4.22 = {
+        add_spouse = lannister_32
+    }
+
+    734.1.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_32 = {
+    name = "Edla"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = arbitrary
+    trait = sadistic
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_3
+
+    675.8.24 = {
+        birth = yes
+    }
+
+    741.12.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_33 = {
+    name = "Hrane"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_31
+    mother = lannister_32
+
+    trait = vengeful
+    trait = paranoid
+    trait = craven
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    719.4.21 = {
+        birth = yes
+    }
+
+    739.11.9 = {
+        add_spouse = lannister_34
+    }
+
+    757.1.21 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+lannister_34 = {
+    name = "Beth"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = compassionate
+    trait = greedy
+    trait = craven
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 9
+    prowess = 9
+
+    trait = education_learning_3
+
+    722.11.26 = {
+        birth = yes
+    }
+
+    803.4.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_35 = {
+    name = "Wynton"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_33
+    mother = lannister_34
+
+    trait = vengeful
+    trait = stubborn
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    751.5.8 = {
+        birth = yes
+    }
+
+    783.2.18 = {
+        add_spouse = lannister_36
+    }
+
+    827.12.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_36 = {
+    name = "Frenya"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = brave
+    trait = stubborn
+    trait = lazy
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    766.1.2 = {
+        birth = yes
+    }
+
+    835.12.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_37 = {
+    name = "Ulf"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_35
+    mother = lannister_36
+
+    trait = arbitrary
+    trait = craven
+    trait = zealous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 11
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    794.5.10 = {
+        birth = yes
+    }
+
+    812.9.10 = {
+        add_spouse = lannister_38
+    }
+
+    864.9.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_38 = {
+    name = "Orya"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = callous
+    trait = zealous
+    trait = diligent
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    795.6.19 = {
+        birth = yes
+    }
+
+    868.11.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_39 = {
+    name = "Quent"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_37
+    mother = lannister_38
+
+    trait = shy
+    trait = just
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 8
+    learning = 3
+    prowess = 3
+
+    trait = education_intrigue_4
+
+    840.4.2 = {
+        birth = yes
+    }
+
+    882.1.23 = {
+        add_spouse = lannister_40
+    }
+
+    892.6.9 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+lannister_40 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = wrathful
+    trait = compassionate
+    trait = lazy
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    865.8.26 = {
+        birth = yes
+    }
+
+    942.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_41 = {
+    name = "Pate"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_39
+    mother = lannister_40
+
+    trait = stubborn
+    trait = temperate
+    trait = lazy
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    892.11.17 = {
+        birth = yes
+    }
+
+    919.9.1 = {
+        add_spouse = lannister_42
+    }
+
+    973.7.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_42 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = temperate
+    trait = impatient
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 9
+    intrigue = 11
+    learning = 2
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    902.6.10 = {
+        birth = yes
+    }
+
+    978.2.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_43 = {
+    name = "Baldr"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_41
+    mother = lannister_42
+
+    trait = honest
+    trait = zealous
+    trait = chaste
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 3
+    prowess = 10
+
+    trait = education_diplomacy_2
+
+    940.9.10 = {
+        birth = yes
+    }
+
+    981.1.22 = {
+        add_spouse = lannister_44
+    }
+
+    1017.12.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_44 = {
+    name = "Dacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = content
+    trait = greedy
+    trait = craven
+
+    diplomacy = 9
+    martial = 9
+    stewardship = 2
+    intrigue = 4
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    964.7.18 = {
+        birth = yes
+    }
+
+    1044.4.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_45 = {
+    name = "Borys"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_43
+    mother = lannister_44
+
+    trait = just
+    trait = temperate
+    trait = patient
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 2
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    983.12.13 = {
+        birth = yes
+    }
+
+    1011.6.7 = {
+        add_spouse = lannister_46
+    }
+
+    1065.11.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_46 = {
+    name = "Frennie"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = humble
+    trait = generous
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    994.8.26 = {
+        birth = yes
+    }
+
+    1078.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_47 = {
+    name = "Theodan"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_45
+    mother = lannister_46
+
+    trait = arrogant
+    trait = wrathful
+    trait = trusting
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 3
+    learning = 1
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    1017.8.10 = {
+        birth = yes
+    }
+
+    1055.3.8 = {
+        add_spouse = lannister_48
+    }
+
+    1101.10.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_48 = {
+    name = "Kataryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = content
+    trait = just
+    trait = patient
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 2
+    prowess = 7
+
+    trait = education_martial_3
+
+    1038.7.11 = {
+        birth = yes
+    }
+
+    1105.11.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_49 = {
+    name = "Lawyrence"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_47
+    mother = lannister_48
+
+    trait = wrathful
+    trait = generous
+    trait = honest
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_4
+
+    1077.10.27 = {
+        birth = yes
+    }
+
+    1107.6.5 = {
+        add_spouse = lannister_50
+    }
+
+    1150.6.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_50 = {
+    name = "Maggi"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = arrogant
+    trait = callous
+    trait = temperate
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    1090.1.2 = {
+        birth = yes
+    }
+
+    1173.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_51 = {
+    name = "Alic"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_49
+    mother = lannister_50
+
+    trait = lustful
+    trait = patient
+    trait = sadistic
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    1124.9.24 = {
+        birth = yes
+    }
+
+    1168.6.23 = {
+        add_spouse = lannister_52
+    }
+
+    1200.11.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_52 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = lazy
+    trait = forgiving
+    trait = chaste
+
+    diplomacy = 8
+    martial = 2
+    stewardship = 6
+    intrigue = 10
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    1151.9.15 = {
+        birth = yes
+    }
+
+    1223.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_53 = {
+    name = "Casamor"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_51
+    mother = lannister_52
+
+    trait = lustful
+    trait = generous
+    trait = lazy
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 10
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_1
+
+    1180.4.22 = {
+        birth = yes
+    }
+
+    1205.3.20 = {
+        add_spouse = lannister_54
+    }
+
+    1252.4.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_54 = {
+    name = "Thora"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = gregarious
+    trait = ambitious
+    trait = temperate
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 10
+    intrigue = 6
+    learning = 2
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    1188.5.6 = {
+        birth = yes
+    }
+
+    1267.12.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_55 = {
+    name = "Kollen"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_53
+    mother = lannister_54
+
+    trait = greedy
+    trait = paranoid
+    trait = cynical
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 4
+    prowess = 9
+
+    trait = education_stewardship_4
+
+    1233.3.28 = {
+        birth = yes
+    }
+
+    1262.11.13 = {
+        add_spouse = lannister_56
+    }
+
+    1312.2.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_56 = {
+    name = "Elin"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = diligent
+    trait = forgiving
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 7
+    intrigue = 4
+    learning = 2
+    prowess = 9
+
+    trait = education_stewardship_4
+
+    1245.2.20 = {
+        birth = yes
+    }
+
+    1312.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_57 = {
+    name = "Alaric"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_55
+    mother = lannister_56
+
+    trait = shy
+    trait = arrogant
+    trait = fickle
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 9
+    intrigue = 10
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    1289.11.24 = {
+        birth = yes
+    }
+
+    1338.6.9 = {
+        add_spouse = lannister_58
+    }
+
+    1348.3.24 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+lannister_58 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = gregarious
+    trait = brave
+    trait = fickle
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 1
+    intrigue = 5
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    1321.1.5 = {
+        birth = yes
+    }
+
+    1390.1.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_59 = {
+    name = "Sigfryd"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_57
+    mother = lannister_58
+
+    trait = humble
+    trait = impatient
+    trait = trusting
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 8
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    1343.8.1 = {
+        birth = yes
+    }
+
+    1366.1.25 = {
+        add_spouse = lannister_60
+    }
+
+    1410.11.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_60 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = gluttonous
+    trait = trusting
+    trait = impatient
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    1349.7.2 = {
+        birth = yes
+    }
+
+    1418.8.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_61 = {
+    name = "Mattys"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_59
+    mother = lannister_60
+
+    trait = chaste
+    trait = just
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    1373.11.6 = {
+        birth = yes
+    }
+
+    1417.12.22 = {
+        add_spouse = lannister_62
+    }
+
+    1445.3.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_62 = {
+    name = "Barbrey"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = temperate
+    trait = wrathful
+    trait = trusting
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 9
+    intrigue = 8
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    1400.6.16 = {
+        birth = yes
+    }
+
+    1484.7.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_63 = {
+    name = "Harwin"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_61
+    mother = lannister_62
+
+    trait = humble
+    trait = wrathful
+    trait = brave
+
+    diplomacy = 1
+    martial = 3
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    1436.11.6 = {
+        birth = yes
+    }
+
+    1479.9.13 = {
+        add_spouse = lannister_64
+    }
+
+    1506.10.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_64 = {
+    name = "Branda"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = arrogant
+    trait = sadistic
+    trait = fickle
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 3
+    intrigue = 2
+    learning = 7
+    prowess = 2
+
+    trait = education_diplomacy_4
+
+    1462.11.6 = {
+        birth = yes
+    }
+
+    1533.3.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_65 = {
+    name = "Baldr"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_63
+    mother = lannister_64
+
+    trait = zealous
+    trait = arbitrary
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 4
+    intrigue = 7
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_2
+
+    1487.12.24 = {
+        birth = yes
+    }
+
+    1528.10.7 = {
+        add_spouse = lannister_66
+    }
+
+    1571.11.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_66 = {
+    name = "Frennie"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = craven
+    trait = gluttonous
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    1511.3.25 = {
+        birth = yes
+    }
+
+    1583.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_67 = {
+    name = "Rodwell"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_65
+    mother = lannister_66
+
+    trait = humble
+    trait = fickle
+    trait = lazy
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 10
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    1544.8.17 = {
+        birth = yes
+    }
+
+    1578.3.22 = {
+        add_spouse = lannister_68
+    }
+
+    1600.6.24 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+lannister_68 = {
+    name = "Fanni"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = deceitful
+    trait = stubborn
+    trait = content
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_learning_2
+
+    1561.3.5 = {
+        birth = yes
+    }
+
+    1643.4.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_69 = {
+    name = "Egle"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_67
+    mother = lannister_68
+
+    trait = wrathful
+    trait = callous
+    trait = content
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 9
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    1597.7.16 = {
+        birth = yes
+    }
+
+    1618.8.1 = {
+        add_spouse = lannister_70
+    }
+
+    1680.5.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_70 = {
+    name = "Lacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = humble
+    trait = impatient
+    trait = shy
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 8
+    intrigue = 10
+    learning = 9
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    1601.4.26 = {
+        birth = yes
+    }
+
+    1670.3.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_71 = {
+    name = "Vayon"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_69
+    mother = lannister_70
+
+    trait = diligent
+    trait = calm
+    trait = impatient
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    1636.10.9 = {
+        birth = yes
+    }
+
+    1663.12.28 = {
+        add_spouse = lannister_72
+    }
+
+    1679.12.7 = {
+        death = { death_reason = death_dungeon  }
+    }
+}
+
+lannister_72 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = greedy
+    trait = stubborn
+    trait = lustful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_3
+
+    1646.5.16 = {
+        birth = yes
+    }
+
+    1719.10.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_73 = {
+    name = "Brandon"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_71
+    mother = lannister_72
+
+    trait = forgiving
+    trait = just
+    trait = calm
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_learning_4
+
+    1670.8.14 = {
+        birth = yes
+    }
+
+    1694.4.28 = {
+        add_spouse = lannister_74
+    }
+
+    1726.5.18 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+lannister_74 = {
+    name = "Thyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = temperate
+    trait = just
+    trait = chaste
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 6
+    intrigue = 9
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    1677.10.16 = {
+        birth = yes
+    }
+
+    1745.5.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_75 = {
+    name = "Bannen"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_73
+    mother = lannister_74
+
+    trait = ambitious
+    trait = gluttonous
+    trait = lustful
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 4
+    intrigue = 2
+    learning = 7
+    prowess = 7
+
+    trait = education_learning_2
+
+    1708.6.17 = {
+        birth = yes
+    }
+
+    1733.7.11 = {
+        add_spouse = lannister_76
+    }
+
+    1780.6.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_76 = {
+    name = "Edla"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = compassionate
+    trait = wrathful
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 3
+    prowess = 2
+
+    trait = education_martial_2
+
+    1716.1.1 = {
+        birth = yes
+    }
+
+    1768.6.26 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+lannister_77 = {
+    name = "Torren"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_75
+    mother = lannister_76
+
+    trait = gregarious
+    trait = gluttonous
+    trait = honest
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 8
+    learning = 3
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    1736.11.11 = {
+        birth = yes
+    }
+
+    1777.2.11 = {
+        add_spouse = lannister_78
+    }
+
+    1813.5.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_78 = {
+    name = "Serena"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = diligent
+    trait = content
+    trait = callous
+
+    diplomacy = 10
+    martial = 10
+    stewardship = 4
+    intrigue = 7
+    learning = 3
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    1760.5.16 = {
+        birth = yes
+    }
+
+    1826.5.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_79 = {
+    name = "Edric"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_77
+    mother = lannister_78
+
+    trait = compassionate
+    trait = forgiving
+    trait = generous
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 8
+    intrigue = 3
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_3
+
+    1782.3.12 = {
+        birth = yes
+    }
+
+    1826.8.12 = {
+        add_spouse = lannister_80
+    }
+
+    1859.9.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_80 = {
+    name = "Anna"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = brave
+    trait = ambitious
+    trait = chaste
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 6
+    intrigue = 3
+    learning = 9
+    prowess = 2
+
+    trait = education_learning_3
+
+    1809.8.24 = {
+        birth = yes
+    }
+
+    1875.10.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_81 = {
+    name = "Duncan"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_79
+    mother = lannister_80
+
+    trait = craven
+    trait = diligent
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 8
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    1849.2.28 = {
+        birth = yes
+    }
+
+    1870.7.25 = {
+        add_spouse = lannister_82
+    }
+
+    1920.11.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_82 = {
+    name = "Sybelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = compassionate
+    trait = vengeful
+    trait = patient
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_2
+
+    1853.9.6 = {
+        birth = yes
+    }
+
+    1923.11.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_83 = {
+    name = "Lawyrence"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_81
+    mother = lannister_82
+
+    trait = compassionate
+    trait = forgiving
+    trait = temperate
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    1877.7.16 = {
+        birth = yes
+    }
+
+    1925.8.17 = {
+        add_spouse = lannister_84
+    }
+
+    1962.2.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_84 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = temperate
+    trait = fickle
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 1
+    learning = 7
+    prowess = 10
+
+    trait = education_learning_2
+
+    1908.2.11 = {
+        birth = yes
+    }
+
+    1982.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_85 = {
+    name = "Grim"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_83
+    mother = lannister_84
+
+    trait = generous
+    trait = gregarious
+    trait = arbitrary
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 3
+
+    trait = education_intrigue_4
+
+    1947.8.25 = {
+        birth = yes
+    }
+
+    1971.5.15 = {
+        add_spouse = lannister_86
+    }
+
+    2014.11.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_86 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = diligent
+    trait = compassionate
+    trait = temperate
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    1954.5.6 = {
+        birth = yes
+    }
+
+    2027.11.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_87 = {
+    name = "Aefan"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_85
+    mother = lannister_86
+
+    trait = zealous
+    trait = brave
+    trait = content
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    1995.11.26 = {
+        birth = yes
+    }
+
+    2034.8.23 = {
+        add_spouse = lannister_88
+    }
+
+    2070.11.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_88 = {
+    name = "Serena"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = ambitious
+    trait = craven
+    trait = greedy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_2
+
+    2017.1.24 = {
+        birth = yes
+    }
+
+    2099.7.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_89 = {
+    name = "Gariss"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_87
+    mother = lannister_88
+
+    trait = sadistic
+    trait = forgiving
+    trait = chaste
+
+    diplomacy = 25
+    martial = 8
+    stewardship = 22
+    intrigue = 22
+    learning = 19
+    prowess = 25
+
+    trait = education_diplomacy_4
+
+    2052.12.8 = {
+        birth = yes
+    }
+
+    2071.6.16 = {
+        add_spouse = lannister_90
+    }
+
+    2081.12.3 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+lannister_90 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = temperate
+    trait = vengeful
+    trait = impatient
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 4
+    intrigue = 8
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    2054.3.7 = {
+        birth = yes
+    }
+
+    2135.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_91 = {
+    name = "Kollen"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_89
+    mother = lannister_90
+
+    trait = brave
+    trait = honest
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 8
+    learning = 3
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    2077.9.23 = {
+        birth = yes
+    }
+
+    2116.7.10 = {
+        add_spouse = lannister_92
+    }
+
+    2162.3.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_92 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = gregarious
+    trait = compassionate
+    trait = greedy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 7
+    learning = 3
+    prowess = 3
+
+    trait = education_stewardship_2
+
+    2099.12.16 = {
+        birth = yes
+    }
+
+    2178.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_93 = {
+    name = "Jory"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_91
+    mother = lannister_92
+
+    trait = ambitious
+    trait = trusting
+    trait = wrathful
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 8
+    intrigue = 9
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    2130.8.9 = {
+        birth = yes
+    }
+
+    2158.4.14 = {
+        add_spouse = lannister_94
+    }
+
+    2203.7.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_94 = {
+    name = "Kamyla"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = generous
+    trait = sadistic
+    trait = ambitious
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 4
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    2141.12.19 = {
+        birth = yes
+    }
+
+    2209.3.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_95 = {
+    name = "Greg"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_93
+    mother = lannister_94
+
+    trait = callous
+    trait = gregarious
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 4
+    learning = 2
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    2173.3.6 = {
+        birth = yes
+    }
+
+    2218.8.25 = {
+        add_spouse = lannister_96
+    }
+
+    2257.5.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_96 = {
+    name = "Thyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = diligent
+    trait = vengeful
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    2201.8.6 = {
+        birth = yes
+    }
+
+    2275.3.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_97 = {
+    name = "Porther"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_95
+    mother = lannister_96
+
+    trait = forgiving
+    trait = compassionate
+    trait = generous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    2240.12.28 = {
+        birth = yes
+    }
+
+    2257.10.26 = {
+        add_spouse = lannister_98
+    }
+
+    2308.11.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_98 = {
+    name = "Karci"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = sadistic
+    trait = diligent
+    trait = impatient
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 3
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    2240.5.26 = {
+        birth = yes
+    }
+
+    2309.6.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_99 = {
+    name = "Casamir"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_97
+    mother = lannister_98
+
+    trait = brave
+    trait = deceitful
+    trait = fickle
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 3
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    2276.10.14 = {
+        birth = yes
+    }
+
+    2324.9.28 = {
+        add_spouse = lannister_100
+    }
+
+    2345.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_100 = {
+    name = "Martyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = patient
+    trait = paranoid
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 4
+    intrigue = 8
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    2307.2.26 = {
+        birth = yes
+    }
+
+    2392.3.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_101 = {
+    name = "Rodwell"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_99
+    mother = lannister_100
+
+    trait = content
+    trait = arrogant
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 10
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    2328.3.20 = {
+        birth = yes
+    }
+
+    2362.11.28 = {
+        add_spouse = lannister_102
+    }
+
+    2404.9.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_102 = {
+    name = "Jynessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = trusting
+    trait = gluttonous
+    trait = fickle
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_2
+
+    2345.11.18 = {
+        birth = yes
+    }
+
+    2411.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_103 = {
+    name = "Bo"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_101
+    mother = lannister_102
+
+    trait = deceitful
+    trait = brave
+    trait = cynical
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    2378.1.6 = {
+        birth = yes
+    }
+
+    2399.12.25 = {
+        add_spouse = lannister_104
+    }
+
+    2423.6.10 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+lannister_104 = {
+    name = "Arra"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = content
+    trait = greedy
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 4
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_2
+
+    2382.6.23 = {
+        birth = yes
+    }
+
+    2448.12.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_105 = {
+    name = "Damon"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_103
+    mother = lannister_104
+
+    trait = zealous
+    trait = lustful
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 10
+    prowess = 4
+
+    trait = education_learning_3
+
+    2401.7.28 = {
+        birth = yes
+    }
+
+    2423.9.11 = {
+        add_spouse = lannister_106
+    }
+
+    2484.9.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_106 = {
+    name = "Sage"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = zealous
+    trait = temperate
+    trait = lazy
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 4
+    intrigue = 8
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_1
+
+    2406.6.2 = {
+        birth = yes
+    }
+
+    2490.10.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_107 = {
+    name = "Grimir"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_105
+    mother = lannister_106
+
+    trait = temperate
+    trait = brave
+    trait = diligent
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    2441.8.14 = {
+        birth = yes
+    }
+
+    2483.10.10 = {
+        add_spouse = lannister_108
+    }
+
+    2526.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_108 = {
+    name = "Ireni"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = chaste
+    trait = fickle
+    trait = lazy
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 10
+
+    trait = education_martial_4
+
+    2466.9.17 = {
+        birth = yes
+    }
+
+    2493.5.21 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+lannister_109 = {
+    name = "Garth"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_107
+    mother = lannister_108
+
+    trait = content
+    trait = cynical
+    trait = temperate
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_3
+
+    2487.11.25 = {
+        birth = yes
+    }
+
+    2504.8.24 = {
+        add_spouse = lannister_110
+    }
+
+    2561.10.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_110 = {
+    name = "Raya"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = arbitrary
+    trait = humble
+    trait = diligent
+
+    diplomacy = 10
+    martial = 10
+    stewardship = 8
+    intrigue = 3
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    2487.7.28 = {
+        birth = yes
+    }
+
+    2554.8.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_111 = {
+    name = "Leobald"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_109
+    mother = lannister_110
+
+    trait = vengeful
+    trait = calm
+    trait = shy
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 10
+    intrigue = 3
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    2518.10.4 = {
+        birth = yes
+    }
+
+    2532.5.27 = {
+        add_spouse = lannister_112
+    }
+
+    2590.12.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_112 = {
+    name = "Izabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = fickle
+    trait = craven
+    trait = lustful
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 8
+    intrigue = 9
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    2515.4.6 = {
+        birth = yes
+    }
+
+    2589.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_113 = {
+    name = "Gariss"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_111
+    mother = lannister_112
+
+    trait = honest
+    trait = impatient
+    trait = zealous
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 2
+    intrigue = 11
+    learning = 5
+    prowess = 3
+
+    trait = education_intrigue_2
+
+    2553.8.27 = {
+        birth = yes
+    }
+
+    2584.8.5 = {
+        add_spouse = lannister_114
+    }
+
+    2594.5.13 = {
+        death = { death_reason = death_beaten }
+    }
+}
+
+lannister_114 = {
+    name = "Frenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = lustful
+    trait = compassionate
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    2567.7.12 = {
+        birth = yes
+    }
+
+    2642.12.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_115 = {
+    name = "Mikken"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_113
+    mother = lannister_114
+
+    trait = ambitious
+    trait = humble
+    trait = honest
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    2590.2.6 = {
+        birth = yes
+    }
+
+    2604.3.24 = {
+        add_spouse = lannister_116
+    }
+
+    2663.7.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_116 = {
+    name = "Elin"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = gregarious
+    trait = gluttonous
+    trait = humble
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    2587.6.22 = {
+        birth = yes
+    }
+
+    2663.6.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_117 = {
+    name = "Desmond"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_115
+    mother = lannister_116
+
+    trait = cynical
+    trait = compassionate
+    trait = honest
+
+    diplomacy = 10
+    martial = 9
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    2632.8.7 = {
+        birth = yes
+    }
+
+    2669.10.24 = {
+        add_spouse = lannister_118
+    }
+
+    2679.11.4 = {
+        death = { death_reason = death_duel }
+    }
+}
+
+lannister_118 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = deceitful
+    trait = generous
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 4
+    intrigue = 8
+    learning = 10
+    prowess = 10
+
+    trait = education_learning_3
+
+    2652.8.7 = {
+        birth = yes
+    }
+
+    2734.3.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_119 = {
+    name = "Eylif"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_117
+    mother = lannister_118
+
+    trait = humble
+    trait = gregarious
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 7
+    intrigue = 7
+    learning = 9
+    prowess = 9
+
+    trait = education_learning_3
+
+    2676.8.18 = {
+        birth = yes
+    }
+
+    2707.10.13 = {
+        add_spouse = lannister_120
+    }
+
+    2753.11.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_120 = {
+    name = "Ylva"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = compassionate
+    trait = ambitious
+    trait = greedy
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_3
+
+    2690.9.26 = {
+        birth = yes
+    }
+
+    2759.8.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_121 = {
+    name = "Faste"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_119
+    mother = lannister_120
+
+    trait = content
+    trait = stubborn
+    trait = chaste
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    2719.5.23 = {
+        birth = yes
+    }
+
+    2733.4.10 = {
+        add_spouse = lannister_122
+    }
+
+    2788.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_122 = {
+    name = "Magdalyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = craven
+    trait = lustful
+    trait = trusting
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 9
+    intrigue = 9
+    learning = 2
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    2716.11.2 = {
+        birth = yes
+    }
+
+    2743.2.13 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+lannister_123 = {
+    name = "Errold"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_121
+    mother = lannister_122
+
+    trait = cynical
+    trait = vengeful
+    trait = just
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 8
+    intrigue = 3
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    2743.9.21 = {
+        birth = yes
+    }
+
+    2767.6.8 = {
+        add_spouse = lannister_124
+    }
+
+    2811.11.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_124 = {
+    name = "Agnessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = shy
+    trait = wrathful
+    trait = impatient
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    2750.8.16 = {
+        birth = yes
+    }
+
+    2821.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_125 = {
+    name = "Mance"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_123
+    mother = lannister_124
+
+    trait = temperate
+    trait = brave
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    2769.5.12 = {
+        birth = yes
+    }
+
+    2806.2.4 = {
+        add_spouse = lannister_126
+    }
+
+    2852.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_126 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = ambitious
+    trait = forgiving
+    trait = chaste
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    2789.5.1 = {
+        birth = yes
+    }
+
+    2864.1.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_127 = {
+    name = "Knut"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_125
+    mother = lannister_126
+
+    trait = sadistic
+    trait = brave
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 1
+    intrigue = 1
+    learning = 2
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    2819.2.17 = {
+        birth = yes
+    }
+
+    2861.11.7 = {
+        add_spouse = lannister_128
+    }
+
+    2897.7.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_128 = {
+    name = "Branda"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = fickle
+    trait = humble
+    trait = cynical
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 9
+    learning = 6
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    2844.8.3 = {
+        birth = yes
+    }
+
+    2913.7.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_129 = {
+    name = "Torkel"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_127
+    mother = lannister_128
+
+    trait = diligent
+    trait = fickle
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 3
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    2877.12.26 = {
+        birth = yes
+    }
+
+    2919.8.9 = {
+        add_spouse = lannister_130
+    }
+
+    2956.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_130 = {
+    name = "Kyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = arbitrary
+    trait = gregarious
+    trait = chaste
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_4
+
+    2902.12.5 = {
+        birth = yes
+    }
+
+    2973.5.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_131 = {
+    name = "Teo"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_129
+    mother = lannister_130
+
+    trait = arrogant
+    trait = generous
+    trait = patient
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    2920.2.7 = {
+        birth = yes
+    }
+
+    2956.2.28 = {
+        add_spouse = lannister_132
+    }
+
+    2993.8.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_132 = {
+    name = "Mylessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = fickle
+    trait = sadistic
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_4
+
+    2939.9.8 = {
+        birth = yes
+    }
+
+    3016.3.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_133 = {
+    name = "Streen"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_131
+    mother = lannister_132
+
+    trait = gluttonous
+    trait = cynical
+    trait = honest
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 2
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    2984.5.19 = {
+        birth = yes
+    }
+
+    3026.3.24 = {
+        add_spouse = lannister_134
+    }
+
+    3063.11.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_134 = {
+    name = "Isyabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = cynical
+    trait = craven
+    trait = fickle
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 2
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    3009.5.16 = {
+        birth = yes
+    }
+
+    3082.10.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_135 = {
+    name = "Bartimus"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_133
+    mother = lannister_134
+
+    trait = content
+    trait = temperate
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 9
+    intrigue = 1
+    learning = 7
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    3035.10.18 = {
+        birth = yes
+    }
+
+    3070.3.10 = {
+        add_spouse = lannister_136
+    }
+
+    3112.10.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_136 = {
+    name = "Wynafryd"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = compassionate
+    trait = lustful
+    trait = generous
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 9
+
+    trait = education_learning_3
+
+    3053.10.12 = {
+        birth = yes
+    }
+
+    3125.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_137 = {
+    name = "Mallador"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_135
+    mother = lannister_136
+
+    trait = ambitious
+    trait = cynical
+    trait = lazy
+
+    diplomacy = 3
+    martial = 1
+    stewardship = 5
+    intrigue = 9
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    3090.7.13 = {
+        birth = yes
+    }
+
+    3126.9.24 = {
+        add_spouse = lannister_138
+    }
+
+    3162.12.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_138 = {
+    name = "Arrana"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = paranoid
+    trait = sadistic
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 1
+    stewardship = 4
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    3109.5.9 = {
+        birth = yes
+    }
+
+    3179.11.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_139 = {
+    name = "Mark"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_137
+    mother = lannister_138
+
+    trait = forgiving
+    trait = lustful
+    trait = greedy
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_3
+
+    3140.3.9 = {
+        birth = yes
+    }
+
+    3167.4.24 = {
+        add_spouse = lannister_140
+    }
+
+    3221.1.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_140 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = paranoid
+    trait = greedy
+    trait = just
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 1
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    3150.7.16 = {
+        birth = yes
+    }
+
+    3225.4.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_141 = {
+    name = "Harrion"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_139
+    mother = lannister_140
+
+    trait = arbitrary
+    trait = gluttonous
+    trait = impatient
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    3193.2.7 = {
+        birth = yes
+    }
+
+    3241.11.4 = {
+        add_spouse = lannister_142
+    }
+
+    3265.3.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_142 = {
+    name = "Izabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = chaste
+    trait = deceitful
+    trait = impatient
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 3
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    3224.6.19 = {
+        birth = yes
+    }
+
+    3294.9.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_143 = {
+    name = "Calon"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_141
+    mother = lannister_142
+
+    trait = trusting
+    trait = brave
+    trait = humble
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    3243.4.12 = {
+        birth = yes
+    }
+
+    3265.6.26 = {
+        add_spouse = lannister_144
+    }
+
+    3310.5.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_144 = {
+    name = "Barbrey"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = impatient
+    trait = lustful
+    trait = zealous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 8
+    intrigue = 9
+    learning = 7
+    prowess = 2
+
+    trait = education_intrigue_3
+
+    3248.2.17 = {
+        birth = yes
+    }
+
+    3275.9.8 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+lannister_145 = {
+    name = "Ulward"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_143
+    mother = lannister_144
+
+    trait = paranoid
+    trait = ambitious
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 8
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_2
+
+    3273.7.8 = {
+        birth = yes
+    }
+
+    3316.4.27 = {
+        add_spouse = lannister_146
+    }
+
+    3351.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_146 = {
+    name = "Igrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = brave
+    trait = diligent
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 1
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_4
+
+    3299.2.13 = {
+        birth = yes
+    }
+
+    3335.12.18 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+lannister_147 = {
+    name = "Garth"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_145
+    mother = lannister_146
+
+    trait = temperate
+    trait = lazy
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 6
+    prowess = 11
+
+    trait = education_martial_3
+
+    3317.6.19 = {
+        birth = yes
+    }
+
+    3337.6.23 = {
+        add_spouse = lannister_148
+    }
+
+    3385.1.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_148 = {
+    name = "Alysane"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = impatient
+    trait = wrathful
+    trait = compassionate
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 8
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    3320.11.12 = {
+        birth = yes
+    }
+
+    3394.9.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_149 = {
+    name = "Knut"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_147
+    mother = lannister_148
+
+    trait = just
+    trait = content
+    trait = stubborn
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 10
+    learning = 8
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    3354.10.16 = {
+        birth = yes
+    }
+
+    3386.11.20 = {
+        add_spouse = lannister_150
+    }
+
+    3396.3.5 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+lannister_150 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = lustful
+    trait = sadistic
+    trait = fickle
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 3
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    3369.12.21 = {
+        birth = yes
+    }
+
+    3454.2.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_151 = {
+    name = "Byam"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_149
+    mother = lannister_150
+
+    trait = wrathful
+    trait = vengeful
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    3393.6.16 = {
+        birth = yes
+    }
+
+    3409.2.22 = {
+        add_spouse = lannister_152
+    }
+
+    3469.9.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_152 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = trusting
+    trait = sadistic
+    trait = calm
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 10
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    3392.2.25 = {
+        birth = yes
+    }
+
+    3458.1.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_153 = {
+    name = "Karlon"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_151
+    mother = lannister_152
+
+    trait = gluttonous
+    trait = arrogant
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 4
+    intrigue = 3
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_1
+
+    3409.1.27 = {
+        birth = yes
+    }
+
+    3449.4.12 = {
+        add_spouse = lannister_154
+    }
+
+    3482.9.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_154 = {
+    name = "Isyabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = vengeful
+    trait = gluttonous
+    trait = calm
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    3432.5.11 = {
+        birth = yes
+    }
+
+    3500.4.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_155 = {
+    name = "Degilf"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_153
+    mother = lannister_154
+
+    trait = cynical
+    trait = honest
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    3467.5.12 = {
+        birth = yes
+    }
+
+    3481.11.15 = {
+        add_spouse = lannister_156
+    }
+
+    3550.5.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_156 = {
+    name = "Ricardya"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = gregarious
+    trait = chaste
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 9
+    learning = 5
+    prowess = 9
+
+    trait = education_intrigue_2
+
+    3464.7.24 = {
+        birth = yes
+    }
+
+    3533.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_157 = {
+    name = "Wynton"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_155
+    mother = lannister_156
+
+    trait = stubborn
+    trait = gregarious
+    trait = craven
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    3500.5.22 = {
+        birth = yes
+    }
+
+    3517.3.24 = {
+        add_spouse = lannister_158
+    }
+
+    3577.1.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_158 = {
+    name = "Lidya"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = greedy
+    trait = impatient
+    trait = gregarious
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    3500.4.13 = {
+        birth = yes
+    }
+
+    3576.10.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_159 = {
+    name = "Tord"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_157
+    mother = lannister_158
+
+    trait = content
+    trait = stubborn
+    trait = calm
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 3
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    3518.5.21 = {
+        birth = yes
+    }
+
+    3542.6.10 = {
+        add_spouse = lannister_160
+    }
+
+    3598.7.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_160 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = content
+    trait = stubborn
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    3525.7.26 = {
+        birth = yes
+    }
+
+    3602.4.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_161 = {
+    name = "Donnis"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_159
+    mother = lannister_160
+
+    trait = honest
+    trait = generous
+    trait = fickle
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 11
+
+    trait = education_diplomacy_2
+
+    3545.7.24 = {
+        birth = yes
+    }
+
+    3560.12.17 = {
+        add_spouse = lannister_162
+    }
+
+    3618.11.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_162 = {
+    name = "Berta"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = wrathful
+    trait = arrogant
+    trait = stubborn
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 3
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    3543.8.23 = {
+        birth = yes
+    }
+
+    3580.7.25 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+lannister_163 = {
+    name = "Alic"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_161
+    mother = lannister_162
+
+    trait = impatient
+    trait = arbitrary
+    trait = callous
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 8
+    intrigue = 7
+    learning = 8
+    prowess = 11
+
+    trait = education_martial_4
+
+    3577.4.17 = {
+        birth = yes
+    }
+
+    3614.4.26 = {
+        add_spouse = lannister_164
+    }
+
+    3660.11.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_164 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = impatient
+    trait = vengeful
+    trait = diligent
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_3
+
+    3597.10.24 = {
+        birth = yes
+    }
+
+    3678.9.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_165 = {
+    name = "Lawyrence"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_163
+    mother = lannister_164
+
+    trait = humble
+    trait = callous
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    3614.7.9 = {
+        birth = yes
+    }
+
+    3638.5.9 = {
+        add_spouse = lannister_166
+    }
+
+    3685.2.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_166 = {
+    name = "Cecilia"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = gluttonous
+    trait = zealous
+    trait = fickle
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 2
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_2
+
+    3621.9.7 = {
+        birth = yes
+    }
+
+    3694.9.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_167 = {
+    name = "Frodoi"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_165
+    mother = lannister_166
+
+    trait = vengeful
+    trait = craven
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    3638.5.15 = {
+        birth = yes
+    }
+
+    3675.9.28 = {
+        add_spouse = lannister_168
+    }
+
+    3722.10.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_168 = {
+    name = "Alys"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = gluttonous
+    trait = forgiving
+    trait = fickle
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 2
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_2
+
+    3658.9.27 = {
+        birth = yes
+    }
+
+    3738.12.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_169 = {
+    name = "Wynton"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_167
+    mother = lannister_168
+
+    trait = callous
+    trait = honest
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 3
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    3702.11.15 = {
+        birth = yes
+    }
+
+    3727.6.27 = {
+        add_spouse = lannister_170
+    }
+
+    3773.5.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_170 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = temperate
+    trait = content
+    trait = zealous
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    3710.12.6 = {
+        birth = yes
+    }
+
+    3792.11.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_171 = {
+    name = "Jonjon"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_169
+    mother = lannister_170
+
+    trait = vengeful
+    trait = lustful
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    3741.11.21 = {
+        birth = yes
+    }
+
+    3768.7.1 = {
+        add_spouse = lannister_172
+    }
+
+    3822.2.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_172 = {
+    name = "Mariah"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = gluttonous
+    trait = shy
+    trait = calm
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 3
+    prowess = 3
+
+    trait = education_martial_1
+
+    3751.1.12 = {
+        birth = yes
+    }
+
+    3817.9.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_173 = {
+    name = "Rogar"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_171
+    mother = lannister_172
+
+    trait = cynical
+    trait = stubborn
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    3778.7.26 = {
+        birth = yes
+    }
+
+    3814.12.2 = {
+        add_spouse = lannister_174
+    }
+
+    3849.7.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_174 = {
+    name = "Kennya"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = greedy
+    trait = compassionate
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 9
+    intrigue = 6
+    learning = 4
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    3797.8.16 = {
+        birth = yes
+    }
+
+    3880.2.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_175 = {
+    name = "Jonnel"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_173
+    mother = lannister_174
+
+    trait = stubborn
+    trait = forgiving
+    trait = chaste
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 4
+    intrigue = 2
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    3827.12.27 = {
+        birth = yes
+    }
+
+    3828.10.19 = {
+        give_nickname = nick_the_glorious
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    3877.6.18 = {
+        add_spouse = lannister_176
+    }
+
+    3902.6.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_176 = {
+    name = "Wynafryd"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = compassionate
+    trait = paranoid
+    trait = brave
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 2
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    3860.1.28 = {
+        birth = yes
+    }
+
+    3890.4.17 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+lannister_177 = {
+    name = "Bowen"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_175
+    mother = lannister_176
+
+    trait = brave
+    trait = shy
+    trait = content
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_3
+
+    3883.3.5 = {
+        birth = yes
+    }
+
+    3927.9.9 = {
+        add_spouse = lannister_178
+    }
+
+    3937.12.3 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+lannister_178 = {
+    name = "Berta"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = ambitious
+    trait = paranoid
+    trait = humble
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_learning_4
+
+    3910.1.13 = {
+        birth = yes
+    }
+
+    3989.11.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_179 = {
+    name = "Galbart"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_177
+    mother = lannister_178
+
+    trait = callous
+    trait = chaste
+    trait = temperate
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 9
+    intrigue = 9
+    learning = 3
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    3934.8.8 = {
+        birth = yes
+    }
+
+    3965.10.14 = {
+        add_spouse = lannister_180
+    }
+
+    4014.5.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_180 = {
+    name = "Saga"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = just
+    trait = craven
+    trait = cynical
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 5
+    intrigue = 10
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    3948.10.22 = {
+        birth = yes
+    }
+
+    4022.1.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_181 = {
+    name = "Loboda"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_179
+    mother = lannister_180
+
+    trait = fickle
+    trait = zealous
+    trait = lazy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 10
+    intrigue = 6
+    learning = 1
+    prowess = 10
+
+    trait = education_stewardship_1
+
+    3988.10.10 = {
+        birth = yes
+    }
+
+    4024.12.28 = {
+        add_spouse = lannister_182
+    }
+
+    4067.8.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_182 = {
+    name = "Tyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = cynical
+    trait = compassionate
+    trait = calm
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 9
+    intrigue = 9
+    learning = 2
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    4007.6.6 = {
+        birth = yes
+    }
+
+    4075.12.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_183 = {
+    name = "Larence"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_181
+    mother = lannister_182
+
+    trait = lustful
+    trait = brave
+    trait = paranoid
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    4024.11.14 = {
+        birth = yes
+    }
+
+    4051.5.5 = {
+        add_spouse = lannister_184
+    }
+
+    4061.1.13 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+lannister_184 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = gregarious
+    trait = vengeful
+    trait = generous
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 7
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    4034.10.13 = {
+        birth = yes
+    }
+
+    4114.4.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_185 = {
+    name = "Edwyn"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_183
+    mother = lannister_184
+
+    trait = chaste
+    trait = forgiving
+    trait = diligent
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 10
+
+    trait = education_intrigue_3
+
+    4057.10.13 = {
+        birth = yes
+    }
+
+    4095.6.21 = {
+        add_spouse = lannister_186
+    }
+
+    4132.6.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_186 = {
+    name = "Magya"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = diligent
+    trait = greedy
+    trait = impatient
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 8
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    4078.9.12 = {
+        birth = yes
+    }
+
+    4158.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_187 = {
+    name = "Nik"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_185
+    mother = lannister_186
+
+    trait = forgiving
+    trait = honest
+    trait = brave
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 3
+    intrigue = 7
+    learning = 8
+    prowess = 9
+
+    trait = education_learning_3
+
+    4115.8.1 = {
+        birth = yes
+    }
+
+    4147.2.17 = {
+        add_spouse = lannister_188
+    }
+
+    4198.5.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_188 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = patient
+    trait = lustful
+    trait = stubborn
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 6
+    intrigue = 9
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    4130.6.27 = {
+        birth = yes
+    }
+
+    4213.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_189 = {
+    name = "Olaff"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_187
+    mother = lannister_188
+
+    trait = ambitious
+    trait = craven
+    trait = honest
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 8
+    learning = 8
+    prowess = 10
+
+    trait = education_intrigue_1
+
+    4150.6.28 = {
+        birth = yes
+    }
+
+    4173.5.13 = {
+        add_spouse = lannister_190
+    }
+
+    4235.11.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_190 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = patient
+    trait = greedy
+    trait = just
+
+    diplomacy = 1
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    4156.3.5 = {
+        birth = yes
+    }
+
+    4239.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_191 = {
+    name = "Chayle"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_189
+    mother = lannister_190
+
+    trait = brave
+    trait = diligent
+    trait = temperate
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 10
+    learning = 6
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    4194.5.13 = {
+        birth = yes
+    }
+
+    4235.11.3 = {
+        add_spouse = lannister_192
+    }
+
+    4265.2.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_192 = {
+    name = "Krysti"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = arbitrary
+    trait = arrogant
+    trait = patient
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 7
+    intrigue = 1
+    learning = 4
+    prowess = 11
+
+    trait = education_martial_3
+
+    4218.2.2 = {
+        birth = yes
+    }
+
+    4289.7.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_193 = {
+    name = "Helman"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_191
+    mother = lannister_192
+
+    trait = wrathful
+    trait = stubborn
+    trait = lustful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    4245.12.18 = {
+        birth = yes
+    }
+
+    4292.1.16 = {
+        add_spouse = lannister_194
+    }
+
+    4327.6.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_194 = {
+    name = "Barba"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = greedy
+    trait = ambitious
+    trait = trusting
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 2
+    prowess = 8
+
+    trait = education_martial_3
+
+    4275.5.24 = {
+        birth = yes
+    }
+
+    4359.5.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_195 = {
+    name = "Halys"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_193
+    mother = lannister_194
+
+    trait = craven
+    trait = sadistic
+    trait = generous
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    4293.8.26 = {
+        birth = yes
+    }
+
+    4312.4.20 = {
+        add_spouse = lannister_196
+    }
+
+    4367.8.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_196 = {
+    name = "Gilli"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = chaste
+    trait = honest
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 8
+    learning = 8
+    prowess = 4
+
+    trait = education_stewardship_4
+
+    4295.7.20 = {
+        birth = yes
+    }
+
+    4329.2.5 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+lannister_197 = {
+    name = "Andren"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_195
+    mother = lannister_196
+
+    trait = calm
+    trait = generous
+    trait = diligent
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 2
+    intrigue = 5
+    learning = 7
+    prowess = 1
+
+    trait = education_martial_2
+
+    4319.4.24 = {
+        birth = yes
+    }
+
+    4343.1.10 = {
+        add_spouse = lannister_198
+    }
+
+    4385.3.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_198 = {
+    name = "Ingarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = ambitious
+    trait = stubborn
+    trait = honest
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_2
+
+    4326.7.10 = {
+        birth = yes
+    }
+
+    4408.11.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_199 = {
+    name = "Dag"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_197
+    mother = lannister_198
+
+    trait = patient
+    trait = ambitious
+    trait = gluttonous
+
+    diplomacy = 1
+    martial = 7
+    stewardship = 2
+    intrigue = 5
+    learning = 2
+    prowess = 5
+
+    trait = education_martial_2
+
+    4360.5.25 = {
+        birth = yes
+    }
+
+    4390.7.8 = {
+        add_spouse = lannister_200
+    }
+
+    4433.4.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_200 = {
+    name = "Kristyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = deceitful
+    trait = ambitious
+    trait = shy
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 4
+    intrigue = 8
+    learning = 10
+    prowess = 6
+
+    trait = education_learning_2
+
+    4373.1.11 = {
+        birth = yes
+    }
+
+    4457.9.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_201 = {
+    name = "Skule"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_199
+    mother = lannister_200
+
+    trait = deceitful
+    trait = ambitious
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    4400.10.8 = {
+        birth = yes
+    }
+
+    4429.9.26 = {
+        add_spouse = lannister_202
+    }
+
+    4481.8.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_202 = {
+    name = "Sera"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = stubborn
+    trait = trusting
+    trait = content
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    4412.5.12 = {
+        birth = yes
+    }
+
+    4495.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_203 = {
+    name = "Laen"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_201
+    mother = lannister_202
+
+    trait = craven
+    trait = gregarious
+    trait = just
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    4454.2.22 = {
+        birth = yes
+    }
+
+    4495.3.12 = {
+        add_spouse = lannister_204
+    }
+
+    4523.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_204 = {
+    name = "Ewa"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = zealous
+    trait = lazy
+    trait = chaste
+
+    diplomacy = 8
+    martial = 2
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    4478.1.8 = {
+        birth = yes
+    }
+
+    4562.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_205 = {
+    name = "Garth"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_203
+    mother = lannister_204
+
+    trait = arrogant
+    trait = sadistic
+    trait = just
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 4
+    intrigue = 7
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_2
+
+    4523.3.5 = {
+        birth = yes
+    }
+
+    4542.10.18 = {
+        add_spouse = lannister_206
+    }
+
+    4603.5.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_206 = {
+    name = "Cecil"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = wrathful
+    trait = honest
+    trait = generous
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    4525.9.2 = {
+        birth = yes
+    }
+
+    4594.7.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_207 = {
+    name = "Damon"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_205
+    mother = lannister_206
+
+    trait = trusting
+    trait = wrathful
+    trait = content
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 4
+    intrigue = 10
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    4558.1.26 = {
+        birth = yes
+    }
+
+    4601.2.23 = {
+        add_spouse = lannister_208
+    }
+
+    4624.1.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_208 = {
+    name = "Wylla"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = brave
+    trait = arbitrary
+    trait = trusting
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 9
+    intrigue = 3
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    4584.10.1 = {
+        birth = yes
+    }
+
+    4652.6.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_209 = {
+    name = "Magnar"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_207
+    mother = lannister_208
+
+    trait = craven
+    trait = just
+    trait = generous
+
+    diplomacy = 6
+    martial = 1
+    stewardship = 5
+    intrigue = 10
+    learning = 7
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    4614.10.14 = {
+        birth = yes
+    }
+
+    4663.10.17 = {
+        add_spouse = lannister_210
+    }
+
+    4698.9.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_210 = {
+    name = "Sarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = diligent
+    trait = sadistic
+    trait = humble
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 3
+
+    trait = education_intrigue_4
+
+    4646.4.8 = {
+        birth = yes
+    }
+
+    4718.11.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_211 = {
+    name = "Petar"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_209
+    mother = lannister_210
+
+    trait = generous
+    trait = chaste
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 9
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    4679.7.10 = {
+        birth = yes
+    }
+
+    4720.4.18 = {
+        add_spouse = lannister_212
+    }
+
+    4745.12.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_212 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = forgiving
+    trait = compassionate
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_4
+
+    4703.1.1 = {
+        birth = yes
+    }
+
+    4774.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_213 = {
+    name = "Marlon"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_211
+    mother = lannister_212
+
+    trait = ambitious
+    trait = lustful
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 10
+    intrigue = 4
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    4743.7.27 = {
+        birth = yes
+    }
+
+    4793.8.24 = {
+        add_spouse = lannister_214
+    }
+
+    4816.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_214 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = greedy
+    trait = vengeful
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_3
+
+    4776.9.27 = {
+        birth = yes
+    }
+
+    4859.8.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_215 = {
+    name = "Bartimus"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_213
+    mother = lannister_214
+
+    trait = ambitious
+    trait = just
+    trait = lustful
+
+    diplomacy = 12
+    martial = 21
+    stewardship = 20
+    intrigue = 17
+    learning = 29
+    prowess = 25
+
+    trait = education_learning_4
+
+    4804.12.23 = {
+        birth = yes
+    }
+
+    4805.12.18 = {
+        give_nickname = nick_the_magnificent
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    4832.4.3 = {
+        add_spouse = lannister_216
+    }
+
+    4862.10.2 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+lannister_216 = {
+    name = "Tissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = cynical
+    trait = stubborn
+    trait = temperate
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 10
+
+    trait = education_stewardship_3
+
+    4815.1.25 = {
+        birth = yes
+    }
+
+    4891.12.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_217 = {
+    name = "Rolfwyn"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_215
+    mother = lannister_216
+
+    trait = compassionate
+    trait = calm
+    trait = just
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 6
+    intrigue = 11
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    4835.11.21 = {
+        birth = yes
+    }
+
+    4881.5.4 = {
+        add_spouse = lannister_218
+    }
+
+    4891.4.18 = {
+        death = { death_reason = death_duel }
+    }
+}
+
+lannister_218 = {
+    name = "Elyassa"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = zealous
+    trait = lazy
+    trait = greedy
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 8
+
+    trait = education_learning_3
+
+    4864.12.7 = {
+        birth = yes
+    }
+
+    4934.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_219 = {
+    name = "Faste"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_217
+    mother = lannister_218
+
+    trait = deceitful
+    trait = vengeful
+    trait = generous
+
+    diplomacy = 3
+    martial = 1
+    stewardship = 5
+    intrigue = 9
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    4883.1.28 = {
+        birth = yes
+    }
+
+    4920.5.17 = {
+        add_spouse = lannister_220
+    }
+
+    4968.7.14 = {
+        death = { death_reason = death_torture  }
+    }
+}
+
+lannister_220 = {
+    name = "Bethany"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = humble
+    trait = forgiving
+    trait = impatient
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 2
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    4903.3.1 = {
+        birth = yes
+    }
+
+    4988.1.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_221 = {
+    name = "Galbart"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_219
+    mother = lannister_220
+
+    trait = calm
+    trait = gregarious
+    trait = content
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_1
+
+    4921.3.10 = {
+        birth = yes
+    }
+
+    4969.6.3 = {
+        add_spouse = lannister_222
+    }
+
+    5002.9.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_222 = {
+    name = "Lidania"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = calm
+    trait = impatient
+    trait = lazy
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    4952.11.16 = {
+        birth = yes
+    }
+
+    5027.4.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_223 = {
+    name = "Duncan"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_221
+    mother = lannister_222
+
+    trait = chaste
+    trait = lazy
+    trait = content
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 9
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    4993.3.28 = {
+        birth = yes
+    }
+
+    5011.4.14 = {
+        add_spouse = lannister_224
+    }
+
+    5065.3.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_224 = {
+    name = "Elin"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = patient
+    trait = lazy
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 9
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    4994.12.24 = {
+        birth = yes
+    }
+
+    5063.3.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_225 = {
+    name = "Hrane"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_223
+    mother = lannister_224
+
+    trait = lazy
+    trait = brave
+    trait = shy
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 6
+    intrigue = 3
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_3
+
+    5026.5.2 = {
+        birth = yes
+    }
+
+    5066.6.4 = {
+        add_spouse = lannister_226
+    }
+
+    5099.4.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_226 = {
+    name = "Caty"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = arbitrary
+    trait = shy
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    5049.4.25 = {
+        birth = yes
+    }
+
+    5122.12.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_227 = {
+    name = "Ulf"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_225
+    mother = lannister_226
+
+    trait = ambitious
+    trait = shy
+    trait = diligent
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 9
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    5077.11.6 = {
+        birth = yes
+    }
+
+    5110.8.27 = {
+        add_spouse = lannister_228
+    }
+
+    5130.5.23 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+lannister_228 = {
+    name = "Tylissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = lustful
+    trait = wrathful
+    trait = callous
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    5093.9.24 = {
+        birth = yes
+    }
+
+    5175.9.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_229 = {
+    name = "Markus"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_227
+    mother = lannister_228
+
+    trait = humble
+    trait = greedy
+    trait = vengeful
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 9
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    5122.7.2 = {
+        birth = yes
+    }
+
+    5167.3.20 = {
+        add_spouse = lannister_230
+    }
+
+    5177.2.28 = {
+        death = { death_reason = death_beaten }
+    }
+}
+
+lannister_230 = {
+    name = "Eri"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = paranoid
+    trait = impatient
+    trait = just
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_4
+
+    5150.10.7 = {
+        birth = yes
+    }
+
+    5216.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_231 = {
+    name = "Cellador"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_229
+    mother = lannister_230
+
+    trait = content
+    trait = callous
+    trait = shy
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 4
+    intrigue = 9
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    5168.12.10 = {
+        birth = yes
+    }
+
+    5212.5.2 = {
+        add_spouse = lannister_232
+    }
+
+    5234.4.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_232 = {
+    name = "Kyt"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = humble
+    trait = craven
+    trait = compassionate
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 9
+    intrigue = 7
+    learning = 5
+    prowess = 9
+
+    trait = education_stewardship_1
+
+    5195.12.1 = {
+        birth = yes
+    }
+
+    5275.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_233 = {
+    name = "Ronnel"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_231
+    mother = lannister_232
+
+    trait = shy
+    trait = paranoid
+    trait = just
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 3
+    intrigue = 4
+    learning = 2
+    prowess = 7
+
+    trait = education_martial_3
+
+    5212.5.11 = {
+        birth = yes
+    }
+
+    5253.3.24 = {
+        add_spouse = lannister_234
+    }
+
+    5285.6.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_234 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = lazy
+    trait = content
+    trait = patient
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_3
+
+    5236.4.5 = {
+        birth = yes
+    }
+
+    5321.8.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_235 = {
+    name = "Wylis"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_233
+    mother = lannister_234
+
+    trait = chaste
+    trait = arbitrary
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    5274.8.13 = {
+        birth = yes
+    }
+
+    5307.6.22 = {
+        add_spouse = lannister_236
+    }
+
+    5317.1.21 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+lannister_236 = {
+    name = "Ansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = gluttonous
+    trait = callous
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    5290.1.7 = {
+        birth = yes
+    }
+
+    5366.3.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_237 = {
+    name = "Ormyn"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_235
+    mother = lannister_236
+
+    trait = humble
+    trait = impatient
+    trait = fickle
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 3
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_1
+
+    5309.2.24 = {
+        birth = yes
+    }
+
+    5325.9.5 = {
+        add_spouse = lannister_238
+    }
+
+    5391.7.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_238 = {
+    name = "Lidania"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = paranoid
+    trait = honest
+    trait = cynical
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    5308.3.28 = {
+        birth = yes
+    }
+
+    5387.2.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_239 = {
+    name = "Joseth"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_237
+    mother = lannister_238
+
+    trait = craven
+    trait = temperate
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    5350.8.1 = {
+        birth = yes
+    }
+
+    5387.8.8 = {
+        add_spouse = lannister_240
+    }
+
+    5424.3.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_240 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = deceitful
+    trait = patient
+    trait = fickle
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    5370.7.26 = {
+        birth = yes
+    }
+
+    5397.11.13 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+lannister_241 = {
+    name = "Roose"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_239
+    mother = lannister_240
+
+    trait = trusting
+    trait = vengeful
+    trait = cynical
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 8
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    5389.1.2 = {
+        birth = yes
+    }
+
+    5417.5.9 = {
+        add_spouse = lannister_242
+    }
+
+    5428.5.2 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+lannister_242 = {
+    name = "Ely"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = calm
+    trait = temperate
+    trait = patient
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 8
+    intrigue = 3
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_3
+
+    5400.10.23 = {
+        birth = yes
+    }
+
+    5485.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_243 = {
+    name = "Folke"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_241
+    mother = lannister_242
+
+    trait = zealous
+    trait = ambitious
+    trait = calm
+
+    diplomacy = 24
+    martial = 26
+    stewardship = 21
+    intrigue = 20
+    learning = 29
+    prowess = 17
+
+    trait = education_learning_4
+
+    5420.5.28 = {
+        birth = yes
+    }
+
+    5457.5.6 = {
+        add_spouse = lannister_244
+    }
+
+    5467.7.22 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+lannister_244 = {
+    name = "Jynessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = content
+    trait = generous
+    trait = trusting
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_2
+
+    5440.7.16 = {
+        birth = yes
+    }
+
+    5511.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_245 = {
+    name = "Frodoi"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_243
+    mother = lannister_244
+
+    trait = arbitrary
+    trait = content
+    trait = honest
+
+    diplomacy = 18
+    martial = 27
+    stewardship = 27
+    intrigue = 18
+    learning = 22
+    prowess = 23
+
+    trait = education_martial_4
+
+    5467.7.6 = {
+        birth = yes
+    }
+
+    5504.3.16 = {
+        add_spouse = lannister_246
+    }
+
+    5550.9.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_246 = {
+    name = "Marna"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = humble
+    trait = craven
+    trait = calm
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 4
+    intrigue = 8
+    learning = 1
+    prowess = 11
+
+    trait = education_diplomacy_1
+
+    5487.9.28 = {
+        birth = yes
+    }
+
+    5560.9.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_247 = {
+    name = "Brandon"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_245
+    mother = lannister_246
+
+    trait = lustful
+    trait = forgiving
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_2
+
+    5523.6.27 = {
+        birth = yes
+    }
+
+    5563.6.21 = {
+        add_spouse = lannister_248
+    }
+
+    5593.9.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_248 = {
+    name = "Lydann"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = compassionate
+    trait = arrogant
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 8
+    intrigue = 2
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    5546.6.16 = {
+        birth = yes
+    }
+
+    5617.6.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_249 = {
+    name = "Theo"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_247
+    mother = lannister_248
+
+    trait = patient
+    trait = forgiving
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    5585.1.15 = {
+        birth = yes
+    }
+
+    5614.5.7 = {
+        add_spouse = lannister_250
+    }
+
+    5656.4.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_250 = {
+    name = "Magya"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = brave
+    trait = diligent
+    trait = cynical
+
+    diplomacy = 1
+    martial = 4
+    stewardship = 8
+    intrigue = 11
+    learning = 4
+    prowess = 8
+
+    trait = education_intrigue_4
+
+    5597.10.18 = {
+        birth = yes
+    }
+
+    5671.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_251 = {
+    name = "Ulward"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_249
+    mother = lannister_250
+
+    trait = zealous
+    trait = compassionate
+    trait = lazy
+
+    diplomacy = 11
+    martial = 3
+    stewardship = 6
+    intrigue = 5
+    learning = 2
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    5639.6.18 = {
+        birth = yes
+    }
+
+    5658.7.14 = {
+        add_spouse = lannister_252
+    }
+
+    5668.9.13 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+lannister_252 = {
+    name = "Maegi"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = callous
+    trait = stubborn
+    trait = humble
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 5
+    intrigue = 9
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_4
+
+    5641.5.14 = {
+        birth = yes
+    }
+
+    5708.12.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_253 = {
+    name = "Willam"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_251
+    mother = lannister_252
+
+    trait = callous
+    trait = arbitrary
+    trait = stubborn
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 2
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    5661.7.26 = {
+        birth = yes
+    }
+
+    5710.9.27 = {
+        add_spouse = lannister_254
+    }
+
+    5744.2.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_254 = {
+    name = "Berta"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = diligent
+    trait = forgiving
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 3
+    intrigue = 3
+    learning = 6
+    prowess = 9
+
+    trait = education_learning_3
+
+    5693.5.6 = {
+        birth = yes
+    }
+
+    5771.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_255 = {
+    name = "Danny"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_253
+    mother = lannister_254
+
+    trait = just
+    trait = zealous
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    5720.7.7 = {
+        birth = yes
+    }
+
+    5749.6.19 = {
+        add_spouse = lannister_256
+    }
+
+    5787.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_256 = {
+    name = "Margaret"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = generous
+    trait = deceitful
+    trait = diligent
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 9
+
+    trait = education_martial_2
+
+    5732.4.14 = {
+        birth = yes
+    }
+
+    5810.8.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_257 = {
+    name = "Jory"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_255
+    mother = lannister_256
+
+    trait = arbitrary
+    trait = sadistic
+    trait = vengeful
+
+    diplomacy = 10
+    martial = 3
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    5755.10.10 = {
+        birth = yes
+    }
+
+    5781.10.18 = {
+        add_spouse = lannister_258
+    }
+
+    5827.8.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_258 = {
+    name = "Kyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = humble
+    trait = temperate
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 5
+    intrigue = 9
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    5764.12.1 = {
+        birth = yes
+    }
+
+    5842.10.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_259 = {
+    name = "Greg"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_257
+    mother = lannister_258
+
+    trait = wrathful
+    trait = arrogant
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_3
+
+    5807.4.25 = {
+        birth = yes
+    }
+
+    5828.5.20 = {
+        add_spouse = lannister_260
+    }
+
+    5889.6.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_260 = {
+    name = "Cecilia"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = sadistic
+    trait = zealous
+    trait = lustful
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 9
+    intrigue = 5
+    learning = 7
+    prowess = 2
+
+    trait = education_stewardship_2
+
+    5811.8.10 = {
+        birth = yes
+    }
+
+    5882.10.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_261 = {
+    name = "Cregard"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_259
+    mother = lannister_260
+
+    trait = lustful
+    trait = humble
+    trait = calm
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_1
+
+    5844.1.1 = {
+        birth = yes
+    }
+
+    5858.9.1 = {
+        add_spouse = lannister_262
+    }
+
+    5910.3.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_262 = {
+    name = "Magdalyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = just
+    trait = impatient
+    trait = fickle
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 8
+    intrigue = 9
+    learning = 8
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    5841.1.22 = {
+        birth = yes
+    }
+
+    5921.2.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_263 = {
+    name = "Rodwell"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_261
+    mother = lannister_262
+
+    trait = cynical
+    trait = humble
+    trait = patient
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    5880.5.17 = {
+        birth = yes
+    }
+
+    5912.2.21 = {
+        add_spouse = lannister_264
+    }
+
+    5960.1.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_264 = {
+    name = "Tyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = humble
+    trait = craven
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 5
+    intrigue = 4
+    learning = 4
+    prowess = 10
+
+    trait = education_martial_3
+
+    5895.10.12 = {
+        birth = yes
+    }
+
+    5979.11.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_265 = {
+    name = "Kollen"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_263
+    mother = lannister_264
+
+    trait = ambitious
+    trait = lazy
+    trait = gluttonous
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 3
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    5930.10.22 = {
+        birth = yes
+    }
+
+    5956.6.10 = {
+        add_spouse = lannister_266
+    }
+
+    5987.7.22 = {
+        death = { death_reason = death_vanished  }
+    }
+}
+
+lannister_266 = {
+    name = "Ireni"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = paranoid
+    trait = gluttonous
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    5939.3.13 = {
+        birth = yes
+    }
+
+    5966.7.23 = {
+        death = { death_reason = death_bubonic_plague }
+    }
+}
+
+lannister_267 = {
+    name = "Felip"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_265
+    mother = lannister_266
+
+    trait = impatient
+    trait = trusting
+    trait = calm
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 10
+
+    trait = education_diplomacy_2
+
+    5966.9.2 = {
+        birth = yes
+    }
+
+    5985.6.27 = {
+        add_spouse = lannister_268
+    }
+
+    6036.12.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_268 = {
+    name = "Lyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = ambitious
+    trait = generous
+    trait = cynical
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 7
+    intrigue = 3
+    learning = 3
+    prowess = 3
+
+    trait = education_martial_3
+
+    5968.8.13 = {
+        birth = yes
+    }
+
+    6046.6.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_269 = {
+    name = "Luton"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_267
+    mother = lannister_268
+
+    trait = craven
+    trait = temperate
+    trait = diligent
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_1
+
+    5995.1.15 = {
+        birth = yes
+    }
+
+    6044.5.5 = {
+        add_spouse = lannister_270
+    }
+
+    6075.12.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_270 = {
+    name = "Ilyssi"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = deceitful
+    trait = fickle
+    trait = ambitious
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 6
+    intrigue = 6
+    learning = 2
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6027.6.5 = {
+        birth = yes
+    }
+
+    6102.10.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_271 = {
+    name = "Elric"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_269
+    mother = lannister_270
+
+    trait = lustful
+    trait = compassionate
+    trait = zealous
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_2
+
+    6061.8.8 = {
+        birth = yes
+    }
+
+    6106.7.26 = {
+        add_spouse = lannister_272
+    }
+
+    6116.6.5 = {
+        death = { death_reason = death_duel }
+    }
+}
+
+lannister_272 = {
+    name = "Cecil"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = impatient
+    trait = zealous
+    trait = temperate
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 4
+    intrigue = 6
+    learning = 2
+    prowess = 9
+
+    trait = education_martial_2
+
+    6089.5.27 = {
+        birth = yes
+    }
+
+    6158.2.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_273 = {
+    name = "Roose"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_271
+    mother = lannister_272
+
+    trait = vengeful
+    trait = content
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 4
+    intrigue = 4
+    learning = 4
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6112.5.27 = {
+        birth = yes
+    }
+
+    6134.10.4 = {
+        add_spouse = lannister_274
+    }
+
+    6179.2.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_274 = {
+    name = "Ely"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = calm
+    trait = greedy
+    trait = lustful
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_3
+
+    6117.10.2 = {
+        birth = yes
+    }
+
+    6197.11.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_275 = {
+    name = "Styr"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_273
+    mother = lannister_274
+
+    trait = lazy
+    trait = content
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 9
+    intrigue = 7
+    learning = 4
+    prowess = 9
+
+    trait = education_stewardship_1
+
+    6147.10.1 = {
+        birth = yes
+    }
+
+    6167.9.26 = {
+        add_spouse = lannister_276
+    }
+
+    6213.1.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_276 = {
+    name = "Serena"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = honest
+    trait = ambitious
+    trait = temperate
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 2
+    prowess = 2
+
+    trait = education_stewardship_1
+
+    6150.7.16 = {
+        birth = yes
+    }
+
+    6231.1.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_277 = {
+    name = "Daryn"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_275
+    mother = lannister_276
+
+    trait = cynical
+    trait = honest
+    trait = stubborn
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6171.11.24 = {
+        birth = yes
+    }
+
+    6206.2.25 = {
+        add_spouse = lannister_278
+    }
+
+    6246.7.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_278 = {
+    name = "Ireni"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = humble
+    trait = gregarious
+    trait = ambitious
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 2
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6189.5.3 = {
+        birth = yes
+    }
+
+    6266.4.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_279 = {
+    name = "Rickard"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_277
+    mother = lannister_278
+
+    trait = arrogant
+    trait = honest
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 5
+    intrigue = 4
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_4
+
+    6220.3.18 = {
+        birth = yes
+    }
+
+    6240.10.5 = {
+        add_spouse = lannister_280
+    }
+
+    6302.9.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_280 = {
+    name = "Barbrey"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = sadistic
+    trait = arrogant
+    trait = diligent
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6223.12.12 = {
+        birth = yes
+    }
+
+    6304.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_281 = {
+    name = "Beren"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_279
+    mother = lannister_280
+
+    trait = arrogant
+    trait = just
+    trait = lustful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 1
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_3
+
+    6244.11.18 = {
+        birth = yes
+    }
+
+    6263.2.25 = {
+        add_spouse = lannister_282
+    }
+
+    6329.4.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_282 = {
+    name = "Ilyssi"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = temperate
+    trait = content
+    trait = paranoid
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 8
+    intrigue = 8
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_4
+
+    6246.12.25 = {
+        birth = yes
+    }
+
+    6316.12.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_283 = {
+    name = "Tord"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_281
+    mother = lannister_282
+
+    trait = zealous
+    trait = fickle
+    trait = trusting
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 3
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_3
+
+    6273.9.17 = {
+        birth = yes
+    }
+
+    6317.7.5 = {
+        add_spouse = lannister_284
+    }
+
+    6357.11.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_284 = {
+    name = "Beth"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = calm
+    trait = deceitful
+    trait = greedy
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 7
+    intrigue = 9
+    learning = 11
+    prowess = 5
+
+    trait = education_learning_3
+
+    6300.6.3 = {
+        birth = yes
+    }
+
+    6367.8.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_285 = {
+    name = "Kyle"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_283
+    mother = lannister_284
+
+    trait = brave
+    trait = gregarious
+    trait = paranoid
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 2
+
+    trait = education_diplomacy_4
+
+    6326.10.24 = {
+        birth = yes
+    }
+
+    6361.12.9 = {
+        add_spouse = lannister_286
+    }
+
+    6402.1.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_286 = {
+    name = "Ireni"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = impatient
+    trait = craven
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 2
+
+    trait = education_martial_2
+
+    6344.5.1 = {
+        birth = yes
+    }
+
+    6425.7.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_287 = {
+    name = "Chayle"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_285
+    mother = lannister_286
+
+    trait = ambitious
+    trait = trusting
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    6373.5.24 = {
+        birth = yes
+    }
+
+    6411.8.28 = {
+        add_spouse = lannister_288
+    }
+
+    6440.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_288 = {
+    name = "Marissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = calm
+    trait = cynical
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 3
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_1
+
+    6394.1.26 = {
+        birth = yes
+    }
+
+    6472.8.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_289 = {
+    name = "Loboda"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_287
+    mother = lannister_288
+
+    trait = humble
+    trait = shy
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 6
+    intrigue = 8
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_3
+
+    6427.12.9 = {
+        birth = yes
+    }
+
+    6448.11.19 = {
+        add_spouse = lannister_290
+    }
+
+    6499.9.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_290 = {
+    name = "Martyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = diligent
+    trait = deceitful
+    trait = content
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 9
+    learning = 5
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    6431.7.21 = {
+        birth = yes
+    }
+
+    6504.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_291 = {
+    name = "Borys"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_289
+    mother = lannister_290
+
+    trait = greedy
+    trait = cynical
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 3
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6455.8.6 = {
+        birth = yes
+    }
+
+    6478.4.18 = {
+        add_spouse = lannister_292
+    }
+
+    6533.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_292 = {
+    name = "Evalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = craven
+    trait = deceitful
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 11
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6461.3.13 = {
+        birth = yes
+    }
+
+    6546.11.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_293 = {
+    name = "Alyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_291
+    mother = lannister_292
+
+    trait = gluttonous
+    trait = wrathful
+    trait = just
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_2
+
+    6479.2.27 = {
+        birth = yes
+    }
+
+    6553.5.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_294 = {
+    name = "Jaisyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_291
+    mother = lannister_292
+
+    trait = patient
+    trait = temperate
+    trait = content
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 4
+    intrigue = 8
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_2
+
+    6488.9.14 = {
+        birth = yes
+    }
+
+    6562.2.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_295 = {
+    name = "Andren"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_291
+    mother = lannister_292
+
+    trait = cynical
+    trait = lustful
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 2
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6491.3.8 = {
+        birth = yes
+    }
+
+    6518.9.12 = {
+        add_spouse = lannister_296
+    }
+
+    6571.1.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_296 = {
+    name = "Tylissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = stubborn
+    trait = sadistic
+    trait = honest
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 9
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6501.4.6 = {
+        birth = yes
+    }
+
+    6569.11.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_297 = {
+    name = "Kael"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_295
+    mother = lannister_296
+
+    trait = wrathful
+    trait = impatient
+    trait = lustful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6518.6.10 = {
+        birth = yes
+    }
+
+    6556.2.12 = {
+        add_spouse = lannister_298
+    }
+
+    6566.2.26 = {
+        death = { death_reason = death_accident  }
+    }
+}
+
+lannister_298 = {
+    name = "Ingarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = fickle
+    trait = impatient
+    trait = arbitrary
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 9
+    intrigue = 11
+    learning = 10
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6539.6.24 = {
+        birth = yes
+    }
+
+    6607.12.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_299 = {
+    name = "Harlon"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_297
+    mother = lannister_298
+
+    trait = arbitrary
+    trait = arrogant
+    trait = honest
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 8
+    intrigue = 9
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6557.12.14 = {
+        birth = yes
+    }
+
+    6577.6.6 = {
+        add_spouse = lannister_300
+    }
+
+    6641.3.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_300 = {
+    name = "Alyx"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = honest
+    trait = calm
+    trait = just
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 2
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_2
+
+    6560.5.22 = {
+        birth = yes
+    }
+
+    6626.2.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_301 = {
+    name = "Daryn"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_299
+    mother = lannister_300
+
+    trait = honest
+    trait = paranoid
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 9
+    intrigue = 4
+    learning = 6
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    6579.8.12 = {
+        birth = yes
+    }
+
+    6622.11.18 = {
+        add_spouse = lannister_302
+    }
+
+    6651.1.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_302 = {
+    name = "Cateryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = arrogant
+    trait = diligent
+    trait = fickle
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 4
+    intrigue = 3
+    learning = 7
+    prowess = 4
+
+    trait = education_learning_1
+
+    6605.4.13 = {
+        birth = yes
+    }
+
+    6685.12.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_303 = {
+    name = "Theodan"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_299
+    mother = lannister_300
+
+    trait = sadistic
+    trait = humble
+    trait = greedy
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    6580.3.13 = {
+        birth = yes
+    }
+
+    6595.1.20 = {
+        add_spouse = lannister_304
+    }
+
+    6665.12.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_304 = {
+    name = "Elinan"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = callous
+    trait = arrogant
+    trait = wrathful
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 5
+    intrigue = 5
+    learning = 10
+    prowess = 2
+
+    trait = education_learning_3
+
+    6578.8.10 = {
+        birth = yes
+    }
+
+    6653.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_305 = {
+    name = "Wyman"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_299
+    mother = lannister_300
+
+    trait = compassionate
+    trait = calm
+    trait = lustful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 3
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6582.10.12 = {
+        birth = yes
+    }
+
+    6583.9.12 = {
+        give_nickname = nick_the_traitor
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6622.1.2 = {
+        add_spouse = lannister_306
+    }
+
+    6656.4.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_306 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = diligent
+    trait = patient
+    trait = craven
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 2
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6605.11.1 = {
+        birth = yes
+    }
+
+    6632.5.25 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+lannister_307 = {
+    name = "Maegi"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_299
+    mother = lannister_300
+
+    trait = cynical
+    trait = sadistic
+    trait = wrathful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 3
+    intrigue = 10
+    learning = 4
+    prowess = 11
+
+    trait = education_intrigue_4
+
+    6588.7.9 = {
+        birth = yes
+    }
+
+    6665.11.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_308 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_295
+    mother = lannister_296
+
+    trait = compassionate
+    trait = paranoid
+    trait = vengeful
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 11
+    intrigue = 5
+    learning = 9
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6532.6.23 = {
+        birth = yes
+    }
+
+    6599.12.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_309 = {
+    name = "Eyron"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_289
+    mother = lannister_290
+
+    trait = stubborn
+    trait = gregarious
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6458.6.8 = {
+        birth = yes
+    }
+
+    6478.4.2 = {
+        add_spouse = lannister_310
+    }
+
+    6541.6.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_310 = {
+    name = "Robyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = gregarious
+    trait = callous
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_2
+
+    6461.3.23 = {
+        birth = yes
+    }
+
+    6529.7.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_311 = {
+    name = "Luton"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_309
+    mother = lannister_310
+
+    trait = lustful
+    trait = ambitious
+    trait = shy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6501.8.9 = {
+        birth = yes
+    }
+
+    6532.1.22 = {
+        add_spouse = lannister_312
+    }
+
+    6584.11.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_312 = {
+    name = "Agnessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = temperate
+    trait = diligent
+    trait = humble
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_2
+
+    6515.8.16 = {
+        birth = yes
+    }
+
+    6589.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_313 = {
+    name = "Barba"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_311
+    mother = lannister_312
+
+    trait = wrathful
+    trait = greedy
+    trait = fickle
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6544.6.3 = {
+        birth = yes
+    }
+
+    6556.11.12 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+lannister_314 = {
+    name = "Rolf"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_311
+    mother = lannister_312
+
+    trait = arbitrary
+    trait = calm
+    trait = generous
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 5
+    intrigue = 8
+    learning = 3
+    prowess = 9
+
+    trait = education_intrigue_2
+
+    6549.6.15 = {
+        birth = yes
+    }
+
+    6571.11.17 = {
+        add_spouse = lannister_315
+    }
+
+    6620.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_315 = {
+    name = "Ewa"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = trusting
+    trait = callous
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6554.5.21 = {
+        birth = yes
+    }
+
+    6581.5.14 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+lannister_316 = {
+    name = "Theo"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_314
+    mother = lannister_315
+
+    trait = content
+    trait = arbitrary
+    trait = zealous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_4
+
+    6572.9.3 = {
+        birth = yes
+    }
+
+    6618.9.1 = {
+        add_spouse = lannister_317
+    }
+
+    6646.3.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_317 = {
+    name = "Alyx"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = compassionate
+    trait = diligent
+    trait = stubborn
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6601.5.22 = {
+        birth = yes
+    }
+
+    6685.8.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_318 = {
+    name = "Styr"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_316
+    mother = lannister_317
+
+    trait = temperate
+    trait = arrogant
+    trait = shy
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    6636.8.18 = {
+        birth = yes
+    }
+
+    6674.5.15 = {
+        add_spouse = lannister_319
+    }
+
+    6711.7.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_319 = {
+    name = "Maegi"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = callous
+    trait = chaste
+    trait = honest
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 3
+    intrigue = 7
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_2
+
+    6657.12.12 = {
+        birth = yes
+    }
+
+    6740.10.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_320 = {
+    name = "Lidania"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_314
+    mother = lannister_315
+
+    trait = gluttonous
+    trait = ambitious
+    trait = stubborn
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 8
+    learning = 4
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    6574.11.22 = {
+        birth = yes
+    }
+
+    6614.11.10 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+lannister_321 = {
+    name = "Karlon"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_314
+    mother = lannister_315
+
+    trait = just
+    trait = ambitious
+    trait = gregarious
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6575.10.7 = {
+        birth = yes
+    }
+
+    6605.6.10 = {
+        add_spouse = lannister_322
+    }
+
+    6658.7.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_322 = {
+    name = "Rikyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = chaste
+    trait = lazy
+    trait = fickle
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 8
+
+    trait = education_learning_1
+
+    6588.10.5 = {
+        birth = yes
+    }
+
+    6654.8.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_323 = {
+    name = "Kymila"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_321
+    mother = lannister_322
+
+    trait = chaste
+    trait = arrogant
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_3
+
+    6611.10.19 = {
+        birth = yes
+    }
+
+    6690.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_324 = {
+    name = "Gorm"
+
+    dynasty = dynasty_lannister
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_321
+    mother = lannister_322
+
+    trait = ambitious
+    trait = generous
+    trait = chaste
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    6619.12.11 = {
+        birth = yes
+    }
+
+    6660.11.21 = {
+        add_spouse = lannister_325
+    }
+
+    6695.7.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_325 = {
+    name = "Ingrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    trait = trusting
+    trait = chaste
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 9
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6643.5.11 = {
+        birth = yes
+    }
+
+    6710.1.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lannister_326 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = westermen
+
+    father = lannister_289
+    mother = lannister_290
+
+    trait = patient
+    trait = lustful
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 5
+    learning = 8
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6459.8.8 = {
+        birth = yes
+    }
+
+    6486.11.20 = {
+        death = { death_reason = death_script_cruelty   }
+    }
+}

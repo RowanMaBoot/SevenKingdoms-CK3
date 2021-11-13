@@ -1,0 +1,9762 @@
+dayne_1 = {
+    name = "Wynton"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = stubborn
+    trait = diligent
+    trait = brave
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 8
+    intrigue = 9
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    1.6.25 = {
+        birth = yes
+    }
+
+    36.6.2 = {
+        add_spouse = dayne_2
+    }
+
+    69.3.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_2 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = ambitious
+    trait = paranoid
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 8
+    intrigue = 3
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    19.9.19 = {
+        birth = yes
+    }
+
+    104.6.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_3 = {
+    name = "Brandon"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_1
+    mother = dayne_2
+
+    trait = craven
+    trait = cynical
+    trait = patient
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 3
+    intrigue = 8
+    learning = 7
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    43.6.7 = {
+        birth = yes
+    }
+
+    64.1.9 = {
+        add_spouse = dayne_4
+    }
+
+    126.9.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_4 = {
+    name = "Berti"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = impatient
+    trait = calm
+    trait = just
+
+    diplomacy = 11
+    martial = 10
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    47.4.14 = {
+        birth = yes
+    }
+
+    121.2.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_5 = {
+    name = "Styr"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_3
+    mother = dayne_4
+
+    trait = just
+    trait = trusting
+    trait = generous
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 7
+    intrigue = 10
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    64.8.17 = {
+        birth = yes
+    }
+
+    86.8.2 = {
+        add_spouse = dayne_6
+    }
+
+    148.7.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_6 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = calm
+    trait = craven
+    trait = just
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 3
+    intrigue = 10
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    69.10.13 = {
+        birth = yes
+    }
+
+    142.8.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_7 = {
+    name = "Refil"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_5
+    mother = dayne_6
+
+    trait = patient
+    trait = shy
+    trait = cynical
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 8
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    98.12.16 = {
+        birth = yes
+    }
+
+    140.4.1 = {
+        add_spouse = dayne_8
+    }
+
+    170.3.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_8 = {
+    name = "Tora"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = humble
+    trait = brave
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 8
+    intrigue = 3
+    learning = 3
+    prowess = 6
+
+    trait = education_martial_2
+
+    123.11.11 = {
+        birth = yes
+    }
+
+    206.12.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_9 = {
+    name = "Jory"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_7
+    mother = dayne_8
+
+    trait = paranoid
+    trait = lustful
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 3
+    intrigue = 4
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    161.5.26 = {
+        birth = yes
+    }
+
+    192.9.2 = {
+        add_spouse = dayne_10
+    }
+
+    246.7.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_10 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = forgiving
+    trait = arrogant
+    trait = generous
+
+    diplomacy = 9
+    martial = 9
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    175.12.10 = {
+        birth = yes
+    }
+
+    258.8.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_11 = {
+    name = "Styn"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_9
+    mother = dayne_10
+
+    trait = just
+    trait = lazy
+    trait = paranoid
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 9
+    intrigue = 9
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    211.8.12 = {
+        birth = yes
+    }
+
+    253.3.9 = {
+        add_spouse = dayne_12
+    }
+
+    263.12.11 = {
+        death = { death_reason = death_murder  }
+    }
+}
+
+dayne_12 = {
+    name = "Berta"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = gluttonous
+    trait = cynical
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 9
+
+    trait = education_martial_3
+
+    236.2.4 = {
+        birth = yes
+    }
+
+    302.12.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_13 = {
+    name = "Jonnel"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_11
+    mother = dayne_12
+
+    trait = callous
+    trait = impatient
+    trait = lazy
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    263.1.17 = {
+        birth = yes
+    }
+
+    283.6.25 = {
+        add_spouse = dayne_14
+    }
+
+    329.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_14 = {
+    name = "Ireni"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = brave
+    trait = impatient
+    trait = lazy
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 10
+    intrigue = 3
+    learning = 8
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    266.12.5 = {
+        birth = yes
+    }
+
+    347.1.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_15 = {
+    name = "Loboda"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_13
+    mother = dayne_14
+
+    trait = arrogant
+    trait = trusting
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 9
+    learning = 7
+    prowess = 2
+
+    trait = education_intrigue_3
+
+    288.12.21 = {
+        birth = yes
+    }
+
+    322.5.23 = {
+        add_spouse = dayne_16
+    }
+
+    364.8.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_16 = {
+    name = "Frenya"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = just
+    trait = forgiving
+    trait = ambitious
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 10
+    prowess = 3
+
+    trait = education_learning_3
+
+    305.4.17 = {
+        birth = yes
+    }
+
+    374.2.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_17 = {
+    name = "Robett"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_15
+    mother = dayne_16
+
+    trait = chaste
+    trait = ambitious
+    trait = stubborn
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    347.3.28 = {
+        birth = yes
+    }
+
+    363.2.12 = {
+        add_spouse = dayne_18
+    }
+
+    419.2.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_18 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = diligent
+    trait = vengeful
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 3
+    intrigue = 7
+    learning = 5
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    346.4.19 = {
+        birth = yes
+    }
+
+    415.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_19 = {
+    name = "Qhorin"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_17
+    mother = dayne_18
+
+    trait = zealous
+    trait = honest
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 4
+    intrigue = 9
+    learning = 7
+    prowess = 3
+
+    trait = education_intrigue_2
+
+    378.12.6 = {
+        birth = yes
+    }
+
+    407.2.17 = {
+        add_spouse = dayne_20
+    }
+
+    446.5.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_20 = {
+    name = "Ingrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = just
+    trait = sadistic
+    trait = cynical
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    390.3.11 = {
+        birth = yes
+    }
+
+    465.9.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_21 = {
+    name = "Danny"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_19
+    mother = dayne_20
+
+    trait = vengeful
+    trait = lustful
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_3
+
+    417.12.15 = {
+        birth = yes
+    }
+
+    444.6.5 = {
+        add_spouse = dayne_22
+    }
+
+    454.2.26 = {
+        death = { death_reason = death_poison  }
+    }
+}
+
+dayne_22 = {
+    name = "Frennie"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = vengeful
+    trait = trusting
+    trait = calm
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 10
+    intrigue = 6
+    learning = 9
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    427.2.25 = {
+        birth = yes
+    }
+
+    501.3.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_23 = {
+    name = "Farlen"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_21
+    mother = dayne_22
+
+    trait = chaste
+    trait = zealous
+    trait = sadistic
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 1
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    449.3.15 = {
+        birth = yes
+    }
+
+    479.5.19 = {
+        add_spouse = dayne_24
+    }
+
+    515.5.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_24 = {
+    name = "Sage"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = brave
+    trait = ambitious
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_3
+
+    462.10.8 = {
+        birth = yes
+    }
+
+    542.6.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_25 = {
+    name = "Jon"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_23
+    mother = dayne_24
+
+    trait = patient
+    trait = stubborn
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 9
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    505.5.26 = {
+        birth = yes
+    }
+
+    555.3.1 = {
+        add_spouse = dayne_26
+    }
+
+    573.7.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_26 = {
+    name = "Jorelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = ambitious
+    trait = brave
+    trait = lazy
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 3
+    intrigue = 11
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_4
+
+    538.10.4 = {
+        birth = yes
+    }
+
+    613.2.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_27 = {
+    name = "Bennard"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_25
+    mother = dayne_26
+
+    trait = compassionate
+    trait = calm
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 11
+    intrigue = 2
+    learning = 7
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    570.6.24 = {
+        birth = yes
+    }
+
+    607.10.11 = {
+        add_spouse = dayne_28
+    }
+
+    640.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_28 = {
+    name = "Robyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = shy
+    trait = generous
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 9
+    intrigue = 5
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    590.12.4 = {
+        birth = yes
+    }
+
+    670.12.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_29 = {
+    name = "Bartimus"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_27
+    mother = dayne_28
+
+    trait = sadistic
+    trait = forgiving
+    trait = just
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_4
+
+    625.9.24 = {
+        birth = yes
+    }
+
+    641.6.18 = {
+        add_spouse = dayne_30
+    }
+
+    704.1.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_30 = {
+    name = "Kataryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = chaste
+    trait = calm
+    trait = trusting
+
+    diplomacy = 3
+    martial = 10
+    stewardship = 7
+    intrigue = 4
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_1
+
+    624.6.14 = {
+        birth = yes
+    }
+
+    705.12.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_31 = {
+    name = "Baldr"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_29
+    mother = dayne_30
+
+    trait = gluttonous
+    trait = compassionate
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 9
+    prowess = 9
+
+    trait = education_learning_3
+
+    661.4.2 = {
+        birth = yes
+    }
+
+    701.4.20 = {
+        add_spouse = dayne_32
+    }
+
+    731.10.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_32 = {
+    name = "Fanni"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = honest
+    trait = forgiving
+    trait = calm
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 3
+    learning = 1
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    684.3.19 = {
+        birth = yes
+    }
+
+    769.10.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_33 = {
+    name = "Filype"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_31
+    mother = dayne_32
+
+    trait = arrogant
+    trait = honest
+    trait = lazy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 9
+
+    trait = education_stewardship_4
+
+    702.5.20 = {
+        birth = yes
+    }
+
+    732.5.1 = {
+        add_spouse = dayne_34
+    }
+
+    777.5.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_34 = {
+    name = "Sarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = impatient
+    trait = deceitful
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 4
+    intrigue = 2
+    learning = 8
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    715.11.20 = {
+        birth = yes
+    }
+
+    768.1.18 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+dayne_35 = {
+    name = "Eddard"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_33
+    mother = dayne_34
+
+    trait = vengeful
+    trait = just
+    trait = diligent
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 10
+
+    trait = education_intrigue_4
+
+    734.2.23 = {
+        birth = yes
+    }
+
+    776.11.14 = {
+        add_spouse = dayne_36
+    }
+
+    786.6.9 = {
+        death = { death_reason = death_strangled_with_own_intestines }
+    }
+}
+
+dayne_36 = {
+    name = "Ricardya"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = temperate
+    trait = gregarious
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 8
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    759.11.22 = {
+        birth = yes
+    }
+
+    811.10.18 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+dayne_37 = {
+    name = "Theodan"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_35
+    mother = dayne_36
+
+    trait = content
+    trait = zealous
+    trait = generous
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 1
+
+    trait = education_martial_3
+
+    786.5.13 = {
+        birth = yes
+    }
+
+    818.9.10 = {
+        add_spouse = dayne_38
+    }
+
+    841.6.2 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+dayne_38 = {
+    name = "Ricardya"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = brave
+    trait = cynical
+    trait = patient
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 10
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    801.2.13 = {
+        birth = yes
+    }
+
+    867.10.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_39 = {
+    name = "Kael"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_37
+    mother = dayne_38
+
+    trait = generous
+    trait = lustful
+    trait = honest
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    826.10.7 = {
+        birth = yes
+    }
+
+    873.3.20 = {
+        add_spouse = dayne_40
+    }
+
+    883.9.13 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+dayne_40 = {
+    name = "Ilyssi"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = gregarious
+    trait = wrathful
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 3
+    learning = 4
+    prowess = 11
+
+    trait = education_diplomacy_3
+
+    856.12.23 = {
+        birth = yes
+    }
+
+    927.1.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_41 = {
+    name = "Nik"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_39
+    mother = dayne_40
+
+    trait = paranoid
+    trait = vengeful
+    trait = impatient
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 5
+    intrigue = 4
+    learning = 10
+    prowess = 6
+
+    trait = education_learning_4
+
+    879.5.11 = {
+        birth = yes
+    }
+
+    915.4.12 = {
+        add_spouse = dayne_42
+    }
+
+    952.1.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_42 = {
+    name = "Barba"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = greedy
+    trait = sadistic
+    trait = fickle
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_4
+
+    898.7.16 = {
+        birth = yes
+    }
+
+    977.3.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_43 = {
+    name = "Vesimar"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_41
+    mother = dayne_42
+
+    trait = paranoid
+    trait = lustful
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 3
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    930.9.18 = {
+        birth = yes
+    }
+
+    964.2.7 = {
+        add_spouse = dayne_44
+    }
+
+    998.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_44 = {
+    name = "Gilliane"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = wrathful
+    trait = paranoid
+    trait = brave
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 1
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    947.6.3 = {
+        birth = yes
+    }
+
+    1013.4.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_45 = {
+    name = "Cayn"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_43
+    mother = dayne_44
+
+    trait = chaste
+    trait = calm
+    trait = callous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    987.2.9 = {
+        birth = yes
+    }
+
+    1020.10.21 = {
+        add_spouse = dayne_46
+    }
+
+    1072.1.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_46 = {
+    name = "Lyessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = sadistic
+    trait = lazy
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_2
+
+    1003.4.13 = {
+        birth = yes
+    }
+
+    1071.9.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_47 = {
+    name = "Jon"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_45
+    mother = dayne_46
+
+    trait = deceitful
+    trait = callous
+    trait = impatient
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_2
+
+    1039.2.13 = {
+        birth = yes
+    }
+
+    1077.4.6 = {
+        add_spouse = dayne_48
+    }
+
+    1087.4.9 = {
+        death = { death_reason = death_great_pox }
+    }
+}
+
+dayne_48 = {
+    name = "Agnessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = lustful
+    trait = calm
+    trait = honest
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 2
+    intrigue = 6
+    learning = 2
+    prowess = 8
+
+    trait = education_martial_3
+
+    1060.5.14 = {
+        birth = yes
+    }
+
+    1131.7.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_49 = {
+    name = "Hakon"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_47
+    mother = dayne_48
+
+    trait = chaste
+    trait = temperate
+    trait = ambitious
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_3
+
+    1078.3.16 = {
+        birth = yes
+    }
+
+    1103.2.5 = {
+        add_spouse = dayne_50
+    }
+
+    1158.11.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_50 = {
+    name = "Barbrey"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = diligent
+    trait = vengeful
+    trait = generous
+
+    diplomacy = 4
+    martial = 10
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_4
+
+    1086.1.7 = {
+        birth = yes
+    }
+
+    1155.8.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_51 = {
+    name = "Ronnel"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_49
+    mother = dayne_50
+
+    trait = callous
+    trait = ambitious
+    trait = gluttonous
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 5
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    1115.10.11 = {
+        birth = yes
+    }
+
+    1147.10.5 = {
+        add_spouse = dayne_52
+    }
+
+    1200.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_52 = {
+    name = "Eva"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = just
+    trait = calm
+    trait = impatient
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 2
+    intrigue = 5
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_4
+
+    1130.4.4 = {
+        birth = yes
+    }
+
+    1208.12.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_53 = {
+    name = "Magar"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_51
+    mother = dayne_52
+
+    trait = honest
+    trait = content
+    trait = patient
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    1155.9.4 = {
+        birth = yes
+    }
+
+    1178.7.21 = {
+        add_spouse = dayne_54
+    }
+
+    1224.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_54 = {
+    name = "Jolanta"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = zealous
+    trait = paranoid
+    trait = diligent
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 11
+
+    trait = education_diplomacy_1
+
+    1161.6.18 = {
+        birth = yes
+    }
+
+    1234.3.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_55 = {
+    name = "Kaelon"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_53
+    mother = dayne_54
+
+    trait = gregarious
+    trait = paranoid
+    trait = greedy
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 9
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    1187.7.19 = {
+        birth = yes
+    }
+
+    1212.8.28 = {
+        add_spouse = dayne_56
+    }
+
+    1222.5.3 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+dayne_56 = {
+    name = "Mariah"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = trusting
+    trait = lazy
+    trait = calm
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    1195.5.16 = {
+        birth = yes
+    }
+
+    1263.12.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_57 = {
+    name = "Rodwell"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_55
+    mother = dayne_56
+
+    trait = humble
+    trait = vengeful
+    trait = diligent
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 10
+    prowess = 3
+
+    trait = education_learning_2
+
+    1220.12.1 = {
+        birth = yes
+    }
+
+    1270.4.14 = {
+        add_spouse = dayne_58
+    }
+
+    1289.5.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_58 = {
+    name = "Kyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = impatient
+    trait = arbitrary
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 2
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    1253.7.8 = {
+        birth = yes
+    }
+
+    1329.2.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_59 = {
+    name = "Arthor"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_57
+    mother = dayne_58
+
+    trait = forgiving
+    trait = chaste
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    1281.6.20 = {
+        birth = yes
+    }
+
+    1301.7.16 = {
+        add_spouse = dayne_60
+    }
+
+    1353.9.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_60 = {
+    name = "Ingrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = fickle
+    trait = forgiving
+    trait = gluttonous
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 9
+    intrigue = 4
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    1284.6.18 = {
+        birth = yes
+    }
+
+    1363.11.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_61 = {
+    name = "Gregeroi"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_59
+    mother = dayne_60
+
+    trait = callous
+    trait = zealous
+    trait = just
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 11
+
+    trait = education_diplomacy_2
+
+    1310.9.27 = {
+        birth = yes
+    }
+
+    1352.4.15 = {
+        add_spouse = dayne_62
+    }
+
+    1385.11.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_62 = {
+    name = "Orya"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = wrathful
+    trait = honest
+    trait = humble
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 3
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_2
+
+    1335.6.10 = {
+        birth = yes
+    }
+
+    1412.4.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_63 = {
+    name = "Roger"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_61
+    mother = dayne_62
+
+    trait = stubborn
+    trait = callous
+    trait = generous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_2
+
+    1362.6.9 = {
+        birth = yes
+    }
+
+    1394.2.23 = {
+        add_spouse = dayne_64
+    }
+
+    1407.4.4 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+dayne_64 = {
+    name = "Donella"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = calm
+    trait = paranoid
+    trait = stubborn
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 9
+
+    trait = education_stewardship_4
+
+    1377.3.3 = {
+        birth = yes
+    }
+
+    1449.11.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_65 = {
+    name = "Howland"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_63
+    mother = dayne_64
+
+    trait = wrathful
+    trait = gregarious
+    trait = fickle
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    1403.3.3 = {
+        birth = yes
+    }
+
+    1428.5.13 = {
+        add_spouse = dayne_66
+    }
+
+    1475.3.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_66 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = generous
+    trait = lustful
+    trait = honest
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 6
+    intrigue = 5
+    learning = 2
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    1411.6.12 = {
+        birth = yes
+    }
+
+    1481.11.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_67 = {
+    name = "Filype"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_65
+    mother = dayne_66
+
+    trait = gluttonous
+    trait = gregarious
+    trait = generous
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 9
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    1428.9.4 = {
+        birth = yes
+    }
+
+    1453.8.25 = {
+        add_spouse = dayne_68
+    }
+
+    1495.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_68 = {
+    name = "Lidia"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = forgiving
+    trait = temperate
+    trait = just
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 10
+    prowess = 4
+
+    trait = education_learning_3
+
+    1436.9.4 = {
+        birth = yes
+    }
+
+    1506.12.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_69 = {
+    name = "Ormyn"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_67
+    mother = dayne_68
+
+    trait = compassionate
+    trait = shy
+    trait = impatient
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_4
+
+    1457.1.16 = {
+        birth = yes
+    }
+
+    1505.8.9 = {
+        add_spouse = dayne_70
+    }
+
+    1526.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_70 = {
+    name = "Danelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = zealous
+    trait = diligent
+    trait = sadistic
+
+    diplomacy = 2
+    martial = 10
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_3
+
+    1488.10.25 = {
+        birth = yes
+    }
+
+    1559.6.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_71 = {
+    name = "Olf"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_69
+    mother = dayne_70
+
+    trait = sadistic
+    trait = deceitful
+    trait = craven
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    1521.11.12 = {
+        birth = yes
+    }
+
+    1535.5.21 = {
+        add_spouse = dayne_72
+    }
+
+    1588.10.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_72 = {
+    name = "Orya"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = stubborn
+    trait = arrogant
+    trait = zealous
+
+    diplomacy = 11
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    1518.12.11 = {
+        birth = yes
+    }
+
+    1594.11.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_73 = {
+    name = "Rolf"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_71
+    mother = dayne_72
+
+    trait = arbitrary
+    trait = diligent
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 8
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    1554.8.24 = {
+        birth = yes
+    }
+
+    1604.12.1 = {
+        add_spouse = dayne_74
+    }
+
+    1625.5.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_74 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = fickle
+    trait = impatient
+    trait = shy
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 7
+    intrigue = 7
+    learning = 2
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    1587.8.17 = {
+        birth = yes
+    }
+
+    1654.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_75 = {
+    name = "Rolfwyn"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_73
+    mother = dayne_74
+
+    trait = deceitful
+    trait = wrathful
+    trait = gluttonous
+
+    diplomacy = 3
+    martial = 10
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_4
+
+    1620.12.5 = {
+        birth = yes
+    }
+
+    1661.4.9 = {
+        add_spouse = dayne_76
+    }
+
+    1671.1.9 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+dayne_76 = {
+    name = "Darlessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = greedy
+    trait = zealous
+    trait = patient
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    1644.2.5 = {
+        birth = yes
+    }
+
+    1726.4.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_77 = {
+    name = "Teo"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_75
+    mother = dayne_76
+
+    trait = ambitious
+    trait = paranoid
+    trait = honest
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    1664.12.10 = {
+        birth = yes
+    }
+
+    1696.8.23 = {
+        add_spouse = dayne_78
+    }
+
+    1740.2.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_78 = {
+    name = "Frenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = vengeful
+    trait = deceitful
+    trait = compassionate
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 2
+    intrigue = 5
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_3
+
+    1679.4.18 = {
+        birth = yes
+    }
+
+    1756.9.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_79 = {
+    name = "Kol"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_77
+    mother = dayne_78
+
+    trait = gregarious
+    trait = humble
+    trait = trusting
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 1
+    prowess = 4
+
+    trait = education_martial_4
+
+    1712.3.21 = {
+        birth = yes
+    }
+
+    1727.10.5 = {
+        add_spouse = dayne_80
+    }
+
+    1797.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_80 = {
+    name = "Tissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = fickle
+    trait = paranoid
+    trait = chaste
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 3
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_3
+
+    1710.12.17 = {
+        birth = yes
+    }
+
+    1783.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_81 = {
+    name = "Kol"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_79
+    mother = dayne_80
+
+    trait = lazy
+    trait = arrogant
+    trait = honest
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 4
+    intrigue = 3
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    1742.3.25 = {
+        birth = yes
+    }
+
+    1761.9.11 = {
+        add_spouse = dayne_82
+    }
+
+    1814.5.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_82 = {
+    name = "Ilyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = humble
+    trait = just
+    trait = patient
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 4
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    1744.5.20 = {
+        birth = yes
+    }
+
+    1815.11.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_83 = {
+    name = "Ulward"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_81
+    mother = dayne_82
+
+    trait = vengeful
+    trait = diligent
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    1767.10.9 = {
+        birth = yes
+    }
+
+    1812.11.19 = {
+        add_spouse = dayne_84
+    }
+
+    1852.10.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_84 = {
+    name = "Lacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = fickle
+    trait = honest
+    trait = cynical
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    1795.3.13 = {
+        birth = yes
+    }
+
+    1861.5.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_85 = {
+    name = "Royce"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_83
+    mother = dayne_84
+
+    trait = patient
+    trait = temperate
+    trait = honest
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 9
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    1839.6.10 = {
+        birth = yes
+    }
+
+    1871.1.24 = {
+        add_spouse = dayne_86
+    }
+
+    1924.4.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_86 = {
+    name = "Ewilyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = stubborn
+    trait = temperate
+    trait = content
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    1854.10.21 = {
+        birth = yes
+    }
+
+    1934.11.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_87 = {
+    name = "Ormr"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_85
+    mother = dayne_86
+
+    trait = callous
+    trait = cynical
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 9
+    learning = 2
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    1890.3.5 = {
+        birth = yes
+    }
+
+    1891.6.18 = {
+        give_nickname = nick_the_wolf
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    1912.10.8 = {
+        add_spouse = dayne_88
+    }
+
+    1963.6.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_88 = {
+    name = "Branda"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = lustful
+    trait = generous
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 3
+    intrigue = 6
+    learning = 6
+    prowess = 10
+
+    trait = education_diplomacy_4
+
+    1895.10.17 = {
+        birth = yes
+    }
+
+    1973.8.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_89 = {
+    name = "Yoren"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_87
+    mother = dayne_88
+
+    trait = vengeful
+    trait = sadistic
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 3
+    intrigue = 5
+    learning = 3
+    prowess = 4
+
+    trait = education_martial_3
+
+    1928.4.4 = {
+        birth = yes
+    }
+
+    1951.3.10 = {
+        add_spouse = dayne_90
+    }
+
+    1995.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_90 = {
+    name = "Branda"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = stubborn
+    trait = content
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 10
+    intrigue = 7
+    learning = 2
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    1934.9.27 = {
+        birth = yes
+    }
+
+    2019.4.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_91 = {
+    name = "Cregan"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_89
+    mother = dayne_90
+
+    trait = greedy
+    trait = ambitious
+    trait = callous
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 9
+
+    trait = education_martial_4
+
+    1958.2.23 = {
+        birth = yes
+    }
+
+    2008.6.13 = {
+        add_spouse = dayne_92
+    }
+
+    2032.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_92 = {
+    name = "Igrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = chaste
+    trait = sadistic
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_1
+
+    1991.12.18 = {
+        birth = yes
+    }
+
+    2068.11.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_93 = {
+    name = "Kaelon"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_91
+    mother = dayne_92
+
+    trait = ambitious
+    trait = shy
+    trait = generous
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 9
+
+    trait = education_intrigue_2
+
+    2020.5.1 = {
+        birth = yes
+    }
+
+    2069.1.23 = {
+        add_spouse = dayne_94
+    }
+
+    2088.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_94 = {
+    name = "Lyessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = brave
+    trait = shy
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 9
+    intrigue = 4
+    learning = 9
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    2052.8.20 = {
+        birth = yes
+    }
+
+    2136.12.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_95 = {
+    name = "Matus"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_93
+    mother = dayne_94
+
+    trait = patient
+    trait = generous
+    trait = cynical
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 10
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    2088.4.4 = {
+        birth = yes
+    }
+
+    2123.11.17 = {
+        add_spouse = dayne_96
+    }
+
+    2171.3.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_96 = {
+    name = "Gilli"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = chaste
+    trait = zealous
+    trait = generous
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 3
+    intrigue = 6
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_3
+
+    2106.8.27 = {
+        birth = yes
+    }
+
+    2179.9.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_97 = {
+    name = "Vesimar"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_95
+    mother = dayne_96
+
+    trait = stubborn
+    trait = impatient
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    2143.3.26 = {
+        birth = yes
+    }
+
+    2157.12.14 = {
+        add_spouse = dayne_98
+    }
+
+    2225.7.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_98 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = cynical
+    trait = vengeful
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 10
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    2140.2.13 = {
+        birth = yes
+    }
+
+    2167.6.20 = {
+        death = { death_reason = death_treatment }
+    }
+}
+
+dayne_99 = {
+    name = "Casan"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_97
+    mother = dayne_98
+
+    trait = trusting
+    trait = calm
+    trait = stubborn
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 1
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    2162.10.13 = {
+        birth = yes
+    }
+
+    2177.8.9 = {
+        add_spouse = dayne_100
+    }
+
+    2225.9.2 = {
+        death = { death_reason = death_plotting  }
+    }
+}
+
+dayne_100 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = just
+    trait = trusting
+    trait = shy
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_4
+
+    2160.1.6 = {
+        birth = yes
+    }
+
+    2233.1.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_101 = {
+    name = "Greger"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_99
+    mother = dayne_100
+
+    trait = deceitful
+    trait = forgiving
+    trait = callous
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 6
+    intrigue = 9
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    2202.8.8 = {
+        birth = yes
+    }
+
+    2240.4.16 = {
+        add_spouse = dayne_102
+    }
+
+    2277.10.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_102 = {
+    name = "Osha"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = zealous
+    trait = stubborn
+    trait = patient
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 3
+    learning = 4
+    prowess = 9
+
+    trait = education_martial_2
+
+    2223.3.16 = {
+        birth = yes
+    }
+
+    2250.4.22 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+dayne_103 = {
+    name = "Mors"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_101
+    mother = dayne_102
+
+    trait = callous
+    trait = stubborn
+    trait = shy
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 7
+    intrigue = 11
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    2247.12.15 = {
+        birth = yes
+    }
+
+    2262.11.14 = {
+        add_spouse = dayne_104
+    }
+
+    2330.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_104 = {
+    name = "Cat"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = compassionate
+    trait = wrathful
+    trait = humble
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    2245.3.20 = {
+        birth = yes
+    }
+
+    2274.12.25 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+dayne_105 = {
+    name = "Petar"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_103
+    mother = dayne_104
+
+    trait = paranoid
+    trait = humble
+    trait = fickle
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 3
+    intrigue = 9
+    learning = 8
+    prowess = 3
+
+    trait = education_intrigue_1
+
+    2270.8.23 = {
+        birth = yes
+    }
+
+    2316.5.2 = {
+        add_spouse = dayne_106
+    }
+
+    2355.12.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_106 = {
+    name = "Kyli"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = lustful
+    trait = trusting
+    trait = generous
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    2299.7.2 = {
+        birth = yes
+    }
+
+    2374.5.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_107 = {
+    name = "Beron"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_105
+    mother = dayne_106
+
+    trait = gregarious
+    trait = content
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    2343.7.11 = {
+        birth = yes
+    }
+
+    2376.3.18 = {
+        add_spouse = dayne_108
+    }
+
+    2424.4.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_108 = {
+    name = "Tylissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = callous
+    trait = gregarious
+    trait = honest
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    2359.1.24 = {
+        birth = yes
+    }
+
+    2443.7.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_109 = {
+    name = "Harrion"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_107
+    mother = dayne_108
+
+    trait = calm
+    trait = arbitrary
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    2383.7.11 = {
+        birth = yes
+    }
+
+    2423.7.9 = {
+        add_spouse = dayne_110
+    }
+
+    2453.11.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_110 = {
+    name = "Ewa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = impatient
+    trait = lazy
+    trait = fickle
+
+    diplomacy = 8
+    martial = 11
+    stewardship = 4
+    intrigue = 7
+    learning = 9
+    prowess = 8
+
+    trait = education_martial_4
+
+    2406.12.15 = {
+        birth = yes
+    }
+
+    2485.3.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_111 = {
+    name = "Cayn"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_109
+    mother = dayne_110
+
+    trait = humble
+    trait = temperate
+    trait = lazy
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    2425.11.4 = {
+        birth = yes
+    }
+
+    2449.7.21 = {
+        add_spouse = dayne_112
+    }
+
+    2499.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_112 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = temperate
+    trait = wrathful
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 8
+    prowess = 9
+
+    trait = education_learning_4
+
+    2432.4.6 = {
+        birth = yes
+    }
+
+    2488.4.6 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+dayne_113 = {
+    name = "Jeor"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_111
+    mother = dayne_112
+
+    trait = lustful
+    trait = stubborn
+    trait = deceitful
+
+    diplomacy = 16
+    martial = 16
+    stewardship = 14
+    intrigue = 21
+    learning = 22
+    prowess = 14
+
+    trait = education_learning_4
+
+    2466.5.15 = {
+        birth = yes
+    }
+
+    2483.1.1 = {
+        add_spouse = dayne_114
+    }
+
+    2548.7.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_114 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = compassionate
+    trait = zealous
+    trait = temperate
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_2
+
+    2466.6.1 = {
+        birth = yes
+    }
+
+    2536.3.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_115 = {
+    name = "Greger"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_113
+    mother = dayne_114
+
+    trait = lustful
+    trait = arbitrary
+    trait = humble
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 11
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    2497.9.23 = {
+        birth = yes
+    }
+
+    2536.11.26 = {
+        add_spouse = dayne_116
+    }
+
+    2578.1.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_116 = {
+    name = "Tyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = deceitful
+    trait = temperate
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 4
+    prowess = 3
+
+    trait = education_stewardship_4
+
+    2519.1.21 = {
+        birth = yes
+    }
+
+    2592.8.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_117 = {
+    name = "Wylis"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_115
+    mother = dayne_116
+
+    trait = trusting
+    trait = arrogant
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    2539.1.25 = {
+        birth = yes
+    }
+
+    2566.4.7 = {
+        add_spouse = dayne_118
+    }
+
+    2605.9.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_118 = {
+    name = "Thyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = gregarious
+    trait = just
+    trait = forgiving
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    2549.12.26 = {
+        birth = yes
+    }
+
+    2617.2.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_119 = {
+    name = "Casan"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_117
+    mother = dayne_118
+
+    trait = lustful
+    trait = zealous
+    trait = greedy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    2569.3.4 = {
+        birth = yes
+    }
+
+    2611.8.4 = {
+        add_spouse = dayne_120
+    }
+
+    2641.5.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_120 = {
+    name = "Perra"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = gregarious
+    trait = impatient
+    trait = lazy
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 9
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    2594.4.28 = {
+        birth = yes
+    }
+
+    2625.12.7 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+dayne_121 = {
+    name = "Donnel"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_119
+    mother = dayne_120
+
+    trait = forgiving
+    trait = compassionate
+    trait = temperate
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_2
+
+    2611.7.8 = {
+        birth = yes
+    }
+
+    2632.7.7 = {
+        add_spouse = dayne_122
+    }
+
+    2688.8.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_122 = {
+    name = "Lynarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = paranoid
+    trait = gregarious
+    trait = content
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 9
+    intrigue = 8
+    learning = 3
+    prowess = 2
+
+    trait = education_stewardship_2
+
+    2615.11.26 = {
+        birth = yes
+    }
+
+    2699.5.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_123 = {
+    name = "Frodoi"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_121
+    mother = dayne_122
+
+    trait = ambitious
+    trait = wrathful
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 4
+    learning = 9
+    prowess = 8
+
+    trait = education_learning_2
+
+    2647.12.22 = {
+        birth = yes
+    }
+
+    2680.10.10 = {
+        add_spouse = dayne_124
+    }
+
+    2690.3.26 = {
+        death = { death_reason = death_beaten }
+    }
+}
+
+dayne_124 = {
+    name = "Alysane"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = calm
+    trait = zealous
+    trait = brave
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 1
+    intrigue = 8
+    learning = 8
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    2663.5.15 = {
+        birth = yes
+    }
+
+    2746.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_125 = {
+    name = "Rikulf"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_123
+    mother = dayne_124
+
+    trait = patient
+    trait = diligent
+    trait = fickle
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_2
+
+    2689.3.21 = {
+        birth = yes
+    }
+
+    2731.11.6 = {
+        add_spouse = dayne_126
+    }
+
+    2755.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_126 = {
+    name = "Tyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = calm
+    trait = vengeful
+    trait = trusting
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 9
+    intrigue = 7
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    2714.7.4 = {
+        birth = yes
+    }
+
+    2789.11.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_127 = {
+    name = "Robb"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_125
+    mother = dayne_126
+
+    trait = calm
+    trait = just
+    trait = lustful
+
+    diplomacy = 10
+    martial = 9
+    stewardship = 7
+    intrigue = 3
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    2755.2.21 = {
+        birth = yes
+    }
+
+    2785.12.2 = {
+        add_spouse = dayne_128
+    }
+
+    2830.8.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_128 = {
+    name = "Rowena"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = chaste
+    trait = trusting
+    trait = cynical
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    2768.10.12 = {
+        birth = yes
+    }
+
+    2840.7.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_129 = {
+    name = "Eylif"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_127
+    mother = dayne_128
+
+    trait = craven
+    trait = wrathful
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    2788.1.13 = {
+        birth = yes
+    }
+
+    2838.10.26 = {
+        add_spouse = dayne_130
+    }
+
+    2848.5.24 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+dayne_130 = {
+    name = "Sarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = trusting
+    trait = impatient
+    trait = fickle
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_3
+
+    2821.1.5 = {
+        birth = yes
+    }
+
+    2890.5.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_131 = {
+    name = "Folke"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_129
+    mother = dayne_130
+
+    trait = shy
+    trait = lazy
+    trait = impatient
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    2839.10.10 = {
+        birth = yes
+    }
+
+    2858.6.13 = {
+        add_spouse = dayne_132
+    }
+
+    2908.4.7 = {
+        death = { death_reason = death_fall  }
+    }
+}
+
+dayne_132 = {
+    name = "Elyssi"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = chaste
+    trait = diligent
+    trait = greedy
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    2841.5.14 = {
+        birth = yes
+    }
+
+    2925.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_133 = {
+    name = "Matus"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_131
+    mother = dayne_132
+
+    trait = arrogant
+    trait = temperate
+    trait = patient
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    2871.11.3 = {
+        birth = yes
+    }
+
+    2908.4.7 = {
+        add_spouse = dayne_134
+    }
+
+    2955.9.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_134 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = humble
+    trait = fickle
+    trait = wrathful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    2891.2.16 = {
+        birth = yes
+    }
+
+    2965.2.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_135 = {
+    name = "Robett"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_133
+    mother = dayne_134
+
+    trait = stubborn
+    trait = sadistic
+    trait = brave
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 9
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    2909.11.19 = {
+        birth = yes
+    }
+
+    2926.9.9 = {
+        add_spouse = dayne_136
+    }
+
+    2936.10.15 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+dayne_136 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = just
+    trait = chaste
+    trait = humble
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 3
+    intrigue = 6
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_3
+
+    2909.9.25 = {
+        birth = yes
+    }
+
+    2946.4.27 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+dayne_137 = {
+    name = "Torrhen"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_135
+    mother = dayne_136
+
+    trait = chaste
+    trait = patient
+    trait = deceitful
+
+    diplomacy = 19
+    martial = 23
+    stewardship = 18
+    intrigue = 16
+    learning = 19
+    prowess = 16
+
+    trait = education_martial_4
+
+    2929.9.9 = {
+        birth = yes
+    }
+
+    2968.12.10 = {
+        add_spouse = dayne_138
+    }
+
+    3010.5.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_138 = {
+    name = "Saga"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = content
+    trait = wrathful
+    trait = humble
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_3
+
+    2951.4.3 = {
+        birth = yes
+    }
+
+    2978.5.2 = {
+        death = { death_reason = death_treatment }
+    }
+}
+
+dayne_139 = {
+    name = "Aronn"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_137
+    mother = dayne_138
+
+    trait = brave
+    trait = vengeful
+    trait = impatient
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 10
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    2977.11.19 = {
+        birth = yes
+    }
+
+    3015.12.21 = {
+        add_spouse = dayne_140
+    }
+
+    3049.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_140 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = diligent
+    trait = arbitrary
+    trait = cynical
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 1
+    intrigue = 4
+    learning = 3
+    prowess = 3
+
+    trait = education_martial_2
+
+    2998.5.9 = {
+        birth = yes
+    }
+
+    3077.4.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_141 = {
+    name = "Gawen"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_139
+    mother = dayne_140
+
+    trait = wrathful
+    trait = gluttonous
+    trait = fickle
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    3026.6.3 = {
+        birth = yes
+    }
+
+    3041.5.7 = {
+        add_spouse = dayne_142
+    }
+
+    3092.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_142 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = callous
+    trait = gluttonous
+    trait = trusting
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    3024.8.18 = {
+        birth = yes
+    }
+
+    3090.5.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_143 = {
+    name = "Tomard"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_141
+    mother = dayne_142
+
+    trait = vengeful
+    trait = fickle
+    trait = honest
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 10
+    intrigue = 3
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_2
+
+    3053.12.11 = {
+        birth = yes
+    }
+
+    3095.9.14 = {
+        add_spouse = dayne_144
+    }
+
+    3128.6.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_144 = {
+    name = "Ansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = gregarious
+    trait = fickle
+    trait = content
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 5
+    prowess = 1
+
+    trait = education_diplomacy_3
+
+    3078.10.26 = {
+        birth = yes
+    }
+
+    3147.9.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_145 = {
+    name = "Hugo"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_143
+    mother = dayne_144
+
+    trait = honest
+    trait = sadistic
+    trait = gregarious
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 9
+    intrigue = 5
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    3114.2.19 = {
+        birth = yes
+    }
+
+    3134.12.13 = {
+        add_spouse = dayne_146
+    }
+
+    3190.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_146 = {
+    name = "Izabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = chaste
+    trait = paranoid
+    trait = zealous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 3
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    3117.3.16 = {
+        birth = yes
+    }
+
+    3194.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_147 = {
+    name = "Dag"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_145
+    mother = dayne_146
+
+    trait = gregarious
+    trait = stubborn
+    trait = lazy
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_learning_3
+
+    3140.10.24 = {
+        birth = yes
+    }
+
+    3176.9.13 = {
+        add_spouse = dayne_148
+    }
+
+    3218.3.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_148 = {
+    name = "Cecil"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = lustful
+    trait = fickle
+    trait = temperate
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 9
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    3159.5.17 = {
+        birth = yes
+    }
+
+    3226.5.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_149 = {
+    name = "Refil"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_147
+    mother = dayne_148
+
+    trait = temperate
+    trait = trusting
+    trait = chaste
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    3197.5.26 = {
+        birth = yes
+    }
+
+    3217.3.16 = {
+        add_spouse = dayne_150
+    }
+
+    3266.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_150 = {
+    name = "Myra"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = patient
+    trait = callous
+    trait = ambitious
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 2
+    prowess = 6
+
+    trait = education_martial_4
+
+    3200.7.24 = {
+        birth = yes
+    }
+
+    3284.11.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_151 = {
+    name = "Theon"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_149
+    mother = dayne_150
+
+    trait = compassionate
+    trait = wrathful
+    trait = brave
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 10
+    prowess = 6
+
+    trait = education_learning_3
+
+    3241.12.16 = {
+        birth = yes
+    }
+
+    3289.12.26 = {
+        add_spouse = dayne_152
+    }
+
+    3322.8.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_152 = {
+    name = "Jaisyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = gluttonous
+    trait = compassionate
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 3
+    intrigue = 7
+    learning = 4
+    prowess = 9
+
+    trait = education_intrigue_1
+
+    3272.6.27 = {
+        birth = yes
+    }
+
+    3341.3.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_153 = {
+    name = "Dann"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_151
+    mother = dayne_152
+
+    trait = lustful
+    trait = compassionate
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_3
+
+    3305.4.3 = {
+        birth = yes
+    }
+
+    3341.6.24 = {
+        add_spouse = dayne_154
+    }
+
+    3383.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_154 = {
+    name = "Bethany"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = callous
+    trait = forgiving
+    trait = patient
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    3324.1.26 = {
+        birth = yes
+    }
+
+    3406.9.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_155 = {
+    name = "Casan"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_153
+    mother = dayne_154
+
+    trait = just
+    trait = paranoid
+    trait = fickle
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    3347.10.15 = {
+        birth = yes
+    }
+
+    3387.4.6 = {
+        add_spouse = dayne_156
+    }
+
+    3419.9.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_156 = {
+    name = "Jonnela"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = lustful
+    trait = cynical
+    trait = honest
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 9
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    3370.2.11 = {
+        birth = yes
+    }
+
+    3448.7.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_157 = {
+    name = "Edric"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_155
+    mother = dayne_156
+
+    trait = ambitious
+    trait = sadistic
+    trait = zealous
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 10
+    intrigue = 9
+    learning = 7
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    3393.10.15 = {
+        birth = yes
+    }
+
+    3439.6.17 = {
+        add_spouse = dayne_158
+    }
+
+    3449.2.16 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+dayne_158 = {
+    name = "Cateryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = fickle
+    trait = generous
+    trait = lustful
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 2
+    intrigue = 8
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    3422.5.22 = {
+        birth = yes
+    }
+
+    3493.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_159 = {
+    name = "Edwyle"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_157
+    mother = dayne_158
+
+    trait = impatient
+    trait = zealous
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_2
+
+    3443.1.12 = {
+        birth = yes
+    }
+
+    3460.3.4 = {
+        add_spouse = dayne_160
+    }
+
+    3514.1.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_160 = {
+    name = "Tessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = gregarious
+    trait = gluttonous
+    trait = calm
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 3
+    intrigue = 7
+    learning = 3
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    3443.8.21 = {
+        birth = yes
+    }
+
+    3519.7.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_161 = {
+    name = "Garth"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_159
+    mother = dayne_160
+
+    trait = fickle
+    trait = gluttonous
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 9
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    3469.12.14 = {
+        birth = yes
+    }
+
+    3483.11.2 = {
+        add_spouse = dayne_162
+    }
+
+    3552.7.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_162 = {
+    name = "Thyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = chaste
+    trait = lazy
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_1
+
+    3466.4.3 = {
+        birth = yes
+    }
+
+    3532.11.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_163 = {
+    name = "Niklas"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_161
+    mother = dayne_162
+
+    trait = sadistic
+    trait = lazy
+    trait = gregarious
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 8
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    3511.8.16 = {
+        birth = yes
+    }
+
+    3543.11.15 = {
+        add_spouse = dayne_164
+    }
+
+    3588.11.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_164 = {
+    name = "Ylva"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = just
+    trait = deceitful
+    trait = craven
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    3526.3.8 = {
+        birth = yes
+    }
+
+    3609.5.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_165 = {
+    name = "Egle"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_163
+    mother = dayne_164
+
+    trait = lustful
+    trait = humble
+    trait = callous
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    3561.5.7 = {
+        birth = yes
+    }
+
+    3584.12.17 = {
+        add_spouse = dayne_166
+    }
+
+    3645.3.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_166 = {
+    name = "Alyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = gregarious
+    trait = vengeful
+    trait = stubborn
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 2
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    3567.6.21 = {
+        birth = yes
+    }
+
+    3649.4.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_167 = {
+    name = "Bass"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_165
+    mother = dayne_166
+
+    trait = lazy
+    trait = just
+    trait = content
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 2
+    intrigue = 6
+    learning = 11
+    prowess = 8
+
+    trait = education_learning_2
+
+    3588.3.16 = {
+        birth = yes
+    }
+
+    3638.1.4 = {
+        add_spouse = dayne_168
+    }
+
+    3670.12.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_168 = {
+    name = "Sybelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = arrogant
+    trait = trusting
+    trait = fickle
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 2
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_2
+
+    3621.7.19 = {
+        birth = yes
+    }
+
+    3701.7.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_169 = {
+    name = "Hakon"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_167
+    mother = dayne_168
+
+    trait = sadistic
+    trait = zealous
+    trait = honest
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    3666.6.3 = {
+        birth = yes
+    }
+
+    3704.1.10 = {
+        add_spouse = dayne_170
+    }
+
+    3743.9.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_170 = {
+    name = "Rikissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = forgiving
+    trait = humble
+    trait = content
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_2
+
+    3687.10.4 = {
+        birth = yes
+    }
+
+    3762.6.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_171 = {
+    name = "Gariss"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_169
+    mother = dayne_170
+
+    trait = impatient
+    trait = diligent
+    trait = cynical
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 3
+    intrigue = 7
+    learning = 4
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    3718.9.9 = {
+        birth = yes
+    }
+
+    3767.12.15 = {
+        add_spouse = dayne_172
+    }
+
+    3796.4.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_172 = {
+    name = "Alyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = gregarious
+    trait = arrogant
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 5
+    intrigue = 2
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    3750.8.28 = {
+        birth = yes
+    }
+
+    3831.11.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_173 = {
+    name = "Joseth"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_171
+    mother = dayne_172
+
+    trait = paranoid
+    trait = humble
+    trait = arbitrary
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    3774.10.22 = {
+        birth = yes
+    }
+
+    3819.3.13 = {
+        add_spouse = dayne_174
+    }
+
+    3829.2.7 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+dayne_174 = {
+    name = "Arra"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = arbitrary
+    trait = stubborn
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 3
+    intrigue = 3
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    3802.5.25 = {
+        birth = yes
+    }
+
+    3860.2.9 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+dayne_175 = {
+    name = "Roger"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_173
+    mother = dayne_174
+
+    trait = humble
+    trait = paranoid
+    trait = temperate
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_3
+
+    3821.4.7 = {
+        birth = yes
+    }
+
+    3853.3.12 = {
+        add_spouse = dayne_176
+    }
+
+    3901.10.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_176 = {
+    name = "Magdalyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = arrogant
+    trait = gluttonous
+    trait = craven
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    3836.5.18 = {
+        birth = yes
+    }
+
+    3905.7.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_177 = {
+    name = "Benjicot"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_175
+    mother = dayne_176
+
+    trait = paranoid
+    trait = arrogant
+    trait = temperate
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 10
+    prowess = 3
+
+    trait = education_learning_2
+
+    3868.6.23 = {
+        birth = yes
+    }
+
+    3899.7.12 = {
+        add_spouse = dayne_178
+    }
+
+    3938.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_178 = {
+    name = "Ilyssi"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = paranoid
+    trait = humble
+    trait = greedy
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 4
+    intrigue = 8
+    learning = 9
+    prowess = 6
+
+    trait = education_martial_4
+
+    3882.2.14 = {
+        birth = yes
+    }
+
+    3961.8.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_179 = {
+    name = "Helman"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_177
+    mother = dayne_178
+
+    trait = content
+    trait = lazy
+    trait = zealous
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    3902.1.21 = {
+        birth = yes
+    }
+
+    3924.10.11 = {
+        add_spouse = dayne_180
+    }
+
+    3969.9.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_180 = {
+    name = "Tissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = zealous
+    trait = sadistic
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 9
+    prowess = 3
+
+    trait = education_learning_3
+
+    3907.8.9 = {
+        birth = yes
+    }
+
+    3980.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_181 = {
+    name = "Odd"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_179
+    mother = dayne_180
+
+    trait = zealous
+    trait = shy
+    trait = impatient
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 4
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    3951.11.25 = {
+        birth = yes
+    }
+
+    3988.11.3 = {
+        add_spouse = dayne_182
+    }
+
+    4031.9.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_182 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = sadistic
+    trait = brave
+    trait = just
+
+    diplomacy = 4
+    martial = 10
+    stewardship = 5
+    intrigue = 7
+    learning = 3
+    prowess = 4
+
+    trait = education_martial_1
+
+    3971.12.26 = {
+        birth = yes
+    }
+
+    4038.5.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_183 = {
+    name = "Gariss"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_181
+    mother = dayne_182
+
+    trait = calm
+    trait = trusting
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    3989.2.14 = {
+        birth = yes
+    }
+
+    4037.7.23 = {
+        add_spouse = dayne_184
+    }
+
+    4047.4.15 = {
+        death = { death_reason = death_dungeon  }
+    }
+}
+
+dayne_184 = {
+    name = "Danelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = forgiving
+    trait = just
+    trait = content
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 9
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_1
+
+    4020.8.18 = {
+        birth = yes
+    }
+
+    4101.2.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_185 = {
+    name = "Oddr"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_183
+    mother = dayne_184
+
+    trait = content
+    trait = lazy
+    trait = just
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 3
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    4046.10.15 = {
+        birth = yes
+    }
+
+    4096.5.21 = {
+        add_spouse = dayne_186
+    }
+
+    4121.1.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_186 = {
+    name = "Tessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = wrathful
+    trait = content
+    trait = trusting
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 9
+
+    trait = education_learning_4
+
+    4079.2.25 = {
+        birth = yes
+    }
+
+    4151.7.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_187 = {
+    name = "Alyxander"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_185
+    mother = dayne_186
+
+    trait = honest
+    trait = ambitious
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 2
+    intrigue = 7
+    learning = 6
+    prowess = 9
+
+    trait = education_martial_1
+
+    4113.7.28 = {
+        birth = yes
+    }
+
+    4162.8.25 = {
+        add_spouse = dayne_188
+    }
+
+    4172.6.9 = {
+        death = { death_reason = death_drowned  }
+    }
+}
+
+dayne_188 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = temperate
+    trait = lustful
+    trait = impatient
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 2
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    4145.11.22 = {
+        birth = yes
+    }
+
+    4217.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_189 = {
+    name = "Dorren"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_187
+    mother = dayne_188
+
+    trait = zealous
+    trait = sadistic
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    4169.5.10 = {
+        birth = yes
+    }
+
+    4216.3.23 = {
+        add_spouse = dayne_190
+    }
+
+    4237.10.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_190 = {
+    name = "Lacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = paranoid
+    trait = gregarious
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    4199.10.12 = {
+        birth = yes
+    }
+
+    4226.7.14 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+dayne_191 = {
+    name = "Casimir"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_189
+    mother = dayne_190
+
+    trait = wrathful
+    trait = content
+    trait = trusting
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 1
+    intrigue = 8
+    learning = 2
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    4218.11.11 = {
+        birth = yes
+    }
+
+    4264.9.25 = {
+        add_spouse = dayne_192
+    }
+
+    4296.11.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_192 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = patient
+    trait = honest
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    4247.2.14 = {
+        birth = yes
+    }
+
+    4319.8.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_193 = {
+    name = "Torghen"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_191
+    mother = dayne_192
+
+    trait = callous
+    trait = lazy
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 9
+    prowess = 3
+
+    trait = education_learning_2
+
+    4271.6.20 = {
+        birth = yes
+    }
+
+    4311.12.14 = {
+        add_spouse = dayne_194
+    }
+
+    4325.12.28 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+dayne_194 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = humble
+    trait = ambitious
+    trait = temperate
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 2
+
+    trait = education_martial_2
+
+    4294.7.10 = {
+        birth = yes
+    }
+
+    4378.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_195 = {
+    name = "Martyn"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_193
+    mother = dayne_194
+
+    trait = gluttonous
+    trait = calm
+    trait = humble
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 2
+    prowess = 8
+
+    trait = education_martial_2
+
+    4319.11.18 = {
+        birth = yes
+    }
+
+    4353.3.19 = {
+        add_spouse = dayne_196
+    }
+
+    4371.6.4 = {
+        death = { death_reason = death_beaten }
+    }
+}
+
+dayne_196 = {
+    name = "Donella"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = brave
+    trait = trusting
+    trait = chaste
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 4
+    learning = 2
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    4336.2.4 = {
+        birth = yes
+    }
+
+    4412.4.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_197 = {
+    name = "Wayn"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_195
+    mother = dayne_196
+
+    trait = temperate
+    trait = cynical
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 2
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    4357.10.2 = {
+        birth = yes
+    }
+
+    4391.6.16 = {
+        add_spouse = dayne_198
+    }
+
+    4430.9.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_198 = {
+    name = "Danelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = arrogant
+    trait = callous
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 9
+    intrigue = 7
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_3
+
+    4374.12.16 = {
+        birth = yes
+    }
+
+    4445.11.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_199 = {
+    name = "Dorren"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_197
+    mother = dayne_198
+
+    trait = just
+    trait = vengeful
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_3
+
+    4411.1.19 = {
+        birth = yes
+    }
+
+    4452.11.20 = {
+        add_spouse = dayne_200
+    }
+
+    4462.9.7 = {
+        death = { death_reason = death_duel }
+    }
+}
+
+dayne_200 = {
+    name = "Sybelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = temperate
+    trait = just
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    4435.10.24 = {
+        birth = yes
+    }
+
+    4512.3.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_201 = {
+    name = "Eyron"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_199
+    mother = dayne_200
+
+    trait = arrogant
+    trait = wrathful
+    trait = sadistic
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 4
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_learning_3
+
+    4453.8.22 = {
+        birth = yes
+    }
+
+    4494.10.19 = {
+        add_spouse = dayne_202
+    }
+
+    4504.9.1 = {
+        death = { death_reason = death_mysterious  }
+    }
+}
+
+dayne_202 = {
+    name = "Krysti"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = forgiving
+    trait = arrogant
+    trait = cynical
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    4477.5.7 = {
+        birth = yes
+    }
+
+    4543.7.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_203 = {
+    name = "Dag"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_201
+    mother = dayne_202
+
+    trait = gregarious
+    trait = arbitrary
+    trait = content
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 8
+    learning = 2
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    4498.5.10 = {
+        birth = yes
+    }
+
+    4528.4.19 = {
+        add_spouse = dayne_204
+    }
+
+    4575.5.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_204 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = stubborn
+    trait = zealous
+    trait = craven
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 2
+    learning = 4
+    prowess = 10
+
+    trait = education_diplomacy_4
+
+    4511.8.17 = {
+        birth = yes
+    }
+
+    4581.11.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_205 = {
+    name = "Hakon"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_203
+    mother = dayne_204
+
+    trait = sadistic
+    trait = vengeful
+    trait = cynical
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 9
+
+    trait = education_martial_3
+
+    4540.1.25 = {
+        birth = yes
+    }
+
+    4584.5.16 = {
+        add_spouse = dayne_206
+    }
+
+    4607.8.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_206 = {
+    name = "Ely"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = ambitious
+    trait = vengeful
+    trait = brave
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_2
+
+    4567.4.7 = {
+        birth = yes
+    }
+
+    4640.2.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_207 = {
+    name = "Kael"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_205
+    mother = dayne_206
+
+    trait = gregarious
+    trait = temperate
+    trait = diligent
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 4
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_3
+
+    4604.10.24 = {
+        birth = yes
+    }
+
+    4625.11.20 = {
+        add_spouse = dayne_208
+    }
+
+    4674.5.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_208 = {
+    name = "Maegi"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = forgiving
+    trait = craven
+    trait = cynical
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 3
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    4608.10.16 = {
+        birth = yes
+    }
+
+    4689.1.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_209 = {
+    name = "Casamir"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_207
+    mother = dayne_208
+
+    trait = diligent
+    trait = stubborn
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 9
+
+    trait = education_learning_4
+
+    4642.12.16 = {
+        birth = yes
+    }
+
+    4680.12.3 = {
+        add_spouse = dayne_210
+    }
+
+    4720.4.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_210 = {
+    name = "Thora"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = impatient
+    trait = arrogant
+    trait = cynical
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 8
+    intrigue = 8
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    4663.7.25 = {
+        birth = yes
+    }
+
+    4730.5.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_211 = {
+    name = "Alic"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_209
+    mother = dayne_210
+
+    trait = forgiving
+    trait = craven
+    trait = greedy
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 10
+    prowess = 6
+
+    trait = education_learning_3
+
+    4700.4.28 = {
+        birth = yes
+    }
+
+    4724.7.1 = {
+        add_spouse = dayne_212
+    }
+
+    4769.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_212 = {
+    name = "Frennie"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = just
+    trait = impatient
+    trait = trusting
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 2
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_3
+
+    4707.2.14 = {
+        birth = yes
+    }
+
+    4779.4.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_213 = {
+    name = "Frodoi"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_211
+    mother = dayne_212
+
+    trait = cynical
+    trait = callous
+    trait = content
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_3
+
+    4732.8.10 = {
+        birth = yes
+    }
+
+    4757.3.14 = {
+        add_spouse = dayne_214
+    }
+
+    4798.9.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_214 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = stubborn
+    trait = arrogant
+    trait = content
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    4740.4.6 = {
+        birth = yes
+    }
+
+    4807.2.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_215 = {
+    name = "Rogar"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_213
+    mother = dayne_214
+
+    trait = diligent
+    trait = shy
+    trait = trusting
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 10
+    intrigue = 3
+    learning = 4
+    prowess = 9
+
+    trait = education_stewardship_1
+
+    4782.3.4 = {
+        birth = yes
+    }
+
+    4815.1.2 = {
+        add_spouse = dayne_216
+    }
+
+    4856.10.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_216 = {
+    name = "Elyssi"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = vengeful
+    trait = brave
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 8
+    intrigue = 2
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_2
+
+    4798.7.1 = {
+        birth = yes
+    }
+
+    4867.12.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_217 = {
+    name = "Rodrik"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_215
+    mother = dayne_216
+
+    trait = forgiving
+    trait = calm
+    trait = diligent
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 11
+
+    trait = education_martial_3
+
+    4833.5.2 = {
+        birth = yes
+    }
+
+    4861.8.2 = {
+        add_spouse = dayne_218
+    }
+
+    4903.6.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_218 = {
+    name = "Margaret"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = craven
+    trait = generous
+    trait = temperate
+
+    diplomacy = 4
+    martial = 11
+    stewardship = 2
+    intrigue = 6
+    learning = 9
+    prowess = 11
+
+    trait = education_martial_4
+
+    4844.6.27 = {
+        birth = yes
+    }
+
+    4919.3.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_219 = {
+    name = "Theon"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_217
+    mother = dayne_218
+
+    trait = callous
+    trait = zealous
+    trait = generous
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    4878.2.12 = {
+        birth = yes
+    }
+
+    4921.2.12 = {
+        add_spouse = dayne_220
+    }
+
+    4950.1.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_220 = {
+    name = "Cat"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = honest
+    trait = gluttonous
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 1
+    stewardship = 5
+    intrigue = 10
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    4904.11.18 = {
+        birth = yes
+    }
+
+    4971.12.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_221 = {
+    name = "Casamir"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_219
+    mother = dayne_220
+
+    trait = trusting
+    trait = callous
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 5
+    intrigue = 3
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    4929.2.2 = {
+        birth = yes
+    }
+
+    4951.6.18 = {
+        add_spouse = dayne_222
+    }
+
+    4995.3.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_222 = {
+    name = "Izabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = compassionate
+    trait = zealous
+    trait = craven
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    4934.11.28 = {
+        birth = yes
+    }
+
+    5003.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_223 = {
+    name = "Eylif"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_221
+    mother = dayne_222
+
+    trait = gluttonous
+    trait = humble
+    trait = trusting
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    4973.1.7 = {
+        birth = yes
+    }
+
+    4995.1.23 = {
+        add_spouse = dayne_224
+    }
+
+    5054.4.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_224 = {
+    name = "Orya"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = craven
+    trait = trusting
+    trait = chaste
+
+    diplomacy = 1
+    martial = 10
+    stewardship = 6
+    intrigue = 10
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_3
+
+    4978.7.17 = {
+        birth = yes
+    }
+
+    5046.1.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_225 = {
+    name = "Torrhen"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_223
+    mother = dayne_224
+
+    trait = gluttonous
+    trait = stubborn
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    5006.1.19 = {
+        birth = yes
+    }
+
+    5023.7.11 = {
+        add_spouse = dayne_226
+    }
+
+    5080.10.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_226 = {
+    name = "Lysa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = gluttonous
+    trait = patient
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 9
+
+    trait = education_martial_3
+
+    5006.6.16 = {
+        birth = yes
+    }
+
+    5078.3.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_227 = {
+    name = "Alyxander"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_225
+    mother = dayne_226
+
+    trait = zealous
+    trait = ambitious
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 8
+    intrigue = 4
+    learning = 3
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    5030.1.14 = {
+        birth = yes
+    }
+
+    5063.9.18 = {
+        add_spouse = dayne_228
+    }
+
+    5113.9.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_228 = {
+    name = "Ilyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = brave
+    trait = ambitious
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 8
+    intrigue = 3
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    5046.2.14 = {
+        birth = yes
+    }
+
+    5131.12.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_229 = {
+    name = "Harwood"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_227
+    mother = dayne_228
+
+    trait = humble
+    trait = compassionate
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 2
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    5081.10.5 = {
+        birth = yes
+    }
+
+    5095.7.25 = {
+        add_spouse = dayne_230
+    }
+
+    5150.1.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_230 = {
+    name = "Ylva"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = calm
+    trait = temperate
+    trait = cynical
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 6
+    intrigue = 2
+    learning = 10
+    prowess = 4
+
+    trait = education_learning_2
+
+    5078.9.23 = {
+        birth = yes
+    }
+
+    5147.8.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_231 = {
+    name = "Matus"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_229
+    mother = dayne_230
+
+    trait = patient
+    trait = chaste
+    trait = humble
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 8
+    intrigue = 3
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    5117.4.23 = {
+        birth = yes
+    }
+
+    5137.6.26 = {
+        add_spouse = dayne_232
+    }
+
+    5198.3.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_232 = {
+    name = "Cersera"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = cynical
+    trait = brave
+    trait = fickle
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    5120.5.6 = {
+        birth = yes
+    }
+
+    5186.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_233 = {
+    name = "Bo"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_231
+    mother = dayne_232
+
+    trait = generous
+    trait = chaste
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_3
+
+    5143.3.17 = {
+        birth = yes
+    }
+
+    5167.1.23 = {
+        add_spouse = dayne_234
+    }
+
+    5222.1.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_234 = {
+    name = "Marissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = lazy
+    trait = fickle
+    trait = trusting
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 9
+    intrigue = 10
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    5150.11.7 = {
+        birth = yes
+    }
+
+    5232.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_235 = {
+    name = "Hother"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_233
+    mother = dayne_234
+
+    trait = callous
+    trait = stubborn
+    trait = lustful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 9
+    intrigue = 4
+    learning = 4
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    5186.3.13 = {
+        birth = yes
+    }
+
+    5200.6.3 = {
+        add_spouse = dayne_236
+    }
+
+    5257.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_236 = {
+    name = "Margaret"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = craven
+    trait = patient
+    trait = stubborn
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    5183.10.6 = {
+        birth = yes
+    }
+
+    5268.6.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_237 = {
+    name = "Felip"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_235
+    mother = dayne_236
+
+    trait = arbitrary
+    trait = lustful
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 9
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    5200.8.3 = {
+        birth = yes
+    }
+
+    5228.12.12 = {
+        add_spouse = dayne_238
+    }
+
+    5238.3.7 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+dayne_238 = {
+    name = "Jolyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = wrathful
+    trait = compassionate
+    trait = shy
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    5211.8.22 = {
+        birth = yes
+    }
+
+    5277.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_239 = {
+    name = "Styn"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_237
+    mother = dayne_238
+
+    trait = cynical
+    trait = callous
+    trait = generous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_3
+
+    5231.6.18 = {
+        birth = yes
+    }
+
+    5268.5.10 = {
+        add_spouse = dayne_240
+    }
+
+    5303.5.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_240 = {
+    name = "Darlessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = calm
+    trait = fickle
+    trait = humble
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 8
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    5251.1.15 = {
+        birth = yes
+    }
+
+    5321.12.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_241 = {
+    name = "Jonnel"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_239
+    mother = dayne_240
+
+    trait = diligent
+    trait = content
+    trait = gluttonous
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    5280.6.22 = {
+        birth = yes
+    }
+
+    5321.11.17 = {
+        add_spouse = dayne_242
+    }
+
+    5360.11.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_242 = {
+    name = "Kaeli"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = wrathful
+    trait = arbitrary
+    trait = compassionate
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_martial_3
+
+    5304.2.15 = {
+        birth = yes
+    }
+
+    5388.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_243 = {
+    name = "Streen"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_241
+    mother = dayne_242
+
+    trait = sadistic
+    trait = cynical
+    trait = chaste
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 7
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_2
+
+    5347.3.13 = {
+        birth = yes
+    }
+
+    5385.12.8 = {
+        add_spouse = dayne_244
+    }
+
+    5404.7.4 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+dayne_244 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = content
+    trait = honest
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 9
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    5368.12.19 = {
+        birth = yes
+    }
+
+    5450.7.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_245 = {
+    name = "Kael"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_243
+    mother = dayne_244
+
+    trait = arbitrary
+    trait = lustful
+    trait = temperate
+
+    diplomacy = 10
+    martial = 9
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    5398.8.13 = {
+        birth = yes
+    }
+
+    5446.2.1 = {
+        add_spouse = dayne_246
+    }
+
+    5456.5.17 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+dayne_246 = {
+    name = "Kymila"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = craven
+    trait = shy
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 10
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    5429.12.27 = {
+        birth = yes
+    }
+
+    5495.9.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_247 = {
+    name = "Ulthan"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_245
+    mother = dayne_246
+
+    trait = impatient
+    trait = diligent
+    trait = honest
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 9
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_1
+
+    5452.8.19 = {
+        birth = yes
+    }
+
+    5475.2.27 = {
+        add_spouse = dayne_248
+    }
+
+    5505.3.11 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+dayne_248 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = honest
+    trait = stubborn
+    trait = paranoid
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    5458.1.5 = {
+        birth = yes
+    }
+
+    5532.9.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_249 = {
+    name = "Hakon"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_247
+    mother = dayne_248
+
+    trait = generous
+    trait = deceitful
+    trait = diligent
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    5499.4.1 = {
+        birth = yes
+    }
+
+    5542.3.2 = {
+        add_spouse = dayne_250
+    }
+
+    5578.9.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_250 = {
+    name = "Ricardya"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = gregarious
+    trait = forgiving
+    trait = lazy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 3
+    intrigue = 2
+    learning = 7
+    prowess = 5
+
+    trait = education_learning_3
+
+    5525.2.11 = {
+        birth = yes
+    }
+
+    5596.10.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_251 = {
+    name = "Wyman"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_249
+    mother = dayne_250
+
+    trait = arbitrary
+    trait = lustful
+    trait = greedy
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 2
+    intrigue = 6
+    learning = 5
+    prowess = 9
+
+    trait = education_martial_2
+
+    5549.12.12 = {
+        birth = yes
+    }
+
+    5598.11.24 = {
+        add_spouse = dayne_252
+    }
+
+    5619.7.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_252 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = trusting
+    trait = greedy
+    trait = just
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 11
+    prowess = 9
+
+    trait = education_learning_4
+
+    5581.11.9 = {
+        birth = yes
+    }
+
+    5658.1.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_253 = {
+    name = "Dog"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_251
+    mother = dayne_252
+
+    trait = cynical
+    trait = honest
+    trait = content
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 9
+    intrigue = 5
+    learning = 4
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    5606.7.16 = {
+        birth = yes
+    }
+
+    5625.3.18 = {
+        add_spouse = dayne_254
+    }
+
+    5675.4.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_254 = {
+    name = "Margaret"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = fickle
+    trait = callous
+    trait = impatient
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 8
+    intrigue = 3
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_2
+
+    5608.5.28 = {
+        birth = yes
+    }
+
+    5687.1.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_255 = {
+    name = "Hoarfrost"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_253
+    mother = dayne_254
+
+    trait = greedy
+    trait = sadistic
+    trait = calm
+
+    diplomacy = 9
+    martial = 3
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    5642.12.23 = {
+        birth = yes
+    }
+
+    5660.12.27 = {
+        add_spouse = dayne_256
+    }
+
+    5721.11.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_256 = {
+    name = "Lydia"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = gluttonous
+    trait = zealous
+    trait = impatient
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 4
+    intrigue = 8
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_4
+
+    5643.11.25 = {
+        birth = yes
+    }
+
+    5728.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_257 = {
+    name = "Quent"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_255
+    mother = dayne_256
+
+    trait = chaste
+    trait = calm
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    5687.9.20 = {
+        birth = yes
+    }
+
+    5728.5.5 = {
+        add_spouse = dayne_258
+    }
+
+    5755.4.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_258 = {
+    name = "Lyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = honest
+    trait = lustful
+    trait = humble
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 3
+    prowess = 3
+
+    trait = education_intrigue_1
+
+    5711.3.13 = {
+        birth = yes
+    }
+
+    5783.3.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_259 = {
+    name = "Harlon"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_257
+    mother = dayne_258
+
+    trait = temperate
+    trait = brave
+    trait = fickle
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    5730.3.24 = {
+        birth = yes
+    }
+
+    5759.1.16 = {
+        add_spouse = dayne_260
+    }
+
+    5808.11.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_260 = {
+    name = "Marissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = just
+    trait = greedy
+    trait = patient
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    5742.9.20 = {
+        birth = yes
+    }
+
+    5821.10.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_261 = {
+    name = "Kaelon"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_259
+    mother = dayne_260
+
+    trait = craven
+    trait = content
+    trait = generous
+
+    diplomacy = 11
+    martial = 10
+    stewardship = 5
+    intrigue = 9
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    5787.1.15 = {
+        birth = yes
+    }
+
+    5812.2.14 = {
+        add_spouse = dayne_262
+    }
+
+    5833.3.7 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+dayne_262 = {
+    name = "Frenya"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = arrogant
+    trait = just
+    trait = shy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    5795.12.14 = {
+        birth = yes
+    }
+
+    5822.2.12 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+dayne_263 = {
+    name = "Karlon"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_261
+    mother = dayne_262
+
+    trait = arbitrary
+    trait = chaste
+    trait = impatient
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    5813.12.5 = {
+        birth = yes
+    }
+
+    5854.6.12 = {
+        add_spouse = dayne_264
+    }
+
+    5889.6.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_264 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = honest
+    trait = forgiving
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_learning_1
+
+    5837.2.7 = {
+        birth = yes
+    }
+
+    5909.6.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_265 = {
+    name = "Bernarr"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_263
+    mother = dayne_264
+
+    trait = wrathful
+    trait = forgiving
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 9
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    5856.3.19 = {
+        birth = yes
+    }
+
+    5893.8.19 = {
+        add_spouse = dayne_266
+    }
+
+    5924.4.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_266 = {
+    name = "Ewilyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = chaste
+    trait = paranoid
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_3
+
+    5876.11.21 = {
+        birth = yes
+    }
+
+    5951.5.10 = {
+        death = { death_reason = death_horse_riding_accident  }
+    }
+}
+
+dayne_267 = {
+    name = "Kollen"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_265
+    mother = dayne_266
+
+    trait = patient
+    trait = trusting
+    trait = brave
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 1
+
+    trait = education_learning_2
+
+    5895.8.27 = {
+        birth = yes
+    }
+
+    5896.6.4 = {
+        give_nickname = nick_the_poet
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    5915.6.23 = {
+        add_spouse = dayne_268
+    }
+
+    5966.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_268 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = craven
+    trait = stubborn
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    5898.6.6 = {
+        birth = yes
+    }
+
+    5973.1.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_269 = {
+    name = "Rogar"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_267
+    mother = dayne_268
+
+    trait = just
+    trait = compassionate
+    trait = lazy
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 2
+    prowess = 7
+
+    trait = education_martial_1
+
+    5937.1.19 = {
+        birth = yes
+    }
+
+    5986.7.3 = {
+        add_spouse = dayne_270
+    }
+
+    6017.9.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_270 = {
+    name = "Kamyla"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = trusting
+    trait = honest
+    trait = just
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 8
+    intrigue = 4
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_2
+
+    5969.8.20 = {
+        birth = yes
+    }
+
+    6035.5.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_271 = {
+    name = "Lawyrence"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_269
+    mother = dayne_270
+
+    trait = gregarious
+    trait = diligent
+    trait = fickle
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 8
+    intrigue = 2
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_3
+
+    6011.7.28 = {
+        birth = yes
+    }
+
+    6052.2.11 = {
+        add_spouse = dayne_272
+    }
+
+    6084.10.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_272 = {
+    name = "Meera"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = paranoid
+    trait = temperate
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_3
+
+    6035.4.8 = {
+        birth = yes
+    }
+
+    6116.1.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_273 = {
+    name = "Robard"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_271
+    mother = dayne_272
+
+    trait = gluttonous
+    trait = trusting
+    trait = ambitious
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    6080.2.17 = {
+        birth = yes
+    }
+
+    6097.12.9 = {
+        add_spouse = dayne_274
+    }
+
+    6150.5.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_274 = {
+    name = "Lidania"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = chaste
+    trait = stubborn
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 2
+
+    trait = education_diplomacy_4
+
+    6080.2.8 = {
+        birth = yes
+    }
+
+    6156.10.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_275 = {
+    name = "Roger"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_273
+    mother = dayne_274
+
+    trait = stubborn
+    trait = humble
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6107.7.9 = {
+        birth = yes
+    }
+
+    6122.12.15 = {
+        add_spouse = dayne_276
+    }
+
+    6175.7.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_276 = {
+    name = "Perra"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = paranoid
+    trait = honest
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 8
+    intrigue = 8
+    learning = 6
+    prowess = 10
+
+    trait = education_stewardship_3
+
+    6105.7.6 = {
+        birth = yes
+    }
+
+    6181.5.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_277 = {
+    name = "Faste"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_275
+    mother = dayne_276
+
+    trait = shy
+    trait = lustful
+    trait = honest
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    6139.1.27 = {
+        birth = yes
+    }
+
+    6155.10.16 = {
+        add_spouse = dayne_278
+    }
+
+    6205.8.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_278 = {
+    name = "Tylissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = lazy
+    trait = arrogant
+    trait = gluttonous
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    6138.5.25 = {
+        birth = yes
+    }
+
+    6215.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_279 = {
+    name = "Kyle"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_277
+    mother = dayne_278
+
+    trait = chaste
+    trait = patient
+    trait = diligent
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_2
+
+    6182.10.18 = {
+        birth = yes
+    }
+
+    6198.4.4 = {
+        add_spouse = dayne_280
+    }
+
+    6258.1.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_280 = {
+    name = "Marna"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = callous
+    trait = humble
+    trait = honest
+
+    diplomacy = 10
+    martial = 9
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6181.12.6 = {
+        birth = yes
+    }
+
+    6258.5.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_281 = {
+    name = "Brandon"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_279
+    mother = dayne_280
+
+    trait = ambitious
+    trait = craven
+    trait = lazy
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 10
+    prowess = 8
+
+    trait = education_learning_2
+
+    6207.7.6 = {
+        birth = yes
+    }
+
+    6239.1.1 = {
+        add_spouse = dayne_282
+    }
+
+    6285.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_282 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = fickle
+    trait = shy
+    trait = patient
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 5
+    intrigue = 4
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_4
+
+    6222.9.11 = {
+        birth = yes
+    }
+
+    6299.9.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_283 = {
+    name = "Vesimar"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_281
+    mother = dayne_282
+
+    trait = calm
+    trait = zealous
+    trait = craven
+
+    diplomacy = 8
+    martial = 10
+    stewardship = 3
+    intrigue = 3
+    learning = 11
+    prowess = 7
+
+    trait = education_learning_2
+
+    6246.1.23 = {
+        birth = yes
+    }
+
+    6291.10.14 = {
+        add_spouse = dayne_284
+    }
+
+    6329.2.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_284 = {
+    name = "Magdalyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = generous
+    trait = impatient
+    trait = arbitrary
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 6
+    intrigue = 10
+    learning = 7
+    prowess = 9
+
+    trait = education_intrigue_2
+
+    6274.10.18 = {
+        birth = yes
+    }
+
+    6358.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_285 = {
+    name = "Cley"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_283
+    mother = dayne_284
+
+    trait = callous
+    trait = arrogant
+    trait = lustful
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 11
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6291.6.13 = {
+        birth = yes
+    }
+
+    6319.6.8 = {
+        add_spouse = dayne_286
+    }
+
+    6363.11.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_286 = {
+    name = "Arrana"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = cynical
+    trait = diligent
+    trait = temperate
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_2
+
+    6302.8.16 = {
+        birth = yes
+    }
+
+    6383.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_287 = {
+    name = "Niklas"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_285
+    mother = dayne_286
+
+    trait = gregarious
+    trait = stubborn
+    trait = temperate
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 3
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_4
+
+    6327.6.9 = {
+        birth = yes
+    }
+
+    6357.6.9 = {
+        add_spouse = dayne_288
+    }
+
+    6405.2.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_288 = {
+    name = "Kyli"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = lazy
+    trait = sadistic
+    trait = chaste
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6340.4.7 = {
+        birth = yes
+    }
+
+    6393.8.26 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+dayne_289 = {
+    name = "Ondrew"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_287
+    mother = dayne_288
+
+    trait = greedy
+    trait = calm
+    trait = temperate
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 7
+    intrigue = 10
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6361.4.7 = {
+        birth = yes
+    }
+
+    6402.3.7 = {
+        add_spouse = dayne_290
+    }
+
+    6431.12.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_290 = {
+    name = "Rikyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = compassionate
+    trait = cynical
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 11
+    intrigue = 6
+    learning = 3
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    6385.8.23 = {
+        birth = yes
+    }
+
+    6466.8.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_291 = {
+    name = "Galbart"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_289
+    mother = dayne_290
+
+    trait = paranoid
+    trait = arrogant
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 2
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    6418.1.6 = {
+        birth = yes
+    }
+
+    6461.6.24 = {
+        add_spouse = dayne_292
+    }
+
+    6484.8.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_292 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = compassionate
+    trait = stubborn
+    trait = impatient
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6444.10.17 = {
+        birth = yes
+    }
+
+    6522.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_293 = {
+    name = "Eddard"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_291
+    mother = dayne_292
+
+    trait = gluttonous
+    trait = brave
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_learning_4
+
+    6478.8.22 = {
+        birth = yes
+    }
+
+    6497.3.5 = {
+        add_spouse = dayne_294
+    }
+
+    6516.11.22 = {
+        death = { death_reason = death_duel }
+    }
+}
+
+dayne_294 = {
+    name = "Cecilia"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = gregarious
+    trait = deceitful
+    trait = lazy
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_3
+
+    6480.10.20 = {
+        birth = yes
+    }
+
+    6551.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_295 = {
+    name = "Gil"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_293
+    mother = dayne_294
+
+    trait = impatient
+    trait = arrogant
+    trait = calm
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_2
+
+    6501.8.16 = {
+        birth = yes
+    }
+
+    6583.9.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_296 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_293
+    mother = dayne_294
+
+    trait = compassionate
+    trait = patient
+    trait = just
+
+    diplomacy = 4
+    martial = 1
+    stewardship = 8
+    intrigue = 7
+    learning = 8
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6504.9.14 = {
+        birth = yes
+    }
+
+    6580.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_297 = {
+    name = "Meliana"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_293
+    mother = dayne_294
+
+    trait = just
+    trait = cynical
+    trait = impatient
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_4
+
+    6506.7.27 = {
+        birth = yes
+    }
+
+    6589.7.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_298 = {
+    name = "Mikken"
+
+    dynasty = dynasty_dayne
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_293
+    mother = dayne_294
+
+    trait = impatient
+    trait = arbitrary
+    trait = content
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 4
+    learning = 4
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6508.12.8 = {
+        birth = yes
+    }
+
+    6541.8.23 = {
+        add_spouse = dayne_299
+    }
+
+    6587.1.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_299 = {
+    name = "Marissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    trait = craven
+    trait = content
+    trait = paranoid
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6524.8.13 = {
+        birth = yes
+    }
+
+    6609.1.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dayne_300 = {
+    name = "Lyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = torrentine
+
+    father = dayne_298
+    mother = dayne_299
+
+    trait = vengeful
+    trait = ambitious
+    trait = arbitrary
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 3
+
+    trait = education_learning_3
+
+    6542.9.4 = {
+        birth = yes
+    }
+
+    6629.1.15 = {
+        death = { death_reason = death_plotting  }
+    }
+}
