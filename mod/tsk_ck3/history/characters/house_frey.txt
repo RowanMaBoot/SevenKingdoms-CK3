@@ -1,0 +1,4132 @@
+frey_1 = {
+    name = "Benfred"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    trait = honest
+    trait = humble
+    trait = fickle
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    4450.10.10 = {
+        birth = yes
+    }
+
+    4486.12.13 = {
+        add_spouse = frey_2
+    }
+
+    4528.3.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_2 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = vengeful
+    trait = callous
+    trait = zealous
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_3
+
+    4469.5.19 = {
+        birth = yes
+    }
+
+    4549.4.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_3 = {
+    name = "Larence"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_1
+    mother = frey_2
+
+    trait = arrogant
+    trait = just
+    trait = lazy
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 6
+    intrigue = 10
+    learning = 9
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    4488.7.6 = {
+        birth = yes
+    }
+
+    4489.5.7 = {
+        give_nickname = nick_the_shepherd
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    4503.4.4 = {
+        add_spouse = frey_4
+    }
+
+    4562.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_4 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = honest
+    trait = wrathful
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    4486.2.12 = {
+        birth = yes
+    }
+
+    4571.1.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_5 = {
+    name = "Dorren"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_3
+    mother = frey_4
+
+    trait = vengeful
+    trait = fickle
+    trait = callous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_3
+
+    4506.1.7 = {
+        birth = yes
+    }
+
+    4524.5.22 = {
+        add_spouse = frey_6
+    }
+
+    4588.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_6 = {
+    name = "Jynessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = just
+    trait = ambitious
+    trait = humble
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 9
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    4507.9.2 = {
+        birth = yes
+    }
+
+    4583.2.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_7 = {
+    name = "Donnis"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_5
+    mother = frey_6
+
+    trait = arrogant
+    trait = generous
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 8
+    intrigue = 2
+    learning = 6
+    prowess = 9
+
+    trait = education_martial_3
+
+    4540.6.8 = {
+        birth = yes
+    }
+
+    4567.8.18 = {
+        add_spouse = frey_8
+    }
+
+    4624.10.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_8 = {
+    name = "Alysane"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = shy
+    trait = forgiving
+    trait = generous
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 5
+    intrigue = 10
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    4550.1.24 = {
+        birth = yes
+    }
+
+    4629.7.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_9 = {
+    name = "Donnor"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_7
+    mother = frey_8
+
+    trait = gregarious
+    trait = lazy
+    trait = just
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    4591.7.27 = {
+        birth = yes
+    }
+
+    4625.7.6 = {
+        add_spouse = frey_10
+    }
+
+    4667.8.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_10 = {
+    name = "Branda"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = humble
+    trait = paranoid
+    trait = brave
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 4
+    intrigue = 5
+    learning = 4
+    prowess = 1
+
+    trait = education_intrigue_3
+
+    4608.7.6 = {
+        birth = yes
+    }
+
+    4693.12.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_11 = {
+    name = "Willam"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_9
+    mother = frey_10
+
+    trait = trusting
+    trait = calm
+    trait = content
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 7
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_1
+
+    4646.8.23 = {
+        birth = yes
+    }
+
+    4669.8.2 = {
+        add_spouse = frey_12
+    }
+
+    4729.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_12 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = gregarious
+    trait = ambitious
+    trait = stubborn
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 4
+    intrigue = 9
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    4652.12.21 = {
+        birth = yes
+    }
+
+    4734.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_13 = {
+    name = "Harwin"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_11
+    mother = frey_12
+
+    trait = lazy
+    trait = arbitrary
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_2
+
+    4697.1.2 = {
+        birth = yes
+    }
+
+    4722.1.26 = {
+        add_spouse = frey_14
+    }
+
+    4780.11.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_14 = {
+    name = "Branda"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = ambitious
+    trait = zealous
+    trait = humble
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 5
+    intrigue = 6
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_3
+
+    4705.12.14 = {
+        birth = yes
+    }
+
+    4785.6.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_15 = {
+    name = "Robb"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_13
+    mother = frey_14
+
+    trait = arrogant
+    trait = forgiving
+    trait = lustful
+
+    diplomacy = 4
+    martial = 11
+    stewardship = 4
+    intrigue = 2
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_4
+
+    4753.2.3 = {
+        birth = yes
+    }
+
+    4800.7.19 = {
+        add_spouse = frey_16
+    }
+
+    4816.10.11 = {
+        death = { death_reason = death_fall  }
+    }
+}
+
+frey_16 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = paranoid
+    trait = arbitrary
+    trait = impatient
+
+    diplomacy = 11
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    4783.9.18 = {
+        birth = yes
+    }
+
+    4866.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_17 = {
+    name = "Beron"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_15
+    mother = frey_16
+
+    trait = honest
+    trait = generous
+    trait = shy
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    4810.2.22 = {
+        birth = yes
+    }
+
+    4851.3.9 = {
+        add_spouse = frey_18
+    }
+
+    4890.9.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_18 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = ambitious
+    trait = humble
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    4834.1.21 = {
+        birth = yes
+    }
+
+    4914.4.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_19 = {
+    name = "Chayle"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_17
+    mother = frey_18
+
+    trait = ambitious
+    trait = callous
+    trait = calm
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    4865.4.22 = {
+        birth = yes
+    }
+
+    4896.9.2 = {
+        add_spouse = frey_20
+    }
+
+    4942.9.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_20 = {
+    name = "Marna"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = deceitful
+    trait = ambitious
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 9
+    learning = 7
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    4879.11.10 = {
+        birth = yes
+    }
+
+    4954.11.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_21 = {
+    name = "Gariss"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_19
+    mother = frey_20
+
+    trait = generous
+    trait = lazy
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    4906.5.10 = {
+        birth = yes
+    }
+
+    4938.2.1 = {
+        add_spouse = frey_22
+    }
+
+    4948.2.8 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+frey_22 = {
+    name = "Alyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = forgiving
+    trait = wrathful
+    trait = content
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 9
+    intrigue = 6
+    learning = 6
+    prowess = 10
+
+    trait = education_stewardship_2
+
+    4921.9.9 = {
+        birth = yes
+    }
+
+    5000.4.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_23 = {
+    name = "Cregard"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_21
+    mother = frey_22
+
+    trait = lazy
+    trait = shy
+    trait = chaste
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 9
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    4947.9.19 = {
+        birth = yes
+    }
+
+    4970.9.4 = {
+        add_spouse = frey_24
+    }
+
+    5017.12.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_24 = {
+    name = "Sybelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = shy
+    trait = lustful
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 3
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_2
+
+    4953.12.3 = {
+        birth = yes
+    }
+
+    5027.5.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_25 = {
+    name = "Theon"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_23
+    mother = frey_24
+
+    trait = arbitrary
+    trait = cynical
+    trait = generous
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 2
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    4973.9.9 = {
+        birth = yes
+    }
+
+    4997.2.20 = {
+        add_spouse = frey_26
+    }
+
+    5051.1.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_26 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = wrathful
+    trait = lazy
+    trait = just
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 4
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    4980.3.28 = {
+        birth = yes
+    }
+
+    5063.3.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_27 = {
+    name = "Joseth"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_25
+    mother = frey_26
+
+    trait = diligent
+    trait = zealous
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 9
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    5025.8.15 = {
+        birth = yes
+    }
+
+    5041.3.9 = {
+        add_spouse = frey_28
+    }
+
+    5102.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_28 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = content
+    trait = forgiving
+    trait = brave
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    5024.3.11 = {
+        birth = yes
+    }
+
+    5103.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_29 = {
+    name = "Harrion"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_27
+    mother = frey_28
+
+    trait = stubborn
+    trait = patient
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 5
+    intrigue = 9
+    learning = 4
+    prowess = 10
+
+    trait = education_martial_3
+
+    5058.4.18 = {
+        birth = yes
+    }
+
+    5092.4.9 = {
+        add_spouse = frey_30
+    }
+
+    5124.9.19 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+frey_30 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = humble
+    trait = diligent
+    trait = zealous
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    5075.8.11 = {
+        birth = yes
+    }
+
+    5149.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_31 = {
+    name = "Luton"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_29
+    mother = frey_30
+
+    trait = ambitious
+    trait = calm
+    trait = cynical
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 5
+    intrigue = 9
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_3
+
+    5092.11.19 = {
+        birth = yes
+    }
+
+    5113.4.18 = {
+        add_spouse = frey_32
+    }
+
+    5172.9.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_32 = {
+    name = "Lacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = vengeful
+    trait = content
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 3
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    5096.7.2 = {
+        birth = yes
+    }
+
+    5169.10.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_33 = {
+    name = "Robett"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_31
+    mother = frey_32
+
+    trait = gregarious
+    trait = brave
+    trait = generous
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 8
+    intrigue = 4
+    learning = 4
+    prowess = 2
+
+    trait = education_martial_2
+
+    5143.8.10 = {
+        birth = yes
+    }
+
+    5163.9.14 = {
+        add_spouse = frey_34
+    }
+
+    5211.11.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_34 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = sadistic
+    trait = zealous
+    trait = humble
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 2
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_3
+
+    5146.11.22 = {
+        birth = yes
+    }
+
+    5219.9.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_35 = {
+    name = "Harlon"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_33
+    mother = frey_34
+
+    trait = deceitful
+    trait = trusting
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_1
+
+    5191.11.20 = {
+        birth = yes
+    }
+
+    5238.10.14 = {
+        add_spouse = frey_36
+    }
+
+    5258.3.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_36 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = callous
+    trait = paranoid
+    trait = generous
+
+    diplomacy = 8
+    martial = 10
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 2
+
+    trait = education_martial_2
+
+    5221.9.25 = {
+        birth = yes
+    }
+
+    5294.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_37 = {
+    name = "Jory"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_35
+    mother = frey_36
+
+    trait = fickle
+    trait = vengeful
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    5252.5.7 = {
+        birth = yes
+    }
+
+    5277.9.11 = {
+        add_spouse = frey_38
+    }
+
+    5327.2.23 = {
+        death = { death_reason = death_plotting  }
+    }
+}
+
+frey_38 = {
+    name = "Berena"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = generous
+    trait = callous
+    trait = just
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 9
+
+    trait = education_intrigue_2
+
+    5260.10.18 = {
+        birth = yes
+    }
+
+    5326.3.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_39 = {
+    name = "Donnor"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_37
+    mother = frey_38
+
+    trait = lazy
+    trait = forgiving
+    trait = brave
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    5282.5.1 = {
+        birth = yes
+    }
+
+    5302.2.7 = {
+        add_spouse = frey_40
+    }
+
+    5353.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_40 = {
+    name = "Rowena"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = honest
+    trait = generous
+    trait = calm
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 9
+    prowess = 10
+
+    trait = education_learning_3
+
+    5285.1.25 = {
+        birth = yes
+    }
+
+    5352.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_41 = {
+    name = "Beron"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_39
+    mother = frey_40
+
+    trait = wrathful
+    trait = content
+    trait = lazy
+
+    diplomacy = 19
+    martial = 22
+    stewardship = 18
+    intrigue = 15
+    learning = 13
+    prowess = 10
+
+    trait = education_martial_4
+
+    5314.8.8 = {
+        birth = yes
+    }
+
+    5335.8.11 = {
+        add_spouse = frey_42
+    }
+
+    5383.11.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_42 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = arrogant
+    trait = honest
+    trait = stubborn
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    5318.2.10 = {
+        birth = yes
+    }
+
+    5383.7.22 = {
+        death = { death_reason = death_murder  }
+    }
+}
+
+frey_43 = {
+    name = "Jory"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_41
+    mother = frey_42
+
+    trait = callous
+    trait = forgiving
+    trait = arbitrary
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 9
+
+    trait = education_martial_4
+
+    5346.9.28 = {
+        birth = yes
+    }
+
+    5367.11.1 = {
+        add_spouse = frey_44
+    }
+
+    5416.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_44 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = callous
+    trait = brave
+    trait = calm
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 3
+    learning = 3
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    5350.12.18 = {
+        birth = yes
+    }
+
+    5377.3.27 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+frey_45 = {
+    name = "Jonnel"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_43
+    mother = frey_44
+
+    trait = impatient
+    trait = greedy
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    5372.4.8 = {
+        birth = yes
+    }
+
+    5389.2.11 = {
+        add_spouse = frey_46
+    }
+
+    5454.11.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_46 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = patient
+    trait = content
+    trait = gluttonous
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 9
+    intrigue = 8
+    learning = 4
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    5372.4.10 = {
+        birth = yes
+    }
+
+    5454.7.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_47 = {
+    name = "Kyle"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_45
+    mother = frey_46
+
+    trait = diligent
+    trait = impatient
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    5394.2.15 = {
+        birth = yes
+    }
+
+    5418.8.12 = {
+        add_spouse = frey_48
+    }
+
+    5478.11.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_48 = {
+    name = "Jynessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = ambitious
+    trait = humble
+    trait = just
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    5401.4.13 = {
+        birth = yes
+    }
+
+    5484.11.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_49 = {
+    name = "Ethan"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_47
+    mother = frey_48
+
+    trait = temperate
+    trait = vengeful
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    5436.4.27 = {
+        birth = yes
+    }
+
+    5471.3.13 = {
+        add_spouse = frey_50
+    }
+
+    5511.6.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_50 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = generous
+    trait = temperate
+    trait = impatient
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 3
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_3
+
+    5454.5.11 = {
+        birth = yes
+    }
+
+    5520.10.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_51 = {
+    name = "Morgan"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_49
+    mother = frey_50
+
+    trait = stubborn
+    trait = gluttonous
+    trait = content
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 2
+    prowess = 5
+
+    trait = education_martial_2
+
+    5487.12.19 = {
+        birth = yes
+    }
+
+    5535.4.26 = {
+        add_spouse = frey_52
+    }
+
+    5555.7.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_52 = {
+    name = "Rowena"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = arrogant
+    trait = callous
+    trait = trusting
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 9
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    5518.7.8 = {
+        birth = yes
+    }
+
+    5592.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_53 = {
+    name = "Arthor"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_51
+    mother = frey_52
+
+    trait = patient
+    trait = temperate
+    trait = lazy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    5543.11.6 = {
+        birth = yes
+    }
+
+    5582.8.23 = {
+        add_spouse = frey_54
+    }
+
+    5623.7.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_54 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = craven
+    trait = vengeful
+    trait = chaste
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 4
+    intrigue = 5
+    learning = 3
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    5565.12.15 = {
+        birth = yes
+    }
+
+    5635.9.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_55 = {
+    name = "Robett"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_53
+    mother = frey_54
+
+    trait = stubborn
+    trait = patient
+    trait = ambitious
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    5612.8.17 = {
+        birth = yes
+    }
+
+    5636.4.9 = {
+        add_spouse = frey_56
+    }
+
+    5691.4.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_56 = {
+    name = "Marissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = trusting
+    trait = generous
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    5619.1.27 = {
+        birth = yes
+    }
+
+    5690.1.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_57 = {
+    name = "Eddard"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_55
+    mother = frey_56
+
+    trait = calm
+    trait = lazy
+    trait = callous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    5658.8.25 = {
+        birth = yes
+    }
+
+    5689.6.24 = {
+        add_spouse = frey_58
+    }
+
+    5734.1.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_58 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = patient
+    trait = humble
+    trait = calm
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_learning_4
+
+    5672.8.15 = {
+        birth = yes
+    }
+
+    5751.10.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_59 = {
+    name = "Osric"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_57
+    mother = frey_58
+
+    trait = vengeful
+    trait = brave
+    trait = diligent
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_3
+
+    5704.9.9 = {
+        birth = yes
+    }
+
+    5747.12.17 = {
+        add_spouse = frey_60
+    }
+
+    5773.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_60 = {
+    name = "Mylessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = patient
+    trait = paranoid
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_3
+
+    5730.8.11 = {
+        birth = yes
+    }
+
+    5806.9.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_61 = {
+    name = "Ramsay"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_59
+    mother = frey_60
+
+    trait = impatient
+    trait = cynical
+    trait = ambitious
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    5747.1.7 = {
+        birth = yes
+    }
+
+    5762.6.17 = {
+        add_spouse = frey_62
+    }
+
+    5832.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_62 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = forgiving
+    trait = craven
+    trait = shy
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 10
+    prowess = 2
+
+    trait = education_learning_3
+
+    5745.3.22 = {
+        birth = yes
+    }
+
+    5823.12.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_63 = {
+    name = "Bass"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_61
+    mother = frey_62
+
+    trait = craven
+    trait = impatient
+    trait = fickle
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    5777.12.27 = {
+        birth = yes
+    }
+
+    5814.3.23 = {
+        add_spouse = frey_64
+    }
+
+    5853.1.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_64 = {
+    name = "Arrana"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = humble
+    trait = sadistic
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_3
+
+    5797.3.7 = {
+        birth = yes
+    }
+
+    5880.10.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_65 = {
+    name = "Wendel"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_63
+    mother = frey_64
+
+    trait = content
+    trait = humble
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 3
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    5822.4.14 = {
+        birth = yes
+    }
+
+    5863.7.9 = {
+        add_spouse = frey_66
+    }
+
+    5896.8.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_66 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = chaste
+    trait = stubborn
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    5846.4.5 = {
+        birth = yes
+    }
+
+    5926.6.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_67 = {
+    name = "Hugo"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_65
+    mother = frey_66
+
+    trait = content
+    trait = shy
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 3
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    5875.6.19 = {
+        birth = yes
+    }
+
+    5903.10.19 = {
+        add_spouse = frey_68
+    }
+
+    5946.10.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_68 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = vengeful
+    trait = calm
+    trait = lustful
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 4
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_4
+
+    5886.11.10 = {
+        birth = yes
+    }
+
+    5963.11.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_69 = {
+    name = "Wayn"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_67
+    mother = frey_68
+
+    trait = sadistic
+    trait = honest
+    trait = calm
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_4
+
+    5924.9.14 = {
+        birth = yes
+    }
+
+    5944.12.4 = {
+        add_spouse = frey_70
+    }
+
+    5990.10.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_70 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = arrogant
+    trait = deceitful
+    trait = impatient
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 1
+    intrigue = 8
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_2
+
+    5927.3.7 = {
+        birth = yes
+    }
+
+    6009.8.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_71 = {
+    name = "Wendel"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_69
+    mother = frey_70
+
+    trait = generous
+    trait = forgiving
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 8
+    learning = 2
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    5947.8.3 = {
+        birth = yes
+    }
+
+    5982.11.7 = {
+        add_spouse = frey_72
+    }
+
+    6031.2.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_72 = {
+    name = "Berena"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = gregarious
+    trait = impatient
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_1
+
+    5965.10.16 = {
+        birth = yes
+    }
+
+    6050.12.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_73 = {
+    name = "Beron"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_71
+    mother = frey_72
+
+    trait = deceitful
+    trait = callous
+    trait = ambitious
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 8
+    learning = 3
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    5987.2.9 = {
+        birth = yes
+    }
+
+    6017.11.17 = {
+        add_spouse = frey_74
+    }
+
+    6035.3.14 = {
+        death = { death_reason = death_accident  }
+    }
+}
+
+frey_74 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = sadistic
+    trait = diligent
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 6
+    intrigue = 3
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_2
+
+    6000.3.1 = {
+        birth = yes
+    }
+
+    6071.6.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_75 = {
+    name = "Hoarfrost"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_73
+    mother = frey_74
+
+    trait = honest
+    trait = compassionate
+    trait = temperate
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 3
+    learning = 2
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6034.7.28 = {
+        birth = yes
+    }
+
+    6051.7.16 = {
+        add_spouse = frey_76
+    }
+
+    6112.10.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_76 = {
+    name = "Serena"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = content
+    trait = greedy
+    trait = lustful
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 3
+    intrigue = 8
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6034.6.18 = {
+        birth = yes
+    }
+
+    6119.9.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_77 = {
+    name = "Vayon"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_75
+    mother = frey_76
+
+    trait = lazy
+    trait = gregarious
+    trait = cynical
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_4
+
+    6055.8.10 = {
+        birth = yes
+    }
+
+    6069.5.20 = {
+        add_spouse = frey_78
+    }
+
+    6128.5.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_78 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = arbitrary
+    trait = cynical
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6052.1.15 = {
+        birth = yes
+    }
+
+    6128.1.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_79 = {
+    name = "Robb"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_77
+    mother = frey_78
+
+    trait = zealous
+    trait = vengeful
+    trait = callous
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 3
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6080.6.1 = {
+        birth = yes
+    }
+
+    6112.8.14 = {
+        add_spouse = frey_80
+    }
+
+    6146.6.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_80 = {
+    name = "Gilliane"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = temperate
+    trait = compassionate
+    trait = craven
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 3
+    learning = 9
+    prowess = 10
+
+    trait = education_learning_2
+
+    6095.6.15 = {
+        birth = yes
+    }
+
+    6169.2.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_81 = {
+    name = "Karlon"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_79
+    mother = frey_80
+
+    trait = ambitious
+    trait = chaste
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6130.9.5 = {
+        birth = yes
+    }
+
+    6150.8.14 = {
+        add_spouse = frey_82
+    }
+
+    6207.9.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_82 = {
+    name = "Donella"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = vengeful
+    trait = gluttonous
+    trait = trusting
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    6133.3.13 = {
+        birth = yes
+    }
+
+    6208.2.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_83 = {
+    name = "Jorah"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_81
+    mother = frey_82
+
+    trait = stubborn
+    trait = greedy
+    trait = paranoid
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 3
+    intrigue = 8
+    learning = 2
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6175.5.23 = {
+        birth = yes
+    }
+
+    6202.6.24 = {
+        add_spouse = frey_84
+    }
+
+    6256.10.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_84 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = ambitious
+    trait = shy
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 9
+    intrigue = 5
+    learning = 5
+    prowess = 2
+
+    trait = education_stewardship_4
+
+    6185.12.18 = {
+        birth = yes
+    }
+
+    6254.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_85 = {
+    name = "Rickon"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_83
+    mother = frey_84
+
+    trait = compassionate
+    trait = diligent
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6210.12.17 = {
+        birth = yes
+    }
+
+    6252.10.19 = {
+        add_spouse = frey_86
+    }
+
+    6281.1.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_86 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = generous
+    trait = impatient
+    trait = chaste
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_3
+
+    6235.7.7 = {
+        birth = yes
+    }
+
+    6307.4.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_87 = {
+    name = "Wayn"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_85
+    mother = frey_86
+
+    trait = forgiving
+    trait = just
+    trait = lustful
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 2
+    prowess = 7
+
+    trait = education_martial_4
+
+    6281.8.24 = {
+        birth = yes
+    }
+
+    6327.1.23 = {
+        add_spouse = frey_88
+    }
+
+    6352.2.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_88 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = shy
+    trait = brave
+    trait = arbitrary
+
+    diplomacy = 10
+    martial = 3
+    stewardship = 8
+    intrigue = 3
+    learning = 10
+    prowess = 11
+
+    trait = education_diplomacy_3
+
+    6310.4.14 = {
+        birth = yes
+    }
+
+    6382.9.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_89 = {
+    name = "Benfred"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_87
+    mother = frey_88
+
+    trait = content
+    trait = callous
+    trait = patient
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 5
+    intrigue = 2
+    learning = 5
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    6352.12.16 = {
+        birth = yes
+    }
+
+    6398.10.23 = {
+        add_spouse = frey_90
+    }
+
+    6430.8.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_90 = {
+    name = "Serena"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = wrathful
+    trait = trusting
+    trait = ambitious
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 3
+    intrigue = 7
+    learning = 6
+    prowess = 9
+
+    trait = education_martial_2
+
+    6381.8.14 = {
+        birth = yes
+    }
+
+    6453.3.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_91 = {
+    name = "Benjicot"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_89
+    mother = frey_90
+
+    trait = diligent
+    trait = fickle
+    trait = wrathful
+
+    diplomacy = 14
+    martial = 19
+    stewardship = 11
+    intrigue = 24
+    learning = 20
+    prowess = 26
+
+    trait = education_intrigue_4
+
+    6416.10.24 = {
+        birth = yes
+    }
+
+    6446.4.11 = {
+        add_spouse = frey_92
+    }
+
+    6501.4.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_92 = {
+    name = "Berena"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = vengeful
+    trait = diligent
+    trait = ambitious
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 11
+
+    trait = education_martial_3
+
+    6429.6.13 = {
+        birth = yes
+    }
+
+    6508.7.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_93 = {
+    name = "Eddard"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_91
+    mother = frey_92
+
+    trait = stubborn
+    trait = lustful
+    trait = cynical
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 5
+    intrigue = 10
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6458.9.20 = {
+        birth = yes
+    }
+
+    6487.9.23 = {
+        add_spouse = frey_94
+    }
+
+    6526.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_94 = {
+    name = "Lyanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = wrathful
+    trait = cynical
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6470.7.24 = {
+        birth = yes
+    }
+
+    6537.4.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_95 = {
+    name = "Damon"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_93
+    mother = frey_94
+
+    trait = calm
+    trait = craven
+    trait = paranoid
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 9
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    6508.10.11 = {
+        birth = yes
+    }
+
+    6534.5.18 = {
+        add_spouse = frey_96
+    }
+
+    6575.4.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_96 = {
+    name = "Elyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = just
+    trait = ambitious
+    trait = craven
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 7
+    intrigue = 3
+    learning = 2
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    6517.4.11 = {
+        birth = yes
+    }
+
+    6597.11.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_97 = {
+    name = "Joseth"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_95
+    mother = frey_96
+
+    trait = lustful
+    trait = fickle
+    trait = temperate
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 8
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6549.6.20 = {
+        birth = yes
+    }
+
+    6590.11.3 = {
+        add_spouse = frey_98
+    }
+
+    6622.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_98 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = brave
+    trait = stubborn
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 3
+
+    trait = education_martial_2
+
+    6573.2.28 = {
+        birth = yes
+    }
+
+    6644.2.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_99 = {
+    name = "Rodrik"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_97
+    mother = frey_98
+
+    trait = content
+    trait = just
+    trait = cynical
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_2
+
+    6613.11.12 = {
+        birth = yes
+    }
+
+    6662.2.19 = {
+        add_spouse = frey_100
+    }
+
+    6687.1.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_100 = {
+    name = "Arya"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = arbitrary
+    trait = gregarious
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 5
+    intrigue = 9
+    learning = 3
+    prowess = 8
+
+    trait = education_intrigue_1
+
+    6645.4.8 = {
+        birth = yes
+    }
+
+    6728.11.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_101 = {
+    name = "Gariss"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_99
+    mother = frey_100
+
+    trait = cynical
+    trait = craven
+    trait = humble
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6663.6.20 = {
+        birth = yes
+    }
+
+    6684.12.18 = {
+        add_spouse = frey_102
+    }
+
+    6733.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_102 = {
+    name = "Bethany"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = sadistic
+    trait = chaste
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 10
+    learning = 8
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6667.7.23 = {
+        birth = yes
+    }
+
+    6748.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_103 = {
+    name = "Hullen"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_101
+    mother = frey_102
+
+    trait = impatient
+    trait = vengeful
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 3
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_3
+
+    6693.12.14 = {
+        birth = yes
+    }
+
+    6727.1.21 = {
+        add_spouse = frey_104
+    }
+
+    6761.10.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_104 = {
+    name = "Dacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = ambitious
+    trait = lustful
+    trait = impatient
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6710.3.20 = {
+        birth = yes
+    }
+
+    6785.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_105 = {
+    name = "Wyl"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_103
+    mother = frey_104
+
+    trait = humble
+    trait = gluttonous
+    trait = stubborn
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6743.12.14 = {
+        birth = yes
+    }
+
+    6784.4.13 = {
+        add_spouse = frey_106
+    }
+
+    6828.10.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_106 = {
+    name = "Leana"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = fickle
+    trait = arbitrary
+    trait = diligent
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 3
+    intrigue = 9
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6767.7.27 = {
+        birth = yes
+    }
+
+    6833.4.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_107 = {
+    name = "Robett"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_105
+    mother = frey_106
+
+    trait = gregarious
+    trait = impatient
+    trait = diligent
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 11
+
+    trait = education_diplomacy_1
+
+    6804.9.20 = {
+        birth = yes
+    }
+
+    6843.11.16 = {
+        add_spouse = frey_108
+    }
+
+    6885.12.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_108 = {
+    name = "Jonella"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = fickle
+    trait = lustful
+    trait = gregarious
+
+    diplomacy = 9
+    martial = 2
+    stewardship = 7
+    intrigue = 3
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6826.3.5 = {
+        birth = yes
+    }
+
+    6900.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_109 = {
+    name = "Walder"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_107
+    mother = frey_108
+
+    trait = content
+    trait = compassionate
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 8
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6848.6.3 = {
+        birth = yes
+    }
+
+    6869.9.24 = {
+        add_spouse = frey_110
+    }
+
+    6927.10.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_110 = {
+    name = "Marna"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = greedy
+    trait = temperate
+    trait = patient
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 7
+    intrigue = 10
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6852.12.1 = {
+        birth = yes
+    }
+
+    6929.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_111 = {
+    name = "Beron"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_109
+    mother = frey_110
+
+    trait = diligent
+    trait = patient
+    trait = arrogant
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 7
+    intrigue = 3
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6898.2.22 = {
+        birth = yes
+    }
+
+    6929.5.3 = {
+        add_spouse = frey_112
+    }
+
+    6976.10.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_112 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = brave
+    trait = honest
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6912.12.15 = {
+        birth = yes
+    }
+
+    6988.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_113 = {
+    name = "Jonos"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_111
+    mother = frey_112
+
+    trait = patient
+    trait = callous
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 9
+    prowess = 9
+
+    trait = education_learning_4
+
+    6958.2.26 = {
+        birth = yes
+    }
+
+    7004.3.23 = {
+        add_spouse = frey_114
+    }
+
+    7028.12.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_114 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = compassionate
+    trait = wrathful
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 6
+    intrigue = 9
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_2
+
+    6987.12.16 = {
+        birth = yes
+    }
+
+    7057.9.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_115 = {
+    name = "Wendel"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_113
+    mother = frey_114
+
+    trait = impatient
+    trait = calm
+    trait = diligent
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 7
+    intrigue = 10
+    learning = 8
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    7011.11.12 = {
+        birth = yes
+    }
+
+    7033.3.4 = {
+        add_spouse = frey_116
+    }
+
+    7043.12.19 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+frey_116 = {
+    name = "Serra"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = stubborn
+    trait = diligent
+    trait = greedy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 8
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    7016.11.27 = {
+        birth = yes
+    }
+
+    7085.2.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_117 = {
+    name = "Jory"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_115
+    mother = frey_116
+
+    trait = craven
+    trait = deceitful
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 10
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    7040.8.23 = {
+        birth = yes
+    }
+
+    7083.9.21 = {
+        add_spouse = frey_118
+    }
+
+    7120.11.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_118 = {
+    name = "Mariah"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = zealous
+    trait = shy
+    trait = ambitious
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 10
+    intrigue = 2
+    learning = 10
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    7066.7.20 = {
+        birth = yes
+    }
+
+    7139.6.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_119 = {
+    name = "Wynafryd"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_117
+    mother = frey_118
+
+    trait = arbitrary
+    trait = lazy
+    trait = callous
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 3
+    intrigue = 8
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    7093.12.7 = {
+        birth = yes
+    }
+
+    7167.12.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_120 = {
+    name = "Eyron"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_117
+    mother = frey_118
+
+    trait = craven
+    trait = callous
+    trait = humble
+
+    diplomacy = 14
+    martial = 12
+    stewardship = 18
+    intrigue = 13
+    learning = 21
+    prowess = 14
+
+    trait = education_learning_4
+
+    7094.5.1 = {
+        birth = yes
+    }
+
+    7142.7.19 = {
+        add_spouse = frey_121
+    }
+
+    7152.3.26 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+frey_121 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = paranoid
+    trait = deceitful
+    trait = callous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_4
+
+    7125.9.25 = {
+        birth = yes
+    }
+
+    7198.5.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_122 = {
+    name = "Brenett"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_113
+    mother = frey_114
+
+    trait = greedy
+    trait = humble
+    trait = calm
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    7013.1.15 = {
+        birth = yes
+    }
+
+    7051.2.19 = {
+        add_spouse = frey_123
+    }
+
+    7096.3.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_123 = {
+    name = "Meera"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = stubborn
+    trait = arrogant
+    trait = vengeful
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 3
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    7034.1.12 = {
+        birth = yes
+    }
+
+    7094.6.14 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+frey_124 = {
+    name = "Mallador"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_122
+    mother = frey_123
+
+    trait = lazy
+    trait = compassionate
+    trait = patient
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 3
+    learning = 3
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    7073.4.25 = {
+        birth = yes
+    }
+
+    7115.3.28 = {
+        add_spouse = frey_125
+    }
+
+    7146.9.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_125 = {
+    name = "Arra"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = ambitious
+    trait = stubborn
+    trait = lazy
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_4
+
+    7098.2.21 = {
+        birth = yes
+    }
+
+    7180.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_126 = {
+    name = "Torren"
+
+    dynasty = Frey
+    religion = the_old_gods
+    culture = muddish
+
+    father = frey_124
+    mother = frey_125
+
+    trait = deceitful
+    trait = brave
+    trait = zealous
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 4
+    intrigue = 7
+    learning = 3
+    prowess = 11
+
+    trait = education_intrigue_4
+
+    7132.4.8 = {
+        birth = yes
+    }
+
+    7164.5.11 = {
+        add_spouse = frey_127
+    }
+
+    7217.1.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frey_127 = {
+    name = "Elyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = muddish
+
+    trait = callous
+    trait = vengeful
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    7147.10.22 = {
+        birth = yes
+    }
+
+    7213.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
