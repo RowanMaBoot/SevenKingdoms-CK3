@@ -17,22 +17,22 @@ iron_islander_group = {
 		{ name = "mercenary_company_band_of_firesmoke" }
 		{ name = "mercenary_company_queens_hird" }
 	}
-	
+
 	# Generic Islander, melting pot target when unified, probably
-	
+
 	iron_islander = {
 		graphical_cultures = {
 			norse_coa_gfx
-			
+
 		}
-		
+
 		color = { 0.47 0.47 0.56 }
-	
+
 		character_modifier = {
 			ai_war_chance = 1
 			ai_war_cooldown = -0.5
 		}
-		
+
 		# T_ 222 þ 254 Ð 208 T_ 240 E_
 
 		cadet_dynasty_names = {
@@ -188,63 +188,70 @@ iron_islander_group = {
 			{ "dynnp_af" "dynn_Skagen" }
 			{ "dynnp_af" "dynn_Skagen" }
 		}
-		
+
 		male_names = {
 			Adrack Aeron Aggar Aladale Alvyn Alyn Ambrode Andrik Alton
-			Baelor Balon Bennarion Beron Boremund Burton
+			Baelor Balon Bernarr Bowen Bennarion Beron Boremund Burton Baldr
 			Cadwyl Cotter Cragorn Cromm Craghorn
-			Daegon Dagmer Dagon Dale Denys Donel Donnor Drennan Dunstan Dykk Dalton
-			Eerl Eldiss Eldred Emmond Endehar Erik Euron Erich
+			Daegon Dagmer Dagon Dale Denys Donel Donnor Drennan Dunstan Dywen Dyncen Dykk Dalton Degilf
+			Elyiot Eilif Eylif Eerl Eldiss Eldred Emmond Endehar Erik Euron Erich Edrick
 			Fralegg Fergon
 			Gelmarr Germund Gevin Gormond Gorold Gran Greydon Gylbert Gyles Gynir Goren
-			Hagen Harl Harlon Harmund Harrag Harras Harren Harwyn Hilmar Hotho Harrock Horgan Hagon Harlan Harron Harrald Hake
+			Hagen Harl Harlon Harmund Harrag Harras Harren Harwyn Hilmar Hrane Hrayn Hotho Harrock Horgan Hagon Harlan Harron Harrald Hake Harkon
 			Jon Joseran Joron
 			Kemmett Kenned Kromm
 			Lenwood Lorren Lucas Lucimore Loron Lodos
-			Manfryd Maron Meldred
-			Norjen Norne Nute
-			Othgar
-			Pate
-			Qalen Qarl Qhored Quellon Quenton Qhorwyn Qhorin
+			Manfryd Maron Meldred Martyn Mance Magnar Magar Medger Mikken Morgan Markors Markus Matus Mattys Mattis Mors
+			Norjen Norne Nute Nik Niklys Nikla Niklas
+			Oddr Odd Olf Olaff Ormr Othgar Osric Owen Ormyn Oswyn Pate Qalen Qarl Qhored Quellon Quenton Qhorwyn Qhorin
 			Ragnor Ralf Robin Rodrik Roggon Rolfe Romny Rook Roryn Rus Rymolf Rognar Ravos Regnar
-			Sargon Sawane Sigfry Sigfryd Sigrin Skyte Steffar Steffarion Stygg Sylas Symond
-			Tarle Theomore Theon Thormor Todric Tom Torgon Torwold Tristifer Triston Tymor Torwyn
-			Ulf Uller Urek Urragon Urras Urrigon Urron Urzen Urrathon
-			Vickon Victarion Veron
+			Sargon Sawane Skule Skuli Sigfry Sigfryd Sigrin Skyte Steffar Steffarion Stygg Sylas Symond Steen Streen Styr Styn
+			Tarle Theomore Theon Thormor Todric Tord Torkel Torgon Torwold Tristifer Triston Torren Torrhen Tymor Torwyn
+			Ulf Ulfr Ulthan Ulward Uller Urek Urragon Urras Urrigon Urron Urzen Urrathon
+			Vickon Victarion Veron Vagmir Vesamir Vesamar Vesimar
 			Waldon Werlag Wex Will Wulfe Wulfgar
 			Ygon Yohn
 		}
 		female_names = {
 			Alannys Asha Arwyn
 			Barbrey Beony Brella
+			Cersera Cecil Cecilia Cat Caty Cateryna
 			Dorna
+			Edla Ewalyn Ewilyn Ewa Evalyn Eva
+			Frenna Frenya
 			Esgred
 			Falia Falyse Ferny Frenya Frynne
-			Gretchel Grisel Grisella Gwin Gwynesse Gwyneth Gysella
+			Gretchel Grisel Grisella
+			Gwin Gwynesse Gwyneth Gysella
 			Harma Harra Helya
+			Igrid Ingrid Ingarra Ilyssa Ilyssi Ireni Iris
 			Jeyne Jonella Jonnela Jorelle
-			Malora Margot Megga Meredyth Mhaegan Mhaegen Moelle Morna Munda Myrielle
-			Ravella Rhonda Roelle Ryella
-			Selyse Shierle
-			Talla
+			Kyt Kyna Kennya Kataryna Kyra Karci Kyli Krysti Krystyna
+			Lydann Lysanna Lyra Larra Lidia Lidania Lidya
+			Malora Margot Megga Meredyth Mhaegan Moelle Morna Munda Myrielle Maegi Magya Maggi Maege Melantha Marna Magdalyna Martyna
+			Osha Orya Oraeya
+			Ravella Rhonda Roelle Ryella Raya Rikissa Rikyssa Rykissa
+			Selyse Shierle Sage Saga
+			Talla Tissa Tyssa Tessa Tylissa Thora Thyra Tora
 			Unella
 			Victaria
 			Wynafrei Wynafryd
-			Yara Ynys Ysilla
+			Yara Ynys
+			Ysilla
 			Zia
 		}
-		
+
 		dynasty_of_location_prefix = "dynnp_af"
-		
+
 		patronym_suffix_male = "dynnpat_suf_sson"
 		patronym_suffix_female = "dynnpat_suf_sdottir"
-		always_use_patronym = yes	
-		
+		always_use_patronym = yes
+
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 50
 		mat_grf_name_chance = 0
 		father_name_chance = 0
-		
+
 		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
 		pat_grm_name_chance = 10
 		mat_grm_name_chance = 50
@@ -257,20 +264,20 @@ iron_islander_group = {
 			5 = caucasian_northern_dark_hair
 		}
 	}
-	
+
 	pykem = {
 		graphical_cultures = {
 			norse_coa_gfx
-			
+
 		}
-		
+
 		color = { 0.29 0.30 0.38 }
-	
+
 		character_modifier = {
 			ai_war_chance = 1
 			ai_war_cooldown = -0.5
 		}
-		
+
 		# T_ 222 þ 254 Ð 208 T_ 240 E_
 
 		cadet_dynasty_names = {
@@ -426,7 +433,7 @@ iron_islander_group = {
 			{ "dynnp_af" "dynn_Skagen" }
 			{ "dynnp_af" "dynn_Skagen" }
 		}
-		
+
 		male_names = {
 			Adrack Aeron Aggar Aladale Alvyn Alyn Ambrode Andrik Alton
 			Baelor Balon Bennarion Beron Boremund Burton
@@ -471,18 +478,18 @@ iron_islander_group = {
 			Yara Ynys Ysilla
 			Zia
 		}
-		
+
 		dynasty_of_location_prefix = "dynnp_af"
-		
+
 		patronym_suffix_male = "dynnpat_suf_sson"
 		patronym_suffix_female = "dynnpat_suf_sdottir"
-		always_use_patronym = yes	
-		
+		always_use_patronym = yes
+
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 50
 		mat_grf_name_chance = 0
 		father_name_chance = 0
-		
+
 		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
 		pat_grm_name_chance = 10
 		mat_grm_name_chance = 50
@@ -495,20 +502,20 @@ iron_islander_group = {
 			5 = caucasian_northern_dark_hair
 		}
 	}
-	
+
 	harlawn = {
 		graphical_cultures = {
 			norse_coa_gfx
-			
+
 		}
-		
+
 		color = { 0.30 0.32 0.50 }
-	
+
 		character_modifier = {
 			ai_war_chance = 1
 			ai_war_cooldown = -0.5
 		}
-		
+
 		# T_ 222 þ 254 Ð 208 T_ 240 E_
 
 		cadet_dynasty_names = {
@@ -664,7 +671,7 @@ iron_islander_group = {
 			{ "dynnp_af" "dynn_Skagen" }
 			{ "dynnp_af" "dynn_Skagen" }
 		}
-		
+
 		male_names = {
 			Adrack Aeron Aggar Aladale Alvyn Alyn Ambrode Andrik Alton
 			Baelor Balon Bennarion Beron Boremund Burton
@@ -709,18 +716,18 @@ iron_islander_group = {
 			Yara Ynys Ysilla
 			Zia
 		}
-		
+
 		dynasty_of_location_prefix = "dynnp_af"
-		
+
 		patronym_suffix_male = "dynnpat_suf_sson"
 		patronym_suffix_female = "dynnpat_suf_sdottir"
-		always_use_patronym = yes	
-		
+		always_use_patronym = yes
+
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 50
 		mat_grf_name_chance = 0
 		father_name_chance = 0
-		
+
 		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
 		pat_grm_name_chance = 10
 		mat_grm_name_chance = 50
