@@ -1,0 +1,6428 @@
+greenwood_1 = {
+    name = "Olf"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = callous
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 11
+
+    trait = education_martial_2
+
+    4450.11.24 = {
+        birth = yes
+    }
+
+    4465.9.15 = {
+        add_spouse = greenwood_2
+    }
+
+    4526.5.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_2 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = honest
+    trait = fickle
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 4
+    intrigue = 5
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_2
+
+    4448.3.10 = {
+        birth = yes
+    }
+
+    4533.9.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_3 = {
+    name = "Wyl"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_1
+    mother = greenwood_2
+
+    trait = temperate
+    trait = callous
+    trait = patient
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 10
+
+    trait = education_diplomacy_4
+
+    4475.11.10 = {
+        birth = yes
+    }
+
+    4501.3.24 = {
+        add_spouse = greenwood_4
+    }
+
+    4545.9.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_4 = {
+    name = "Myra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = chaste
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_1
+
+    4484.11.16 = {
+        birth = yes
+    }
+
+    4563.10.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_5 = {
+    name = "Rolf"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_3
+    mother = greenwood_4
+
+    trait = vengeful
+    trait = temperate
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 2
+    intrigue = 3
+    learning = 2
+    prowess = 5
+
+    trait = education_martial_3
+
+    4510.5.18 = {
+        birth = yes
+    }
+
+    4525.1.17 = {
+        add_spouse = greenwood_6
+    }
+
+    4591.5.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_6 = {
+    name = "Kennya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = impatient
+    trait = gluttonous
+    trait = generous
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    4508.11.4 = {
+        birth = yes
+    }
+
+    4591.5.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_7 = {
+    name = "Bernarr"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_5
+    mother = greenwood_6
+
+    trait = arbitrary
+    trait = calm
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 9
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    4532.8.2 = {
+        birth = yes
+    }
+
+    4551.3.7 = {
+        add_spouse = greenwood_8
+    }
+
+    4569.6.25 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+greenwood_8 = {
+    name = "Lidania"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = gluttonous
+    trait = zealous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_2
+
+    4534.6.12 = {
+        birth = yes
+    }
+
+    4618.9.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_9 = {
+    name = "Robin"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_7
+    mother = greenwood_8
+
+    trait = stubborn
+    trait = compassionate
+    trait = lazy
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    4561.7.26 = {
+        birth = yes
+    }
+
+    4590.12.24 = {
+        add_spouse = greenwood_10
+    }
+
+    4637.11.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_10 = {
+    name = "Jonnela"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = gregarious
+    trait = ambitious
+
+    diplomacy = 2
+    martial = 2
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_4
+
+    4573.4.27 = {
+        birth = yes
+    }
+
+    4642.10.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_11 = {
+    name = "Stan"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_9
+    mother = greenwood_10
+
+    trait = content
+    trait = arrogant
+    trait = paranoid
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 5
+    intrigue = 2
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    4590.12.10 = {
+        birth = yes
+    }
+
+    4635.10.28 = {
+        add_spouse = greenwood_12
+    }
+
+    4670.7.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_12 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = humble
+    trait = greedy
+    trait = chaste
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 3
+    intrigue = 9
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    4618.8.6 = {
+        birth = yes
+    }
+
+    4702.10.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_13 = {
+    name = "Mallador"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_11
+    mother = greenwood_12
+
+    trait = brave
+    trait = just
+    trait = callous
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 10
+
+    trait = education_diplomacy_4
+
+    4655.12.26 = {
+        birth = yes
+    }
+
+    4700.11.24 = {
+        add_spouse = greenwood_14
+    }
+
+    4722.5.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_14 = {
+    name = "Lydann"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = craven
+    trait = content
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 4
+    intrigue = 4
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_3
+
+    4683.1.1 = {
+        birth = yes
+    }
+
+    4753.2.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_15 = {
+    name = "Alyxander"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_13
+    mother = greenwood_14
+
+    trait = humble
+    trait = sadistic
+    trait = stubborn
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 10
+    learning = 2
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    4721.2.9 = {
+        birth = yes
+    }
+
+    4765.9.2 = {
+        add_spouse = greenwood_16
+    }
+
+    4806.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_16 = {
+    name = "Lidia"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = deceitful
+    trait = arbitrary
+    trait = ambitious
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 11
+    prowess = 7
+
+    trait = education_learning_4
+
+    4748.5.25 = {
+        birth = yes
+    }
+
+    4827.10.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_17 = {
+    name = "Alyn"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_15
+    mother = greenwood_16
+
+    trait = cynical
+    trait = gluttonous
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    4779.10.20 = {
+        birth = yes
+    }
+
+    4811.11.9 = {
+        add_spouse = greenwood_18
+    }
+
+    4847.3.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_18 = {
+    name = "Donella"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = sadistic
+    trait = diligent
+
+    diplomacy = 9
+    martial = 3
+    stewardship = 8
+    intrigue = 4
+    learning = 2
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    4794.1.2 = {
+        birth = yes
+    }
+
+    4878.1.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_19 = {
+    name = "Petar"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_17
+    mother = greenwood_18
+
+    trait = greedy
+    trait = arbitrary
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_3
+
+    4818.9.17 = {
+        birth = yes
+    }
+
+    4865.6.14 = {
+        add_spouse = greenwood_20
+    }
+
+    4902.2.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_20 = {
+    name = "Cat"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = generous
+    trait = zealous
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 11
+
+    trait = education_intrigue_3
+
+    4848.11.2 = {
+        birth = yes
+    }
+
+    4931.3.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_21 = {
+    name = "Martyn"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_19
+    mother = greenwood_20
+
+    trait = just
+    trait = compassionate
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 10
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    4879.12.17 = {
+        birth = yes
+    }
+
+    4926.8.2 = {
+        add_spouse = greenwood_22
+    }
+
+    4961.3.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_22 = {
+    name = "Sarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = impatient
+    trait = cynical
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 8
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_3
+
+    4909.9.17 = {
+        birth = yes
+    }
+
+    4986.8.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_23 = {
+    name = "Byam"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_21
+    mother = greenwood_22
+
+    trait = calm
+    trait = lazy
+    trait = impatient
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_2
+
+    4938.6.10 = {
+        birth = yes
+    }
+
+    4986.4.17 = {
+        add_spouse = greenwood_24
+    }
+
+    5005.11.3 = {
+        death = { death_reason = death_hunting_accident  }
+    }
+}
+
+greenwood_24 = {
+    name = "Lynarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = deceitful
+    trait = chaste
+    trait = lazy
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 8
+    intrigue = 8
+    learning = 5
+    prowess = 9
+
+    trait = education_martial_3
+
+    4969.5.11 = {
+        birth = yes
+    }
+
+    5042.3.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_25 = {
+    name = "Luton"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_23
+    mother = greenwood_24
+
+    trait = greedy
+    trait = diligent
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 3
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    4987.2.10 = {
+        birth = yes
+    }
+
+    5029.10.13 = {
+        add_spouse = greenwood_26
+    }
+
+    5039.3.11 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+greenwood_26 = {
+    name = "Lidia"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = generous
+    trait = brave
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 9
+    intrigue = 9
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    5012.9.20 = {
+        birth = yes
+    }
+
+    5078.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_27 = {
+    name = "Helman"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_25
+    mother = greenwood_26
+
+    trait = lustful
+    trait = lazy
+    trait = calm
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 2
+    learning = 3
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    5036.9.8 = {
+        birth = yes
+    }
+
+    5057.7.21 = {
+        add_spouse = greenwood_28
+    }
+
+    5121.5.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_28 = {
+    name = "Krysti"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = zealous
+    trait = impatient
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 9
+    intrigue = 5
+    learning = 3
+    prowess = 9
+
+    trait = education_stewardship_1
+
+    5040.1.6 = {
+        birth = yes
+    }
+
+    5111.3.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_29 = {
+    name = "Styr"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_27
+    mother = greenwood_28
+
+    trait = lustful
+    trait = patient
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 8
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    5074.5.25 = {
+        birth = yes
+    }
+
+    5123.2.15 = {
+        add_spouse = greenwood_30
+    }
+
+    5150.9.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_30 = {
+    name = "Maegi"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = zealous
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 6
+    intrigue = 8
+    learning = 8
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    5106.9.23 = {
+        birth = yes
+    }
+
+    5185.4.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_31 = {
+    name = "Markors"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_29
+    mother = greenwood_30
+
+    trait = ambitious
+    trait = gregarious
+    trait = impatient
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 9
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    5131.4.6 = {
+        birth = yes
+    }
+
+    5156.8.22 = {
+        add_spouse = greenwood_32
+    }
+
+    5197.7.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_32 = {
+    name = "Krystyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = generous
+    trait = craven
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    5139.7.17 = {
+        birth = yes
+    }
+
+    5222.12.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_33 = {
+    name = "Morgan"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_31
+    mother = greenwood_32
+
+    trait = craven
+    trait = wrathful
+    trait = zealous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 8
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_2
+
+    5165.5.8 = {
+        birth = yes
+    }
+
+    5187.4.18 = {
+        add_spouse = greenwood_34
+    }
+
+    5232.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_34 = {
+    name = "Serena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = fickle
+    trait = generous
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_2
+
+    5170.9.8 = {
+        birth = yes
+    }
+
+    5223.9.3 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+greenwood_35 = {
+    name = "Rodwell"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_33
+    mother = greenwood_34
+
+    trait = chaste
+    trait = impatient
+    trait = callous
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 3
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_4
+
+    5210.7.27 = {
+        birth = yes
+    }
+
+    5247.1.6 = {
+        add_spouse = greenwood_36
+    }
+
+    5293.1.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_36 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = lustful
+    trait = fickle
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 10
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    5230.6.9 = {
+        birth = yes
+    }
+
+    5312.2.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_37 = {
+    name = "Dog"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_35
+    mother = greenwood_36
+
+    trait = cynical
+    trait = temperate
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    5255.4.15 = {
+        birth = yes
+    }
+
+    5274.5.23 = {
+        add_spouse = greenwood_38
+    }
+
+    5338.5.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_38 = {
+    name = "Lidania"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = content
+    trait = cynical
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    5257.3.18 = {
+        birth = yes
+    }
+
+    5343.9.21 = {
+        death = { death_reason = death_feast_accident  }
+    }
+}
+
+greenwood_39 = {
+    name = "Niklys"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_37
+    mother = greenwood_38
+
+    trait = deceitful
+    trait = just
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 9
+    intrigue = 4
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    5275.11.2 = {
+        birth = yes
+    }
+
+    5310.6.21 = {
+        add_spouse = greenwood_40
+    }
+
+    5351.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_40 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = compassionate
+    trait = chaste
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_4
+
+    5293.1.26 = {
+        birth = yes
+    }
+
+    5368.10.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_41 = {
+    name = "Benjen"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_39
+    mother = greenwood_40
+
+    trait = calm
+    trait = callous
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    5325.1.27 = {
+        birth = yes
+    }
+
+    5366.9.2 = {
+        add_spouse = greenwood_42
+    }
+
+    5376.6.22 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+greenwood_42 = {
+    name = "Rykissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = fickle
+    trait = craven
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 10
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    5349.12.11 = {
+        birth = yes
+    }
+
+    5424.5.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_43 = {
+    name = "Alyn"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_41
+    mother = greenwood_42
+
+    trait = arbitrary
+    trait = cynical
+    trait = greedy
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 9
+    intrigue = 3
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    5367.11.22 = {
+        birth = yes
+    }
+
+    5390.8.4 = {
+        add_spouse = greenwood_44
+    }
+
+    5448.3.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_44 = {
+    name = "Lydann"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = stubborn
+    trait = cynical
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    5373.6.6 = {
+        birth = yes
+    }
+
+    5454.3.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_45 = {
+    name = "Vesamir"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_43
+    mother = greenwood_44
+
+    trait = chaste
+    trait = calm
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 8
+    intrigue = 6
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_3
+
+    5400.12.22 = {
+        birth = yes
+    }
+
+    5440.4.13 = {
+        add_spouse = greenwood_46
+    }
+
+    5469.1.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_46 = {
+    name = "Alys"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = stubborn
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_3
+
+    5423.12.18 = {
+        birth = yes
+    }
+
+    5501.5.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_47 = {
+    name = "Magar"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_45
+    mother = greenwood_46
+
+    trait = arbitrary
+    trait = craven
+    trait = chaste
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 10
+    learning = 8
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    5441.7.25 = {
+        birth = yes
+    }
+
+    5489.1.7 = {
+        add_spouse = greenwood_48
+    }
+
+    5515.9.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_48 = {
+    name = "Rikissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = cynical
+    trait = fickle
+    trait = lustful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 2
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    5472.7.14 = {
+        birth = yes
+    }
+
+    5549.10.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_49 = {
+    name = "Jon"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_47
+    mother = greenwood_48
+
+    trait = honest
+    trait = content
+    trait = patient
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 9
+
+    trait = education_martial_3
+
+    5513.7.21 = {
+        birth = yes
+    }
+
+    5514.8.28 = {
+        give_nickname = nick_the_elegant
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    5557.8.3 = {
+        add_spouse = greenwood_50
+    }
+
+    5592.11.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_50 = {
+    name = "Fanni"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = shy
+    trait = zealous
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    5540.10.19 = {
+        birth = yes
+    }
+
+    5609.9.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_51 = {
+    name = "Dann"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_49
+    mother = greenwood_50
+
+    trait = wrathful
+    trait = lustful
+    trait = greedy
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_3
+
+    5579.8.1 = {
+        birth = yes
+    }
+
+    5627.6.28 = {
+        add_spouse = greenwood_52
+    }
+
+    5647.4.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_52 = {
+    name = "Edla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = deceitful
+    trait = trusting
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 9
+    intrigue = 9
+    learning = 9
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    5610.8.6 = {
+        birth = yes
+    }
+
+    5678.12.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_53 = {
+    name = "Rodwell"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_51
+    mother = greenwood_52
+
+    trait = honest
+    trait = trusting
+    trait = humble
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 6
+    intrigue = 9
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    5631.7.4 = {
+        birth = yes
+    }
+
+    5658.9.10 = {
+        add_spouse = greenwood_54
+    }
+
+    5691.7.10 = {
+        death = { death_reason = death_torture  }
+    }
+}
+
+greenwood_54 = {
+    name = "Ylva"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = sadistic
+    trait = just
+
+    diplomacy = 2
+    martial = 10
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_3
+
+    5641.11.21 = {
+        birth = yes
+    }
+
+    5716.3.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_55 = {
+    name = "Alyc"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_53
+    mother = greenwood_54
+
+    trait = sadistic
+    trait = lustful
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 8
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_3
+
+    5669.2.15 = {
+        birth = yes
+    }
+
+    5711.6.10 = {
+        add_spouse = greenwood_56
+    }
+
+    5737.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_56 = {
+    name = "Berti"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = zealous
+    trait = callous
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    5694.2.22 = {
+        birth = yes
+    }
+
+    5774.8.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_57 = {
+    name = "Grimir"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_55
+    mother = greenwood_56
+
+    trait = humble
+    trait = fickle
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 1
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    5720.10.18 = {
+        birth = yes
+    }
+
+    5749.2.17 = {
+        add_spouse = greenwood_58
+    }
+
+    5760.6.17 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+greenwood_58 = {
+    name = "Izabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = patient
+    trait = brave
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 2
+    intrigue = 5
+    learning = 3
+    prowess = 8
+
+    trait = education_martial_4
+
+    5732.5.22 = {
+        birth = yes
+    }
+
+    5816.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_59 = {
+    name = "Falki"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_57
+    mother = greenwood_58
+
+    trait = fickle
+    trait = just
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    5750.9.22 = {
+        birth = yes
+    }
+
+    5795.6.3 = {
+        add_spouse = greenwood_60
+    }
+
+    5820.5.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_60 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = calm
+    trait = humble
+
+    diplomacy = 5
+    martial = 1
+    stewardship = 11
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    5778.11.26 = {
+        birth = yes
+    }
+
+    5849.2.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_61 = {
+    name = "Tormand"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_59
+    mother = greenwood_60
+
+    trait = arbitrary
+    trait = paranoid
+    trait = ambitious
+
+    diplomacy = 9
+    martial = 2
+    stewardship = 9
+    intrigue = 6
+    learning = 9
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    5808.7.8 = {
+        birth = yes
+    }
+
+    5855.7.11 = {
+        add_spouse = greenwood_62
+    }
+
+    5889.5.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_62 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = paranoid
+    trait = forgiving
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    5838.8.6 = {
+        birth = yes
+    }
+
+    5904.12.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_63 = {
+    name = "Chayle"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_61
+    mother = greenwood_62
+
+    trait = paranoid
+    trait = wrathful
+    trait = temperate
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    5864.11.15 = {
+        birth = yes
+    }
+
+    5889.6.15 = {
+        add_spouse = greenwood_64
+    }
+
+    5940.7.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_64 = {
+    name = "Danelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = arbitrary
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 3
+    intrigue = 7
+    learning = 7
+    prowess = 2
+
+    trait = education_martial_2
+
+    5872.11.10 = {
+        birth = yes
+    }
+
+    5950.10.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_65 = {
+    name = "Pate"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_63
+    mother = greenwood_64
+
+    trait = lazy
+    trait = shy
+    trait = craven
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 7
+    intrigue = 9
+    learning = 5
+    prowess = 9
+
+    trait = education_intrigue_1
+
+    5891.5.16 = {
+        birth = yes
+    }
+
+    5910.11.20 = {
+        add_spouse = greenwood_66
+    }
+
+    5959.6.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_66 = {
+    name = "Gilli"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = ambitious
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    5893.6.27 = {
+        birth = yes
+    }
+
+    5966.5.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_67 = {
+    name = "Tormand"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_65
+    mother = greenwood_66
+
+    trait = craven
+    trait = stubborn
+    trait = shy
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 5
+    intrigue = 11
+    learning = 7
+    prowess = 10
+
+    trait = education_intrigue_2
+
+    5932.12.9 = {
+        birth = yes
+    }
+
+    5959.4.14 = {
+        add_spouse = greenwood_68
+    }
+
+    6007.4.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_68 = {
+    name = "Dacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = lazy
+    trait = generous
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 6
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_4
+
+    5942.4.22 = {
+        birth = yes
+    }
+
+    6020.4.1 = {
+        death = { death_reason = death_plotting  }
+    }
+}
+
+greenwood_69 = {
+    name = "Benjen"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_67
+    mother = greenwood_68
+
+    trait = craven
+    trait = sadistic
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    5967.10.27 = {
+        birth = yes
+    }
+
+    6012.4.5 = {
+        add_spouse = greenwood_70
+    }
+
+    6044.5.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_70 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = arbitrary
+    trait = callous
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    5995.9.10 = {
+        birth = yes
+    }
+
+    6067.1.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_71 = {
+    name = "Torghen"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_69
+    mother = greenwood_70
+
+    trait = fickle
+    trait = content
+    trait = generous
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 3
+    intrigue = 8
+    learning = 3
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6029.12.1 = {
+        birth = yes
+    }
+
+    6046.2.17 = {
+        add_spouse = greenwood_72
+    }
+
+    6102.1.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_72 = {
+    name = "Frennie"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = generous
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 1
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6029.6.18 = {
+        birth = yes
+    }
+
+    6098.10.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_73 = {
+    name = "Roger"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_71
+    mother = greenwood_72
+
+    trait = generous
+    trait = gregarious
+    trait = paranoid
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 7
+    intrigue = 2
+    learning = 10
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6056.9.14 = {
+        birth = yes
+    }
+
+    6100.5.21 = {
+        add_spouse = greenwood_74
+    }
+
+    6134.7.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_74 = {
+    name = "Izabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = paranoid
+    trait = greedy
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6083.5.20 = {
+        birth = yes
+    }
+
+    6161.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_75 = {
+    name = "Marlon"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_73
+    mother = greenwood_74
+
+    trait = arbitrary
+    trait = zealous
+    trait = generous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 3
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6127.8.25 = {
+        birth = yes
+    }
+
+    6172.9.19 = {
+        add_spouse = greenwood_76
+    }
+
+    6206.8.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_76 = {
+    name = "Martyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = forgiving
+    trait = trusting
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_4
+
+    6155.1.27 = {
+        birth = yes
+    }
+
+    6224.7.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_77 = {
+    name = "Ulward"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_75
+    mother = greenwood_76
+
+    trait = cynical
+    trait = ambitious
+    trait = patient
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 2
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6177.3.25 = {
+        birth = yes
+    }
+
+    6224.12.10 = {
+        add_spouse = greenwood_78
+    }
+
+    6261.10.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_78 = {
+    name = "Agnyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = arrogant
+    trait = greedy
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 3
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    6207.1.21 = {
+        birth = yes
+    }
+
+    6273.5.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_79 = {
+    name = "Baldr"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_77
+    mother = greenwood_78
+
+    trait = honest
+    trait = just
+    trait = calm
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6240.10.12 = {
+        birth = yes
+    }
+
+    6268.7.25 = {
+        add_spouse = greenwood_80
+    }
+
+    6281.3.7 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+greenwood_80 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = trusting
+    trait = zealous
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6251.12.13 = {
+        birth = yes
+    }
+
+    6333.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_81 = {
+    name = "Niklas"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_79
+    mother = greenwood_80
+
+    trait = gregarious
+    trait = brave
+    trait = callous
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 2
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6268.12.21 = {
+        birth = yes
+    }
+
+    6313.12.21 = {
+        add_spouse = greenwood_82
+    }
+
+    6348.3.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_82 = {
+    name = "Jorelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = lustful
+    trait = diligent
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6296.4.13 = {
+        birth = yes
+    }
+
+    6374.8.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_83 = {
+    name = "Cregard"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_81
+    mother = greenwood_82
+
+    trait = diligent
+    trait = greedy
+    trait = callous
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 3
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    6323.1.8 = {
+        birth = yes
+    }
+
+    6351.10.19 = {
+        add_spouse = greenwood_84
+    }
+
+    6393.4.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_84 = {
+    name = "Caty"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = zealous
+    trait = lazy
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 5
+    intrigue = 8
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    6334.8.17 = {
+        birth = yes
+    }
+
+    6406.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_85 = {
+    name = "Edrick"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_83
+    mother = greenwood_84
+
+    trait = honest
+    trait = gregarious
+    trait = diligent
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 9
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_4
+
+    6376.4.28 = {
+        birth = yes
+    }
+
+    6403.2.1 = {
+        add_spouse = greenwood_86
+    }
+
+    6453.8.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_86 = {
+    name = "Cecilia"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = calm
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 2
+    prowess = 5
+
+    trait = education_martial_1
+
+    6386.5.25 = {
+        birth = yes
+    }
+
+    6455.11.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_87 = {
+    name = "Lawyrence"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_85
+    mother = greenwood_86
+
+    trait = vengeful
+    trait = zealous
+    trait = lazy
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    6421.12.14 = {
+        birth = yes
+    }
+
+    6462.8.19 = {
+        add_spouse = greenwood_88
+    }
+
+    6491.12.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_88 = {
+    name = "Igrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = trusting
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 6
+    intrigue = 3
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6445.3.13 = {
+        birth = yes
+    }
+
+    6529.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_89 = {
+    name = "Toste"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_87
+    mother = greenwood_88
+
+    trait = compassionate
+    trait = lazy
+    trait = fickle
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 11
+    intrigue = 5
+    learning = 2
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6480.2.25 = {
+        birth = yes
+    }
+
+    6500.11.11 = {
+        add_spouse = greenwood_90
+    }
+
+    6556.1.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_90 = {
+    name = "Arrana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = vengeful
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 8
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_martial_1
+
+    6483.6.26 = {
+        birth = yes
+    }
+
+    6560.10.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_91 = {
+    name = "Ronnel"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_89
+    mother = greenwood_90
+
+    trait = impatient
+    trait = stubborn
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 10
+    learning = 8
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6513.4.27 = {
+        birth = yes
+    }
+
+    6544.9.18 = {
+        add_spouse = greenwood_92
+    }
+
+    6554.5.28 = {
+        death = { death_reason = death_decapitated }
+    }
+}
+
+greenwood_92 = {
+    name = "Rikyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = gregarious
+    trait = calm
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    6527.1.5 = {
+        birth = yes
+    }
+
+    6603.4.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_93 = {
+    name = "Markus"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_91
+    mother = greenwood_92
+
+    trait = humble
+    trait = diligent
+    trait = arbitrary
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6552.10.16 = {
+        birth = yes
+    }
+
+    6596.8.1 = {
+        add_spouse = greenwood_94
+    }
+
+    6620.3.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_94 = {
+    name = "Margaret"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = cynical
+    trait = diligent
+    trait = lustful
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6579.9.2 = {
+        birth = yes
+    }
+
+    6656.1.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_95 = {
+    name = "Morgan"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_93
+    mother = greenwood_94
+
+    trait = callous
+    trait = just
+    trait = generous
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6609.5.20 = {
+        birth = yes
+    }
+
+    6638.12.26 = {
+        add_spouse = greenwood_96
+    }
+
+    6692.9.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_96 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = patient
+    trait = greedy
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 2
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6621.2.20 = {
+        birth = yes
+    }
+
+    6692.1.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_97 = {
+    name = "Felip"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_95
+    mother = greenwood_96
+
+    trait = stubborn
+    trait = zealous
+    trait = shy
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 2
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6652.1.20 = {
+        birth = yes
+    }
+
+    6702.1.5 = {
+        add_spouse = greenwood_98
+    }
+
+    6735.11.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_98 = {
+    name = "Cateryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = diligent
+    trait = temperate
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    6685.8.19 = {
+        birth = yes
+    }
+
+    6767.3.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_99 = {
+    name = "Joseth"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_97
+    mother = greenwood_98
+
+    trait = lazy
+    trait = forgiving
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 3
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_2
+
+    6729.12.26 = {
+        birth = yes
+    }
+
+    6748.11.23 = {
+        add_spouse = greenwood_100
+    }
+
+    6812.11.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_100 = {
+    name = "Sage"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = ambitious
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6731.11.10 = {
+        birth = yes
+    }
+
+    6801.12.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_101 = {
+    name = "Gorm"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_99
+    mother = greenwood_100
+
+    trait = stubborn
+    trait = wrathful
+    trait = zealous
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 3
+    intrigue = 9
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6772.11.23 = {
+        birth = yes
+    }
+
+    6792.9.25 = {
+        add_spouse = greenwood_102
+    }
+
+    6845.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_102 = {
+    name = "Sybelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = diligent
+    trait = brave
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 2
+
+    trait = education_stewardship_2
+
+    6775.9.2 = {
+        birth = yes
+    }
+
+    6850.4.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_103 = {
+    name = "Beren"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_101
+    mother = greenwood_102
+
+    trait = temperate
+    trait = stubborn
+    trait = deceitful
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 9
+
+    trait = education_learning_3
+
+    6818.7.15 = {
+        birth = yes
+    }
+
+    6850.6.16 = {
+        add_spouse = greenwood_104
+    }
+
+    6887.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_104 = {
+    name = "Marissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = chaste
+    trait = craven
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 10
+    prowess = 6
+
+    trait = education_learning_2
+
+    6833.2.12 = {
+        birth = yes
+    }
+
+    6917.10.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_105 = {
+    name = "Edric"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_103
+    mother = greenwood_104
+
+    trait = wrathful
+    trait = lustful
+    trait = craven
+
+    diplomacy = 1
+    martial = 6
+    stewardship = 6
+    intrigue = 10
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6860.3.24 = {
+        birth = yes
+    }
+
+    6908.5.7 = {
+        add_spouse = greenwood_106
+    }
+
+    6943.1.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_106 = {
+    name = "Robyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = vengeful
+    trait = shy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 2
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6891.4.25 = {
+        birth = yes
+    }
+
+    6971.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_107 = {
+    name = "Desmond"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_105
+    mother = greenwood_106
+
+    trait = gregarious
+    trait = impatient
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 10
+    prowess = 6
+
+    trait = education_learning_3
+
+    6933.5.8 = {
+        birth = yes
+    }
+
+    6956.3.1 = {
+        add_spouse = greenwood_108
+    }
+
+    7003.7.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_108 = {
+    name = "Tissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = vengeful
+    trait = craven
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6939.8.8 = {
+        birth = yes
+    }
+
+    7005.4.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_109 = {
+    name = "Knut"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_107
+    mother = greenwood_108
+
+    trait = honest
+    trait = calm
+    trait = gregarious
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 3
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6977.11.14 = {
+        birth = yes
+    }
+
+    7020.9.5 = {
+        add_spouse = greenwood_110
+    }
+
+    7058.8.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_110 = {
+    name = "Tylissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = ambitious
+    trait = just
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    7003.3.28 = {
+        birth = yes
+    }
+
+    7086.10.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_111 = {
+    name = "Magnar"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_109
+    mother = greenwood_110
+
+    trait = content
+    trait = gluttonous
+    trait = impatient
+
+    diplomacy = 9
+    martial = 9
+    stewardship = 6
+    intrigue = 9
+    learning = 9
+    prowess = 1
+
+    trait = education_diplomacy_3
+
+    7029.3.17 = {
+        birth = yes
+    }
+
+    7030.2.21 = {
+        give_nickname = nick_the_worthy
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    7062.10.8 = {
+        add_spouse = greenwood_112
+    }
+
+    7096.5.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_112 = {
+    name = "Cersera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = deceitful
+    trait = temperate
+    trait = lustful
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_4
+
+    7045.1.1 = {
+        birth = yes
+    }
+
+    7114.7.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_113 = {
+    name = "Edrick"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_111
+    mother = greenwood_112
+
+    trait = brave
+    trait = content
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 10
+
+    trait = education_learning_4
+
+    7069.11.27 = {
+        birth = yes
+    }
+
+    7119.1.25 = {
+        add_spouse = greenwood_114
+    }
+
+    7140.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_114 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = paranoid
+    trait = forgiving
+    trait = compassionate
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    7102.10.19 = {
+        birth = yes
+    }
+
+    7172.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_115 = {
+    name = "Lonnel"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_113
+    mother = greenwood_114
+
+    trait = compassionate
+    trait = shy
+    trait = lazy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 8
+    learning = 8
+    prowess = 1
+
+    trait = education_intrigue_2
+
+    7120.12.26 = {
+        birth = yes
+    }
+
+    7143.1.19 = {
+        add_spouse = greenwood_116
+    }
+
+    7188.11.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_116 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = humble
+    trait = impatient
+    trait = greedy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 10
+    intrigue = 5
+    learning = 10
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    7126.12.13 = {
+        birth = yes
+    }
+
+    7196.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_117 = {
+    name = "Mallador"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_115
+    mother = greenwood_116
+
+    trait = craven
+    trait = fickle
+    trait = just
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_4
+
+    7155.11.20 = {
+        birth = yes
+    }
+
+    7178.11.23 = {
+        add_spouse = greenwood_118
+    }
+
+    7226.3.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_118 = {
+    name = "Serra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = deceitful
+    trait = cynical
+
+    diplomacy = 10
+    martial = 9
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    7161.10.13 = {
+        birth = yes
+    }
+
+    7238.12.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_119 = {
+    name = "Laen"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_117
+    mother = greenwood_118
+
+    trait = patient
+    trait = deceitful
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_3
+
+    7179.1.25 = {
+        birth = yes
+    }
+
+    7200.10.17 = {
+        add_spouse = greenwood_120
+    }
+
+    7257.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_120 = {
+    name = "Barbrey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = deceitful
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 10
+    intrigue = 10
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    7183.11.17 = {
+        birth = yes
+    }
+
+    7262.5.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_121 = {
+    name = "Walder"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_117
+    mother = greenwood_118
+
+    trait = compassionate
+    trait = arbitrary
+    trait = content
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 6
+    intrigue = 3
+    learning = 3
+    prowess = 6
+
+    trait = education_martial_3
+
+    7186.6.20 = {
+        birth = yes
+    }
+
+    7224.7.22 = {
+        add_spouse = greenwood_122
+    }
+
+    7256.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_122 = {
+    name = "Jonnela"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = stubborn
+    trait = brave
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    7207.9.10 = {
+        birth = yes
+    }
+
+    7283.8.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_123 = {
+    name = "Dyncen"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_117
+    mother = greenwood_118
+
+    trait = gregarious
+    trait = deceitful
+    trait = wrathful
+
+    diplomacy = 27
+    martial = 18
+    stewardship = 15
+    intrigue = 22
+    learning = 23
+    prowess = 26
+
+    trait = education_diplomacy_4
+
+    7189.4.16 = {
+        birth = yes
+    }
+
+    7233.8.13 = {
+        add_spouse = greenwood_124
+    }
+
+    7256.12.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_124 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = paranoid
+    trait = deceitful
+    trait = humble
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_3
+
+    7216.4.6 = {
+        birth = yes
+    }
+
+    7243.8.4 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+greenwood_125 = {
+    name = "Arya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_117
+    mother = greenwood_118
+
+    trait = just
+    trait = content
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 5
+    intrigue = 7
+    learning = 10
+    prowess = 6
+
+    trait = education_learning_3
+
+    7190.6.24 = {
+        birth = yes
+    }
+
+    7262.11.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_126 = {
+    name = "Alyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_115
+    mother = greenwood_116
+
+    trait = arbitrary
+    trait = craven
+    trait = honest
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 8
+    intrigue = 8
+    learning = 3
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    7156.3.8 = {
+        birth = yes
+    }
+
+    7241.5.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_127 = {
+    name = "Laen"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_113
+    mother = greenwood_114
+
+    trait = vengeful
+    trait = fickle
+    trait = impatient
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 7
+    intrigue = 9
+    learning = 4
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    7122.10.25 = {
+        birth = yes
+    }
+
+    7166.7.25 = {
+        add_spouse = greenwood_128
+    }
+
+    7193.9.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_128 = {
+    name = "Jolanta"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = lustful
+    trait = honest
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_4
+
+    7149.4.11 = {
+        birth = yes
+    }
+
+    7228.6.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_129 = {
+    name = "Wylis"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_127
+    mother = greenwood_128
+
+    trait = greedy
+    trait = content
+    trait = impatient
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    7172.11.16 = {
+        birth = yes
+    }
+
+    7209.12.4 = {
+        add_spouse = greenwood_130
+    }
+
+    7248.6.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_130 = {
+    name = "Lydia"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = chaste
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 3
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    7192.9.20 = {
+        birth = yes
+    }
+
+    7276.4.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_131 = {
+    name = "Nik"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_129
+    mother = greenwood_130
+
+    trait = deceitful
+    trait = temperate
+    trait = shy
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 3
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    7211.1.14 = {
+        birth = yes
+    }
+
+    7230.6.7 = {
+        add_spouse = greenwood_132
+    }
+
+    7281.4.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_132 = {
+    name = "Jeyne"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = fickle
+    trait = temperate
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 4
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    7213.12.16 = {
+        birth = yes
+    }
+
+    7283.1.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_133 = {
+    name = "Grim"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_127
+    mother = greenwood_128
+
+    trait = arbitrary
+    trait = greedy
+    trait = craven
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 4
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_2
+
+    7176.7.26 = {
+        birth = yes
+    }
+
+    7194.8.7 = {
+        add_spouse = greenwood_134
+    }
+
+    7247.2.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_134 = {
+    name = "Asha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = fickle
+    trait = humble
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 3
+
+    trait = education_intrigue_4
+
+    7177.7.18 = {
+        birth = yes
+    }
+
+    7262.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_135 = {
+    name = "Kael"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_133
+    mother = greenwood_134
+
+    trait = temperate
+    trait = shy
+    trait = greedy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 10
+
+    trait = education_diplomacy_4
+
+    7194.6.17 = {
+        birth = yes
+    }
+
+    7218.6.27 = {
+        add_spouse = greenwood_136
+    }
+
+    7238.3.24 = {
+        death = { death_reason = death_chopped_to_pieces }
+    }
+}
+
+greenwood_136 = {
+    name = "Krysti"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = greedy
+    trait = forgiving
+    trait = arbitrary
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    7201.9.25 = {
+        birth = yes
+    }
+
+    7275.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_137 = {
+    name = "Refil"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_133
+    mother = greenwood_134
+
+    trait = wrathful
+    trait = greedy
+    trait = trusting
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 7
+    intrigue = 7
+    learning = 2
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    7196.3.26 = {
+        birth = yes
+    }
+
+    7216.2.2 = {
+        add_spouse = greenwood_138
+    }
+
+    7231.5.2 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+greenwood_138 = {
+    name = "Rykissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = humble
+    trait = lustful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 8
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    7199.11.2 = {
+        birth = yes
+    }
+
+    7279.3.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_139 = {
+    name = "Frenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_127
+    mother = greenwood_128
+
+    trait = brave
+    trait = arrogant
+    trait = just
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 6
+    intrigue = 9
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_1
+
+    7178.8.25 = {
+        birth = yes
+    }
+
+    7249.8.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_140 = {
+    name = "Craster"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_113
+    mother = greenwood_114
+
+    trait = vengeful
+    trait = callous
+    trait = stubborn
+
+    diplomacy = 3
+    martial = 1
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    7126.3.19 = {
+        birth = yes
+    }
+
+    7176.10.10 = {
+        add_spouse = greenwood_141
+    }
+
+    7205.10.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_141 = {
+    name = "Ewa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = gluttonous
+    trait = lazy
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 2
+    prowess = 7
+
+    trait = education_martial_3
+
+    7159.3.22 = {
+        birth = yes
+    }
+
+    7236.4.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_142 = {
+    name = "Jory"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_140
+    mother = greenwood_141
+
+    trait = callous
+    trait = greedy
+    trait = lazy
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 9
+
+    trait = education_learning_2
+
+    7178.6.9 = {
+        birth = yes
+    }
+
+    7206.8.21 = {
+        add_spouse = greenwood_143
+    }
+
+    7216.7.15 = {
+        death = { death_reason = death_treatment }
+    }
+}
+
+greenwood_143 = {
+    name = "Gilli"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = deceitful
+    trait = ambitious
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_4
+
+    7189.11.10 = {
+        birth = yes
+    }
+
+    7260.2.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_144 = {
+    name = "Dann"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_142
+    mother = greenwood_143
+
+    trait = shy
+    trait = greedy
+    trait = craven
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 3
+    intrigue = 10
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    7209.10.7 = {
+        birth = yes
+    }
+
+    7258.4.12 = {
+        add_spouse = greenwood_145
+    }
+
+    7268.6.18 = {
+        death = { death_reason = death_maimed }
+    }
+}
+
+greenwood_145 = {
+    name = "Barba"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = stubborn
+    trait = content
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 6
+    intrigue = 11
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    7241.12.12 = {
+        birth = yes
+    }
+
+    7270.10.14 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+greenwood_146 = {
+    name = "Rolfwyn"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_140
+    mother = greenwood_141
+
+    trait = shy
+    trait = sadistic
+    trait = gluttonous
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    7186.12.14 = {
+        birth = yes
+    }
+
+    7204.11.20 = {
+        add_spouse = greenwood_147
+    }
+
+    7259.11.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_147 = {
+    name = "Lysa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = temperate
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    7187.3.4 = {
+        birth = yes
+    }
+
+    7256.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_148 = {
+    name = "Vayon"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_146
+    mother = greenwood_147
+
+    trait = cynical
+    trait = wrathful
+    trait = chaste
+
+    diplomacy = 10
+    martial = 4
+    stewardship = 7
+    intrigue = 5
+    learning = 9
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    7211.6.28 = {
+        birth = yes
+    }
+
+    7246.10.27 = {
+        add_spouse = greenwood_149
+    }
+
+    7279.9.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_149 = {
+    name = "Ewa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = just
+    trait = calm
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 2
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    7229.8.18 = {
+        birth = yes
+    }
+
+    7304.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_150 = {
+    name = "Edderion"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_146
+    mother = greenwood_147
+
+    trait = arbitrary
+    trait = content
+    trait = lazy
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 9
+    intrigue = 8
+    learning = 6
+    prowess = 9
+
+    trait = education_stewardship_1
+
+    7212.7.4 = {
+        birth = yes
+    }
+
+    7237.12.28 = {
+        add_spouse = greenwood_151
+    }
+
+    7278.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_151 = {
+    name = "Karci"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = gregarious
+    trait = zealous
+
+    diplomacy = 2
+    martial = 9
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_4
+
+    7220.11.24 = {
+        birth = yes
+    }
+
+    7293.3.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_152 = {
+    name = "Tylissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_146
+    mother = greenwood_147
+
+    trait = generous
+    trait = vengeful
+    trait = cynical
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 9
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    7215.7.3 = {
+        birth = yes
+    }
+
+    7293.5.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_153 = {
+    name = "Kyle"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_146
+    mother = greenwood_147
+
+    trait = generous
+    trait = gregarious
+    trait = arbitrary
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    7217.10.28 = {
+        birth = yes
+    }
+
+    7260.9.7 = {
+        add_spouse = greenwood_154
+    }
+
+    7270.2.25 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+greenwood_154 = {
+    name = "Tyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = humble
+    trait = honest
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    7243.8.2 = {
+        birth = yes
+    }
+
+    7312.4.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_155 = {
+    name = "Walder"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_140
+    mother = greenwood_141
+
+    trait = impatient
+    trait = greedy
+    trait = ambitious
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 5
+    intrigue = 4
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    7190.7.15 = {
+        birth = yes
+    }
+
+    7209.3.10 = {
+        add_spouse = greenwood_156
+    }
+
+    7269.4.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_156 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = lustful
+    trait = fickle
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 4
+    intrigue = 5
+    learning = 2
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    7192.1.7 = {
+        birth = yes
+    }
+
+    7258.2.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_157 = {
+    name = "Rikissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_155
+    mother = greenwood_156
+
+    trait = lustful
+    trait = gluttonous
+    trait = cynical
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 1
+    intrigue = 3
+    learning = 2
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    7216.5.20 = {
+        birth = yes
+    }
+
+    7297.4.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_158 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_155
+    mother = greenwood_156
+
+    trait = vengeful
+    trait = greedy
+    trait = temperate
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 3
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    7220.12.1 = {
+        birth = yes
+    }
+
+    7235.2.26 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+greenwood_159 = {
+    name = "Rodrik"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_155
+    mother = greenwood_156
+
+    trait = forgiving
+    trait = ambitious
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 3
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_learning_3
+
+    7223.2.14 = {
+        birth = yes
+    }
+
+    7224.2.14 = {
+        give_nickname = nick_the_philosopher
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    7241.7.12 = {
+        add_spouse = greenwood_160
+    }
+
+    7298.4.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_160 = {
+    name = "Isyabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = patient
+    trait = callous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_2
+
+    7224.10.1 = {
+        birth = yes
+    }
+
+    7305.2.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_161 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_155
+    mother = greenwood_156
+
+    trait = calm
+    trait = fickle
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 9
+
+    trait = education_learning_4
+
+    7226.6.26 = {
+        birth = yes
+    }
+
+    7292.8.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_162 = {
+    name = "Shiera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_109
+    mother = greenwood_110
+
+    trait = compassionate
+    trait = diligent
+    trait = chaste
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 9
+
+    trait = education_martial_2
+
+    7034.2.15 = {
+        birth = yes
+    }
+
+    7090.11.11 = {
+        death = { death_reason = death_mysterious  }
+    }
+}
+
+greenwood_163 = {
+    name = "Cellador"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_109
+    mother = greenwood_110
+
+    trait = just
+    trait = brave
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    7036.11.6 = {
+        birth = yes
+    }
+
+    7051.7.28 = {
+        add_spouse = greenwood_164
+    }
+
+    7105.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_164 = {
+    name = "Arya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = humble
+    trait = wrathful
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 3
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_3
+
+    7034.6.23 = {
+        birth = yes
+    }
+
+    7119.5.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_165 = {
+    name = "Rickon"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_163
+    mother = greenwood_164
+
+    trait = paranoid
+    trait = sadistic
+    trait = craven
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    7051.1.11 = {
+        birth = yes
+    }
+
+    7076.2.18 = {
+        add_spouse = greenwood_166
+    }
+
+    7086.5.12 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+greenwood_166 = {
+    name = "Cateryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = just
+    trait = ambitious
+    trait = lustful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_2
+
+    7059.1.2 = {
+        birth = yes
+    }
+
+    7144.1.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_167 = {
+    name = "Mattis"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_165
+    mother = greenwood_166
+
+    trait = compassionate
+    trait = patient
+    trait = humble
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 10
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    7079.2.13 = {
+        birth = yes
+    }
+
+    7121.11.2 = {
+        add_spouse = greenwood_168
+    }
+
+    7149.10.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_168 = {
+    name = "Lidania"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = just
+    trait = shy
+    trait = content
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 10
+    learning = 10
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    7104.3.3 = {
+        birth = yes
+    }
+
+    7189.4.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_169 = {
+    name = "Torghen"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_167
+    mother = greenwood_168
+
+    trait = temperate
+    trait = ambitious
+    trait = honest
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    7125.7.7 = {
+        birth = yes
+    }
+
+    7159.5.13 = {
+        add_spouse = greenwood_170
+    }
+
+    7195.7.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_170 = {
+    name = "Rikyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = vengeful
+    trait = temperate
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 9
+    intrigue = 9
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_3
+
+    7142.2.20 = {
+        birth = yes
+    }
+
+    7212.1.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_171 = {
+    name = "Jojen"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_169
+    mother = greenwood_170
+
+    trait = paranoid
+    trait = content
+    trait = impatient
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    7187.9.17 = {
+        birth = yes
+    }
+
+    7237.6.23 = {
+        add_spouse = greenwood_172
+    }
+
+    7255.1.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_172 = {
+    name = "Ewilyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = impatient
+    trait = greedy
+    trait = temperate
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 1
+
+    trait = education_diplomacy_3
+
+    7220.11.9 = {
+        birth = yes
+    }
+
+    7290.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_173 = {
+    name = "Loboda"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_167
+    mother = greenwood_168
+
+    trait = generous
+    trait = calm
+    trait = trusting
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 11
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    7135.4.1 = {
+        birth = yes
+    }
+
+    7172.9.22 = {
+        add_spouse = greenwood_174
+    }
+
+    7193.4.22 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+greenwood_174 = {
+    name = "Jynessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = patient
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    7155.5.8 = {
+        birth = yes
+    }
+
+    7187.2.2 = {
+        death = { death_reason = death_vanished  }
+    }
+}
+
+greenwood_175 = {
+    name = "Dorron"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_173
+    mother = greenwood_174
+
+    trait = arrogant
+    trait = honest
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 7
+    intrigue = 5
+    learning = 2
+    prowess = 3
+
+    trait = education_stewardship_2
+
+    7177.4.16 = {
+        birth = yes
+    }
+
+    7207.3.8 = {
+        add_spouse = greenwood_176
+    }
+
+    7247.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_176 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = vengeful
+    trait = just
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 10
+
+    trait = education_martial_4
+
+    7190.4.4 = {
+        birth = yes
+    }
+
+    7217.5.15 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+greenwood_177 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_173
+    mother = greenwood_174
+
+    trait = paranoid
+    trait = greedy
+    trait = vengeful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 8
+    learning = 2
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    7180.3.27 = {
+        birth = yes
+    }
+
+    7260.2.22 = {
+        death = { death_reason = death_script_cruelty   }
+    }
+}
+
+greenwood_178 = {
+    name = "Nikla"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_165
+    mother = greenwood_166
+
+    trait = stubborn
+    trait = vengeful
+    trait = lustful
+
+    diplomacy = 9
+    martial = 2
+    stewardship = 3
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    7081.11.25 = {
+        birth = yes
+    }
+
+    7116.7.14 = {
+        add_spouse = greenwood_179
+    }
+
+    7150.9.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_179 = {
+    name = "Alys"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = craven
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 1
+    intrigue = 8
+    learning = 4
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    7099.3.27 = {
+        birth = yes
+    }
+
+    7180.2.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_180 = {
+    name = "Benjen"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_178
+    mother = greenwood_179
+
+    trait = impatient
+    trait = humble
+    trait = greedy
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 9
+    intrigue = 5
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    7118.2.21 = {
+        birth = yes
+    }
+
+    7133.12.11 = {
+        add_spouse = greenwood_181
+    }
+
+    7189.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_181 = {
+    name = "Tessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = patient
+    trait = lazy
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 8
+    learning = 2
+    prowess = 9
+
+    trait = education_intrigue_1
+
+    7116.5.4 = {
+        birth = yes
+    }
+
+    7185.10.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_182 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_180
+    mother = greenwood_181
+
+    trait = calm
+    trait = craven
+    trait = diligent
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 9
+    intrigue = 9
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    7139.9.14 = {
+        birth = yes
+    }
+
+    7203.8.25 = {
+        death = { death_reason = death_accident  }
+    }
+}
+
+greenwood_183 = {
+    name = "Benfred"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_180
+    mother = greenwood_181
+
+    trait = honest
+    trait = shy
+    trait = lustful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 2
+
+    trait = education_intrigue_4
+
+    7140.12.10 = {
+        birth = yes
+    }
+
+    7181.1.5 = {
+        add_spouse = greenwood_184
+    }
+
+    7214.9.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_184 = {
+    name = "Ilyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = arbitrary
+    trait = diligent
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 3
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_3
+
+    7164.4.25 = {
+        birth = yes
+    }
+
+    7236.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_185 = {
+    name = "Jory"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_178
+    mother = greenwood_179
+
+    trait = craven
+    trait = wrathful
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    7119.10.17 = {
+        birth = yes
+    }
+
+    7152.10.26 = {
+        add_spouse = greenwood_186
+    }
+
+    7162.7.22 = {
+        death = { death_reason = death_training_accident  }
+    }
+}
+
+greenwood_186 = {
+    name = "Ewalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = callous
+    trait = impatient
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    7135.3.8 = {
+        birth = yes
+    }
+
+    7215.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_187 = {
+    name = "Ondrew"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_185
+    mother = greenwood_186
+
+    trait = callous
+    trait = arrogant
+    trait = paranoid
+
+    diplomacy = 11
+    martial = 7
+    stewardship = 5
+    intrigue = 2
+    learning = 3
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    7152.9.7 = {
+        birth = yes
+    }
+
+    7166.11.7 = {
+        add_spouse = greenwood_188
+    }
+
+    7229.5.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_188 = {
+    name = "Wylla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = zealous
+    trait = vengeful
+    trait = lazy
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 1
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    7149.8.16 = {
+        birth = yes
+    }
+
+    7223.4.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_189 = {
+    name = "Bannen"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_185
+    mother = greenwood_186
+
+    trait = callous
+    trait = stubborn
+    trait = honest
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_4
+
+    7154.6.27 = {
+        birth = yes
+    }
+
+    7155.8.10 = {
+        give_nickname = nick_the_compassionate
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    7204.10.23 = {
+        add_spouse = greenwood_190
+    }
+
+    7230.2.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_190 = {
+    name = "Osha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = impatient
+    trait = generous
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    7187.11.12 = {
+        birth = yes
+    }
+
+    7260.8.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_191 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_178
+    mother = greenwood_179
+
+    trait = fickle
+    trait = cynical
+    trait = ambitious
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    7122.8.6 = {
+        birth = yes
+    }
+
+    7199.10.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_192 = {
+    name = "Gawen"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_178
+    mother = greenwood_179
+
+    trait = compassionate
+    trait = craven
+    trait = lazy
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_4
+
+    7126.1.14 = {
+        birth = yes
+    }
+
+    7170.11.20 = {
+        add_spouse = greenwood_193
+    }
+
+    7200.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_193 = {
+    name = "Ingrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = generous
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 9
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    7153.2.25 = {
+        birth = yes
+    }
+
+    7229.12.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_194 = {
+    name = "Mallador"
+
+    dynasty = dynasty_greenwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_192
+    mother = greenwood_193
+
+    trait = chaste
+    trait = callous
+    trait = honest
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    7195.2.1 = {
+        birth = yes
+    }
+
+    7239.11.6 = {
+        add_spouse = greenwood_195
+    }
+
+    7249.1.15 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+greenwood_195 = {
+    name = "Wynafryd"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = chaste
+    trait = patient
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_1
+
+    7222.12.16 = {
+        birth = yes
+    }
+
+    7305.4.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_196 = {
+    name = "Branda"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_163
+    mother = greenwood_164
+
+    trait = zealous
+    trait = temperate
+    trait = chaste
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 7
+    intrigue = 9
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_3
+
+    7061.6.24 = {
+        birth = yes
+    }
+
+    7134.1.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greenwood_197 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greenwood_163
+    mother = greenwood_164
+
+    trait = arrogant
+    trait = patient
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_2
+
+    7067.10.20 = {
+        birth = yes
+    }
+
+    7146.5.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
