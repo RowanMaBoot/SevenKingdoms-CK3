@@ -1,0 +1,4332 @@
+peat_1 = {
+    name = "Halys"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = shy
+    trait = arbitrary
+    trait = craven
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    4450.4.7 = {
+        birth = yes
+    }
+
+    4491.3.5 = {
+        add_spouse = peat_2
+    }
+
+    4532.9.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_2 = {
+    name = "Caty"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = greedy
+    trait = gregarious
+    trait = cynical
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 8
+    learning = 8
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    4474.3.4 = {
+        birth = yes
+    }
+
+    4546.6.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_3 = {
+    name = "Garth"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_1
+    mother = peat_2
+
+    trait = forgiving
+    trait = compassionate
+    trait = greedy
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    4498.11.15 = {
+        birth = yes
+    }
+
+    4523.1.25 = {
+        add_spouse = peat_4
+    }
+
+    4575.4.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_4 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = impatient
+    trait = greedy
+    trait = shy
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 6
+    intrigue = 3
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    4506.2.19 = {
+        birth = yes
+    }
+
+    4582.7.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_5 = {
+    name = "Theodan"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_3
+    mother = peat_4
+
+    trait = sadistic
+    trait = stubborn
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 1
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 8
+
+    trait = education_intrigue_1
+
+    4525.6.25 = {
+        birth = yes
+    }
+
+    4569.1.10 = {
+        add_spouse = peat_6
+    }
+
+    4606.9.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_6 = {
+    name = "Frenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = gregarious
+    trait = brave
+    trait = trusting
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 7
+    intrigue = 7
+    learning = 2
+    prowess = 7
+
+    trait = education_martial_3
+
+    4552.6.13 = {
+        birth = yes
+    }
+
+    4618.10.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_7 = {
+    name = "Edderion"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_5
+    mother = peat_6
+
+    trait = temperate
+    trait = honest
+    trait = craven
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 8
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    4589.5.8 = {
+        birth = yes
+    }
+
+    4616.12.23 = {
+        add_spouse = peat_8
+    }
+
+    4671.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_8 = {
+    name = "Kyli"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = forgiving
+    trait = honest
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 3
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    4599.12.20 = {
+        birth = yes
+    }
+
+    4672.4.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_9 = {
+    name = "Stan"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_7
+    mother = peat_8
+
+    trait = patient
+    trait = brave
+    trait = lazy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 10
+    learning = 4
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    4626.3.1 = {
+        birth = yes
+    }
+
+    4640.11.7 = {
+        add_spouse = peat_10
+    }
+
+    4660.12.4 = {
+        death = { death_reason = death_beaten }
+    }
+}
+
+peat_10 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = arbitrary
+    trait = gregarious
+    trait = deceitful
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    4623.10.6 = {
+        birth = yes
+    }
+
+    4698.11.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_11 = {
+    name = "Gregeroi"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_9
+    mother = peat_10
+
+    trait = wrathful
+    trait = humble
+    trait = cynical
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 9
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    4652.10.2 = {
+        birth = yes
+    }
+
+    4697.1.21 = {
+        add_spouse = peat_12
+    }
+
+    4719.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_12 = {
+    name = "Kaeli"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = just
+    trait = calm
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 4
+    intrigue = 3
+    learning = 6
+    prowess = 7
+
+    trait = education_learning_3
+
+    4680.9.17 = {
+        birth = yes
+    }
+
+    4755.2.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_13 = {
+    name = "Donnis"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_11
+    mother = peat_12
+
+    trait = sadistic
+    trait = humble
+    trait = forgiving
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 8
+    intrigue = 3
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    4717.1.14 = {
+        birth = yes
+    }
+
+    4755.3.4 = {
+        add_spouse = peat_14
+    }
+
+    4789.5.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_14 = {
+    name = "Maggi"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = cynical
+    trait = gluttonous
+    trait = lazy
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 3
+
+    trait = education_martial_4
+
+    4738.1.11 = {
+        birth = yes
+    }
+
+    4806.8.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_15 = {
+    name = "Howland"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_13
+    mother = peat_14
+
+    trait = fickle
+    trait = gluttonous
+    trait = honest
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    4758.11.20 = {
+        birth = yes
+    }
+
+    4787.7.2 = {
+        add_spouse = peat_16
+    }
+
+    4837.10.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_16 = {
+    name = "Meliana"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = greedy
+    trait = chaste
+    trait = impatient
+
+    diplomacy = 5
+    martial = 11
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 9
+
+    trait = education_martial_2
+
+    4770.3.3 = {
+        birth = yes
+    }
+
+    4800.4.21 = {
+        death = { death_reason = death_treatment }
+    }
+}
+
+peat_17 = {
+    name = "Edwyle"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_15
+    mother = peat_16
+
+    trait = deceitful
+    trait = trusting
+    trait = content
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_4
+
+    4792.4.11 = {
+        birth = yes
+    }
+
+    4814.7.19 = {
+        add_spouse = peat_18
+    }
+
+    4861.1.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_18 = {
+    name = "Mylessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = stubborn
+    trait = impatient
+    trait = brave
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_4
+
+    4797.10.22 = {
+        birth = yes
+    }
+
+    4867.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_19 = {
+    name = "Owen"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_17
+    mother = peat_18
+
+    trait = humble
+    trait = diligent
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 2
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    4818.1.15 = {
+        birth = yes
+    }
+
+    4866.6.7 = {
+        add_spouse = peat_20
+    }
+
+    4901.9.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_20 = {
+    name = "Barbrey"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = lazy
+    trait = honest
+    trait = zealous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 3
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_1
+
+    4849.8.6 = {
+        birth = yes
+    }
+
+    4917.9.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_21 = {
+    name = "Vayon"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_19
+    mother = peat_20
+
+    trait = honest
+    trait = lazy
+    trait = trusting
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_4
+
+    4875.5.9 = {
+        birth = yes
+    }
+
+    4910.4.16 = {
+        add_spouse = peat_22
+    }
+
+    4950.2.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_22 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = callous
+    trait = gregarious
+    trait = honest
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 2
+
+    trait = education_diplomacy_2
+
+    4893.10.5 = {
+        birth = yes
+    }
+
+    4960.6.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_23 = {
+    name = "Edrick"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_21
+    mother = peat_22
+
+    trait = content
+    trait = brave
+    trait = trusting
+
+    diplomacy = 11
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 8
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    4935.5.19 = {
+        birth = yes
+    }
+
+    4968.2.21 = {
+        add_spouse = peat_24
+    }
+
+    5010.2.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_24 = {
+    name = "Elyssi"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = greedy
+    trait = calm
+    trait = fickle
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 9
+    intrigue = 7
+    learning = 3
+    prowess = 8
+
+    trait = education_martial_1
+
+    4951.2.19 = {
+        birth = yes
+    }
+
+    5027.8.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_25 = {
+    name = "Casan"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_23
+    mother = peat_24
+
+    trait = callous
+    trait = craven
+    trait = shy
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 3
+    intrigue = 4
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_2
+
+    4989.3.7 = {
+        birth = yes
+    }
+
+    5026.3.3 = {
+        add_spouse = peat_26
+    }
+
+    5065.5.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_26 = {
+    name = "Saga"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = craven
+    trait = chaste
+    trait = forgiving
+
+    diplomacy = 10
+    martial = 2
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    5009.5.16 = {
+        birth = yes
+    }
+
+    5086.1.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_27 = {
+    name = "Kettil"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_25
+    mother = peat_26
+
+    trait = craven
+    trait = shy
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 10
+    intrigue = 3
+    learning = 8
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    5052.3.20 = {
+        birth = yes
+    }
+
+    5053.10.19 = {
+        give_nickname = nick_the_thunderbolt
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    5101.9.21 = {
+        add_spouse = peat_28
+    }
+
+    5111.3.26 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+peat_28 = {
+    name = "Lydann"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = sadistic
+    trait = cynical
+    trait = fickle
+
+    diplomacy = 9
+    martial = 9
+    stewardship = 8
+    intrigue = 5
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    5084.10.5 = {
+        birth = yes
+    }
+
+    5156.8.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_29 = {
+    name = "Rolf"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_27
+    mother = peat_28
+
+    trait = paranoid
+    trait = zealous
+    trait = humble
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 9
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    5111.5.25 = {
+        birth = yes
+    }
+
+    5135.5.17 = {
+        add_spouse = peat_30
+    }
+
+    5179.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_30 = {
+    name = "Maggi"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = ambitious
+    trait = gluttonous
+    trait = patient
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 9
+    intrigue = 8
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    5118.8.11 = {
+        birth = yes
+    }
+
+    5189.9.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_31 = {
+    name = "Walton"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_29
+    mother = peat_30
+
+    trait = just
+    trait = ambitious
+    trait = craven
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    5156.6.20 = {
+        birth = yes
+    }
+
+    5182.2.2 = {
+        add_spouse = peat_32
+    }
+
+    5231.7.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_32 = {
+    name = "Caty"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = forgiving
+    trait = gregarious
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_1
+
+    5165.12.1 = {
+        birth = yes
+    }
+
+    5250.5.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_33 = {
+    name = "Matus"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_31
+    mother = peat_32
+
+    trait = just
+    trait = shy
+    trait = vengeful
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    5183.9.14 = {
+        birth = yes
+    }
+
+    5207.2.22 = {
+        add_spouse = peat_34
+    }
+
+    5268.3.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_34 = {
+    name = "Perra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = content
+    trait = honest
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 3
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_1
+
+    5190.7.14 = {
+        birth = yes
+    }
+
+    5261.9.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_35 = {
+    name = "Casan"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_33
+    mother = peat_34
+
+    trait = craven
+    trait = callous
+    trait = chaste
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 8
+    intrigue = 9
+    learning = 11
+    prowess = 5
+
+    trait = education_learning_3
+
+    5222.11.9 = {
+        birth = yes
+    }
+
+    5262.8.1 = {
+        add_spouse = peat_36
+    }
+
+    5295.5.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_36 = {
+    name = "Branda"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = arrogant
+    trait = shy
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    5245.12.28 = {
+        birth = yes
+    }
+
+    5312.3.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_37 = {
+    name = "Halys"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_35
+    mother = peat_36
+
+    trait = chaste
+    trait = diligent
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 9
+    intrigue = 5
+    learning = 5
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    5280.4.3 = {
+        birth = yes
+    }
+
+    5323.4.2 = {
+        add_spouse = peat_38
+    }
+
+    5364.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_38 = {
+    name = "Martyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = paranoid
+    trait = humble
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    5306.2.20 = {
+        birth = yes
+    }
+
+    5375.2.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_39 = {
+    name = "Ethan"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_37
+    mother = peat_38
+
+    trait = arrogant
+    trait = impatient
+    trait = temperate
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 4
+    intrigue = 6
+    learning = 2
+    prowess = 4
+
+    trait = education_martial_1
+
+    5326.2.19 = {
+        birth = yes
+    }
+
+    5355.9.19 = {
+        add_spouse = peat_40
+    }
+
+    5400.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_40 = {
+    name = "Danelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = vengeful
+    trait = fickle
+    trait = brave
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 8
+    intrigue = 8
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    5338.3.2 = {
+        birth = yes
+    }
+
+    5410.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_41 = {
+    name = "Porther"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_39
+    mother = peat_40
+
+    trait = trusting
+    trait = lustful
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    5383.12.27 = {
+        birth = yes
+    }
+
+    5422.1.10 = {
+        add_spouse = peat_42
+    }
+
+    5468.4.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_42 = {
+    name = "Caty"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = stubborn
+    trait = ambitious
+    trait = chaste
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_2
+
+    5405.3.15 = {
+        birth = yes
+    }
+
+    5486.6.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_43 = {
+    name = "Folke"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_41
+    mother = peat_42
+
+    trait = lustful
+    trait = gregarious
+    trait = cynical
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 4
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    5440.9.23 = {
+        birth = yes
+    }
+
+    5471.5.27 = {
+        add_spouse = peat_44
+    }
+
+    5522.6.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_44 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = greedy
+    trait = arbitrary
+    trait = humble
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    5454.2.8 = {
+        birth = yes
+    }
+
+    5526.8.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_45 = {
+    name = "Olf"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_43
+    mother = peat_44
+
+    trait = forgiving
+    trait = honest
+    trait = trusting
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 8
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_4
+
+    5498.5.4 = {
+        birth = yes
+    }
+
+    5516.12.23 = {
+        add_spouse = peat_46
+    }
+
+    5577.9.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_46 = {
+    name = "Arrana"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = just
+    trait = greedy
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    5499.4.8 = {
+        birth = yes
+    }
+
+    5579.2.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_47 = {
+    name = "Galbart"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_45
+    mother = peat_46
+
+    trait = fickle
+    trait = zealous
+    trait = paranoid
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 2
+    intrigue = 5
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    5544.7.23 = {
+        birth = yes
+    }
+
+    5588.1.23 = {
+        add_spouse = peat_48
+    }
+
+    5618.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_48 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = stubborn
+    trait = shy
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    5571.6.1 = {
+        birth = yes
+    }
+
+    5642.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_49 = {
+    name = "Ulward"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_47
+    mother = peat_48
+
+    trait = lustful
+    trait = paranoid
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 10
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    5600.7.15 = {
+        birth = yes
+    }
+
+    5622.6.18 = {
+        add_spouse = peat_50
+    }
+
+    5668.9.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_50 = {
+    name = "Lysanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = brave
+    trait = calm
+    trait = greedy
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 3
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    5605.7.1 = {
+        birth = yes
+    }
+
+    5687.1.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_51 = {
+    name = "Jory"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_49
+    mother = peat_50
+
+    trait = sadistic
+    trait = calm
+    trait = temperate
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 1
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_1
+
+    5634.9.20 = {
+        birth = yes
+    }
+
+    5654.7.21 = {
+        add_spouse = peat_52
+    }
+
+    5703.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_52 = {
+    name = "Lysanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = stubborn
+    trait = gluttonous
+    trait = craven
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 3
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    5637.6.4 = {
+        birth = yes
+    }
+
+    5716.6.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_53 = {
+    name = "Roose"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_51
+    mother = peat_52
+
+    trait = wrathful
+    trait = paranoid
+    trait = humble
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 2
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    5677.6.14 = {
+        birth = yes
+    }
+
+    5706.2.21 = {
+        add_spouse = peat_54
+    }
+
+    5758.12.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_54 = {
+    name = "Frennie"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = patient
+    trait = greedy
+    trait = stubborn
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 2
+
+    trait = education_diplomacy_1
+
+    5689.1.5 = {
+        birth = yes
+    }
+
+    5771.1.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_55 = {
+    name = "Faste"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_53
+    mother = peat_54
+
+    trait = impatient
+    trait = craven
+    trait = deceitful
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 7
+    intrigue = 8
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_4
+
+    5717.9.22 = {
+        birth = yes
+    }
+
+    5741.4.5 = {
+        add_spouse = peat_56
+    }
+
+    5761.1.4 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+peat_56 = {
+    name = "Serra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = paranoid
+    trait = calm
+    trait = brave
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    5724.8.6 = {
+        birth = yes
+    }
+
+    5802.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_57 = {
+    name = "Degilf"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_55
+    mother = peat_56
+
+    trait = forgiving
+    trait = lustful
+    trait = just
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 7
+    intrigue = 6
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_3
+
+    5743.8.23 = {
+        birth = yes
+    }
+
+    5782.4.11 = {
+        add_spouse = peat_58
+    }
+
+    5792.10.20 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+peat_58 = {
+    name = "Lidya"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = temperate
+    trait = diligent
+    trait = chaste
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 3
+    intrigue = 9
+    learning = 8
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    5765.8.27 = {
+        birth = yes
+    }
+
+    5792.3.2 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+peat_59 = {
+    name = "Magar"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_57
+    mother = peat_58
+
+    trait = honest
+    trait = content
+    trait = just
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    5788.2.18 = {
+        birth = yes
+    }
+
+    5805.2.27 = {
+        add_spouse = peat_60
+    }
+
+    5869.12.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_60 = {
+    name = "Serena"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = vengeful
+    trait = greedy
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 9
+    intrigue = 7
+    learning = 2
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    5788.11.14 = {
+        birth = yes
+    }
+
+    5873.6.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_61 = {
+    name = "Filype"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_59
+    mother = peat_60
+
+    trait = impatient
+    trait = just
+    trait = brave
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 3
+    intrigue = 5
+    learning = 4
+    prowess = 10
+
+    trait = education_martial_4
+
+    5831.12.10 = {
+        birth = yes
+    }
+
+    5845.9.23 = {
+        add_spouse = peat_62
+    }
+
+    5898.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_62 = {
+    name = "Barba"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = greedy
+    trait = fickle
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_4
+
+    5828.9.12 = {
+        birth = yes
+    }
+
+    5855.12.5 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+peat_63 = {
+    name = "Donnor"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_61
+    mother = peat_62
+
+    trait = chaste
+    trait = humble
+    trait = brave
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 8
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    5851.12.1 = {
+        birth = yes
+    }
+
+    5852.2.1 = {
+        give_nickname = nick_the_worthy
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    5873.7.27 = {
+        add_spouse = peat_64
+    }
+
+    5931.10.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_64 = {
+    name = "Lysanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = gregarious
+    trait = chaste
+    trait = cynical
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 9
+    intrigue = 4
+    learning = 8
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    5856.1.11 = {
+        birth = yes
+    }
+
+    5933.10.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_65 = {
+    name = "Bran"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_63
+    mother = peat_64
+
+    trait = generous
+    trait = content
+    trait = just
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    5883.9.14 = {
+        birth = yes
+    }
+
+    5932.4.2 = {
+        add_spouse = peat_66
+    }
+
+    5954.6.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_66 = {
+    name = "Branda"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = just
+    trait = greedy
+    trait = trusting
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 10
+    intrigue = 8
+    learning = 6
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    5915.11.18 = {
+        birth = yes
+    }
+
+    5988.5.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_67 = {
+    name = "Wyl"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_65
+    mother = peat_66
+
+    trait = temperate
+    trait = trusting
+    trait = shy
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 10
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    5944.5.14 = {
+        birth = yes
+    }
+
+    5966.7.16 = {
+        add_spouse = peat_68
+    }
+
+    6004.3.18 = {
+        death = { death_reason = death_raid }
+    }
+}
+
+peat_68 = {
+    name = "Kamyla"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = ambitious
+    trait = deceitful
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 8
+    learning = 8
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    5949.2.9 = {
+        birth = yes
+    }
+
+    5980.4.20 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+peat_69 = {
+    name = "Aefan"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_67
+    mother = peat_68
+
+    trait = brave
+    trait = callous
+    trait = humble
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 8
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    5975.11.21 = {
+        birth = yes
+    }
+
+    6013.1.25 = {
+        add_spouse = peat_70
+    }
+
+    6052.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_70 = {
+    name = "Ilyssi"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = patient
+    trait = zealous
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    5996.12.20 = {
+        birth = yes
+    }
+
+    6075.5.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_71 = {
+    name = "Barthogan"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_69
+    mother = peat_70
+
+    trait = cynical
+    trait = diligent
+    trait = brave
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_2
+
+    6019.7.3 = {
+        birth = yes
+    }
+
+    6045.8.8 = {
+        add_spouse = peat_72
+    }
+
+    6088.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_72 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = temperate
+    trait = fickle
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 9
+    intrigue = 10
+    learning = 3
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6028.9.17 = {
+        birth = yes
+    }
+
+    6112.8.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_73 = {
+    name = "Tord"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_71
+    mother = peat_72
+
+    trait = just
+    trait = shy
+    trait = brave
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6049.4.18 = {
+        birth = yes
+    }
+
+    6066.2.23 = {
+        add_spouse = peat_74
+    }
+
+    6132.11.23 = {
+        death = { death_reason = death_torture  }
+    }
+}
+
+peat_74 = {
+    name = "Rikissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = brave
+    trait = patient
+    trait = shy
+
+    diplomacy = 1
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6049.4.26 = {
+        birth = yes
+    }
+
+    6076.9.3 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+peat_75 = {
+    name = "Ronnel"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_73
+    mother = peat_74
+
+    trait = paranoid
+    trait = humble
+    trait = patient
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6074.3.4 = {
+        birth = yes
+    }
+
+    6100.1.21 = {
+        add_spouse = peat_76
+    }
+
+    6156.1.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_76 = {
+    name = "Jorelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = gluttonous
+    trait = brave
+    trait = humble
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 8
+    intrigue = 4
+    learning = 7
+    prowess = 2
+
+    trait = education_diplomacy_2
+
+    6083.5.2 = {
+        birth = yes
+    }
+
+    6160.11.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_77 = {
+    name = "Casamor"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_75
+    mother = peat_76
+
+    trait = callous
+    trait = calm
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 10
+
+    trait = education_learning_3
+
+    6125.9.2 = {
+        birth = yes
+    }
+
+    6150.3.22 = {
+        add_spouse = peat_78
+    }
+
+    6196.12.3 = {
+        death = { death_reason = death_script_cruelty   }
+    }
+}
+
+peat_78 = {
+    name = "Ingrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = deceitful
+    trait = generous
+    trait = zealous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6133.7.12 = {
+        birth = yes
+    }
+
+    6200.2.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_79 = {
+    name = "Hareth"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_77
+    mother = peat_78
+
+    trait = cynical
+    trait = temperate
+    trait = impatient
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 6
+    intrigue = 8
+    learning = 2
+    prowess = 5
+
+    trait = education_martial_2
+
+    6174.3.25 = {
+        birth = yes
+    }
+
+    6196.10.26 = {
+        add_spouse = peat_80
+    }
+
+    6248.5.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_80 = {
+    name = "Ely"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = sadistic
+    trait = shy
+    trait = impatient
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6179.5.4 = {
+        birth = yes
+    }
+
+    6247.10.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_81 = {
+    name = "Andren"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_79
+    mother = peat_80
+
+    trait = gluttonous
+    trait = lustful
+    trait = generous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_4
+
+    6203.2.16 = {
+        birth = yes
+    }
+
+    6231.7.27 = {
+        add_spouse = peat_82
+    }
+
+    6285.4.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_82 = {
+    name = "Lydann"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = patient
+    trait = cynical
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6214.1.3 = {
+        birth = yes
+    }
+
+    6286.6.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_83 = {
+    name = "Rickon"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_81
+    mother = peat_82
+
+    trait = wrathful
+    trait = greedy
+    trait = vengeful
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 7
+    intrigue = 1
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6248.5.19 = {
+        birth = yes
+    }
+
+    6287.9.28 = {
+        add_spouse = peat_84
+    }
+
+    6331.6.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_84 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = vengeful
+    trait = chaste
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 3
+    prowess = 2
+
+    trait = education_diplomacy_4
+
+    6270.1.11 = {
+        birth = yes
+    }
+
+    6342.11.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_85 = {
+    name = "Porther"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_83
+    mother = peat_84
+
+    trait = humble
+    trait = ambitious
+    trait = zealous
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 9
+    intrigue = 2
+    learning = 2
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    6304.10.1 = {
+        birth = yes
+    }
+
+    6342.8.28 = {
+        add_spouse = peat_86
+    }
+
+    6377.10.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_86 = {
+    name = "Rykissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = lazy
+    trait = forgiving
+    trait = chaste
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6325.11.9 = {
+        birth = yes
+    }
+
+    6398.1.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_87 = {
+    name = "Eylif"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_85
+    mother = peat_86
+
+    trait = shy
+    trait = sadistic
+    trait = generous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_2
+
+    6360.10.21 = {
+        birth = yes
+    }
+
+    6396.6.20 = {
+        add_spouse = peat_88
+    }
+
+    6406.4.12 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+peat_88 = {
+    name = "Serena"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = brave
+    trait = paranoid
+    trait = vengeful
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 10
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6379.10.16 = {
+        birth = yes
+    }
+
+    6459.6.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_89 = {
+    name = "Beron"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_87
+    mother = peat_88
+
+    trait = temperate
+    trait = vengeful
+    trait = zealous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 2
+    prowess = 10
+
+    trait = education_diplomacy_2
+
+    6404.5.11 = {
+        birth = yes
+    }
+
+    6453.6.21 = {
+        add_spouse = peat_90
+    }
+
+    6482.3.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_90 = {
+    name = "Barbara"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = stubborn
+    trait = lustful
+    trait = trusting
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 2
+
+    trait = education_diplomacy_4
+
+    6436.2.22 = {
+        birth = yes
+    }
+
+    6517.2.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_91 = {
+    name = "Owen"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_89
+    mother = peat_90
+
+    trait = impatient
+    trait = lazy
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 3
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    6462.10.4 = {
+        birth = yes
+    }
+
+    6501.7.19 = {
+        add_spouse = peat_92
+    }
+
+    6531.4.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_92 = {
+    name = "Orya"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = paranoid
+    trait = zealous
+    trait = callous
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 3
+
+    trait = education_stewardship_1
+
+    6484.4.23 = {
+        birth = yes
+    }
+
+    6565.4.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_93 = {
+    name = "Eyron"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_91
+    mother = peat_92
+
+    trait = deceitful
+    trait = chaste
+    trait = zealous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 10
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    6504.5.26 = {
+        birth = yes
+    }
+
+    6527.1.10 = {
+        add_spouse = peat_94
+    }
+
+    6585.4.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_94 = {
+    name = "Branda"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = craven
+    trait = humble
+    trait = lazy
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 9
+
+    trait = education_martial_3
+
+    6510.11.22 = {
+        birth = yes
+    }
+
+    6583.9.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_95 = {
+    name = "Dywen"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_93
+    mother = peat_94
+
+    trait = generous
+    trait = stubborn
+    trait = trusting
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_3
+
+    6527.12.26 = {
+        birth = yes
+    }
+
+    6574.9.26 = {
+        add_spouse = peat_96
+    }
+
+    6584.7.28 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+peat_96 = {
+    name = "Izabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = calm
+    trait = humble
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 8
+    intrigue = 4
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_1
+
+    6557.4.23 = {
+        birth = yes
+    }
+
+    6634.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_97 = {
+    name = "Joseth"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_95
+    mother = peat_96
+
+    trait = trusting
+    trait = compassionate
+    trait = humble
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6579.8.9 = {
+        birth = yes
+    }
+
+    6606.7.10 = {
+        add_spouse = peat_98
+    }
+
+    6660.11.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_98 = {
+    name = "Elyassa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = generous
+    trait = lazy
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    6589.11.23 = {
+        birth = yes
+    }
+
+    6664.6.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_99 = {
+    name = "Jonjon"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_97
+    mother = peat_98
+
+    trait = wrathful
+    trait = compassionate
+    trait = honest
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 8
+    intrigue = 3
+    learning = 3
+    prowess = 2
+
+    trait = education_stewardship_4
+
+    6622.7.28 = {
+        birth = yes
+    }
+
+    6671.8.15 = {
+        add_spouse = peat_100
+    }
+
+    6701.11.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_100 = {
+    name = "Sybelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = just
+    trait = gregarious
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6654.4.15 = {
+        birth = yes
+    }
+
+    6729.4.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_101 = {
+    name = "Cregan"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_99
+    mother = peat_100
+
+    trait = temperate
+    trait = honest
+    trait = humble
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 3
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_4
+
+    6697.4.24 = {
+        birth = yes
+    }
+
+    6716.7.13 = {
+        add_spouse = peat_102
+    }
+
+    6780.6.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_102 = {
+    name = "Ewalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = gregarious
+    trait = callous
+    trait = greedy
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 7
+    intrigue = 3
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_2
+
+    6699.7.3 = {
+        birth = yes
+    }
+
+    6768.2.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_103 = {
+    name = "Falki"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_101
+    mother = peat_102
+
+    trait = diligent
+    trait = temperate
+    trait = fickle
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6737.3.22 = {
+        birth = yes
+    }
+
+    6775.9.11 = {
+        add_spouse = peat_104
+    }
+
+    6822.10.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_104 = {
+    name = "Thora"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = diligent
+    trait = calm
+    trait = greedy
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 9
+    prowess = 9
+
+    trait = education_learning_2
+
+    6758.9.23 = {
+        birth = yes
+    }
+
+    6825.7.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_105 = {
+    name = "Roger"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_103
+    mother = peat_104
+
+    trait = forgiving
+    trait = calm
+    trait = callous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 10
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6789.4.20 = {
+        birth = yes
+    }
+
+    6814.3.15 = {
+        add_spouse = peat_106
+    }
+
+    6864.6.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_106 = {
+    name = "Raya"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = ambitious
+    trait = stubborn
+    trait = honest
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 8
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6797.4.8 = {
+        birth = yes
+    }
+
+    6873.2.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_107 = {
+    name = "Skuli"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_105
+    mother = peat_106
+
+    trait = paranoid
+    trait = impatient
+    trait = ambitious
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_3
+
+    6819.5.9 = {
+        birth = yes
+    }
+
+    6851.8.3 = {
+        add_spouse = peat_108
+    }
+
+    6902.12.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_108 = {
+    name = "Kyli"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = gluttonous
+    trait = cynical
+    trait = impatient
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_4
+
+    6834.1.17 = {
+        birth = yes
+    }
+
+    6905.6.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_109 = {
+    name = "Damon"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_107
+    mother = peat_108
+
+    trait = greedy
+    trait = ambitious
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6856.10.3 = {
+        birth = yes
+    }
+
+    6906.12.19 = {
+        add_spouse = peat_110
+    }
+
+    6938.7.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_110 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = sadistic
+    trait = calm
+    trait = deceitful
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6889.7.6 = {
+        birth = yes
+    }
+
+    6916.10.19 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+peat_111 = {
+    name = "Robyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_109
+    mother = peat_110
+
+    trait = trusting
+    trait = impatient
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    6907.6.16 = {
+        birth = yes
+    }
+
+    6973.10.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_112 = {
+    name = "Alaric"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_109
+    mother = peat_110
+
+    trait = craven
+    trait = trusting
+    trait = compassionate
+
+    diplomacy = 11
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6908.5.8 = {
+        birth = yes
+    }
+
+    6931.9.25 = {
+        add_spouse = peat_113
+    }
+
+    6981.12.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_113 = {
+    name = "Edla"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = just
+    trait = craven
+    trait = content
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6914.8.27 = {
+        birth = yes
+    }
+
+    6990.9.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_114 = {
+    name = "Oddr"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_112
+    mother = peat_113
+
+    trait = craven
+    trait = trusting
+    trait = patient
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 9
+
+    trait = education_intrigue_4
+
+    6943.11.3 = {
+        birth = yes
+    }
+
+    6969.9.4 = {
+        add_spouse = peat_115
+    }
+
+    7020.4.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_115 = {
+    name = "Barbrey"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = lustful
+    trait = craven
+    trait = deceitful
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 3
+    intrigue = 5
+    learning = 9
+    prowess = 8
+
+    trait = education_learning_3
+
+    6952.10.8 = {
+        birth = yes
+    }
+
+    7036.8.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_116 = {
+    name = "Jonnela"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_114
+    mother = peat_115
+
+    trait = paranoid
+    trait = generous
+    trait = brave
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 2
+    intrigue = 4
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_2
+
+    6974.12.11 = {
+        birth = yes
+    }
+
+    7054.10.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_117 = {
+    name = "Edderion"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_114
+    mother = peat_115
+
+    trait = gluttonous
+    trait = honest
+    trait = brave
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 6
+    intrigue = 9
+    learning = 8
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    6975.10.5 = {
+        birth = yes
+    }
+
+    7004.9.26 = {
+        add_spouse = peat_118
+    }
+
+    7059.1.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_118 = {
+    name = "Wylla"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = greedy
+    trait = calm
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6987.7.16 = {
+        birth = yes
+    }
+
+    7057.2.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_119 = {
+    name = "Osric"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_117
+    mother = peat_118
+
+    trait = gregarious
+    trait = deceitful
+    trait = impatient
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_4
+
+    7004.12.27 = {
+        birth = yes
+    }
+
+    7023.4.21 = {
+        add_spouse = peat_120
+    }
+
+    7059.4.8 = {
+        death = { death_reason = death_chopped_to_pieces }
+    }
+}
+
+peat_120 = {
+    name = "Lydia"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = temperate
+    trait = chaste
+    trait = content
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_4
+
+    7006.4.20 = {
+        birth = yes
+    }
+
+    7073.11.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_121 = {
+    name = "Jynessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_119
+    mother = peat_120
+
+    trait = generous
+    trait = vengeful
+    trait = fickle
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_2
+
+    7029.12.15 = {
+        birth = yes
+    }
+
+    7033.4.6 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+peat_122 = {
+    name = "Thora"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_119
+    mother = peat_120
+
+    trait = deceitful
+    trait = temperate
+    trait = trusting
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_3
+
+    7031.2.9 = {
+        birth = yes
+    }
+
+    7103.4.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_123 = {
+    name = "Raya"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_119
+    mother = peat_120
+
+    trait = stubborn
+    trait = forgiving
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    7034.11.8 = {
+        birth = yes
+    }
+
+    7110.7.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_124 = {
+    name = "Grim"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_119
+    mother = peat_120
+
+    trait = generous
+    trait = gregarious
+    trait = honest
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    7039.8.21 = {
+        birth = yes
+    }
+
+    7086.1.1 = {
+        add_spouse = peat_125
+    }
+
+    7124.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_125 = {
+    name = "Ylva"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = generous
+    trait = zealous
+    trait = patient
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 4
+    intrigue = 5
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_2
+
+    7069.4.5 = {
+        birth = yes
+    }
+
+    7151.4.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_126 = {
+    name = "Krysti"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_117
+    mother = peat_118
+
+    trait = just
+    trait = cynical
+    trait = chaste
+
+    diplomacy = 5
+    martial = 1
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    7005.11.22 = {
+        birth = yes
+    }
+
+    7072.1.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_127 = {
+    name = "Jonnela"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_117
+    mother = peat_118
+
+    trait = diligent
+    trait = generous
+    trait = patient
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 3
+    intrigue = 3
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_4
+
+    7011.5.10 = {
+        birth = yes
+    }
+
+    7077.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_128 = {
+    name = "Brenett"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_117
+    mother = peat_118
+
+    trait = lustful
+    trait = stubborn
+    trait = arbitrary
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 9
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    7012.7.13 = {
+        birth = yes
+    }
+
+    7046.3.4 = {
+        add_spouse = peat_129
+    }
+
+    7082.4.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_129 = {
+    name = "Kataryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = paranoid
+    trait = patient
+    trait = callous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    7029.12.20 = {
+        birth = yes
+    }
+
+    7109.8.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_130 = {
+    name = "Petar"
+
+    dynasty = dynasty_peat
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_128
+    mother = peat_129
+
+    trait = arbitrary
+    trait = trusting
+    trait = shy
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 8
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_3
+
+    7053.4.11 = {
+        birth = yes
+    }
+
+    7099.10.20 = {
+        add_spouse = peat_131
+    }
+
+    7126.11.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_131 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = paranoid
+    trait = just
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_2
+
+    7082.5.22 = {
+        birth = yes
+    }
+
+    7158.4.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_132 = {
+    name = "Maggi"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_114
+    mother = peat_115
+
+    trait = cynical
+    trait = lazy
+    trait = fickle
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_2
+
+    6977.11.5 = {
+        birth = yes
+    }
+
+    7058.5.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peat_133 = {
+    name = "Wylla"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = peat_114
+    mother = peat_115
+
+    trait = shy
+    trait = ambitious
+    trait = greedy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 2
+    prowess = 8
+
+    trait = education_martial_2
+
+    6980.11.7 = {
+        birth = yes
+    }
+
+    7050.1.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

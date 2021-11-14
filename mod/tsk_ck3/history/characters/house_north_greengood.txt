@@ -1,0 +1,4179 @@
+greengood_1 = {
+    name = "Skule"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = gluttonous
+    trait = arrogant
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 4
+    intrigue = 3
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_1
+
+    4450.7.27 = {
+        birth = yes
+    }
+
+    4473.2.3 = {
+        add_spouse = greengood_2
+    }
+
+    4516.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_2 = {
+    name = "Sage"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = vengeful
+    trait = gluttonous
+    trait = calm
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    4456.8.7 = {
+        birth = yes
+    }
+
+    4522.6.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_3 = {
+    name = "Cregan"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_1
+    mother = greengood_2
+
+    trait = cynical
+    trait = honest
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    4486.2.1 = {
+        birth = yes
+    }
+
+    4513.3.8 = {
+        add_spouse = greengood_4
+    }
+
+    4570.12.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_4 = {
+    name = "Kymila"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = gregarious
+    trait = chaste
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 9
+    learning = 5
+    prowess = 9
+
+    trait = education_intrigue_2
+
+    4496.12.22 = {
+        birth = yes
+    }
+
+    4562.9.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_5 = {
+    name = "Dyncen"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_3
+    mother = greengood_4
+
+    trait = stubborn
+    trait = gregarious
+    trait = craven
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    4524.8.23 = {
+        birth = yes
+    }
+
+    4556.5.24 = {
+        add_spouse = greengood_6
+    }
+
+    4607.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_6 = {
+    name = "Alysane"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = greedy
+    trait = impatient
+    trait = gregarious
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    4539.3.14 = {
+        birth = yes
+    }
+
+    4620.7.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_7 = {
+    name = "Grim"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_5
+    mother = greengood_6
+
+    trait = content
+    trait = stubborn
+    trait = calm
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 3
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    4576.3.18 = {
+        birth = yes
+    }
+
+    4611.10.16 = {
+        add_spouse = greengood_8
+    }
+
+    4649.1.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_8 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = content
+    trait = stubborn
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    4594.12.5 = {
+        birth = yes
+    }
+
+    4663.10.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_9 = {
+    name = "Joseth"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_7
+    mother = greengood_8
+
+    trait = honest
+    trait = generous
+    trait = fickle
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 11
+
+    trait = education_diplomacy_2
+
+    4633.1.2 = {
+        birth = yes
+    }
+
+    4670.12.4 = {
+        add_spouse = greengood_10
+    }
+
+    4709.8.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_10 = {
+    name = "Alyx"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = wrathful
+    trait = arrogant
+    trait = stubborn
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 3
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    4653.4.19 = {
+        birth = yes
+    }
+
+    4681.2.18 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+greengood_11 = {
+    name = "Rickon"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_9
+    mother = greengood_10
+
+    trait = impatient
+    trait = arbitrary
+    trait = callous
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 8
+    intrigue = 7
+    learning = 8
+    prowess = 11
+
+    trait = education_martial_4
+
+    4670.9.20 = {
+        birth = yes
+    }
+
+    4696.2.2 = {
+        add_spouse = greengood_12
+    }
+
+    4741.6.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_12 = {
+    name = "Elyassa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = impatient
+    trait = vengeful
+    trait = diligent
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_3
+
+    4679.12.25 = {
+        birth = yes
+    }
+
+    4761.3.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_13 = {
+    name = "Arnolf"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_11
+    mother = greengood_12
+
+    trait = humble
+    trait = callous
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    4709.4.17 = {
+        birth = yes
+    }
+
+    4727.3.16 = {
+        add_spouse = greengood_14
+    }
+
+    4780.8.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_14 = {
+    name = "Ansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = gluttonous
+    trait = zealous
+    trait = fickle
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 2
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_2
+
+    4710.4.23 = {
+        birth = yes
+    }
+
+    4779.10.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_15 = {
+    name = "Ulf"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_13
+    mother = greengood_14
+
+    trait = vengeful
+    trait = craven
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    4753.10.8 = {
+        birth = yes
+    }
+
+    4768.2.14 = {
+        add_spouse = greengood_16
+    }
+
+    4837.7.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_16 = {
+    name = "Kyt"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = gluttonous
+    trait = forgiving
+    trait = fickle
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 2
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_2
+
+    4751.7.8 = {
+        birth = yes
+    }
+
+    4822.11.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_17 = {
+    name = "Stan"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_15
+    mother = greengood_16
+
+    trait = callous
+    trait = honest
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 3
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    4795.4.11 = {
+        birth = yes
+    }
+
+    4823.5.11 = {
+        add_spouse = greengood_18
+    }
+
+    4866.6.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_18 = {
+    name = "Kyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = temperate
+    trait = content
+    trait = zealous
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    4806.5.11 = {
+        birth = yes
+    }
+
+    4878.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_19 = {
+    name = "Wynton"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_17
+    mother = greengood_18
+
+    trait = vengeful
+    trait = lustful
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    4832.11.9 = {
+        birth = yes
+    }
+
+    4870.7.15 = {
+        add_spouse = greengood_20
+    }
+
+    4910.7.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_20 = {
+    name = "Branda"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = gluttonous
+    trait = shy
+    trait = calm
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 3
+    prowess = 3
+
+    trait = education_martial_1
+
+    4853.3.19 = {
+        birth = yes
+    }
+
+    4920.9.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_21 = {
+    name = "Nikla"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_19
+    mother = greengood_20
+
+    trait = cynical
+    trait = stubborn
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    4888.11.8 = {
+        birth = yes
+    }
+
+    4928.12.2 = {
+        add_spouse = greengood_22
+    }
+
+    4972.9.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_22 = {
+    name = "Kennya"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = greedy
+    trait = compassionate
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 9
+    intrigue = 6
+    learning = 4
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    4911.4.4 = {
+        birth = yes
+    }
+
+    4982.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_23 = {
+    name = "Torrhen"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_21
+    mother = greengood_22
+
+    trait = stubborn
+    trait = forgiving
+    trait = chaste
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 4
+    intrigue = 2
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    4940.10.20 = {
+        birth = yes
+    }
+
+    4941.6.12 = {
+        give_nickname = nick_the_glorious
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    4977.11.23 = {
+        add_spouse = greengood_24
+    }
+
+    5025.8.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_24 = {
+    name = "Shiera"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = compassionate
+    trait = paranoid
+    trait = brave
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 2
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    4960.6.21 = {
+        birth = yes
+    }
+
+    4988.1.18 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+greengood_25 = {
+    name = "Calon"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_23
+    mother = greengood_24
+
+    trait = brave
+    trait = shy
+    trait = content
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_3
+
+    4981.12.15 = {
+        birth = yes
+    }
+
+    5008.9.19 = {
+        add_spouse = greengood_26
+    }
+
+    5026.2.28 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+greengood_26 = {
+    name = "Margaret"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = ambitious
+    trait = paranoid
+    trait = humble
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_learning_4
+
+    4991.4.7 = {
+        birth = yes
+    }
+
+    5072.3.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_27 = {
+    name = "Casan"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_25
+    mother = greengood_26
+
+    trait = callous
+    trait = chaste
+    trait = temperate
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 9
+    intrigue = 9
+    learning = 3
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    5012.5.26 = {
+        birth = yes
+    }
+
+    5033.10.13 = {
+        add_spouse = greengood_28
+    }
+
+    5097.10.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_28 = {
+    name = "Sera"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = just
+    trait = craven
+    trait = cynical
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 5
+    intrigue = 10
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    5016.4.9 = {
+        birth = yes
+    }
+
+    5096.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_29 = {
+    name = "Harmond"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_27
+    mother = greengood_28
+
+    trait = fickle
+    trait = zealous
+    trait = lazy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 10
+    intrigue = 6
+    learning = 1
+    prowess = 10
+
+    trait = education_stewardship_1
+
+    5048.1.6 = {
+        birth = yes
+    }
+
+    5089.4.9 = {
+        add_spouse = greengood_30
+    }
+
+    5129.12.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_30 = {
+    name = "Agnyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = cynical
+    trait = compassionate
+    trait = calm
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 9
+    intrigue = 9
+    learning = 2
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    5072.6.21 = {
+        birth = yes
+    }
+
+    5156.1.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_31 = {
+    name = "Qhorin"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_29
+    mother = greengood_30
+
+    trait = lustful
+    trait = brave
+    trait = paranoid
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    5113.7.20 = {
+        birth = yes
+    }
+
+    5136.10.26 = {
+        add_spouse = greengood_32
+    }
+
+    5155.12.5 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+greengood_32 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = gregarious
+    trait = vengeful
+    trait = generous
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 7
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    5119.6.26 = {
+        birth = yes
+    }
+
+    5189.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_33 = {
+    name = "Matus"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_31
+    mother = greengood_32
+
+    trait = chaste
+    trait = forgiving
+    trait = diligent
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 10
+
+    trait = education_intrigue_3
+
+    5142.11.20 = {
+        birth = yes
+    }
+
+    5168.9.20 = {
+        add_spouse = greengood_34
+    }
+
+    5211.1.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_34 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = diligent
+    trait = greedy
+    trait = impatient
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 8
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    5151.5.10 = {
+        birth = yes
+    }
+
+    5218.11.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_35 = {
+    name = "Mattis"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_33
+    mother = greengood_34
+
+    trait = forgiving
+    trait = honest
+    trait = brave
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 3
+    intrigue = 7
+    learning = 8
+    prowess = 9
+
+    trait = education_learning_3
+
+    5181.8.22 = {
+        birth = yes
+    }
+
+    5221.9.2 = {
+        add_spouse = greengood_36
+    }
+
+    5255.11.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_36 = {
+    name = "Sarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = patient
+    trait = lustful
+    trait = stubborn
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 6
+    intrigue = 9
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    5204.9.8 = {
+        birth = yes
+    }
+
+    5274.2.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_37 = {
+    name = "Nikla"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_35
+    mother = greengood_36
+
+    trait = ambitious
+    trait = craven
+    trait = honest
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 8
+    learning = 8
+    prowess = 10
+
+    trait = education_intrigue_1
+
+    5239.6.3 = {
+        birth = yes
+    }
+
+    5284.7.3 = {
+        add_spouse = greengood_38
+    }
+
+    5319.4.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_38 = {
+    name = "Wylla"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = patient
+    trait = greedy
+    trait = just
+
+    diplomacy = 1
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    5267.3.21 = {
+        birth = yes
+    }
+
+    5347.11.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_39 = {
+    name = "Owen"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_37
+    mother = greengood_38
+
+    trait = brave
+    trait = diligent
+    trait = temperate
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 10
+    learning = 6
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    5289.10.11 = {
+        birth = yes
+    }
+
+    5337.1.20 = {
+        add_spouse = greengood_40
+    }
+
+    5371.7.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_40 = {
+    name = "Maggi"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = arbitrary
+    trait = arrogant
+    trait = patient
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 7
+    intrigue = 1
+    learning = 4
+    prowess = 11
+
+    trait = education_martial_3
+
+    5320.1.17 = {
+        birth = yes
+    }
+
+    5392.4.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_41 = {
+    name = "Brandon"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_39
+    mother = greengood_40
+
+    trait = wrathful
+    trait = stubborn
+    trait = lustful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    5358.10.18 = {
+        birth = yes
+    }
+
+    5389.11.10 = {
+        add_spouse = greengood_42
+    }
+
+    5424.1.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_42 = {
+    name = "Elyassa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = greedy
+    trait = ambitious
+    trait = trusting
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 2
+    prowess = 8
+
+    trait = education_martial_3
+
+    5372.3.4 = {
+        birth = yes
+    }
+
+    5454.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_43 = {
+    name = "Jeor"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_41
+    mother = greengood_42
+
+    trait = craven
+    trait = sadistic
+    trait = generous
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    5391.5.27 = {
+        birth = yes
+    }
+
+    5423.9.4 = {
+        add_spouse = greengood_44
+    }
+
+    5463.4.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_44 = {
+    name = "Thyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = chaste
+    trait = honest
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 8
+    learning = 8
+    prowess = 4
+
+    trait = education_stewardship_4
+
+    5406.8.8 = {
+        birth = yes
+    }
+
+    5454.11.7 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+greengood_45 = {
+    name = "Casamor"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_43
+    mother = greengood_44
+
+    trait = calm
+    trait = generous
+    trait = diligent
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 2
+    intrigue = 5
+    learning = 7
+    prowess = 1
+
+    trait = education_martial_2
+
+    5425.2.2 = {
+        birth = yes
+    }
+
+    5475.5.14 = {
+        add_spouse = greengood_46
+    }
+
+    5508.5.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_46 = {
+    name = "Jynessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = ambitious
+    trait = stubborn
+    trait = honest
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_2
+
+    5458.1.11 = {
+        birth = yes
+    }
+
+    5524.9.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_47 = {
+    name = "Teo"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_45
+    mother = greengood_46
+
+    trait = patient
+    trait = ambitious
+    trait = gluttonous
+
+    diplomacy = 1
+    martial = 7
+    stewardship = 2
+    intrigue = 5
+    learning = 2
+    prowess = 5
+
+    trait = education_martial_2
+
+    5487.11.23 = {
+        birth = yes
+    }
+
+    5529.11.8 = {
+        add_spouse = greengood_48
+    }
+
+    5556.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_48 = {
+    name = "Arra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = deceitful
+    trait = ambitious
+    trait = shy
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 4
+    intrigue = 8
+    learning = 10
+    prowess = 6
+
+    trait = education_learning_2
+
+    5512.8.5 = {
+        birth = yes
+    }
+
+    5589.5.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_49 = {
+    name = "Chayle"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_47
+    mother = greengood_48
+
+    trait = deceitful
+    trait = ambitious
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    5554.4.27 = {
+        birth = yes
+    }
+
+    5568.1.23 = {
+        add_spouse = greengood_50
+    }
+
+    5622.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_50 = {
+    name = "Eva"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = stubborn
+    trait = trusting
+    trait = content
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    5551.7.1 = {
+        birth = yes
+    }
+
+    5636.4.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_51 = {
+    name = "Aefan"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_49
+    mother = greengood_50
+
+    trait = craven
+    trait = gregarious
+    trait = just
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    5587.1.7 = {
+        birth = yes
+    }
+
+    5605.8.24 = {
+        add_spouse = greengood_52
+    }
+
+    5666.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_52 = {
+    name = "Dacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = zealous
+    trait = lazy
+    trait = chaste
+
+    diplomacy = 8
+    martial = 2
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    5588.6.11 = {
+        birth = yes
+    }
+
+    5666.4.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_53 = {
+    name = "Petar"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_51
+    mother = greengood_52
+
+    trait = arrogant
+    trait = sadistic
+    trait = just
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 4
+    intrigue = 7
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_2
+
+    5624.11.23 = {
+        birth = yes
+    }
+
+    5641.2.10 = {
+        add_spouse = greengood_54
+    }
+
+    5690.4.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_54 = {
+    name = "Sera"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = wrathful
+    trait = honest
+    trait = generous
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    5624.9.18 = {
+        birth = yes
+    }
+
+    5695.8.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_55 = {
+    name = "Dywen"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_53
+    mother = greengood_54
+
+    trait = trusting
+    trait = wrathful
+    trait = content
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 4
+    intrigue = 10
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    5658.11.14 = {
+        birth = yes
+    }
+
+    5675.12.24 = {
+        add_spouse = greengood_56
+    }
+
+    5742.4.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_56 = {
+    name = "Maege"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = brave
+    trait = arbitrary
+    trait = trusting
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 9
+    intrigue = 3
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    5658.4.16 = {
+        birth = yes
+    }
+
+    5728.2.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_57 = {
+    name = "Casan"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_55
+    mother = greengood_56
+
+    trait = craven
+    trait = just
+    trait = generous
+
+    diplomacy = 6
+    martial = 1
+    stewardship = 5
+    intrigue = 10
+    learning = 7
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    5679.1.7 = {
+        birth = yes
+    }
+
+    5706.10.1 = {
+        add_spouse = greengood_58
+    }
+
+    5746.6.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_58 = {
+    name = "Ely"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = diligent
+    trait = sadistic
+    trait = humble
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 3
+
+    trait = education_intrigue_4
+
+    5689.12.14 = {
+        birth = yes
+    }
+
+    5765.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_59 = {
+    name = "Ronnel"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_57
+    mother = greengood_58
+
+    trait = generous
+    trait = chaste
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 9
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    5729.11.22 = {
+        birth = yes
+    }
+
+    5768.5.28 = {
+        add_spouse = greengood_60
+    }
+
+    5804.3.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_60 = {
+    name = "Magya"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = forgiving
+    trait = compassionate
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_4
+
+    5751.11.11 = {
+        birth = yes
+    }
+
+    5831.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_61 = {
+    name = "Brenett"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_59
+    mother = greengood_60
+
+    trait = ambitious
+    trait = lustful
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 10
+    intrigue = 4
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    5792.7.4 = {
+        birth = yes
+    }
+
+    5811.5.18 = {
+        add_spouse = greengood_62
+    }
+
+    5876.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_62 = {
+    name = "Kaeli"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = greedy
+    trait = vengeful
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_3
+
+    5794.10.18 = {
+        birth = yes
+    }
+
+    5863.4.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_63 = {
+    name = "Dann"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_61
+    mother = greengood_62
+
+    trait = ambitious
+    trait = just
+    trait = lustful
+
+    diplomacy = 22
+    martial = 13
+    stewardship = 25
+    intrigue = 22
+    learning = 19
+    prowess = 14
+
+    trait = education_stewardship_4
+
+    5815.4.5 = {
+        birth = yes
+    }
+
+    5816.7.9 = {
+        give_nickname = nick_the_magnificent
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    5852.2.25 = {
+        add_spouse = greengood_64
+    }
+
+    5862.4.9 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+greengood_64 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = cynical
+    trait = stubborn
+    trait = temperate
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 10
+
+    trait = education_stewardship_3
+
+    5835.10.11 = {
+        birth = yes
+    }
+
+    5904.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_65 = {
+    name = "Bo"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_63
+    mother = greengood_64
+
+    trait = compassionate
+    trait = calm
+    trait = just
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 6
+    intrigue = 11
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    5857.3.7 = {
+        birth = yes
+    }
+
+    5872.10.15 = {
+        add_spouse = greengood_66
+    }
+
+    5910.2.12 = {
+        death = { death_reason = death_duel }
+    }
+}
+
+greengood_66 = {
+    name = "Mylessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = zealous
+    trait = lazy
+    trait = greedy
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 8
+
+    trait = education_learning_3
+
+    5855.6.13 = {
+        birth = yes
+    }
+
+    5927.9.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_67 = {
+    name = "Edric"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_65
+    mother = greengood_66
+
+    trait = deceitful
+    trait = vengeful
+    trait = generous
+
+    diplomacy = 3
+    martial = 1
+    stewardship = 5
+    intrigue = 9
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    5889.2.19 = {
+        birth = yes
+    }
+
+    5924.11.2 = {
+        add_spouse = greengood_68
+    }
+
+    5934.3.24 = {
+        death = { death_reason = death_torture  }
+    }
+}
+
+greengood_68 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = humble
+    trait = forgiving
+    trait = impatient
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 2
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    5907.9.15 = {
+        birth = yes
+    }
+
+    5983.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_69 = {
+    name = "Jojen"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_67
+    mother = greengood_68
+
+    trait = calm
+    trait = gregarious
+    trait = content
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_1
+
+    5925.6.1 = {
+        birth = yes
+    }
+
+    5967.4.14 = {
+        add_spouse = greengood_70
+    }
+
+    6001.4.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_70 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = calm
+    trait = impatient
+    trait = lazy
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    5950.10.10 = {
+        birth = yes
+    }
+
+    6035.2.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_71 = {
+    name = "Robin"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_69
+    mother = greengood_70
+
+    trait = chaste
+    trait = lazy
+    trait = content
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 9
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    5972.1.8 = {
+        birth = yes
+    }
+
+    5996.8.9 = {
+        add_spouse = greengood_72
+    }
+
+    6043.7.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_72 = {
+    name = "Elyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = patient
+    trait = lazy
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 9
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    5979.4.16 = {
+        birth = yes
+    }
+
+    6055.1.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_73 = {
+    name = "Bowen"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_71
+    mother = greengood_72
+
+    trait = lazy
+    trait = brave
+    trait = shy
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 6
+    intrigue = 3
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_3
+
+    6005.11.16 = {
+        birth = yes
+    }
+
+    6042.12.26 = {
+        add_spouse = greengood_74
+    }
+
+    6090.9.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_74 = {
+    name = "Agnessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = arbitrary
+    trait = shy
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6025.7.6 = {
+        birth = yes
+    }
+
+    6100.9.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_75 = {
+    name = "Stan"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_73
+    mother = greengood_74
+
+    trait = ambitious
+    trait = shy
+    trait = diligent
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 9
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6043.4.19 = {
+        birth = yes
+    }
+
+    6087.9.22 = {
+        add_spouse = greengood_76
+    }
+
+    6097.7.15 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+greengood_76 = {
+    name = "Jeyne"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = lustful
+    trait = wrathful
+    trait = callous
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6070.9.26 = {
+        birth = yes
+    }
+
+    6137.7.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_77 = {
+    name = "Beron"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_75
+    mother = greengood_76
+
+    trait = humble
+    trait = greedy
+    trait = vengeful
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 9
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6096.7.7 = {
+        birth = yes
+    }
+
+    6122.3.24 = {
+        add_spouse = greengood_78
+    }
+
+    6132.5.1 = {
+        death = { death_reason = death_beaten }
+    }
+}
+
+greengood_78 = {
+    name = "Lidia"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = paranoid
+    trait = impatient
+    trait = just
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_4
+
+    6105.11.27 = {
+        birth = yes
+    }
+
+    6182.7.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_79 = {
+    name = "Wynton"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_77
+    mother = greengood_78
+
+    trait = content
+    trait = callous
+    trait = shy
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 4
+    intrigue = 9
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6130.9.4 = {
+        birth = yes
+    }
+
+    6162.12.18 = {
+        add_spouse = greengood_80
+    }
+
+    6205.2.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_80 = {
+    name = "Frenya"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = humble
+    trait = craven
+    trait = compassionate
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 9
+    intrigue = 7
+    learning = 5
+    prowess = 9
+
+    trait = education_stewardship_1
+
+    6145.1.17 = {
+        birth = yes
+    }
+
+    6212.1.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_81 = {
+    name = "Barthogan"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_79
+    mother = greengood_80
+
+    trait = shy
+    trait = paranoid
+    trait = just
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 3
+    intrigue = 4
+    learning = 2
+    prowess = 7
+
+    trait = education_martial_3
+
+    6166.1.4 = {
+        birth = yes
+    }
+
+    6191.3.17 = {
+        add_spouse = greengood_82
+    }
+
+    6239.10.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_82 = {
+    name = "Krystyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = lazy
+    trait = content
+    trait = patient
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_3
+
+    6174.6.10 = {
+        birth = yes
+    }
+
+    6244.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_83 = {
+    name = "Artos"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_81
+    mother = greengood_82
+
+    trait = chaste
+    trait = arbitrary
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6218.3.20 = {
+        birth = yes
+    }
+
+    6237.3.28 = {
+        add_spouse = greengood_84
+    }
+
+    6276.2.7 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+greengood_84 = {
+    name = "Meera"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = gluttonous
+    trait = callous
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6220.3.18 = {
+        birth = yes
+    }
+
+    6297.4.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_85 = {
+    name = "Ronnel"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_83
+    mother = greengood_84
+
+    trait = humble
+    trait = impatient
+    trait = fickle
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 3
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_1
+
+    6257.5.1 = {
+        birth = yes
+    }
+
+    6306.10.10 = {
+        add_spouse = greengood_86
+    }
+
+    6324.5.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_86 = {
+    name = "Eri"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = paranoid
+    trait = honest
+    trait = cynical
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6289.8.27 = {
+        birth = yes
+    }
+
+    6374.4.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_87 = {
+    name = "Odd"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_85
+    mother = greengood_86
+
+    trait = craven
+    trait = temperate
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    6318.3.19 = {
+        birth = yes
+    }
+
+    6342.7.28 = {
+        add_spouse = greengood_88
+    }
+
+    6397.7.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_88 = {
+    name = "Cecilia"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = deceitful
+    trait = patient
+    trait = fickle
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6325.8.13 = {
+        birth = yes
+    }
+
+    6352.11.26 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+greengood_89 = {
+    name = "Gawen"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_87
+    mother = greengood_88
+
+    trait = trusting
+    trait = vengeful
+    trait = cynical
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 8
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    6352.4.13 = {
+        birth = yes
+    }
+
+    6396.9.3 = {
+        add_spouse = greengood_90
+    }
+
+    6406.12.19 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+greengood_90 = {
+    name = "Donella"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = calm
+    trait = temperate
+    trait = patient
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 8
+    intrigue = 3
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_3
+
+    6379.3.19 = {
+        birth = yes
+    }
+
+    6459.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_91 = {
+    name = "Calon"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_89
+    mother = greengood_90
+
+    trait = zealous
+    trait = ambitious
+    trait = calm
+
+    diplomacy = 24
+    martial = 25
+    stewardship = 21
+    intrigue = 23
+    learning = 17
+    prowess = 18
+
+    trait = education_martial_4
+
+    6397.6.1 = {
+        birth = yes
+    }
+
+    6438.8.7 = {
+        add_spouse = greengood_92
+    }
+
+    6448.8.7 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+greengood_92 = {
+    name = "Asha"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = content
+    trait = generous
+    trait = trusting
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_2
+
+    6421.2.8 = {
+        birth = yes
+    }
+
+    6502.1.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_93 = {
+    name = "Harwood"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_91
+    mother = greengood_92
+
+    trait = arbitrary
+    trait = content
+    trait = honest
+
+    diplomacy = 25
+    martial = 19
+    stewardship = 31
+    intrigue = 21
+    learning = 14
+    prowess = 27
+
+    trait = education_stewardship_4
+
+    6446.7.19 = {
+        birth = yes
+    }
+
+    6488.12.16 = {
+        add_spouse = greengood_94
+    }
+
+    6523.8.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_94 = {
+    name = "Jonnela"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = humble
+    trait = craven
+    trait = calm
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 4
+    intrigue = 8
+    learning = 1
+    prowess = 11
+
+    trait = education_diplomacy_1
+
+    6471.7.4 = {
+        birth = yes
+    }
+
+    6546.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_95 = {
+    name = "Magnar"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_93
+    mother = greengood_94
+
+    trait = lustful
+    trait = forgiving
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_2
+
+    6512.7.26 = {
+        birth = yes
+    }
+
+    6556.1.9 = {
+        add_spouse = greengood_96
+    }
+
+    6593.4.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_96 = {
+    name = "Maggi"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = compassionate
+    trait = arrogant
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 8
+    intrigue = 2
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6539.2.4 = {
+        birth = yes
+    }
+
+    6617.5.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_97 = {
+    name = "Ethan"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_95
+    mother = greengood_96
+
+    trait = patient
+    trait = forgiving
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6576.9.1 = {
+        birth = yes
+    }
+
+    6591.6.3 = {
+        add_spouse = greengood_98
+    }
+
+    6653.5.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_98 = {
+    name = "Kyt"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = brave
+    trait = diligent
+    trait = cynical
+
+    diplomacy = 1
+    martial = 4
+    stewardship = 8
+    intrigue = 11
+    learning = 4
+    prowess = 8
+
+    trait = education_intrigue_4
+
+    6574.11.15 = {
+        birth = yes
+    }
+
+    6652.7.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_99 = {
+    name = "Skuli"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_97
+    mother = greengood_98
+
+    trait = zealous
+    trait = compassionate
+    trait = lazy
+
+    diplomacy = 11
+    martial = 3
+    stewardship = 6
+    intrigue = 5
+    learning = 2
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    6598.12.26 = {
+        birth = yes
+    }
+
+    6622.4.11 = {
+        add_spouse = greengood_100
+    }
+
+    6632.1.2 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+greengood_100 = {
+    name = "Orya"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = callous
+    trait = stubborn
+    trait = humble
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 5
+    intrigue = 9
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_4
+
+    6605.4.25 = {
+        birth = yes
+    }
+
+    6674.10.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_101 = {
+    name = "Owen"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_99
+    mother = greengood_100
+
+    trait = callous
+    trait = arbitrary
+    trait = stubborn
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 2
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6625.9.28 = {
+        birth = yes
+    }
+
+    6667.11.23 = {
+        add_spouse = greengood_102
+    }
+
+    6704.5.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_102 = {
+    name = "Bethany"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = diligent
+    trait = forgiving
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 3
+    intrigue = 3
+    learning = 6
+    prowess = 9
+
+    trait = education_learning_3
+
+    6650.1.4 = {
+        birth = yes
+    }
+
+    6719.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_103 = {
+    name = "Ondrew"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_101
+    mother = greengood_102
+
+    trait = just
+    trait = zealous
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6682.5.4 = {
+        birth = yes
+    }
+
+    6698.9.11 = {
+        add_spouse = greengood_104
+    }
+
+    6754.9.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_104 = {
+    name = "Tyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = generous
+    trait = deceitful
+    trait = diligent
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 9
+
+    trait = education_martial_2
+
+    6681.4.14 = {
+        birth = yes
+    }
+
+    6749.4.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_105 = {
+    name = "Rikulf"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_103
+    mother = greengood_104
+
+    trait = arbitrary
+    trait = sadistic
+    trait = vengeful
+
+    diplomacy = 10
+    martial = 3
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6717.3.4 = {
+        birth = yes
+    }
+
+    6746.12.20 = {
+        add_spouse = greengood_106
+    }
+
+    6798.6.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_106 = {
+    name = "Eva"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = humble
+    trait = temperate
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 5
+    intrigue = 9
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6729.9.27 = {
+        birth = yes
+    }
+
+    6803.11.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_107 = {
+    name = "Harlon"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_105
+    mother = greengood_106
+
+    trait = wrathful
+    trait = arrogant
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_3
+
+    6756.8.14 = {
+        birth = yes
+    }
+
+    6798.11.7 = {
+        add_spouse = greengood_108
+    }
+
+    6831.4.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_108 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = sadistic
+    trait = zealous
+    trait = lustful
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 9
+    intrigue = 5
+    learning = 7
+    prowess = 2
+
+    trait = education_stewardship_2
+
+    6781.7.27 = {
+        birth = yes
+    }
+
+    6855.2.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_109 = {
+    name = "Harwood"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_107
+    mother = greengood_108
+
+    trait = lustful
+    trait = humble
+    trait = calm
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_1
+
+    6815.10.23 = {
+        birth = yes
+    }
+
+    6841.9.15 = {
+        add_spouse = greengood_110
+    }
+
+    6891.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_110 = {
+    name = "Serra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = just
+    trait = impatient
+    trait = fickle
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 8
+    intrigue = 9
+    learning = 8
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6824.4.18 = {
+        birth = yes
+    }
+
+    6908.6.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_111 = {
+    name = "Evalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_109
+    mother = greengood_110
+
+    trait = cynical
+    trait = humble
+    trait = patient
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 4
+    intrigue = 6
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_3
+
+    6850.4.8 = {
+        birth = yes
+    }
+
+    6919.12.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_112 = {
+    name = "Ansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_109
+    mother = greengood_110
+
+    trait = arbitrary
+    trait = humble
+    trait = craven
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 8
+    intrigue = 5
+    learning = 4
+    prowess = 4
+
+    trait = education_stewardship_4
+
+    6852.11.27 = {
+        birth = yes
+    }
+
+    6924.11.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_113 = {
+    name = "Bennard"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_109
+    mother = greengood_110
+
+    trait = content
+    trait = trusting
+    trait = lazy
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6857.11.4 = {
+        birth = yes
+    }
+
+    6901.5.21 = {
+        add_spouse = greengood_114
+    }
+
+    6928.11.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_114 = {
+    name = "Cecil"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = craven
+    trait = sadistic
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6884.1.9 = {
+        birth = yes
+    }
+
+    6951.3.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_115 = {
+    name = "Sigwyn"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_113
+    mother = greengood_114
+
+    trait = temperate
+    trait = vengeful
+    trait = impatient
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 9
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    6910.1.17 = {
+        birth = yes
+    }
+
+    6911.10.9 = {
+        give_nickname = nick_the_brilliant
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6935.2.22 = {
+        add_spouse = greengood_116
+    }
+
+    6995.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_116 = {
+    name = "Elyssi"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = fickle
+    trait = impatient
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 6
+    intrigue = 10
+    learning = 7
+    prowess = 3
+
+    trait = education_intrigue_1
+
+    6918.3.26 = {
+        birth = yes
+    }
+
+    6990.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_117 = {
+    name = "Tylissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_115
+    mother = greengood_116
+
+    trait = generous
+    trait = cynical
+    trait = craven
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6937.4.11 = {
+        birth = yes
+    }
+
+    7015.10.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_118 = {
+    name = "Gil"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_115
+    mother = greengood_116
+
+    trait = craven
+    trait = calm
+    trait = cynical
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_3
+
+    6938.9.5 = {
+        birth = yes
+    }
+
+    7009.4.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_119 = {
+    name = "Vesamar"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_115
+    mother = greengood_116
+
+    trait = ambitious
+    trait = lazy
+    trait = calm
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 8
+    intrigue = 6
+    learning = 2
+    prowess = 4
+
+    trait = education_martial_3
+
+    6946.5.1 = {
+        birth = yes
+    }
+
+    6965.7.22 = {
+        add_spouse = greengood_120
+    }
+
+    7000.8.10 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+greengood_120 = {
+    name = "Tylissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = honest
+    trait = fickle
+    trait = patient
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 10
+
+    trait = education_diplomacy_2
+
+    6948.3.8 = {
+        birth = yes
+    }
+
+    7018.5.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_121 = {
+    name = "Rogar"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_119
+    mother = greengood_120
+
+    trait = content
+    trait = arbitrary
+    trait = callous
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 4
+    intrigue = 7
+    learning = 4
+    prowess = 4
+
+    trait = education_martial_2
+
+    6978.6.28 = {
+        birth = yes
+    }
+
+    7005.11.28 = {
+        add_spouse = greengood_122
+    }
+
+    7015.4.24 = {
+        death = { death_reason = death_ripped_apart_limb_by_limb }
+    }
+}
+
+greengood_122 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = impatient
+    trait = shy
+    trait = humble
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_3
+
+    6988.7.12 = {
+        birth = yes
+    }
+
+    7068.3.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_123 = {
+    name = "Sigwyn"
+
+    dynasty = dynasty_greengood
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_121
+    mother = greengood_122
+
+    trait = temperate
+    trait = arbitrary
+    trait = cynical
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 3
+    learning = 8
+    prowess = 9
+
+    trait = education_learning_3
+
+    7006.9.22 = {
+        birth = yes
+    }
+
+    7046.2.5 = {
+        add_spouse = greengood_124
+    }
+
+    7073.8.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_124 = {
+    name = "Elinan"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = calm
+    trait = zealous
+    trait = honest
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    7029.6.7 = {
+        birth = yes
+    }
+
+    7102.10.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_125 = {
+    name = "Ansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_121
+    mother = greengood_122
+
+    trait = gregarious
+    trait = deceitful
+    trait = cynical
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    7008.3.26 = {
+        birth = yes
+    }
+
+    7018.12.4 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+greengood_126 = {
+    name = "Krysti"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_121
+    mother = greengood_122
+
+    trait = gregarious
+    trait = lazy
+    trait = humble
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 9
+    intrigue = 5
+    learning = 2
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    7009.8.24 = {
+        birth = yes
+    }
+
+    7082.5.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_127 = {
+    name = "Krysti"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_121
+    mother = greengood_122
+
+    trait = lustful
+    trait = zealous
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 7
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_2
+
+    7010.10.9 = {
+        birth = yes
+    }
+
+    7077.7.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greengood_128 = {
+    name = "Jonella"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greengood_119
+    mother = greengood_120
+
+    trait = sadistic
+    trait = lustful
+    trait = diligent
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 3
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6983.11.21 = {
+        birth = yes
+    }
+
+    7054.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

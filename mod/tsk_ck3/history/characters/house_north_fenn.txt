@@ -1,0 +1,6148 @@
+fenn_1 = {
+    name = "Olf"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = honest
+    trait = humble
+    trait = fickle
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    4450.4.7 = {
+        birth = yes
+    }
+
+    4472.12.5 = {
+        add_spouse = fenn_2
+    }
+
+    4522.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_2 = {
+    name = "Ewa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = vengeful
+    trait = callous
+    trait = zealous
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_3
+
+    4455.8.9 = {
+        birth = yes
+    }
+
+    4530.9.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_3 = {
+    name = "Kael"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_1
+    mother = fenn_2
+
+    trait = arrogant
+    trait = just
+    trait = lazy
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 6
+    intrigue = 10
+    learning = 9
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    4494.1.6 = {
+        birth = yes
+    }
+
+    4495.11.15 = {
+        give_nickname = nick_the_shepherd
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    4512.12.15 = {
+        add_spouse = fenn_4
+    }
+
+    4570.1.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_4 = {
+    name = "Jolyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = honest
+    trait = wrathful
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    4495.6.10 = {
+        birth = yes
+    }
+
+    4567.6.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_5 = {
+    name = "Jorah"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_3
+    mother = fenn_4
+
+    trait = vengeful
+    trait = fickle
+    trait = callous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_3
+
+    4512.2.27 = {
+        birth = yes
+    }
+
+    4560.3.10 = {
+        add_spouse = fenn_6
+    }
+
+    4595.7.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_6 = {
+    name = "Alyx"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = just
+    trait = ambitious
+    trait = humble
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 9
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    4543.2.24 = {
+        birth = yes
+    }
+
+    4610.12.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_7 = {
+    name = "Desmond"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_5
+    mother = fenn_6
+
+    trait = arrogant
+    trait = generous
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 8
+    intrigue = 2
+    learning = 6
+    prowess = 9
+
+    trait = education_martial_3
+
+    4571.5.2 = {
+        birth = yes
+    }
+
+    4615.11.22 = {
+        add_spouse = fenn_8
+    }
+
+    4649.7.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_8 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = shy
+    trait = forgiving
+    trait = generous
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 5
+    intrigue = 10
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    4598.12.5 = {
+        birth = yes
+    }
+
+    4677.1.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_9 = {
+    name = "Dywen"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_7
+    mother = fenn_8
+
+    trait = lazy
+    trait = just
+    trait = honest
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    4643.9.9 = {
+        birth = yes
+    }
+
+    4668.4.26 = {
+        add_spouse = fenn_10
+    }
+
+    4698.8.11 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+fenn_10 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = paranoid
+    trait = brave
+    trait = ambitious
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 5
+    intrigue = 4
+    learning = 1
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    4651.2.19 = {
+        birth = yes
+    }
+
+    4733.5.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_11 = {
+    name = "Eylif"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_9
+    mother = fenn_10
+
+    trait = calm
+    trait = content
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 7
+    intrigue = 9
+    learning = 6
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    4695.10.24 = {
+        birth = yes
+    }
+
+    4723.2.19 = {
+        add_spouse = fenn_12
+    }
+
+    4766.9.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_12 = {
+    name = "Krystyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = shy
+    trait = ambitious
+    trait = stubborn
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 4
+    intrigue = 9
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    4706.1.11 = {
+        birth = yes
+    }
+
+    4784.2.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_13 = {
+    name = "Ormyn"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_11
+    mother = fenn_12
+
+    trait = lazy
+    trait = arbitrary
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_2
+
+    4738.11.3 = {
+        birth = yes
+    }
+
+    4761.8.8 = {
+        add_spouse = fenn_14
+    }
+
+    4806.10.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_14 = {
+    name = "Asha"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = ambitious
+    trait = zealous
+    trait = humble
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 5
+    intrigue = 6
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_3
+
+    4744.9.17 = {
+        birth = yes
+    }
+
+    4812.8.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_15 = {
+    name = "Heward"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_13
+    mother = fenn_14
+
+    trait = arrogant
+    trait = forgiving
+    trait = lustful
+
+    diplomacy = 4
+    martial = 11
+    stewardship = 4
+    intrigue = 2
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_4
+
+    4777.2.6 = {
+        birth = yes
+    }
+
+    4824.5.26 = {
+        add_spouse = fenn_16
+    }
+
+    4836.2.5 = {
+        death = { death_reason = death_great_pox }
+    }
+}
+
+fenn_16 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = paranoid
+    trait = arbitrary
+    trait = impatient
+
+    diplomacy = 11
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    4807.6.15 = {
+        birth = yes
+    }
+
+    4878.7.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_17 = {
+    name = "Mattis"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_15
+    mother = fenn_16
+
+    trait = honest
+    trait = generous
+    trait = shy
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    4832.9.12 = {
+        birth = yes
+    }
+
+    4868.6.11 = {
+        add_spouse = fenn_18
+    }
+
+    4898.7.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_18 = {
+    name = "Rykissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = ambitious
+    trait = humble
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    4851.12.1 = {
+        birth = yes
+    }
+
+    4918.4.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_19 = {
+    name = "Walder"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_17
+    mother = fenn_18
+
+    trait = ambitious
+    trait = callous
+    trait = calm
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    4891.9.10 = {
+        birth = yes
+    }
+
+    4918.1.5 = {
+        add_spouse = fenn_20
+    }
+
+    4970.2.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_20 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = deceitful
+    trait = ambitious
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 9
+    learning = 7
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    4901.7.6 = {
+        birth = yes
+    }
+
+    4971.8.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_21 = {
+    name = "Brandon"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_19
+    mother = fenn_20
+
+    trait = generous
+    trait = lazy
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    4933.8.8 = {
+        birth = yes
+    }
+
+    4956.8.12 = {
+        add_spouse = fenn_22
+    }
+
+    4966.2.6 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+fenn_22 = {
+    name = "Kyli"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = forgiving
+    trait = wrathful
+    trait = content
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 9
+    intrigue = 6
+    learning = 6
+    prowess = 10
+
+    trait = education_stewardship_2
+
+    4939.2.6 = {
+        birth = yes
+    }
+
+    5021.7.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_23 = {
+    name = "Errold"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_21
+    mother = fenn_22
+
+    trait = lazy
+    trait = shy
+    trait = chaste
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 9
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    4962.12.8 = {
+        birth = yes
+    }
+
+    5005.10.21 = {
+        add_spouse = fenn_24
+    }
+
+    5039.6.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_24 = {
+    name = "Sera"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = shy
+    trait = lustful
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 3
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_2
+
+    4988.7.2 = {
+        birth = yes
+    }
+
+    5063.7.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_25 = {
+    name = "Heward"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_23
+    mother = fenn_24
+
+    trait = arbitrary
+    trait = cynical
+    trait = generous
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 2
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    5025.9.6 = {
+        birth = yes
+    }
+
+    5065.1.28 = {
+        add_spouse = fenn_26
+    }
+
+    5108.2.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_26 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = wrathful
+    trait = lazy
+    trait = just
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 4
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    5048.11.22 = {
+        birth = yes
+    }
+
+    5132.8.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_27 = {
+    name = "Chayle"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_25
+    mother = fenn_26
+
+    trait = diligent
+    trait = zealous
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 9
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    5087.9.25 = {
+        birth = yes
+    }
+
+    5116.8.9 = {
+        add_spouse = fenn_28
+    }
+
+    5159.4.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_28 = {
+    name = "Agnyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = content
+    trait = forgiving
+    trait = brave
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    5099.12.15 = {
+        birth = yes
+    }
+
+    5174.5.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_29 = {
+    name = "Baldr"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_27
+    mother = fenn_28
+
+    trait = stubborn
+    trait = patient
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 5
+    intrigue = 9
+    learning = 4
+    prowess = 10
+
+    trait = education_martial_3
+
+    5125.8.7 = {
+        birth = yes
+    }
+
+    5166.6.17 = {
+        add_spouse = fenn_30
+    }
+
+    5176.3.25 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+fenn_30 = {
+    name = "Ewilyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = humble
+    trait = diligent
+    trait = zealous
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    5149.2.2 = {
+        birth = yes
+    }
+
+    5234.2.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_31 = {
+    name = "Torrhen"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_29
+    mother = fenn_30
+
+    trait = ambitious
+    trait = calm
+    trait = cynical
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 5
+    intrigue = 9
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_3
+
+    5168.6.24 = {
+        birth = yes
+    }
+
+    5202.5.4 = {
+        add_spouse = fenn_32
+    }
+
+    5253.2.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_32 = {
+    name = "Rykissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = vengeful
+    trait = content
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 3
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    5185.8.8 = {
+        birth = yes
+    }
+
+    5264.8.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_33 = {
+    name = "Robard"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_31
+    mother = fenn_32
+
+    trait = gregarious
+    trait = brave
+    trait = generous
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 8
+    intrigue = 4
+    learning = 4
+    prowess = 2
+
+    trait = education_martial_2
+
+    5226.7.21 = {
+        birth = yes
+    }
+
+    5252.5.11 = {
+        add_spouse = fenn_34
+    }
+
+    5307.8.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_34 = {
+    name = "Myra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = sadistic
+    trait = zealous
+    trait = humble
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 2
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_3
+
+    5235.4.4 = {
+        birth = yes
+    }
+
+    5314.8.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_35 = {
+    name = "Alyn"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_33
+    mother = fenn_34
+
+    trait = deceitful
+    trait = trusting
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_1
+
+    5256.6.21 = {
+        birth = yes
+    }
+
+    5272.8.27 = {
+        add_spouse = fenn_36
+    }
+
+    5327.5.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_36 = {
+    name = "Kaeli"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = callous
+    trait = paranoid
+    trait = generous
+
+    diplomacy = 8
+    martial = 10
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 2
+
+    trait = education_martial_2
+
+    5255.6.24 = {
+        birth = yes
+    }
+
+    5330.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_37 = {
+    name = "Wayn"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_35
+    mother = fenn_36
+
+    trait = fickle
+    trait = vengeful
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    5297.7.19 = {
+        birth = yes
+    }
+
+    5341.6.7 = {
+        add_spouse = fenn_38
+    }
+
+    5351.4.7 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+fenn_38 = {
+    name = "Eva"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = generous
+    trait = callous
+    trait = just
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 9
+
+    trait = education_intrigue_2
+
+    5324.12.28 = {
+        birth = yes
+    }
+
+    5397.4.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_39 = {
+    name = "Desmond"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_37
+    mother = fenn_38
+
+    trait = lazy
+    trait = forgiving
+    trait = brave
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    5349.9.6 = {
+        birth = yes
+    }
+
+    5380.9.26 = {
+        add_spouse = fenn_40
+    }
+
+    5429.1.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_40 = {
+    name = "Oraeya"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = honest
+    trait = generous
+    trait = calm
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 9
+    prowess = 10
+
+    trait = education_learning_3
+
+    5363.11.5 = {
+        birth = yes
+    }
+
+    5443.8.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_41 = {
+    name = "Dog"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_39
+    mother = fenn_40
+
+    trait = wrathful
+    trait = content
+    trait = lazy
+
+    diplomacy = 20
+    martial = 22
+    stewardship = 15
+    intrigue = 17
+    learning = 16
+    prowess = 9
+
+    trait = education_martial_4
+
+    5384.6.18 = {
+        birth = yes
+    }
+
+    5430.10.23 = {
+        add_spouse = fenn_42
+    }
+
+    5465.2.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_42 = {
+    name = "Marissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = arrogant
+    trait = honest
+    trait = stubborn
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    5413.11.14 = {
+        birth = yes
+    }
+
+    5440.2.20 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+fenn_43 = {
+    name = "Hallis"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_41
+    mother = fenn_42
+
+    trait = callous
+    trait = forgiving
+    trait = arbitrary
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 9
+
+    trait = education_martial_4
+
+    5437.12.4 = {
+        birth = yes
+    }
+
+    5468.11.12 = {
+        add_spouse = fenn_44
+    }
+
+    5508.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_44 = {
+    name = "Frenya"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = callous
+    trait = brave
+    trait = calm
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 3
+    learning = 3
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    5451.8.3 = {
+        birth = yes
+    }
+
+    5478.4.28 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+fenn_45 = {
+    name = "Ulward"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_43
+    mother = fenn_44
+
+    trait = impatient
+    trait = greedy
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    5468.4.27 = {
+        birth = yes
+    }
+
+    5508.4.10 = {
+        add_spouse = fenn_46
+    }
+
+    5549.5.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_46 = {
+    name = "Shiera"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = patient
+    trait = content
+    trait = gluttonous
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 9
+    intrigue = 8
+    learning = 4
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    5491.1.22 = {
+        birth = yes
+    }
+
+    5561.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_47 = {
+    name = "Howland"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_45
+    mother = fenn_46
+
+    trait = diligent
+    trait = impatient
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    5530.5.19 = {
+        birth = yes
+    }
+
+    5556.8.15 = {
+        add_spouse = fenn_48
+    }
+
+    5610.12.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_48 = {
+    name = "Lidania"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = ambitious
+    trait = humble
+    trait = just
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    5539.10.10 = {
+        birth = yes
+    }
+
+    5619.3.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_49 = {
+    name = "Royce"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_47
+    mother = fenn_48
+
+    trait = temperate
+    trait = vengeful
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    5583.6.19 = {
+        birth = yes
+    }
+
+    5605.4.17 = {
+        add_spouse = fenn_50
+    }
+
+    5659.10.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_50 = {
+    name = "Kyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = generous
+    trait = temperate
+    trait = impatient
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 3
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_3
+
+    5588.11.26 = {
+        birth = yes
+    }
+
+    5659.12.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_51 = {
+    name = "Yoren"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_49
+    mother = fenn_50
+
+    trait = stubborn
+    trait = gluttonous
+    trait = content
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 2
+    prowess = 5
+
+    trait = education_martial_2
+
+    5623.11.15 = {
+        birth = yes
+    }
+
+    5646.2.27 = {
+        add_spouse = fenn_52
+    }
+
+    5694.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_52 = {
+    name = "Beth"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = arrogant
+    trait = callous
+    trait = trusting
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 9
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    5629.1.17 = {
+        birth = yes
+    }
+
+    5710.12.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_53 = {
+    name = "Beren"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_51
+    mother = fenn_52
+
+    trait = patient
+    trait = temperate
+    trait = lazy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    5664.11.10 = {
+        birth = yes
+    }
+
+    5706.4.15 = {
+        add_spouse = fenn_54
+    }
+
+    5732.3.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_54 = {
+    name = "Jonella"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = craven
+    trait = vengeful
+    trait = chaste
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 4
+    intrigue = 5
+    learning = 3
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    5689.5.28 = {
+        birth = yes
+    }
+
+    5769.7.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_55 = {
+    name = "Filype"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_53
+    mother = fenn_54
+
+    trait = stubborn
+    trait = patient
+    trait = ambitious
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    5727.10.8 = {
+        birth = yes
+    }
+
+    5766.3.23 = {
+        add_spouse = fenn_56
+    }
+
+    5797.3.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_56 = {
+    name = "Evalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = trusting
+    trait = generous
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    5749.11.7 = {
+        birth = yes
+    }
+
+    5815.4.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_57 = {
+    name = "Calon"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_55
+    mother = fenn_56
+
+    trait = calm
+    trait = lazy
+    trait = callous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    5775.6.28 = {
+        birth = yes
+    }
+
+    5802.9.6 = {
+        add_spouse = fenn_58
+    }
+
+    5852.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_58 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = patient
+    trait = humble
+    trait = calm
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_learning_4
+
+    5785.12.25 = {
+        birth = yes
+    }
+
+    5856.9.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_59 = {
+    name = "Cayn"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_57
+    mother = fenn_58
+
+    trait = vengeful
+    trait = brave
+    trait = diligent
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_3
+
+    5807.10.9 = {
+        birth = yes
+    }
+
+    5844.10.24 = {
+        add_spouse = fenn_60
+    }
+
+    5885.8.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_60 = {
+    name = "Kristyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = patient
+    trait = paranoid
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_3
+
+    5827.12.27 = {
+        birth = yes
+    }
+
+    5900.9.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_61 = {
+    name = "Hoarfrost"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_59
+    mother = fenn_60
+
+    trait = impatient
+    trait = cynical
+    trait = ambitious
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    5855.6.27 = {
+        birth = yes
+    }
+
+    5872.10.18 = {
+        add_spouse = fenn_62
+    }
+
+    5938.6.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_62 = {
+    name = "Kymila"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = forgiving
+    trait = craven
+    trait = shy
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 10
+    prowess = 2
+
+    trait = education_learning_3
+
+    5855.11.9 = {
+        birth = yes
+    }
+
+    5933.3.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_63 = {
+    name = "Nikla"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_61
+    mother = fenn_62
+
+    trait = craven
+    trait = impatient
+    trait = fickle
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    5877.5.20 = {
+        birth = yes
+    }
+
+    5921.9.12 = {
+        add_spouse = fenn_64
+    }
+
+    5951.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_64 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = humble
+    trait = sadistic
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_3
+
+    5904.2.2 = {
+        birth = yes
+    }
+
+    5982.2.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_65 = {
+    name = "Gawen"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_63
+    mother = fenn_64
+
+    trait = content
+    trait = humble
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 3
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    5932.12.2 = {
+        birth = yes
+    }
+
+    5969.7.27 = {
+        add_spouse = fenn_66
+    }
+
+    6008.7.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_66 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = chaste
+    trait = stubborn
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    5952.6.22 = {
+        birth = yes
+    }
+
+    6018.12.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_67 = {
+    name = "Wylis"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_65
+    mother = fenn_66
+
+    trait = content
+    trait = shy
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 3
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    5996.9.15 = {
+        birth = yes
+    }
+
+    6014.8.6 = {
+        add_spouse = fenn_68
+    }
+
+    6062.5.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_68 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = vengeful
+    trait = calm
+    trait = lustful
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 4
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_4
+
+    5997.2.14 = {
+        birth = yes
+    }
+
+    6080.11.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_69 = {
+    name = "Marlon"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_67
+    mother = fenn_68
+
+    trait = sadistic
+    trait = honest
+    trait = calm
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_4
+
+    6042.11.22 = {
+        birth = yes
+    }
+
+    6082.1.8 = {
+        add_spouse = fenn_70
+    }
+
+    6124.10.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_70 = {
+    name = "Lidia"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = arrogant
+    trait = deceitful
+    trait = impatient
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 1
+    intrigue = 8
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_2
+
+    6065.1.8 = {
+        birth = yes
+    }
+
+    6141.10.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_71 = {
+    name = "Brandon"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_69
+    mother = fenn_70
+
+    trait = forgiving
+    trait = stubborn
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 2
+    learning = 8
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6105.6.18 = {
+        birth = yes
+    }
+
+    6149.11.11 = {
+        add_spouse = fenn_72
+    }
+
+    6159.7.13 = {
+        death = { death_reason = death_script_cruelty   }
+    }
+}
+
+fenn_72 = {
+    name = "Kataryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = impatient
+    trait = vengeful
+    trait = diligent
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6132.5.19 = {
+        birth = yes
+    }
+
+    6210.4.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_73 = {
+    name = "Markors"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_71
+    mother = fenn_72
+
+    trait = callous
+    trait = ambitious
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 3
+    learning = 4
+    prowess = 10
+
+    trait = education_stewardship_4
+
+    6156.4.1 = {
+        birth = yes
+    }
+
+    6196.7.28 = {
+        add_spouse = fenn_74
+    }
+
+    6206.5.12 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+fenn_74 = {
+    name = "Magdalyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = diligent
+    trait = arbitrary
+    trait = arrogant
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 3
+    intrigue = 8
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6179.2.15 = {
+        birth = yes
+    }
+
+    6252.5.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_75 = {
+    name = "Aethan"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_73
+    mother = fenn_74
+
+    trait = compassionate
+    trait = deceitful
+    trait = temperate
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 3
+    learning = 2
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6198.9.2 = {
+        birth = yes
+    }
+
+    6222.8.14 = {
+        add_spouse = fenn_76
+    }
+
+    6274.1.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_76 = {
+    name = "Cersera"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = content
+    trait = greedy
+    trait = lustful
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 3
+    intrigue = 8
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6205.5.18 = {
+        birth = yes
+    }
+
+    6273.9.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_77 = {
+    name = "Harrion"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_75
+    mother = fenn_76
+
+    trait = lazy
+    trait = gregarious
+    trait = cynical
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_4
+
+    6237.4.3 = {
+        birth = yes
+    }
+
+    6254.1.6 = {
+        add_spouse = fenn_78
+    }
+
+    6305.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_78 = {
+    name = "Jolanta"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = arbitrary
+    trait = cynical
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6237.10.3 = {
+        birth = yes
+    }
+
+    6315.5.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_79 = {
+    name = "Brenett"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_77
+    mother = fenn_78
+
+    trait = zealous
+    trait = vengeful
+    trait = callous
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 3
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6276.2.14 = {
+        birth = yes
+    }
+
+    6320.3.27 = {
+        add_spouse = fenn_80
+    }
+
+    6357.7.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_80 = {
+    name = "Ansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = temperate
+    trait = compassionate
+    trait = craven
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 3
+    learning = 9
+    prowess = 10
+
+    trait = education_learning_2
+
+    6303.1.7 = {
+        birth = yes
+    }
+
+    6387.1.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_81 = {
+    name = "Ned"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_79
+    mother = fenn_80
+
+    trait = ambitious
+    trait = chaste
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6344.11.7 = {
+        birth = yes
+    }
+
+    6367.8.4 = {
+        add_spouse = fenn_82
+    }
+
+    6419.10.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_82 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = vengeful
+    trait = gluttonous
+    trait = trusting
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    6350.7.21 = {
+        birth = yes
+    }
+
+    6423.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_83 = {
+    name = "Garth"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_81
+    mother = fenn_82
+
+    trait = greedy
+    trait = paranoid
+    trait = craven
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 8
+    intrigue = 2
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6385.6.21 = {
+        birth = yes
+    }
+
+    6423.12.8 = {
+        add_spouse = fenn_84
+    }
+
+    6433.3.25 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+fenn_84 = {
+    name = "Robyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = ambitious
+    trait = shy
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 9
+    intrigue = 5
+    learning = 5
+    prowess = 2
+
+    trait = education_stewardship_4
+
+    6406.3.1 = {
+        birth = yes
+    }
+
+    6478.2.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_85 = {
+    name = "Beren"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_83
+    mother = fenn_84
+
+    trait = compassionate
+    trait = diligent
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6429.10.5 = {
+        birth = yes
+    }
+
+    6464.8.26 = {
+        add_spouse = fenn_86
+    }
+
+    6496.6.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_86 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = generous
+    trait = impatient
+    trait = chaste
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_3
+
+    6447.10.15 = {
+        birth = yes
+    }
+
+    6524.4.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_87 = {
+    name = "Craster"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_85
+    mother = fenn_86
+
+    trait = forgiving
+    trait = just
+    trait = lustful
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 2
+    prowess = 7
+
+    trait = education_martial_4
+
+    6480.8.16 = {
+        birth = yes
+    }
+
+    6516.4.27 = {
+        add_spouse = fenn_88
+    }
+
+    6565.1.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_88 = {
+    name = "Darlessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = shy
+    trait = brave
+    trait = arbitrary
+
+    diplomacy = 10
+    martial = 3
+    stewardship = 8
+    intrigue = 3
+    learning = 10
+    prowess = 11
+
+    trait = education_diplomacy_3
+
+    6499.5.28 = {
+        birth = yes
+    }
+
+    6581.8.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_89 = {
+    name = "Brenett"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_87
+    mother = fenn_88
+
+    trait = callous
+    trait = patient
+    trait = zealous
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 2
+    intrigue = 5
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_3
+
+    6537.2.28 = {
+        birth = yes
+    }
+
+    6553.11.10 = {
+        add_spouse = fenn_90
+    }
+
+    6597.5.4 = {
+        death = { death_reason = death_plotting  }
+    }
+}
+
+fenn_90 = {
+    name = "Gilli"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = trusting
+    trait = ambitious
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 7
+    intrigue = 6
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_2
+
+    6536.6.8 = {
+        birth = yes
+    }
+
+    6575.3.5 = {
+        death = { death_reason = death_vanished  }
+    }
+}
+
+fenn_91 = {
+    name = "Markors"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_89
+    mother = fenn_90
+
+    trait = fickle
+    trait = wrathful
+    trait = brave
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6561.9.10 = {
+        birth = yes
+    }
+
+    6610.9.18 = {
+        add_spouse = fenn_92
+    }
+
+    6627.2.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_92 = {
+    name = "Kyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = diligent
+    trait = ambitious
+    trait = calm
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 11
+    prowess = 7
+
+    trait = education_learning_3
+
+    6593.12.8 = {
+        birth = yes
+    }
+
+    6668.6.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_93 = {
+    name = "Dorren"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_91
+    mother = fenn_92
+
+    trait = lustful
+    trait = cynical
+    trait = shy
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 10
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6621.11.14 = {
+        birth = yes
+    }
+
+    6638.7.15 = {
+        add_spouse = fenn_94
+    }
+
+    6704.4.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_94 = {
+    name = "Kristyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = cynical
+    trait = arrogant
+    trait = temperate
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6621.1.10 = {
+        birth = yes
+    }
+
+    6706.7.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_95 = {
+    name = "Ulward"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_93
+    mother = fenn_94
+
+    trait = sadistic
+    trait = brave
+    trait = just
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 6
+    intrigue = 9
+    learning = 4
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6657.10.9 = {
+        birth = yes
+    }
+
+    6704.9.14 = {
+        add_spouse = fenn_96
+    }
+
+    6714.8.1 = {
+        death = { death_reason = death_attacked }
+    }
+}
+
+fenn_96 = {
+    name = "Jaisyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = shy
+    trait = arbitrary
+    trait = calm
+
+    diplomacy = 2
+    martial = 9
+    stewardship = 4
+    intrigue = 8
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_2
+
+    6687.8.7 = {
+        birth = yes
+    }
+
+    6714.10.5 = {
+        death = { death_reason = death_gout_ridden }
+    }
+}
+
+fenn_97 = {
+    name = "Pate"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_95
+    mother = fenn_96
+
+    trait = diligent
+    trait = forgiving
+    trait = zealous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 9
+    learning = 5
+    prowess = 2
+
+    trait = education_intrigue_2
+
+    6705.6.17 = {
+        birth = yes
+    }
+
+    6728.3.23 = {
+        add_spouse = fenn_98
+    }
+
+    6782.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_98 = {
+    name = "Karci"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = just
+    trait = impatient
+    trait = content
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 4
+    intrigue = 10
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6711.11.16 = {
+        birth = yes
+    }
+
+    6795.9.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_99 = {
+    name = "Craster"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_97
+    mother = fenn_98
+
+    trait = temperate
+    trait = vengeful
+    trait = lustful
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6739.6.1 = {
+        birth = yes
+    }
+
+    6783.2.24 = {
+        add_spouse = fenn_100
+    }
+
+    6823.1.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_100 = {
+    name = "Ewa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = callous
+    trait = craven
+    trait = paranoid
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 5
+    intrigue = 9
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6766.12.23 = {
+        birth = yes
+    }
+
+    6845.10.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_101 = {
+    name = "Halys"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_99
+    mother = fenn_100
+
+    trait = paranoid
+    trait = calm
+    trait = humble
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 10
+    intrigue = 4
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6791.7.3 = {
+        birth = yes
+    }
+
+    6810.12.27 = {
+        add_spouse = fenn_102
+    }
+
+    6868.4.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_102 = {
+    name = "Alysane"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = paranoid
+    trait = content
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_2
+
+    6793.6.8 = {
+        birth = yes
+    }
+
+    6865.6.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_103 = {
+    name = "Gregeroi"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_101
+    mother = fenn_102
+
+    trait = wrathful
+    trait = just
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 4
+    intrigue = 4
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_2
+
+    6829.4.11 = {
+        birth = yes
+    }
+
+    6860.5.4 = {
+        add_spouse = fenn_104
+    }
+
+    6901.8.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_104 = {
+    name = "Cecilia"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = vengeful
+    trait = humble
+    trait = honest
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6843.11.20 = {
+        birth = yes
+    }
+
+    6909.9.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_105 = {
+    name = "Robin"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_103
+    mother = fenn_104
+
+    trait = content
+    trait = honest
+    trait = callous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_4
+
+    6871.9.8 = {
+        birth = yes
+    }
+
+    6887.2.11 = {
+        add_spouse = fenn_106
+    }
+
+    6897.12.27 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+fenn_106 = {
+    name = "Meera"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = sadistic
+    trait = vengeful
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 8
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6870.7.22 = {
+        birth = yes
+    }
+
+    6947.7.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_107 = {
+    name = "Matus"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_105
+    mother = fenn_106
+
+    trait = brave
+    trait = stubborn
+    trait = patient
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 9
+    prowess = 2
+
+    trait = education_learning_3
+
+    6892.3.8 = {
+        birth = yes
+    }
+
+    6942.6.21 = {
+        add_spouse = fenn_108
+    }
+
+    6961.7.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_108 = {
+    name = "Jonella"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = patient
+    trait = gluttonous
+    trait = generous
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 9
+    intrigue = 5
+    learning = 3
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6925.8.28 = {
+        birth = yes
+    }
+
+    6997.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_109 = {
+    name = "Casamor"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_107
+    mother = fenn_108
+
+    trait = lustful
+    trait = greedy
+    trait = compassionate
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6953.4.4 = {
+        birth = yes
+    }
+
+    6954.7.2 = {
+        give_nickname = nick_the_mindbreaker
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6996.9.15 = {
+        add_spouse = fenn_110
+    }
+
+    7020.10.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_110 = {
+    name = "Jolanta"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = deceitful
+    trait = vengeful
+    trait = lazy
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    6979.9.1 = {
+        birth = yes
+    }
+
+    7045.6.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_111 = {
+    name = "Harwin"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_109
+    mother = fenn_110
+
+    trait = wrathful
+    trait = arbitrary
+    trait = gluttonous
+
+    diplomacy = 1
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    7006.8.7 = {
+        birth = yes
+    }
+
+    7042.4.7 = {
+        add_spouse = fenn_112
+    }
+
+    7052.9.5 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+fenn_112 = {
+    name = "Jorelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = just
+    trait = lustful
+    trait = patient
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 9
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    7025.2.19 = {
+        birth = yes
+    }
+
+    7102.6.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_113 = {
+    name = "Borys"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_111
+    mother = fenn_112
+
+    trait = paranoid
+    trait = cynical
+    trait = content
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 7
+    intrigue = 9
+    learning = 6
+    prowess = 9
+
+    trait = education_intrigue_2
+
+    7044.9.18 = {
+        birth = yes
+    }
+
+    7080.8.18 = {
+        add_spouse = fenn_114
+    }
+
+    7120.2.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_114 = {
+    name = "Kamyla"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = humble
+    trait = craven
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 5
+    intrigue = 3
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_3
+
+    7063.9.24 = {
+        birth = yes
+    }
+
+    7135.5.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_115 = {
+    name = "Stan"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_113
+    mother = fenn_114
+
+    trait = gregarious
+    trait = arbitrary
+    trait = lazy
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_4
+
+    7089.9.8 = {
+        birth = yes
+    }
+
+    7114.6.18 = {
+        add_spouse = fenn_116
+    }
+
+    7171.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_116 = {
+    name = "Mylessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = arrogant
+    trait = arbitrary
+    trait = sadistic
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 3
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    7097.11.12 = {
+        birth = yes
+    }
+
+    7170.10.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_117 = {
+    name = "Markors"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_115
+    mother = fenn_116
+
+    trait = temperate
+    trait = fickle
+    trait = cynical
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_4
+
+    7130.6.20 = {
+        birth = yes
+    }
+
+    7178.8.6 = {
+        add_spouse = fenn_118
+    }
+
+    7214.12.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_118 = {
+    name = "Perra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = paranoid
+    trait = fickle
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 10
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_1
+
+    7161.3.3 = {
+        birth = yes
+    }
+
+    7238.1.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_119 = {
+    name = "Eylif"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_117
+    mother = fenn_118
+
+    trait = gregarious
+    trait = wrathful
+    trait = forgiving
+
+    diplomacy = 10
+    martial = 11
+    stewardship = 6
+    intrigue = 1
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_2
+
+    7188.4.2 = {
+        birth = yes
+    }
+
+    7203.5.3 = {
+        add_spouse = fenn_120
+    }
+
+    7230.12.1 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+fenn_120 = {
+    name = "Lysa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = arbitrary
+    trait = ambitious
+    trait = humble
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 10
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    7186.7.26 = {
+        birth = yes
+    }
+
+    7261.9.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_121 = {
+    name = "Alaric"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_113
+    mother = fenn_114
+
+    trait = trusting
+    trait = arbitrary
+    trait = lazy
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 4
+    intrigue = 9
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    7099.12.10 = {
+        birth = yes
+    }
+
+    7137.6.15 = {
+        add_spouse = fenn_122
+    }
+
+    7173.11.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_122 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = ambitious
+    trait = fickle
+    trait = craven
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_1
+
+    7120.9.18 = {
+        birth = yes
+    }
+
+    7197.10.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_123 = {
+    name = "Tissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_121
+    mother = fenn_122
+
+    trait = humble
+    trait = diligent
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 9
+    intrigue = 7
+    learning = 9
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    7148.4.24 = {
+        birth = yes
+    }
+
+    7215.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_124 = {
+    name = "Donnis"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_121
+    mother = fenn_122
+
+    trait = patient
+    trait = ambitious
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_4
+
+    7154.3.1 = {
+        birth = yes
+    }
+
+    7196.10.8 = {
+        add_spouse = fenn_125
+    }
+
+    7206.6.23 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+fenn_125 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = zealous
+    trait = humble
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    7179.6.2 = {
+        birth = yes
+    }
+
+    7253.8.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_126 = {
+    name = "Craster"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_124
+    mother = fenn_125
+
+    trait = compassionate
+    trait = cynical
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 8
+
+    trait = education_martial_3
+
+    7198.4.23 = {
+        birth = yes
+    }
+
+    7240.9.15 = {
+        add_spouse = fenn_127
+    }
+
+    7250.2.22 = {
+        death = { death_reason = death_piteously_cut_down }
+    }
+}
+
+fenn_127 = {
+    name = "Tora"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = arbitrary
+    trait = chaste
+    trait = brave
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    7223.7.27 = {
+        birth = yes
+    }
+
+    7307.2.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_128 = {
+    name = "Cateryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_124
+    mother = fenn_125
+
+    trait = forgiving
+    trait = sadistic
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_3
+
+    7200.10.6 = {
+        birth = yes
+    }
+
+    7270.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_129 = {
+    name = "Ondrew"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_124
+    mother = fenn_125
+
+    trait = humble
+    trait = stubborn
+    trait = content
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    7202.7.8 = {
+        birth = yes
+    }
+
+    7224.2.8 = {
+        add_spouse = fenn_130
+    }
+
+    7273.12.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_130 = {
+    name = "Thyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = stubborn
+    trait = paranoid
+    trait = patient
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    7207.12.5 = {
+        birth = yes
+    }
+
+    7292.5.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_131 = {
+    name = "Yoren"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_111
+    mother = fenn_112
+
+    trait = gluttonous
+    trait = craven
+    trait = diligent
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    7046.6.1 = {
+        birth = yes
+    }
+
+    7088.7.20 = {
+        add_spouse = fenn_132
+    }
+
+    7117.6.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_132 = {
+    name = "Magdalyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = shy
+    trait = trusting
+    trait = cynical
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 4
+    intrigue = 8
+    learning = 9
+    prowess = 5
+
+    trait = education_martial_4
+
+    7071.2.5 = {
+        birth = yes
+    }
+
+    7153.12.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_133 = {
+    name = "Jonnela"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_131
+    mother = fenn_132
+
+    trait = humble
+    trait = vengeful
+    trait = shy
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 1
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    7092.8.26 = {
+        birth = yes
+    }
+
+    7163.1.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_134 = {
+    name = "Cecilia"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_131
+    mother = fenn_132
+
+    trait = honest
+    trait = gregarious
+    trait = content
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    7093.7.21 = {
+        birth = yes
+    }
+
+    7159.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_135 = {
+    name = "Halys"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_131
+    mother = fenn_132
+
+    trait = just
+    trait = stubborn
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    7097.3.7 = {
+        birth = yes
+    }
+
+    7134.4.28 = {
+        add_spouse = fenn_136
+    }
+
+    7163.3.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_136 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = ambitious
+    trait = calm
+    trait = fickle
+
+    diplomacy = 9
+    martial = 2
+    stewardship = 9
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    7117.11.23 = {
+        birth = yes
+    }
+
+    7199.11.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_137 = {
+    name = "Faste"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_135
+    mother = fenn_136
+
+    trait = diligent
+    trait = wrathful
+    trait = arbitrary
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 4
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_learning_3
+
+    7140.10.26 = {
+        birth = yes
+    }
+
+    7162.7.13 = {
+        add_spouse = fenn_138
+    }
+
+    7216.9.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_138 = {
+    name = "Raya"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = impatient
+    trait = sadistic
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_4
+
+    7145.7.13 = {
+        birth = yes
+    }
+
+    7216.10.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_139 = {
+    name = "Berti"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_137
+    mother = fenn_138
+
+    trait = impatient
+    trait = trusting
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 8
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    7162.11.23 = {
+        birth = yes
+    }
+
+    7234.6.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_140 = {
+    name = "Ethan"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_137
+    mother = fenn_138
+
+    trait = calm
+    trait = diligent
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 2
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    7175.5.7 = {
+        birth = yes
+    }
+
+    7205.7.9 = {
+        add_spouse = fenn_141
+    }
+
+    7215.6.1 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+fenn_141 = {
+    name = "Iris"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = cynical
+    trait = gregarious
+    trait = diligent
+
+    diplomacy = 11
+    martial = 5
+    stewardship = 6
+    intrigue = 9
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    7188.4.16 = {
+        birth = yes
+    }
+
+    7264.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_142 = {
+    name = "Sera"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_135
+    mother = fenn_136
+
+    trait = calm
+    trait = ambitious
+    trait = craven
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_3
+
+    7142.12.21 = {
+        birth = yes
+    }
+
+    7212.11.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_143 = {
+    name = "Bernarr"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_135
+    mother = fenn_136
+
+    trait = lazy
+    trait = fickle
+    trait = humble
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    7145.5.5 = {
+        birth = yes
+    }
+
+    7174.9.28 = {
+        add_spouse = fenn_144
+    }
+
+    7222.8.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_144 = {
+    name = "Rikyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = zealous
+    trait = ambitious
+    trait = calm
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 10
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    7157.8.3 = {
+        birth = yes
+    }
+
+    7232.4.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_145 = {
+    name = "Casamir"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_143
+    mother = fenn_144
+
+    trait = lustful
+    trait = patient
+    trait = lazy
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_martial_2
+
+    7181.8.1 = {
+        birth = yes
+    }
+
+    7212.6.7 = {
+        add_spouse = fenn_146
+    }
+
+    7256.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_146 = {
+    name = "Branda"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = trusting
+    trait = patient
+    trait = shy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_2
+
+    7195.1.1 = {
+        birth = yes
+    }
+
+    7262.9.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_147 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_143
+    mother = fenn_144
+
+    trait = gregarious
+    trait = impatient
+    trait = greedy
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_3
+
+    7188.5.25 = {
+        birth = yes
+    }
+
+    7256.7.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_148 = {
+    name = "Kamyla"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_135
+    mother = fenn_136
+
+    trait = just
+    trait = arrogant
+    trait = honest
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    7149.7.8 = {
+        birth = yes
+    }
+
+    7226.4.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_149 = {
+    name = "Cersera"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_131
+    mother = fenn_132
+
+    trait = cynical
+    trait = callous
+    trait = just
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    7098.11.26 = {
+        birth = yes
+    }
+
+    7183.12.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_150 = {
+    name = "Eva"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_111
+    mother = fenn_112
+
+    trait = greedy
+    trait = paranoid
+    trait = forgiving
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    7048.12.23 = {
+        birth = yes
+    }
+
+    7119.7.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_151 = {
+    name = "Mark"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_109
+    mother = fenn_110
+
+    trait = shy
+    trait = paranoid
+    trait = honest
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 4
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    7011.3.22 = {
+        birth = yes
+    }
+
+    7046.9.10 = {
+        add_spouse = fenn_152
+    }
+
+    7083.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_152 = {
+    name = "Izabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = just
+    trait = paranoid
+    trait = humble
+
+    diplomacy = 10
+    martial = 10
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    7029.11.11 = {
+        birth = yes
+    }
+
+    7108.4.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_153 = {
+    name = "Casimir"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_151
+    mother = fenn_152
+
+    trait = deceitful
+    trait = brave
+    trait = lustful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 3
+    learning = 5
+    prowess = 2
+
+    trait = education_martial_2
+
+    7053.5.23 = {
+        birth = yes
+    }
+
+    7073.5.22 = {
+        add_spouse = fenn_154
+    }
+
+    7136.9.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_154 = {
+    name = "Kamyla"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = trusting
+    trait = calm
+    trait = patient
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_3
+
+    7056.1.4 = {
+        birth = yes
+    }
+
+    7139.4.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_155 = {
+    name = "Lysa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_153
+    mother = fenn_154
+
+    trait = temperate
+    trait = zealous
+    trait = content
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 7
+    learning = 1
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    7074.8.19 = {
+        birth = yes
+    }
+
+    7153.12.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_156 = {
+    name = "Folke"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_153
+    mother = fenn_154
+
+    trait = arbitrary
+    trait = callous
+    trait = content
+
+    diplomacy = 8
+    martial = 10
+    stewardship = 7
+    intrigue = 3
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_1
+
+    7075.5.4 = {
+        birth = yes
+    }
+
+    7100.11.13 = {
+        add_spouse = fenn_157
+    }
+
+    7147.10.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_157 = {
+    name = "Tissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = arbitrary
+    trait = cynical
+    trait = chaste
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    7083.1.22 = {
+        birth = yes
+    }
+
+    7154.11.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_158 = {
+    name = "Torrhen"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_156
+    mother = fenn_157
+
+    trait = humble
+    trait = cynical
+    trait = trusting
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    7100.9.20 = {
+        birth = yes
+    }
+
+    7136.11.17 = {
+        add_spouse = fenn_159
+    }
+
+    7169.2.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_159 = {
+    name = "Elyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = vengeful
+    trait = brave
+    trait = trusting
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 3
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    7119.11.12 = {
+        birth = yes
+    }
+
+    7198.10.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_160 = {
+    name = "Rickon"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_158
+    mother = fenn_159
+
+    trait = callous
+    trait = gregarious
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    7136.7.16 = {
+        birth = yes
+    }
+
+    7182.7.26 = {
+        add_spouse = fenn_161
+    }
+
+    7219.12.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_161 = {
+    name = "Kennya"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = stubborn
+    trait = temperate
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_2
+
+    7165.4.10 = {
+        birth = yes
+    }
+
+    7234.7.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_162 = {
+    name = "Degilf"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_153
+    mother = fenn_154
+
+    trait = gregarious
+    trait = temperate
+    trait = callous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 7
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_3
+
+    7078.4.17 = {
+        birth = yes
+    }
+
+    7099.11.4 = {
+        add_spouse = fenn_163
+    }
+
+    7157.10.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_163 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = trusting
+    trait = cynical
+    trait = just
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    7082.2.11 = {
+        birth = yes
+    }
+
+    7162.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_164 = {
+    name = "Cecilia"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_162
+    mother = fenn_163
+
+    trait = chaste
+    trait = forgiving
+    trait = lazy
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 9
+    intrigue = 11
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    7104.9.17 = {
+        birth = yes
+    }
+
+    7177.7.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_165 = {
+    name = "Caty"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_162
+    mother = fenn_163
+
+    trait = paranoid
+    trait = callous
+    trait = just
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 5
+    intrigue = 3
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    7109.8.10 = {
+        birth = yes
+    }
+
+    7191.2.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_166 = {
+    name = "Rikyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_162
+    mother = fenn_163
+
+    trait = gluttonous
+    trait = compassionate
+    trait = fickle
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 2
+
+    trait = education_stewardship_2
+
+    7114.12.6 = {
+        birth = yes
+    }
+
+    7192.12.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_167 = {
+    name = "Rikulf"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_162
+    mother = fenn_163
+
+    trait = wrathful
+    trait = brave
+    trait = shy
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_3
+
+    7117.9.23 = {
+        birth = yes
+    }
+
+    7142.7.3 = {
+        add_spouse = fenn_168
+    }
+
+    7191.1.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_168 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = stubborn
+    trait = arbitrary
+    trait = trusting
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    7125.7.2 = {
+        birth = yes
+    }
+
+    7198.1.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_169 = {
+    name = "Theodan"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_167
+    mother = fenn_168
+
+    trait = gregarious
+    trait = temperate
+    trait = callous
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_3
+
+    7147.4.3 = {
+        birth = yes
+    }
+
+    7175.6.8 = {
+        add_spouse = fenn_170
+    }
+
+    7213.2.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_170 = {
+    name = "Ilyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = craven
+    trait = vengeful
+    trait = ambitious
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 10
+    intrigue = 3
+    learning = 3
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    7158.9.18 = {
+        birth = yes
+    }
+
+    7236.4.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_171 = {
+    name = "Knut"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_167
+    mother = fenn_168
+
+    trait = chaste
+    trait = forgiving
+    trait = generous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    7149.3.13 = {
+        birth = yes
+    }
+
+    7169.1.19 = {
+        add_spouse = fenn_172
+    }
+
+    7225.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_172 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = gregarious
+    trait = gluttonous
+    trait = humble
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    7152.10.14 = {
+        birth = yes
+    }
+
+    7236.9.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_173 = {
+    name = "Baldr"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_167
+    mother = fenn_168
+
+    trait = cynical
+    trait = gluttonous
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 9
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    7153.8.7 = {
+        birth = yes
+    }
+
+    7191.3.28 = {
+        add_spouse = fenn_174
+    }
+
+    7213.6.20 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+fenn_174 = {
+    name = "Jolanta"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = patient
+    trait = honest
+    trait = just
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_3
+
+    7174.8.24 = {
+        birth = yes
+    }
+
+    7201.8.24 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+fenn_175 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_153
+    mother = fenn_154
+
+    trait = lazy
+    trait = lustful
+    trait = zealous
+
+    diplomacy = 11
+    martial = 6
+    stewardship = 7
+    intrigue = 2
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    7083.1.8 = {
+        birth = yes
+    }
+
+    7152.3.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_176 = {
+    name = "Dywen"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_151
+    mother = fenn_152
+
+    trait = arbitrary
+    trait = patient
+    trait = chaste
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    7057.12.27 = {
+        birth = yes
+    }
+
+    7106.12.1 = {
+        add_spouse = fenn_177
+    }
+
+    7116.7.26 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+fenn_177 = {
+    name = "Fanni"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = gregarious
+    trait = arrogant
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    7089.8.1 = {
+        birth = yes
+    }
+
+    7156.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_178 = {
+    name = "Borys"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_176
+    mother = fenn_177
+
+    trait = paranoid
+    trait = arrogant
+    trait = temperate
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    7112.9.25 = {
+        birth = yes
+    }
+
+    7151.6.15 = {
+        add_spouse = fenn_179
+    }
+
+    7165.1.12 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+fenn_179 = {
+    name = "Raya"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = craven
+    trait = gluttonous
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 11
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    7134.6.27 = {
+        birth = yes
+    }
+
+    7203.9.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_180 = {
+    name = "Rolf"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_178
+    mother = fenn_179
+
+    trait = temperate
+    trait = diligent
+    trait = craven
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 6
+    intrigue = 1
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_2
+
+    7153.7.20 = {
+        birth = yes
+    }
+
+    7178.12.1 = {
+        add_spouse = fenn_181
+    }
+
+    7238.11.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_181 = {
+    name = "Magya"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = calm
+    trait = compassionate
+    trait = craven
+
+    diplomacy = 10
+    martial = 2
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    7161.12.12 = {
+        birth = yes
+    }
+
+    7202.11.25 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+fenn_182 = {
+    name = "Duncan"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_180
+    mother = fenn_181
+
+    trait = lustful
+    trait = calm
+    trait = cynical
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 8
+    learning = 11
+    prowess = 3
+
+    trait = education_learning_1
+
+    7180.2.1 = {
+        birth = yes
+    }
+
+    7197.7.13 = {
+        add_spouse = fenn_183
+    }
+
+    7257.11.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_183 = {
+    name = "Tylissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = stubborn
+    trait = just
+    trait = lustful
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 3
+    intrigue = 9
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    7180.8.19 = {
+        birth = yes
+    }
+
+    7258.1.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_184 = {
+    name = "Stan"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_180
+    mother = fenn_181
+
+    trait = craven
+    trait = compassionate
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 2
+    learning = 10
+    prowess = 9
+
+    trait = education_learning_2
+
+    7184.4.6 = {
+        birth = yes
+    }
+
+    7218.8.20 = {
+        add_spouse = fenn_185
+    }
+
+    7253.9.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_185 = {
+    name = "Tissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = greedy
+    trait = sadistic
+    trait = ambitious
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    7201.3.22 = {
+        birth = yes
+    }
+
+    7285.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_186 = {
+    name = "Walton"
+
+    dynasty = dynasty_fenn
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_180
+    mother = fenn_181
+
+    trait = arbitrary
+    trait = calm
+    trait = fickle
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    7186.2.9 = {
+        birth = yes
+    }
+
+    7214.7.22 = {
+        add_spouse = fenn_187
+    }
+
+    7224.6.21 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+fenn_187 = {
+    name = "Oraeya"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = gregarious
+    trait = stubborn
+    trait = temperate
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    7197.9.17 = {
+        birth = yes
+    }
+
+    7274.8.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_188 = {
+    name = "Lacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_180
+    mother = fenn_181
+
+    trait = callous
+    trait = arrogant
+    trait = fickle
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 3
+    intrigue = 6
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_4
+
+    7190.1.7 = {
+        birth = yes
+    }
+
+    7274.2.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fenn_189 = {
+    name = "Maege"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = fenn_151
+    mother = fenn_152
+
+    trait = stubborn
+    trait = honest
+    trait = patient
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    7059.3.3 = {
+        birth = yes
+    }
+
+    7142.12.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
