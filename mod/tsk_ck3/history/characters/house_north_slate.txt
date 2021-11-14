@@ -1,0 +1,5133 @@
+slate_1 = {
+    name = "Qhorin"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = cynical
+    trait = chaste
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    4450.7.10 = {
+        birth = yes
+    }
+
+    4471.1.27 = {
+        add_spouse = slate_2
+    }
+
+    4529.11.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_2 = {
+    name = "Danelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = wrathful
+    trait = just
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_4
+
+    4454.12.21 = {
+        birth = yes
+    }
+
+    4521.2.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_3 = {
+    name = "Gorm"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_1
+    mother = slate_2
+
+    trait = temperate
+    trait = lustful
+    trait = zealous
+
+    diplomacy = 12
+    martial = 22
+    stewardship = 23
+    intrigue = 16
+    learning = 19
+    prowess = 16
+
+    trait = education_stewardship_4
+
+    4482.1.24 = {
+        birth = yes
+    }
+
+    4520.9.12 = {
+        add_spouse = slate_4
+    }
+
+    4564.5.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_4 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = temperate
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 10
+    intrigue = 6
+    learning = 8
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    4503.3.21 = {
+        birth = yes
+    }
+
+    4583.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_5 = {
+    name = "Farlen"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_3
+    mother = slate_4
+
+    trait = sadistic
+    trait = calm
+    trait = zealous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 9
+    prowess = 9
+
+    trait = education_learning_3
+
+    4546.8.8 = {
+        birth = yes
+    }
+
+    4591.4.27 = {
+        add_spouse = slate_6
+    }
+
+    4628.2.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_6 = {
+    name = "Ewilyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = generous
+    trait = wrathful
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    4574.11.12 = {
+        birth = yes
+    }
+
+    4649.1.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_7 = {
+    name = "Egle"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_5
+    mother = slate_6
+
+    trait = craven
+    trait = stubborn
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 1
+
+    trait = education_martial_2
+
+    4615.1.23 = {
+        birth = yes
+    }
+
+    4656.4.6 = {
+        add_spouse = slate_8
+    }
+
+    4693.4.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_8 = {
+    name = "Elyssi"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = deceitful
+    trait = zealous
+    trait = trusting
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 2
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    4639.4.17 = {
+        birth = yes
+    }
+
+    4722.1.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_9 = {
+    name = "Beron"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_7
+    mother = slate_8
+
+    trait = deceitful
+    trait = ambitious
+    trait = chaste
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    4663.6.8 = {
+        birth = yes
+    }
+
+    4696.7.15 = {
+        add_spouse = slate_10
+    }
+
+    4747.2.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_10 = {
+    name = "Tyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = zealous
+    trait = stubborn
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_3
+
+    4679.8.24 = {
+        birth = yes
+    }
+
+    4748.11.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_11 = {
+    name = "Mors"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_9
+    mother = slate_10
+
+    trait = shy
+    trait = vengeful
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    4700.11.12 = {
+        birth = yes
+    }
+
+    4745.5.9 = {
+        add_spouse = slate_12
+    }
+
+    4755.7.17 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+slate_12 = {
+    name = "Barba"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = just
+    trait = forgiving
+    trait = calm
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 10
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_4
+
+    4728.8.9 = {
+        birth = yes
+    }
+
+    4797.11.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_13 = {
+    name = "Edwyle"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_11
+    mother = slate_12
+
+    trait = gregarious
+    trait = brave
+    trait = greedy
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 1
+    intrigue = 4
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_4
+
+    4748.4.21 = {
+        birth = yes
+    }
+
+    4780.10.23 = {
+        add_spouse = slate_14
+    }
+
+    4820.4.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_14 = {
+    name = "Kyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = deceitful
+    trait = arrogant
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 3
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    4763.9.7 = {
+        birth = yes
+    }
+
+    4846.9.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_15 = {
+    name = "Alyn"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_13
+    mother = slate_14
+
+    trait = zealous
+    trait = diligent
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 10
+    intrigue = 5
+    learning = 7
+    prowess = 1
+
+    trait = education_stewardship_2
+
+    4793.3.10 = {
+        birth = yes
+    }
+
+    4808.11.8 = {
+        add_spouse = slate_16
+    }
+
+    4875.7.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_16 = {
+    name = "Alysane"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = zealous
+    trait = craven
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 9
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    4791.7.25 = {
+        birth = yes
+    }
+
+    4862.2.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_17 = {
+    name = "Robin"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_15
+    mother = slate_16
+
+    trait = impatient
+    trait = deceitful
+    trait = vengeful
+
+    diplomacy = 10
+    martial = 2
+    stewardship = 7
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    4828.5.10 = {
+        birth = yes
+    }
+
+    4872.4.24 = {
+        add_spouse = slate_18
+    }
+
+    4908.12.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_18 = {
+    name = "Elyassa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = callous
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 10
+
+    trait = education_stewardship_2
+
+    4855.5.21 = {
+        birth = yes
+    }
+
+    4924.4.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_19 = {
+    name = "Damon"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_17
+    mother = slate_18
+
+    trait = honest
+    trait = brave
+    trait = temperate
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 10
+
+    trait = education_martial_3
+
+    4878.8.28 = {
+        birth = yes
+    }
+
+    4915.9.12 = {
+        add_spouse = slate_20
+    }
+
+    4955.7.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_20 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = impatient
+    trait = humble
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    4898.8.19 = {
+        birth = yes
+    }
+
+    4935.2.13 = {
+        death = { death_reason = death_dungeon  }
+    }
+}
+
+slate_21 = {
+    name = "Refil"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_19
+    mother = slate_20
+
+    trait = paranoid
+    trait = fickle
+    trait = cynical
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 9
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    4932.2.1 = {
+        birth = yes
+    }
+
+    4978.5.15 = {
+        add_spouse = slate_22
+    }
+
+    4999.12.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_22 = {
+    name = "Iris"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = impatient
+    trait = arrogant
+    trait = brave
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    4961.7.4 = {
+        birth = yes
+    }
+
+    5033.3.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_23 = {
+    name = "Jorah"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_21
+    mother = slate_22
+
+    trait = gregarious
+    trait = lustful
+    trait = compassionate
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    4996.3.13 = {
+        birth = yes
+    }
+
+    5030.4.13 = {
+        add_spouse = slate_24
+    }
+
+    5078.7.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_24 = {
+    name = "Gil"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = chaste
+    trait = trusting
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    5013.5.11 = {
+        birth = yes
+    }
+
+    5098.4.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_25 = {
+    name = "Wyl"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_23
+    mother = slate_24
+
+    trait = ambitious
+    trait = brave
+    trait = calm
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 10
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    5048.12.10 = {
+        birth = yes
+    }
+
+    5071.10.23 = {
+        add_spouse = slate_26
+    }
+
+    5124.6.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_26 = {
+    name = "Robyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = impatient
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 9
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    5054.5.21 = {
+        birth = yes
+    }
+
+    5120.9.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_27 = {
+    name = "Bernarr"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_25
+    mother = slate_26
+
+    trait = calm
+    trait = shy
+    trait = patient
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    5086.3.8 = {
+        birth = yes
+    }
+
+    5133.1.13 = {
+        add_spouse = slate_28
+    }
+
+    5169.4.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_28 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = zealous
+    trait = craven
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 9
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    5116.8.25 = {
+        birth = yes
+    }
+
+    5200.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_29 = {
+    name = "Elyiot"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_27
+    mother = slate_28
+
+    trait = calm
+    trait = chaste
+    trait = content
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 8
+    intrigue = 11
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    5145.4.27 = {
+        birth = yes
+    }
+
+    5195.12.6 = {
+        add_spouse = slate_30
+    }
+
+    5230.6.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_30 = {
+    name = "Lacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = deceitful
+    trait = temperate
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 4
+    intrigue = 5
+    learning = 6
+    prowess = 3
+
+    trait = education_learning_3
+
+    5178.7.20 = {
+        birth = yes
+    }
+
+    5257.4.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_31 = {
+    name = "Markors"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_29
+    mother = slate_30
+
+    trait = shy
+    trait = deceitful
+    trait = trusting
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    5212.2.13 = {
+        birth = yes
+    }
+
+    5243.7.9 = {
+        add_spouse = slate_32
+    }
+
+    5282.2.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_32 = {
+    name = "Martyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = calm
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    5226.7.12 = {
+        birth = yes
+    }
+
+    5294.11.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_33 = {
+    name = "Hother"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_31
+    mother = slate_32
+
+    trait = trusting
+    trait = compassionate
+    trait = shy
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 9
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    5258.10.15 = {
+        birth = yes
+    }
+
+    5282.10.23 = {
+        add_spouse = slate_34
+    }
+
+    5340.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_34 = {
+    name = "Cateryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = impatient
+    trait = gregarious
+    trait = ambitious
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 3
+    intrigue = 7
+    learning = 8
+    prowess = 2
+
+    trait = education_learning_3
+
+    5265.1.19 = {
+        birth = yes
+    }
+
+    5349.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_35 = {
+    name = "Barthogan"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_33
+    mother = slate_34
+
+    trait = sadistic
+    trait = chaste
+    trait = paranoid
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    5284.10.18 = {
+        birth = yes
+    }
+
+    5323.9.19 = {
+        add_spouse = slate_36
+    }
+
+    5361.1.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_36 = {
+    name = "Lyessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = cynical
+    trait = content
+    trait = shy
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 10
+
+    trait = education_diplomacy_2
+
+    5306.2.15 = {
+        birth = yes
+    }
+
+    5341.8.27 = {
+        death = { death_reason = death_mysterious  }
+    }
+}
+
+slate_37 = {
+    name = "Anun"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_35
+    mother = slate_36
+
+    trait = shy
+    trait = arrogant
+    trait = sadistic
+
+    diplomacy = 1
+    martial = 8
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_2
+
+    5324.2.25 = {
+        birth = yes
+    }
+
+    5361.7.21 = {
+        add_spouse = slate_38
+    }
+
+    5391.4.1 = {
+        death = { death_reason = death_crushed  }
+    }
+}
+
+slate_38 = {
+    name = "Gilli"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = shy
+    trait = craven
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_1
+
+    5344.11.11 = {
+        birth = yes
+    }
+
+    5419.4.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_39 = {
+    name = "Helman"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_37
+    mother = slate_38
+
+    trait = sadistic
+    trait = greedy
+    trait = chaste
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    5371.2.19 = {
+        birth = yes
+    }
+
+    5420.3.22 = {
+        add_spouse = slate_40
+    }
+
+    5453.6.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_40 = {
+    name = "Frenya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = just
+    trait = wrathful
+    trait = greedy
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 11
+    intrigue = 5
+    learning = 4
+    prowess = 11
+
+    trait = education_stewardship_2
+
+    5403.10.9 = {
+        birth = yes
+    }
+
+    5475.3.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_41 = {
+    name = "Bernarr"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_39
+    mother = slate_40
+
+    trait = lazy
+    trait = deceitful
+    trait = craven
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_3
+
+    5446.5.22 = {
+        birth = yes
+    }
+
+    5481.6.24 = {
+        add_spouse = slate_42
+    }
+
+    5523.4.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_42 = {
+    name = "Krysti"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = humble
+    trait = arbitrary
+
+    diplomacy = 9
+    martial = 10
+    stewardship = 4
+    intrigue = 2
+    learning = 6
+    prowess = 1
+
+    trait = education_martial_3
+
+    5464.9.17 = {
+        birth = yes
+    }
+
+    5546.9.2 = {
+        death = { death_reason = death_horse_riding_accident  }
+    }
+}
+
+slate_43 = {
+    name = "Karlon"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_41
+    mother = slate_42
+
+    trait = paranoid
+    trait = gregarious
+    trait = vengeful
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 4
+
+    trait = education_martial_3
+
+    5493.6.27 = {
+        birth = yes
+    }
+
+    5535.5.23 = {
+        add_spouse = slate_44
+    }
+
+    5551.10.3 = {
+        death = { death_reason = death_treatment }
+    }
+}
+
+slate_44 = {
+    name = "Tylissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = fickle
+    trait = callous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_2
+
+    5518.5.14 = {
+        birth = yes
+    }
+
+    5592.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_45 = {
+    name = "Casimir"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_43
+    mother = slate_44
+
+    trait = wrathful
+    trait = patient
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_3
+
+    5550.6.11 = {
+        birth = yes
+    }
+
+    5579.12.25 = {
+        add_spouse = slate_46
+    }
+
+    5595.6.18 = {
+        death = { death_reason = death_ended_on_feast_table  }
+    }
+}
+
+slate_46 = {
+    name = "Saga"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = shy
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 8
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    5562.10.8 = {
+        birth = yes
+    }
+
+    5629.12.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_47 = {
+    name = "Casamor"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_45
+    mother = slate_46
+
+    trait = sadistic
+    trait = diligent
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 1
+
+    trait = education_intrigue_4
+
+    5589.10.18 = {
+        birth = yes
+    }
+
+    5612.11.9 = {
+        add_spouse = slate_48
+    }
+
+    5662.9.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_48 = {
+    name = "Jorelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = arrogant
+    trait = content
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 9
+    intrigue = 9
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    5595.11.19 = {
+        birth = yes
+    }
+
+    5672.11.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_49 = {
+    name = "Stan"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_47
+    mother = slate_48
+
+    trait = generous
+    trait = stubborn
+    trait = patient
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 3
+    intrigue = 1
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    5623.1.16 = {
+        birth = yes
+    }
+
+    5640.11.9 = {
+        add_spouse = slate_50
+    }
+
+    5694.5.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_50 = {
+    name = "Serra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = lustful
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 8
+    intrigue = 5
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_3
+
+    5623.4.24 = {
+        birth = yes
+    }
+
+    5708.1.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_51 = {
+    name = "Styn"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_49
+    mother = slate_50
+
+    trait = temperate
+    trait = trusting
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 5
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    5647.6.24 = {
+        birth = yes
+    }
+
+    5685.6.24 = {
+        add_spouse = slate_52
+    }
+
+    5726.12.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_52 = {
+    name = "Jaisyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = impatient
+    trait = ambitious
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 8
+    intrigue = 3
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    5668.12.22 = {
+        birth = yes
+    }
+
+    5751.2.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_53 = {
+    name = "Knut"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_51
+    mother = slate_52
+
+    trait = humble
+    trait = lustful
+    trait = brave
+
+    diplomacy = 8
+    martial = 10
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_4
+
+    5699.10.17 = {
+        birth = yes
+    }
+
+    5739.4.25 = {
+        add_spouse = slate_54
+    }
+
+    5777.1.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_54 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = ambitious
+    trait = lustful
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 11
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    5722.5.6 = {
+        birth = yes
+    }
+
+    5807.11.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_55 = {
+    name = "Greg"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_53
+    mother = slate_54
+
+    trait = gluttonous
+    trait = zealous
+    trait = honest
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 9
+    learning = 8
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    5752.9.5 = {
+        birth = yes
+    }
+
+    5769.5.24 = {
+        add_spouse = slate_56
+    }
+
+    5836.7.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_56 = {
+    name = "Robyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = calm
+    trait = just
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 8
+    learning = 4
+    prowess = 3
+
+    trait = education_intrigue_2
+
+    5752.11.9 = {
+        birth = yes
+    }
+
+    5822.12.1 = {
+        death = { death_reason = death_poison  }
+    }
+}
+
+slate_57 = {
+    name = "Vayon"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_55
+    mother = slate_56
+
+    trait = chaste
+    trait = forgiving
+    trait = craven
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_3
+
+    5786.5.27 = {
+        birth = yes
+    }
+
+    5835.1.18 = {
+        add_spouse = slate_58
+    }
+
+    5858.10.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_58 = {
+    name = "Mariah"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = stubborn
+    trait = ambitious
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    5818.4.20 = {
+        birth = yes
+    }
+
+    5889.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_59 = {
+    name = "Faste"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_57
+    mother = slate_58
+
+    trait = patient
+    trait = arrogant
+    trait = vengeful
+
+    diplomacy = 12
+    martial = 14
+    stewardship = 16
+    intrigue = 22
+    learning = 16
+    prowess = 22
+
+    trait = education_intrigue_4
+
+    5853.3.6 = {
+        birth = yes
+    }
+
+    5895.4.18 = {
+        add_spouse = slate_60
+    }
+
+    5920.11.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_60 = {
+    name = "Darlessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = generous
+    trait = fickle
+
+    diplomacy = 8
+    martial = 10
+    stewardship = 6
+    intrigue = 8
+    learning = 9
+    prowess = 3
+
+    trait = education_martial_4
+
+    5878.9.11 = {
+        birth = yes
+    }
+
+    5946.8.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_61 = {
+    name = "Cregan"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_59
+    mother = slate_60
+
+    trait = trusting
+    trait = patient
+    trait = cynical
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 4
+    intrigue = 9
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    5903.8.3 = {
+        birth = yes
+    }
+
+    5918.7.3 = {
+        add_spouse = slate_62
+    }
+
+    5928.6.22 = {
+        death = { death_reason = death_duel }
+    }
+}
+
+slate_62 = {
+    name = "Lysanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = just
+    trait = humble
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    5901.7.7 = {
+        birth = yes
+    }
+
+    5969.11.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_63 = {
+    name = "Gorm"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_61
+    mother = slate_62
+
+    trait = just
+    trait = gluttonous
+    trait = compassionate
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    5922.2.3 = {
+        birth = yes
+    }
+
+    5944.4.21 = {
+        add_spouse = slate_64
+    }
+
+    6007.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_64 = {
+    name = "Serena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = ambitious
+    trait = arbitrary
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 8
+    prowess = 8
+
+    trait = education_martial_3
+
+    5927.4.17 = {
+        birth = yes
+    }
+
+    5998.10.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_65 = {
+    name = "Mikken"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_63
+    mother = slate_64
+
+    trait = arbitrary
+    trait = content
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 9
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    5961.4.27 = {
+        birth = yes
+    }
+
+    5975.10.9 = {
+        add_spouse = slate_66
+    }
+
+    6028.7.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_66 = {
+    name = "Judyth"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = stubborn
+    trait = calm
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 11
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    5958.7.5 = {
+        birth = yes
+    }
+
+    6028.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_67 = {
+    name = "Wyl"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_65
+    mother = slate_66
+
+    trait = fickle
+    trait = generous
+    trait = craven
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 4
+    learning = 8
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    5991.9.4 = {
+        birth = yes
+    }
+
+    6006.7.9 = {
+        add_spouse = slate_68
+    }
+
+    6075.7.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_68 = {
+    name = "Jorelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = deceitful
+    trait = arbitrary
+    trait = greedy
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_4
+
+    5989.7.25 = {
+        birth = yes
+    }
+
+    6056.9.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_69 = {
+    name = "Wendel"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_67
+    mother = slate_68
+
+    trait = callous
+    trait = greedy
+    trait = gregarious
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 4
+    intrigue = 2
+    learning = 7
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    6017.6.3 = {
+        birth = yes
+    }
+
+    6063.2.18 = {
+        add_spouse = slate_70
+    }
+
+    6099.9.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_70 = {
+    name = "Donella"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = lazy
+    trait = generous
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 5
+    intrigue = 4
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_1
+
+    6046.9.22 = {
+        birth = yes
+    }
+
+    6123.8.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_71 = {
+    name = "Theo"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_69
+    mother = slate_70
+
+    trait = paranoid
+    trait = deceitful
+    trait = brave
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    6082.10.5 = {
+        birth = yes
+    }
+
+    6128.9.23 = {
+        add_spouse = slate_72
+    }
+
+    6138.5.23 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+slate_72 = {
+    name = "Kristyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = patient
+    trait = fickle
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 10
+
+    trait = education_stewardship_4
+
+    6111.8.7 = {
+        birth = yes
+    }
+
+    6196.1.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_73 = {
+    name = "Mikken"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_71
+    mother = slate_72
+
+    trait = content
+    trait = brave
+    trait = honest
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_3
+
+    6134.7.21 = {
+        birth = yes
+    }
+
+    6163.8.4 = {
+        add_spouse = slate_74
+    }
+
+    6210.7.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_74 = {
+    name = "Magdalyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = honest
+    trait = compassionate
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 3
+    prowess = 11
+
+    trait = education_diplomacy_4
+
+    6146.6.23 = {
+        birth = yes
+    }
+
+    6230.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_75 = {
+    name = "Felip"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_73
+    mother = slate_74
+
+    trait = callous
+    trait = calm
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6170.2.21 = {
+        birth = yes
+    }
+
+    6197.7.25 = {
+        add_spouse = slate_76
+    }
+
+    6221.10.11 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+slate_76 = {
+    name = "Ansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = shy
+    trait = generous
+    trait = diligent
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 9
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6180.11.26 = {
+        birth = yes
+    }
+
+    6263.7.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_77 = {
+    name = "Bennard"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_75
+    mother = slate_76
+
+    trait = vengeful
+    trait = patient
+    trait = content
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_2
+
+    6213.11.13 = {
+        birth = yes
+    }
+
+    6233.11.23 = {
+        add_spouse = slate_78
+    }
+
+    6286.3.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_78 = {
+    name = "Cersera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = cynical
+    trait = humble
+    trait = patient
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 2
+    intrigue = 3
+    learning = 8
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6216.9.11 = {
+        birth = yes
+    }
+
+    6244.1.11 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+slate_79 = {
+    name = "Joseth"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_77
+    mother = slate_78
+
+    trait = gregarious
+    trait = content
+    trait = just
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_4
+
+    6235.8.28 = {
+        birth = yes
+    }
+
+    6280.7.25 = {
+        add_spouse = slate_80
+    }
+
+    6314.11.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_80 = {
+    name = "Lidya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = compassionate
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 2
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_2
+
+    6263.12.20 = {
+        birth = yes
+    }
+
+    6343.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_81 = {
+    name = "Petar"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_79
+    mother = slate_80
+
+    trait = craven
+    trait = diligent
+    trait = compassionate
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 8
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6291.5.14 = {
+        birth = yes
+    }
+
+    6324.11.9 = {
+        add_spouse = slate_82
+    }
+
+    6366.12.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_82 = {
+    name = "Robyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = sadistic
+    trait = fickle
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6307.9.24 = {
+        birth = yes
+    }
+
+    6378.8.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_83 = {
+    name = "Starkad"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_81
+    mother = slate_82
+
+    trait = craven
+    trait = lustful
+    trait = fickle
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6333.3.1 = {
+        birth = yes
+    }
+
+    6334.1.6 = {
+        give_nickname = nick_the_benevolent
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6364.9.28 = {
+        add_spouse = slate_84
+    }
+
+    6415.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_84 = {
+    name = "Ygritte"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = arbitrary
+    trait = cynical
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 10
+    intrigue = 6
+    learning = 9
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6347.11.21 = {
+        birth = yes
+    }
+
+    6419.6.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_85 = {
+    name = "Dag"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_83
+    mother = slate_84
+
+    trait = humble
+    trait = deceitful
+    trait = calm
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6382.6.10 = {
+        birth = yes
+    }
+
+    6431.4.15 = {
+        add_spouse = slate_86
+    }
+
+    6467.7.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_86 = {
+    name = "Elyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = stubborn
+    trait = trusting
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_2
+
+    6414.10.28 = {
+        birth = yes
+    }
+
+    6490.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_87 = {
+    name = "Harwood"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_85
+    mother = slate_86
+
+    trait = fickle
+    trait = lazy
+    trait = chaste
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6447.4.15 = {
+        birth = yes
+    }
+
+    6494.10.16 = {
+        add_spouse = slate_88
+    }
+
+    6521.4.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_88 = {
+    name = "Rikissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = callous
+    trait = humble
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 8
+    learning = 3
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    6477.2.16 = {
+        birth = yes
+    }
+
+    6561.11.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_89 = {
+    name = "Jory"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_87
+    mother = slate_88
+
+    trait = paranoid
+    trait = diligent
+    trait = cynical
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_4
+
+    6504.11.3 = {
+        birth = yes
+    }
+
+    6547.1.9 = {
+        add_spouse = slate_90
+    }
+
+    6572.11.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_90 = {
+    name = "Ilyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = greedy
+    trait = trusting
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 2
+    intrigue = 6
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_1
+
+    6530.8.24 = {
+        birth = yes
+    }
+
+    6601.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_91 = {
+    name = "Rolf"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_89
+    mother = slate_90
+
+    trait = gregarious
+    trait = craven
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_3
+
+    6562.12.9 = {
+        birth = yes
+    }
+
+    6579.7.2 = {
+        add_spouse = slate_92
+    }
+
+    6634.4.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_92 = {
+    name = "Kymila"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = zealous
+    trait = greedy
+    trait = callous
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 7
+    intrigue = 3
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6562.2.17 = {
+        birth = yes
+    }
+
+    6618.5.23 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+slate_93 = {
+    name = "Hullen"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_91
+    mother = slate_92
+
+    trait = impatient
+    trait = trusting
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_2
+
+    6589.2.10 = {
+        birth = yes
+    }
+
+    6607.12.3 = {
+        add_spouse = slate_94
+    }
+
+    6664.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_94 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = chaste
+    trait = cynical
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6590.4.11 = {
+        birth = yes
+    }
+
+    6663.5.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_95 = {
+    name = "Elyiot"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_93
+    mother = slate_94
+
+    trait = vengeful
+    trait = stubborn
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 4
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    6616.9.17 = {
+        birth = yes
+    }
+
+    6645.9.10 = {
+        add_spouse = slate_96
+    }
+
+    6655.11.8 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+slate_96 = {
+    name = "Sybelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = zealous
+    trait = generous
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 2
+
+    trait = education_martial_4
+
+    6628.11.12 = {
+        birth = yes
+    }
+
+    6655.2.26 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+slate_97 = {
+    name = "Dorron"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_95
+    mother = slate_96
+
+    trait = just
+    trait = craven
+    trait = greedy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 9
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6645.11.1 = {
+        birth = yes
+    }
+
+    6671.5.8 = {
+        add_spouse = slate_98
+    }
+
+    6721.10.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_98 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = impatient
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6654.4.25 = {
+        birth = yes
+    }
+
+    6732.6.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_99 = {
+    name = "Brandon"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_97
+    mother = slate_98
+
+    trait = content
+    trait = deceitful
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 9
+    intrigue = 7
+    learning = 9
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6690.9.14 = {
+        birth = yes
+    }
+
+    6711.11.24 = {
+        add_spouse = slate_100
+    }
+
+    6757.2.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_100 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = gluttonous
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 3
+    prowess = 6
+
+    trait = education_martial_3
+
+    6694.4.22 = {
+        birth = yes
+    }
+
+    6772.9.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_101 = {
+    name = "Lawyrence"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_99
+    mother = slate_100
+
+    trait = gluttonous
+    trait = wrathful
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 9
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6727.1.5 = {
+        birth = yes
+    }
+
+    6749.7.2 = {
+        add_spouse = slate_102
+    }
+
+    6809.2.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_102 = {
+    name = "Ygritte"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = arbitrary
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6732.2.25 = {
+        birth = yes
+    }
+
+    6771.12.28 = {
+        death = { death_reason = death_disappearance  }
+    }
+}
+
+slate_103 = {
+    name = "Anun"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_101
+    mother = slate_102
+
+    trait = deceitful
+    trait = craven
+    trait = greedy
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6750.12.17 = {
+        birth = yes
+    }
+
+    6772.10.15 = {
+        add_spouse = slate_104
+    }
+
+    6826.6.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_104 = {
+    name = "Kristyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = generous
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 10
+    intrigue = 5
+    learning = 2
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    6755.12.2 = {
+        birth = yes
+    }
+
+    6822.2.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_105 = {
+    name = "Casimir"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_103
+    mother = slate_104
+
+    trait = shy
+    trait = sadistic
+    trait = patient
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6800.1.3 = {
+        birth = yes
+    }
+
+    6836.7.9 = {
+        add_spouse = slate_106
+    }
+
+    6873.5.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_106 = {
+    name = "Mylessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = patient
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 2
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_learning_4
+
+    6819.8.21 = {
+        birth = yes
+    }
+
+    6895.6.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_107 = {
+    name = "Neddard"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_105
+    mother = slate_106
+
+    trait = wrathful
+    trait = arrogant
+    trait = trusting
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 3
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6859.8.20 = {
+        birth = yes
+    }
+
+    6873.6.21 = {
+        add_spouse = slate_108
+    }
+
+    6942.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_108 = {
+    name = "Iris"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = zealous
+    trait = sadistic
+    trait = impatient
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_4
+
+    6856.6.22 = {
+        birth = yes
+    }
+
+    6930.1.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_109 = {
+    name = "Heward"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_107
+    mother = slate_108
+
+    trait = fickle
+    trait = shy
+    trait = wrathful
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 2
+    intrigue = 8
+    learning = 4
+    prowess = 10
+
+    trait = education_intrigue_3
+
+    6889.7.26 = {
+        birth = yes
+    }
+
+    6936.6.23 = {
+        add_spouse = slate_110
+    }
+
+    6967.5.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_110 = {
+    name = "Berta"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = ambitious
+    trait = forgiving
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    6919.6.20 = {
+        birth = yes
+    }
+
+    6992.10.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_111 = {
+    name = "Mance"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_109
+    mother = slate_110
+
+    trait = stubborn
+    trait = arbitrary
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 7
+    prowess = 9
+
+    trait = education_martial_2
+
+    6943.5.24 = {
+        birth = yes
+    }
+
+    6960.2.16 = {
+        add_spouse = slate_112
+    }
+
+    7020.10.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_112 = {
+    name = "Sera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = vengeful
+    trait = paranoid
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 3
+    prowess = 2
+
+    trait = education_martial_3
+
+    6943.1.12 = {
+        birth = yes
+    }
+
+    7025.2.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_113 = {
+    name = "Hareth"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_111
+    mother = slate_112
+
+    trait = greedy
+    trait = deceitful
+    trait = zealous
+
+    diplomacy = 9
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6963.5.15 = {
+        birth = yes
+    }
+
+    6986.9.2 = {
+        add_spouse = slate_114
+    }
+
+    7032.7.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_114 = {
+    name = "Lidia"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = shy
+    trait = zealous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_2
+
+    6969.9.16 = {
+        birth = yes
+    }
+
+    7014.9.26 = {
+        death = { death_reason = death_accident  }
+    }
+}
+
+slate_115 = {
+    name = "Jory"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_113
+    mother = slate_114
+
+    trait = deceitful
+    trait = callous
+    trait = impatient
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 1
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_1
+
+    6991.11.4 = {
+        birth = yes
+    }
+
+    7030.9.8 = {
+        add_spouse = slate_116
+    }
+
+    7061.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_116 = {
+    name = "Anna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = deceitful
+    trait = craven
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_4
+
+    7013.2.16 = {
+        birth = yes
+    }
+
+    7083.10.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_117 = {
+    name = "Robin"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_115
+    mother = slate_116
+
+    trait = sadistic
+    trait = gluttonous
+    trait = brave
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 11
+    intrigue = 4
+    learning = 8
+    prowess = 8
+
+    trait = education_stewardship_1
+
+    7035.10.28 = {
+        birth = yes
+    }
+
+    7063.5.5 = {
+        add_spouse = slate_118
+    }
+
+    7104.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_118 = {
+    name = "Jorelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = impatient
+    trait = vengeful
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 2
+    intrigue = 7
+    learning = 3
+    prowess = 6
+
+    trait = education_martial_3
+
+    7046.11.12 = {
+        birth = yes
+    }
+
+    7127.11.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_119 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_117
+    mother = slate_118
+
+    trait = forgiving
+    trait = stubborn
+    trait = cynical
+
+    diplomacy = 9
+    martial = 2
+    stewardship = 9
+    intrigue = 6
+    learning = 10
+    prowess = 4
+
+    trait = education_learning_4
+
+    7063.1.22 = {
+        birth = yes
+    }
+
+    7136.8.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_120 = {
+    name = "Ramsay"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_117
+    mother = slate_118
+
+    trait = vengeful
+    trait = zealous
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 8
+    intrigue = 3
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_3
+
+    7066.9.3 = {
+        birth = yes
+    }
+
+    7114.9.7 = {
+        add_spouse = slate_121
+    }
+
+    7144.4.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_121 = {
+    name = "Sybelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = deceitful
+    trait = generous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    7097.10.12 = {
+        birth = yes
+    }
+
+    7169.2.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_122 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_117
+    mother = slate_118
+
+    trait = lustful
+    trait = deceitful
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    7069.9.24 = {
+        birth = yes
+    }
+
+    7153.9.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_123 = {
+    name = "Tyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_117
+    mother = slate_118
+
+    trait = generous
+    trait = craven
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 5
+    intrigue = 4
+    learning = 3
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    7073.8.18 = {
+        birth = yes
+    }
+
+    7145.4.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_124 = {
+    name = "Jolanta"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_115
+    mother = slate_116
+
+    trait = callous
+    trait = stubborn
+    trait = greedy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 9
+    prowess = 9
+
+    trait = education_learning_3
+
+    7041.7.5 = {
+        birth = yes
+    }
+
+    7114.3.23 = {
+        death = { death_reason = death_hunting_accident  }
+    }
+}
+
+slate_125 = {
+    name = "Styr"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_115
+    mother = slate_116
+
+    trait = cynical
+    trait = vengeful
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    7042.5.19 = {
+        birth = yes
+    }
+
+    7068.7.16 = {
+        add_spouse = slate_126
+    }
+
+    7113.7.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_126 = {
+    name = "Lyessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = patient
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    7051.6.7 = {
+        birth = yes
+    }
+
+    7128.10.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_127 = {
+    name = "Alyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_125
+    mother = slate_126
+
+    trait = gregarious
+    trait = gluttonous
+    trait = content
+
+    diplomacy = 4
+    martial = 10
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_4
+
+    7082.5.1 = {
+        birth = yes
+    }
+
+    7165.2.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_128 = {
+    name = "Casamor"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_125
+    mother = slate_126
+
+    trait = honest
+    trait = shy
+    trait = diligent
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 8
+    intrigue = 9
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    7088.5.11 = {
+        birth = yes
+    }
+
+    7131.3.5 = {
+        add_spouse = slate_129
+    }
+
+    7161.12.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_129 = {
+    name = "Berta"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = humble
+    trait = fickle
+    trait = impatient
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    7114.9.5 = {
+        birth = yes
+    }
+
+    7193.3.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_130 = {
+    name = "Donnis"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_115
+    mother = slate_116
+
+    trait = callous
+    trait = content
+    trait = temperate
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 6
+    intrigue = 9
+    learning = 3
+    prowess = 6
+
+    trait = education_martial_2
+
+    7046.5.3 = {
+        birth = yes
+    }
+
+    7081.8.22 = {
+        add_spouse = slate_131
+    }
+
+    7116.9.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_131 = {
+    name = "Elyassa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = chaste
+    trait = honest
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 10
+    intrigue = 4
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    7064.9.20 = {
+        birth = yes
+    }
+
+    7137.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_132 = {
+    name = "Martyn"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_130
+    mother = slate_131
+
+    trait = just
+    trait = impatient
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 9
+    learning = 6
+    prowess = 1
+
+    trait = education_intrigue_4
+
+    7083.10.20 = {
+        birth = yes
+    }
+
+    7130.11.4 = {
+        add_spouse = slate_133
+    }
+
+    7140.5.6 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+slate_133 = {
+    name = "Rykissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = shy
+    trait = brave
+    trait = zealous
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 4
+    intrigue = 5
+    learning = 8
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    7113.11.8 = {
+        birth = yes
+    }
+
+    7159.12.4 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+slate_134 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_130
+    mother = slate_131
+
+    trait = chaste
+    trait = temperate
+    trait = shy
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    7088.4.8 = {
+        birth = yes
+    }
+
+    7172.11.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_135 = {
+    name = "Eri"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_130
+    mother = slate_131
+
+    trait = fickle
+    trait = calm
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_3
+
+    7089.9.5 = {
+        birth = yes
+    }
+
+    7156.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_136 = {
+    name = "Larence"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_130
+    mother = slate_131
+
+    trait = wrathful
+    trait = stubborn
+    trait = temperate
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_2
+
+    7092.2.11 = {
+        birth = yes
+    }
+
+    7106.3.23 = {
+        add_spouse = slate_137
+    }
+
+    7126.5.20 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+slate_137 = {
+    name = "Margaret"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = callous
+    trait = content
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 3
+    prowess = 8
+
+    trait = education_martial_3
+
+    7089.11.11 = {
+        birth = yes
+    }
+
+    7155.11.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_138 = {
+    name = "Galbart"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_113
+    mother = slate_114
+
+    trait = cynical
+    trait = craven
+    trait = shy
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 3
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6994.8.5 = {
+        birth = yes
+    }
+
+    7015.4.16 = {
+        add_spouse = slate_139
+    }
+
+    7078.4.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_139 = {
+    name = "Gil"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = just
+    trait = gregarious
+    trait = fickle
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6998.7.4 = {
+        birth = yes
+    }
+
+    7075.3.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_140 = {
+    name = "Magar"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_138
+    mother = slate_139
+
+    trait = cynical
+    trait = callous
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 3
+    prowess = 6
+
+    trait = education_martial_2
+
+    7038.6.8 = {
+        birth = yes
+    }
+
+    7064.7.13 = {
+        add_spouse = slate_141
+    }
+
+    7107.4.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_141 = {
+    name = "Wynafryd"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = patient
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    7047.1.4 = {
+        birth = yes
+    }
+
+    7074.7.2 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+slate_142 = {
+    name = "Benjicot"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_140
+    mother = slate_141
+
+    trait = chaste
+    trait = cynical
+    trait = impatient
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    7064.1.5 = {
+        birth = yes
+    }
+
+    7088.2.12 = {
+        add_spouse = slate_143
+    }
+
+    7141.7.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_143 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = diligent
+    trait = generous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 11
+    learning = 5
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    7071.6.18 = {
+        birth = yes
+    }
+
+    7153.3.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_144 = {
+    name = "Sera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_140
+    mother = slate_141
+
+    trait = cynical
+    trait = just
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 10
+
+    trait = education_learning_3
+
+    7067.8.10 = {
+        birth = yes
+    }
+
+    7150.9.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_145 = {
+    name = "Aefan"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_140
+    mother = slate_141
+
+    trait = honest
+    trait = forgiving
+    trait = generous
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 2
+    learning = 8
+    prowess = 10
+
+    trait = education_learning_4
+
+    7069.9.16 = {
+        birth = yes
+    }
+
+    7092.12.28 = {
+        add_spouse = slate_146
+    }
+
+    7145.10.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_146 = {
+    name = "Rowena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = just
+    trait = cynical
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 3
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    7075.5.12 = {
+        birth = yes
+    }
+
+    7160.12.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_147 = {
+    name = "Judyth"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_140
+    mother = slate_141
+
+    trait = generous
+    trait = honest
+    trait = lazy
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 9
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    7070.5.20 = {
+        birth = yes
+    }
+
+    7154.10.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_148 = {
+    name = "Magya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_113
+    mother = slate_114
+
+    trait = honest
+    trait = compassionate
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_3
+
+    6999.12.28 = {
+        birth = yes
+    }
+
+    7074.4.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_149 = {
+    name = "Wayn"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_113
+    mother = slate_114
+
+    trait = brave
+    trait = arbitrary
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    7000.8.18 = {
+        birth = yes
+    }
+
+    7026.11.15 = {
+        add_spouse = slate_150
+    }
+
+    7076.5.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_150 = {
+    name = "Elyassa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = temperate
+    trait = diligent
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 2
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_learning_4
+
+    7009.5.24 = {
+        birth = yes
+    }
+
+    7085.8.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_151 = {
+    name = "Lyessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_149
+    mother = slate_150
+
+    trait = temperate
+    trait = trusting
+    trait = lustful
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_2
+
+    7036.6.10 = {
+        birth = yes
+    }
+
+    7115.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_152 = {
+    name = "Walder"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_149
+    mother = slate_150
+
+    trait = fickle
+    trait = lazy
+    trait = chaste
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 4
+    intrigue = 6
+    learning = 2
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    7042.2.15 = {
+        birth = yes
+    }
+
+    7068.8.10 = {
+        add_spouse = slate_153
+    }
+
+    7115.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_153 = {
+    name = "Arrana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = deceitful
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_3
+
+    7051.7.5 = {
+        birth = yes
+    }
+
+    7124.8.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_154 = {
+    name = "Kyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_152
+    mother = slate_153
+
+    trait = arbitrary
+    trait = callous
+    trait = shy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 2
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    7069.11.28 = {
+        birth = yes
+    }
+
+    7141.8.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_155 = {
+    name = "Magdalyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_152
+    mother = slate_153
+
+    trait = shy
+    trait = impatient
+    trait = zealous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 8
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    7071.11.15 = {
+        birth = yes
+    }
+
+    7140.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_156 = {
+    name = "Harmond"
+
+    dynasty = dynasty_slate
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_152
+    mother = slate_153
+
+    trait = impatient
+    trait = greedy
+    trait = content
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    7073.3.15 = {
+        birth = yes
+    }
+
+    7122.12.24 = {
+        add_spouse = slate_157
+    }
+
+    7140.5.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_157 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = arrogant
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 8
+    intrigue = 7
+    learning = 3
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    7105.7.13 = {
+        birth = yes
+    }
+
+    7184.6.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+slate_158 = {
+    name = "Rikyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = slate_152
+    mother = slate_153
+
+    trait = callous
+    trait = brave
+    trait = humble
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 3
+
+    trait = education_intrigue_4
+
+    7074.7.9 = {
+        birth = yes
+    }
+
+    7152.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
