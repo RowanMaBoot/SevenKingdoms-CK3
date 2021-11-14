@@ -20746,12 +20746,12 @@ e_the_north = {
 				color = { 50 155 235 }
 				color2 = { 255 255 255 }
 				
-				b_barrowton = {
+				b_barrow_hall = {
 					province = 3728
 					color = { 50 155 235 }
 					color2 = { 255 255 255 }
 				}
-				b_rhifail = {
+				b_barrowton = {
 					province = 3729
 					color = { 50 155 235 }
 					color2 = { 255 255 255 }
@@ -20797,6 +20797,36 @@ e_the_north = {
 					color2 = { 255 255 255 }
 				}
 			}
+			c_goldgrass = {
+				color = { 57 155 235 }
+				color2 = { 255 255 255 }
+				
+				b_goldgrass = {
+					province = 3737
+					color = { 57 155 235 }
+					color2 = { 255 255 255 }
+				}
+				b_weir_mounds = {
+					province = 3738
+					color = { 57 155 235 }
+					color2 = { 255 255 255 }
+				}
+				b_eilean = {
+					province = 3739
+					color = { 57 155 235 }
+					color2 = { 255 255 255 }
+				}
+				b_midfields = {
+					province = 3740
+					color = { 57 155 235 }
+					color2 = { 255 255 255 }
+				}
+				b_talmine = {
+					province = 3741
+					color = { 57 155 235 }
+					color2 = { 255 255 255 }
+				}
+			}
 			c_spearmouth = {
 				color = { 55 155 235 }
 				color2 = { 255 255 255 }
@@ -20819,36 +20849,6 @@ e_the_north = {
 				b_hope = {
 					province = 3745
 					color = { 55 155 235 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_weir_mounds = {
-				color = { 57 155 235 }
-				color2 = { 255 255 255 }
-				
-				b_weir_mounds = {
-					province = 3737
-					color = { 57 155 235 }
-					color2 = { 255 255 255 }
-				}
-				b_old_face = {
-					province = 3738
-					color = { 57 155 235 }
-					color2 = { 255 255 255 }
-				}
-				b_eilean = {
-					province = 3739
-					color = { 57 155 235 }
-					color2 = { 255 255 255 }
-				}
-				b_midfields = {
-					province = 3740
-					color = { 57 155 235 }
-					color2 = { 255 255 255 }
-				}
-				b_talmine = {
-					province = 3741
-					color = { 57 155 235 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -21754,16 +21754,16 @@ e_the_north = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_ethering = {
+			c_blackpool = {
 				color = { 48 199 147 }
 				color2 = { 255 255 255 }
 				
-				b_ethering = {
+				b_blackpool = {
 					province = 3492
 					color = { 48 199 147 }
 					color2 = { 255 255 255 }
 				}
-				b_usan = {
+				b_ethering = {
 					province = 3493
 					color = { 48 199 147 }
 					color2 = { 255 255 255 }
