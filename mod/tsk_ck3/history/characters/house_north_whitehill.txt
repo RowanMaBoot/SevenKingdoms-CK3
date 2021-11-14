@@ -1,0 +1,5967 @@
+whitehill_1 = {
+    name = "Nikla"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = lazy
+    trait = lustful
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 10
+
+    trait = education_stewardship_4
+
+    4450.10.18 = {
+        birth = yes
+    }
+
+    4496.2.17 = {
+        add_spouse = whitehill_2
+    }
+
+    4519.3.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_2 = {
+    name = "Sera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = cynical
+    trait = paranoid
+    trait = greedy
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    4479.4.18 = {
+        birth = yes
+    }
+
+    4558.7.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_3 = {
+    name = "Kollen"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_1
+    mother = whitehill_2
+
+    trait = arrogant
+    trait = arbitrary
+    trait = cynical
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_4
+
+    4502.12.22 = {
+        birth = yes
+    }
+
+    4526.3.13 = {
+        add_spouse = whitehill_4
+    }
+
+    4583.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_4 = {
+    name = "Judyth"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = chaste
+    trait = honest
+
+    diplomacy = 9
+    martial = 2
+    stewardship = 3
+    intrigue = 4
+    learning = 9
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    4509.1.11 = {
+        birth = yes
+    }
+
+    4583.2.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_5 = {
+    name = "Mattys"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_3
+    mother = whitehill_4
+
+    trait = ambitious
+    trait = arrogant
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 9
+    intrigue = 9
+    learning = 4
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    4551.3.21 = {
+        birth = yes
+    }
+
+    4597.1.17 = {
+        add_spouse = whitehill_6
+    }
+
+    4627.5.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_6 = {
+    name = "Cateryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = shy
+    trait = honest
+    trait = content
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 3
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    4580.3.25 = {
+        birth = yes
+    }
+
+    4664.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_7 = {
+    name = "Aronn"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_5
+    mother = whitehill_6
+
+    trait = callous
+    trait = craven
+    trait = humble
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    4602.12.23 = {
+        birth = yes
+    }
+
+    4646.9.12 = {
+        add_spouse = whitehill_8
+    }
+
+    4675.3.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_8 = {
+    name = "Barbrey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = deceitful
+    trait = compassionate
+    trait = temperate
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 5
+    intrigue = 9
+    learning = 8
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    4629.4.18 = {
+        birth = yes
+    }
+
+    4700.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_9 = {
+    name = "Markors"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_7
+    mother = whitehill_8
+
+    trait = honest
+    trait = lazy
+    trait = humble
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 11
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    4657.7.23 = {
+        birth = yes
+    }
+
+    4699.3.28 = {
+        add_spouse = whitehill_10
+    }
+
+    4734.11.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_10 = {
+    name = "Lacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = deceitful
+    trait = shy
+
+    diplomacy = 9
+    martial = 9
+    stewardship = 4
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    4682.10.3 = {
+        birth = yes
+    }
+
+    4749.1.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_11 = {
+    name = "Nikla"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_9
+    mother = whitehill_10
+
+    trait = cynical
+    trait = generous
+    trait = gregarious
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 10
+    intrigue = 8
+    learning = 3
+    prowess = 9
+
+    trait = education_stewardship_4
+
+    4727.11.12 = {
+        birth = yes
+    }
+
+    4741.6.1 = {
+        add_spouse = whitehill_12
+    }
+
+    4810.1.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_12 = {
+    name = "Arrana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = humble
+    trait = ambitious
+
+    diplomacy = 9
+    martial = 10
+    stewardship = 7
+    intrigue = 8
+    learning = 2
+    prowess = 8
+
+    trait = education_martial_3
+
+    4724.2.18 = {
+        birth = yes
+    }
+
+    4801.4.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_13 = {
+    name = "Dywen"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_11
+    mother = whitehill_12
+
+    trait = diligent
+    trait = gluttonous
+    trait = honest
+
+    diplomacy = 15
+    martial = 25
+    stewardship = 12
+    intrigue = 22
+    learning = 25
+    prowess = 22
+
+    trait = education_martial_4
+
+    4754.2.25 = {
+        birth = yes
+    }
+
+    4789.1.7 = {
+        add_spouse = whitehill_14
+    }
+
+    4836.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_14 = {
+    name = "Agnessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = temperate
+    trait = content
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_2
+
+    4772.10.14 = {
+        birth = yes
+    }
+
+    4844.7.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_15 = {
+    name = "Wendel"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_13
+    mother = whitehill_14
+
+    trait = arbitrary
+    trait = cynical
+    trait = lustful
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_3
+
+    4806.11.24 = {
+        birth = yes
+    }
+
+    4826.3.14 = {
+        add_spouse = whitehill_16
+    }
+
+    4883.12.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_16 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = stubborn
+    trait = lazy
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    4809.11.12 = {
+        birth = yes
+    }
+
+    4878.12.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_17 = {
+    name = "Bo"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_15
+    mother = whitehill_16
+
+    trait = wrathful
+    trait = trusting
+    trait = stubborn
+
+    diplomacy = 22
+    martial = 15
+    stewardship = 18
+    intrigue = 22
+    learning = 26
+    prowess = 18
+
+    trait = education_learning_4
+
+    4842.1.17 = {
+        birth = yes
+    }
+
+    4890.5.27 = {
+        add_spouse = whitehill_18
+    }
+
+    4908.1.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_18 = {
+    name = "Berti"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = arbitrary
+    trait = sadistic
+
+    diplomacy = 1
+    martial = 6
+    stewardship = 8
+    intrigue = 3
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    4873.7.24 = {
+        birth = yes
+    }
+
+    4955.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_19 = {
+    name = "Donnel"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_17
+    mother = whitehill_18
+
+    trait = gluttonous
+    trait = patient
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_2
+
+    4895.5.21 = {
+        birth = yes
+    }
+
+    4926.2.14 = {
+        add_spouse = whitehill_20
+    }
+
+    4975.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_20 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = shy
+    trait = sadistic
+    trait = diligent
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    4909.7.14 = {
+        birth = yes
+    }
+
+    4993.8.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_21 = {
+    name = "Ormyn"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_19
+    mother = whitehill_20
+
+    trait = temperate
+    trait = shy
+    trait = zealous
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_3
+
+    4940.3.10 = {
+        birth = yes
+    }
+
+    4957.5.2 = {
+        add_spouse = whitehill_22
+    }
+
+    4967.7.7 = {
+        death = { death_reason = death_gout_ridden }
+    }
+}
+
+whitehill_22 = {
+    name = "Lydia"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = callous
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 8
+    intrigue = 2
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_2
+
+    4940.4.1 = {
+        birth = yes
+    }
+
+    5023.2.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_23 = {
+    name = "Torkel"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_21
+    mother = whitehill_22
+
+    trait = trusting
+    trait = shy
+    trait = arbitrary
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_1
+
+    4958.10.26 = {
+        birth = yes
+    }
+
+    4979.9.15 = {
+        add_spouse = whitehill_24
+    }
+
+    5032.8.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_24 = {
+    name = "Fanni"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = honest
+    trait = calm
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    4962.10.19 = {
+        birth = yes
+    }
+
+    5044.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_25 = {
+    name = "Heward"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_23
+    mother = whitehill_24
+
+    trait = gregarious
+    trait = sadistic
+    trait = forgiving
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 2
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    5003.8.10 = {
+        birth = yes
+    }
+
+    5041.9.25 = {
+        add_spouse = whitehill_26
+    }
+
+    5079.5.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_26 = {
+    name = "Serra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = sadistic
+    trait = stubborn
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    5024.12.11 = {
+        birth = yes
+    }
+
+    5101.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_27 = {
+    name = "Gorm"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_25
+    mother = whitehill_26
+
+    trait = callous
+    trait = vengeful
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 9
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    5068.6.8 = {
+        birth = yes
+    }
+
+    5116.2.10 = {
+        add_spouse = whitehill_28
+    }
+
+    5138.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_28 = {
+    name = "Asha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = chaste
+    trait = arrogant
+    trait = content
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 7
+    intrigue = 6
+    learning = 3
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    5099.7.13 = {
+        birth = yes
+    }
+
+    5159.2.24 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+whitehill_29 = {
+    name = "Barth"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_27
+    mother = whitehill_28
+
+    trait = ambitious
+    trait = brave
+    trait = humble
+
+    diplomacy = 17
+    martial = 24
+    stewardship = 18
+    intrigue = 13
+    learning = 13
+    prowess = 24
+
+    trait = education_martial_4
+
+    5135.2.28 = {
+        birth = yes
+    }
+
+    5160.3.26 = {
+        add_spouse = whitehill_30
+    }
+
+    5215.9.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_30 = {
+    name = "Kennya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = gluttonous
+    trait = patient
+
+    diplomacy = 11
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    5143.6.6 = {
+        birth = yes
+    }
+
+    5219.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_31 = {
+    name = "Streen"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_29
+    mother = whitehill_30
+
+    trait = compassionate
+    trait = generous
+    trait = lazy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_3
+
+    5177.5.25 = {
+        birth = yes
+    }
+
+    5199.3.2 = {
+        add_spouse = whitehill_32
+    }
+
+    5250.11.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_32 = {
+    name = "Lacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = diligent
+    trait = temperate
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 2
+    learning = 2
+    prowess = 6
+
+    trait = education_martial_2
+
+    5182.7.9 = {
+        birth = yes
+    }
+
+    5254.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_33 = {
+    name = "Baldr"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_31
+    mother = whitehill_32
+
+    trait = wrathful
+    trait = trusting
+    trait = just
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    5209.10.20 = {
+        birth = yes
+    }
+
+    5226.4.11 = {
+        add_spouse = whitehill_34
+    }
+
+    5285.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_34 = {
+    name = "Tylissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = deceitful
+    trait = lazy
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 3
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    5209.5.7 = {
+        birth = yes
+    }
+
+    5289.11.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_35 = {
+    name = "Casimir"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_33
+    mother = whitehill_34
+
+    trait = content
+    trait = temperate
+    trait = just
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    5248.6.13 = {
+        birth = yes
+    }
+
+    5263.11.12 = {
+        add_spouse = whitehill_36
+    }
+
+    5328.4.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_36 = {
+    name = "Mariah"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = arrogant
+    trait = cynical
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 8
+    intrigue = 9
+    learning = 8
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    5246.3.3 = {
+        birth = yes
+    }
+
+    5315.5.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_37 = {
+    name = "Dorron"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_35
+    mother = whitehill_36
+
+    trait = gregarious
+    trait = forgiving
+    trait = patient
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    5270.1.2 = {
+        birth = yes
+    }
+
+    5286.9.24 = {
+        add_spouse = whitehill_38
+    }
+
+    5353.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_38 = {
+    name = "Ingrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = cynical
+    trait = honest
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    5269.7.8 = {
+        birth = yes
+    }
+
+    5347.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_39 = {
+    name = "Barthogan"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_37
+    mother = whitehill_38
+
+    trait = vengeful
+    trait = callous
+    trait = lustful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 9
+
+    trait = education_intrigue_2
+
+    5296.3.13 = {
+        birth = yes
+    }
+
+    5315.11.23 = {
+        add_spouse = whitehill_40
+    }
+
+    5362.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_40 = {
+    name = "Ingarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = deceitful
+    trait = compassionate
+    trait = patient
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 4
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_3
+
+    5298.5.5 = {
+        birth = yes
+    }
+
+    5364.6.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_41 = {
+    name = "Olaff"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_39
+    mother = whitehill_40
+
+    trait = generous
+    trait = diligent
+    trait = brave
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 4
+    intrigue = 7
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    5332.10.24 = {
+        birth = yes
+    }
+
+    5349.12.21 = {
+        add_spouse = whitehill_42
+    }
+
+    5414.7.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_42 = {
+    name = "Ygritte"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = stubborn
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 3
+
+    trait = education_martial_2
+
+    5332.8.21 = {
+        birth = yes
+    }
+
+    5413.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_43 = {
+    name = "Toste"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_41
+    mother = whitehill_42
+
+    trait = content
+    trait = compassionate
+    trait = generous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    5367.2.24 = {
+        birth = yes
+    }
+
+    5390.1.21 = {
+        add_spouse = whitehill_44
+    }
+
+    5421.9.24 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+whitehill_44 = {
+    name = "Frennie"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = humble
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 8
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_2
+
+    5373.9.19 = {
+        birth = yes
+    }
+
+    5449.5.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_45 = {
+    name = "Eyron"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_43
+    mother = whitehill_44
+
+    trait = honest
+    trait = lustful
+    trait = gregarious
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 4
+    intrigue = 3
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    5392.3.20 = {
+        birth = yes
+    }
+
+    5422.6.12 = {
+        add_spouse = whitehill_46
+    }
+
+    5471.8.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_46 = {
+    name = "Judyth"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = diligent
+    trait = fickle
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 10
+    learning = 8
+    prowess = 10
+
+    trait = education_intrigue_1
+
+    5405.12.19 = {
+        birth = yes
+    }
+
+    5432.2.17 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+whitehill_47 = {
+    name = "Aronn"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_45
+    mother = whitehill_46
+
+    trait = trusting
+    trait = cynical
+    trait = fickle
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    5431.9.1 = {
+        birth = yes
+    }
+
+    5460.6.8 = {
+        add_spouse = whitehill_48
+    }
+
+    5498.9.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_48 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = shy
+    trait = impatient
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 8
+    learning = 8
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    5443.7.7 = {
+        birth = yes
+    }
+
+    5526.2.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_49 = {
+    name = "Edwyn"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_47
+    mother = whitehill_48
+
+    trait = just
+    trait = diligent
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 2
+    learning = 2
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    5465.3.4 = {
+        birth = yes
+    }
+
+    5491.3.26 = {
+        add_spouse = whitehill_50
+    }
+
+    5547.2.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_50 = {
+    name = "Dacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = paranoid
+    trait = arbitrary
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 9
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    5474.3.15 = {
+        birth = yes
+    }
+
+    5556.2.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_51 = {
+    name = "Matus"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_49
+    mother = whitehill_50
+
+    trait = lazy
+    trait = lustful
+    trait = ambitious
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 3
+    intrigue = 10
+    learning = 9
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    5499.6.14 = {
+        birth = yes
+    }
+
+    5534.1.10 = {
+        add_spouse = whitehill_52
+    }
+
+    5572.3.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_52 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = deceitful
+    trait = zealous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    5517.3.7 = {
+        birth = yes
+    }
+
+    5594.2.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_53 = {
+    name = "Oswyn"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_51
+    mother = whitehill_52
+
+    trait = deceitful
+    trait = paranoid
+    trait = temperate
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    5545.2.14 = {
+        birth = yes
+    }
+
+    5591.3.8 = {
+        add_spouse = whitehill_54
+    }
+
+    5618.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_54 = {
+    name = "Alyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = forgiving
+    trait = just
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 10
+    prowess = 10
+
+    trait = education_learning_2
+
+    5574.1.15 = {
+        birth = yes
+    }
+
+    5657.9.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_55 = {
+    name = "Ormyn"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_53
+    mother = whitehill_54
+
+    trait = patient
+    trait = honest
+    trait = paranoid
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 2
+
+    trait = education_martial_1
+
+    5593.1.9 = {
+        birth = yes
+    }
+
+    5614.4.1 = {
+        add_spouse = whitehill_56
+    }
+
+    5675.9.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_56 = {
+    name = "Berena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = vengeful
+    trait = cynical
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_2
+
+    5597.1.28 = {
+        birth = yes
+    }
+
+    5664.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_57 = {
+    name = "Bran"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_55
+    mother = whitehill_56
+
+    trait = compassionate
+    trait = chaste
+    trait = patient
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    5629.4.18 = {
+        birth = yes
+    }
+
+    5659.6.12 = {
+        add_spouse = whitehill_58
+    }
+
+    5709.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_58 = {
+    name = "Margaret"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = wrathful
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 7
+    learning = 3
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    5642.12.12 = {
+        birth = yes
+    }
+
+    5726.5.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_59 = {
+    name = "Harwin"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_57
+    mother = whitehill_58
+
+    trait = lustful
+    trait = shy
+    trait = stubborn
+
+    diplomacy = 18
+    martial = 18
+    stewardship = 22
+    intrigue = 11
+    learning = 14
+    prowess = 13
+
+    trait = education_stewardship_4
+
+    5683.2.26 = {
+        birth = yes
+    }
+
+    5705.1.23 = {
+        add_spouse = whitehill_60
+    }
+
+    5756.6.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_60 = {
+    name = "Kyt"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = chaste
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 7
+    intrigue = 4
+    learning = 2
+    prowess = 3
+
+    trait = education_diplomacy_1
+
+    5688.12.8 = {
+        birth = yes
+    }
+
+    5754.9.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_61 = {
+    name = "Leobald"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_59
+    mother = whitehill_60
+
+    trait = shy
+    trait = arbitrary
+    trait = cynical
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 11
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_1
+
+    5724.9.22 = {
+        birth = yes
+    }
+
+    5750.9.13 = {
+        add_spouse = whitehill_62
+    }
+
+    5809.1.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_62 = {
+    name = "Elin"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = forgiving
+    trait = honest
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 9
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_3
+
+    5733.10.18 = {
+        birth = yes
+    }
+
+    5814.6.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_63 = {
+    name = "Rickon"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_61
+    mother = whitehill_62
+
+    trait = temperate
+    trait = arbitrary
+    trait = zealous
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 8
+    intrigue = 9
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    5774.3.17 = {
+        birth = yes
+    }
+
+    5791.7.22 = {
+        add_spouse = whitehill_64
+    }
+
+    5828.2.12 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+whitehill_64 = {
+    name = "Cat"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = gregarious
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    5774.9.3 = {
+        birth = yes
+    }
+
+    5853.7.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_65 = {
+    name = "Alyn"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_63
+    mother = whitehill_64
+
+    trait = trusting
+    trait = arbitrary
+    trait = fickle
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_3
+
+    5814.7.6 = {
+        birth = yes
+    }
+
+    5848.4.5 = {
+        add_spouse = whitehill_66
+    }
+
+    5892.6.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_66 = {
+    name = "Lidania"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = greedy
+    trait = callous
+    trait = vengeful
+
+    diplomacy = 4
+    martial = 10
+    stewardship = 7
+    intrigue = 7
+    learning = 9
+    prowess = 11
+
+    trait = education_martial_3
+
+    5831.6.27 = {
+        birth = yes
+    }
+
+    5906.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_67 = {
+    name = "Frodoi"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_65
+    mother = whitehill_66
+
+    trait = honest
+    trait = lazy
+    trait = vengeful
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 8
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    5873.7.13 = {
+        birth = yes
+    }
+
+    5892.10.12 = {
+        add_spouse = whitehill_68
+    }
+
+    5945.2.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_68 = {
+    name = "Thyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = stubborn
+    trait = diligent
+
+    diplomacy = 4
+    martial = 10
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_4
+
+    5875.4.7 = {
+        birth = yes
+    }
+
+    5949.8.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_69 = {
+    name = "Vesimar"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_67
+    mother = whitehill_68
+
+    trait = calm
+    trait = arrogant
+    trait = callous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 9
+
+    trait = education_martial_2
+
+    5916.5.7 = {
+        birth = yes
+    }
+
+    5963.1.26 = {
+        add_spouse = whitehill_70
+    }
+
+    5973.2.22 = {
+        death = { death_reason = death_maimed }
+    }
+}
+
+whitehill_70 = {
+    name = "Gilliane"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = cynical
+    trait = honest
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 1
+    intrigue = 8
+    learning = 8
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    5946.6.6 = {
+        birth = yes
+    }
+
+    6023.3.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_71 = {
+    name = "Gariss"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_69
+    mother = whitehill_70
+
+    trait = honest
+    trait = sadistic
+    trait = diligent
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    5971.11.5 = {
+        birth = yes
+    }
+
+    6003.12.7 = {
+        add_spouse = whitehill_72
+    }
+
+    6040.12.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_72 = {
+    name = "Eva"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = compassionate
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 4
+
+    trait = education_martial_4
+
+    5986.11.20 = {
+        birth = yes
+    }
+
+    6065.2.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_73 = {
+    name = "Walder"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_71
+    mother = whitehill_72
+
+    trait = gluttonous
+    trait = diligent
+    trait = content
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6025.2.20 = {
+        birth = yes
+    }
+
+    6048.8.18 = {
+        add_spouse = whitehill_74
+    }
+
+    6105.9.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_74 = {
+    name = "Ilyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = shy
+    trait = trusting
+
+    diplomacy = 1
+    martial = 3
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 8
+
+    trait = education_learning_2
+
+    6031.3.24 = {
+        birth = yes
+    }
+
+    6112.1.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_75 = {
+    name = "Greger"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_73
+    mother = whitehill_74
+
+    trait = stubborn
+    trait = cynical
+    trait = forgiving
+
+    diplomacy = 10
+    martial = 9
+    stewardship = 6
+    intrigue = 3
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6060.5.12 = {
+        birth = yes
+    }
+
+    6076.10.3 = {
+        add_spouse = whitehill_76
+    }
+
+    6132.3.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_76 = {
+    name = "Elinan"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = cynical
+    trait = just
+    trait = brave
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 8
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6059.6.28 = {
+        birth = yes
+    }
+
+    6136.3.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_77 = {
+    name = "Larence"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_75
+    mother = whitehill_76
+
+    trait = chaste
+    trait = forgiving
+    trait = greedy
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_4
+
+    6091.5.1 = {
+        birth = yes
+    }
+
+    6134.4.20 = {
+        add_spouse = whitehill_78
+    }
+
+    6144.12.10 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+whitehill_78 = {
+    name = "Oraeya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = cynical
+    trait = content
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_3
+
+    6117.4.6 = {
+        birth = yes
+    }
+
+    6185.10.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_79 = {
+    name = "Arnolf"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_77
+    mother = whitehill_78
+
+    trait = just
+    trait = cynical
+    trait = craven
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 5
+    intrigue = 4
+    learning = 3
+    prowess = 11
+
+    trait = education_diplomacy_2
+
+    6140.7.26 = {
+        birth = yes
+    }
+
+    6174.5.13 = {
+        add_spouse = whitehill_80
+    }
+
+    6206.12.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_80 = {
+    name = "Beth"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = calm
+    trait = arrogant
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 4
+    intrigue = 9
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6157.7.25 = {
+        birth = yes
+    }
+
+    6239.12.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_81 = {
+    name = "Petwyn"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_79
+    mother = whitehill_80
+
+    trait = chaste
+    trait = honest
+    trait = just
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_4
+
+    6174.12.18 = {
+        birth = yes
+    }
+
+    6200.2.27 = {
+        add_spouse = whitehill_82
+    }
+
+    6246.5.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_82 = {
+    name = "Lysanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = gluttonous
+    trait = trusting
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 6
+    intrigue = 3
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_3
+
+    6183.6.28 = {
+        birth = yes
+    }
+
+    6254.10.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_83 = {
+    name = "Niklys"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_81
+    mother = whitehill_82
+
+    trait = compassionate
+    trait = lazy
+    trait = gregarious
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_4
+
+    6209.6.27 = {
+        birth = yes
+    }
+
+    6256.12.24 = {
+        add_spouse = whitehill_84
+    }
+
+    6294.7.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_84 = {
+    name = "Kyli"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = diligent
+    trait = callous
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 9
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6239.5.20 = {
+        birth = yes
+    }
+
+    6317.3.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_85 = {
+    name = "Casamir"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_83
+    mother = whitehill_84
+
+    trait = ambitious
+    trait = zealous
+    trait = callous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_3
+
+    6256.10.4 = {
+        birth = yes
+    }
+
+    6300.6.12 = {
+        add_spouse = whitehill_86
+    }
+
+    6328.8.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_86 = {
+    name = "Igrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = arbitrary
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 3
+
+    trait = education_intrigue_2
+
+    6283.9.8 = {
+        birth = yes
+    }
+
+    6350.5.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_87 = {
+    name = "Rolf"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_85
+    mother = whitehill_86
+
+    trait = trusting
+    trait = sadistic
+    trait = fickle
+
+    diplomacy = 11
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6308.7.23 = {
+        birth = yes
+    }
+
+    6328.2.21 = {
+        add_spouse = whitehill_88
+    }
+
+    6376.9.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_88 = {
+    name = "Lydia"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = ambitious
+    trait = lustful
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6311.4.13 = {
+        birth = yes
+    }
+
+    6381.11.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_89 = {
+    name = "Rickon"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_87
+    mother = whitehill_88
+
+    trait = honest
+    trait = fickle
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_3
+
+    6328.4.13 = {
+        birth = yes
+    }
+
+    6357.10.22 = {
+        add_spouse = whitehill_90
+    }
+
+    6384.5.26 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+whitehill_90 = {
+    name = "Anna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = gregarious
+    trait = arbitrary
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 2
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6340.4.1 = {
+        birth = yes
+    }
+
+    6411.2.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_91 = {
+    name = "Leobald"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_89
+    mother = whitehill_90
+
+    trait = generous
+    trait = gluttonous
+    trait = diligent
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_2
+
+    6374.8.26 = {
+        birth = yes
+    }
+
+    6401.4.8 = {
+        add_spouse = whitehill_92
+    }
+
+    6456.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_92 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = greedy
+    trait = sadistic
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6384.1.9 = {
+        birth = yes
+    }
+
+    6454.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_93 = {
+    name = "Markus"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_91
+    mother = whitehill_92
+
+    trait = patient
+    trait = fickle
+    trait = arbitrary
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_2
+
+    6419.5.20 = {
+        birth = yes
+    }
+
+    6452.4.3 = {
+        add_spouse = whitehill_94
+    }
+
+    6489.12.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_94 = {
+    name = "Iris"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = just
+    trait = generous
+    trait = content
+
+    diplomacy = 9
+    martial = 3
+    stewardship = 3
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6435.9.21 = {
+        birth = yes
+    }
+
+    6520.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_95 = {
+    name = "Eilif"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_93
+    mother = whitehill_94
+
+    trait = paranoid
+    trait = forgiving
+    trait = honest
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 10
+    intrigue = 8
+    learning = 4
+    prowess = 10
+
+    trait = education_stewardship_3
+
+    6474.11.21 = {
+        birth = yes
+    }
+
+    6521.10.6 = {
+        add_spouse = whitehill_96
+    }
+
+    6558.4.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_96 = {
+    name = "Cecil"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = chaste
+    trait = impatient
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6504.1.12 = {
+        birth = yes
+    }
+
+    6572.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_97 = {
+    name = "Alyn"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_95
+    mother = whitehill_96
+
+    trait = gluttonous
+    trait = arbitrary
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 1
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_2
+
+    6521.8.21 = {
+        birth = yes
+    }
+
+    6567.2.15 = {
+        add_spouse = whitehill_98
+    }
+
+    6603.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_98 = {
+    name = "Raya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = content
+    trait = trusting
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6550.4.18 = {
+        birth = yes
+    }
+
+    6622.3.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_99 = {
+    name = "Rolfwyn"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_97
+    mother = whitehill_98
+
+    trait = wrathful
+    trait = diligent
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 9
+    intrigue = 8
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6589.9.7 = {
+        birth = yes
+    }
+
+    6635.12.26 = {
+        add_spouse = whitehill_100
+    }
+
+    6656.5.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_100 = {
+    name = "Ingarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = arrogant
+    trait = cynical
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_2
+
+    6618.6.21 = {
+        birth = yes
+    }
+
+    6685.2.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_101 = {
+    name = "Elric"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_99
+    mother = whitehill_100
+
+    trait = patient
+    trait = sadistic
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 2
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_3
+
+    6636.12.5 = {
+        birth = yes
+    }
+
+    6650.8.12 = {
+        add_spouse = whitehill_102
+    }
+
+    6718.1.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_102 = {
+    name = "Lydia"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = ambitious
+    trait = craven
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_learning_3
+
+    6633.2.25 = {
+        birth = yes
+    }
+
+    6715.4.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_103 = {
+    name = "Eylif"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_101
+    mother = whitehill_102
+
+    trait = chaste
+    trait = honest
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_3
+
+    6671.1.17 = {
+        birth = yes
+    }
+
+    6703.9.9 = {
+        add_spouse = whitehill_104
+    }
+
+    6740.12.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_104 = {
+    name = "Rowena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = trusting
+    trait = calm
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 3
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_3
+
+    6686.2.25 = {
+        birth = yes
+    }
+
+    6752.10.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_105 = {
+    name = "Rodwell"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_103
+    mother = whitehill_104
+
+    trait = calm
+    trait = lustful
+    trait = just
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6706.12.18 = {
+        birth = yes
+    }
+
+    6729.10.27 = {
+        add_spouse = whitehill_106
+    }
+
+    6772.11.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_106 = {
+    name = "Meera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = humble
+    trait = lazy
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 9
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6712.10.12 = {
+        birth = yes
+    }
+
+    6739.5.7 = {
+        death = { death_reason = death_vanished  }
+    }
+}
+
+whitehill_107 = {
+    name = "Kyle"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_105
+    mother = whitehill_106
+
+    trait = forgiving
+    trait = impatient
+    trait = lazy
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 8
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6731.11.4 = {
+        birth = yes
+    }
+
+    6780.4.3 = {
+        add_spouse = whitehill_108
+    }
+
+    6803.11.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_108 = {
+    name = "Lidania"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = sadistic
+    trait = compassionate
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 8
+    intrigue = 1
+    learning = 8
+    prowess = 5
+
+    trait = education_martial_3
+
+    6763.8.28 = {
+        birth = yes
+    }
+
+    6844.5.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_109 = {
+    name = "Daryn"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_107
+    mother = whitehill_108
+
+    trait = cynical
+    trait = arbitrary
+    trait = sadistic
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_3
+
+    6799.4.16 = {
+        birth = yes
+    }
+
+    6823.8.12 = {
+        add_spouse = whitehill_110
+    }
+
+    6878.3.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_110 = {
+    name = "Arra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = paranoid
+    trait = craven
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_1
+
+    6806.2.1 = {
+        birth = yes
+    }
+
+    6865.6.23 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+whitehill_111 = {
+    name = "Osric"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_109
+    mother = whitehill_110
+
+    trait = compassionate
+    trait = greedy
+    trait = craven
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 9
+    learning = 9
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6851.9.21 = {
+        birth = yes
+    }
+
+    6888.2.22 = {
+        add_spouse = whitehill_112
+    }
+
+    6898.11.5 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+whitehill_112 = {
+    name = "Rikissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = ambitious
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6871.9.12 = {
+        birth = yes
+    }
+
+    6941.8.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_113 = {
+    name = "Styr"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_111
+    mother = whitehill_112
+
+    trait = stubborn
+    trait = lazy
+    trait = wrathful
+
+    diplomacy = 17
+    martial = 16
+    stewardship = 15
+    intrigue = 19
+    learning = 24
+    prowess = 24
+
+    trait = education_learning_4
+
+    6889.8.16 = {
+        birth = yes
+    }
+
+    6933.11.4 = {
+        add_spouse = whitehill_114
+    }
+
+    6943.11.26 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+whitehill_114 = {
+    name = "Frenya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = zealous
+    trait = impatient
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 11
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    6916.4.17 = {
+        birth = yes
+    }
+
+    6997.11.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_115 = {
+    name = "Kennya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_113
+    mother = whitehill_114
+
+    trait = callous
+    trait = zealous
+    trait = diligent
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6936.10.21 = {
+        birth = yes
+    }
+
+    7012.8.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_116 = {
+    name = "Cregard"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_113
+    mother = whitehill_114
+
+    trait = shy
+    trait = just
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 8
+    learning = 3
+    prowess = 3
+
+    trait = education_intrigue_4
+
+    6939.7.5 = {
+        birth = yes
+    }
+
+    6978.5.2 = {
+        add_spouse = whitehill_117
+    }
+
+    6994.8.20 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+whitehill_117 = {
+    name = "Isyabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = compassionate
+    trait = lazy
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    6961.8.20 = {
+        birth = yes
+    }
+
+    7033.5.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_118 = {
+    name = "Egle"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_116
+    mother = whitehill_117
+
+    trait = stubborn
+    trait = temperate
+    trait = lazy
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6979.11.7 = {
+        birth = yes
+    }
+
+    7022.10.8 = {
+        add_spouse = whitehill_119
+    }
+
+    7050.5.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_119 = {
+    name = "Lidya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = impatient
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 9
+    intrigue = 11
+    learning = 2
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    7005.11.18 = {
+        birth = yes
+    }
+
+    7078.5.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_120 = {
+    name = "Darlessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_118
+    mother = whitehill_119
+
+    trait = honest
+    trait = zealous
+    trait = chaste
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    7025.1.13 = {
+        birth = yes
+    }
+
+    7095.5.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_121 = {
+    name = "Barbara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_118
+    mother = whitehill_119
+
+    trait = forgiving
+    trait = content
+    trait = greedy
+
+    diplomacy = 2
+    martial = 9
+    stewardship = 9
+    intrigue = 2
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_2
+
+    7028.5.6 = {
+        birth = yes
+    }
+
+    7109.9.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_122 = {
+    name = "Gorm"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_118
+    mother = whitehill_119
+
+    trait = just
+    trait = temperate
+    trait = patient
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 2
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    7034.12.16 = {
+        birth = yes
+    }
+
+    7053.7.1 = {
+        add_spouse = whitehill_123
+    }
+
+    7063.2.14 = {
+        death = { death_reason = death_beaten }
+    }
+}
+
+whitehill_123 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = humble
+    trait = generous
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    7036.8.26 = {
+        birth = yes
+    }
+
+    7114.7.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_124 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_116
+    mother = whitehill_117
+
+    trait = arrogant
+    trait = wrathful
+    trait = trusting
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 3
+    prowess = 1
+
+    trait = education_diplomacy_1
+
+    6983.1.15 = {
+        birth = yes
+    }
+
+    7055.4.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_125 = {
+    name = "Lyessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_116
+    mother = whitehill_117
+
+    trait = trusting
+    trait = content
+    trait = just
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 2
+
+    trait = education_stewardship_3
+
+    6984.4.24 = {
+        birth = yes
+    }
+
+    7066.8.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_126 = {
+    name = "Niklys"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_116
+    mother = whitehill_117
+
+    trait = zealous
+    trait = wrathful
+    trait = generous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6985.8.9 = {
+        birth = yes
+    }
+
+    7027.4.9 = {
+        add_spouse = whitehill_127
+    }
+
+    7068.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_127 = {
+    name = "Gilliane"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = arrogant
+    trait = callous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 9
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    7010.1.24 = {
+        birth = yes
+    }
+
+    7094.11.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_128 = {
+    name = "Theo"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_126
+    mother = whitehill_127
+
+    trait = forgiving
+    trait = lustful
+    trait = patient
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    7027.2.5 = {
+        birth = yes
+    }
+
+    7069.1.1 = {
+        add_spouse = whitehill_129
+    }
+
+    7107.11.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_129 = {
+    name = "Magdalyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = lazy
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 2
+    intrigue = 6
+    learning = 10
+    prowess = 6
+
+    trait = education_learning_3
+
+    7052.5.7 = {
+        birth = yes
+    }
+
+    7136.3.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_130 = {
+    name = "Jonjon"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_111
+    mother = whitehill_112
+
+    trait = paranoid
+    trait = lustful
+    trait = generous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_3
+
+    6892.11.8 = {
+        birth = yes
+    }
+
+    6923.11.25 = {
+        add_spouse = whitehill_131
+    }
+
+    6962.11.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_131 = {
+    name = "Elinan"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = zealous
+    trait = gregarious
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 10
+    learning = 6
+    prowess = 2
+
+    trait = education_intrigue_4
+
+    6906.11.26 = {
+        birth = yes
+    }
+
+    6987.11.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_132 = {
+    name = "Alyc"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_130
+    mother = whitehill_131
+
+    trait = diligent
+    trait = greedy
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    6929.4.25 = {
+        birth = yes
+    }
+
+    6950.8.20 = {
+        add_spouse = whitehill_133
+    }
+
+    7011.9.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_133 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = forgiving
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 7
+    intrigue = 4
+    learning = 2
+    prowess = 9
+
+    trait = education_stewardship_4
+
+    6933.2.25 = {
+        birth = yes
+    }
+
+    6979.4.7 = {
+        death = { death_reason = death_dungeon  }
+    }
+}
+
+whitehill_134 = {
+    name = "Laen"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_132
+    mother = whitehill_133
+
+    trait = shy
+    trait = arrogant
+    trait = fickle
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 9
+    intrigue = 10
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6953.9.26 = {
+        birth = yes
+    }
+
+    6977.10.5 = {
+        add_spouse = whitehill_135
+    }
+
+    6987.11.4 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+whitehill_135 = {
+    name = "Meera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = brave
+    trait = fickle
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 1
+    intrigue = 5
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6960.2.12 = {
+        birth = yes
+    }
+
+    7026.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_136 = {
+    name = "Barth"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_134
+    mother = whitehill_135
+
+    trait = humble
+    trait = impatient
+    trait = trusting
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 8
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6977.6.11 = {
+        birth = yes
+    }
+
+    7023.3.7 = {
+        add_spouse = whitehill_137
+    }
+
+    7052.1.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_137 = {
+    name = "Dacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = trusting
+    trait = impatient
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    7006.2.27 = {
+        birth = yes
+    }
+
+    7078.5.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_138 = {
+    name = "Porther"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_111
+    mother = whitehill_112
+
+    trait = chaste
+    trait = just
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    6894.1.16 = {
+        birth = yes
+    }
+
+    6918.10.23 = {
+        add_spouse = whitehill_139
+    }
+
+    6969.7.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_139 = {
+    name = "Lyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = wrathful
+    trait = trusting
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 9
+    intrigue = 8
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6901.3.24 = {
+        birth = yes
+    }
+
+    6967.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_140 = {
+    name = "Arra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_138
+    mother = whitehill_139
+
+    trait = humble
+    trait = wrathful
+    trait = brave
+
+    diplomacy = 5
+    martial = 1
+    stewardship = 3
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6923.11.13 = {
+        birth = yes
+    }
+
+    7007.12.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_141 = {
+    name = "Kael"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_138
+    mother = whitehill_139
+
+    trait = deceitful
+    trait = arrogant
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 3
+    intrigue = 2
+    learning = 7
+    prowess = 2
+
+    trait = education_diplomacy_4
+
+    6925.12.5 = {
+        birth = yes
+    }
+
+    6956.9.18 = {
+        add_spouse = whitehill_142
+    }
+
+    6997.7.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_142 = {
+    name = "Lidia"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = zealous
+    trait = arbitrary
+    trait = compassionate
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 7
+    prowess = 8
+
+    trait = education_learning_3
+
+    6939.12.26 = {
+        birth = yes
+    }
+
+    7020.4.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_143 = {
+    name = "Dacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_141
+    mother = whitehill_142
+
+    trait = generous
+    trait = craven
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6956.12.13 = {
+        birth = yes
+    }
+
+    7032.5.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_144 = {
+    name = "Wyl"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_141
+    mother = whitehill_142
+
+    trait = lustful
+    trait = lazy
+    trait = humble
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 10
+
+    trait = education_learning_2
+
+    6962.6.17 = {
+        birth = yes
+    }
+
+    6996.9.24 = {
+        add_spouse = whitehill_145
+    }
+
+    7045.11.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_145 = {
+    name = "Jeyne"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = trusting
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6979.8.1 = {
+        birth = yes
+    }
+
+    7050.6.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_146 = {
+    name = "Berti"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_144
+    mother = whitehill_145
+
+    trait = gregarious
+    trait = diligent
+    trait = wrathful
+
+    diplomacy = 10
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6997.2.13 = {
+        birth = yes
+    }
+
+    7079.5.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_147 = {
+    name = "Royce"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_144
+    mother = whitehill_145
+
+    trait = craven
+    trait = chaste
+    trait = lazy
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 8
+    learning = 8
+    prowess = 10
+
+    trait = education_intrigue_4
+
+    7003.1.21 = {
+        birth = yes
+    }
+
+    7018.12.7 = {
+        add_spouse = whitehill_148
+    }
+
+    7077.8.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_148 = {
+    name = "Lidya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = zealous
+    trait = content
+    trait = diligent
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    7001.5.2 = {
+        birth = yes
+    }
+
+    7069.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_149 = {
+    name = "Torren"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_138
+    mother = whitehill_139
+
+    trait = arbitrary
+    trait = forgiving
+    trait = zealous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_2
+
+    6931.9.4 = {
+        birth = yes
+    }
+
+    6967.3.26 = {
+        add_spouse = whitehill_150
+    }
+
+    7002.5.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_150 = {
+    name = "Beth"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = shy
+    trait = patient
+    trait = chaste
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 3
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_1
+
+    6950.7.2 = {
+        birth = yes
+    }
+
+    7016.11.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_151 = {
+    name = "Ramsay"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_149
+    mother = whitehill_150
+
+    trait = temperate
+    trait = trusting
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6986.2.4 = {
+        birth = yes
+    }
+
+    7017.3.9 = {
+        add_spouse = whitehill_152
+    }
+
+    7066.4.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_152 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = deceitful
+    trait = stubborn
+    trait = patient
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 8
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    7000.6.24 = {
+        birth = yes
+    }
+
+    7069.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_153 = {
+    name = "Petar"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_151
+    mother = whitehill_152
+
+    trait = patient
+    trait = wrathful
+    trait = ambitious
+
+    diplomacy = 12
+    martial = 26
+    stewardship = 10
+    intrigue = 19
+    learning = 24
+    prowess = 23
+
+    trait = education_martial_4
+
+    7031.8.17 = {
+        birth = yes
+    }
+
+    7074.7.3 = {
+        add_spouse = whitehill_154
+    }
+
+    7084.12.17 = {
+        death = { death_reason = death_beaten }
+    }
+}
+
+whitehill_154 = {
+    name = "Agnessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = stubborn
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_2
+
+    7057.5.22 = {
+        birth = yes
+    }
+
+    7125.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_155 = {
+    name = "Joseth"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_138
+    mother = whitehill_139
+
+    trait = humble
+    trait = lustful
+    trait = impatient
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 9
+    intrigue = 10
+    learning = 10
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6933.9.12 = {
+        birth = yes
+    }
+
+    6947.12.11 = {
+        add_spouse = whitehill_156
+    }
+
+    6978.10.11 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+whitehill_156 = {
+    name = "Danelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = shy
+    trait = humble
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    6930.5.27 = {
+        birth = yes
+    }
+
+    7006.1.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_157 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_155
+    mother = whitehill_156
+
+    trait = calm
+    trait = greedy
+    trait = content
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 5
+    intrigue = 4
+    learning = 2
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6949.12.9 = {
+        birth = yes
+    }
+
+    7020.11.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_158 = {
+    name = "Cecil"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_155
+    mother = whitehill_156
+
+    trait = brave
+    trait = humble
+    trait = deceitful
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 9
+
+    trait = education_learning_4
+
+    6952.1.22 = {
+        birth = yes
+    }
+
+    7037.8.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_159 = {
+    name = "Barba"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_155
+    mother = whitehill_156
+
+    trait = patient
+    trait = gregarious
+    trait = forgiving
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6955.5.24 = {
+        birth = yes
+    }
+
+    7027.1.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_160 = {
+    name = "Harrion"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_155
+    mother = whitehill_156
+
+    trait = content
+    trait = trusting
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 9
+    intrigue = 8
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6959.6.18 = {
+        birth = yes
+    }
+
+    6996.5.13 = {
+        add_spouse = whitehill_161
+    }
+
+    7043.11.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_161 = {
+    name = "Leana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = lustful
+    trait = cynical
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    6979.2.13 = {
+        birth = yes
+    }
+
+    7048.7.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_162 = {
+    name = "Hareth"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_160
+    mother = whitehill_161
+
+    trait = ambitious
+    trait = arrogant
+    trait = impatient
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    7021.9.2 = {
+        birth = yes
+    }
+
+    7058.11.4 = {
+        add_spouse = whitehill_163
+    }
+
+    7099.5.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_163 = {
+    name = "Jonella"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = trusting
+    trait = just
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 9
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    7041.3.4 = {
+        birth = yes
+    }
+
+    7111.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_164 = {
+    name = "Mark"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_111
+    mother = whitehill_112
+
+    trait = calm
+    trait = arbitrary
+    trait = fickle
+
+    diplomacy = 8
+    martial = 1
+    stewardship = 4
+    intrigue = 5
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6895.11.17 = {
+        birth = yes
+    }
+
+    6941.9.28 = {
+        add_spouse = whitehill_165
+    }
+
+    6975.7.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_165 = {
+    name = "Agnyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = fickle
+    trait = craven
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 4
+    intrigue = 2
+    learning = 6
+    prowess = 5
+
+    trait = education_learning_3
+
+    6924.10.14 = {
+        birth = yes
+    }
+
+    6994.9.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_166 = {
+    name = "Martyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_164
+    mother = whitehill_165
+
+    trait = trusting
+    trait = ambitious
+    trait = compassionate
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 10
+    intrigue = 5
+    learning = 4
+    prowess = 1
+
+    trait = education_stewardship_4
+
+    6943.12.13 = {
+        birth = yes
+    }
+
+    7010.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_167 = {
+    name = "Perra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_164
+    mother = whitehill_165
+
+    trait = diligent
+    trait = cynical
+    trait = trusting
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 9
+    prowess = 8
+
+    trait = education_learning_2
+
+    6950.9.1 = {
+        birth = yes
+    }
+
+    7035.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_168 = {
+    name = "Bass"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_164
+    mother = whitehill_165
+
+    trait = paranoid
+    trait = wrathful
+    trait = humble
+
+    diplomacy = 12
+    martial = 14
+    stewardship = 10
+    intrigue = 12
+    learning = 11
+    prowess = 11
+
+    trait = education_martial_4
+
+    6954.3.23 = {
+        birth = yes
+    }
+
+    6986.12.20 = {
+        add_spouse = whitehill_169
+    }
+
+    7024.7.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_169 = {
+    name = "Wylla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = chaste
+    trait = stubborn
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    6969.9.20 = {
+        birth = yes
+    }
+
+    7018.2.7 = {
+        death = { death_reason = death_plotting  }
+    }
+}
+
+whitehill_170 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_168
+    mother = whitehill_169
+
+    trait = just
+    trait = honest
+    trait = ambitious
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 5
+    intrigue = 3
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6988.11.13 = {
+        birth = yes
+    }
+
+    7058.3.16 = {
+        death = { death_reason = death_ended_on_feast_table  }
+    }
+}
+
+whitehill_171 = {
+    name = "Cayn"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_168
+    mother = whitehill_169
+
+    trait = humble
+    trait = forgiving
+    trait = generous
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 3
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_learning_2
+
+    6990.1.19 = {
+        birth = yes
+    }
+
+    7030.7.17 = {
+        add_spouse = whitehill_172
+    }
+
+    7059.8.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_172 = {
+    name = "Lysanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = callous
+    trait = gregarious
+
+    diplomacy = 11
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    7013.6.12 = {
+        birth = yes
+    }
+
+    7082.9.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_173 = {
+    name = "Kyli"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_171
+    mother = whitehill_172
+
+    trait = just
+    trait = generous
+    trait = diligent
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 7
+    intrigue = 4
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    7032.8.19 = {
+        birth = yes
+    }
+
+    7112.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_174 = {
+    name = "Jory"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_171
+    mother = whitehill_172
+
+    trait = calm
+    trait = diligent
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    7040.1.7 = {
+        birth = yes
+    }
+
+    7081.7.15 = {
+        add_spouse = whitehill_175
+    }
+
+    7118.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_175 = {
+    name = "Kennya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = sadistic
+    trait = diligent
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 4
+    intrigue = 5
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    7064.12.24 = {
+        birth = yes
+    }
+
+    7132.1.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_176 = {
+    name = "Magnar"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_164
+    mother = whitehill_165
+
+    trait = arbitrary
+    trait = brave
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 3
+    intrigue = 3
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    6958.1.13 = {
+        birth = yes
+    }
+
+    6974.10.4 = {
+        add_spouse = whitehill_177
+    }
+
+    7042.4.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_177 = {
+    name = "Rikissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = patient
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_2
+
+    6957.4.4 = {
+        birth = yes
+    }
+
+    7033.7.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_178 = {
+    name = "Darlessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_176
+    mother = whitehill_177
+
+    trait = temperate
+    trait = content
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 3
+    learning = 10
+    prowess = 4
+
+    trait = education_learning_3
+
+    6978.10.14 = {
+        birth = yes
+    }
+
+    7053.12.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_179 = {
+    name = "Benjicot"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_176
+    mother = whitehill_177
+
+    trait = just
+    trait = temperate
+    trait = trusting
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    6988.7.17 = {
+        birth = yes
+    }
+
+    7019.11.13 = {
+        add_spouse = whitehill_180
+    }
+
+    7067.11.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_180 = {
+    name = "Jonnela"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = fickle
+    trait = deceitful
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_3
+
+    7002.6.27 = {
+        birth = yes
+    }
+
+    7080.11.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_181 = {
+    name = "Magya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_179
+    mother = whitehill_180
+
+    trait = ambitious
+    trait = just
+    trait = chaste
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 3
+
+    trait = education_intrigue_2
+
+    7024.1.11 = {
+        birth = yes
+    }
+
+    7100.10.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_182 = {
+    name = "Raya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_179
+    mother = whitehill_180
+
+    trait = honest
+    trait = stubborn
+    trait = craven
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 4
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_2
+
+    7026.11.27 = {
+        birth = yes
+    }
+
+    7095.9.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_183 = {
+    name = "Robett"
+
+    dynasty = dynasty_whitehill
+    religion = the_old_gods
+    culture = northmen
+
+    father = whitehill_179
+    mother = whitehill_180
+
+    trait = sadistic
+    trait = lustful
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_2
+
+    7030.2.1 = {
+        birth = yes
+    }
+
+    7047.7.1 = {
+        add_spouse = whitehill_184
+    }
+
+    7097.4.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehill_184 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = craven
+    trait = lustful
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 2
+    intrigue = 5
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    7030.1.5 = {
+        birth = yes
+    }
+
+    7106.2.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
