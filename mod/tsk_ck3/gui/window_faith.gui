@@ -313,7 +313,7 @@ window = {
 				hbox = {
 					name = "doctrines_grid_core_tenets"
 					datamodel = "[FaithWindow.GetGroupingHelper( 'core_tenets' ).GetGrouping]"
-					spacing = 45
+					spacing = 25
 
 					state = {
 						name = "faith_view_refresh"
