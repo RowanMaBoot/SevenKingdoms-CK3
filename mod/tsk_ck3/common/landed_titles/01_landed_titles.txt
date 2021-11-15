@@ -20365,7 +20365,27 @@ e_the_north = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_caw = {
+			c_burley = {
+				color = { 147 196 144 }
+				color2 = { 255 255 255 }
+				
+				b_burley = {
+					province = 3647
+					color = { 147 196 144 }
+					color2 = { 255 255 255 }
+				}
+				b_mauldach = {
+					province = 3648
+					color = { 147 196 144 }
+					color2 = { 255 255 255 }
+				}
+				b_glassburn = {
+					province = 3649
+					color = { 147 196 144 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_crows_edge = {
 				color = { 86 195 143 }
 				color2 = { 255 255 255 }
 				
@@ -20405,26 +20425,6 @@ e_the_north = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_wull = {
-				color = { 147 196 144 }
-				color2 = { 255 255 255 }
-				
-				b_stry = {
-					province = 3647
-					color = { 147 196 144 }
-					color2 = { 255 255 255 }
-				}
-				b_mauldach = {
-					province = 3648
-					color = { 147 196 144 }
-					color2 = { 255 255 255 }
-				}
-				b_glassburn = {
-					province = 3649
-					color = { 147 196 144 }
-					color2 = { 255 255 255 }
-				}
-			}
 		}
 		d_northern_clans = {
 			color = { 166 162 76 }
@@ -20454,26 +20454,6 @@ e_the_north = {
 				b_balvaid = {
 					province = 3633
 					color = { 174 197 145 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_burley = {
-				color = { 180 197 145 }
-				color2 = { 255 255 255 }
-				
-				b_burley = {
-					province = 3638
-					color = { 180 197 145 }
-					color2 = { 255 255 255 }
-				}
-				b_achmony = {
-					province = 3639
-					color = { 180 197 145 }
-					color2 = { 255 255 255 }
-				}
-				b_balchragg = {
-					province = 3640
-					color = { 180 197 145 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -20519,6 +20499,26 @@ e_the_north = {
 				b_northtown = {
 					province = 3641
 					color = { 185 197 145 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_wull = {
+				color = { 180 197 145 }
+				color2 = { 255 255 255 }
+				
+				b_wull_hearth = {
+					province = 3638
+					color = { 180 197 145 }
+					color2 = { 255 255 255 }
+				}
+				b_achmony = {
+					province = 3639
+					color = { 180 197 145 }
+					color2 = { 255 255 255 }
+				}
+				b_balchragg = {
+					province = 3640
+					color = { 180 197 145 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -20574,7 +20574,7 @@ e_the_north = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_crows_edge = {
+			c_norrey = {
 				color = { 176 197 145 }
 				color2 = { 255 255 255 }
 				

@@ -586,10 +586,191 @@ c_arrendell = {
 		liege=d_shadowmore
 	}
 }
-c_crows_edge = {
+c_norrey = {
 	800.1.1={
 		liege=d_shadowmore
 	}
+
+	4450.10.20 = {
+        holder = norrey_1 #Ornmir
+    }
+    4539.10.5 = {
+        holder = norrey_3 #Hakon
+    }
+    4576.8.21 = {
+        holder = norrey_5 #Mat
+    }
+    4616.9.26 = {
+        holder = norrey_7 #Skarnir
+    }
+    4619.3.11 = {
+        holder = norrey_9 #Casey
+    }
+    4701.12.1 = {
+        holder = norrey_11 #Harle
+    }
+    4758.12.6 = {
+        holder = norrey_13 #Vorel
+    }
+    4776.11.1 = {
+        holder = norrey_15 #Alder
+    }
+    4824.7.17 = {
+        holder = norrey_17 #Conall
+    }
+    4893.6.17 = {
+        holder = norrey_19 #Ragy
+    }
+    4927.4.20 = {
+        holder = norrey_21 #Gendel
+    }
+    4934.3.25 = {
+        holder = norrey_23 #Barkar
+    }
+    5016.8.8 = {
+        holder = norrey_25 #Hareth
+    }
+    5037.12.25 = {
+        holder = norrey_27 #Mikken
+    }
+    5068.3.5 = {
+        holder = norrey_29 #Odd
+    }
+    5151.1.23 = {
+        holder = norrey_31 #Beor
+    }
+    5210.11.17 = {
+        holder = norrey_33 #Varamyr
+    }
+    5224.12.11 = {
+        holder = norrey_35 #Harkul
+    }
+    5280.5.1 = {
+        holder = norrey_37 #Varald
+    }
+    5316.4.16 = {
+        holder = norrey_39 #Naregg
+    }
+    5371.7.20 = {
+        holder = norrey_41 #Domlech
+    }
+    5436.8.25 = {
+        holder = norrey_43 #Skaval
+    }
+    5475.1.7 = {
+        holder = norrey_45 #Orleck
+    }
+    5537.9.16 = {
+        holder = norrey_47 #Toran
+    }
+    5559.6.23 = {
+        holder = norrey_49 #Gendel
+    }
+    5585.4.10 = {
+        holder = norrey_51 #Dan
+    }
+    5630.7.28 = {
+        holder = norrey_53 #Gotamyr
+    }
+    5695.4.8 = {
+        holder = norrey_55 #Oreg
+    }
+    5747.1.1 = {
+        holder = norrey_57 #Gerrick
+    }
+    5795.9.5 = {
+        holder = norrey_59 #Curt
+    }
+    5846.5.16 = {
+        holder = norrey_61 #Toke
+    }
+    5896.5.13 = {
+        holder = norrey_63 #Ban
+    }
+    5948.9.14 = {
+        holder = norrey_65 #Dan
+    }
+    6020.8.18 = {
+        holder = norrey_67 #Wallen
+    }
+    6074.1.28 = {
+        holder = norrey_69 #Ban
+    }
+    6141.2.5 = {
+        holder = norrey_71 #Errok
+    }
+    6163.12.7 = {
+        holder = norrey_73 #Beron
+    }
+    6220.1.6 = {
+        holder = norrey_75 #Drest
+    }
+    6272.4.10 = {
+        holder = norrey_77 #Boradir
+    }
+    6330.4.3 = {
+        holder = norrey_79 #Dryn
+    }
+    6382.10.20 = {
+        holder = norrey_81 #Aragr
+    }
+    6413.3.14 = {
+        holder = norrey_83 #Erpin
+    }
+    6470.8.11 = {
+        holder = norrey_85 #Gert
+    }
+    6518.10.19 = {
+        holder = norrey_87 #Craster
+    }
+    6567.1.5 = {
+        holder = norrey_89 #Arnolf
+    }
+    6610.3.7 = {
+        holder = norrey_91 #Skarnir
+    }
+    6656.8.2 = {
+        holder = norrey_93 #Naregg
+    }
+    6711.6.23 = {
+        holder = norrey_95 #Owen
+    }
+    6756.6.28 = {
+        holder = norrey_97 #Haggon
+    }
+    6797.1.28 = {
+        holder = norrey_99 #Skarolf
+    }
+    6859.11.10 = {
+        holder = norrey_101 #Lenyl
+    }
+    6842.9.26 = {
+        holder = norrey_103 #Tym
+    }
+    6915.9.5 = {
+        holder = norrey_105 #Baerik
+    }
+    6923.1.15 = {
+        holder = norrey_107 #Dormund
+    }
+    6951.2.8 = {
+        holder = norrey_109 #Gede
+    }
+    7009.1.3 = {
+        holder = norrey_113 #Joran
+    }
+    7055.4.2 = {
+        holder = norrey_118 #Tore
+    }
+    7097.11.15 = {
+        holder = norrey_120 #Worg
+    }
+    7130.4.8 = {
+        holder = norrey_123 #Oreg
+    }
+    7158.6.26 = {
+        holder = norrey_125 #Maelchon
+    }
 }
 d_northern_clans = {
 	800.1.1={
@@ -963,199 +1144,1127 @@ c_breakstone_hill = {
 		holder = first_flint_119 #Manath
 	}
 }
-c_harclay = {
-	800.1.1={
-		liege=d_northern_clans
-	}
-}
-c_burley = {
+c_knott = {
 	800.1.1={
 		liege=d_northern_clans
 	}
 
-	4450.9.23 = {
-		holder = burley_1 #Leck
+	4450.11.8 = {
+		holder = knott_1 #Gorne
 	}
-	4495.2.18 = {
-		holder = burley_3 #Tyk
+	4480.12.14 = {
+		holder = knott_3 #Ale
 	}
-	4577.9.5 = {
-		holder = burley_5 #Galem
+	4546.8.25 = {
+		holder = knott_5 #Quort
 	}
-	4588.10.8 = {
-		holder = burley_7 #Jym
+	4579.9.24 = {
+		holder = knott_7 #Stiv
 	}
-	4641.6.18 = {
-		holder = burley_9 #Drydil
+	4614.12.23 = {
+		holder = knott_9 #Yarold
 	}
-	4664.9.8 = {
-		holder = burley_11 #Orl
+	4682.12.11 = {
+		holder = knott_11 #Byll
 	}
-	4692.9.28 = {
-		holder = burley_13 #Ottar
+	4725.11.3 = {
+		holder = knott_13 #Mors
 	}
-	4763.8.4 = {
-		holder = burley_15 #Vorwynd
+	4753.12.8 = {
+		holder = knott_15 #Eyron
 	}
-	4822.8.2 = {
-		holder = burley_17 #Styrnor
+	4800.7.11 = {
+		holder = knott_17 #Grolaf
 	}
-	4836.6.27 = {
-		holder = burley_19 #Stynar
+	4860.3.2 = {
+		holder = knott_19 #Karlon
 	}
-	4897.8.26 = {
-		holder = burley_21 #Tormun
+	4897.11.10 = {
+		holder = knott_21 #Wulf
 	}
-	4943.4.2 = {
-		holder = burley_23 #Garok
+	4930.10.12 = {
+		holder = knott_23 #Jormund
 	}
-	4986.2.28 = {
-		holder = burley_25 #Rigg
+	4994.8.2 = {
+		holder = knott_25 #Beor
 	}
-	5047.10.10 = {
-		holder = burley_27 #Mat
+	5060.7.18 = {
+		holder = knott_27 #Skaval
 	}
-	5061.5.8 = {
-		holder = burley_29 #Henk
+	5075.11.15 = {
+		holder = knott_29 #Dyre
 	}
-	5123.4.15 = {
-		holder = burley_31 #Styr
+	5128.6.27 = {
+		holder = knott_31 #Casey
 	}
-	5196.9.21 = {
-		holder = burley_33 #Jym
+	5134.4.1 = {
+		holder = knott_33 #Gorigar
 	}
-	5202.11.15 = {
-		holder = burley_35 #Marl
+	5201.6.24 = {
+		holder = knott_35 #Nils
 	}
-	5277.7.13 = {
-		holder = burley_37 #Myk
+	5194.11.3 = {
+		holder = knott_37 #Gormund
 	}
-	5323.10.23 = {
-		holder = burley_39 #Dok
+	5218.5.8 = {
+		holder = knott_39 #Orell
 	}
-	5347.6.26 = {
-		holder = burley_41 #Noll
+	5283.3.5 = {
+		holder = knott_41 #Arthor
 	}
-	5390.11.24 = {
-		holder = burley_43 #Arnolf
+	5310.10.4 = {
+		holder = knott_43 #Kyleg
 	}
-	5453.1.25 = {
-		holder = burley_45 #Vorwynd
+	5368.7.21 = {
+		holder = knott_45 #Dryd
 	}
-	5470.8.10 = {
-		holder = burley_47 #Bamirr
+	5431.1.1 = {
+		holder = knott_47 #Mael
 	}
-	5542.10.14 = {
-		holder = burley_49 #Wayn
+	5484.1.13 = {
+		holder = knott_49 #Dywen
 	}
-	5595.10.2 = {
-		holder = burley_51 #Thorand
+	5467.8.14 = {
+		holder = knott_51 #Grunnor
 	}
-	5609.10.8 = {
-		holder = burley_53 #Skar
+	5530.2.23 = {
+		holder = knott_53 #Hygner
 	}
-	5659.2.17 = {
-		holder = burley_55 #Rigg
+	5594.4.23 = {
+		holder = knott_55 #Gorigar
 	}
-	5739.5.13 = {
-		holder = burley_57 #Bael
+	5658.10.17 = {
+		holder = knott_57 #Valorn
 	}
-	5749.11.17 = {
-		holder = burley_59 #Isyger
+	5690.5.14 = {
+		holder = knott_59 #Craster
 	}
-	5751.6.8 = {
-		holder = burley_61 #Noll
+	5764.3.7 = {
+		holder = knott_61 #Ragnar
 	}
-	5816.3.16 = {
-		holder = burley_63 #Mat
+	5801.11.22 = {
+		holder = knott_63 #Orvir
 	}
-	5873.2.4 = {
-		holder = burley_65 #Joravar
+	5844.6.27 = {
+		holder = knott_65 #Styrnor
 	}
-	5920.7.3 = {
-		holder = burley_67 #Wallen
+	5880.8.3 = {
+		holder = knott_67 #Vorel
 	}
-	5975.10.25 = {
-		holder = burley_69 #Galem
+	5918.12.1 = {
+		holder = knott_69 #Erik
 	}
-	5997.5.1 = {
-		holder = burley_71 #Lutrin
+	5957.10.14 = {
+		holder = knott_71 #Baerik
 	}
-	6068.9.17 = {
-		holder = burley_73 #Skaval
+	6012.1.11 = {
+		holder = knott_73 #Varad
 	}
-	6111.8.14 = {
-		holder = burley_75 #Gede
+	6093.8.1 = {
+		holder = knott_75 #Mael
 	}
-	6130.12.22 = {
-		holder = burley_77 #Ale
+	6100.1.20 = {
+		holder = knott_77 #Owen
 	}
-	6147.1.21 = {
-		holder = burley_79 #Drad
+	6142.7.25 = {
+		holder = knott_79 #Gest
 	}
-	6219.3.8 = {
-		holder = burley_81 #Gornegg
+	6207.4.11 = {
+		holder = knott_81 #Rigg
 	}
-	6279.5.16 = {
-		holder = burley_83 #Steig
+	6244.2.5 = {
+		holder = knott_83 #Kran
 	}
-	6326.9.24 = {
-		holder = burley_85 #Mavin
+	6284.5.5 = {
+		holder = knott_85 #Varad
 	}
-	6340.7.26 = {
-		holder = burley_87 #Isrand
+	6343.7.10 = {
+		holder = knott_87 #Varad
 	}
-	6411.3.8 = {
-		holder = burley_89 #Joseth
+	6343.5.11 = {
+		holder = knott_89 #Gerrick
 	}
-	6466.9.23 = {
-		holder = burley_91 #Gest
+	6411.8.17 = {
+		holder = knott_91 #Mat
 	}
-	6486.10.26 = {
-		holder = burley_93 #Gede
+	6448.2.21 = {
+		holder = knott_93 #Harigg
 	}
-	6531.4.2 = {
-		holder = burley_95 #Curt
+	6502.6.10 = {
+		holder = knott_95 #Curt
 	}
-	6609.12.21 = {
-		holder = burley_97 #Ragnar
+	6547.8.10 = {
+		holder = knott_97 #Yarold
 	}
-	6638.8.21 = {
-		holder = burley_99 #Lokamun
+	6604.5.28 = {
+		holder = knott_99 #Valmund
 	}
-	6667.3.26 = {
-		holder = burley_101 #Drad
+	6582.5.13 = {
+		holder = knott_101 #Hakon
 	}
-	6693.11.27 = {
-		holder = burley_103 #Cory
+	6664.2.9 = {
+		holder = knott_103 #Howd
 	}
-	6757.1.21 = {
-		holder = burley_105 #Borroq
+	6698.4.6 = {
+		holder = knott_105 #Isyger
 	}
-	6792.1.28 = {
-		holder = burley_107 #Boradir
+	6720.7.6 = {
+		holder = knott_107 #Torbund
 	}
-	6848.1.14 = {
-		holder = burley_109 #Barr
+	6769.9.19 = {
+		holder = knott_109 #Torbund
 	}
-	6914.6.11 = {
-		holder = burley_111 #Arald
+	6835.4.6 = {
+		holder = knott_112 #Dryn
 	}
-	6948.1.11 = {
-		holder = burley_113 #Dolner
+	6886.9.10 = {
+		holder = knott_114 #Danny
 	}
-	7005.11.2 = {
-		holder = burley_117 #Gornegg
+	6922.1.23 = {
+		holder = knott_116 #Rand
 	}
-	7073.8.12 = {
-		holder = burley_119 #Vayon
+	6927.12.17 = {
+		holder = knott_119 #Thom
 	}
+	6992.12.9 = {
+		holder = knott_121 #Varad
+	}
+}
+c_wull = {
+	800.1.1={
+		liege=d_northern_clans
+	}
+
+	4450.8.26 = {
+        holder = wull_1 #Barkar
+    }
+    4527.7.28 = {
+        holder = wull_3 #Boradir
+    }
+    4576.5.25 = {
+        holder = wull_5 #Qorn
+    }
+    4625.2.17 = {
+        holder = wull_7 #Rudri
+    }
+    4634.7.1 = {
+        holder = wull_9 #Gorn
+    }
+    4710.11.24 = {
+        holder = wull_11 #Valon
+    }
+    4694.11.2 = {
+        holder = wull_13 #Leck
+    }
+    4765.6.6 = {
+        holder = wull_15 #Gariss
+    }
+    4822.4.12 = {
+        holder = wull_17 #Grunnor
+    }
+    4850.2.2 = {
+        holder = wull_19 #Dok
+    }
+    4922.11.6 = {
+        holder = wull_21 #Torbund
+    }
+    4952.12.26 = {
+        holder = wull_23 #Gerrick
+    }
+    5022.6.16 = {
+        holder = wull_25 #Varamyr
+    }
+    5035.10.2 = {
+        holder = wull_27 #Taran
+    }
+    5105.7.21 = {
+        holder = wull_29 #Dyre
+    }
+    5136.5.20 = {
+        holder = wull_31 #Vorwynd
+    }
+    5175.4.18 = {
+        holder = wull_33 #Harigg
+    }
+    5195.1.21 = {
+        holder = wull_35 #Hakon
+    }
+    5232.12.6 = {
+        holder = wull_37 #Styr
+    }
+    5278.10.26 = {
+        holder = wull_39 #Jyk
+    }
+    5317.2.7 = {
+        holder = wull_41 #Styr
+    }
+    5372.2.16 = {
+        holder = wull_43 #Rubert
+    }
+    5419.10.2 = {
+        holder = wull_45 #Conall
+    }
+    5460.2.21 = {
+        holder = wull_47 #Halleck
+    }
+    5492.11.25 = {
+        holder = wull_49 #Davy
+    }
+    5558.9.18 = {
+        holder = wull_51 #Valorn
+    }
+    5605.6.14 = {
+        holder = wull_53 #Raymun
+    }
+    5638.12.7 = {
+        holder = wull_55 #Galbart
+    }
+    5717.2.16 = {
+        holder = wull_57 #Borroq
+    }
+    5753.1.10 = {
+        holder = wull_59 #Borroq
+    }
+    5806.3.3 = {
+        holder = wull_61 #Mors
+    }
+    5858.12.27 = {
+        holder = wull_63 #Ragrad
+    }
+    5867.7.28 = {
+        holder = wull_65 #Grim
+    }
+    5899.1.22 = {
+        holder = wull_67 #Doln
+    }
+    5954.11.9 = {
+        holder = wull_69 #Gormund
+    }
+    6004.10.8 = {
+        holder = wull_71 #Jojen
+    }
+    6018.11.20 = {
+        holder = wull_73 #Stek
+    }
+    6067.1.10 = {
+        holder = wull_75 #Bagir
+    }
+    6130.9.26 = {
+        holder = wull_77 #Eyron
+    }
+    6191.8.13 = {
+        holder = wull_79 #Craster
+    }
+    6236.6.25 = {
+        holder = wull_81 #Qhorin
+    }
+    6300.9.17 = {
+        holder = wull_83 #Canan
+    }
+    6358.3.26 = {
+        holder = wull_85 #Joravar
+    }
+    6380.10.27 = {
+        holder = wull_87 #Stiv
+    }
+    6428.1.17 = {
+        holder = wull_89 #Rhodry
+    }
+    6466.12.5 = {
+        holder = wull_91 #Balkar
+    }
+    6494.4.28 = {
+        holder = wull_93 #Thorik
+    }
+    6501.1.27 = {
+        holder = wull_95 #Rory
+    }
+    6576.11.6 = {
+        holder = wull_97 #Stynar
+    }
+    6636.12.24 = {
+        holder = wull_99 #Thorand
+    }
+    6675.4.6 = {
+        holder = wull_101 #Rory
+    }
+    6715.11.6 = {
+        holder = wull_103 #Oreg
+    }
+    6711.4.10 = {
+        holder = wull_105 #Joseth
+    }
+    6793.7.20 = {
+        holder = wull_107 #Farnor
+    }
+    6823.5.5 = {
+        holder = wull_109 #Bjormir
+    }
+    6884.6.25 = {
+        holder = wull_111 #Caltram
+    }
+    6893.6.23 = {
+        holder = wull_113 #Quort
+    }
+    6912.12.24 = {
+        holder = wull_115 #Byll
+    }
+    6972.8.7 = {
+        holder = wull_119 #Ornmir
+    }
+    6973.8.1 = {
+        holder = wull_121 #Briar
+    }
 }
 c_northtown = {
 	800.1.1={
 		liege=d_northern_clans
 	}
 
+	4450.8.26 = {
+        holder = wull_1 #Barkar
+    }
+    4527.7.28 = {
+        holder = wull_3 #Boradir
+    }
+    4576.5.25 = {
+        holder = wull_5 #Qorn
+    }
+    4625.2.17 = {
+        holder = wull_7 #Rudri
+    }
+    4634.7.1 = {
+        holder = wull_9 #Gorn
+    }
+    4710.11.24 = {
+        holder = wull_11 #Valon
+    }
+    4694.11.2 = {
+        holder = wull_13 #Leck
+    }
+    4765.6.6 = {
+        holder = wull_15 #Gariss
+    }
+    4822.4.12 = {
+        holder = wull_17 #Grunnor
+    }
+    4850.2.2 = {
+        holder = wull_19 #Dok
+    }
+    4922.11.6 = {
+        holder = wull_21 #Torbund
+    }
+    4952.12.26 = {
+        holder = wull_23 #Gerrick
+    }
+    5022.6.16 = {
+        holder = wull_25 #Varamyr
+    }
+    5035.10.2 = {
+        holder = wull_27 #Taran
+    }
+    5105.7.21 = {
+        holder = wull_29 #Dyre
+    }
+    5136.5.20 = {
+        holder = wull_31 #Vorwynd
+    }
+    5175.4.18 = {
+        holder = wull_33 #Harigg
+    }
+    5195.1.21 = {
+        holder = wull_35 #Hakon
+    }
+    5232.12.6 = {
+        holder = wull_37 #Styr
+    }
+    5278.10.26 = {
+        holder = wull_39 #Jyk
+    }
+    5317.2.7 = {
+        holder = wull_41 #Styr
+    }
+    5372.2.16 = {
+        holder = wull_43 #Rubert
+    }
+    5419.10.2 = {
+        holder = wull_45 #Conall
+    }
+    5460.2.21 = {
+        holder = wull_47 #Halleck
+    }
+    5492.11.25 = {
+        holder = wull_49 #Davy
+    }
+    5558.9.18 = {
+        holder = wull_51 #Valorn
+    }
+    5605.6.14 = {
+        holder = wull_53 #Raymun
+    }
+    5638.12.7 = {
+        holder = wull_55 #Galbart
+    }
+    5717.2.16 = {
+        holder = wull_57 #Borroq
+    }
+    5753.1.10 = {
+        holder = wull_59 #Borroq
+    }
+    5806.3.3 = {
+        holder = wull_61 #Mors
+    }
+    5858.12.27 = {
+        holder = wull_63 #Ragrad
+    }
+    5867.7.28 = {
+        holder = wull_65 #Grim
+    }
+    5899.1.22 = {
+        holder = wull_67 #Doln
+    }
+    5954.11.9 = {
+        holder = wull_69 #Gormund
+    }
+    6004.10.8 = {
+        holder = wull_71 #Jojen
+    }
+    6018.11.20 = {
+        holder = wull_73 #Stek
+    }
+    6067.1.10 = {
+        holder = wull_75 #Bagir
+    }
+    6130.9.26 = {
+        holder = wull_77 #Eyron
+    }
+    6191.8.13 = {
+        holder = wull_79 #Craster
+    }
+    6236.6.25 = {
+        holder = wull_81 #Qhorin
+    }
+    6300.9.17 = {
+        holder = wull_83 #Canan
+    }
+    6358.3.26 = {
+        holder = wull_85 #Joravar
+    }
+    6380.10.27 = {
+        holder = wull_87 #Stiv
+    }
+    6428.1.17 = {
+        holder = wull_89 #Rhodry
+    }
+    6466.12.5 = {
+        holder = wull_91 #Balkar
+    }
+    6494.4.28 = {
+        holder = wull_93 #Thorik
+    }
+    6501.1.27 = {
+        holder = wull_95 #Rory
+    }
+    6576.11.6 = {
+        holder = wull_97 #Stynar
+    }
+    6636.12.24 = {
+        holder = wull_99 #Thorand
+    }
+    6675.4.6 = {
+        holder = wull_101 #Rory
+    }
+    6715.11.6 = {
+        holder = wull_103 #Oreg
+    }
+    6711.4.10 = {
+        holder = wull_105 #Joseth
+    }
+    6793.7.20 = {
+        holder = wull_107 #Farnor
+    }
+    6823.5.5 = {
+        holder = wull_109 #Bjormir
+    }
+    6884.6.25 = {
+        holder = wull_111 #Caltram
+    }
+    6893.6.23 = {
+        holder = wull_113 #Quort
+    }
+    6912.12.24 = {
+        holder = wull_115 #Byll
+    }
+    6972.8.7 = {
+        holder = wull_119 #Ornmir
+    }
+    6973.8.1 = {
+        holder = wull_121 #Briar
+    }
+}
+c_forskane = {
+	800.1.1={
+		liege=d_northern_clans
+	}
+
+	4450.8.26 = {
+        holder = wull_1 #Barkar
+    }
+    4527.7.28 = {
+        holder = wull_3 #Boradir
+    }
+    4576.5.25 = {
+        holder = wull_5 #Qorn
+    }
+    4625.2.17 = {
+        holder = wull_7 #Rudri
+    }
+    4634.7.1 = {
+        holder = wull_9 #Gorn
+    }
+    4710.11.24 = {
+        holder = wull_11 #Valon
+    }
+    4694.11.2 = {
+        holder = wull_13 #Leck
+    }
+    4765.6.6 = {
+        holder = wull_15 #Gariss
+    }
+    4822.4.12 = {
+        holder = wull_17 #Grunnor
+    }
+    4850.2.2 = {
+        holder = wull_19 #Dok
+    }
+    4922.11.6 = {
+        holder = wull_21 #Torbund
+    }
+    4952.12.26 = {
+        holder = wull_23 #Gerrick
+    }
+    5022.6.16 = {
+        holder = wull_25 #Varamyr
+    }
+    5035.10.2 = {
+        holder = wull_27 #Taran
+    }
+    5105.7.21 = {
+        holder = wull_29 #Dyre
+    }
+    5136.5.20 = {
+        holder = wull_31 #Vorwynd
+    }
+    5175.4.18 = {
+        holder = wull_33 #Harigg
+    }
+    5195.1.21 = {
+        holder = wull_35 #Hakon
+    }
+    5232.12.6 = {
+        holder = wull_37 #Styr
+    }
+    5278.10.26 = {
+        holder = wull_39 #Jyk
+    }
+    5317.2.7 = {
+        holder = wull_41 #Styr
+    }
+    5372.2.16 = {
+        holder = wull_43 #Rubert
+    }
+    5419.10.2 = {
+        holder = wull_45 #Conall
+    }
+    5460.2.21 = {
+        holder = wull_47 #Halleck
+    }
+    5492.11.25 = {
+        holder = wull_49 #Davy
+    }
+    5558.9.18 = {
+        holder = wull_51 #Valorn
+    }
+    5605.6.14 = {
+        holder = wull_53 #Raymun
+    }
+    5638.12.7 = {
+        holder = wull_55 #Galbart
+    }
+    5717.2.16 = {
+        holder = wull_57 #Borroq
+    }
+    5753.1.10 = {
+        holder = wull_59 #Borroq
+    }
+    5806.3.3 = {
+        holder = wull_61 #Mors
+    }
+    5858.12.27 = {
+        holder = wull_63 #Ragrad
+    }
+    5867.7.28 = {
+        holder = wull_65 #Grim
+    }
+    5899.1.22 = {
+        holder = wull_67 #Doln
+    }
+    5954.11.9 = {
+        holder = wull_69 #Gormund
+    }
+    6004.10.8 = {
+        holder = wull_71 #Jojen
+    }
+    6018.11.20 = {
+        holder = wull_73 #Stek
+    }
+    6067.1.10 = {
+        holder = wull_75 #Bagir
+    }
+    6130.9.26 = {
+        holder = wull_77 #Eyron
+    }
+    6191.8.13 = {
+        holder = wull_79 #Craster
+    }
+    6236.6.25 = {
+        holder = wull_81 #Qhorin
+    }
+    6300.9.17 = {
+        holder = wull_83 #Canan
+    }
+    6358.3.26 = {
+        holder = wull_85 #Joravar
+    }
+    6380.10.27 = {
+        holder = wull_87 #Stiv
+    }
+    6428.1.17 = {
+        holder = wull_89 #Rhodry
+    }
+    6466.12.5 = {
+        holder = wull_91 #Balkar
+    }
+    6494.4.28 = {
+        holder = wull_93 #Thorik
+    }
+    6501.1.27 = {
+        holder = wull_95 #Rory
+    }
+    6576.11.6 = {
+        holder = wull_97 #Stynar
+    }
+    6636.12.24 = {
+        holder = wull_99 #Thorand
+    }
+    6675.4.6 = {
+        holder = wull_101 #Rory
+    }
+    6715.11.6 = {
+        holder = wull_103 #Oreg
+    }
+    6711.4.10 = {
+        holder = wull_105 #Joseth
+    }
+    6793.7.20 = {
+        holder = wull_107 #Farnor
+    }
+    6823.5.5 = {
+        holder = wull_109 #Bjormir
+    }
+    6884.6.25 = {
+        holder = wull_111 #Caltram
+    }
+    6893.6.23 = {
+        holder = wull_113 #Quort
+    }
+    6912.12.24 = {
+        holder = wull_115 #Byll
+    }
+    6972.8.7 = {
+        holder = wull_119 #Ornmir
+    }
+    6973.8.1 = {
+        holder = wull_121 #Briar
+    }
+}
+d_central_clans = {
+	800.1.1={
+		liege=k_mountain_clans
+	}
+
+	4450.7.24 = {
+		holder = harclay_1 #Haggon
+	}
+	4517.11.10 = {
+		holder = harclay_3 #Galem
+	}
+	4572.10.5 = {
+		holder = harclay_5 #Fayn
+	}
+	4571.8.14 = {
+		holder = harclay_7 #Jormund
+	}
+	4616.2.9 = {
+		holder = harclay_9 #Quent
+	}
+	4659.11.2 = {
+		holder = harclay_11 #Dran
+	}
+	4704.10.19 = {
+		holder = harclay_13 #Stiv
+	}
+	4763.11.23 = {
+		holder = harclay_15 #Raymund
+	}
+	4824.7.21 = {
+		holder = harclay_17 #Valorn
+	}
+	4893.7.13 = {
+		holder = harclay_19 #Egil
+	}
+	4947.7.19 = {
+		holder = harclay_21 #Skamun
+	}
+	4967.7.4 = {
+		holder = harclay_23 #Hareth
+	}
+	5025.2.4 = {
+		holder = harclay_25 #Bump
+	}
+	5074.10.6 = {
+		holder = harclay_27 #Jyk
+	}
+	5111.10.23 = {
+		holder = harclay_29 #Cory
+	}
+	5119.1.17 = {
+		holder = harclay_31 #Ottar
+	}
+	5201.6.24 = {
+		holder = harclay_33 #Qorn
+	}
+	5207.1.14 = {
+		holder = harclay_35 #Joran
+	}
+	5263.4.11 = {
+		holder = harclay_37 #Radir
+	}
+	5285.9.24 = {
+		holder = harclay_39 #Redbreeches
+	}
+	5363.1.15 = {
+		holder = harclay_41 #Quent
+	}
+	5398.9.26 = {
+		holder = harclay_43 #Canan
+	}
+	5427.2.5 = {
+		holder = harclay_45 #Isrand
+	}
+	5497.6.13 = {
+		holder = harclay_47 #Drik
+	}
+	5562.11.10 = {
+		holder = harclay_49 #Svem
+	}
+	5570.5.25 = {
+		holder = harclay_51 #Gendel
+	}
+	5637.1.11 = {
+		holder = harclay_53 #Drald
+	}
+	5673.11.10 = {
+		holder = harclay_55 #Thorand
+	}
+	5728.12.27 = {
+		holder = harclay_57 #Darr
+	}
+	5779.2.5 = {
+		holder = harclay_59 #Gomir
+	}
+	5818.1.28 = {
+		holder = harclay_61 #Darkund
+	}
+	5836.5.8 = {
+		holder = harclay_63 #Bernarr
+	}
+	5883.3.18 = {
+		holder = harclay_65 #Kul
+	}
+	5934.12.26 = {
+		holder = harclay_67 #Boland
+	}
+	5954.6.25 = {
+		holder = harclay_69 #Harodr
+	}
+	5971.3.25 = {
+		holder = harclay_71 #Dolner
+	}
+	6046.6.23 = {
+		holder = harclay_73 #Wulf
+	}
+	6092.8.25 = {
+		holder = harclay_75 #Thom
+	}
+	6137.10.8 = {
+		holder = harclay_77 #Jeor
+	}
+	6160.1.20 = {
+		holder = harclay_79 #Alfyn
+	}
+	6194.3.14 = {
+		holder = harclay_81 #Orvir
+	}
+	6250.6.3 = {
+		holder = harclay_83 #Devyn
+	}
+	6273.8.25 = {
+		holder = harclay_85 #Gerry
+	}
+	6277.10.12 = {
+		holder = harclay_87 #Torod
+	}
+	6355.4.5 = {
+		holder = harclay_89 #Toregg
+	}
+	6400.3.18 = {
+		holder = harclay_91 #Vorel
+	}
+	6408.2.10 = {
+		holder = harclay_93 #Bernarr
+	}
+	6471.4.11 = {
+		holder = harclay_95 #Darkund
+	}
+	6501.12.21 = {
+		holder = harclay_97 #Balder
+	}
+	6560.12.2 = {
+		holder = harclay_99 #Sigorn
+	}
+	6585.9.25 = {
+		holder = harclay_101 #Karlon
+	}
+	6626.11.16 = {
+		holder = harclay_103 #Jarald
+	}
+	6673.5.2 = {
+		holder = harclay_105 #Vorwynd
+	}
+	6708.7.26 = {
+		holder = harclay_107 #Doln
+	}
+	6751.12.1 = {
+		holder = harclay_109 #Sigorn
+	}
+	6789.5.2 = {
+		holder = harclay_111 #Valmund
+	}
+	6835.3.2 = {
+		holder = harclay_115 #Borroq
+	}
+	6898.11.28 = {
+		holder = harclay_117 #Tym
+	}
+	6951.2.1 = {
+		holder = harclay_119 #Caster
+	}
+	6981.6.14 = {
+		holder = harclay_121 #Jyk
+	}
+}
+c_harclay = {
+	800.1.1={
+		liege=d_central_clans
+	}
+
+	4450.7.24 = {
+		holder = harclay_1 #Haggon
+	}
+	4517.11.10 = {
+		holder = harclay_3 #Galem
+	}
+	4572.10.5 = {
+		holder = harclay_5 #Fayn
+	}
+	4571.8.14 = {
+		holder = harclay_7 #Jormund
+	}
+	4616.2.9 = {
+		holder = harclay_9 #Quent
+	}
+	4659.11.2 = {
+		holder = harclay_11 #Dran
+	}
+	4704.10.19 = {
+		holder = harclay_13 #Stiv
+	}
+	4763.11.23 = {
+		holder = harclay_15 #Raymund
+	}
+	4824.7.21 = {
+		holder = harclay_17 #Valorn
+	}
+	4893.7.13 = {
+		holder = harclay_19 #Egil
+	}
+	4947.7.19 = {
+		holder = harclay_21 #Skamun
+	}
+	4967.7.4 = {
+		holder = harclay_23 #Hareth
+	}
+	5025.2.4 = {
+		holder = harclay_25 #Bump
+	}
+	5074.10.6 = {
+		holder = harclay_27 #Jyk
+	}
+	5111.10.23 = {
+		holder = harclay_29 #Cory
+	}
+	5119.1.17 = {
+		holder = harclay_31 #Ottar
+	}
+	5201.6.24 = {
+		holder = harclay_33 #Qorn
+	}
+	5207.1.14 = {
+		holder = harclay_35 #Joran
+	}
+	5263.4.11 = {
+		holder = harclay_37 #Radir
+	}
+	5285.9.24 = {
+		holder = harclay_39 #Redbreeches
+	}
+	5363.1.15 = {
+		holder = harclay_41 #Quent
+	}
+	5398.9.26 = {
+		holder = harclay_43 #Canan
+	}
+	5427.2.5 = {
+		holder = harclay_45 #Isrand
+	}
+	5497.6.13 = {
+		holder = harclay_47 #Drik
+	}
+	5562.11.10 = {
+		holder = harclay_49 #Svem
+	}
+	5570.5.25 = {
+		holder = harclay_51 #Gendel
+	}
+	5637.1.11 = {
+		holder = harclay_53 #Drald
+	}
+	5673.11.10 = {
+		holder = harclay_55 #Thorand
+	}
+	5728.12.27 = {
+		holder = harclay_57 #Darr
+	}
+	5779.2.5 = {
+		holder = harclay_59 #Gomir
+	}
+	5818.1.28 = {
+		holder = harclay_61 #Darkund
+	}
+	5836.5.8 = {
+		holder = harclay_63 #Bernarr
+	}
+	5883.3.18 = {
+		holder = harclay_65 #Kul
+	}
+	5934.12.26 = {
+		holder = harclay_67 #Boland
+	}
+	5954.6.25 = {
+		holder = harclay_69 #Harodr
+	}
+	5971.3.25 = {
+		holder = harclay_71 #Dolner
+	}
+	6046.6.23 = {
+		holder = harclay_73 #Wulf
+	}
+	6092.8.25 = {
+		holder = harclay_75 #Thom
+	}
+	6137.10.8 = {
+		holder = harclay_77 #Jeor
+	}
+	6160.1.20 = {
+		holder = harclay_79 #Alfyn
+	}
+	6194.3.14 = {
+		holder = harclay_81 #Orvir
+	}
+	6250.6.3 = {
+		holder = harclay_83 #Devyn
+	}
+	6273.8.25 = {
+		holder = harclay_85 #Gerry
+	}
+	6277.10.12 = {
+		holder = harclay_87 #Torod
+	}
+	6355.4.5 = {
+		holder = harclay_89 #Toregg
+	}
+	6400.3.18 = {
+		holder = harclay_91 #Vorel
+	}
+	6408.2.10 = {
+		holder = harclay_93 #Bernarr
+	}
+	6471.4.11 = {
+		holder = harclay_95 #Darkund
+	}
+	6501.12.21 = {
+		holder = harclay_97 #Balder
+	}
+	6560.12.2 = {
+		holder = harclay_99 #Sigorn
+	}
+	6585.9.25 = {
+		holder = harclay_101 #Karlon
+	}
+	6626.11.16 = {
+		holder = harclay_103 #Jarald
+	}
+	6673.5.2 = {
+		holder = harclay_105 #Vorwynd
+	}
+	6708.7.26 = {
+		holder = harclay_107 #Doln
+	}
+	6751.12.1 = {
+		holder = harclay_109 #Sigorn
+	}
+	6789.5.2 = {
+		holder = harclay_111 #Valmund
+	}
+	6835.3.2 = {
+		holder = harclay_115 #Borroq
+	}
+	6898.11.28 = {
+		holder = harclay_117 #Tym
+	}
+	6951.2.1 = {
+		holder = harclay_119 #Caster
+	}
+	6981.6.14 = {
+		holder = harclay_121 #Jyk
+	}
+}
+c_burley = {
+	800.1.1={
+		liege=d_central_clans
+	}
+
 	4450.9.23 = {
 		holder = burley_1 #Leck
 	}
@@ -1334,33 +2443,372 @@ c_northtown = {
 		holder = burley_119 #Vayon
 	}
 }
-c_forskane = {
-	800.1.1={
-		liege=d_northern_clans
-	}
-}
-d_central_clans = {
-	800.1.1={
-		liege=k_mountain_clans
-	}
-}
-c_knott = {
+c_crows_edge = {
 	800.1.1={
 		liege=d_central_clans
 	}
-}
-c_wull = {
-	800.1.1={
-		liege=d_central_clans
+
+	4450.9.23 = {
+		holder = burley_1 #Leck
 	}
-}
-c_caw = {
-	800.1.1={
-		liege=d_central_clans
+	4495.2.18 = {
+		holder = burley_3 #Tyk
+	}
+	4577.9.5 = {
+		holder = burley_5 #Galem
+	}
+	4588.10.8 = {
+		holder = burley_7 #Jym
+	}
+	4641.6.18 = {
+		holder = burley_9 #Drydil
+	}
+	4664.9.8 = {
+		holder = burley_11 #Orl
+	}
+	4692.9.28 = {
+		holder = burley_13 #Ottar
+	}
+	4763.8.4 = {
+		holder = burley_15 #Vorwynd
+	}
+	4822.8.2 = {
+		holder = burley_17 #Styrnor
+	}
+	4836.6.27 = {
+		holder = burley_19 #Stynar
+	}
+	4897.8.26 = {
+		holder = burley_21 #Tormun
+	}
+	4943.4.2 = {
+		holder = burley_23 #Garok
+	}
+	4986.2.28 = {
+		holder = burley_25 #Rigg
+	}
+	5047.10.10 = {
+		holder = burley_27 #Mat
+	}
+	5061.5.8 = {
+		holder = burley_29 #Henk
+	}
+	5123.4.15 = {
+		holder = burley_31 #Styr
+	}
+	5196.9.21 = {
+		holder = burley_33 #Jym
+	}
+	5202.11.15 = {
+		holder = burley_35 #Marl
+	}
+	5277.7.13 = {
+		holder = burley_37 #Myk
+	}
+	5323.10.23 = {
+		holder = burley_39 #Dok
+	}
+	5347.6.26 = {
+		holder = burley_41 #Noll
+	}
+	5390.11.24 = {
+		holder = burley_43 #Arnolf
+	}
+	5453.1.25 = {
+		holder = burley_45 #Vorwynd
+	}
+	5470.8.10 = {
+		holder = burley_47 #Bamirr
+	}
+	5542.10.14 = {
+		holder = burley_49 #Wayn
+	}
+	5595.10.2 = {
+		holder = burley_51 #Thorand
+	}
+	5609.10.8 = {
+		holder = burley_53 #Skar
+	}
+	5659.2.17 = {
+		holder = burley_55 #Rigg
+	}
+	5739.5.13 = {
+		holder = burley_57 #Bael
+	}
+	5749.11.17 = {
+		holder = burley_59 #Isyger
+	}
+	5751.6.8 = {
+		holder = burley_61 #Noll
+	}
+	5816.3.16 = {
+		holder = burley_63 #Mat
+	}
+	5873.2.4 = {
+		holder = burley_65 #Joravar
+	}
+	5920.7.3 = {
+		holder = burley_67 #Wallen
+	}
+	5975.10.25 = {
+		holder = burley_69 #Galem
+	}
+	5997.5.1 = {
+		holder = burley_71 #Lutrin
+	}
+	6068.9.17 = {
+		holder = burley_73 #Skaval
+	}
+	6111.8.14 = {
+		holder = burley_75 #Gede
+	}
+	6130.12.22 = {
+		holder = burley_77 #Ale
+	}
+	6147.1.21 = {
+		holder = burley_79 #Drad
+	}
+	6219.3.8 = {
+		holder = burley_81 #Gornegg
+	}
+	6279.5.16 = {
+		holder = burley_83 #Steig
+	}
+	6326.9.24 = {
+		holder = burley_85 #Mavin
+	}
+	6340.7.26 = {
+		holder = burley_87 #Isrand
+	}
+	6411.3.8 = {
+		holder = burley_89 #Joseth
+	}
+	6466.9.23 = {
+		holder = burley_91 #Gest
+	}
+	6486.10.26 = {
+		holder = burley_93 #Gede
+	}
+	6531.4.2 = {
+		holder = burley_95 #Curt
+	}
+	6609.12.21 = {
+		holder = burley_97 #Ragnar
+	}
+	6638.8.21 = {
+		holder = burley_99 #Lokamun
+	}
+	6667.3.26 = {
+		holder = burley_101 #Drad
+	}
+	6693.11.27 = {
+		holder = burley_103 #Cory
+	}
+	6757.1.21 = {
+		holder = burley_105 #Borroq
+	}
+	6792.1.28 = {
+		holder = burley_107 #Boradir
+	}
+	6848.1.14 = {
+		holder = burley_109 #Barr
+	}
+	6914.6.11 = {
+		holder = burley_111 #Arald
+	}
+	6948.1.11 = {
+		holder = burley_113 #Dolner
+	}
+	7005.11.2 = {
+		holder = burley_117 #Gornegg
+	}
+	7073.8.12 = {
+		holder = burley_119 #Vayon
 	}
 }
 c_liddle = {
 	800.1.1={
 		liege=d_central_clans
+	}
+
+	4450.11.14 = {
+		holder = liddle_1 #Rook
+	}
+	4500.3.2 = {
+		holder = liddle_3 #Gendel
+	}
+	4568.8.22 = {
+		holder = liddle_5 #Egil
+	}
+	4567.10.23 = {
+		holder = liddle_7 #Karlon
+	}
+	4643.4.1 = {
+		holder = liddle_9 #Odd
+	}
+	4699.10.28 = {
+		holder = liddle_11 #Rubert
+	}
+	4762.9.12 = {
+		holder = liddle_13 #Caltram
+	}
+	4829.11.1 = {
+		holder = liddle_15 #Qorn
+	}
+	4877.6.20 = {
+		holder = liddle_17 #Skar
+	}
+	4916.3.23 = {
+		holder = liddle_19 #Alfyn
+	}
+	4944.5.10 = {
+		holder = liddle_21 #Halleck
+	}
+	4993.12.28 = {
+		holder = liddle_23 #Isyger
+	}
+	5054.1.13 = {
+		holder = liddle_25 #Alfyn
+	}
+	5060.1.16 = {
+		holder = liddle_27 #Magrun
+	}
+	5127.8.6 = {
+		holder = liddle_29 #Henk
+	}
+	5144.12.3 = {
+		holder = liddle_31 #Dryd
+	}
+	5214.8.11 = {
+		holder = liddle_33 #Halleck
+	}
+	5254.8.20 = {
+		holder = liddle_35 #Yarold
+	}
+	5290.4.7 = {
+		holder = liddle_37 #Mael
+	}
+	5356.12.25 = {
+		holder = liddle_39 #Cregan
+	}
+	5403.8.20 = {
+		holder = liddle_41 #Valon
+	}
+	5480.2.21 = {
+		holder = liddle_43 #Jagni
+	}
+	5517.4.6 = {
+		holder = liddle_45 #Casey
+	}
+	5520.2.4 = {
+		holder = liddle_47 #Cregan
+	}
+	5590.9.8 = {
+		holder = liddle_49 #Gert
+	}
+	5616.7.10 = {
+		holder = liddle_51 #Geir
+	}
+	5665.5.16 = {
+		holder = liddle_53 #Baerik
+	}
+	5713.12.9 = {
+		holder = liddle_55 #Orm
+	}
+	5766.12.13 = {
+		holder = liddle_57 #Joran
+	}
+	5797.5.13 = {
+		holder = liddle_59 #Thorik
+	}
+	5835.11.26 = {
+		holder = liddle_61 #Jym
+	}
+	5873.12.11 = {
+		holder = liddle_63 #Barkar
+	}
+	5918.5.19 = {
+		holder = liddle_65 #Harlon
+	}
+	5953.3.5 = {
+		holder = liddle_67 #Torghen
+	}
+	5998.6.26 = {
+		holder = liddle_69 #Darkund
+	}
+	6031.5.21 = {
+		holder = liddle_71 #Joramun
+	}
+	6101.11.14 = {
+		holder = liddle_73 #Harodr
+	}
+	6127.5.21 = {
+		holder = liddle_75 #Beor
+	}
+	6186.11.26 = {
+		holder = liddle_77 #Ygon
+	}
+	6201.5.26 = {
+		holder = liddle_79 #Gorn
+	}
+	6261.9.21 = {
+		holder = liddle_81 #Unen
+	}
+	6321.11.24 = {
+		holder = liddle_83 #Henk
+	}
+	6347.2.21 = {
+		holder = liddle_85 #Stek
+	}
+	6403.4.5 = {
+		holder = liddle_87 #Domlech
+	}
+	6474.8.28 = {
+		holder = liddle_89 #Gorn
+	}
+	6515.12.25 = {
+		holder = liddle_91 #Darkul
+	}
+	6539.5.21 = {
+		holder = liddle_93 #Craster
+	}
+	6616.8.17 = {
+		holder = liddle_95 #Torod
+	}
+	6681.3.19 = {
+		holder = liddle_97 #Devyn
+	}
+	6704.9.22 = {
+		holder = liddle_99 #Casey
+	}
+	6736.12.26 = {
+		holder = liddle_101 #Drydil
+	}
+	6763.3.13 = {
+		holder = liddle_103 #Borald
+	}
+	6787.2.22 = {
+		holder = liddle_105 #Hallis
+	}
+	6841.6.22 = {
+		holder = liddle_107 #Joraval
+	}
+	6879.6.17 = {
+		holder = liddle_109 #Karlon
+	}
+	6906.12.3 = {
+		holder = liddle_111 #Jym
+	}
+	6940.6.10 = {
+		holder = liddle_114 #Beron
+	}
+	6967.9.7 = {
+		holder = liddle_116 #Harodr
+	}
+	7023.3.28 = {
+		holder = liddle_118 #Vayon
+	}
+	7067.7.9 = {
+		holder = liddle_120 #Joran
 	}
 }

@@ -1,0 +1,9135 @@
+wull_1 = {
+    name = "Barkar"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = trusting
+    trait = gluttonous
+    trait = just
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 9
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    4450.8.26 = {
+        birth = yes
+    }
+
+    4500.2.10 = {
+        add_spouse = wull_2
+    }
+
+    4527.7.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_2 = {
+    name = "Durila"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = patient
+    trait = shy
+    trait = sadistic
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_3
+
+    4483.12.26 = {
+        birth = yes
+    }
+
+    4554.3.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_3 = {
+    name = "Boradir"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_1
+    mother = wull_2
+
+    trait = chaste
+    trait = diligent
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 7
+    intrigue = 9
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    4501.12.14 = {
+        birth = yes
+    }
+
+    4527.6.4 = {
+        add_spouse = wull_4
+    }
+
+    4576.5.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_4 = {
+    name = "Esgred"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = gluttonous
+    trait = compassionate
+    trait = chaste
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 6
+    intrigue = 9
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    4510.8.15 = {
+        birth = yes
+    }
+
+    4557.2.27 = {
+        death = { death_reason = death_accident  }
+    }
+}
+
+wull_5 = {
+    name = "Qorn"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_3
+    mother = wull_4
+
+    trait = craven
+    trait = vengeful
+    trait = fickle
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    4545.4.22 = {
+        birth = yes
+    }
+
+    4570.9.21 = {
+        add_spouse = wull_6
+    }
+
+    4625.2.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_6 = {
+    name = "Ros"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = humble
+    trait = paranoid
+    trait = diligent
+
+    diplomacy = 3
+    martial = 1
+    stewardship = 8
+    intrigue = 11
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    4553.2.12 = {
+        birth = yes
+    }
+
+    4634.6.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_7 = {
+    name = "Rudri"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_5
+    mother = wull_6
+
+    trait = trusting
+    trait = lazy
+    trait = cynical
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    4574.2.23 = {
+        birth = yes
+    }
+
+    4624.4.24 = {
+        add_spouse = wull_8
+    }
+
+    4634.7.1 = {
+        death = { death_reason = death_attacked }
+    }
+}
+
+wull_8 = {
+    name = "Rela"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = patient
+    trait = craven
+    trait = just
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    4607.6.16 = {
+        birth = yes
+    }
+
+    4651.1.3 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+wull_9 = {
+    name = "Gorn"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_7
+    mother = wull_8
+
+    trait = calm
+    trait = diligent
+    trait = trusting
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_learning_3
+
+    4625.6.4 = {
+        birth = yes
+    }
+
+    4653.11.15 = {
+        add_spouse = wull_10
+    }
+
+    4710.11.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_10 = {
+    name = "Ynny"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = shy
+    trait = diligent
+    trait = craven
+
+    diplomacy = 9
+    martial = 9
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    4636.8.13 = {
+        birth = yes
+    }
+
+    4709.12.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_11 = {
+    name = "Valon"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_9
+    mother = wull_10
+
+    trait = content
+    trait = sadistic
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    4655.5.11 = {
+        birth = yes
+    }
+
+    4684.10.10 = {
+        add_spouse = wull_12
+    }
+
+    4694.11.2 = {
+        death = { death_reason = death_attacked }
+    }
+}
+
+wull_12 = {
+    name = "Thyme"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = zealous
+    trait = calm
+    trait = chaste
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    4667.10.27 = {
+        birth = yes
+    }
+
+    4709.5.27 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+wull_13 = {
+    name = "Leck"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_11
+    mother = wull_12
+
+    trait = greedy
+    trait = humble
+    trait = calm
+
+    diplomacy = 16
+    martial = 28
+    stewardship = 19
+    intrigue = 24
+    learning = 14
+    prowess = 15
+
+    trait = education_martial_4
+
+    4691.3.25 = {
+        birth = yes
+    }
+
+    4719.3.16 = {
+        add_spouse = wull_14
+    }
+
+    4765.6.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_14 = {
+    name = "Inethe"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = ambitious
+    trait = just
+    trait = generous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_3
+
+    4702.10.11 = {
+        birth = yes
+    }
+
+    4785.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_15 = {
+    name = "Gariss"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_13
+    mother = wull_14
+
+    trait = honest
+    trait = shy
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 8
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    4745.6.4 = {
+        birth = yes
+    }
+
+    4760.9.23 = {
+        add_spouse = wull_16
+    }
+
+    4822.4.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_16 = {
+    name = "Durila"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = zealous
+    trait = just
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    4743.7.24 = {
+        birth = yes
+    }
+
+    4813.8.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_17 = {
+    name = "Grunnor"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_15
+    mother = wull_16
+
+    trait = compassionate
+    trait = lazy
+    trait = patient
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    4777.12.18 = {
+        birth = yes
+    }
+
+    4807.10.8 = {
+        add_spouse = wull_18
+    }
+
+    4850.2.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_18 = {
+    name = "Dalthi"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = generous
+    trait = brave
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 1
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    4790.7.22 = {
+        birth = yes
+    }
+
+    4859.6.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_19 = {
+    name = "Dok"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_17
+    mother = wull_18
+
+    trait = chaste
+    trait = diligent
+    trait = shy
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_3
+
+    4832.1.28 = {
+        birth = yes
+    }
+
+    4878.6.15 = {
+        add_spouse = wull_20
+    }
+
+    4922.11.6 = {
+        death = { death_reason = death_script_cruelty   }
+    }
+}
+
+wull_20 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = fickle
+    trait = gregarious
+    trait = temperate
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 6
+    intrigue = 9
+    learning = 8
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    4861.3.27 = {
+        birth = yes
+    }
+
+    4927.6.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_21 = {
+    name = "Torbund"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_19
+    mother = wull_20
+
+    trait = content
+    trait = shy
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 10
+
+    trait = education_diplomacy_1
+
+    4886.11.17 = {
+        birth = yes
+    }
+
+    4930.8.20 = {
+        add_spouse = wull_22
+    }
+
+    4952.12.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_22 = {
+    name = "Ynness"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = humble
+    trait = arbitrary
+    trait = calm
+
+    diplomacy = 8
+    martial = 1
+    stewardship = 7
+    intrigue = 2
+    learning = 11
+    prowess = 7
+
+    trait = education_learning_2
+
+    4913.12.6 = {
+        birth = yes
+    }
+
+    4995.1.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_23 = {
+    name = "Gerrick"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_21
+    mother = wull_22
+
+    trait = diligent
+    trait = just
+    trait = lustful
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    4943.3.22 = {
+        birth = yes
+    }
+
+    4959.6.28 = {
+        add_spouse = wull_24
+    }
+
+    5022.6.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_24 = {
+    name = "Berta"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = vengeful
+    trait = arrogant
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    4942.11.28 = {
+        birth = yes
+    }
+
+    5026.12.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_25 = {
+    name = "Varamyr"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_23
+    mother = wull_24
+
+    trait = stubborn
+    trait = compassionate
+    trait = generous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    4979.11.17 = {
+        birth = yes
+    }
+
+    5025.3.16 = {
+        add_spouse = wull_26
+    }
+
+    5035.10.2 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+wull_26 = {
+    name = "Murron"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = stubborn
+    trait = temperate
+    trait = gregarious
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 8
+    intrigue = 8
+    learning = 8
+    prowess = 10
+
+    trait = education_stewardship_4
+
+    5008.10.25 = {
+        birth = yes
+    }
+
+    5078.1.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_27 = {
+    name = "Taran"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_25
+    mother = wull_26
+
+    trait = arbitrary
+    trait = greedy
+    trait = craven
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    5034.4.21 = {
+        birth = yes
+    }
+
+    5058.8.21 = {
+        add_spouse = wull_28
+    }
+
+    5105.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_28 = {
+    name = "Thorna"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = sadistic
+    trait = deceitful
+    trait = calm
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 2
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    5041.7.17 = {
+        birth = yes
+    }
+
+    5118.8.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_29 = {
+    name = "Dyre"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_27
+    mother = wull_28
+
+    trait = stubborn
+    trait = wrathful
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 8
+    intrigue = 2
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    5059.10.8 = {
+        birth = yes
+    }
+
+    5084.4.26 = {
+        add_spouse = wull_30
+    }
+
+    5136.5.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_30 = {
+    name = "Kalene"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = generous
+    trait = deceitful
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 10
+    intrigue = 6
+    learning = 4
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    5067.8.14 = {
+        birth = yes
+    }
+
+    5133.4.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_31 = {
+    name = "Vorwynd"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_29
+    mother = wull_30
+
+    trait = stubborn
+    trait = trusting
+    trait = humble
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_4
+
+    5091.2.14 = {
+        birth = yes
+    }
+
+    5109.6.5 = {
+        add_spouse = wull_32
+    }
+
+    5175.4.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_32 = {
+    name = "Yarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = forgiving
+    trait = brave
+    trait = wrathful
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 4
+    intrigue = 9
+    learning = 8
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    5092.2.16 = {
+        birth = yes
+    }
+
+    5171.12.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_33 = {
+    name = "Harigg"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_31
+    mother = wull_32
+
+    trait = calm
+    trait = humble
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 1
+    stewardship = 7
+    intrigue = 3
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    5124.9.11 = {
+        birth = yes
+    }
+
+    5144.4.21 = {
+        add_spouse = wull_34
+    }
+
+    5195.1.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_34 = {
+    name = "Herlina"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = gluttonous
+    trait = lazy
+    trait = honest
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    5127.1.11 = {
+        birth = yes
+    }
+
+    5208.5.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_35 = {
+    name = "Hakon"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_33
+    mother = wull_34
+
+    trait = honest
+    trait = lazy
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 7
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    5156.11.26 = {
+        birth = yes
+    }
+
+    5191.7.24 = {
+        add_spouse = wull_36
+    }
+
+    5232.12.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_36 = {
+    name = "Dyah"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = patient
+    trait = trusting
+    trait = fickle
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    5174.10.28 = {
+        birth = yes
+    }
+
+    5258.4.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_37 = {
+    name = "Styr"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_35
+    mother = wull_36
+
+    trait = gluttonous
+    trait = lazy
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    5202.12.18 = {
+        birth = yes
+    }
+
+    5233.9.20 = {
+        add_spouse = wull_38
+    }
+
+    5278.10.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_38 = {
+    name = "Halda"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = cynical
+    trait = paranoid
+    trait = impatient
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 2
+    prowess = 3
+
+    trait = education_intrigue_4
+
+    5216.6.22 = {
+        birth = yes
+    }
+
+    5287.10.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_39 = {
+    name = "Jyk"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_37
+    mother = wull_38
+
+    trait = ambitious
+    trait = just
+    trait = sadistic
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 5
+    intrigue = 2
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    5239.7.1 = {
+        birth = yes
+    }
+
+    5276.1.27 = {
+        add_spouse = wull_40
+    }
+
+    5317.2.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_40 = {
+    name = "Mari"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = arrogant
+    trait = lazy
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 4
+    intrigue = 4
+    learning = 8
+    prowess = 5
+
+    trait = education_martial_2
+
+    5259.10.25 = {
+        birth = yes
+    }
+
+    5344.7.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_41 = {
+    name = "Styr"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_39
+    mother = wull_40
+
+    trait = compassionate
+    trait = deceitful
+    trait = impatient
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 9
+    learning = 2
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    5303.4.12 = {
+        birth = yes
+    }
+
+    5349.1.10 = {
+        add_spouse = wull_42
+    }
+
+    5372.2.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_42 = {
+    name = "Anesa"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = arbitrary
+    trait = craven
+    trait = stubborn
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    5332.9.5 = {
+        birth = yes
+    }
+
+    5409.1.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_43 = {
+    name = "Rubert"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_41
+    mother = wull_42
+
+    trait = humble
+    trait = lustful
+    trait = calm
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 1
+
+    trait = education_intrigue_2
+
+    5353.8.15 = {
+        birth = yes
+    }
+
+    5379.11.27 = {
+        add_spouse = wull_44
+    }
+
+    5419.10.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_44 = {
+    name = "Daisy"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = craven
+    trait = deceitful
+    trait = zealous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    5362.6.26 = {
+        birth = yes
+    }
+
+    5435.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_45 = {
+    name = "Conall"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_43
+    mother = wull_44
+
+    trait = vengeful
+    trait = zealous
+    trait = fickle
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 9
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    5388.3.5 = {
+        birth = yes
+    }
+
+    5422.4.11 = {
+        add_spouse = wull_46
+    }
+
+    5460.2.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_46 = {
+    name = "Thistle"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = impatient
+    trait = arrogant
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 3
+
+    trait = education_martial_3
+
+    5405.11.20 = {
+        birth = yes
+    }
+
+    5478.6.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_47 = {
+    name = "Halleck"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_45
+    mother = wull_46
+
+    trait = lustful
+    trait = cynical
+    trait = arrogant
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    5443.10.6 = {
+        birth = yes
+    }
+
+    5482.4.16 = {
+        add_spouse = wull_48
+    }
+
+    5492.11.25 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+wull_48 = {
+    name = "Edna"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = just
+    trait = ambitious
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 8
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    5465.4.28 = {
+        birth = yes
+    }
+
+    5538.12.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_49 = {
+    name = "Davy"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_47
+    mother = wull_48
+
+    trait = temperate
+    trait = humble
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 8
+    intrigue = 3
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_2
+
+    5485.9.17 = {
+        birth = yes
+    }
+
+    5529.5.18 = {
+        add_spouse = wull_50
+    }
+
+    5558.9.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_50 = {
+    name = "Grenda"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = arrogant
+    trait = zealous
+    trait = impatient
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 9
+    intrigue = 6
+    learning = 3
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    5512.8.28 = {
+        birth = yes
+    }
+
+    5581.11.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_51 = {
+    name = "Valorn"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_49
+    mother = wull_50
+
+    trait = lazy
+    trait = honest
+    trait = impatient
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_3
+
+    5537.7.10 = {
+        birth = yes
+    }
+
+    5586.8.19 = {
+        add_spouse = wull_52
+    }
+
+    5605.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_52 = {
+    name = "Violet"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = calm
+    trait = arrogant
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 9
+
+    trait = education_learning_3
+
+    5569.8.16 = {
+        birth = yes
+    }
+
+    5651.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_53 = {
+    name = "Raymun"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_51
+    mother = wull_52
+
+    trait = deceitful
+    trait = compassionate
+    trait = fickle
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    5586.10.17 = {
+        birth = yes
+    }
+
+    5628.8.7 = {
+        add_spouse = wull_54
+    }
+
+    5638.12.7 = {
+        death = { death_reason = death_stress }
+    }
+}
+
+wull_54 = {
+    name = "Grengin"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = brave
+    trait = calm
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 2
+    prowess = 7
+
+    trait = education_martial_3
+
+    5611.1.17 = {
+        birth = yes
+    }
+
+    5679.4.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_55 = {
+    name = "Galbart"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_53
+    mother = wull_54
+
+    trait = wrathful
+    trait = diligent
+    trait = content
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_3
+
+    5636.3.2 = {
+        birth = yes
+    }
+
+    5677.9.21 = {
+        add_spouse = wull_56
+    }
+
+    5717.2.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_56 = {
+    name = "Nuala"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = sadistic
+    trait = impatient
+    trait = lazy
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 3
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    5660.8.25 = {
+        birth = yes
+    }
+
+    5744.1.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_57 = {
+    name = "Borroq"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_55
+    mother = wull_56
+
+    trait = zealous
+    trait = greedy
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    5687.12.16 = {
+        birth = yes
+    }
+
+    5718.7.28 = {
+        add_spouse = wull_58
+    }
+
+    5753.1.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_58 = {
+    name = "Buttercup"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = just
+    trait = content
+    trait = diligent
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    5701.8.28 = {
+        birth = yes
+    }
+
+    5774.5.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_59 = {
+    name = "Borroq"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_57
+    mother = wull_58
+
+    trait = deceitful
+    trait = gluttonous
+    trait = lustful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 9
+    intrigue = 10
+    learning = 7
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    5732.1.26 = {
+        birth = yes
+    }
+
+    5761.9.3 = {
+        add_spouse = wull_60
+    }
+
+    5806.3.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_60 = {
+    name = "Murron"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = arbitrary
+    trait = forgiving
+    trait = trusting
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 2
+    intrigue = 6
+    learning = 8
+    prowess = 8
+
+    trait = education_martial_2
+
+    5744.11.25 = {
+        birth = yes
+    }
+
+    5813.3.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_61 = {
+    name = "Mors"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_59
+    mother = wull_60
+
+    trait = paranoid
+    trait = arbitrary
+    trait = fickle
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 3
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_3
+
+    5774.8.1 = {
+        birth = yes
+    }
+
+    5791.3.19 = {
+        add_spouse = wull_62
+    }
+
+    5858.12.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_62 = {
+    name = "Nelna"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = vengeful
+    trait = humble
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_2
+
+    5774.11.26 = {
+        birth = yes
+    }
+
+    5827.11.11 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+wull_63 = {
+    name = "Ragrad"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_61
+    mother = wull_62
+
+    trait = shy
+    trait = craven
+    trait = lazy
+
+    diplomacy = 10
+    martial = 3
+    stewardship = 2
+    intrigue = 9
+    learning = 7
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    5791.12.6 = {
+        birth = yes
+    }
+
+    5811.4.13 = {
+        add_spouse = wull_64
+    }
+
+    5867.7.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_64 = {
+    name = "Anise"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = patient
+    trait = compassionate
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 3
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    5794.8.22 = {
+        birth = yes
+    }
+
+    5867.1.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_65 = {
+    name = "Grim"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_63
+    mother = wull_64
+
+    trait = vengeful
+    trait = impatient
+    trait = content
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_3
+
+    5822.7.15 = {
+        birth = yes
+    }
+
+    5871.5.9 = {
+        add_spouse = wull_66
+    }
+
+    5899.1.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_66 = {
+    name = "Sera"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = stubborn
+    trait = callous
+    trait = impatient
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 4
+    learning = 3
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    5854.7.24 = {
+        birth = yes
+    }
+
+    5931.8.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_67 = {
+    name = "Doln"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_65
+    mother = wull_66
+
+    trait = ambitious
+    trait = chaste
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 9
+
+    trait = education_learning_2
+
+    5888.8.10 = {
+        birth = yes
+    }
+
+    5889.7.6 = {
+        give_nickname = nick_the_bold
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    5912.8.14 = {
+        add_spouse = wull_68
+    }
+
+    5954.11.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_68 = {
+    name = "Grisella"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = lustful
+    trait = arrogant
+    trait = ambitious
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    5895.12.6 = {
+        birth = yes
+    }
+
+    5964.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_69 = {
+    name = "Gormund"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_67
+    mother = wull_68
+
+    trait = honest
+    trait = lustful
+    trait = content
+
+    diplomacy = 10
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 9
+    prowess = 10
+
+    trait = education_diplomacy_2
+
+    5921.6.2 = {
+        birth = yes
+    }
+
+    5938.1.28 = {
+        add_spouse = wull_70
+    }
+
+    6004.10.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_70 = {
+    name = "Cicely"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = just
+    trait = gregarious
+    trait = greedy
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 8
+    intrigue = 2
+    learning = 8
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    5921.10.1 = {
+        birth = yes
+    }
+
+    5993.3.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_71 = {
+    name = "Jojen"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_69
+    mother = wull_70
+
+    trait = honest
+    trait = shy
+    trait = content
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 7
+    intrigue = 5
+    learning = 4
+    prowess = 9
+
+    trait = education_martial_3
+
+    5941.7.24 = {
+        birth = yes
+    }
+
+    5971.6.4 = {
+        add_spouse = wull_72
+    }
+
+    6018.11.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_72 = {
+    name = "Pansy"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = temperate
+    trait = stubborn
+    trait = impatient
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 11
+
+    trait = education_martial_1
+
+    5954.4.23 = {
+        birth = yes
+    }
+
+    6038.7.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_73 = {
+    name = "Stek"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_71
+    mother = wull_72
+
+    trait = gluttonous
+    trait = chaste
+    trait = lazy
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 3
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    5996.7.11 = {
+        birth = yes
+    }
+
+    6041.12.11 = {
+        add_spouse = wull_74
+    }
+
+    6067.1.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_74 = {
+    name = "Myrtle"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = stubborn
+    trait = ambitious
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 3
+
+    trait = education_learning_2
+
+    6024.2.19 = {
+        birth = yes
+    }
+
+    6107.2.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_75 = {
+    name = "Bagir"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_73
+    mother = wull_74
+
+    trait = arbitrary
+    trait = paranoid
+    trait = craven
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_3
+
+    6045.5.23 = {
+        birth = yes
+    }
+
+    6092.7.26 = {
+        add_spouse = wull_76
+    }
+
+    6130.9.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_76 = {
+    name = "Murron"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = ambitious
+    trait = compassionate
+    trait = brave
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 9
+    intrigue = 2
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6075.3.5 = {
+        birth = yes
+    }
+
+    6142.11.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_77 = {
+    name = "Eyron"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_75
+    mother = wull_76
+
+    trait = fickle
+    trait = trusting
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 4
+    intrigue = 8
+    learning = 8
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6110.12.20 = {
+        birth = yes
+    }
+
+    6133.6.7 = {
+        add_spouse = wull_78
+    }
+
+    6191.8.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_78 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = patient
+    trait = paranoid
+    trait = temperate
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 10
+    prowess = 9
+
+    trait = education_learning_4
+
+    6116.5.18 = {
+        birth = yes
+    }
+
+    6191.6.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_79 = {
+    name = "Craster"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_77
+    mother = wull_78
+
+    trait = shy
+    trait = diligent
+    trait = stubborn
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 11
+    prowess = 7
+
+    trait = education_learning_1
+
+    6160.6.12 = {
+        birth = yes
+    }
+
+    6197.6.24 = {
+        add_spouse = wull_80
+    }
+
+    6236.6.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_80 = {
+    name = "Iona"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = calm
+    trait = arbitrary
+    trait = content
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6180.7.10 = {
+        birth = yes
+    }
+
+    6263.6.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_81 = {
+    name = "Qhorin"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_79
+    mother = wull_80
+
+    trait = ambitious
+    trait = stubborn
+    trait = humble
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 3
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    6221.11.17 = {
+        birth = yes
+    }
+
+    6270.7.21 = {
+        add_spouse = wull_82
+    }
+
+    6300.9.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_82 = {
+    name = "Marny"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = lazy
+    trait = forgiving
+    trait = patient
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 2
+    prowess = 6
+
+    trait = education_martial_1
+
+    6253.9.21 = {
+        birth = yes
+    }
+
+    6328.12.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_83 = {
+    name = "Canan"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_81
+    mother = wull_82
+
+    trait = forgiving
+    trait = chaste
+    trait = brave
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_3
+
+    6277.1.18 = {
+        birth = yes
+    }
+
+    6301.12.10 = {
+        add_spouse = wull_84
+    }
+
+    6358.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_84 = {
+    name = "Piney"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = temperate
+    trait = compassionate
+    trait = honest
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 3
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6284.9.12 = {
+        birth = yes
+    }
+
+    6364.7.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_85 = {
+    name = "Joravar"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_83
+    mother = wull_84
+
+    trait = gregarious
+    trait = lustful
+    trait = generous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_3
+
+    6313.12.5 = {
+        birth = yes
+    }
+
+    6354.10.9 = {
+        add_spouse = wull_86
+    }
+
+    6380.10.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_86 = {
+    name = "Violet"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = forgiving
+    trait = fickle
+    trait = impatient
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6337.6.25 = {
+        birth = yes
+    }
+
+    6415.10.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_87 = {
+    name = "Stiv"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_85
+    mother = wull_86
+
+    trait = content
+    trait = compassionate
+    trait = greedy
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 9
+    intrigue = 5
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6357.5.1 = {
+        birth = yes
+    }
+
+    6358.2.16 = {
+        give_nickname = nick_the_fowler
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6397.2.7 = {
+        add_spouse = wull_88
+    }
+
+    6428.1.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_88 = {
+    name = "Shona"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = humble
+    trait = diligent
+    trait = stubborn
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 4
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6380.1.10 = {
+        birth = yes
+    }
+
+    6461.11.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_89 = {
+    name = "Rhodry"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_87
+    mother = wull_88
+
+    trait = ambitious
+    trait = shy
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 7
+    intrigue = 7
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_2
+
+    6399.4.15 = {
+        birth = yes
+    }
+
+    6414.1.6 = {
+        add_spouse = wull_90
+    }
+
+    6466.12.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_90 = {
+    name = "Minya"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = wrathful
+    trait = chaste
+    trait = greedy
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6397.9.21 = {
+        birth = yes
+    }
+
+    6474.10.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_91 = {
+    name = "Balkar"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_89
+    mother = wull_90
+
+    trait = sadistic
+    trait = zealous
+    trait = impatient
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6417.7.11 = {
+        birth = yes
+    }
+
+    6436.5.4 = {
+        add_spouse = wull_92
+    }
+
+    6494.4.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_92 = {
+    name = "Freesia"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = stubborn
+    trait = chaste
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 9
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6419.11.12 = {
+        birth = yes
+    }
+
+    6500.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_93 = {
+    name = "Thorik"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_91
+    mother = wull_92
+
+    trait = gluttonous
+    trait = honest
+    trait = patient
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 9
+    intrigue = 4
+    learning = 7
+    prowess = 3
+
+    trait = education_stewardship_2
+
+    6455.11.11 = {
+        birth = yes
+    }
+
+    6490.10.8 = {
+        add_spouse = wull_94
+    }
+
+    6501.1.27 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+wull_94 = {
+    name = "Tansy"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = sadistic
+    trait = honest
+    trait = cynical
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 11
+    prowess = 3
+
+    trait = education_learning_4
+
+    6473.8.9 = {
+        birth = yes
+    }
+
+    6541.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_95 = {
+    name = "Rory"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_93
+    mother = wull_94
+
+    trait = gregarious
+    trait = trusting
+    trait = callous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    6500.12.12 = {
+        birth = yes
+    }
+
+    6546.8.24 = {
+        add_spouse = wull_96
+    }
+
+    6576.11.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_96 = {
+    name = "Buttercup"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = lustful
+    trait = honest
+    trait = zealous
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 2
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_3
+
+    6529.10.11 = {
+        birth = yes
+    }
+
+    6612.11.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_97 = {
+    name = "Stynar"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_95
+    mother = wull_96
+
+    trait = trusting
+    trait = deceitful
+    trait = patient
+
+    diplomacy = 20
+    martial = 25
+    stewardship = 24
+    intrigue = 25
+    learning = 13
+    prowess = 20
+
+    trait = education_martial_4
+
+    6552.10.22 = {
+        birth = yes
+    }
+
+    6586.10.4 = {
+        add_spouse = wull_98
+    }
+
+    6636.12.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_98 = {
+    name = "Wynda"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = lazy
+    trait = brave
+    trait = impatient
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6569.4.17 = {
+        birth = yes
+    }
+
+    6649.12.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_99 = {
+    name = "Thorand"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_97
+    mother = wull_98
+
+    trait = generous
+    trait = gregarious
+    trait = content
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 6
+    intrigue = 10
+    learning = 8
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6598.11.15 = {
+        birth = yes
+    }
+
+    6632.9.13 = {
+        add_spouse = wull_100
+    }
+
+    6675.4.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_100 = {
+    name = "Jenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = paranoid
+    trait = humble
+    trait = arbitrary
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6615.6.27 = {
+        birth = yes
+    }
+
+    6700.7.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_101 = {
+    name = "Rory"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_99
+    mother = wull_100
+
+    trait = lazy
+    trait = temperate
+    trait = greedy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 10
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6632.2.22 = {
+        birth = yes
+    }
+
+    6655.1.5 = {
+        add_spouse = wull_102
+    }
+
+    6715.11.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_102 = {
+    name = "Ygritte"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = arrogant
+    trait = sadistic
+    trait = zealous
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 9
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    6638.2.1 = {
+        birth = yes
+    }
+
+    6695.8.28 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+wull_103 = {
+    name = "Oreg"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_101
+    mother = wull_102
+
+    trait = paranoid
+    trait = brave
+    trait = content
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 7
+    intrigue = 9
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6669.3.2 = {
+        birth = yes
+    }
+
+    6700.2.3 = {
+        add_spouse = wull_104
+    }
+
+    6711.4.10 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+wull_104 = {
+    name = "Gilny"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = ambitious
+    trait = wrathful
+    trait = fickle
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_4
+
+    6683.2.1 = {
+        birth = yes
+    }
+
+    6753.3.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_105 = {
+    name = "Joseth"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_103
+    mother = wull_104
+
+    trait = generous
+    trait = just
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 1
+    stewardship = 5
+    intrigue = 8
+    learning = 10
+    prowess = 9
+
+    trait = education_learning_4
+
+    6711.7.17 = {
+        birth = yes
+    }
+
+    6750.11.7 = {
+        add_spouse = wull_106
+    }
+
+    6793.7.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_106 = {
+    name = "Jonquil"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = generous
+    trait = compassionate
+    trait = humble
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6733.5.3 = {
+        birth = yes
+    }
+
+    6808.7.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_107 = {
+    name = "Farnor"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_105
+    mother = wull_106
+
+    trait = sadistic
+    trait = brave
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_4
+
+    6756.9.3 = {
+        birth = yes
+    }
+
+    6788.1.2 = {
+        add_spouse = wull_108
+    }
+
+    6823.5.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_108 = {
+    name = "Anesa"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = temperate
+    trait = zealous
+    trait = forgiving
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 1
+
+    trait = education_diplomacy_3
+
+    6771.7.27 = {
+        birth = yes
+    }
+
+    6842.8.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_109 = {
+    name = "Bjormir"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_107
+    mother = wull_108
+
+    trait = compassionate
+    trait = gregarious
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 3
+    intrigue = 5
+    learning = 3
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6800.7.28 = {
+        birth = yes
+    }
+
+    6816.7.20 = {
+        add_spouse = wull_110
+    }
+
+    6884.6.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_110 = {
+    name = "Maud"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = diligent
+    trait = arbitrary
+    trait = gluttonous
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6799.6.25 = {
+        birth = yes
+    }
+
+    6874.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_111 = {
+    name = "Caltram"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_109
+    mother = wull_110
+
+    trait = cynical
+    trait = stubborn
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 2
+
+    trait = education_diplomacy_2
+
+    6821.5.12 = {
+        birth = yes
+    }
+
+    6844.9.7 = {
+        add_spouse = wull_112
+    }
+
+    6893.6.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_112 = {
+    name = "Poppy"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = temperate
+    trait = fickle
+    trait = greedy
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 4
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6827.1.28 = {
+        birth = yes
+    }
+
+    6904.11.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_113 = {
+    name = "Quort"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_111
+    mother = wull_112
+
+    trait = humble
+    trait = deceitful
+    trait = shy
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 4
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6846.12.7 = {
+        birth = yes
+    }
+
+    6896.11.13 = {
+        add_spouse = wull_114
+    }
+
+    6912.12.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_114 = {
+    name = "Lily"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = gregarious
+    trait = arbitrary
+    trait = impatient
+
+    diplomacy = 1
+    martial = 6
+    stewardship = 8
+    intrigue = 4
+    learning = 5
+    prowess = 2
+
+    trait = education_stewardship_1
+
+    6879.7.4 = {
+        birth = yes
+    }
+
+    6949.12.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_115 = {
+    name = "Byll"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_113
+    mother = wull_114
+
+    trait = fickle
+    trait = just
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6897.1.19 = {
+        birth = yes
+    }
+
+    6935.8.8 = {
+        add_spouse = wull_116
+    }
+
+    6972.8.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_116 = {
+    name = "Mulberry"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = gregarious
+    trait = arrogant
+    trait = cynical
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_1
+
+    6918.6.16 = {
+        birth = yes
+    }
+
+    6984.11.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_117 = {
+    name = "Harma"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_115
+    mother = wull_116
+
+    trait = patient
+    trait = humble
+    trait = just
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_3
+
+    6936.3.24 = {
+        birth = yes
+    }
+
+    7009.3.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_118 = {
+    name = "Piney"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_115
+    mother = wull_116
+
+    trait = craven
+    trait = content
+    trait = humble
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 7
+    intrigue = 5
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_2
+
+    6940.9.13 = {
+        birth = yes
+    }
+
+    6952.10.21 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+wull_119 = {
+    name = "Ornmir"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_115
+    mother = wull_116
+
+    trait = gluttonous
+    trait = gregarious
+    trait = trusting
+
+    diplomacy = 11
+    martial = 7
+    stewardship = 5
+    intrigue = 3
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6942.11.12 = {
+        birth = yes
+    }
+
+    6963.8.11 = {
+        add_spouse = wull_120
+    }
+
+    6973.8.1 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+wull_120 = {
+    name = "Violet"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = wrathful
+    trait = lustful
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6946.11.4 = {
+        birth = yes
+    }
+
+    7014.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_121 = {
+    name = "Briar"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_119
+    mother = wull_120
+
+    trait = vengeful
+    trait = lazy
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_1
+
+    6966.8.15 = {
+        birth = yes
+    }
+
+    6993.4.14 = {
+        add_spouse = wull_122
+    }
+
+    7040.7.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_122 = {
+    name = "Kadie"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = diligent
+    trait = shy
+    trait = cynical
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 9
+    prowess = 8
+
+    trait = education_learning_4
+
+    6976.12.4 = {
+        birth = yes
+    }
+
+    7046.5.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_123 = {
+    name = "Lutrin"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_119
+    mother = wull_120
+
+    trait = gregarious
+    trait = compassionate
+    trait = lustful
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_3
+
+    6970.11.3 = {
+        birth = yes
+    }
+
+    7005.12.14 = {
+        add_spouse = wull_124
+    }
+
+    7043.2.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_124 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = gregarious
+    trait = patient
+    trait = ambitious
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 3
+    intrigue = 7
+    learning = 8
+    prowess = 2
+
+    trait = education_learning_3
+
+    6988.11.9 = {
+        birth = yes
+    }
+
+    7073.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_125 = {
+    name = "Ferny"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_113
+    mother = wull_114
+
+    trait = sadistic
+    trait = chaste
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_2
+
+    6899.1.26 = {
+        birth = yes
+    }
+
+    6965.4.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_126 = {
+    name = "Medger"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_113
+    mother = wull_114
+
+    trait = wrathful
+    trait = temperate
+    trait = cynical
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_4
+
+    6900.3.21 = {
+        birth = yes
+    }
+
+    6930.9.23 = {
+        add_spouse = wull_127
+    }
+
+    6972.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_127 = {
+    name = "Maple"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = content
+    trait = sadistic
+    trait = shy
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 7
+    intrigue = 1
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_3
+
+    6913.10.10 = {
+        birth = yes
+    }
+
+    6995.2.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_128 = {
+    name = "Kran"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_126
+    mother = wull_127
+
+    trait = lazy
+    trait = calm
+    trait = shy
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_1
+
+    6936.3.8 = {
+        birth = yes
+    }
+
+    6974.4.28 = {
+        add_spouse = wull_129
+    }
+
+    7016.11.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_129 = {
+    name = "Ash"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = sadistic
+    trait = greedy
+    trait = chaste
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 4
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_martial_2
+
+    6957.7.10 = {
+        birth = yes
+    }
+
+    7026.10.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_130 = {
+    name = "Toke"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_128
+    mother = wull_129
+
+    trait = just
+    trait = wrathful
+    trait = greedy
+
+    diplomacy = 8
+    martial = 11
+    stewardship = 5
+    intrigue = 4
+    learning = 11
+    prowess = 5
+
+    trait = education_martial_3
+
+    6996.5.1 = {
+        birth = yes
+    }
+
+    7010.1.1 = {
+        add_spouse = wull_131
+    }
+
+    7041.11.17 = {
+        death = { death_reason = death_mysterious  }
+    }
+}
+
+wull_131 = {
+    name = "Jenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = deceitful
+    trait = craven
+    trait = chaste
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_3
+
+    6993.8.10 = {
+        birth = yes
+    }
+
+    7078.1.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_132 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_126
+    mother = wull_127
+
+    trait = ambitious
+    trait = humble
+    trait = arbitrary
+
+    diplomacy = 9
+    martial = 10
+    stewardship = 4
+    intrigue = 2
+    learning = 6
+    prowess = 1
+
+    trait = education_martial_3
+
+    6937.5.5 = {
+        birth = yes
+    }
+
+    7020.9.28 = {
+        death = { death_reason = death_horse_riding_accident  }
+    }
+}
+
+wull_133 = {
+    name = "Ygon"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_126
+    mother = wull_127
+
+    trait = paranoid
+    trait = gregarious
+    trait = vengeful
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 4
+
+    trait = education_martial_3
+
+    6940.1.8 = {
+        birth = yes
+    }
+
+    6975.10.24 = {
+        add_spouse = wull_134
+    }
+
+    6985.9.6 = {
+        death = { death_reason = death_treatment }
+    }
+}
+
+wull_134 = {
+    name = "Dalla"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = arbitrary
+    trait = fickle
+    trait = callous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_2
+
+    6958.4.26 = {
+        birth = yes
+    }
+
+    7029.5.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_135 = {
+    name = "Skaval"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_133
+    mother = wull_134
+
+    trait = wrathful
+    trait = patient
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_3
+
+    6976.4.9 = {
+        birth = yes
+    }
+
+    6995.12.28 = {
+        add_spouse = wull_136
+    }
+
+    7054.6.3 = {
+        death = { death_reason = death_ended_on_feast_table  }
+    }
+}
+
+wull_136 = {
+    name = "Jonnela"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = wrathful
+    trait = shy
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 8
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6978.6.15 = {
+        birth = yes
+    }
+
+    7044.5.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_137 = {
+    name = "Ale"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_126
+    mother = wull_127
+
+    trait = sadistic
+    trait = diligent
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 1
+
+    trait = education_intrigue_4
+
+    6941.4.3 = {
+        birth = yes
+    }
+
+    6970.11.11 = {
+        add_spouse = wull_138
+    }
+
+    7022.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_138 = {
+    name = "Milly"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = wrathful
+    trait = arrogant
+    trait = content
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 9
+    intrigue = 9
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6953.9.11 = {
+        birth = yes
+    }
+
+    7032.7.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_139 = {
+    name = "Toran"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_137
+    mother = wull_138
+
+    trait = generous
+    trait = stubborn
+    trait = patient
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 3
+    intrigue = 1
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    6980.6.4 = {
+        birth = yes
+    }
+
+    7001.4.3 = {
+        add_spouse = wull_140
+    }
+
+    7050.12.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_140 = {
+    name = "Dana"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = honest
+    trait = lustful
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 8
+    intrigue = 5
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_3
+
+    6984.5.21 = {
+        birth = yes
+    }
+
+    7050.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_141 = {
+    name = "Caminda"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_137
+    mother = wull_138
+
+    trait = temperate
+    trait = trusting
+    trait = forgiving
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 6
+    intrigue = 8
+    learning = 8
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6989.8.20 = {
+        birth = yes
+    }
+
+    7059.2.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_142 = {
+    name = "Rosey"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_111
+    mother = wull_112
+
+    trait = zealous
+    trait = generous
+    trait = impatient
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 5
+    intrigue = 8
+    learning = 3
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6855.10.22 = {
+        birth = yes
+    }
+
+    6940.2.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_143 = {
+    name = "Davy"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_109
+    mother = wull_110
+
+    trait = humble
+    trait = lustful
+    trait = brave
+
+    diplomacy = 8
+    martial = 10
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_4
+
+    6822.3.9 = {
+        birth = yes
+    }
+
+    6862.6.13 = {
+        add_spouse = wull_144
+    }
+
+    6895.5.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_144 = {
+    name = "Fay"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = fickle
+    trait = ambitious
+    trait = lustful
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 11
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6845.12.22 = {
+        birth = yes
+    }
+
+    6912.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_145 = {
+    name = "Gariss"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_143
+    mother = wull_144
+
+    trait = gluttonous
+    trait = zealous
+    trait = honest
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 9
+    learning = 8
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    6869.5.18 = {
+        birth = yes
+    }
+
+    6891.12.7 = {
+        add_spouse = wull_146
+    }
+
+    6952.8.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_146 = {
+    name = "Ada"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = arrogant
+    trait = calm
+    trait = just
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 8
+    learning = 4
+    prowess = 3
+
+    trait = education_intrigue_2
+
+    6874.3.9 = {
+        birth = yes
+    }
+
+    6948.6.26 = {
+        death = { death_reason = death_poison  }
+    }
+}
+
+wull_147 = {
+    name = "Gerie"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_145
+    mother = wull_146
+
+    trait = chaste
+    trait = forgiving
+    trait = craven
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    6892.11.8 = {
+        birth = yes
+    }
+
+    6972.2.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_148 = {
+    name = "Gunnar"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_145
+    mother = wull_146
+
+    trait = gregarious
+    trait = compassionate
+    trait = stubborn
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6898.9.11 = {
+        birth = yes
+    }
+
+    6916.12.8 = {
+        add_spouse = wull_149
+    }
+
+    6972.8.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_149 = {
+    name = "Bryony"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = patient
+    trait = arrogant
+    trait = vengeful
+
+    diplomacy = 1
+    martial = 5
+    stewardship = 3
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    6899.8.16 = {
+        birth = yes
+    }
+
+    6974.1.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_150 = {
+    name = "Egil"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_148
+    mother = wull_149
+
+    trait = arbitrary
+    trait = generous
+    trait = fickle
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 8
+    intrigue = 9
+    learning = 3
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6922.2.3 = {
+        birth = yes
+    }
+
+    6945.5.26 = {
+        add_spouse = wull_151
+    }
+
+    7001.9.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_151 = {
+    name = "Rosey"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = trusting
+    trait = patient
+    trait = cynical
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 8
+    intrigue = 4
+    learning = 9
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6928.7.10 = {
+        birth = yes
+    }
+
+    7013.11.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_152 = {
+    name = "Karly"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_150
+    mother = wull_151
+
+    trait = shy
+    trait = vengeful
+    trait = just
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6956.12.28 = {
+        birth = yes
+    }
+
+    7035.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_153 = {
+    name = "Mors"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_150
+    mother = wull_151
+
+    trait = vengeful
+    trait = just
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_3
+
+    6961.12.21 = {
+        birth = yes
+    }
+
+    6994.9.3 = {
+        add_spouse = wull_154
+    }
+
+    7038.6.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_154 = {
+    name = "Anesa"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = trusting
+    trait = gluttonous
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 8
+    intrigue = 4
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6977.1.27 = {
+        birth = yes
+    }
+
+    7049.4.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_155 = {
+    name = "Devyn"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_148
+    mother = wull_149
+
+    trait = greedy
+    trait = arbitrary
+    trait = content
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_3
+
+    6923.12.26 = {
+        birth = yes
+    }
+
+    6964.1.2 = {
+        add_spouse = wull_156
+    }
+
+    6990.7.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_156 = {
+    name = "Nanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = generous
+    trait = compassionate
+    trait = stubborn
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 11
+    prowess = 6
+
+    trait = education_learning_4
+
+    6947.9.22 = {
+        birth = yes
+    }
+
+    7015.5.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_157 = {
+    name = "Dalthi"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_155
+    mother = wull_156
+
+    trait = stubborn
+    trait = generous
+    trait = craven
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    6966.3.11 = {
+        birth = yes
+    }
+
+    7045.8.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_158 = {
+    name = "Gilly"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_155
+    mother = wull_156
+
+    trait = gluttonous
+    trait = deceitful
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6969.12.28 = {
+        birth = yes
+    }
+
+    7045.8.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_159 = {
+    name = "Daran"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_155
+    mother = wull_156
+
+    trait = gregarious
+    trait = callous
+    trait = greedy
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 4
+    intrigue = 4
+    learning = 2
+    prowess = 7
+
+    trait = education_martial_4
+
+    6974.8.16 = {
+        birth = yes
+    }
+
+    7001.1.7 = {
+        add_spouse = wull_160
+    }
+
+    7053.11.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_160 = {
+    name = "Slaine"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = stubborn
+    trait = temperate
+    trait = lazy
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 2
+    intrigue = 5
+    learning = 4
+    prowess = 10
+
+    trait = education_diplomacy_2
+
+    6984.9.9 = {
+        birth = yes
+    }
+
+    7068.3.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_161 = {
+    name = "Elen"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_155
+    mother = wull_156
+
+    trait = wrathful
+    trait = gluttonous
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 1
+    stewardship = 7
+    intrigue = 10
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6977.8.9 = {
+        birth = yes
+    }
+
+    7044.11.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_162 = {
+    name = "Manath"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_148
+    mother = wull_149
+
+    trait = calm
+    trait = gregarious
+    trait = just
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6927.10.24 = {
+        birth = yes
+    }
+
+    6942.2.11 = {
+        add_spouse = wull_163
+    }
+
+    6997.9.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_163 = {
+    name = "Cedara"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = diligent
+    trait = compassionate
+    trait = content
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6925.11.18 = {
+        birth = yes
+    }
+
+    6998.10.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_164 = {
+    name = "Egil"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_162
+    mother = wull_163
+
+    trait = impatient
+    trait = stubborn
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 8
+    intrigue = 8
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_1
+
+    6949.9.8 = {
+        birth = yes
+    }
+
+    6950.4.3 = {
+        give_nickname = nick_the_theologian
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6980.11.12 = {
+        add_spouse = wull_165
+    }
+
+    7029.12.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_165 = {
+    name = "Hilde"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = stubborn
+    trait = brave
+    trait = wrathful
+
+    diplomacy = 9
+    martial = 3
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6963.12.25 = {
+        birth = yes
+    }
+
+    7033.3.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_166 = {
+    name = "Canan"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_162
+    mother = wull_163
+
+    trait = lazy
+    trait = arrogant
+    trait = shy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_3
+
+    6952.8.4 = {
+        birth = yes
+    }
+
+    6971.3.9 = {
+        add_spouse = wull_167
+    }
+
+    7019.5.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_167 = {
+    name = "Cedara"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = trusting
+    trait = vengeful
+    trait = patient
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 6
+    intrigue = 9
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6954.11.23 = {
+        birth = yes
+    }
+
+    7038.7.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_168 = {
+    name = "Anesa"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_162
+    mother = wull_163
+
+    trait = impatient
+    trait = brave
+    trait = humble
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 10
+    learning = 8
+    prowess = 2
+
+    trait = education_intrigue_1
+
+    6953.6.14 = {
+        birth = yes
+    }
+
+    7032.6.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_169 = {
+    name = "Styrnor"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_148
+    mother = wull_149
+
+    trait = ambitious
+    trait = stubborn
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 2
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6929.2.18 = {
+        birth = yes
+    }
+
+    6957.8.11 = {
+        add_spouse = wull_170
+    }
+
+    6967.4.9 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+wull_170 = {
+    name = "Bryony"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = arrogant
+    trait = temperate
+    trait = gregarious
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 2
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6940.4.27 = {
+        birth = yes
+    }
+
+    7021.3.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_171 = {
+    name = "Shona"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_169
+    mother = wull_170
+
+    trait = paranoid
+    trait = arbitrary
+    trait = craven
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 6
+    intrigue = 9
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_2
+
+    6957.6.23 = {
+        birth = yes
+    }
+
+    7026.4.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_172 = {
+    name = "Aragr"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_169
+    mother = wull_170
+
+    trait = greedy
+    trait = arrogant
+    trait = patient
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 9
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6958.4.1 = {
+        birth = yes
+    }
+
+    6998.8.6 = {
+        add_spouse = wull_173
+    }
+
+    7030.10.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_173 = {
+    name = "Morvana"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = generous
+    trait = content
+    trait = craven
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 10
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6981.10.25 = {
+        birth = yes
+    }
+
+    7050.8.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_174 = {
+    name = "Ardle"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_169
+    mother = wull_170
+
+    trait = stubborn
+    trait = sadistic
+    trait = trusting
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 8
+    learning = 8
+    prowess = 10
+
+    trait = education_stewardship_3
+
+    6961.6.28 = {
+        birth = yes
+    }
+
+    7006.8.11 = {
+        add_spouse = wull_175
+    }
+
+    7028.12.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_175 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = vengeful
+    trait = paranoid
+    trait = humble
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 6
+    intrigue = 9
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_4
+
+    6989.11.27 = {
+        birth = yes
+    }
+
+    7059.4.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_176 = {
+    name = "Owen"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_145
+    mother = wull_146
+
+    trait = honest
+    trait = temperate
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_4
+
+    6900.11.14 = {
+        birth = yes
+    }
+
+    6921.4.23 = {
+        add_spouse = wull_177
+    }
+
+    6972.1.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_177 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = zealous
+    trait = forgiving
+    trait = fickle
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 10
+    learning = 7
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6904.11.5 = {
+        birth = yes
+    }
+
+    6985.9.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_178 = {
+    name = "Spruce"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_176
+    mother = wull_177
+
+    trait = greedy
+    trait = compassionate
+    trait = diligent
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 10
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6932.6.23 = {
+        birth = yes
+    }
+
+    7015.7.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_179 = {
+    name = "Thom"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_176
+    mother = wull_177
+
+    trait = shy
+    trait = greedy
+    trait = impatient
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_2
+
+    6939.9.10 = {
+        birth = yes
+    }
+
+    6978.4.11 = {
+        add_spouse = wull_180
+    }
+
+    6988.2.25 = {
+        death = { death_reason = death_cloven_in_half }
+    }
+}
+
+wull_180 = {
+    name = "Ynness"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = paranoid
+    trait = compassionate
+    trait = greedy
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 6
+    intrigue = 3
+    learning = 2
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6961.3.13 = {
+        birth = yes
+    }
+
+    7027.12.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_181 = {
+    name = "Toregg"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_179
+    mother = wull_180
+
+    trait = shy
+    trait = craven
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_3
+
+    6979.7.10 = {
+        birth = yes
+    }
+
+    7013.6.5 = {
+        add_spouse = wull_182
+    }
+
+    7035.4.14 = {
+        death = { death_reason = death_maimed }
+    }
+}
+
+wull_182 = {
+    name = "Tansy"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = zealous
+    trait = greedy
+    trait = callous
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 7
+    intrigue = 3
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6996.1.9 = {
+        birth = yes
+    }
+
+    7028.6.4 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+wull_183 = {
+    name = "Berta"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_179
+    mother = wull_180
+
+    trait = impatient
+    trait = trusting
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    6981.3.10 = {
+        birth = yes
+    }
+
+    7050.2.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_184 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_179
+    mother = wull_180
+
+    trait = patient
+    trait = diligent
+    trait = chaste
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6984.3.26 = {
+        birth = yes
+    }
+
+    7063.4.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_185 = {
+    name = "Karlon"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_145
+    mother = wull_146
+
+    trait = lustful
+    trait = arbitrary
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6905.1.6 = {
+        birth = yes
+    }
+
+    6937.9.7 = {
+        add_spouse = wull_186
+    }
+
+    6980.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_186 = {
+    name = "Rela"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = temperate
+    trait = just
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6920.2.5 = {
+        birth = yes
+    }
+
+    6997.7.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_187 = {
+    name = "Bonny"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_185
+    mother = wull_186
+
+    trait = humble
+    trait = brave
+    trait = zealous
+
+    diplomacy = 2
+    martial = 9
+    stewardship = 7
+    intrigue = 3
+    learning = 6
+    prowess = 9
+
+    trait = education_martial_2
+
+    6940.12.15 = {
+        birth = yes
+    }
+
+    7010.10.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_188 = {
+    name = "Mikken"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_185
+    mother = wull_186
+
+    trait = diligent
+    trait = fickle
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    6944.10.2 = {
+        birth = yes
+    }
+
+    6973.1.11 = {
+        add_spouse = wull_189
+    }
+
+    7011.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_189 = {
+    name = "Tyka"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = content
+    trait = chaste
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6956.5.12 = {
+        birth = yes
+    }
+
+    7025.10.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_190 = {
+    name = "Noll"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_188
+    mother = wull_189
+
+    trait = impatient
+    trait = generous
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 9
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6978.2.1 = {
+        birth = yes
+    }
+
+    7021.1.19 = {
+        add_spouse = wull_191
+    }
+
+    7049.2.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_191 = {
+    name = "Spruce"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = arrogant
+    trait = chaste
+    trait = lazy
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 3
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    7004.2.1 = {
+        birth = yes
+    }
+
+    7071.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_192 = {
+    name = "Berny"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_188
+    mother = wull_189
+
+    trait = deceitful
+    trait = chaste
+    trait = callous
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 10
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6982.4.12 = {
+        birth = yes
+    }
+
+    7064.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_193 = {
+    name = "Skagni"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_188
+    mother = wull_189
+
+    trait = lazy
+    trait = arrogant
+    trait = cynical
+
+    diplomacy = 11
+    martial = 6
+    stewardship = 3
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6987.4.7 = {
+        birth = yes
+    }
+
+    7017.1.7 = {
+        add_spouse = wull_194
+    }
+
+    7055.6.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_194 = {
+    name = "Seva"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = gluttonous
+    trait = generous
+    trait = impatient
+
+    diplomacy = 9
+    martial = 10
+    stewardship = 3
+    intrigue = 6
+    learning = 11
+    prowess = 6
+
+    trait = education_learning_3
+
+    7000.1.14 = {
+        birth = yes
+    }
+
+    7069.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_195 = {
+    name = "Svenar"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_188
+    mother = wull_189
+
+    trait = brave
+    trait = compassionate
+    trait = stubborn
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 10
+    intrigue = 7
+    learning = 10
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    6989.1.20 = {
+        birth = yes
+    }
+
+    7027.12.8 = {
+        add_spouse = wull_196
+    }
+
+    7066.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_196 = {
+    name = "Lupina"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = temperate
+    trait = diligent
+    trait = lustful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    7010.12.14 = {
+        birth = yes
+    }
+
+    7076.4.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_197 = {
+    name = "Davi"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_185
+    mother = wull_186
+
+    trait = arbitrary
+    trait = diligent
+    trait = trusting
+
+    diplomacy = 2
+    martial = 9
+    stewardship = 4
+    intrigue = 7
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_3
+
+    6945.2.23 = {
+        birth = yes
+    }
+
+    7024.5.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_198 = {
+    name = "Stilner"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_185
+    mother = wull_186
+
+    trait = patient
+    trait = humble
+    trait = lustful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 10
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6948.6.14 = {
+        birth = yes
+    }
+
+    6975.4.21 = {
+        add_spouse = wull_199
+    }
+
+    6985.11.26 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+wull_199 = {
+    name = "Nuala"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = honest
+    trait = cynical
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 8
+
+    trait = education_stewardship_1
+
+    6958.9.11 = {
+        birth = yes
+    }
+
+    7041.10.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_200 = {
+    name = "Alys"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_198
+    mother = wull_199
+
+    trait = lustful
+    trait = sadistic
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 9
+    intrigue = 4
+    learning = 5
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    6976.8.18 = {
+        birth = yes
+    }
+
+    7027.5.4 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+wull_201 = {
+    name = "Jonquil"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_198
+    mother = wull_199
+
+    trait = gregarious
+    trait = calm
+    trait = callous
+
+    diplomacy = 10
+    martial = 9
+    stewardship = 5
+    intrigue = 7
+    learning = 9
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6978.2.10 = {
+        birth = yes
+    }
+
+    7044.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_202 = {
+    name = "Bili"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_198
+    mother = wull_199
+
+    trait = patient
+    trait = callous
+    trait = chaste
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 8
+    learning = 4
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6980.2.6 = {
+        birth = yes
+    }
+
+    7007.12.27 = {
+        add_spouse = wull_203
+    }
+
+    7017.1.24 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+wull_203 = {
+    name = "Nuala"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = generous
+    trait = chaste
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 11
+    learning = 9
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    6990.2.18 = {
+        birth = yes
+    }
+
+    7030.11.9 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+wull_204 = {
+    name = "Rhodry"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_143
+    mother = wull_144
+
+    trait = trusting
+    trait = diligent
+    trait = lustful
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 6
+    intrigue = 8
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6872.6.18 = {
+        birth = yes
+    }
+
+    6894.9.20 = {
+        add_spouse = wull_205
+    }
+
+    6942.12.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_205 = {
+    name = "Ingiren"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = arrogant
+    trait = lustful
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 9
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6877.9.16 = {
+        birth = yes
+    }
+
+    6955.3.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_206 = {
+    name = "Jyk"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_204
+    mother = wull_205
+
+    trait = arrogant
+    trait = brave
+    trait = trusting
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 3
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6897.2.25 = {
+        birth = yes
+    }
+
+    6928.2.2 = {
+        add_spouse = wull_207
+    }
+
+    6944.4.10 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+wull_207 = {
+    name = "Lobelia"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = cynical
+    trait = impatient
+    trait = gluttonous
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 2
+    intrigue = 5
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6911.6.20 = {
+        birth = yes
+    }
+
+    6988.4.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_208 = {
+    name = "Cassia"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_206
+    mother = wull_207
+
+    trait = gluttonous
+    trait = brave
+    trait = lazy
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 2
+
+    trait = education_diplomacy_3
+
+    6932.7.13 = {
+        birth = yes
+    }
+
+    7000.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_209 = {
+    name = "Ryka"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_206
+    mother = wull_207
+
+    trait = deceitful
+    trait = wrathful
+    trait = content
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 9
+    learning = 2
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    6936.3.3 = {
+        birth = yes
+    }
+
+    7007.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_210 = {
+    name = "Stek"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_206
+    mother = wull_207
+
+    trait = humble
+    trait = impatient
+    trait = vengeful
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 8
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    6937.2.16 = {
+        birth = yes
+    }
+
+    6975.3.28 = {
+        add_spouse = wull_211
+    }
+
+    6985.6.16 = {
+        death = { death_reason = death_great_pox }
+    }
+}
+
+wull_211 = {
+    name = "Pansy"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = just
+    trait = arrogant
+    trait = sadistic
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_2
+
+    6958.5.22 = {
+        birth = yes
+    }
+
+    7028.5.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_212 = {
+    name = "Tore"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_210
+    mother = wull_211
+
+    trait = paranoid
+    trait = fickle
+    trait = zealous
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_2
+
+    6976.6.8 = {
+        birth = yes
+    }
+
+    7001.2.22 = {
+        add_spouse = wull_213
+    }
+
+    7048.9.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_213 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = arrogant
+    trait = generous
+    trait = craven
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 3
+    intrigue = 5
+    learning = 4
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6984.10.28 = {
+        birth = yes
+    }
+
+    7011.3.17 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+wull_214 = {
+    name = "Goran"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_210
+    mother = wull_211
+
+    trait = calm
+    trait = patient
+    trait = callous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 9
+
+    trait = education_intrigue_4
+
+    6977.10.28 = {
+        birth = yes
+    }
+
+    7002.3.21 = {
+        add_spouse = wull_215
+    }
+
+    7050.2.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_215 = {
+    name = "Jez"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = vengeful
+    trait = cynical
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_2
+
+    6985.6.8 = {
+        birth = yes
+    }
+
+    7066.10.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_216 = {
+    name = "Milly"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_210
+    mother = wull_211
+
+    trait = generous
+    trait = craven
+    trait = patient
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6978.6.5 = {
+        birth = yes
+    }
+
+    7058.5.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_217 = {
+    name = "Ally"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_204
+    mother = wull_205
+
+    trait = generous
+    trait = gregarious
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 10
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6904.1.23 = {
+        birth = yes
+    }
+
+    6983.1.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_218 = {
+    name = "Joseth"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_204
+    mother = wull_205
+
+    trait = honest
+    trait = shy
+    trait = diligent
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 8
+    intrigue = 9
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6908.3.2 = {
+        birth = yes
+    }
+
+    6928.7.2 = {
+        add_spouse = wull_219
+    }
+
+    6961.6.14 = {
+        death = { death_reason = death_viciously_dismembered }
+    }
+}
+
+wull_219 = {
+    name = "Nelna"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = humble
+    trait = fickle
+    trait = impatient
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    6911.7.2 = {
+        birth = yes
+    }
+
+    6980.10.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_220 = {
+    name = "Naregg"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_218
+    mother = wull_219
+
+    trait = callous
+    trait = content
+    trait = temperate
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 6
+    intrigue = 9
+    learning = 3
+    prowess = 6
+
+    trait = education_martial_2
+
+    6933.9.23 = {
+        birth = yes
+    }
+
+    6970.7.15 = {
+        add_spouse = wull_221
+    }
+
+    7017.9.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_221 = {
+    name = "Buttercup"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = chaste
+    trait = honest
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 10
+    intrigue = 4
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6953.11.6 = {
+        birth = yes
+    }
+
+    7035.5.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_222 = {
+    name = "Tormun"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_220
+    mother = wull_221
+
+    trait = just
+    trait = impatient
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 9
+    learning = 6
+    prowess = 1
+
+    trait = education_intrigue_4
+
+    6977.9.11 = {
+        birth = yes
+    }
+
+    7020.5.8 = {
+        add_spouse = wull_223
+    }
+
+    7030.5.10 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+wull_223 = {
+    name = "Ynness"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = shy
+    trait = brave
+    trait = zealous
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 4
+    intrigue = 5
+    learning = 8
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    7003.10.25 = {
+        birth = yes
+    }
+
+    7058.1.8 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+wull_224 = {
+    name = "Berta"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_220
+    mother = wull_221
+
+    trait = chaste
+    trait = temperate
+    trait = shy
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    6980.3.24 = {
+        birth = yes
+    }
+
+    7051.11.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_225 = {
+    name = "Poppy"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_220
+    mother = wull_221
+
+    trait = fickle
+    trait = calm
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_3
+
+    6983.5.17 = {
+        birth = yes
+    }
+
+    7062.4.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_226 = {
+    name = "Gred"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_220
+    mother = wull_221
+
+    trait = wrathful
+    trait = stubborn
+    trait = temperate
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_2
+
+    6984.11.18 = {
+        birth = yes
+    }
+
+    6999.12.7 = {
+        add_spouse = wull_227
+    }
+
+    7014.6.20 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+wull_227 = {
+    name = "Lobelia"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = brave
+    trait = callous
+    trait = content
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 3
+    prowess = 8
+
+    trait = education_martial_3
+
+    6982.4.2 = {
+        birth = yes
+    }
+
+    7051.9.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_228 = {
+    name = "Dyre"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_204
+    mother = wull_205
+
+    trait = cynical
+    trait = craven
+    trait = shy
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 3
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6909.11.7 = {
+        birth = yes
+    }
+
+    6948.12.21 = {
+        add_spouse = wull_229
+    }
+
+    6980.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_229 = {
+    name = "Betony"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = just
+    trait = gregarious
+    trait = fickle
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6931.2.20 = {
+        birth = yes
+    }
+
+    7001.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_230 = {
+    name = "Geir"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_228
+    mother = wull_229
+
+    trait = cynical
+    trait = callous
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 3
+    prowess = 6
+
+    trait = education_martial_2
+
+    6955.8.18 = {
+        birth = yes
+    }
+
+    6991.8.23 = {
+        add_spouse = wull_231
+    }
+
+    7035.4.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_231 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = honest
+    trait = patient
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6974.5.16 = {
+        birth = yes
+    }
+
+    7001.9.17 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+wull_232 = {
+    name = "Harigg"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_230
+    mother = wull_231
+
+    trait = chaste
+    trait = cynical
+    trait = impatient
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6991.8.12 = {
+        birth = yes
+    }
+
+    7013.3.23 = {
+        add_spouse = wull_233
+    }
+
+    7069.6.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_233 = {
+    name = "Astera"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = gregarious
+    trait = diligent
+    trait = generous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 11
+    learning = 5
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    6996.3.15 = {
+        birth = yes
+    }
+
+    7078.10.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_234 = {
+    name = "Willow"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_230
+    mother = wull_231
+
+    trait = cynical
+    trait = just
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 10
+
+    trait = education_learning_3
+
+    6992.4.19 = {
+        birth = yes
+    }
+
+    7076.10.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_235 = {
+    name = "Valmund"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_230
+    mother = wull_231
+
+    trait = honest
+    trait = forgiving
+    trait = generous
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 2
+    learning = 8
+    prowess = 10
+
+    trait = education_learning_4
+
+    6993.6.20 = {
+        birth = yes
+    }
+
+    7021.11.11 = {
+        add_spouse = wull_236
+    }
+
+    7068.1.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_236 = {
+    name = "Beth"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = sadistic
+    trait = just
+    trait = cynical
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 3
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    7004.6.15 = {
+        birth = yes
+    }
+
+    7074.7.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_237 = {
+    name = "Sara"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_230
+    mother = wull_231
+
+    trait = generous
+    trait = honest
+    trait = lazy
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 9
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    6994.7.22 = {
+        birth = yes
+    }
+
+    7068.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_238 = {
+    name = "Durila"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_228
+    mother = wull_229
+
+    trait = honest
+    trait = compassionate
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_3
+
+    6966.10.11 = {
+        birth = yes
+    }
+
+    7047.1.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_239 = {
+    name = "Gorigar"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_143
+    mother = wull_144
+
+    trait = brave
+    trait = arbitrary
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6875.10.23 = {
+        birth = yes
+    }
+
+    6923.4.21 = {
+        add_spouse = wull_240
+    }
+
+    6941.2.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_240 = {
+    name = "Ynny"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = compassionate
+    trait = temperate
+    trait = diligent
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 2
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_learning_4
+
+    6906.7.28 = {
+        birth = yes
+    }
+
+    6987.1.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_241 = {
+    name = "Cedara"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_239
+    mother = wull_240
+
+    trait = temperate
+    trait = trusting
+    trait = lustful
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_2
+
+    6926.12.5 = {
+        birth = yes
+    }
+
+    6995.12.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_242 = {
+    name = "Kadie"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_239
+    mother = wull_240
+
+    trait = fickle
+    trait = lazy
+    trait = chaste
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 2
+
+    trait = education_diplomacy_3
+
+    6927.1.5 = {
+        birth = yes
+    }
+
+    7001.12.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_243 = {
+    name = "Balkar"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_239
+    mother = wull_240
+
+    trait = callous
+    trait = arbitrary
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 9
+
+    trait = education_martial_3
+
+    6929.7.6 = {
+        birth = yes
+    }
+
+    6946.7.20 = {
+        add_spouse = wull_244
+    }
+
+    7013.9.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_244 = {
+    name = "Erika"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = arbitrary
+    trait = callous
+    trait = shy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 2
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6929.6.17 = {
+        birth = yes
+    }
+
+    6977.5.19 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+wull_245 = {
+    name = "Harma"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_243
+    mother = wull_244
+
+    trait = shy
+    trait = impatient
+    trait = zealous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 8
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    6947.9.11 = {
+        birth = yes
+    }
+
+    7013.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_246 = {
+    name = "Skaval"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_243
+    mother = wull_244
+
+    trait = impatient
+    trait = greedy
+    trait = content
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6954.11.20 = {
+        birth = yes
+    }
+
+    6980.6.1 = {
+        add_spouse = wull_247
+    }
+
+    7026.12.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_247 = {
+    name = "Zia"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = stubborn
+    trait = arrogant
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 8
+    intrigue = 7
+    learning = 3
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6963.6.25 = {
+        birth = yes
+    }
+
+    7035.11.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_248 = {
+    name = "Oreg"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_246
+    mother = wull_247
+
+    trait = callous
+    trait = brave
+    trait = humble
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 3
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    7003.6.1 = {
+        birth = yes
+    }
+
+    7044.12.21 = {
+        add_spouse = wull_249
+    }
+
+    7079.6.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_249 = {
+    name = "Nanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = gluttonous
+    trait = content
+    trait = impatient
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_2
+
+    7027.1.12 = {
+        birth = yes
+    }
+
+    7094.5.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_250 = {
+    name = "Laurel"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_243
+    mother = wull_244
+
+    trait = ambitious
+    trait = trusting
+    trait = arbitrary
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 2
+
+    trait = education_learning_3
+
+    6960.4.11 = {
+        birth = yes
+    }
+
+    7031.8.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_251 = {
+    name = "Nanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_109
+    mother = wull_110
+
+    trait = compassionate
+    trait = just
+    trait = calm
+
+    diplomacy = 10
+    martial = 2
+    stewardship = 8
+    intrigue = 1
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6825.8.9 = {
+        birth = yes
+    }
+
+    6897.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_252 = {
+    name = "Toran"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_109
+    mother = wull_110
+
+    trait = humble
+    trait = stubborn
+    trait = impatient
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_2
+
+    6828.12.18 = {
+        birth = yes
+    }
+
+    6848.3.2 = {
+        add_spouse = wull_253
+    }
+
+    6898.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_253 = {
+    name = "Violet"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = forgiving
+    trait = chaste
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6831.6.14 = {
+        birth = yes
+    }
+
+    6904.6.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_254 = {
+    name = "Gede"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_252
+    mother = wull_253
+
+    trait = honest
+    trait = gregarious
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6854.3.7 = {
+        birth = yes
+    }
+
+    6896.10.22 = {
+        add_spouse = wull_255
+    }
+
+    6921.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_255 = {
+    name = "Gilny"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = lazy
+    trait = gregarious
+    trait = greedy
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6879.7.12 = {
+        birth = yes
+    }
+
+    6952.11.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_256 = {
+    name = "Varamyr"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_254
+    mother = wull_255
+
+    trait = compassionate
+    trait = lazy
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 3
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_2
+
+    6909.2.22 = {
+        birth = yes
+    }
+
+    6950.1.10 = {
+        add_spouse = wull_257
+    }
+
+    6960.9.22 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+wull_257 = {
+    name = "Dalthi"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = stubborn
+    trait = impatient
+    trait = temperate
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 10
+
+    trait = education_intrigue_3
+
+    6933.4.27 = {
+        birth = yes
+    }
+
+    7013.1.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_258 = {
+    name = "Soren"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_256
+    mother = wull_257
+
+    trait = patient
+    trait = greedy
+    trait = temperate
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 2
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6950.8.26 = {
+        birth = yes
+    }
+
+    6989.3.18 = {
+        add_spouse = wull_259
+    }
+
+    7028.11.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_259 = {
+    name = "Yarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = wrathful
+    trait = fickle
+    trait = temperate
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 9
+    intrigue = 5
+    learning = 3
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6972.2.18 = {
+        birth = yes
+    }
+
+    7049.2.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_260 = {
+    name = "Isyger"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_258
+    mother = wull_259
+
+    trait = generous
+    trait = patient
+    trait = craven
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 2
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_3
+
+    6989.10.27 = {
+        birth = yes
+    }
+
+    7037.3.27 = {
+        add_spouse = wull_261
+    }
+
+    7059.12.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_261 = {
+    name = "Ysilla"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = compassionate
+    trait = trusting
+    trait = zealous
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 10
+    learning = 8
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    7020.9.26 = {
+        birth = yes
+    }
+
+    7090.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_262 = {
+    name = "Craster"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_258
+    mother = wull_259
+
+    trait = lustful
+    trait = trusting
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 2
+    intrigue = 9
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6998.8.7 = {
+        birth = yes
+    }
+
+    7043.10.26 = {
+        add_spouse = wull_263
+    }
+
+    7053.10.27 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+wull_263 = {
+    name = "Ivy"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = sadistic
+    trait = craven
+    trait = patient
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 9
+    intrigue = 8
+    learning = 5
+    prowess = 10
+
+    trait = education_stewardship_4
+
+    7026.9.19 = {
+        birth = yes
+    }
+
+    7103.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_264 = {
+    name = "Willa"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_256
+    mother = wull_257
+
+    trait = chaste
+    trait = zealous
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 3
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6952.7.6 = {
+        birth = yes
+    }
+
+    7023.5.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_265 = {
+    name = "Bagir"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_256
+    mother = wull_257
+
+    trait = forgiving
+    trait = chaste
+    trait = lazy
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 9
+
+    trait = education_martial_3
+
+    6953.11.1 = {
+        birth = yes
+    }
+
+    6969.10.8 = {
+        add_spouse = wull_266
+    }
+
+    7025.10.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_266 = {
+    name = "Bells"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = paranoid
+    trait = diligent
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 9
+    intrigue = 4
+    learning = 9
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6952.2.21 = {
+        birth = yes
+    }
+
+    7021.12.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_267 = {
+    name = "Barr"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_265
+    mother = wull_266
+
+    trait = forgiving
+    trait = gluttonous
+    trait = stubborn
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 8
+    intrigue = 10
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6973.5.17 = {
+        birth = yes
+    }
+
+    7001.3.5 = {
+        add_spouse = wull_268
+    }
+
+    7051.8.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_268 = {
+    name = "Jackey"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = fickle
+    trait = chaste
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 9
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6984.12.15 = {
+        birth = yes
+    }
+
+    7062.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_269 = {
+    name = "Rela"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_256
+    mother = wull_257
+
+    trait = content
+    trait = patient
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 6
+    intrigue = 8
+    learning = 3
+    prowess = 11
+
+    trait = education_martial_3
+
+    6955.2.15 = {
+        birth = yes
+    }
+
+    7022.5.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_270 = {
+    name = "Bonny"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_252
+    mother = wull_253
+
+    trait = fickle
+    trait = diligent
+    trait = ambitious
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 8
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6860.4.14 = {
+        birth = yes
+    }
+
+    6929.5.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_271 = {
+    name = "Joran"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_252
+    mother = wull_253
+
+    trait = paranoid
+    trait = content
+    trait = lazy
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_martial_2
+
+    6864.7.12 = {
+        birth = yes
+    }
+
+    6891.7.16 = {
+        add_spouse = wull_272
+    }
+
+    6949.12.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_272 = {
+    name = "Kadie"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = stubborn
+    trait = cynical
+    trait = lazy
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 4
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_4
+
+    6874.11.12 = {
+        birth = yes
+    }
+
+    6948.9.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_273 = {
+    name = "Yarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_271
+    mother = wull_272
+
+    trait = sadistic
+    trait = fickle
+    trait = temperate
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_2
+
+    6891.8.26 = {
+        birth = yes
+    }
+
+    6958.1.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_274 = {
+    name = "Stek"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_271
+    mother = wull_272
+
+    trait = just
+    trait = ambitious
+    trait = chaste
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 9
+    intrigue = 9
+    learning = 8
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6897.5.15 = {
+        birth = yes
+    }
+
+    6937.2.7 = {
+        add_spouse = wull_275
+    }
+
+    6964.11.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_275 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = lazy
+    trait = ambitious
+    trait = zealous
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6920.1.24 = {
+        birth = yes
+    }
+
+    6993.11.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_276 = {
+    name = "Nord"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_274
+    mother = wull_275
+
+    trait = fickle
+    trait = wrathful
+    trait = callous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 11
+    prowess = 4
+
+    trait = education_learning_4
+
+    6947.5.8 = {
+        birth = yes
+    }
+
+    6980.8.5 = {
+        add_spouse = wull_277
+    }
+
+    7029.6.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_277 = {
+    name = "Beth"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = temperate
+    trait = vengeful
+    trait = honest
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 10
+
+    trait = education_martial_2
+
+    6963.12.8 = {
+        birth = yes
+    }
+
+    7048.10.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_278 = {
+    name = "Davy"
+
+    dynasty = dynasty_wull
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_276
+    mother = wull_277
+
+    trait = zealous
+    trait = calm
+    trait = diligent
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6988.4.23 = {
+        birth = yes
+    }
+
+    7020.12.8 = {
+        add_spouse = wull_279
+    }
+
+    7059.8.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_279 = {
+    name = "Gilly"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = vengeful
+    trait = humble
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 4
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    7003.9.21 = {
+        birth = yes
+    }
+
+    7075.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_280 = {
+    name = "Murron"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_274
+    mother = wull_275
+
+    trait = paranoid
+    trait = diligent
+    trait = brave
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6954.5.24 = {
+        birth = yes
+    }
+
+    7028.8.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wull_281 = {
+    name = "Clary"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = wull_252
+    mother = wull_253
+
+    trait = wrathful
+    trait = impatient
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    6866.10.28 = {
+        birth = yes
+    }
+
+    6901.12.6 = {
+        death = { death_reason = death_plotting  }
+    }
+}
