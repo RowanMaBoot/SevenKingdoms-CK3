@@ -227,20 +227,5 @@ old_gods_religion = {
 			doctrine = tenet_ritual_cannibalism
 			doctrine = tenet_esotericism
 		}
-		the_old_gods_white = {
-			color = { 0.39 0.39 0.39 }
-			icon = old_gods_main
-			reformed_icon = old_gods_main
-
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_ritual_cannibalism
-			doctrine = tenet_esotericism
-
-			doctrine_selection_pair = {
-				requires_dlc_flag = the_northern_lords
-				doctrine = tenet_gruesome_festivals
-				fallback_doctrine = tenet_human_sacrifice
-			}
-		}
 	}
 }
