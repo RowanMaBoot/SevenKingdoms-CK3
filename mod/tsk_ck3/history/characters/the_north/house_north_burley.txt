@@ -1,0 +1,4666 @@
+burley_1 = {
+    name = "Leck"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = calm
+    trait = trusting
+    trait = chaste
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 3
+    intrigue = 7
+    learning = 9
+    prowess = 11
+
+    trait = education_learning_3
+
+    4450.9.23 = {
+        birth = yes
+    }
+
+    4485.10.3 = {
+        add_spouse = burley_2
+    }
+
+    4495.2.18 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+burley_2 = {
+    name = "Flora"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = forgiving
+    trait = just
+    trait = paranoid
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 9
+    intrigue = 7
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    4468.1.17 = {
+        birth = yes
+    }
+
+    4538.10.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_3 = {
+    name = "Tyk"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_1
+    mother = burley_2
+
+    trait = content
+    trait = diligent
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 3
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    4495.12.10 = {
+        birth = yes
+    }
+
+    4521.12.4 = {
+        add_spouse = burley_4
+    }
+
+    4577.9.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_4 = {
+    name = "Rosey"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = zealous
+    trait = wrathful
+    trait = brave
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 7
+    intrigue = 8
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_2
+
+    4504.10.12 = {
+        birth = yes
+    }
+
+    4583.7.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_5 = {
+    name = "Galem"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_3
+    mother = burley_4
+
+    trait = ambitious
+    trait = callous
+    trait = stubborn
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    4522.12.5 = {
+        birth = yes
+    }
+
+    4523.7.9 = {
+        give_nickname = nick_the_meticulous
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    4550.7.18 = {
+        add_spouse = burley_6
+    }
+
+    4588.10.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_6 = {
+    name = "Morna"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = callous
+    trait = gregarious
+    trait = temperate
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    4533.9.12 = {
+        birth = yes
+    }
+
+    4599.4.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_7 = {
+    name = "Jym"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_5
+    mother = burley_6
+
+    trait = calm
+    trait = paranoid
+    trait = craven
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 6
+    intrigue = 10
+    learning = 3
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    4571.3.5 = {
+        birth = yes
+    }
+
+    4587.2.10 = {
+        add_spouse = burley_8
+    }
+
+    4641.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_8 = {
+    name = "Rowan"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = deceitful
+    trait = chaste
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_2
+
+    4570.10.20 = {
+        birth = yes
+    }
+
+    4637.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_9 = {
+    name = "Drydil"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_7
+    mother = burley_8
+
+    trait = calm
+    trait = gregarious
+    trait = gluttonous
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    4596.8.7 = {
+        birth = yes
+    }
+
+    4616.9.25 = {
+        add_spouse = burley_10
+    }
+
+    4664.9.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_10 = {
+    name = "Gwen"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = ambitious
+    trait = cynical
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 8
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_3
+
+    4599.8.22 = {
+        birth = yes
+    }
+
+    4681.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_11 = {
+    name = "Orl"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_9
+    mother = burley_10
+
+    trait = craven
+    trait = content
+    trait = patient
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    4643.8.7 = {
+        birth = yes
+    }
+
+    4682.11.3 = {
+        add_spouse = burley_12
+    }
+
+    4692.9.28 = {
+        death = { death_reason = death_chopped_to_pieces }
+    }
+}
+
+burley_12 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = greedy
+    trait = forgiving
+    trait = diligent
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 8
+    intrigue = 11
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_1
+
+    4665.8.9 = {
+        birth = yes
+    }
+
+    4747.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_13 = {
+    name = "Ottar"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_11
+    mother = burley_12
+
+    trait = calm
+    trait = deceitful
+    trait = brave
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 3
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    4687.5.10 = {
+        birth = yes
+    }
+
+    4713.1.21 = {
+        add_spouse = burley_14
+    }
+
+    4763.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_14 = {
+    name = "Oliwa"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = diligent
+    trait = cynical
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    4696.10.16 = {
+        birth = yes
+    }
+
+    4780.7.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_15 = {
+    name = "Vorwynd"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_13
+    mother = burley_14
+
+    trait = shy
+    trait = fickle
+    trait = content
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_3
+
+    4740.10.11 = {
+        birth = yes
+    }
+
+    4769.11.8 = {
+        add_spouse = burley_16
+    }
+
+    4822.8.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_16 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = gregarious
+    trait = compassionate
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 3
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    4752.1.20 = {
+        birth = yes
+    }
+
+    4832.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_17 = {
+    name = "Styrnor"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_15
+    mother = burley_16
+
+    trait = vengeful
+    trait = deceitful
+    trait = greedy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 3
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_2
+
+    4769.11.22 = {
+        birth = yes
+    }
+
+    4813.8.9 = {
+        add_spouse = burley_18
+    }
+
+    4836.6.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_18 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = greedy
+    trait = ambitious
+    trait = stubborn
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 3
+    intrigue = 9
+    learning = 3
+    prowess = 10
+
+    trait = education_intrigue_1
+
+    4796.9.27 = {
+        birth = yes
+    }
+
+    4823.11.15 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+burley_19 = {
+    name = "Stynar"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_17
+    mother = burley_18
+
+    trait = gregarious
+    trait = just
+    trait = chaste
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 3
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    4823.8.26 = {
+        birth = yes
+    }
+
+    4848.12.1 = {
+        add_spouse = burley_20
+    }
+
+    4897.8.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_20 = {
+    name = "Hattie"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = sadistic
+    trait = craven
+    trait = calm
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 10
+
+    trait = education_diplomacy_2
+
+    4831.1.13 = {
+        birth = yes
+    }
+
+    4907.9.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_21 = {
+    name = "Tormun"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_19
+    mother = burley_20
+
+    trait = zealous
+    trait = arrogant
+    trait = patient
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 9
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    4863.5.4 = {
+        birth = yes
+    }
+
+    4881.2.16 = {
+        add_spouse = burley_22
+    }
+
+    4943.4.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_22 = {
+    name = "Harma"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = cynical
+    trait = diligent
+    trait = shy
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 11
+    intrigue = 5
+    learning = 8
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    4864.8.3 = {
+        birth = yes
+    }
+
+    4924.6.9 = {
+        death = { death_reason = death_attempted_treatment }
+    }
+}
+
+burley_23 = {
+    name = "Garok"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_21
+    mother = burley_22
+
+    trait = compassionate
+    trait = cynical
+    trait = lustful
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    4901.11.9 = {
+        birth = yes
+    }
+
+    4941.2.8 = {
+        add_spouse = burley_24
+    }
+
+    4986.2.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_24 = {
+    name = "Gilly"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = forgiving
+    trait = just
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 9
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    4924.2.13 = {
+        birth = yes
+    }
+
+    5007.4.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_25 = {
+    name = "Rigg"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_23
+    mother = burley_24
+
+    trait = vengeful
+    trait = callous
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 3
+    intrigue = 6
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_4
+
+    4964.6.27 = {
+        birth = yes
+    }
+
+    4979.11.28 = {
+        add_spouse = burley_26
+    }
+
+    5047.10.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_26 = {
+    name = "Gilly"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = stubborn
+    trait = honest
+    trait = patient
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    4962.8.25 = {
+        birth = yes
+    }
+
+    5031.5.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_27 = {
+    name = "Mat"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_25
+    mother = burley_26
+
+    trait = diligent
+    trait = gregarious
+    trait = content
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    5001.1.1 = {
+        birth = yes
+    }
+
+    5051.2.9 = {
+        add_spouse = burley_28
+    }
+
+    5061.5.8 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+burley_28 = {
+    name = "Lupina"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = content
+    trait = vengeful
+    trait = cynical
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 10
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    5034.11.18 = {
+        birth = yes
+    }
+
+    5101.1.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_29 = {
+    name = "Henk"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_27
+    mother = burley_28
+
+    trait = impatient
+    trait = gluttonous
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 3
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    5054.2.19 = {
+        birth = yes
+    }
+
+    5098.1.2 = {
+        add_spouse = burley_30
+    }
+
+    5123.4.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_30 = {
+    name = "Betony"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = chaste
+    trait = callous
+    trait = trusting
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 1
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    5081.10.5 = {
+        birth = yes
+    }
+
+    5161.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_31 = {
+    name = "Styr"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_29
+    mother = burley_30
+
+    trait = arrogant
+    trait = callous
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 10
+
+    trait = education_diplomacy_4
+
+    5123.3.9 = {
+        birth = yes
+    }
+
+    5155.6.25 = {
+        add_spouse = burley_32
+    }
+
+    5196.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_32 = {
+    name = "Maud"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = lustful
+    trait = vengeful
+    trait = callous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_2
+
+    5138.5.17 = {
+        birth = yes
+    }
+
+    5216.4.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_33 = {
+    name = "Jym"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_31
+    mother = burley_32
+
+    trait = paranoid
+    trait = zealous
+    trait = content
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 4
+    intrigue = 3
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    5157.9.18 = {
+        birth = yes
+    }
+
+    5192.5.20 = {
+        add_spouse = burley_34
+    }
+
+    5202.11.15 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+burley_34 = {
+    name = "Poppy"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = stubborn
+    trait = brave
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 8
+    learning = 8
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    5175.6.25 = {
+        birth = yes
+    }
+
+    5239.7.18 = {
+        death = { death_reason = death_training_accident  }
+    }
+}
+
+burley_35 = {
+    name = "Marl"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_33
+    mother = burley_34
+
+    trait = honest
+    trait = humble
+    trait = greedy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    5200.6.27 = {
+        birth = yes
+    }
+
+    5241.10.17 = {
+        add_spouse = burley_36
+    }
+
+    5277.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_36 = {
+    name = "Alys"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = lustful
+    trait = cynical
+    trait = callous
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 7
+    intrigue = 5
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_3
+
+    5224.7.20 = {
+        birth = yes
+    }
+
+    5294.3.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_37 = {
+    name = "Myk"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_35
+    mother = burley_36
+
+    trait = wrathful
+    trait = arbitrary
+    trait = greedy
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 5
+    intrigue = 9
+    learning = 9
+    prowess = 8
+
+    trait = education_martial_1
+
+    5250.11.21 = {
+        birth = yes
+    }
+
+    5273.5.11 = {
+        add_spouse = burley_38
+    }
+
+    5323.10.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_38 = {
+    name = "Ynne"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = callous
+    trait = temperate
+    trait = just
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_learning_3
+
+    5256.4.25 = {
+        birth = yes
+    }
+
+    5328.5.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_39 = {
+    name = "Dok"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_37
+    mother = burley_38
+
+    trait = vengeful
+    trait = sadistic
+    trait = generous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 3
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    5274.8.25 = {
+        birth = yes
+    }
+
+    5314.12.9 = {
+        add_spouse = burley_40
+    }
+
+    5347.6.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_40 = {
+    name = "Thorna"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = temperate
+    trait = greedy
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    5297.7.12 = {
+        birth = yes
+    }
+
+    5380.10.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_41 = {
+    name = "Noll"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_39
+    mother = burley_40
+
+    trait = content
+    trait = impatient
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_2
+
+    5323.7.16 = {
+        birth = yes
+    }
+
+    5324.11.7 = {
+        give_nickname = nick_the_unworthy
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    5367.4.7 = {
+        add_spouse = burley_42
+    }
+
+    5390.11.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_42 = {
+    name = "Ada"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = zealous
+    trait = diligent
+    trait = temperate
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 9
+    prowess = 2
+
+    trait = education_learning_2
+
+    5350.12.14 = {
+        birth = yes
+    }
+
+    5419.1.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_43 = {
+    name = "Arnolf"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_41
+    mother = burley_42
+
+    trait = forgiving
+    trait = stubborn
+    trait = callous
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 7
+    intrigue = 3
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    5380.12.8 = {
+        birth = yes
+    }
+
+    5419.10.13 = {
+        add_spouse = burley_44
+    }
+
+    5453.1.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_44 = {
+    name = "Kyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = patient
+    trait = paranoid
+    trait = compassionate
+
+    diplomacy = 1
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_3
+
+    5402.5.28 = {
+        birth = yes
+    }
+
+    5481.2.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_45 = {
+    name = "Vorwynd"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_43
+    mother = burley_44
+
+    trait = craven
+    trait = vengeful
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 8
+
+    trait = education_martial_2
+
+    5444.11.27 = {
+        birth = yes
+    }
+
+    5460.3.8 = {
+        add_spouse = burley_46
+    }
+
+    5470.8.10 = {
+        death = { death_reason = death_raid }
+    }
+}
+
+burley_46 = {
+    name = "Olwen"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = forgiving
+    trait = honest
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 9
+    learning = 5
+    prowess = 9
+
+    trait = education_intrigue_2
+
+    5443.2.28 = {
+        birth = yes
+    }
+
+    5528.9.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_47 = {
+    name = "Bamirr"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_45
+    mother = burley_46
+
+    trait = trusting
+    trait = compassionate
+    trait = generous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_2
+
+    5462.10.23 = {
+        birth = yes
+    }
+
+    5503.6.7 = {
+        add_spouse = burley_48
+    }
+
+    5542.10.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_48 = {
+    name = "Oliwa"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = ambitious
+    trait = callous
+    trait = calm
+
+    diplomacy = 5
+    martial = 1
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    5486.6.22 = {
+        birth = yes
+    }
+
+    5553.12.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_49 = {
+    name = "Wayn"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_47
+    mother = burley_48
+
+    trait = diligent
+    trait = sadistic
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 3
+    intrigue = 6
+    learning = 8
+    prowess = 10
+
+    trait = education_learning_3
+
+    5517.6.14 = {
+        birth = yes
+    }
+
+    5539.7.8 = {
+        add_spouse = burley_50
+    }
+
+    5595.10.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_50 = {
+    name = "Tilly"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = generous
+    trait = stubborn
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 2
+    prowess = 2
+
+    trait = education_diplomacy_4
+
+    5522.8.6 = {
+        birth = yes
+    }
+
+    5606.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_51 = {
+    name = "Thorand"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_49
+    mother = burley_50
+
+    trait = humble
+    trait = lazy
+    trait = trusting
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 3
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    5553.4.27 = {
+        birth = yes
+    }
+
+    5599.10.20 = {
+        add_spouse = burley_52
+    }
+
+    5609.10.8 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+burley_52 = {
+    name = "Helya"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = ambitious
+    trait = fickle
+    trait = zealous
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 2
+    intrigue = 4
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_3
+
+    5582.3.25 = {
+        birth = yes
+    }
+
+    5656.9.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_53 = {
+    name = "Skar"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_51
+    mother = burley_52
+
+    trait = fickle
+    trait = callous
+    trait = shy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 3
+    intrigue = 3
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    5601.12.3 = {
+        birth = yes
+    }
+
+    5649.5.20 = {
+        add_spouse = burley_54
+    }
+
+    5659.2.17 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+burley_54 = {
+    name = "Harma"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = honest
+    trait = lazy
+    trait = cynical
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 5
+    intrigue = 6
+    learning = 2
+    prowess = 4
+
+    trait = education_martial_1
+
+    5632.4.10 = {
+        birth = yes
+    }
+
+    5700.5.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_55 = {
+    name = "Rigg"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_53
+    mother = burley_54
+
+    trait = chaste
+    trait = just
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 4
+    intrigue = 9
+    learning = 6
+    prowess = 3
+
+    trait = education_intrigue_2
+
+    5655.12.8 = {
+        birth = yes
+    }
+
+    5670.9.12 = {
+        add_spouse = burley_56
+    }
+
+    5739.5.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_56 = {
+    name = "Karly"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = cynical
+    trait = patient
+    trait = generous
+
+    diplomacy = 11
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    5653.7.9 = {
+        birth = yes
+    }
+
+    5735.11.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_57 = {
+    name = "Bael"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_55
+    mother = burley_56
+
+    trait = impatient
+    trait = cynical
+    trait = arrogant
+
+    diplomacy = 19
+    martial = 26
+    stewardship = 19
+    intrigue = 17
+    learning = 14
+    prowess = 24
+
+    trait = education_martial_4
+
+    5670.12.24 = {
+        birth = yes
+    }
+
+    5692.1.9 = {
+        add_spouse = burley_58
+    }
+
+    5749.11.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_58 = {
+    name = "Mari"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = arbitrary
+    trait = content
+    trait = brave
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 3
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    5675.6.2 = {
+        birth = yes
+    }
+
+    5741.4.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_59 = {
+    name = "Isyger"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_57
+    mother = burley_58
+
+    trait = craven
+    trait = just
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 4
+    intrigue = 3
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_2
+
+    5709.2.13 = {
+        birth = yes
+    }
+
+    5741.3.24 = {
+        add_spouse = burley_60
+    }
+
+    5751.6.8 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+burley_60 = {
+    name = "Peigi"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = lustful
+    trait = paranoid
+    trait = fickle
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 2
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    5724.6.3 = {
+        birth = yes
+    }
+
+    5799.7.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_61 = {
+    name = "Noll"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_59
+    mother = burley_60
+
+    trait = gregarious
+    trait = impatient
+    trait = sadistic
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_2
+
+    5750.8.12 = {
+        birth = yes
+    }
+
+    5797.4.7 = {
+        add_spouse = burley_62
+    }
+
+    5816.3.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_62 = {
+    name = "Grenda"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = arbitrary
+    trait = deceitful
+    trait = chaste
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    5780.9.6 = {
+        birth = yes
+    }
+
+    5850.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_63 = {
+    name = "Mat"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_61
+    mother = burley_62
+
+    trait = arrogant
+    trait = arbitrary
+    trait = temperate
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 5
+    intrigue = 9
+    learning = 3
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    5799.3.21 = {
+        birth = yes
+    }
+
+    5815.1.7 = {
+        add_spouse = burley_64
+    }
+
+    5873.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_64 = {
+    name = "Honeysuckle"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = just
+    trait = humble
+    trait = impatient
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    5798.11.1 = {
+        birth = yes
+    }
+
+    5879.7.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_65 = {
+    name = "Joravar"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_63
+    mother = burley_64
+
+    trait = shy
+    trait = diligent
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_2
+
+    5838.9.20 = {
+        birth = yes
+    }
+
+    5839.6.12 = {
+        give_nickname = nick_the_anointed
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    5869.11.19 = {
+        add_spouse = burley_66
+    }
+
+    5920.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_66 = {
+    name = "Tyka"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = lustful
+    trait = vengeful
+    trait = content
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 10
+    prowess = 10
+
+    trait = education_learning_3
+
+    5852.2.20 = {
+        birth = yes
+    }
+
+    5931.12.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_67 = {
+    name = "Wallen"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_65
+    mother = burley_66
+
+    trait = paranoid
+    trait = greedy
+    trait = shy
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    5897.10.27 = {
+        birth = yes
+    }
+
+    5917.10.11 = {
+        add_spouse = burley_68
+    }
+
+    5975.10.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_68 = {
+    name = "Gerie"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = humble
+    trait = cynical
+    trait = lustful
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_4
+
+    5900.1.21 = {
+        birth = yes
+    }
+
+    5973.4.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_69 = {
+    name = "Galem"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_67
+    mother = burley_68
+
+    trait = trusting
+    trait = chaste
+    trait = honest
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 4
+    intrigue = 9
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    5918.9.27 = {
+        birth = yes
+    }
+
+    5968.12.26 = {
+        add_spouse = burley_70
+    }
+
+    5997.5.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_70 = {
+    name = "Una"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = arrogant
+    trait = paranoid
+    trait = shy
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 9
+    intrigue = 9
+    learning = 4
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    5951.9.4 = {
+        birth = yes
+    }
+
+    6023.8.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_71 = {
+    name = "Lutrin"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_69
+    mother = burley_70
+
+    trait = shy
+    trait = honest
+    trait = content
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    5992.8.18 = {
+        birth = yes
+    }
+
+    6013.3.2 = {
+        add_spouse = burley_72
+    }
+
+    6068.9.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_72 = {
+    name = "Rose"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = craven
+    trait = humble
+    trait = shy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    5996.12.22 = {
+        birth = yes
+    }
+
+    6078.10.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_73 = {
+    name = "Skaval"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_71
+    mother = burley_72
+
+    trait = deceitful
+    trait = compassionate
+    trait = temperate
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 9
+    intrigue = 8
+    learning = 8
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6030.2.7 = {
+        birth = yes
+    }
+
+    6056.10.10 = {
+        add_spouse = burley_74
+    }
+
+    6111.8.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_74 = {
+    name = "Nonne"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = lazy
+    trait = humble
+    trait = shy
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 11
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6039.11.21 = {
+        birth = yes
+    }
+
+    6109.2.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_75 = {
+    name = "Gede"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_73
+    mother = burley_74
+
+    trait = trusting
+    trait = deceitful
+    trait = shy
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6060.12.20 = {
+        birth = yes
+    }
+
+    6077.11.17 = {
+        add_spouse = burley_76
+    }
+
+    6130.12.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_76 = {
+    name = "Sorcha"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = generous
+    trait = gregarious
+    trait = calm
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 10
+    intrigue = 8
+    learning = 3
+    prowess = 9
+
+    trait = education_stewardship_4
+
+    6060.10.7 = {
+        birth = yes
+    }
+
+    6129.12.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_77 = {
+    name = "Ale"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_75
+    mother = burley_76
+
+    trait = wrathful
+    trait = humble
+    trait = ambitious
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 8
+    intrigue = 2
+    learning = 8
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6077.8.28 = {
+        birth = yes
+    }
+
+    6125.9.3 = {
+        add_spouse = burley_78
+    }
+
+    6147.1.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_78 = {
+    name = "Maege"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = gluttonous
+    trait = honest
+    trait = brave
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 9
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6108.5.23 = {
+        birth = yes
+    }
+
+    6191.4.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_79 = {
+    name = "Drad"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_77
+    mother = burley_78
+
+    trait = temperate
+    trait = content
+    trait = brave
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 10
+    intrigue = 7
+    learning = 5
+    prowess = 10
+
+    trait = education_stewardship_3
+
+    6141.7.12 = {
+        birth = yes
+    }
+
+    6189.9.23 = {
+        add_spouse = burley_80
+    }
+
+    6219.3.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_80 = {
+    name = "Elen"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = lustful
+    trait = shy
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6172.12.24 = {
+        birth = yes
+    }
+
+    6248.10.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_81 = {
+    name = "Gornegg"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_79
+    mother = burley_80
+
+    trait = stubborn
+    trait = lazy
+    trait = brave
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 2
+    prowess = 8
+
+    trait = education_martial_2
+
+    6201.5.16 = {
+        birth = yes
+    }
+
+    6248.7.1 = {
+        add_spouse = burley_82
+    }
+
+    6279.5.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_82 = {
+    name = "Ryka"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = stubborn
+    trait = brave
+    trait = impatient
+
+    diplomacy = 9
+    martial = 3
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6231.6.7 = {
+        birth = yes
+    }
+
+    6315.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_83 = {
+    name = "Steig"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_81
+    mother = burley_82
+
+    trait = sadistic
+    trait = brave
+    trait = deceitful
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6253.4.22 = {
+        birth = yes
+    }
+
+    6268.11.22 = {
+        add_spouse = burley_84
+    }
+
+    6326.9.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_84 = {
+    name = "Abrella"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = generous
+    trait = arrogant
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6251.6.27 = {
+        birth = yes
+    }
+
+    6331.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_85 = {
+    name = "Mavin"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_83
+    mother = burley_84
+
+    trait = diligent
+    trait = patient
+    trait = fickle
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 3
+    learning = 10
+    prowess = 4
+
+    trait = education_learning_4
+
+    6270.3.15 = {
+        birth = yes
+    }
+
+    6319.8.4 = {
+        add_spouse = burley_86
+    }
+
+    6340.7.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_86 = {
+    name = "Isla"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = zealous
+    trait = gluttonous
+    trait = brave
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6302.7.25 = {
+        birth = yes
+    }
+
+    6369.1.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_87 = {
+    name = "Isrand"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_85
+    mother = burley_86
+
+    trait = callous
+    trait = arbitrary
+    trait = humble
+
+    diplomacy = 8
+    martial = 2
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    6335.10.15 = {
+        birth = yes
+    }
+
+    6365.5.5 = {
+        add_spouse = burley_88
+    }
+
+    6411.3.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_88 = {
+    name = "Urielle"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = arbitrary
+    trait = gregarious
+    trait = content
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 3
+
+    trait = education_martial_4
+
+    6348.12.15 = {
+        birth = yes
+    }
+
+    6418.5.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_89 = {
+    name = "Joseth"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_87
+    mother = burley_88
+
+    trait = honest
+    trait = calm
+    trait = cynical
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 2
+
+    trait = education_intrigue_4
+
+    6387.6.8 = {
+        birth = yes
+    }
+
+    6401.6.12 = {
+        add_spouse = burley_90
+    }
+
+    6466.9.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_90 = {
+    name = "Ivy"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = forgiving
+    trait = arbitrary
+    trait = cynical
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 11
+
+    trait = education_intrigue_2
+
+    6384.11.2 = {
+        birth = yes
+    }
+
+    6459.12.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_91 = {
+    name = "Gest"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_89
+    mother = burley_90
+
+    trait = sadistic
+    trait = stubborn
+    trait = wrathful
+
+    diplomacy = 10
+    martial = 19
+    stewardship = 20
+    intrigue = 13
+    learning = 16
+    prowess = 15
+
+    trait = education_stewardship_4
+
+    6420.5.9 = {
+        birth = yes
+    }
+
+    6461.1.24 = {
+        add_spouse = burley_92
+    }
+
+    6486.10.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_92 = {
+    name = "Cana"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = vengeful
+    trait = ambitious
+    trait = trusting
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 9
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6444.12.14 = {
+        birth = yes
+    }
+
+    6510.5.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_93 = {
+    name = "Gede"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_91
+    mother = burley_92
+
+    trait = chaste
+    trait = arrogant
+    trait = content
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 6
+    intrigue = 3
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_4
+
+    6476.2.27 = {
+        birth = yes
+    }
+
+    6521.3.24 = {
+        add_spouse = burley_94
+    }
+
+    6531.4.2 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+burley_94 = {
+    name = "Slaine"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = brave
+    trait = humble
+    trait = just
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 3
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6504.9.27 = {
+        birth = yes
+    }
+
+    6571.11.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_95 = {
+    name = "Curt"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_93
+    mother = burley_94
+
+    trait = patient
+    trait = sadistic
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 9
+    learning = 2
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6531.3.16 = {
+        birth = yes
+    }
+
+    6546.12.13 = {
+        add_spouse = burley_96
+    }
+
+    6609.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_96 = {
+    name = "Bluebell"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = gluttonous
+    trait = forgiving
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_4
+
+    6529.1.22 = {
+        birth = yes
+    }
+
+    6598.10.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_97 = {
+    name = "Ragnar"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_95
+    mother = burley_96
+
+    trait = temperate
+    trait = gregarious
+    trait = cynical
+
+    diplomacy = 2
+    martial = 2
+    stewardship = 6
+    intrigue = 5
+    learning = 2
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6553.12.26 = {
+        birth = yes
+    }
+
+    6582.6.4 = {
+        add_spouse = burley_98
+    }
+
+    6638.8.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_98 = {
+    name = "Frynne"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = just
+    trait = chaste
+    trait = greedy
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_2
+
+    6565.4.6 = {
+        birth = yes
+    }
+
+    6646.7.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_99 = {
+    name = "Lokamun"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_97
+    mother = burley_98
+
+    trait = deceitful
+    trait = lazy
+    trait = lustful
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 7
+    intrigue = 6
+    learning = 3
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6596.1.25 = {
+        birth = yes
+    }
+
+    6611.1.1 = {
+        add_spouse = burley_100
+    }
+
+    6667.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_100 = {
+    name = "Kadie"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = just
+    trait = compassionate
+    trait = content
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6594.6.11 = {
+        birth = yes
+    }
+
+    6667.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_101 = {
+    name = "Drad"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_99
+    mother = burley_100
+
+    trait = cynical
+    trait = generous
+    trait = gluttonous
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6639.3.7 = {
+        birth = yes
+    }
+
+    6683.4.25 = {
+        add_spouse = burley_102
+    }
+
+    6693.11.27 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+burley_102 = {
+    name = "Genna"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = deceitful
+    trait = gregarious
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 10
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_4
+
+    6666.2.17 = {
+        birth = yes
+    }
+
+    6749.11.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_103 = {
+    name = "Cory"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_101
+    mother = burley_102
+
+    trait = humble
+    trait = stubborn
+    trait = temperate
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6688.4.19 = {
+        birth = yes
+    }
+
+    6702.9.22 = {
+        add_spouse = burley_104
+    }
+
+    6757.1.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_104 = {
+    name = "Heather"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = humble
+    trait = gregarious
+    trait = cynical
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_4
+
+    6685.4.28 = {
+        birth = yes
+    }
+
+    6761.12.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_105 = {
+    name = "Borroq"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_103
+    mother = burley_104
+
+    trait = zealous
+    trait = content
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    6722.7.8 = {
+        birth = yes
+    }
+
+    6757.7.13 = {
+        add_spouse = burley_106
+    }
+
+    6792.1.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_106 = {
+    name = "Sera"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = lustful
+    trait = impatient
+    trait = craven
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 4
+    intrigue = 9
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6740.11.4 = {
+        birth = yes
+    }
+
+    6816.6.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_107 = {
+    name = "Boradir"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_105
+    mother = burley_106
+
+    trait = temperate
+    trait = paranoid
+    trait = calm
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 6
+    intrigue = 4
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_4
+
+    6781.2.9 = {
+        birth = yes
+    }
+
+    6809.11.2 = {
+        add_spouse = burley_108
+    }
+
+    6848.1.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_108 = {
+    name = "Winterberry"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = fickle
+    trait = generous
+    trait = cynical
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6792.8.2 = {
+        birth = yes
+    }
+
+    6871.1.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_109 = {
+    name = "Barr"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_107
+    mother = burley_108
+
+    trait = gluttonous
+    trait = trusting
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 7
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_2
+
+    6831.6.25 = {
+        birth = yes
+    }
+
+    6857.7.21 = {
+        add_spouse = burley_110
+    }
+
+    6914.6.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_110 = {
+    name = "Lyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = ambitious
+    trait = calm
+    trait = just
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 5
+    intrigue = 1
+    learning = 8
+    prowess = 10
+
+    trait = education_martial_4
+
+    6840.3.5 = {
+        birth = yes
+    }
+
+    6907.3.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_111 = {
+    name = "Arald"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_109
+    mother = burley_110
+
+    trait = ambitious
+    trait = stubborn
+    trait = temperate
+
+    diplomacy = 8
+    martial = 10
+    stewardship = 2
+    intrigue = 10
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_4
+
+    6880.6.24 = {
+        birth = yes
+    }
+
+    6923.7.14 = {
+        add_spouse = burley_112
+    }
+
+    6948.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_112 = {
+    name = "Hali"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = lazy
+    trait = calm
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 9
+    intrigue = 7
+    learning = 9
+    prowess = 11
+
+    trait = education_stewardship_3
+
+    6906.7.19 = {
+        birth = yes
+    }
+
+    6986.11.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_113 = {
+    name = "Dolner"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_111
+    mother = burley_112
+
+    trait = paranoid
+    trait = arbitrary
+    trait = vengeful
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 3
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6934.8.18 = {
+        birth = yes
+    }
+
+    6984.6.19 = {
+        add_spouse = burley_114
+    }
+
+    7005.11.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_114 = {
+    name = "Nonne"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = gregarious
+    trait = forgiving
+    trait = diligent
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 2
+    intrigue = 6
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_2
+
+    6967.10.21 = {
+        birth = yes
+    }
+
+    7038.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_115 = {
+    name = "Grethe"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_113
+    mother = burley_114
+
+    trait = arbitrary
+    trait = sadistic
+    trait = honest
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 9
+    intrigue = 8
+    learning = 8
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    6988.4.24 = {
+        birth = yes
+    }
+
+    7072.9.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_116 = {
+    name = "Rowan"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_113
+    mother = burley_114
+
+    trait = ambitious
+    trait = humble
+    trait = cynical
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 10
+    intrigue = 9
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6992.5.17 = {
+        birth = yes
+    }
+
+    7072.9.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_117 = {
+    name = "Gornegg"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_113
+    mother = burley_114
+
+    trait = deceitful
+    trait = zealous
+    trait = just
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6996.9.1 = {
+        birth = yes
+    }
+
+    7043.2.6 = {
+        add_spouse = burley_118
+    }
+
+    7073.8.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_118 = {
+    name = "Morvana"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = temperate
+    trait = deceitful
+    trait = just
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    7026.8.15 = {
+        birth = yes
+    }
+
+    7107.1.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_119 = {
+    name = "Vayon"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_117
+    mother = burley_118
+
+    trait = just
+    trait = greedy
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 10
+    stewardship = 10
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    7044.5.3 = {
+        birth = yes
+    }
+
+    7071.11.25 = {
+        add_spouse = burley_120
+    }
+
+    7091.2.4 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+burley_120 = {
+    name = "Dalthi"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = honest
+    trait = craven
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 2
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    7054.2.13 = {
+        birth = yes
+    }
+
+    7122.10.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_121 = {
+    name = "Wynda"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_119
+    mother = burley_120
+
+    trait = cynical
+    trait = humble
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_4
+
+    7072.8.2 = {
+        birth = yes
+    }
+
+    7148.2.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_122 = {
+    name = "Myrtle"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_119
+    mother = burley_120
+
+    trait = trusting
+    trait = arbitrary
+    trait = greedy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    7077.1.1 = {
+        birth = yes
+    }
+
+    7161.5.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_123 = {
+    name = "Grisella"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_119
+    mother = burley_120
+
+    trait = ambitious
+    trait = patient
+    trait = humble
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 3
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    7079.8.24 = {
+        birth = yes
+    }
+
+    7147.6.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_124 = {
+    name = "Arald"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_119
+    mother = burley_120
+
+    trait = stubborn
+    trait = brave
+    trait = lazy
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    7081.5.3 = {
+        birth = yes
+    }
+
+    7126.6.1 = {
+        add_spouse = burley_125
+    }
+
+    7160.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_125 = {
+    name = "Lily"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = paranoid
+    trait = ambitious
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 3
+    intrigue = 1
+    learning = 5
+    prowess = 7
+
+    trait = education_learning_3
+
+    7109.11.27 = {
+        birth = yes
+    }
+
+    7187.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_126 = {
+    name = "Magrun"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_117
+    mother = burley_118
+
+    trait = cynical
+    trait = humble
+    trait = generous
+
+    diplomacy = 6
+    martial = 11
+    stewardship = 5
+    intrigue = 7
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_2
+
+    7050.7.23 = {
+        birth = yes
+    }
+
+    7072.11.3 = {
+        add_spouse = burley_127
+    }
+
+    7118.7.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_127 = {
+    name = "Erika"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = honest
+    trait = arrogant
+    trait = compassionate
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    7055.1.3 = {
+        birth = yes
+    }
+
+    7128.6.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_128 = {
+    name = "Torwynd"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_126
+    mother = burley_127
+
+    trait = arbitrary
+    trait = zealous
+    trait = paranoid
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 9
+    intrigue = 4
+    learning = 6
+    prowess = 10
+
+    trait = education_stewardship_3
+
+    7072.2.27 = {
+        birth = yes
+    }
+
+    7116.10.9 = {
+        add_spouse = burley_129
+    }
+
+    7141.11.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_129 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = gregarious
+    trait = deceitful
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 3
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_2
+
+    7099.2.8 = {
+        birth = yes
+    }
+
+    7181.12.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_130 = {
+    name = "Nils"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_126
+    mother = burley_127
+
+    trait = arbitrary
+    trait = fickle
+    trait = honest
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    7080.9.27 = {
+        birth = yes
+    }
+
+    7116.1.13 = {
+        add_spouse = burley_131
+    }
+
+    7152.5.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_131 = {
+    name = "Abrella"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = callous
+    trait = vengeful
+    trait = chaste
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 7
+    intrigue = 9
+    learning = 11
+    prowess = 6
+
+    trait = education_learning_3
+
+    7099.3.18 = {
+        birth = yes
+    }
+
+    7178.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_132 = {
+    name = "Jojen"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_117
+    mother = burley_118
+
+    trait = lazy
+    trait = vengeful
+    trait = craven
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    7053.4.19 = {
+        birth = yes
+    }
+
+    7069.10.12 = {
+        add_spouse = burley_133
+    }
+
+    7121.3.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_133 = {
+    name = "Durila"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = diligent
+    trait = lustful
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 5
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_1
+
+    7052.5.17 = {
+        birth = yes
+    }
+
+    7093.3.7 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+burley_134 = {
+    name = "Tore"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_132
+    mother = burley_133
+
+    trait = calm
+    trait = callous
+    trait = diligent
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 9
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    7072.1.8 = {
+        birth = yes
+    }
+
+    7114.10.5 = {
+        add_spouse = burley_135
+    }
+
+    7124.3.24 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+burley_135 = {
+    name = "Dana"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = cynical
+    trait = honest
+    trait = calm
+
+    diplomacy = 7
+    martial = 1
+    stewardship = 8
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    7097.2.13 = {
+        birth = yes
+    }
+
+    7163.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_136 = {
+    name = "Gariss"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_132
+    mother = burley_133
+
+    trait = sadistic
+    trait = diligent
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 1
+
+    trait = education_stewardship_2
+
+    7076.5.14 = {
+        birth = yes
+    }
+
+    7108.12.27 = {
+        add_spouse = burley_137
+    }
+
+    7147.12.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_137 = {
+    name = "Heather"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = compassionate
+    trait = deceitful
+    trait = patient
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 4
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    7091.7.18 = {
+        birth = yes
+    }
+
+    7176.10.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_138 = {
+    name = "Hankar"
+
+    dynasty = dynasty_burley
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_132
+    mother = burley_133
+
+    trait = diligent
+    trait = content
+    trait = cynical
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 9
+
+    trait = education_martial_1
+
+    7079.2.15 = {
+        birth = yes
+    }
+
+    7094.8.2 = {
+        add_spouse = burley_139
+    }
+
+    7149.3.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_139 = {
+    name = "Clematis"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = shy
+    trait = trusting
+    trait = brave
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 4
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_3
+
+    7077.11.28 = {
+        birth = yes
+    }
+
+    7157.2.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_140 = {
+    name = "Slaine"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_132
+    mother = burley_133
+
+    trait = cynical
+    trait = forgiving
+    trait = content
+
+    diplomacy = 10
+    martial = 9
+    stewardship = 6
+    intrigue = 3
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    7082.4.6 = {
+        birth = yes
+    }
+
+    7156.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_141 = {
+    name = "Frenya"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_117
+    mother = burley_118
+
+    trait = cynical
+    trait = just
+    trait = brave
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 8
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    7055.9.21 = {
+        birth = yes
+    }
+
+    7132.7.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_142 = {
+    name = "Eva"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_113
+    mother = burley_114
+
+    trait = generous
+    trait = chaste
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 8
+    intrigue = 9
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6999.2.23 = {
+        birth = yes
+    }
+
+    7071.11.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+burley_143 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = burley_111
+    mother = burley_112
+
+    trait = arbitrary
+    trait = paranoid
+    trait = stubborn
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 8
+    intrigue = 9
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6936.7.2 = {
+        birth = yes
+    }
+
+    7017.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

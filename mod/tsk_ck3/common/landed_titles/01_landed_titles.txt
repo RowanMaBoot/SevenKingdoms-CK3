@@ -20338,13 +20338,13 @@ e_the_north = {
 			color = { 129 161 75 }
 			color2 = { 255 255 255 }
 			
-			capital = c_knott
+			capital = c_harclay
 			
-			c_knott = {
+			c_harclay = {
 				color = { 102 195 143 }
 				color2 = { 255 255 255 }
 				
-				b_knott = {
+				b_harclay = {
 					province = 3643
 					color = { 102 195 143 }
 					color2 = { 255 255 255 }
@@ -20457,6 +20457,26 @@ e_the_north = {
 					color2 = { 255 255 255 }
 				}
 			}
+			c_burley = {
+				color = { 180 197 145 }
+				color2 = { 255 255 255 }
+				
+				b_burley = {
+					province = 3638
+					color = { 180 197 145 }
+					color2 = { 255 255 255 }
+				}
+				b_achmony = {
+					province = 3639
+					color = { 180 197 145 }
+					color2 = { 255 255 255 }
+				}
+				b_balchragg = {
+					province = 3640
+					color = { 180 197 145 }
+					color2 = { 255 255 255 }
+				}
+			}
 			c_forskane = {
 				color = { 99 195 144 }
 				color2 = { 255 255 255 }
@@ -20467,11 +20487,11 @@ e_the_north = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_harclay = {
+			c_knott = {
 				color = { 175 197 145 }
 				color2 = { 255 255 255 }
 				
-				b_harclay = {
+				b_knott = {
 					province = 3634
 					color = { 175 197 145 }
 					color2 = { 255 255 255 }
@@ -20499,26 +20519,6 @@ e_the_north = {
 				b_northtown = {
 					province = 3641
 					color = { 185 197 145 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_shale = {
-				color = { 180 197 145 }
-				color2 = { 255 255 255 }
-				
-				b_shale = {
-					province = 3638
-					color = { 180 197 145 }
-					color2 = { 255 255 255 }
-				}
-				b_achmony = {
-					province = 3639
-					color = { 180 197 145 }
-					color2 = { 255 255 255 }
-				}
-				b_balchragg = {
-					province = 3640
-					color = { 180 197 145 }
 					color2 = { 255 255 255 }
 				}
 			}

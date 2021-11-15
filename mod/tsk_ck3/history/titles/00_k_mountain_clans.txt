@@ -968,14 +968,370 @@ c_harclay = {
 		liege=d_northern_clans
 	}
 }
-c_shale = {
+c_burley = {
 	800.1.1={
 		liege=d_northern_clans
+	}
+
+	4450.9.23 = {
+		holder = burley_1 #Leck
+	}
+	4495.2.18 = {
+		holder = burley_3 #Tyk
+	}
+	4577.9.5 = {
+		holder = burley_5 #Galem
+	}
+	4588.10.8 = {
+		holder = burley_7 #Jym
+	}
+	4641.6.18 = {
+		holder = burley_9 #Drydil
+	}
+	4664.9.8 = {
+		holder = burley_11 #Orl
+	}
+	4692.9.28 = {
+		holder = burley_13 #Ottar
+	}
+	4763.8.4 = {
+		holder = burley_15 #Vorwynd
+	}
+	4822.8.2 = {
+		holder = burley_17 #Styrnor
+	}
+	4836.6.27 = {
+		holder = burley_19 #Stynar
+	}
+	4897.8.26 = {
+		holder = burley_21 #Tormun
+	}
+	4943.4.2 = {
+		holder = burley_23 #Garok
+	}
+	4986.2.28 = {
+		holder = burley_25 #Rigg
+	}
+	5047.10.10 = {
+		holder = burley_27 #Mat
+	}
+	5061.5.8 = {
+		holder = burley_29 #Henk
+	}
+	5123.4.15 = {
+		holder = burley_31 #Styr
+	}
+	5196.9.21 = {
+		holder = burley_33 #Jym
+	}
+	5202.11.15 = {
+		holder = burley_35 #Marl
+	}
+	5277.7.13 = {
+		holder = burley_37 #Myk
+	}
+	5323.10.23 = {
+		holder = burley_39 #Dok
+	}
+	5347.6.26 = {
+		holder = burley_41 #Noll
+	}
+	5390.11.24 = {
+		holder = burley_43 #Arnolf
+	}
+	5453.1.25 = {
+		holder = burley_45 #Vorwynd
+	}
+	5470.8.10 = {
+		holder = burley_47 #Bamirr
+	}
+	5542.10.14 = {
+		holder = burley_49 #Wayn
+	}
+	5595.10.2 = {
+		holder = burley_51 #Thorand
+	}
+	5609.10.8 = {
+		holder = burley_53 #Skar
+	}
+	5659.2.17 = {
+		holder = burley_55 #Rigg
+	}
+	5739.5.13 = {
+		holder = burley_57 #Bael
+	}
+	5749.11.17 = {
+		holder = burley_59 #Isyger
+	}
+	5751.6.8 = {
+		holder = burley_61 #Noll
+	}
+	5816.3.16 = {
+		holder = burley_63 #Mat
+	}
+	5873.2.4 = {
+		holder = burley_65 #Joravar
+	}
+	5920.7.3 = {
+		holder = burley_67 #Wallen
+	}
+	5975.10.25 = {
+		holder = burley_69 #Galem
+	}
+	5997.5.1 = {
+		holder = burley_71 #Lutrin
+	}
+	6068.9.17 = {
+		holder = burley_73 #Skaval
+	}
+	6111.8.14 = {
+		holder = burley_75 #Gede
+	}
+	6130.12.22 = {
+		holder = burley_77 #Ale
+	}
+	6147.1.21 = {
+		holder = burley_79 #Drad
+	}
+	6219.3.8 = {
+		holder = burley_81 #Gornegg
+	}
+	6279.5.16 = {
+		holder = burley_83 #Steig
+	}
+	6326.9.24 = {
+		holder = burley_85 #Mavin
+	}
+	6340.7.26 = {
+		holder = burley_87 #Isrand
+	}
+	6411.3.8 = {
+		holder = burley_89 #Joseth
+	}
+	6466.9.23 = {
+		holder = burley_91 #Gest
+	}
+	6486.10.26 = {
+		holder = burley_93 #Gede
+	}
+	6531.4.2 = {
+		holder = burley_95 #Curt
+	}
+	6609.12.21 = {
+		holder = burley_97 #Ragnar
+	}
+	6638.8.21 = {
+		holder = burley_99 #Lokamun
+	}
+	6667.3.26 = {
+		holder = burley_101 #Drad
+	}
+	6693.11.27 = {
+		holder = burley_103 #Cory
+	}
+	6757.1.21 = {
+		holder = burley_105 #Borroq
+	}
+	6792.1.28 = {
+		holder = burley_107 #Boradir
+	}
+	6848.1.14 = {
+		holder = burley_109 #Barr
+	}
+	6914.6.11 = {
+		holder = burley_111 #Arald
+	}
+	6948.1.11 = {
+		holder = burley_113 #Dolner
+	}
+	7005.11.2 = {
+		holder = burley_117 #Gornegg
+	}
+	7073.8.12 = {
+		holder = burley_119 #Vayon
 	}
 }
 c_northtown = {
 	800.1.1={
 		liege=d_northern_clans
+	}
+
+	4450.9.23 = {
+		holder = burley_1 #Leck
+	}
+	4495.2.18 = {
+		holder = burley_3 #Tyk
+	}
+	4577.9.5 = {
+		holder = burley_5 #Galem
+	}
+	4588.10.8 = {
+		holder = burley_7 #Jym
+	}
+	4641.6.18 = {
+		holder = burley_9 #Drydil
+	}
+	4664.9.8 = {
+		holder = burley_11 #Orl
+	}
+	4692.9.28 = {
+		holder = burley_13 #Ottar
+	}
+	4763.8.4 = {
+		holder = burley_15 #Vorwynd
+	}
+	4822.8.2 = {
+		holder = burley_17 #Styrnor
+	}
+	4836.6.27 = {
+		holder = burley_19 #Stynar
+	}
+	4897.8.26 = {
+		holder = burley_21 #Tormun
+	}
+	4943.4.2 = {
+		holder = burley_23 #Garok
+	}
+	4986.2.28 = {
+		holder = burley_25 #Rigg
+	}
+	5047.10.10 = {
+		holder = burley_27 #Mat
+	}
+	5061.5.8 = {
+		holder = burley_29 #Henk
+	}
+	5123.4.15 = {
+		holder = burley_31 #Styr
+	}
+	5196.9.21 = {
+		holder = burley_33 #Jym
+	}
+	5202.11.15 = {
+		holder = burley_35 #Marl
+	}
+	5277.7.13 = {
+		holder = burley_37 #Myk
+	}
+	5323.10.23 = {
+		holder = burley_39 #Dok
+	}
+	5347.6.26 = {
+		holder = burley_41 #Noll
+	}
+	5390.11.24 = {
+		holder = burley_43 #Arnolf
+	}
+	5453.1.25 = {
+		holder = burley_45 #Vorwynd
+	}
+	5470.8.10 = {
+		holder = burley_47 #Bamirr
+	}
+	5542.10.14 = {
+		holder = burley_49 #Wayn
+	}
+	5595.10.2 = {
+		holder = burley_51 #Thorand
+	}
+	5609.10.8 = {
+		holder = burley_53 #Skar
+	}
+	5659.2.17 = {
+		holder = burley_55 #Rigg
+	}
+	5739.5.13 = {
+		holder = burley_57 #Bael
+	}
+	5749.11.17 = {
+		holder = burley_59 #Isyger
+	}
+	5751.6.8 = {
+		holder = burley_61 #Noll
+	}
+	5816.3.16 = {
+		holder = burley_63 #Mat
+	}
+	5873.2.4 = {
+		holder = burley_65 #Joravar
+	}
+	5920.7.3 = {
+		holder = burley_67 #Wallen
+	}
+	5975.10.25 = {
+		holder = burley_69 #Galem
+	}
+	5997.5.1 = {
+		holder = burley_71 #Lutrin
+	}
+	6068.9.17 = {
+		holder = burley_73 #Skaval
+	}
+	6111.8.14 = {
+		holder = burley_75 #Gede
+	}
+	6130.12.22 = {
+		holder = burley_77 #Ale
+	}
+	6147.1.21 = {
+		holder = burley_79 #Drad
+	}
+	6219.3.8 = {
+		holder = burley_81 #Gornegg
+	}
+	6279.5.16 = {
+		holder = burley_83 #Steig
+	}
+	6326.9.24 = {
+		holder = burley_85 #Mavin
+	}
+	6340.7.26 = {
+		holder = burley_87 #Isrand
+	}
+	6411.3.8 = {
+		holder = burley_89 #Joseth
+	}
+	6466.9.23 = {
+		holder = burley_91 #Gest
+	}
+	6486.10.26 = {
+		holder = burley_93 #Gede
+	}
+	6531.4.2 = {
+		holder = burley_95 #Curt
+	}
+	6609.12.21 = {
+		holder = burley_97 #Ragnar
+	}
+	6638.8.21 = {
+		holder = burley_99 #Lokamun
+	}
+	6667.3.26 = {
+		holder = burley_101 #Drad
+	}
+	6693.11.27 = {
+		holder = burley_103 #Cory
+	}
+	6757.1.21 = {
+		holder = burley_105 #Borroq
+	}
+	6792.1.28 = {
+		holder = burley_107 #Boradir
+	}
+	6848.1.14 = {
+		holder = burley_109 #Barr
+	}
+	6914.6.11 = {
+		holder = burley_111 #Arald
+	}
+	6948.1.11 = {
+		holder = burley_113 #Dolner
+	}
+	7005.11.2 = {
+		holder = burley_117 #Gornegg
+	}
+	7073.8.12 = {
+		holder = burley_119 #Vayon
 	}
 }
 c_forskane = {
