@@ -2384,193 +2384,559 @@ d_elkstone = {
 	800.1.1={
 		liege=k_winterfell
 	}
+
+	4450.3.18 = {
+		holder = poole_1 #Bernarr
+	}
+	4495.11.22 = {
+		holder = poole_3 #Morgan
+	}
+	4568.2.7 = {
+		holder = poole_5 #Tord
+	}
+	4626.8.22 = {
+		holder = poole_7 #Styr
+	}
+	4628.9.15 = {
+		holder = poole_9 #Kael
+	}
+	4646.8.6 = {
+		holder = poole_11 #Nikla
+	}
+	4702.11.7 = {
+		holder = poole_13 #Helman
+	}
+	4761.12.7 = {
+		holder = poole_15 #Beron
+	}
+	4775.6.3 = {
+		holder = poole_17 #Eylif
+	}
+	4845.12.1 = {
+		holder = poole_19 #Dyncen
+	}
+	4880.9.6 = {
+		holder = poole_21 #Roger
+	}
+	4918.12.4 = {
+		holder = poole_23 #Rikulf
+	}
+	4971.1.16 = {
+		holder = poole_25 #Neddard
+	}
+	5001.1.23 = {
+		holder = poole_27 #Greg
+	}
+	5042.7.5 = {
+		holder = poole_29 #Yoren
+	}
+	5101.2.13 = {
+		holder = poole_31 #Jeor
+	}
+	5147.8.12 = {
+		holder = poole_33 #Desmond
+	}
+	5179.8.25 = {
+		holder = poole_35 #Hother
+	}
+	5228.12.13 = {
+		holder = poole_37 #Cregan
+	}
+	5269.8.28 = {
+		holder = poole_39 #Dorren
+	}
+	5296.12.16 = {
+		holder = poole_41 #Vesamir
+	}
+	5356.2.10 = {
+		holder = poole_43 #Wayn
+	}
+	5406.3.25 = {
+		holder = poole_45 #Mark
+	}
+	5472.10.16 = {
+		holder = poole_47 #Mattis
+	}
+	5492.2.17 = {
+		holder = poole_49 #Starkad
+	}
+	5515.1.12 = {
+		holder = poole_51 #Dag
+	}
+	5557.9.28 = {
+		holder = poole_53 #Eilif
+	}
+	5636.6.28 = {
+		holder = poole_55 #Elyiot
+	}
+	5696.5.20 = {
+		holder = poole_57 #Halys
+	}
+	5726.7.4 = {
+		holder = poole_59 #Frodoi
+	}
+	5772.8.21 = {
+		holder = poole_61 #Lawyrence
+	}
+	5838.2.24 = {
+		holder = poole_63 #Barthogan
+	}
+	5839.5.20 = {
+		holder = poole_65 #Vayon
+	}
+	5904.9.8 = {
+		holder = poole_67 #Edric
+	}
+	5934.2.25 = {
+		holder = poole_69 #Rolf
+	}
+	5966.10.14 = {
+		holder = poole_71 #Ormyn
+	}
+	6019.6.6 = {
+		holder = poole_73 #Eylif
+	}
+	6055.9.2 = {
+		holder = poole_75 #Morgan
+	}
+	6101.3.2 = {
+		holder = poole_77 #Rikulf
+	}
+	6132.8.13 = {
+		holder = poole_79 #Robett
+	}
+	6199.4.21 = {
+		holder = poole_81 #Craster
+	}
+	6250.7.9 = {
+		holder = poole_83 #Greger
+	}
+	6327.6.24 = {
+		holder = poole_85 #Brenett
+	}
+	6347.1.2 = {
+		holder = poole_87 #Wylis
+	}
+	6383.6.13 = {
+		holder = poole_89 #Ramsay
+	}
+	6451.9.26 = {
+		holder = poole_91 #Starkad
+	}
+	6478.3.1 = {
+		holder = poole_93 #Chayle
+	}
+	6525.11.7 = {
+		holder = poole_95 #Morgan
+	}
+	6552.6.16 = {
+		holder = poole_97 #Magar
+	}
+	6599.9.8 = {
+		holder = poole_99 #Rickard
+	}
+	6652.11.8 = {
+		holder = poole_101 #Filype
+	}
+	6694.11.7 = {
+		holder = poole_103 #Alic
+	}
+	6741.11.5 = {
+		holder = poole_105 #Hrane
+	}
+	6806.3.12 = {
+		holder = poole_107 #Lonnel
+	}
+	6824.9.23 = {
+		holder = poole_109 #Donnis
+	}
+	6826.11.7 = {
+		holder = poole_111 #Benjicot
+	}
+	6865.9.21 = {
+		holder = poole_113 #Markors
+	}
+	6930.8.8 = {
+		holder = poole_115 #Andren
+	}
+	6987.7.25 = {
+		holder = poole_117 #Degilf
+	}
+	7011.7.13 = {
+		holder = poole_119 #Refil
+	}
 }
 c_elkstone = {
 	800.1.1={
 		liege=d_elkstone
+	}
+
+	4450.3.18 = {
+		holder = poole_1 #Bernarr
+	}
+	4495.11.22 = {
+		holder = poole_3 #Morgan
+	}
+	4568.2.7 = {
+		holder = poole_5 #Tord
+	}
+	4626.8.22 = {
+		holder = poole_7 #Styr
+	}
+	4628.9.15 = {
+		holder = poole_9 #Kael
+	}
+	4646.8.6 = {
+		holder = poole_11 #Nikla
+	}
+	4702.11.7 = {
+		holder = poole_13 #Helman
+	}
+	4761.12.7 = {
+		holder = poole_15 #Beron
+	}
+	4775.6.3 = {
+		holder = poole_17 #Eylif
+	}
+	4845.12.1 = {
+		holder = poole_19 #Dyncen
+	}
+	4880.9.6 = {
+		holder = poole_21 #Roger
+	}
+	4918.12.4 = {
+		holder = poole_23 #Rikulf
+	}
+	4971.1.16 = {
+		holder = poole_25 #Neddard
+	}
+	5001.1.23 = {
+		holder = poole_27 #Greg
+	}
+	5042.7.5 = {
+		holder = poole_29 #Yoren
+	}
+	5101.2.13 = {
+		holder = poole_31 #Jeor
+	}
+	5147.8.12 = {
+		holder = poole_33 #Desmond
+	}
+	5179.8.25 = {
+		holder = poole_35 #Hother
+	}
+	5228.12.13 = {
+		holder = poole_37 #Cregan
+	}
+	5269.8.28 = {
+		holder = poole_39 #Dorren
+	}
+	5296.12.16 = {
+		holder = poole_41 #Vesamir
+	}
+	5356.2.10 = {
+		holder = poole_43 #Wayn
+	}
+	5406.3.25 = {
+		holder = poole_45 #Mark
+	}
+	5472.10.16 = {
+		holder = poole_47 #Mattis
+	}
+	5492.2.17 = {
+		holder = poole_49 #Starkad
+	}
+	5515.1.12 = {
+		holder = poole_51 #Dag
+	}
+	5557.9.28 = {
+		holder = poole_53 #Eilif
+	}
+	5636.6.28 = {
+		holder = poole_55 #Elyiot
+	}
+	5696.5.20 = {
+		holder = poole_57 #Halys
+	}
+	5726.7.4 = {
+		holder = poole_59 #Frodoi
+	}
+	5772.8.21 = {
+		holder = poole_61 #Lawyrence
+	}
+	5838.2.24 = {
+		holder = poole_63 #Barthogan
+	}
+	5839.5.20 = {
+		holder = poole_65 #Vayon
+	}
+	5904.9.8 = {
+		holder = poole_67 #Edric
+	}
+	5934.2.25 = {
+		holder = poole_69 #Rolf
+	}
+	5966.10.14 = {
+		holder = poole_71 #Ormyn
+	}
+	6019.6.6 = {
+		holder = poole_73 #Eylif
+	}
+	6055.9.2 = {
+		holder = poole_75 #Morgan
+	}
+	6101.3.2 = {
+		holder = poole_77 #Rikulf
+	}
+	6132.8.13 = {
+		holder = poole_79 #Robett
+	}
+	6199.4.21 = {
+		holder = poole_81 #Craster
+	}
+	6250.7.9 = {
+		holder = poole_83 #Greger
+	}
+	6327.6.24 = {
+		holder = poole_85 #Brenett
+	}
+	6347.1.2 = {
+		holder = poole_87 #Wylis
+	}
+	6383.6.13 = {
+		holder = poole_89 #Ramsay
+	}
+	6451.9.26 = {
+		holder = poole_91 #Starkad
+	}
+	6478.3.1 = {
+		holder = poole_93 #Chayle
+	}
+	6525.11.7 = {
+		holder = poole_95 #Morgan
+	}
+	6552.6.16 = {
+		holder = poole_97 #Magar
+	}
+	6599.9.8 = {
+		holder = poole_99 #Rickard
+	}
+	6652.11.8 = {
+		holder = poole_101 #Filype
+	}
+	6694.11.7 = {
+		holder = poole_103 #Alic
+	}
+	6741.11.5 = {
+		holder = poole_105 #Hrane
+	}
+	6806.3.12 = {
+		holder = poole_107 #Lonnel
+	}
+	6824.9.23 = {
+		holder = poole_109 #Donnis
+	}
+	6826.11.7 = {
+		holder = poole_111 #Benjicot
+	}
+	6865.9.21 = {
+		holder = poole_113 #Markors
+	}
+	6930.8.8 = {
+		holder = poole_115 #Andren
+	}
+	6987.7.25 = {
+		holder = poole_117 #Degilf
+	}
+	7011.7.13 = {
+		holder = poole_119 #Refil
 	}
 }
 c_llanwyrst = {
 	800.1.1={
 		liege=d_elkstone
 	}
-	4430.6.15 = {
-        holder = condon_1 #Ethan
-    }
-    4512.12.4 = {
-        holder = condon_3 #Garth
-    }
-    4583.6.22 = {
-        holder = condon_5 #Cley
-    }
-    4647.9.8 = {
-        holder = condon_7 #Danny
-    }
-    4685.4.25 = {
-        holder = condon_9 #Theon
-    }
-    4748.1.25 = {
-        holder = condon_11 #Brenett
-    }
-    4799.7.20 = {
-        holder = condon_13 #Bartimus
-    }
-    4825.1.19 = {
-        holder = condon_15 #Domeric
-    }
-    4858.6.18 = {
-        holder = condon_17 #Hallis
-    }
-    4919.11.13 = {
-        holder = condon_19 #Aethan
-    }
-    4985.1.25 = {
-        holder = condon_21 #Barthogan
-    }
-    5048.10.17 = {
-        holder = condon_23 #Harmond
-    }
-    5084.9.7 = {
-        holder = condon_25 #Desmond
-    }
-    5150.3.22 = {
-        holder = condon_27 #Martyn
-    }
-    5207.4.9 = {
-        holder = condon_29 #Donnis
-    }
-    5273.11.28 = {
-        holder = condon_31 #Edrick
-    }
-    5325.12.27 = {
-        holder = condon_33 #Domeric
-    }
-    5392.3.1 = {
-        holder = condon_35 #Roose
-    }
-    5412.8.7 = {
-        holder = condon_37 #Brenett
-    }
-    5449.2.3 = {
-        holder = condon_39 #Howland
-    }
-    5518.8.12 = {
-        holder = condon_41 #Bass
-    }
-    5573.7.23 = {
-        holder = condon_43 #Leobald
-    }
-    5612.1.13 = {
-        holder = condon_45 #Tomard
-    }
-    5664.2.1 = {
-        holder = condon_47 #Theodan
-    }
-    5701.5.7 = {
-        holder = condon_49 #Medger
-    }
-    5744.11.25 = {
-        holder = condon_51 #Byam
-    }
-    5779.6.1 = {
-        holder = condon_53 #Walton
-    }
-    5838.12.22 = {
-        holder = condon_55 #Wynton
-    }
-    5911.2.24 = {
-        holder = condon_57 #Bernarr
-    }
-    5972.11.6 = {
-        holder = condon_59 #Karlon
-    }
-    5997.5.20 = {
-        holder = condon_61 #Hother
-    }
-    6042.10.4 = {
-        holder = condon_63 #Cellador
-    }
-    6033.9.8 = {
-        holder = condon_65 #Elric
-    }
-    6097.9.21 = {
-        holder = condon_67 #Errold
-    }
-    6113.2.25 = {
-        holder = condon_69 #Robb
-    }
-    6190.4.13 = {
-        holder = condon_71 #Ethan
-    }
-    6238.11.14 = {
-        holder = condon_73 #Cellador
-    }
-    6275.5.9 = {
-        holder = condon_75 #Mors
-    }
-    6356.11.3 = {
-        holder = condon_77 #Morgan
-    }
-    6391.4.10 = {
-        holder = condon_79 #Harmond
-    }
-    6425.4.1 = {
-        holder = condon_81 #Eyron
-    }
-    6444.12.23 = {
-        holder = condon_83 #Hallis
-    }
-    6515.8.24 = {
-        holder = condon_85 #Owen
-    }
-    6574.1.10 = {
-        holder = condon_87 #Harrion
-    }
-    6642.11.18 = {
-        holder = condon_89 #Brandon
-    }
-    6680.10.7 = {
-        holder = condon_91 #Roger
-    }
-    6757.11.2 = {
-        holder = condon_93 #Howland
-    }
-    6814.3.25 = {
-        holder = condon_95 #Barthogan
-    }
-    6875.12.10 = {
-        holder = condon_97 #Gariss
-    }
-    6936.5.18 = {
-        holder = condon_99 #Barthogan
-    }
-    6988.7.15 = {
-        holder = condon_101 #Byam
-    }
-    7043.11.3 = {
-        holder = condon_103 #Mallador
-    }
-    7115.3.24 = {
-        holder = condon_105 #Harrion
-    }
-    7157.5.21 = {
-        holder = condon_107 #Marlon
-    }
-    7217.3.22 = {
-        holder = condon_109 #Wyman
-    }
-    7253.4.6 = {
-        holder = condon_112 #Errold
-    }
-    7288.4.26 = {
-        holder = condon_114 #Edric
-    }
-    7356.12.25 = {
-        holder = condon_116 #Gawen
-    }
-    7384.3.25 = {
-        holder = condon_120 #Joseth
-    }
+
+	4450.3.18 = {
+		holder = poole_1 #Bernarr
+	}
+	4495.11.22 = {
+		holder = poole_3 #Morgan
+	}
+	4568.2.7 = {
+		holder = poole_5 #Tord
+	}
+	4626.8.22 = {
+		holder = poole_7 #Styr
+	}
+	4628.9.15 = {
+		holder = poole_9 #Kael
+	}
+	4646.8.6 = {
+		holder = poole_11 #Nikla
+	}
+	4702.11.7 = {
+		holder = poole_13 #Helman
+	}
+	4761.12.7 = {
+		holder = poole_15 #Beron
+	}
+	4775.6.3 = {
+		holder = poole_17 #Eylif
+	}
+	4845.12.1 = {
+		holder = poole_19 #Dyncen
+	}
+	4880.9.6 = {
+		holder = poole_21 #Roger
+	}
+	4918.12.4 = {
+		holder = poole_23 #Rikulf
+	}
+	4971.1.16 = {
+		holder = poole_25 #Neddard
+	}
+	5001.1.23 = {
+		holder = poole_27 #Greg
+	}
+	5042.7.5 = {
+		holder = poole_29 #Yoren
+	}
+	5101.2.13 = {
+		holder = poole_31 #Jeor
+	}
+	5147.8.12 = {
+		holder = poole_33 #Desmond
+	}
+	5179.8.25 = {
+		holder = poole_35 #Hother
+	}
+	5228.12.13 = {
+		holder = poole_37 #Cregan
+	}
+	5269.8.28 = {
+		holder = poole_39 #Dorren
+	}
+	5296.12.16 = {
+		holder = poole_41 #Vesamir
+	}
+	5356.2.10 = {
+		holder = poole_43 #Wayn
+	}
+	5406.3.25 = {
+		holder = poole_45 #Mark
+	}
+	5472.10.16 = {
+		holder = poole_47 #Mattis
+	}
+	5492.2.17 = {
+		holder = poole_49 #Starkad
+	}
+	5515.1.12 = {
+		holder = poole_51 #Dag
+	}
+	5557.9.28 = {
+		holder = poole_53 #Eilif
+	}
+	5636.6.28 = {
+		holder = poole_55 #Elyiot
+	}
+	5696.5.20 = {
+		holder = poole_57 #Halys
+	}
+	5726.7.4 = {
+		holder = poole_59 #Frodoi
+	}
+	5772.8.21 = {
+		holder = poole_61 #Lawyrence
+	}
+	5838.2.24 = {
+		holder = poole_63 #Barthogan
+	}
+	5839.5.20 = {
+		holder = poole_65 #Vayon
+	}
+	5904.9.8 = {
+		holder = poole_67 #Edric
+	}
+	5934.2.25 = {
+		holder = poole_69 #Rolf
+	}
+	5966.10.14 = {
+		holder = poole_71 #Ormyn
+	}
+	6019.6.6 = {
+		holder = poole_73 #Eylif
+	}
+	6055.9.2 = {
+		holder = poole_75 #Morgan
+	}
+	6101.3.2 = {
+		holder = poole_77 #Rikulf
+	}
+	6132.8.13 = {
+		holder = poole_79 #Robett
+	}
+	6199.4.21 = {
+		holder = poole_81 #Craster
+	}
+	6250.7.9 = {
+		holder = poole_83 #Greger
+	}
+	6327.6.24 = {
+		holder = poole_85 #Brenett
+	}
+	6347.1.2 = {
+		holder = poole_87 #Wylis
+	}
+	6383.6.13 = {
+		holder = poole_89 #Ramsay
+	}
+	6451.9.26 = {
+		holder = poole_91 #Starkad
+	}
+	6478.3.1 = {
+		holder = poole_93 #Chayle
+	}
+	6525.11.7 = {
+		holder = poole_95 #Morgan
+	}
+	6552.6.16 = {
+		holder = poole_97 #Magar
+	}
+	6599.9.8 = {
+		holder = poole_99 #Rickard
+	}
+	6652.11.8 = {
+		holder = poole_101 #Filype
+	}
+	6694.11.7 = {
+		holder = poole_103 #Alic
+	}
+	6741.11.5 = {
+		holder = poole_105 #Hrane
+	}
+	6806.3.12 = {
+		holder = poole_107 #Lonnel
+	}
+	6824.9.23 = {
+		holder = poole_109 #Donnis
+	}
+	6826.11.7 = {
+		holder = poole_111 #Benjicot
+	}
+	6865.9.21 = {
+		holder = poole_113 #Markors
+	}
+	6930.8.8 = {
+		holder = poole_115 #Andren
+	}
+	6987.7.25 = {
+		holder = poole_117 #Degilf
+	}
+	7011.7.13 = {
+		holder = poole_119 #Refil
+	}
 }
 c_elk_crossing = {
 	800.1.1={
@@ -2759,186 +3125,183 @@ c_fawning_grove = {
 		liege=d_elkstone
 	}
 
-	4450.3.18 = {
-		holder = poole_1 #Bernarr
-	}
-	4495.11.22 = {
-		holder = poole_3 #Morgan
-	}
-	4568.2.7 = {
-		holder = poole_5 #Tord
-	}
-	4626.8.22 = {
-		holder = poole_7 #Styr
-	}
-	4628.9.15 = {
-		holder = poole_9 #Kael
-	}
-	4646.8.6 = {
-		holder = poole_11 #Nikla
-	}
-	4702.11.7 = {
-		holder = poole_13 #Helman
-	}
-	4761.12.7 = {
-		holder = poole_15 #Beron
-	}
-	4775.6.3 = {
-		holder = poole_17 #Eylif
-	}
-	4845.12.1 = {
-		holder = poole_19 #Dyncen
-	}
-	4880.9.6 = {
-		holder = poole_21 #Roger
-	}
-	4918.12.4 = {
-		holder = poole_23 #Rikulf
-	}
-	4971.1.16 = {
-		holder = poole_25 #Neddard
-	}
-	5001.1.23 = {
-		holder = poole_27 #Greg
-	}
-	5042.7.5 = {
-		holder = poole_29 #Yoren
-	}
-	5101.2.13 = {
-		holder = poole_31 #Jeor
-	}
-	5147.8.12 = {
-		holder = poole_33 #Desmond
-	}
-	5179.8.25 = {
-		holder = poole_35 #Hother
-	}
-	5228.12.13 = {
-		holder = poole_37 #Cregan
-	}
-	5269.8.28 = {
-		holder = poole_39 #Dorren
-	}
-	5296.12.16 = {
-		holder = poole_41 #Vesamir
-	}
-	5356.2.10 = {
-		holder = poole_43 #Wayn
-	}
-	5406.3.25 = {
-		holder = poole_45 #Mark
-	}
-	5472.10.16 = {
-		holder = poole_47 #Mattis
-	}
-	5492.2.17 = {
-		holder = poole_49 #Starkad
-	}
-	5515.1.12 = {
-		holder = poole_51 #Dag
-	}
-	5557.9.28 = {
-		holder = poole_53 #Eilif
-	}
-	5636.6.28 = {
-		holder = poole_55 #Elyiot
-	}
-	5696.5.20 = {
-		holder = poole_57 #Halys
-	}
-	5726.7.4 = {
-		holder = poole_59 #Frodoi
-	}
-	5772.8.21 = {
-		holder = poole_61 #Lawyrence
-	}
-	5838.2.24 = {
-		holder = poole_63 #Barthogan
-	}
-	5839.5.20 = {
-		holder = poole_65 #Vayon
-	}
-	5904.9.8 = {
-		holder = poole_67 #Edric
-	}
-	5934.2.25 = {
-		holder = poole_69 #Rolf
-	}
-	5966.10.14 = {
-		holder = poole_71 #Ormyn
-	}
-	6019.6.6 = {
-		holder = poole_73 #Eylif
-	}
-	6055.9.2 = {
-		holder = poole_75 #Morgan
-	}
-	6101.3.2 = {
-		holder = poole_77 #Rikulf
-	}
-	6132.8.13 = {
-		holder = poole_79 #Robett
-	}
-	6199.4.21 = {
-		holder = poole_81 #Craster
-	}
-	6250.7.9 = {
-		holder = poole_83 #Greger
-	}
-	6327.6.24 = {
-		holder = poole_85 #Brenett
-	}
-	6347.1.2 = {
-		holder = poole_87 #Wylis
-	}
-	6383.6.13 = {
-		holder = poole_89 #Ramsay
-	}
-	6451.9.26 = {
-		holder = poole_91 #Starkad
-	}
-	6478.3.1 = {
-		holder = poole_93 #Chayle
-	}
-	6525.11.7 = {
-		holder = poole_95 #Morgan
-	}
-	6552.6.16 = {
-		holder = poole_97 #Magar
-	}
-	6599.9.8 = {
-		holder = poole_99 #Rickard
-	}
-	6652.11.8 = {
-		holder = poole_101 #Filype
-	}
-	6694.11.7 = {
-		holder = poole_103 #Alic
-	}
-	6741.11.5 = {
-		holder = poole_105 #Hrane
-	}
-	6806.3.12 = {
-		holder = poole_107 #Lonnel
-	}
-	6824.9.23 = {
-		holder = poole_109 #Donnis
-	}
-	6826.11.7 = {
-		holder = poole_111 #Benjicot
-	}
-	6865.9.21 = {
-		holder = poole_113 #Markors
-	}
-	6930.8.8 = {
-		holder = poole_115 #Andren
-	}
-	6987.7.25 = {
-		holder = poole_117 #Degilf
-	}
-	7011.7.13 = {
-		holder = poole_119 #Refil
-	}
+	4430.6.15 = {
+        holder = condon_1 #Ethan
+    }
+    4512.12.4 = {
+        holder = condon_3 #Garth
+    }
+    4583.6.22 = {
+        holder = condon_5 #Cley
+    }
+    4647.9.8 = {
+        holder = condon_7 #Danny
+    }
+    4685.4.25 = {
+        holder = condon_9 #Theon
+    }
+    4748.1.25 = {
+        holder = condon_11 #Brenett
+    }
+    4799.7.20 = {
+        holder = condon_13 #Bartimus
+    }
+    4825.1.19 = {
+        holder = condon_15 #Domeric
+    }
+    4858.6.18 = {
+        holder = condon_17 #Hallis
+    }
+    4919.11.13 = {
+        holder = condon_19 #Aethan
+    }
+    4985.1.25 = {
+        holder = condon_21 #Barthogan
+    }
+    5048.10.17 = {
+        holder = condon_23 #Harmond
+    }
+    5084.9.7 = {
+        holder = condon_25 #Desmond
+    }
+    5150.3.22 = {
+        holder = condon_27 #Martyn
+    }
+    5207.4.9 = {
+        holder = condon_29 #Donnis
+    }
+    5273.11.28 = {
+        holder = condon_31 #Edrick
+    }
+    5325.12.27 = {
+        holder = condon_33 #Domeric
+    }
+    5392.3.1 = {
+        holder = condon_35 #Roose
+    }
+    5412.8.7 = {
+        holder = condon_37 #Brenett
+    }
+    5449.2.3 = {
+        holder = condon_39 #Howland
+    }
+    5518.8.12 = {
+        holder = condon_41 #Bass
+    }
+    5573.7.23 = {
+        holder = condon_43 #Leobald
+    }
+    5612.1.13 = {
+        holder = condon_45 #Tomard
+    }
+    5664.2.1 = {
+        holder = condon_47 #Theodan
+    }
+    5701.5.7 = {
+        holder = condon_49 #Medger
+    }
+    5744.11.25 = {
+        holder = condon_51 #Byam
+    }
+    5779.6.1 = {
+        holder = condon_53 #Walton
+    }
+    5838.12.22 = {
+        holder = condon_55 #Wynton
+    }
+    5911.2.24 = {
+        holder = condon_57 #Bernarr
+    }
+    5972.11.6 = {
+        holder = condon_59 #Karlon
+    }
+    5997.5.20 = {
+        holder = condon_61 #Hother
+    }
+    6042.10.4 = {
+        holder = condon_63 #Cellador
+    }
+    6033.9.8 = {
+        holder = condon_65 #Elric
+    }
+    6097.9.21 = {
+        holder = condon_67 #Errold
+    }
+    6113.2.25 = {
+        holder = condon_69 #Robb
+    }
+    6190.4.13 = {
+        holder = condon_71 #Ethan
+    }
+    6238.11.14 = {
+        holder = condon_73 #Cellador
+    }
+    6275.5.9 = {
+        holder = condon_75 #Mors
+    }
+    6356.11.3 = {
+        holder = condon_77 #Morgan
+    }
+    6391.4.10 = {
+        holder = condon_79 #Harmond
+    }
+    6425.4.1 = {
+        holder = condon_81 #Eyron
+    }
+    6444.12.23 = {
+        holder = condon_83 #Hallis
+    }
+    6515.8.24 = {
+        holder = condon_85 #Owen
+    }
+    6574.1.10 = {
+        holder = condon_87 #Harrion
+    }
+    6642.11.18 = {
+        holder = condon_89 #Brandon
+    }
+    6680.10.7 = {
+        holder = condon_91 #Roger
+    }
+    6757.11.2 = {
+        holder = condon_93 #Howland
+    }
+    6814.3.25 = {
+        holder = condon_95 #Barthogan
+    }
+    6875.12.10 = {
+        holder = condon_97 #Gariss
+    }
+    6936.5.18 = {
+        holder = condon_99 #Barthogan
+    }
+    6988.7.15 = {
+        holder = condon_101 #Byam
+    }
+    7043.11.3 = {
+        holder = condon_103 #Mallador
+    }
+    7115.3.24 = {
+        holder = condon_105 #Harrion
+    }
+    7157.5.21 = {
+        holder = condon_107 #Marlon
+    }
+    7217.3.22 = {
+        holder = condon_109 #Wyman
+    }
+    7253.4.6 = {
+        holder = condon_112 #Errold
+    }
+    7288.4.26 = {
+        holder = condon_114 #Edric
+    }
+    7356.12.25 = {
+        holder = condon_116 #Gawen
+    }
+    7384.3.25 = {
+        holder = condon_120 #Joseth
+    }
 }
 d_moat_cailin = {
 	800.1.1={
