@@ -3,39 +3,44 @@ k_mistwood = {
 		liege=e_stormlands
 	}
 }
-d_lockport = {
+d_amberly = {
 	800.1.1={
 		liege=k_mistwood
 	}
 }
-c_lockport = {
+c_amberly = {
 	800.1.1={
-		liege=d_lockport
+		liege=d_amberly
 	}
 }
 c_p25 = {
 	800.1.1={
-		liege=d_lockport
+		liege=d_amberly
 	}
 }
 c_p26 = {
 	800.1.1={
-		liege=d_lockport
+		liege=d_amberly
 	}
 }
-c_p27 = {
+c_swygert = {
 	800.1.1={
-		liege=d_lockport
+		liege=d_amberly
+	}
+}
+d_wrath_isles = {
+	800.1.1={
+		liege=k_mistwood
 	}
 }
 c_wrath_isle = {
 	800.1.1={
-		liege=d_lockport
+		liege=d_wrath_isles
 	}
 }
 c_sober_isle = {
 	800.1.1={
-		liege=d_lockport
+		liege=d_wrath_isles
 	}
 }
 d_mistwood = {
@@ -53,7 +58,7 @@ c_p28 = {
 		liege=d_mistwood
 	}
 }
-c_mistwood_isle = {
+c_estermont = {
 	800.1.1={
 		liege=d_mistwood
 	}
