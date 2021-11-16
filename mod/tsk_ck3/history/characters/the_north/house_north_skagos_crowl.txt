@@ -1,0 +1,5695 @@
+crowl_1 = {
+    name = "Rubert"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = honest
+    trait = humble
+    trait = fickle
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    4450.7.27 = {
+        birth = yes
+    }
+
+    4465.4.26 = {
+        add_spouse = crowl_2
+    }
+
+    4534.9.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_2 = {
+    name = "Harma"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = vengeful
+    trait = callous
+    trait = zealous
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_3
+
+    4448.12.17 = {
+        birth = yes
+    }
+
+    4533.3.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_3 = {
+    name = "Drykamar"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_1
+    mother = crowl_2
+
+    trait = arrogant
+    trait = just
+    trait = lazy
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 6
+    intrigue = 10
+    learning = 9
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    4476.5.23 = {
+        birth = yes
+    }
+
+    4477.12.4 = {
+        give_nickname = nick_the_shepherd
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    4513.3.14 = {
+        add_spouse = crowl_4
+    }
+
+    4545.3.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_4 = {
+    name = "Hali"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = honest
+    trait = wrathful
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    4496.1.19 = {
+        birth = yes
+    }
+
+    4574.4.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_5 = {
+    name = "Curtshanks"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_3
+    mother = crowl_4
+
+    trait = vengeful
+    trait = fickle
+    trait = callous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_3
+
+    4534.12.7 = {
+        birth = yes
+    }
+
+    4561.3.9 = {
+        add_spouse = crowl_6
+    }
+
+    4609.6.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_6 = {
+    name = "Tera"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = just
+    trait = ambitious
+    trait = humble
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 9
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    4544.4.16 = {
+        birth = yes
+    }
+
+    4622.12.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_7 = {
+    name = "Gomir"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_5
+    mother = crowl_6
+
+    trait = arrogant
+    trait = generous
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 8
+    intrigue = 2
+    learning = 6
+    prowess = 9
+
+    trait = education_martial_3
+
+    4584.7.28 = {
+        birth = yes
+    }
+
+    4624.5.14 = {
+        add_spouse = crowl_8
+    }
+
+    4657.3.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_8 = {
+    name = "Hilde"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = shy
+    trait = forgiving
+    trait = generous
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 5
+    intrigue = 10
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    4607.2.9 = {
+        birth = yes
+    }
+
+    4683.8.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_9 = {
+    name = "Noll"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_7
+    mother = crowl_8
+
+    trait = lazy
+    trait = just
+    trait = honest
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    4640.11.25 = {
+        birth = yes
+    }
+
+    4671.4.16 = {
+        add_spouse = crowl_10
+    }
+
+    4681.4.1 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+crowl_10 = {
+    name = "Kadis"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = paranoid
+    trait = brave
+    trait = ambitious
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 5
+    intrigue = 4
+    learning = 1
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    4654.11.7 = {
+        birth = yes
+    }
+
+    4735.8.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_11 = {
+    name = "Errok"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_9
+    mother = crowl_10
+
+    trait = calm
+    trait = content
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 7
+    intrigue = 9
+    learning = 6
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    4678.6.19 = {
+        birth = yes
+    }
+
+    4714.3.17 = {
+        add_spouse = crowl_12
+    }
+
+    4751.7.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_12 = {
+    name = "Ferny"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = shy
+    trait = ambitious
+    trait = stubborn
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 4
+    intrigue = 9
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    4697.1.10 = {
+        birth = yes
+    }
+
+    4777.3.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_13 = {
+    name = "Toran"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_11
+    mother = crowl_12
+
+    trait = lazy
+    trait = arbitrary
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_2
+
+    4725.3.4 = {
+        birth = yes
+    }
+
+    4764.1.6 = {
+        add_spouse = crowl_14
+    }
+
+    4807.2.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_14 = {
+    name = "Grisel"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = ambitious
+    trait = zealous
+    trait = humble
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 5
+    intrigue = 6
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_3
+
+    4747.2.23 = {
+        birth = yes
+    }
+
+    4814.3.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_15 = {
+    name = "Boradir"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_13
+    mother = crowl_14
+
+    trait = arrogant
+    trait = forgiving
+    trait = lustful
+
+    diplomacy = 4
+    martial = 11
+    stewardship = 4
+    intrigue = 2
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_4
+
+    4788.8.1 = {
+        birth = yes
+    }
+
+    4816.10.22 = {
+        add_spouse = crowl_16
+    }
+
+    4834.7.22 = {
+        death = { death_reason = death_great_pox }
+    }
+}
+
+crowl_16 = {
+    name = "Bonny"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = paranoid
+    trait = arbitrary
+    trait = impatient
+
+    diplomacy = 11
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    4799.12.8 = {
+        birth = yes
+    }
+
+    4870.6.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_17 = {
+    name = "Varamyr"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_15
+    mother = crowl_16
+
+    trait = honest
+    trait = generous
+    trait = shy
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    4825.12.12 = {
+        birth = yes
+    }
+
+    4848.9.26 = {
+        add_spouse = crowl_18
+    }
+
+    4904.9.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_18 = {
+    name = "Ynness"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = ambitious
+    trait = humble
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    4831.8.2 = {
+        birth = yes
+    }
+
+    4912.7.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_19 = {
+    name = "Gert"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_17
+    mother = crowl_18
+
+    trait = ambitious
+    trait = callous
+    trait = calm
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    4862.9.12 = {
+        birth = yes
+    }
+
+    4897.3.5 = {
+        add_spouse = crowl_20
+    }
+
+    4938.9.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_20 = {
+    name = "Jonnela"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = deceitful
+    trait = ambitious
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 9
+    learning = 7
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    4880.4.2 = {
+        birth = yes
+    }
+
+    4953.12.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_21 = {
+    name = "Raudill"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_19
+    mother = crowl_20
+
+    trait = generous
+    trait = lazy
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    4910.2.7 = {
+        birth = yes
+    }
+
+    4948.9.24 = {
+        add_spouse = crowl_22
+    }
+
+    4958.7.8 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+crowl_22 = {
+    name = "Thyme"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = forgiving
+    trait = wrathful
+    trait = content
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 9
+    intrigue = 6
+    learning = 6
+    prowess = 10
+
+    trait = education_stewardship_2
+
+    4931.1.21 = {
+        birth = yes
+    }
+
+    5006.9.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_23 = {
+    name = "Errok"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_21
+    mother = crowl_22
+
+    trait = lazy
+    trait = shy
+    trait = chaste
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 9
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    4954.1.21 = {
+        birth = yes
+    }
+
+    5002.10.20 = {
+        add_spouse = crowl_24
+    }
+
+    5026.5.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_24 = {
+    name = "Jonella"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = shy
+    trait = lustful
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 3
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_2
+
+    4985.6.22 = {
+        birth = yes
+    }
+
+    5070.12.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_25 = {
+    name = "Gornlak"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_23
+    mother = crowl_24
+
+    trait = arbitrary
+    trait = cynical
+    trait = generous
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 2
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    5004.2.6 = {
+        birth = yes
+    }
+
+    5040.10.23 = {
+        add_spouse = crowl_26
+    }
+
+    5078.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_26 = {
+    name = "Dalthi"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = wrathful
+    trait = lazy
+    trait = just
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 4
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    5023.3.7 = {
+        birth = yes
+    }
+
+    5091.8.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_27 = {
+    name = "Toramun"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_25
+    mother = crowl_26
+
+    trait = diligent
+    trait = zealous
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 9
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    5053.2.11 = {
+        birth = yes
+    }
+
+    5071.7.26 = {
+        add_spouse = crowl_28
+    }
+
+    5132.5.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_28 = {
+    name = "Norna"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = content
+    trait = forgiving
+    trait = brave
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    5054.3.15 = {
+        birth = yes
+    }
+
+    5135.11.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_29 = {
+    name = "Joran"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_27
+    mother = crowl_28
+
+    trait = stubborn
+    trait = patient
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 5
+    intrigue = 9
+    learning = 4
+    prowess = 10
+
+    trait = education_martial_3
+
+    5094.6.15 = {
+        birth = yes
+    }
+
+    5114.4.26 = {
+        add_spouse = crowl_30
+    }
+
+    5142.11.26 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+crowl_30 = {
+    name = "Val"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = humble
+    trait = diligent
+    trait = zealous
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    5097.1.4 = {
+        birth = yes
+    }
+
+    5174.1.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_31 = {
+    name = "Lorn"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_29
+    mother = crowl_30
+
+    trait = ambitious
+    trait = calm
+    trait = cynical
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 5
+    intrigue = 9
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_3
+
+    5120.7.8 = {
+        birth = yes
+    }
+
+    5136.1.19 = {
+        add_spouse = crowl_32
+    }
+
+    5192.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_32 = {
+    name = "Eva"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = vengeful
+    trait = content
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 3
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    5119.7.19 = {
+        birth = yes
+    }
+
+    5197.1.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_33 = {
+    name = "Canan"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_31
+    mother = crowl_32
+
+    trait = gregarious
+    trait = brave
+    trait = generous
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 8
+    intrigue = 4
+    learning = 4
+    prowess = 2
+
+    trait = education_martial_2
+
+    5142.12.6 = {
+        birth = yes
+    }
+
+    5168.11.8 = {
+        add_spouse = crowl_34
+    }
+
+    5209.7.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_34 = {
+    name = "Nonne"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = sadistic
+    trait = zealous
+    trait = humble
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 2
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_3
+
+    5151.8.7 = {
+        birth = yes
+    }
+
+    5218.5.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_35 = {
+    name = "Joramun"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_33
+    mother = crowl_34
+
+    trait = deceitful
+    trait = trusting
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_1
+
+    5196.3.22 = {
+        birth = yes
+    }
+
+    5237.10.13 = {
+        add_spouse = crowl_36
+    }
+
+    5272.8.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_36 = {
+    name = "Maud"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = callous
+    trait = paranoid
+    trait = generous
+
+    diplomacy = 8
+    martial = 10
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 2
+
+    trait = education_martial_2
+
+    5220.9.23 = {
+        birth = yes
+    }
+
+    5296.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_37 = {
+    name = "Jormund"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_35
+    mother = crowl_36
+
+    trait = fickle
+    trait = vengeful
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    5251.7.8 = {
+        birth = yes
+    }
+
+    5275.2.4 = {
+        add_spouse = crowl_38
+    }
+
+    5285.10.21 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+crowl_38 = {
+    name = "Cherra"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = generous
+    trait = callous
+    trait = just
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 9
+
+    trait = education_intrigue_2
+
+    5258.11.18 = {
+        birth = yes
+    }
+
+    5342.8.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_39 = {
+    name = "Bump"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_37
+    mother = crowl_38
+
+    trait = lazy
+    trait = forgiving
+    trait = brave
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    5277.12.14 = {
+        birth = yes
+    }
+
+    5310.9.25 = {
+        add_spouse = crowl_40
+    }
+
+    5356.11.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_40 = {
+    name = "Rowly"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = honest
+    trait = generous
+    trait = calm
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 9
+    prowess = 10
+
+    trait = education_learning_3
+
+    5293.9.13 = {
+        birth = yes
+    }
+
+    5377.10.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_41 = {
+    name = "Valv"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_39
+    mother = crowl_40
+
+    trait = wrathful
+    trait = content
+    trait = lazy
+
+    diplomacy = 14
+    martial = 16
+    stewardship = 19
+    intrigue = 26
+    learning = 25
+    prowess = 21
+
+    trait = education_intrigue_4
+
+    5320.1.17 = {
+        birth = yes
+    }
+
+    5365.7.18 = {
+        add_spouse = crowl_42
+    }
+
+    5402.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_42 = {
+    name = "Frenya"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = arrogant
+    trait = honest
+    trait = stubborn
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    5348.1.28 = {
+        birth = yes
+    }
+
+    5391.5.2 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+crowl_43 = {
+    name = "Sigorn"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_41
+    mother = crowl_42
+
+    trait = callous
+    trait = forgiving
+    trait = arbitrary
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 9
+
+    trait = education_martial_4
+
+    5386.4.25 = {
+        birth = yes
+    }
+
+    5402.2.27 = {
+        add_spouse = crowl_44
+    }
+
+    5452.10.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_44 = {
+    name = "Jilly"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = callous
+    trait = brave
+    trait = calm
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 3
+    learning = 3
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    5385.12.1 = {
+        birth = yes
+    }
+
+    5436.10.5 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+crowl_45 = {
+    name = "Styrnor"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_43
+    mother = crowl_44
+
+    trait = impatient
+    trait = greedy
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    5415.10.18 = {
+        birth = yes
+    }
+
+    5440.5.18 = {
+        add_spouse = crowl_46
+    }
+
+    5486.5.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_46 = {
+    name = "Rela"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = patient
+    trait = content
+    trait = gluttonous
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 9
+    intrigue = 8
+    learning = 4
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    5423.2.16 = {
+        birth = yes
+    }
+
+    5489.1.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_47 = {
+    name = "Hankar"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_45
+    mother = crowl_46
+
+    trait = diligent
+    trait = impatient
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    5444.1.2 = {
+        birth = yes
+    }
+
+    5480.8.1 = {
+        add_spouse = crowl_48
+    }
+
+    5522.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_48 = {
+    name = "Nilly"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = ambitious
+    trait = humble
+    trait = just
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    5463.1.18 = {
+        birth = yes
+    }
+
+    5543.7.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_49 = {
+    name = "Mance"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_47
+    mother = crowl_48
+
+    trait = temperate
+    trait = vengeful
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    5504.10.16 = {
+        birth = yes
+    }
+
+    5550.2.17 = {
+        add_spouse = crowl_50
+    }
+
+    5585.6.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_50 = {
+    name = "Nilly"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = generous
+    trait = temperate
+    trait = impatient
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 3
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_3
+
+    5533.12.6 = {
+        birth = yes
+    }
+
+    5611.3.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_51 = {
+    name = "Daran"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_49
+    mother = crowl_50
+
+    trait = stubborn
+    trait = gluttonous
+    trait = content
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 2
+    prowess = 5
+
+    trait = education_martial_2
+
+    5561.9.14 = {
+        birth = yes
+    }
+
+    5584.4.9 = {
+        add_spouse = crowl_52
+    }
+
+    5636.7.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_52 = {
+    name = "Brella"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = arrogant
+    trait = callous
+    trait = trusting
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 9
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    5567.5.14 = {
+        birth = yes
+    }
+
+    5652.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_53 = {
+    name = "Harle"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_51
+    mother = crowl_52
+
+    trait = patient
+    trait = temperate
+    trait = lazy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    5596.11.11 = {
+        birth = yes
+    }
+
+    5613.9.20 = {
+        add_spouse = crowl_54
+    }
+
+    5663.9.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_54 = {
+    name = "Freesia"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = craven
+    trait = vengeful
+    trait = chaste
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 4
+    intrigue = 5
+    learning = 3
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    5596.9.11 = {
+        birth = yes
+    }
+
+    5665.4.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_55 = {
+    name = "Gendel"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_53
+    mother = crowl_54
+
+    trait = stubborn
+    trait = patient
+    trait = ambitious
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    5628.5.18 = {
+        birth = yes
+    }
+
+    5659.5.27 = {
+        add_spouse = crowl_56
+    }
+
+    5697.7.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_56 = {
+    name = "Brigit"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = trusting
+    trait = generous
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    5642.5.28 = {
+        birth = yes
+    }
+
+    5719.1.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_57 = {
+    name = "Cregan"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_55
+    mother = crowl_56
+
+    trait = calm
+    trait = lazy
+    trait = callous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    5661.1.25 = {
+        birth = yes
+    }
+
+    5686.6.1 = {
+        add_spouse = crowl_58
+    }
+
+    5746.7.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_58 = {
+    name = "Rowly"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = patient
+    trait = humble
+    trait = calm
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_learning_4
+
+    5669.6.18 = {
+        birth = yes
+    }
+
+    5749.9.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_59 = {
+    name = "Torod"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_57
+    mother = crowl_58
+
+    trait = vengeful
+    trait = brave
+    trait = diligent
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_3
+
+    5711.8.24 = {
+        birth = yes
+    }
+
+    5747.3.10 = {
+        add_spouse = crowl_60
+    }
+
+    5786.3.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_60 = {
+    name = "Effie"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = patient
+    trait = paranoid
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_3
+
+    5730.10.20 = {
+        birth = yes
+    }
+
+    5809.5.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_61 = {
+    name = "Arne"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_59
+    mother = crowl_60
+
+    trait = impatient
+    trait = cynical
+    trait = ambitious
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    5750.7.14 = {
+        birth = yes
+    }
+
+    5794.7.4 = {
+        add_spouse = crowl_62
+    }
+
+    5816.7.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_62 = {
+    name = "Berta"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = forgiving
+    trait = craven
+    trait = shy
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 10
+    prowess = 2
+
+    trait = education_learning_3
+
+    5777.11.14 = {
+        birth = yes
+    }
+
+    5845.1.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_63 = {
+    name = "Artos"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_61
+    mother = crowl_62
+
+    trait = craven
+    trait = impatient
+    trait = fickle
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    5798.2.1 = {
+        birth = yes
+    }
+
+    5835.2.26 = {
+        add_spouse = crowl_64
+    }
+
+    5872.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_64 = {
+    name = "Violet"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = humble
+    trait = sadistic
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_3
+
+    5818.2.13 = {
+        birth = yes
+    }
+
+    5888.6.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_65 = {
+    name = "Ottar"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_63
+    mother = crowl_64
+
+    trait = content
+    trait = humble
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 3
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    5846.9.6 = {
+        birth = yes
+    }
+
+    5890.6.10 = {
+        add_spouse = crowl_66
+    }
+
+    5918.10.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_66 = {
+    name = "Cassie"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = chaste
+    trait = stubborn
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    5873.6.3 = {
+        birth = yes
+    }
+
+    5954.4.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_67 = {
+    name = "Grag"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_65
+    mother = crowl_66
+
+    trait = content
+    trait = shy
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 3
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    5907.10.24 = {
+        birth = yes
+    }
+
+    5935.3.23 = {
+        add_spouse = crowl_68
+    }
+
+    5985.5.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_68 = {
+    name = "Elen"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = vengeful
+    trait = calm
+    trait = lustful
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 4
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_4
+
+    5918.2.28 = {
+        birth = yes
+    }
+
+    5988.8.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_69 = {
+    name = "Arne"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_67
+    mother = crowl_68
+
+    trait = sadistic
+    trait = honest
+    trait = calm
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_4
+
+    5959.3.3 = {
+        birth = yes
+    }
+
+    5981.12.17 = {
+        add_spouse = crowl_70
+    }
+
+    6029.10.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_70 = {
+    name = "Gilly"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = arrogant
+    trait = deceitful
+    trait = impatient
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 1
+    intrigue = 8
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_2
+
+    5964.11.8 = {
+        birth = yes
+    }
+
+    6046.4.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_71 = {
+    name = "Arne"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_69
+    mother = crowl_70
+
+    trait = forgiving
+    trait = stubborn
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 2
+    learning = 8
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    5983.9.14 = {
+        birth = yes
+    }
+
+    6006.11.11 = {
+        add_spouse = crowl_72
+    }
+
+    6050.4.21 = {
+        death = { death_reason = death_script_cruelty   }
+    }
+}
+
+crowl_72 = {
+    name = "Cherra"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = impatient
+    trait = vengeful
+    trait = diligent
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    5989.1.2 = {
+        birth = yes
+    }
+
+    6057.5.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_73 = {
+    name = "Harkul"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_71
+    mother = crowl_72
+
+    trait = callous
+    trait = ambitious
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 3
+    learning = 4
+    prowess = 10
+
+    trait = education_stewardship_4
+
+    6013.2.4 = {
+        birth = yes
+    }
+
+    6050.11.25 = {
+        add_spouse = crowl_74
+    }
+
+    6060.10.25 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+crowl_74 = {
+    name = "Herlina"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = diligent
+    trait = arbitrary
+    trait = arrogant
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 3
+    intrigue = 8
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6033.6.15 = {
+        birth = yes
+    }
+
+    6107.11.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_75 = {
+    name = "Gavin"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_73
+    mother = crowl_74
+
+    trait = compassionate
+    trait = deceitful
+    trait = temperate
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 3
+    learning = 2
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6052.3.23 = {
+        birth = yes
+    }
+
+    6083.3.12 = {
+        add_spouse = crowl_76
+    }
+
+    6129.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_76 = {
+    name = "Nesha"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = content
+    trait = greedy
+    trait = lustful
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 3
+    intrigue = 8
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6066.2.28 = {
+        birth = yes
+    }
+
+    6141.6.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_77 = {
+    name = "Varamyr"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_75
+    mother = crowl_76
+
+    trait = lazy
+    trait = gregarious
+    trait = cynical
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_4
+
+    6085.11.7 = {
+        birth = yes
+    }
+
+    6099.7.12 = {
+        add_spouse = crowl_78
+    }
+
+    6166.12.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_78 = {
+    name = "Lupina"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = arbitrary
+    trait = cynical
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6082.10.23 = {
+        birth = yes
+    }
+
+    6163.8.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_79 = {
+    name = "Gert"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_77
+    mother = crowl_78
+
+    trait = zealous
+    trait = vengeful
+    trait = callous
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 3
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6103.1.18 = {
+        birth = yes
+    }
+
+    6146.9.21 = {
+        add_spouse = crowl_80
+    }
+
+    6172.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_80 = {
+    name = "Honeysuckle"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = temperate
+    trait = compassionate
+    trait = craven
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 3
+    learning = 9
+    prowess = 10
+
+    trait = education_learning_2
+
+    6129.6.11 = {
+        birth = yes
+    }
+
+    6199.2.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_81 = {
+    name = "Varn"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_79
+    mother = crowl_80
+
+    trait = ambitious
+    trait = chaste
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6165.9.22 = {
+        birth = yes
+    }
+
+    6191.8.1 = {
+        add_spouse = crowl_82
+    }
+
+    6238.1.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_82 = {
+    name = "Herlina"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = vengeful
+    trait = gluttonous
+    trait = trusting
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    6174.3.7 = {
+        birth = yes
+    }
+
+    6249.10.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_83 = {
+    name = "Ale"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_81
+    mother = crowl_82
+
+    trait = greedy
+    trait = paranoid
+    trait = craven
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 8
+    intrigue = 2
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6203.2.12 = {
+        birth = yes
+    }
+
+    6244.7.18 = {
+        add_spouse = crowl_84
+    }
+
+    6254.8.1 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+crowl_84 = {
+    name = "Brella"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = ambitious
+    trait = shy
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 9
+    intrigue = 5
+    learning = 5
+    prowess = 2
+
+    trait = education_stewardship_4
+
+    6227.1.5 = {
+        birth = yes
+    }
+
+    6300.6.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_85 = {
+    name = "Domlech"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_83
+    mother = crowl_84
+
+    trait = compassionate
+    trait = diligent
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6249.4.11 = {
+        birth = yes
+    }
+
+    6297.10.4 = {
+        add_spouse = crowl_86
+    }
+
+    6320.12.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_86 = {
+    name = "Jonella"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = generous
+    trait = impatient
+    trait = chaste
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_3
+
+    6280.5.16 = {
+        birth = yes
+    }
+
+    6349.1.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_87 = {
+    name = "Dryn"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_85
+    mother = crowl_86
+
+    trait = forgiving
+    trait = just
+    trait = lustful
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 2
+    prowess = 7
+
+    trait = education_martial_4
+
+    6301.5.19 = {
+        birth = yes
+    }
+
+    6339.6.18 = {
+        add_spouse = crowl_88
+    }
+
+    6380.7.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_88 = {
+    name = "Spruce"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = shy
+    trait = brave
+    trait = arbitrary
+
+    diplomacy = 10
+    martial = 3
+    stewardship = 8
+    intrigue = 3
+    learning = 10
+    prowess = 11
+
+    trait = education_diplomacy_3
+
+    6322.7.19 = {
+        birth = yes
+    }
+
+    6397.11.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_89 = {
+    name = "Gorn"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_87
+    mother = crowl_88
+
+    trait = callous
+    trait = patient
+    trait = zealous
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 2
+    intrigue = 5
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_3
+
+    6347.5.19 = {
+        birth = yes
+    }
+
+    6391.6.21 = {
+        add_spouse = crowl_90
+    }
+
+    6401.2.2 = {
+        death = { death_reason = death_plotting  }
+    }
+}
+
+crowl_90 = {
+    name = "Cana"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = trusting
+    trait = ambitious
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 7
+    intrigue = 6
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_2
+
+    6374.3.3 = {
+        birth = yes
+    }
+
+    6403.8.5 = {
+        death = { death_reason = death_vanished  }
+    }
+}
+
+crowl_91 = {
+    name = "Soren"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_89
+    mother = crowl_90
+
+    trait = fickle
+    trait = wrathful
+    trait = brave
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6399.9.15 = {
+        birth = yes
+    }
+
+    6423.11.11 = {
+        add_spouse = crowl_92
+    }
+
+    6484.5.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_92 = {
+    name = "Nanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = diligent
+    trait = ambitious
+    trait = calm
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 11
+    prowess = 7
+
+    trait = education_learning_3
+
+    6406.9.5 = {
+        birth = yes
+    }
+
+    6486.11.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_93 = {
+    name = "Halys"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_91
+    mother = crowl_92
+
+    trait = lustful
+    trait = cynical
+    trait = shy
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 10
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6440.8.15 = {
+        birth = yes
+    }
+
+    6489.1.1 = {
+        add_spouse = crowl_94
+    }
+
+    6514.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_94 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = cynical
+    trait = arrogant
+    trait = temperate
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6472.9.19 = {
+        birth = yes
+    }
+
+    6552.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_95 = {
+    name = "Mors"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_93
+    mother = crowl_94
+
+    trait = sadistic
+    trait = brave
+    trait = just
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 6
+    intrigue = 9
+    learning = 4
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6509.11.7 = {
+        birth = yes
+    }
+
+    6547.8.14 = {
+        add_spouse = crowl_96
+    }
+
+    6568.12.10 = {
+        death = { death_reason = death_attacked }
+    }
+}
+
+crowl_96 = {
+    name = "Zia"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = shy
+    trait = arbitrary
+    trait = calm
+
+    diplomacy = 2
+    martial = 9
+    stewardship = 4
+    intrigue = 8
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_2
+
+    6530.7.12 = {
+        birth = yes
+    }
+
+    6568.8.4 = {
+        death = { death_reason = death_gout_ridden }
+    }
+}
+
+crowl_97 = {
+    name = "Jyk"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_95
+    mother = crowl_96
+
+    trait = diligent
+    trait = forgiving
+    trait = zealous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 9
+    learning = 5
+    prowess = 2
+
+    trait = education_intrigue_2
+
+    6568.11.7 = {
+        birth = yes
+    }
+
+    6614.6.3 = {
+        add_spouse = crowl_98
+    }
+
+    6653.3.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_98 = {
+    name = "Norna"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = just
+    trait = impatient
+    trait = content
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 4
+    intrigue = 10
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6597.6.15 = {
+        birth = yes
+    }
+
+    6681.6.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_99 = {
+    name = "Mance"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_97
+    mother = crowl_98
+
+    trait = temperate
+    trait = vengeful
+    trait = lustful
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6626.9.16 = {
+        birth = yes
+    }
+
+    6646.12.25 = {
+        add_spouse = crowl_100
+    }
+
+    6711.8.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_100 = {
+    name = "Nanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = callous
+    trait = craven
+    trait = paranoid
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 5
+    intrigue = 9
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6629.3.10 = {
+        birth = yes
+    }
+
+    6712.12.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_101 = {
+    name = "Dolner"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_99
+    mother = crowl_100
+
+    trait = paranoid
+    trait = calm
+    trait = humble
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 10
+    intrigue = 4
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6674.9.2 = {
+        birth = yes
+    }
+
+    6703.11.9 = {
+        add_spouse = crowl_102
+    }
+
+    6755.5.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_102 = {
+    name = "Rela"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = paranoid
+    trait = content
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_2
+
+    6686.8.27 = {
+        birth = yes
+    }
+
+    6771.5.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_103 = {
+    name = "Gavin"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_101
+    mother = crowl_102
+
+    trait = wrathful
+    trait = just
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 4
+    intrigue = 4
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_2
+
+    6729.12.25 = {
+        birth = yes
+    }
+
+    6763.8.9 = {
+        add_spouse = crowl_104
+    }
+
+    6806.4.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_104 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = vengeful
+    trait = humble
+    trait = honest
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6746.12.4 = {
+        birth = yes
+    }
+
+    6828.6.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_105 = {
+    name = "Harle"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_103
+    mother = crowl_104
+
+    trait = content
+    trait = honest
+    trait = callous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_4
+
+    6781.2.19 = {
+        birth = yes
+    }
+
+    6803.11.2 = {
+        add_spouse = crowl_106
+    }
+
+    6814.5.7 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+crowl_106 = {
+    name = "Hazel"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = sadistic
+    trait = vengeful
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 8
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6786.6.16 = {
+        birth = yes
+    }
+
+    6864.10.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_107 = {
+    name = "Orand"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_105
+    mother = crowl_106
+
+    trait = brave
+    trait = stubborn
+    trait = patient
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 9
+    prowess = 2
+
+    trait = education_learning_3
+
+    6808.1.21 = {
+        birth = yes
+    }
+
+    6857.10.16 = {
+        add_spouse = crowl_108
+    }
+
+    6878.10.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_108 = {
+    name = "Slaine"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = patient
+    trait = gluttonous
+    trait = generous
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 9
+    intrigue = 5
+    learning = 3
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6840.7.1 = {
+        birth = yes
+    }
+
+    6911.3.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_109 = {
+    name = "Galbart"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_107
+    mother = crowl_108
+
+    trait = lustful
+    trait = greedy
+    trait = compassionate
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6862.8.5 = {
+        birth = yes
+    }
+
+    6863.4.24 = {
+        give_nickname = nick_the_mindbreaker
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6891.4.21 = {
+        add_spouse = crowl_110
+    }
+
+    6937.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_110 = {
+    name = "Violet"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = deceitful
+    trait = vengeful
+    trait = lazy
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    6874.11.6 = {
+        birth = yes
+    }
+
+    6959.4.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_111 = {
+    name = "Thorand"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_109
+    mother = crowl_110
+
+    trait = wrathful
+    trait = arbitrary
+    trait = gluttonous
+
+    diplomacy = 1
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6898.4.20 = {
+        birth = yes
+    }
+
+    6935.7.26 = {
+        add_spouse = crowl_112
+    }
+
+    6945.5.9 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+crowl_112 = {
+    name = "Pansy"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = just
+    trait = lustful
+    trait = patient
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 9
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6918.9.22 = {
+        birth = yes
+    }
+
+    6997.8.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_113 = {
+    name = "Orleck"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_111
+    mother = crowl_112
+
+    trait = paranoid
+    trait = cynical
+    trait = content
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 7
+    intrigue = 9
+    learning = 6
+    prowess = 9
+
+    trait = education_intrigue_2
+
+    6936.5.17 = {
+        birth = yes
+    }
+
+    6953.8.24 = {
+        add_spouse = crowl_114
+    }
+
+    7011.9.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_114 = {
+    name = "Jez"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = humble
+    trait = craven
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 5
+    intrigue = 3
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_3
+
+    6936.9.23 = {
+        birth = yes
+    }
+
+    7006.6.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_115 = {
+    name = "Owen"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_113
+    mother = crowl_114
+
+    trait = gregarious
+    trait = arbitrary
+    trait = lazy
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_4
+
+    6955.12.1 = {
+        birth = yes
+    }
+
+    6983.7.9 = {
+        add_spouse = crowl_116
+    }
+
+    7028.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_116 = {
+    name = "Daisy"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = arrogant
+    trait = arbitrary
+    trait = sadistic
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 3
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6966.7.15 = {
+        birth = yes
+    }
+
+    7051.12.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_117 = {
+    name = "Bran"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_115
+    mother = crowl_116
+
+    trait = temperate
+    trait = fickle
+    trait = cynical
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_4
+
+    6987.7.25 = {
+        birth = yes
+    }
+
+    7001.6.25 = {
+        add_spouse = crowl_118
+    }
+
+    7055.5.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_118 = {
+    name = "Grisella"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = paranoid
+    trait = fickle
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 10
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_1
+
+    6984.2.5 = {
+        birth = yes
+    }
+
+    7055.12.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_119 = {
+    name = "Toramun"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_117
+    mother = crowl_118
+
+    trait = gregarious
+    trait = wrathful
+    trait = forgiving
+
+    diplomacy = 10
+    martial = 11
+    stewardship = 6
+    intrigue = 1
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_2
+
+    7011.1.1 = {
+        birth = yes
+    }
+
+    7045.2.17 = {
+        add_spouse = crowl_120
+    }
+
+    7055.6.5 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+crowl_120 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = arbitrary
+    trait = ambitious
+    trait = humble
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 10
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    7028.3.21 = {
+        birth = yes
+    }
+
+    7103.9.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_121 = {
+    name = "Ale"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_115
+    mother = crowl_116
+
+    trait = trusting
+    trait = arbitrary
+    trait = lazy
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 4
+    intrigue = 9
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6991.11.5 = {
+        birth = yes
+    }
+
+    7012.2.5 = {
+        add_spouse = crowl_122
+    }
+
+    7061.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_122 = {
+    name = "Peigi"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = ambitious
+    trait = fickle
+    trait = craven
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_1
+
+    6995.5.14 = {
+        birth = yes
+    }
+
+    7078.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_123 = {
+    name = "Rela"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_121
+    mother = crowl_122
+
+    trait = humble
+    trait = diligent
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 9
+    intrigue = 7
+    learning = 9
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    7018.9.28 = {
+        birth = yes
+    }
+
+    7102.2.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_124 = {
+    name = "Quort"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_121
+    mother = crowl_122
+
+    trait = patient
+    trait = ambitious
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_4
+
+    7022.3.21 = {
+        birth = yes
+    }
+
+    7056.10.9 = {
+        add_spouse = crowl_125
+    }
+
+    7067.8.7 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+crowl_125 = {
+    name = "Gretchel"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = zealous
+    trait = humble
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    7039.10.23 = {
+        birth = yes
+    }
+
+    7107.12.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_126 = {
+    name = "Skagni"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_115
+    mother = crowl_116
+
+    trait = compassionate
+    trait = cynical
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 8
+
+    trait = education_martial_3
+
+    6993.5.28 = {
+        birth = yes
+    }
+
+    7038.6.19 = {
+        add_spouse = crowl_127
+    }
+
+    7048.6.17 = {
+        death = { death_reason = death_piteously_cut_down }
+    }
+}
+
+crowl_127 = {
+    name = "Dyah"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = arbitrary
+    trait = chaste
+    trait = brave
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    7021.2.3 = {
+        birth = yes
+    }
+
+    7101.9.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_128 = {
+    name = "Bael"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_126
+    mother = crowl_127
+
+    trait = forgiving
+    trait = sadistic
+    trait = stubborn
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    7043.12.27 = {
+        birth = yes
+    }
+
+    7087.9.25 = {
+        add_spouse = crowl_129
+    }
+
+    7117.7.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_129 = {
+    name = "Ryka"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = stubborn
+    trait = content
+    trait = wrathful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    7070.5.10 = {
+        birth = yes
+    }
+
+    7142.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_130 = {
+    name = "Munda"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_115
+    mother = crowl_116
+
+    trait = stubborn
+    trait = paranoid
+    trait = patient
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6995.7.14 = {
+        birth = yes
+    }
+
+    7062.8.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_131 = {
+    name = "Valv"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_113
+    mother = crowl_114
+
+    trait = gluttonous
+    trait = craven
+    trait = diligent
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6961.2.3 = {
+        birth = yes
+    }
+
+    6979.6.22 = {
+        add_spouse = crowl_132
+    }
+
+    7027.4.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_132 = {
+    name = "Kadie"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = shy
+    trait = trusting
+    trait = cynical
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 4
+    intrigue = 8
+    learning = 9
+    prowess = 5
+
+    trait = education_martial_4
+
+    6962.12.8 = {
+        birth = yes
+    }
+
+    7034.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_133 = {
+    name = "Ynness"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_131
+    mother = crowl_132
+
+    trait = humble
+    trait = vengeful
+    trait = shy
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 1
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6986.7.16 = {
+        birth = yes
+    }
+
+    7070.9.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_134 = {
+    name = "Posy"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_131
+    mother = crowl_132
+
+    trait = honest
+    trait = gregarious
+    trait = content
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6993.2.25 = {
+        birth = yes
+    }
+
+    7061.6.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_135 = {
+    name = "Rance"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_131
+    mother = crowl_132
+
+    trait = just
+    trait = stubborn
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6996.5.13 = {
+        birth = yes
+    }
+
+    7027.11.11 = {
+        add_spouse = crowl_136
+    }
+
+    7062.11.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_136 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = ambitious
+    trait = calm
+    trait = fickle
+
+    diplomacy = 9
+    martial = 2
+    stewardship = 9
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    7010.8.19 = {
+        birth = yes
+    }
+
+    7080.4.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_137 = {
+    name = "Joraval"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_135
+    mother = crowl_136
+
+    trait = diligent
+    trait = wrathful
+    trait = arbitrary
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 4
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_learning_3
+
+    7030.6.7 = {
+        birth = yes
+    }
+
+    7072.9.2 = {
+        add_spouse = crowl_138
+    }
+
+    7097.8.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_138 = {
+    name = "Yasha"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = impatient
+    trait = sadistic
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_4
+
+    7055.6.12 = {
+        birth = yes
+    }
+
+    7123.9.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_139 = {
+    name = "Cherra"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_135
+    mother = crowl_136
+
+    trait = impatient
+    trait = trusting
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 8
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    7035.11.22 = {
+        birth = yes
+    }
+
+    7110.12.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_140 = {
+    name = "Radir"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_135
+    mother = crowl_136
+
+    trait = calm
+    trait = diligent
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 2
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    7037.3.11 = {
+        birth = yes
+    }
+
+    7075.1.17 = {
+        add_spouse = crowl_141
+    }
+
+    7085.1.15 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+crowl_141 = {
+    name = "Daisy"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = cynical
+    trait = gregarious
+    trait = diligent
+
+    diplomacy = 11
+    martial = 5
+    stewardship = 6
+    intrigue = 9
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    7058.4.15 = {
+        birth = yes
+    }
+
+    7136.10.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_142 = {
+    name = "Posy"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_113
+    mother = crowl_114
+
+    trait = calm
+    trait = ambitious
+    trait = craven
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_3
+
+    6963.12.4 = {
+        birth = yes
+    }
+
+    7040.10.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_143 = {
+    name = "Davy"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_113
+    mother = crowl_114
+
+    trait = lazy
+    trait = fickle
+    trait = humble
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6966.11.2 = {
+        birth = yes
+    }
+
+    7008.11.7 = {
+        add_spouse = crowl_144
+    }
+
+    7034.3.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_144 = {
+    name = "Cassia"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = zealous
+    trait = ambitious
+    trait = calm
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 10
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6991.2.19 = {
+        birth = yes
+    }
+
+    7072.1.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_145 = {
+    name = "Worg"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_143
+    mother = crowl_144
+
+    trait = lustful
+    trait = patient
+    trait = lazy
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_martial_2
+
+    7011.6.2 = {
+        birth = yes
+    }
+
+    7057.2.6 = {
+        add_spouse = crowl_146
+    }
+
+    7093.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_146 = {
+    name = "Ada"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = trusting
+    trait = patient
+    trait = shy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_2
+
+    7040.3.14 = {
+        birth = yes
+    }
+
+    7112.11.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_147 = {
+    name = "Kalene"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_145
+    mother = crowl_146
+
+    trait = gregarious
+    trait = impatient
+    trait = greedy
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_3
+
+    7061.7.22 = {
+        birth = yes
+    }
+
+    7137.7.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_148 = {
+    name = "Jeor"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_145
+    mother = crowl_146
+
+    trait = just
+    trait = arrogant
+    trait = honest
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_1
+
+    7072.3.4 = {
+        birth = yes
+    }
+
+    7107.8.22 = {
+        add_spouse = crowl_149
+    }
+
+    7154.1.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_149 = {
+    name = "Freesia"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = callous
+    trait = just
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    7090.5.8 = {
+        birth = yes
+    }
+
+    7165.2.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_150 = {
+    name = "Zia"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_143
+    mother = crowl_144
+
+    trait = paranoid
+    trait = forgiving
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 3
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    7012.7.21 = {
+        birth = yes
+    }
+
+    7085.3.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_151 = {
+    name = "Harkul"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_143
+    mother = crowl_144
+
+    trait = paranoid
+    trait = honest
+    trait = zealous
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    7018.5.11 = {
+        birth = yes
+    }
+
+    7034.3.20 = {
+        add_spouse = crowl_152
+    }
+
+    7092.6.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_152 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = paranoid
+    trait = humble
+    trait = callous
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    7017.10.27 = {
+        birth = yes
+    }
+
+    7102.8.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_153 = {
+    name = "Jhon"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_151
+    mother = crowl_152
+
+    trait = brave
+    trait = lustful
+    trait = trusting
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 3
+    intrigue = 5
+    learning = 2
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    7057.5.26 = {
+        birth = yes
+    }
+
+    7089.4.1 = {
+        add_spouse = crowl_154
+    }
+
+    7136.10.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_154 = {
+    name = "Svala"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = calm
+    trait = patient
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 8
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    7072.11.24 = {
+        birth = yes
+    }
+
+    7156.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_155 = {
+    name = "Isla"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_143
+    mother = crowl_144
+
+    trait = zealous
+    trait = content
+    trait = generous
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 7
+    intrigue = 1
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    7022.9.16 = {
+        birth = yes
+    }
+
+    7107.7.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_156 = {
+    name = "Skarnir"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_111
+    mother = crowl_112
+
+    trait = callous
+    trait = content
+    trait = lazy
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 3
+    intrigue = 5
+    learning = 5
+    prowess = 2
+
+    trait = education_diplomacy_1
+
+    6938.8.1 = {
+        birth = yes
+    }
+
+    6986.3.8 = {
+        add_spouse = crowl_157
+    }
+
+    7006.6.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_157 = {
+    name = "Zia"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = cynical
+    trait = chaste
+    trait = arbitrary
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6969.8.17 = {
+        birth = yes
+    }
+
+    7045.1.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_158 = {
+    name = "Orvir"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_156
+    mother = crowl_157
+
+    trait = trusting
+    trait = patient
+    trait = humble
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_4
+
+    6986.9.10 = {
+        birth = yes
+    }
+
+    7017.10.22 = {
+        add_spouse = crowl_159
+    }
+
+    7066.4.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_159 = {
+    name = "Ally"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = gluttonous
+    trait = honest
+    trait = diligent
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 7
+    intrigue = 8
+    learning = 3
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    7000.6.16 = {
+        birth = yes
+    }
+
+    7059.10.21 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+crowl_160 = {
+    name = "Ryka"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_158
+    mother = crowl_159
+
+    trait = arbitrary
+    trait = content
+    trait = lustful
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    7017.8.4 = {
+        birth = yes
+    }
+
+    7098.5.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_161 = {
+    name = "Freesia"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_158
+    mother = crowl_159
+
+    trait = temperate
+    trait = arrogant
+    trait = generous
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    7024.10.14 = {
+        birth = yes
+    }
+
+    7090.8.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_162 = {
+    name = "Egil"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_158
+    mother = crowl_159
+
+    trait = temperate
+    trait = callous
+    trait = chaste
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 7
+    intrigue = 9
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    7028.10.21 = {
+        birth = yes
+    }
+
+    7060.12.26 = {
+        add_spouse = crowl_163
+    }
+
+    7102.4.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_163 = {
+    name = "Lara"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = cynical
+    trait = just
+    trait = temperate
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    7043.9.10 = {
+        birth = yes
+    }
+
+    7114.1.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_164 = {
+    name = "Quent"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_162
+    mother = crowl_163
+
+    trait = forgiving
+    trait = lazy
+    trait = craven
+
+    diplomacy = 9
+    martial = 11
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    7062.9.22 = {
+        birth = yes
+    }
+
+    7089.8.9 = {
+        add_spouse = crowl_165
+    }
+
+    7099.12.28 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+crowl_165 = {
+    name = "Maud"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = just
+    trait = callous
+    trait = impatient
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 7
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    7072.4.26 = {
+        birth = yes
+    }
+
+    7140.4.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_166 = {
+    name = "Craster"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_162
+    mother = crowl_163
+
+    trait = fickle
+    trait = ambitious
+    trait = calm
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 2
+    intrigue = 5
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    7069.10.25 = {
+        birth = yes
+    }
+
+    7087.11.12 = {
+        add_spouse = crowl_167
+    }
+
+    7148.6.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_167 = {
+    name = "Willow"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = compassionate
+    trait = temperate
+    trait = zealous
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    7070.6.27 = {
+        birth = yes
+    }
+
+    7149.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_168 = {
+    name = "Grengin"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_162
+    mother = crowl_163
+
+    trait = trusting
+    trait = just
+    trait = diligent
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 8
+    learning = 10
+    prowess = 6
+
+    trait = education_learning_4
+
+    7072.6.12 = {
+        birth = yes
+    }
+
+    7142.9.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_169 = {
+    name = "Berny"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_162
+    mother = crowl_163
+
+    trait = callous
+    trait = trusting
+    trait = temperate
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 10
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    7075.1.18 = {
+        birth = yes
+    }
+
+    7146.9.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_170 = {
+    name = "Styrnor"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_156
+    mother = crowl_157
+
+    trait = ambitious
+    trait = wrathful
+    trait = humble
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_2
+
+    6996.6.10 = {
+        birth = yes
+    }
+
+    7031.12.4 = {
+        add_spouse = crowl_171
+    }
+
+    7041.11.17 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+crowl_171 = {
+    name = "Brigit"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = callous
+    trait = honest
+    trait = humble
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 5
+    intrigue = 3
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    7014.2.2 = {
+        birth = yes
+    }
+
+    7097.1.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_172 = {
+    name = "Ale"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_170
+    mother = crowl_171
+
+    trait = humble
+    trait = calm
+    trait = generous
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    7036.11.17 = {
+        birth = yes
+    }
+
+    7078.2.12 = {
+        add_spouse = crowl_173
+    }
+
+    7111.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_173 = {
+    name = "Grisella"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = gregarious
+    trait = trusting
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 2
+
+    trait = education_martial_4
+
+    7061.1.2 = {
+        birth = yes
+    }
+
+    7134.5.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+crowl_174 = {
+    name = "Balder"
+
+    dynasty = dynasty_crowl
+    religion = the_old_gods
+    culture = skagosi
+
+    father = crowl_172
+    mother = crowl_173
+
+    trait = patient
+    trait = honest
+    trait = just
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    7085.11.24 = {
+        birth = yes
+    }
+
+    7113.11.2 = {
+        add_spouse = crowl_175
+    }
+
+    7164.10.17 = {
+        death = { death_reason = death_mysterious  }
+    }
+}
+
+crowl_175 = {
+    name = "Eva"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = lustful
+    trait = zealous
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 2
+    intrigue = 7
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_3
+
+    7096.1.4 = {
+        birth = yes
+    }
+
+    7171.11.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
