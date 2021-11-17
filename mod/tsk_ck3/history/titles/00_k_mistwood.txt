@@ -58,11 +58,6 @@ c_butterfold = {
 		liege=d_mistwood
 	}
 }
-c_estermont = {
-	800.1.1={
-		liege=d_mistwood
-	}
-}
 c_janholt = {
 	800.1.1={
 		liege=d_mistwood
@@ -91,5 +86,541 @@ c_maidencrow = {
 c_marbleiron = {
 	800.1.1={
 		liege=d_weeping_coast
+	}
+}
+d_estermont = {
+	800.1.1={
+		liege=k_mistwood
+	}
+
+	4450.5.22 = {
+		holder = estermont_1 #Rickard
+	}
+	4532.9.18 = {
+		holder = estermont_3 #Casper
+	}
+	4574.3.28 = {
+		holder = estermont_5 #Davos
+	}
+	4632.1.11 = {
+		holder = estermont_7 #Andrion
+	}
+	4672.12.27 = {
+		holder = estermont_9 #Corwen
+	}
+	4676.9.13 = {
+		holder = estermont_11 #Gladden
+	}
+	4739.1.5 = {
+		holder = estermont_13 #Gulian
+	}
+	4756.4.16 = {
+		holder = estermont_15 #Maric
+	}
+	4780.1.15 = {
+		holder = estermont_17 #Willem
+	}
+	4861.4.7 = {
+		holder = estermont_19 #Joffrey
+	}
+	4906.1.24 = {
+		holder = estermont_21 #Lester
+	}
+	4941.4.2 = {
+		holder = estermont_23 #Arlan
+	}
+	5010.6.17 = {
+		holder = estermont_25 #Jerion
+	}
+	5060.9.7 = {
+		holder = estermont_27 #Aemon
+	}
+	5109.11.5 = {
+		holder = estermont_29 #Sebastion
+	}
+	5147.7.25 = {
+		holder = estermont_31 #Alyn
+	}
+	5203.11.28 = {
+		holder = estermont_33 #Benedict
+	}
+	5238.11.19 = {
+		holder = estermont_35 #Phillip
+	}
+	5277.5.20 = {
+		holder = estermont_37 #Ethos
+	}
+	5307.5.13 = {
+		holder = estermont_39 #Richard
+	}
+	5383.11.13 = {
+		holder = estermont_41 #Ethos
+	}
+	5426.12.19 = {
+		holder = estermont_43 #Jerion
+	}
+	5440.2.5 = {
+		holder = estermont_45 #Lyonel
+	}
+	5473.2.7 = {
+		holder = estermont_47 #Matthos
+	}
+	5505.10.20 = {
+		holder = estermont_49 #Theo
+	}
+	5545.7.14 = {
+		holder = estermont_51 #Arstan
+	}
+	5601.3.2 = {
+		holder = estermont_53 #Rickard
+	}
+	5652.4.8 = {
+		holder = estermont_55 #Pearse
+	}
+	5682.1.25 = {
+		holder = estermont_57 #Andrew
+	}
+	5741.9.21 = {
+		holder = estermont_59 #Terrence
+	}
+	5758.12.22 = {
+		holder = estermont_61 #Raymund
+	}
+	5796.8.20 = {
+		holder = estermont_63 #Simon
+	}
+	5824.3.14 = {
+		holder = estermont_65 #Raymund
+	}
+	5885.8.25 = {
+		holder = estermont_67 #Matthos
+	}
+	5940.8.17 = {
+		holder = estermont_69 #Matthos
+	}
+	5966.6.13 = {
+		holder = estermont_71 #Arron
+	}
+	5947.8.26 = {
+		holder = estermont_73 #Ethos
+	}
+	5972.12.7 = {
+		holder = estermont_75 #Stannis
+	}
+	6037.2.26 = {
+		holder = estermont_77 #Beric
+	}
+	6062.11.6 = {
+		holder = estermont_79 #Halyn
+	}
+	6085.5.14 = {
+		holder = estermont_81 #Arstan
+	}
+	6146.9.13 = {
+		holder = estermont_83 #Bryce
+	}
+	6116.12.13 = {
+		holder = estermont_85 #Jarmyn
+	}
+	6193.9.9 = {
+		holder = estermont_87 #Allard
+	}
+	6238.6.16 = {
+		holder = estermont_89 #Corwen
+	}
+	6236.11.28 = {
+		holder = estermont_91 #Dale
+	}
+	6298.8.25 = {
+		holder = estermont_93 #Clifford
+	}
+	6361.2.27 = {
+		holder = estermont_95 #Edric
+	}
+	6376.11.10 = {
+		holder = estermont_97 #Jon
+	}
+	6431.10.15 = {
+		holder = estermont_99 #Andren
+	}
+	6484.9.19 = {
+		holder = estermont_101 #Edric
+	}
+	6545.8.12 = {
+		holder = estermont_103 #Florian
+	}
+	6613.9.10 = {
+		holder = estermont_105 #Criston
+	}
+	6632.2.25 = {
+		holder = estermont_108 #Goodwin
+	}
+	6667.8.23 = {
+		holder = estermont_110 #Andar
+	}
+	6737.12.9 = {
+		holder = estermont_112 #Barristan
+	}
+	6775.12.13 = {
+		holder = estermont_115 #Clifford
+	}
+}
+c_estermont = {
+	800.1.1={
+		liege=d_estermont
+	}
+
+	4450.5.22 = {
+		holder = estermont_1 #Rickard
+	}
+	4532.9.18 = {
+		holder = estermont_3 #Casper
+	}
+	4574.3.28 = {
+		holder = estermont_5 #Davos
+	}
+	4632.1.11 = {
+		holder = estermont_7 #Andrion
+	}
+	4672.12.27 = {
+		holder = estermont_9 #Corwen
+	}
+	4676.9.13 = {
+		holder = estermont_11 #Gladden
+	}
+	4739.1.5 = {
+		holder = estermont_13 #Gulian
+	}
+	4756.4.16 = {
+		holder = estermont_15 #Maric
+	}
+	4780.1.15 = {
+		holder = estermont_17 #Willem
+	}
+	4861.4.7 = {
+		holder = estermont_19 #Joffrey
+	}
+	4906.1.24 = {
+		holder = estermont_21 #Lester
+	}
+	4941.4.2 = {
+		holder = estermont_23 #Arlan
+	}
+	5010.6.17 = {
+		holder = estermont_25 #Jerion
+	}
+	5060.9.7 = {
+		holder = estermont_27 #Aemon
+	}
+	5109.11.5 = {
+		holder = estermont_29 #Sebastion
+	}
+	5147.7.25 = {
+		holder = estermont_31 #Alyn
+	}
+	5203.11.28 = {
+		holder = estermont_33 #Benedict
+	}
+	5238.11.19 = {
+		holder = estermont_35 #Phillip
+	}
+	5277.5.20 = {
+		holder = estermont_37 #Ethos
+	}
+	5307.5.13 = {
+		holder = estermont_39 #Richard
+	}
+	5383.11.13 = {
+		holder = estermont_41 #Ethos
+	}
+	5426.12.19 = {
+		holder = estermont_43 #Jerion
+	}
+	5440.2.5 = {
+		holder = estermont_45 #Lyonel
+	}
+	5473.2.7 = {
+		holder = estermont_47 #Matthos
+	}
+	5505.10.20 = {
+		holder = estermont_49 #Theo
+	}
+	5545.7.14 = {
+		holder = estermont_51 #Arstan
+	}
+	5601.3.2 = {
+		holder = estermont_53 #Rickard
+	}
+	5652.4.8 = {
+		holder = estermont_55 #Pearse
+	}
+	5682.1.25 = {
+		holder = estermont_57 #Andrew
+	}
+	5741.9.21 = {
+		holder = estermont_59 #Terrence
+	}
+	5758.12.22 = {
+		holder = estermont_61 #Raymund
+	}
+	5796.8.20 = {
+		holder = estermont_63 #Simon
+	}
+	5824.3.14 = {
+		holder = estermont_65 #Raymund
+	}
+	5885.8.25 = {
+		holder = estermont_67 #Matthos
+	}
+	5940.8.17 = {
+		holder = estermont_69 #Matthos
+	}
+	5966.6.13 = {
+		holder = estermont_71 #Arron
+	}
+	5947.8.26 = {
+		holder = estermont_73 #Ethos
+	}
+	5972.12.7 = {
+		holder = estermont_75 #Stannis
+	}
+	6037.2.26 = {
+		holder = estermont_77 #Beric
+	}
+	6062.11.6 = {
+		holder = estermont_79 #Halyn
+	}
+	6085.5.14 = {
+		holder = estermont_81 #Arstan
+	}
+	6146.9.13 = {
+		holder = estermont_83 #Bryce
+	}
+	6116.12.13 = {
+		holder = estermont_85 #Jarmyn
+	}
+	6193.9.9 = {
+		holder = estermont_87 #Allard
+	}
+	6238.6.16 = {
+		holder = estermont_89 #Corwen
+	}
+	6236.11.28 = {
+		holder = estermont_91 #Dale
+	}
+	6298.8.25 = {
+		holder = estermont_93 #Clifford
+	}
+	6361.2.27 = {
+		holder = estermont_95 #Edric
+	}
+	6376.11.10 = {
+		holder = estermont_97 #Jon
+	}
+	6431.10.15 = {
+		holder = estermont_99 #Andren
+	}
+	6484.9.19 = {
+		holder = estermont_101 #Edric
+	}
+	6545.8.12 = {
+		holder = estermont_103 #Florian
+	}
+	6613.9.10 = {
+		holder = estermont_105 #Criston
+	}
+	6632.2.25 = {
+		holder = estermont_108 #Goodwin
+	}
+	6667.8.23 = {
+		holder = estermont_110 #Andar
+	}
+	6737.12.9 = {
+		holder = estermont_112 #Barristan
+	}
+	6775.12.13 = {
+		holder = estermont_115 #Clifford
+	}
+}
+c_lyre_watch = {
+	800.1.1={
+		liege=d_estermont
+	}
+
+	4450.5.22 = {
+		holder = estermont_1 #Rickard
+	}
+	4532.9.18 = {
+		holder = estermont_3 #Casper
+	}
+	4574.3.28 = {
+		holder = estermont_5 #Davos
+	}
+	4632.1.11 = {
+		holder = estermont_7 #Andrion
+	}
+	4672.12.27 = {
+		holder = estermont_9 #Corwen
+	}
+	4676.9.13 = {
+		holder = estermont_11 #Gladden
+	}
+	4739.1.5 = {
+		holder = estermont_13 #Gulian
+	}
+	4756.4.16 = {
+		holder = estermont_15 #Maric
+	}
+	4780.1.15 = {
+		holder = estermont_17 #Willem
+	}
+	4861.4.7 = {
+		holder = estermont_19 #Joffrey
+	}
+	4906.1.24 = {
+		holder = estermont_21 #Lester
+	}
+	4941.4.2 = {
+		holder = estermont_23 #Arlan
+	}
+	5010.6.17 = {
+		holder = estermont_25 #Jerion
+	}
+	5060.9.7 = {
+		holder = estermont_27 #Aemon
+	}
+	5109.11.5 = {
+		holder = estermont_29 #Sebastion
+	}
+	5147.7.25 = {
+		holder = estermont_31 #Alyn
+	}
+	5203.11.28 = {
+		holder = estermont_33 #Benedict
+	}
+	5238.11.19 = {
+		holder = estermont_35 #Phillip
+	}
+	5277.5.20 = {
+		holder = estermont_37 #Ethos
+	}
+	5307.5.13 = {
+		holder = estermont_39 #Richard
+	}
+	5383.11.13 = {
+		holder = estermont_41 #Ethos
+	}
+	5426.12.19 = {
+		holder = estermont_43 #Jerion
+	}
+	5440.2.5 = {
+		holder = estermont_45 #Lyonel
+	}
+	5473.2.7 = {
+		holder = estermont_47 #Matthos
+	}
+	5505.10.20 = {
+		holder = estermont_49 #Theo
+	}
+	5545.7.14 = {
+		holder = estermont_51 #Arstan
+	}
+	5601.3.2 = {
+		holder = estermont_53 #Rickard
+	}
+	5652.4.8 = {
+		holder = estermont_55 #Pearse
+	}
+	5682.1.25 = {
+		holder = estermont_57 #Andrew
+	}
+	5741.9.21 = {
+		holder = estermont_59 #Terrence
+	}
+	5758.12.22 = {
+		holder = estermont_61 #Raymund
+	}
+	5796.8.20 = {
+		holder = estermont_63 #Simon
+	}
+	5824.3.14 = {
+		holder = estermont_65 #Raymund
+	}
+	5885.8.25 = {
+		holder = estermont_67 #Matthos
+	}
+	5940.8.17 = {
+		holder = estermont_69 #Matthos
+	}
+	5966.6.13 = {
+		holder = estermont_71 #Arron
+	}
+	5947.8.26 = {
+		holder = estermont_73 #Ethos
+	}
+	5972.12.7 = {
+		holder = estermont_75 #Stannis
+	}
+	6037.2.26 = {
+		holder = estermont_77 #Beric
+	}
+	6062.11.6 = {
+		holder = estermont_79 #Halyn
+	}
+	6085.5.14 = {
+		holder = estermont_81 #Arstan
+	}
+	6146.9.13 = {
+		holder = estermont_83 #Bryce
+	}
+	6116.12.13 = {
+		holder = estermont_85 #Jarmyn
+	}
+	6193.9.9 = {
+		holder = estermont_87 #Allard
+	}
+	6238.6.16 = {
+		holder = estermont_89 #Corwen
+	}
+	6236.11.28 = {
+		holder = estermont_91 #Dale
+	}
+	6298.8.25 = {
+		holder = estermont_93 #Clifford
+	}
+	6361.2.27 = {
+		holder = estermont_95 #Edric
+	}
+	6376.11.10 = {
+		holder = estermont_97 #Jon
+	}
+	6431.10.15 = {
+		holder = estermont_99 #Andren
+	}
+	6484.9.19 = {
+		holder = estermont_101 #Edric
+	}
+	6545.8.12 = {
+		holder = estermont_103 #Florian
+	}
+	6613.9.10 = {
+		holder = estermont_105 #Criston
+	}
+	6632.2.25 = {
+		holder = estermont_108 #Goodwin
+	}
+	6667.8.23 = {
+		holder = estermont_110 #Andar
+	}
+	6737.12.9 = {
+		holder = estermont_112 #Barristan
+	}
+	6775.12.13 = {
+		holder = estermont_115 #Clifford
+	}
+}
+c_ester_isle = {
+	800.1.1={
+		liege=d_estermont
 	}
 }

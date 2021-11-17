@@ -147,18 +147,6 @@
 }
 
 
-###c_estermont
-676 = {	# Greenstone
-	culture = wrathmen
-	religion = the_old_gods
-	holding = castle_holding
-}
-
-677 = {	# Lyre Watch
-	holding = none
-}
-
-
 ###c_janholt
 678 = {	# Forest Rows
 	culture = wrathmen
@@ -241,6 +229,48 @@
 }
 
 693 = {	# Burstow
+	holding = none
+}
+
+
+
+##d_estermont ###################################
+###c_estermont
+676 = {	# Greenstone
+	culture = wrathmen
+	religion = the_old_gods
+	holding = castle_holding
+}
+
+677 = {	# Aiston
+	holding = city_holding
+}
+
+642 = {	# Oifen
+	holding = none
+}
+
+
+###c_lyre_watch
+643 = {	# Lyre Watch
+	culture = wrathmen
+	religion = the_old_gods
+	holding = castle_holding
+}
+
+967 = {	# Crak
+	holding = none
+}
+
+
+###c_ester_isle
+1548 = {	# Ester Isle Keep
+	culture = wrathmen
+	religion = the_old_gods
+	holding = castle_holding
+}
+
+1549 = {	# Windton
 	holding = none
 }
 

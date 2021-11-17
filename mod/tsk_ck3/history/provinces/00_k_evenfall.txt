@@ -7,7 +7,7 @@
 }
 
 960 = {	# Porcon
-	holding = none
+	holding = church_holding
 }
 
 961 = {	# Dowlish
@@ -15,7 +15,7 @@
 }
 
 962 = {	# Ilminster
-	holding = none
+	holding = city_holding
 }
 
 963 = {	# Giles
@@ -23,7 +23,7 @@
 }
 
 
-###c_sapphire_isles
+###c_shattered_isle
 964 = {	# Sapphire Tower
 	culture = evenstar
 	religion = the_old_gods
@@ -38,12 +38,8 @@
 	holding = none
 }
 
-967 = {	# Burridge
-	holding = none
-}
 
-
-###c_evenfall_heart
+###c_northern_tarth
 968 = {	# Evenfall Heart
 	culture = evenstar
 	religion = the_old_gods
@@ -63,7 +59,7 @@
 }
 
 
-###c_tarlheim
+###c_pearl_sands
 972 = {	# Tarlheim
 	culture = evenstar
 	religion = the_old_gods
@@ -78,8 +74,12 @@
 	holding = none
 }
 
+
+###c_evenfall_heart
 975 = {	# Lufton
-	holding = none
+	culture = evenstar
+	religion = the_old_gods
+	holding = castle_holding
 }
 
 976 = {	# Ashings
@@ -90,16 +90,16 @@
 	holding = none
 }
 
-
-###c_northeastern_tarth
 978 = {	# Old Hatch
+	holding = none
+}
+
+
+###c_little_sapphire
+979 = {	# Burridge
 	culture = evenstar
 	religion = the_old_gods
 	holding = castle_holding
-}
-
-979 = {	# Corfe Moor
-	holding = none
 }
 
 980 = {	# Emerald Sands

@@ -3571,16 +3571,6 @@
 	winter_severity_bias = 0.45
 }
 
-## c_estermont
-# b_greenstone
-676 = {
-	winter_severity_bias = 0.45
-}
-# b_lyre_watch
-677 = {
-	winter_severity_bias = 0.45
-}
-
 ## c_janholt
 # b_forest_rows
 678 = {
@@ -3654,6 +3644,42 @@
 }
 # b_burstow
 693 = {
+	winter_severity_bias = 0.45
+}
+
+
+### d_estermont
+## c_estermont
+# b_greenstone
+676 = {
+	winter_severity_bias = 0.45
+}
+# b_aiston
+677 = {
+	winter_severity_bias = 0.45
+}
+# b_oifen
+642 = {
+	winter_severity_bias = 0.45
+}
+
+## c_lyre_watch
+# b_lyre_watch
+643 = {
+	winter_severity_bias = 0.45
+}
+# b_crak
+967 = {
+	winter_severity_bias = 0.45
+}
+
+## c_ester_isle
+# b_ester_isle_keep
+1548 = {
+	winter_severity_bias = 0.45
+}
+# b_windton
+1549 = {
 	winter_severity_bias = 0.45
 }
 
@@ -4512,7 +4538,7 @@
 	winter_severity_bias = 0.45
 }
 
-## c_sapphire_isles
+## c_shattered_isle
 # b_sapphire_tower
 964 = {
 	winter_severity_bias = 0.45
@@ -4525,12 +4551,8 @@
 966 = {
 	winter_severity_bias = 0.45
 }
-# b_burridge
-967 = {
-	winter_severity_bias = 0.45
-}
 
-## c_evenfall_heart
+## c_northern_tarth
 # b_evenfall_heart
 968 = {
 	winter_severity_bias = 0.45
@@ -4548,7 +4570,7 @@
 	winter_severity_bias = 0.45
 }
 
-## c_tarlheim
+## c_pearl_sands
 # b_tarlheim
 972 = {
 	winter_severity_bias = 0.45
@@ -4561,6 +4583,8 @@
 974 = {
 	winter_severity_bias = 0.45
 }
+
+## c_evenfall_heart
 # b_lufton
 975 = {
 	winter_severity_bias = 0.45
@@ -4573,13 +4597,13 @@
 977 = {
 	winter_severity_bias = 0.45
 }
-
-## c_northeastern_tarth
 # b_old_hatch
 978 = {
 	winter_severity_bias = 0.45
 }
-# b_corfe_moor
+
+## c_little_sapphire
+# b_burridge
 979 = {
 	winter_severity_bias = 0.45
 }
@@ -21346,18 +21370,6 @@
 # UNUSED PROVINCES
 ##################
 
-642 = {
-	winter_severity_bias = 0.00
-}
-643 = {
-	winter_severity_bias = 0.00
-}
-1548 = {
-	winter_severity_bias = 0.00
-}
-1549 = {
-	winter_severity_bias = 0.00
-}
 1550 = {
 	winter_severity_bias = 0.00
 }
