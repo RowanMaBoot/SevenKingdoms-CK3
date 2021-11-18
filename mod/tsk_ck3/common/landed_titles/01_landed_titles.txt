@@ -6588,88 +6588,6 @@ e_dusklands = {
 				}
 			}
 		}
-		d_crows_nest = {
-			color = { 151 216 168 }
-			color2 = { 255 255 255 }
-			
-			capital = c_cape_of_songs
-			
-			c_cape_of_songs = {
-				color = { 190 131 149 }
-				color2 = { 255 255 255 }
-				
-				b_1179_0 = {
-					province = 1179
-					color = { 190 131 149 }
-					color2 = { 255 255 255 }
-				}
-				b_1180_0 = {
-					province = 1180
-					color = { 190 131 149 }
-					color2 = { 255 255 255 }
-				}
-				b_1181_0 = {
-					province = 1181
-					color = { 190 131 149 }
-					color2 = { 255 255 255 }
-				}
-				b_1182_0 = {
-					province = 1182
-					color = { 190 131 149 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_wings_wake = {
-				color = { 191 203 187 }
-				color2 = { 255 255 255 }
-				
-				b_1188_0 = {
-					province = 1188
-					color = { 191 203 187 }
-					color2 = { 255 255 255 }
-				}
-				b_1189_0 = {
-					province = 1189
-					color = { 191 203 187 }
-					color2 = { 255 255 255 }
-				}
-				b_1190_0 = {
-					province = 1190
-					color = { 191 203 187 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_woodhollow = {
-				color = { 191 205 188 }
-				color2 = { 255 255 255 }
-				
-				b_1183_0 = {
-					province = 1183
-					color = { 191 205 188 }
-					color2 = { 255 255 255 }
-				}
-				b_1184_0 = {
-					province = 1184
-					color = { 191 205 188 }
-					color2 = { 255 255 255 }
-				}
-				b_1185_0 = {
-					province = 1185
-					color = { 191 205 188 }
-					color2 = { 255 255 255 }
-				}
-				b_1186_0 = {
-					province = 1186
-					color = { 191 205 188 }
-					color2 = { 255 255 255 }
-				}
-				b_1187_0 = {
-					province = 1187
-					color = { 191 205 188 }
-					color2 = { 255 255 255 }
-				}
-			}
-		}
 	}
 	k_dusklands = {
 		color = { 212 75 120 }
@@ -17517,7 +17435,7 @@ e_stormlands = {
 				color = { 227 148 123 }
 				color2 = { 255 255 255 }
 				
-				b_crowhold = {
+				b_crows_nest2 = {
 					province = 618
 					color = { 227 148 123 }
 					color2 = { 255 255 255 }
@@ -17902,17 +17820,17 @@ e_stormlands = {
 				}
 			}
 		}
-		d_grandview = {
+		d_crows_nest = {
 			color = { 212 83 87 }
 			color2 = { 255 255 255 }
 			
-			capital = c_grandview
+			capital = c_crows_nest
 			
-			c_grandview = {
+			c_crows_nest = {
 				color = { 225 141 66 }
 				color2 = { 255 255 255 }
 				
-				b_grandview = {
+				b_crows_nest = {
 					province = 558
 					color = { 225 141 66 }
 					color2 = { 255 255 255 }
@@ -17930,6 +17848,31 @@ e_stormlands = {
 				b_trentic = {
 					province = 561
 					color = { 225 141 66 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_cape_of_songs = {
+				color = { 227 51 101 }
+				color2 = { 255 255 255 }
+				
+				b_1179_0 = {
+					province = 1179
+					color = { 227 51 101 }
+					color2 = { 255 255 255 }
+				}
+				b_1180_0 = {
+					province = 1180
+					color = { 227 51 101 }
+					color2 = { 255 255 255 }
+				}
+				b_1181_0 = {
+					province = 1181
+					color = { 227 51 101 }
+					color2 = { 255 255 255 }
+				}
+				b_1182_0 = {
+					province = 1182
+					color = { 227 51 101 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -17978,18 +17921,68 @@ e_stormlands = {
 					color2 = { 255 255 255 }
 				}
 			}
+			c_wings_wake = {
+				color = { 227 123 138 }
+				color2 = { 255 255 255 }
+				
+				b_1188_0 = {
+					province = 1188
+					color = { 227 123 138 }
+					color2 = { 255 255 255 }
+				}
+				b_1189_0 = {
+					province = 1189
+					color = { 227 123 138 }
+					color2 = { 255 255 255 }
+				}
+				b_1190_0 = {
+					province = 1190
+					color = { 227 123 138 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_woodhollow = {
+				color = { 227 125 140 }
+				color2 = { 255 255 255 }
+				
+				b_1183_0 = {
+					province = 1183
+					color = { 227 125 140 }
+					color2 = { 255 255 255 }
+				}
+				b_1184_0 = {
+					province = 1184
+					color = { 227 125 140 }
+					color2 = { 255 255 255 }
+				}
+				b_1185_0 = {
+					province = 1185
+					color = { 227 125 140 }
+					color2 = { 255 255 255 }
+				}
+				b_1186_0 = {
+					province = 1186
+					color = { 227 125 140 }
+					color2 = { 255 255 255 }
+				}
+				b_1187_0 = {
+					province = 1187
+					color = { 227 125 140 }
+					color2 = { 255 255 255 }
+				}
+			}
 		}
-		d_griffon_watch = {
+		d_grandview = {
 			color = { 213 12 132 }
 			color2 = { 255 255 255 }
 			
-			capital = c_griffon_watch
+			capital = c_grandview
 			
-			c_griffon_watch = {
+			c_grandview = {
 				color = { 228 105 154 }
 				color2 = { 255 255 255 }
 				
-				b_griffon_watch = {
+				b_grandview = {
 					province = 569
 					color = { 228 105 154 }
 					color2 = { 255 255 255 }
