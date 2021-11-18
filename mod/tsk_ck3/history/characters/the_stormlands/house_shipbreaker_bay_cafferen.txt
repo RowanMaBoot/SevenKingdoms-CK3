@@ -1,0 +1,1852 @@
+cafferen_1 = {
+    name = "Beric"
+
+    dynasty = dynasty_cafferen
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = cynical
+    trait = craven
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 4
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_3
+
+    6300.9.13 = {
+        birth = yes
+    }
+
+    6341.5.16 = {
+        add_spouse = cafferen_2
+    }
+
+    6384.4.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_2 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = zealous
+    trait = lazy
+    trait = wrathful
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6324.1.25 = {
+        birth = yes
+    }
+
+    6386.1.15 = {
+        death = { death_reason = death_crushed  }
+    }
+}
+
+cafferen_3 = {
+    name = "Maric"
+
+    dynasty = dynasty_cafferen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_1
+    mother = cafferen_2
+
+    trait = paranoid
+    trait = stubborn
+    trait = temperate
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_learning_3
+
+    6356.12.20 = {
+        birth = yes
+    }
+
+    6403.5.19 = {
+        add_spouse = cafferen_4
+    }
+
+    6446.11.22 = {
+        death = { death_reason = death_torture  }
+    }
+}
+
+cafferen_4 = {
+    name = "Cyrenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = sadistic
+    trait = temperate
+    trait = impatient
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 8
+    intrigue = 9
+    learning = 11
+    prowess = 2
+
+    trait = education_learning_3
+
+    6386.9.12 = {
+        birth = yes
+    }
+
+    6459.10.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_5 = {
+    name = "Mary"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_3
+    mother = cafferen_4
+
+    trait = sadistic
+    trait = honest
+    trait = zealous
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_1
+
+    6407.8.7 = {
+        birth = yes
+    }
+
+    6474.4.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_6 = {
+    name = "Clifford"
+
+    dynasty = dynasty_cafferen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_3
+    mother = cafferen_4
+
+    trait = diligent
+    trait = forgiving
+    trait = content
+
+    diplomacy = 2
+    martial = 9
+    stewardship = 9
+    intrigue = 2
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_2
+
+    6409.9.10 = {
+        birth = yes
+    }
+
+    6454.2.8 = {
+        add_spouse = cafferen_7
+    }
+
+    6492.4.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_7 = {
+    name = "Annara"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = just
+    trait = temperate
+    trait = patient
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 2
+
+    trait = education_diplomacy_3
+
+    6437.9.8 = {
+        birth = yes
+    }
+
+    6464.9.20 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+cafferen_8 = {
+    name = "Cassandrea"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_6
+    mother = cafferen_7
+
+    trait = just
+    trait = humble
+    trait = generous
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6456.6.23 = {
+        birth = yes
+    }
+
+    6535.9.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_9 = {
+    name = "Ronnet"
+
+    dynasty = dynasty_cafferen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_6
+    mother = cafferen_7
+
+    trait = content
+    trait = arrogant
+    trait = wrathful
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_1
+
+    6458.5.21 = {
+        birth = yes
+    }
+
+    6496.2.4 = {
+        add_spouse = cafferen_10
+    }
+
+    6526.2.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_10 = {
+    name = "Myrcella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = greedy
+    trait = trusting
+    trait = content
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    6479.5.3 = {
+        birth = yes
+    }
+
+    6547.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_11 = {
+    name = "Andrew"
+
+    dynasty = dynasty_cafferen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_9
+    mother = cafferen_10
+
+    trait = arrogant
+    trait = zealous
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    6501.1.23 = {
+        birth = yes
+    }
+
+    6518.10.27 = {
+        add_spouse = cafferen_12
+    }
+
+    6582.6.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_12 = {
+    name = "Kelyce"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = wrathful
+    trait = gregarious
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 7
+    intrigue = 7
+    learning = 9
+    prowess = 6
+
+    trait = education_martial_2
+
+    6501.9.13 = {
+        birth = yes
+    }
+
+    6573.8.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_13 = {
+    name = "Bartimos"
+
+    dynasty = dynasty_cafferen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_11
+    mother = cafferen_12
+
+    trait = greedy
+    trait = gluttonous
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 5
+    intrigue = 10
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_2
+
+    6521.7.4 = {
+        birth = yes
+    }
+
+    6567.8.3 = {
+        add_spouse = cafferen_14
+    }
+
+    6604.1.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_14 = {
+    name = "Shireen"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = trusting
+    trait = just
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 8
+    prowess = 2
+
+    trait = education_learning_3
+
+    6550.1.8 = {
+        birth = yes
+    }
+
+    6629.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_15 = {
+    name = "Lester"
+
+    dynasty = dynasty_cafferen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_13
+    mother = cafferen_14
+
+    trait = just
+    trait = patient
+    trait = zealous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_3
+
+    6573.11.27 = {
+        birth = yes
+    }
+
+    6598.8.25 = {
+        add_spouse = cafferen_16
+    }
+
+    6639.12.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_16 = {
+    name = "Victaria"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = temperate
+    trait = brave
+    trait = wrathful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6581.7.9 = {
+        birth = yes
+    }
+
+    6662.3.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_17 = {
+    name = "Sarmion"
+
+    dynasty = dynasty_cafferen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_13
+    mother = cafferen_14
+
+    trait = cynical
+    trait = shy
+    trait = diligent
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6576.7.13 = {
+        birth = yes
+    }
+
+    6626.5.14 = {
+        add_spouse = cafferen_18
+    }
+
+    6636.7.25 = {
+        death = { death_reason = death_duel }
+    }
+}
+
+cafferen_18 = {
+    name = "Ellyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = trusting
+    trait = wrathful
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 8
+    learning = 6
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    6609.1.9 = {
+        birth = yes
+    }
+
+    6685.12.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_19 = {
+    name = "Mary"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_13
+    mother = cafferen_14
+
+    trait = compassionate
+    trait = temperate
+    trait = lustful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6580.12.24 = {
+        birth = yes
+    }
+
+    6583.10.27 = {
+        death = { death_reason = death_treatment }
+    }
+}
+
+cafferen_20 = {
+    name = "Pate"
+
+    dynasty = dynasty_cafferen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_11
+    mother = cafferen_12
+
+    trait = impatient
+    trait = humble
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 2
+    intrigue = 5
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_1
+
+    6528.10.1 = {
+        birth = yes
+    }
+
+    6572.10.14 = {
+        add_spouse = cafferen_21
+    }
+
+    6607.9.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_21 = {
+    name = "Emelia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = stubborn
+    trait = trusting
+    trait = lazy
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6555.2.2 = {
+        birth = yes
+    }
+
+    6638.7.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_22 = {
+    name = "Ethos"
+
+    dynasty = dynasty_cafferen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_20
+    mother = cafferen_21
+
+    trait = paranoid
+    trait = gregarious
+    trait = lazy
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 2
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6574.2.24 = {
+        birth = yes
+    }
+
+    6597.10.4 = {
+        add_spouse = cafferen_23
+    }
+
+    6659.9.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_23 = {
+    name = "Victoria"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = patient
+    trait = compassionate
+    trait = shy
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 2
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    6580.8.15 = {
+        birth = yes
+    }
+
+    6656.9.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_24 = {
+    name = "Argella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_9
+    mother = cafferen_10
+
+    trait = zealous
+    trait = craven
+    trait = shy
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 8
+    intrigue = 6
+    learning = 8
+    prowess = 9
+
+    trait = education_stewardship_4
+
+    6504.7.9 = {
+        birth = yes
+    }
+
+    6574.4.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_25 = {
+    name = "Elanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_9
+    mother = cafferen_10
+
+    trait = humble
+    trait = ambitious
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 2
+    intrigue = 5
+    learning = 1
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    6505.4.14 = {
+        birth = yes
+    }
+
+    6577.6.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_26 = {
+    name = "Endrew"
+
+    dynasty = dynasty_cafferen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_9
+    mother = cafferen_10
+
+    trait = diligent
+    trait = patient
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 11
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_1
+
+    6507.2.22 = {
+        birth = yes
+    }
+
+    6521.11.10 = {
+        add_spouse = cafferen_27
+    }
+
+    6583.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_27 = {
+    name = "Arianne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = gluttonous
+    trait = lazy
+    trait = zealous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 9
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6504.1.14 = {
+        birth = yes
+    }
+
+    6531.11.7 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+cafferen_28 = {
+    name = "Devin"
+
+    dynasty = dynasty_cafferen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_26
+    mother = cafferen_27
+
+    trait = arbitrary
+    trait = lazy
+    trait = honest
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_4
+
+    6521.8.24 = {
+        birth = yes
+    }
+
+    6551.5.20 = {
+        add_spouse = cafferen_29
+    }
+
+    6601.11.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_29 = {
+    name = "Jonquil"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = arbitrary
+    trait = greedy
+    trait = lustful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 4
+
+    trait = education_martial_3
+
+    6534.9.22 = {
+        birth = yes
+    }
+
+    6608.10.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_30 = {
+    name = "Bryen"
+
+    dynasty = dynasty_cafferen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_28
+    mother = cafferen_29
+
+    trait = lazy
+    trait = generous
+    trait = trusting
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6555.2.24 = {
+        birth = yes
+    }
+
+    6584.8.23 = {
+        add_spouse = cafferen_31
+    }
+
+    6624.11.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_31 = {
+    name = "Tiona"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = vengeful
+    trait = wrathful
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 10
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6567.11.10 = {
+        birth = yes
+    }
+
+    6651.7.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_32 = {
+    name = "Jarmyn"
+
+    dynasty = dynasty_cafferen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_28
+    mother = cafferen_29
+
+    trait = temperate
+    trait = lazy
+    trait = craven
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6561.9.11 = {
+        birth = yes
+    }
+
+    6562.3.19 = {
+        give_nickname = nick_the_crow
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6600.7.22 = {
+        add_spouse = cafferen_33
+    }
+
+    6644.3.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_33 = {
+    name = "Elyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = forgiving
+    trait = generous
+    trait = zealous
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 3
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_3
+
+    6583.6.9 = {
+        birth = yes
+    }
+
+    6649.4.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_34 = {
+    name = "Dorna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_26
+    mother = cafferen_27
+
+    trait = arrogant
+    trait = honest
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    6522.1.13 = {
+        birth = yes
+    }
+
+    6595.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_35 = {
+    name = "Yonel"
+
+    dynasty = dynasty_cafferen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_26
+    mother = cafferen_27
+
+    trait = ambitious
+    trait = humble
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6525.1.27 = {
+        birth = yes
+    }
+
+    6564.5.19 = {
+        add_spouse = cafferen_36
+    }
+
+    6598.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_36 = {
+    name = "Emmara"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = ambitious
+    trait = temperate
+    trait = trusting
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6547.7.5 = {
+        birth = yes
+    }
+
+    6591.4.15 = {
+        death = { death_reason = death_disappearance  }
+    }
+}
+
+cafferen_37 = {
+    name = "Michael"
+
+    dynasty = dynasty_cafferen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_35
+    mother = cafferen_36
+
+    trait = compassionate
+    trait = diligent
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 4
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6581.5.7 = {
+        birth = yes
+    }
+
+    6607.8.23 = {
+        add_spouse = cafferen_38
+    }
+
+    6619.11.6 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+cafferen_38 = {
+    name = "Shirei"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = brave
+    trait = gluttonous
+    trait = patient
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 1
+    intrigue = 7
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_3
+
+    6590.1.16 = {
+        birth = yes
+    }
+
+    6672.11.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_39 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_6
+    mother = cafferen_7
+
+    trait = just
+    trait = impatient
+    trait = craven
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 1
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6459.12.8 = {
+        birth = yes
+    }
+
+    6526.2.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_40 = {
+    name = "Willem"
+
+    dynasty = dynasty_cafferen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_3
+    mother = cafferen_4
+
+    trait = impatient
+    trait = diligent
+    trait = cynical
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6412.1.12 = {
+        birth = yes
+    }
+
+    6459.7.14 = {
+        add_spouse = cafferen_41
+    }
+
+    6481.7.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_41 = {
+    name = "Aelinor"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = sadistic
+    trait = content
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    6442.7.24 = {
+        birth = yes
+    }
+
+    6517.2.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_42 = {
+    name = "Elyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_40
+    mother = cafferen_41
+
+    trait = cynical
+    trait = trusting
+    trait = calm
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 2
+
+    trait = education_diplomacy_2
+
+    6459.1.12 = {
+        birth = yes
+    }
+
+    6540.7.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_43 = {
+    name = "Emmara"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_40
+    mother = cafferen_41
+
+    trait = shy
+    trait = wrathful
+    trait = callous
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 3
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6463.4.21 = {
+        birth = yes
+    }
+
+    6475.4.11 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+cafferen_44 = {
+    name = "Halyn"
+
+    dynasty = dynasty_cafferen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_40
+    mother = cafferen_41
+
+    trait = compassionate
+    trait = zealous
+    trait = generous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_3
+
+    6469.7.27 = {
+        birth = yes
+    }
+
+    6512.5.28 = {
+        add_spouse = cafferen_45
+    }
+
+    6541.1.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_45 = {
+    name = "Tia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = shy
+    trait = diligent
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 8
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_3
+
+    6495.11.16 = {
+        birth = yes
+    }
+
+    6564.4.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_46 = {
+    name = "Tommen"
+
+    dynasty = dynasty_cafferen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_44
+    mother = cafferen_45
+
+    trait = generous
+    trait = zealous
+    trait = ambitious
+
+    diplomacy = 10
+    martial = 4
+    stewardship = 9
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6532.3.14 = {
+        birth = yes
+    }
+
+    6563.7.26 = {
+        add_spouse = cafferen_47
+    }
+
+    6614.1.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_47 = {
+    name = "Hanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = brave
+    trait = patient
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    6546.3.24 = {
+        birth = yes
+    }
+
+    6626.9.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_48 = {
+    name = "Dallia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_46
+    mother = cafferen_47
+
+    trait = greedy
+    trait = forgiving
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 8
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6570.10.14 = {
+        birth = yes
+    }
+
+    6647.4.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_49 = {
+    name = "Lyonel"
+
+    dynasty = dynasty_cafferen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_46
+    mother = cafferen_47
+
+    trait = diligent
+    trait = stubborn
+    trait = honest
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 1
+
+    trait = education_learning_2
+
+    6574.11.13 = {
+        birth = yes
+    }
+
+    6602.8.25 = {
+        add_spouse = cafferen_50
+    }
+
+    6648.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_50 = {
+    name = "Senelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = arrogant
+    trait = impatient
+    trait = temperate
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 5
+    intrigue = 3
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6585.6.25 = {
+        birth = yes
+    }
+
+    6657.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_51 = {
+    name = "Ronnet"
+
+    dynasty = dynasty_cafferen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_49
+    mother = cafferen_50
+
+    trait = diligent
+    trait = arrogant
+    trait = greedy
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 5
+    intrigue = 9
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6622.9.7 = {
+        birth = yes
+    }
+
+    6649.7.2 = {
+        add_spouse = cafferen_52
+    }
+
+    6693.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_52 = {
+    name = "Mary"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = brave
+    trait = compassionate
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_2
+
+    6632.9.8 = {
+        birth = yes
+    }
+
+    6711.4.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_53 = {
+    name = "Boremund"
+
+    dynasty = dynasty_cafferen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_46
+    mother = cafferen_47
+
+    trait = trusting
+    trait = chaste
+    trait = cynical
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 3
+    intrigue = 6
+    learning = 1
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6576.9.18 = {
+        birth = yes
+    }
+
+    6603.4.27 = {
+        add_spouse = cafferen_54
+    }
+
+    6657.1.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_54 = {
+    name = "Elanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = fickle
+    trait = content
+    trait = paranoid
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 4
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_4
+
+    6586.8.11 = {
+        birth = yes
+    }
+
+    6664.2.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_55 = {
+    name = "Leobald"
+
+    dynasty = dynasty_cafferen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_53
+    mother = cafferen_54
+
+    trait = deceitful
+    trait = trusting
+    trait = patient
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_1
+
+    6604.11.13 = {
+        birth = yes
+    }
+
+    6628.10.17 = {
+        add_spouse = cafferen_56
+    }
+
+    6679.10.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cafferen_56 = {
+    name = "Myrcella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = paranoid
+    trait = compassionate
+    trait = humble
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 10
+
+    trait = education_diplomacy_2
+
+    6611.3.5 = {
+        birth = yes
+    }
+
+    6672.9.27 = {
+        death = { death_reason = death_dungeon  }
+    }
+}
+
+cafferen_57 = {
+    name = "Hanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = cafferen_3
+    mother = cafferen_4
+
+    trait = impatient
+    trait = ambitious
+    trait = forgiving
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 4
+    intrigue = 9
+    learning = 9
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6417.12.14 = {
+        birth = yes
+    }
+
+    6506.6.24 = {
+        death = { death_reason = death_plotting  }
+    }
+}

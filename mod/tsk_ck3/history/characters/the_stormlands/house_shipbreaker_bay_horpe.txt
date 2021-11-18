@@ -1,0 +1,1299 @@
+horpe_1 = {
+    name = "Gulian"
+
+    dynasty = dynasty_horpe
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = calm
+    trait = greedy
+    trait = lustful
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6300.11.27 = {
+        birth = yes
+    }
+
+    6329.11.10 = {
+        add_spouse = horpe_2
+    }
+
+    6380.5.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_2 = {
+    name = "Dorna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = content
+    trait = arrogant
+    trait = deceitful
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 9
+    intrigue = 7
+    learning = 4
+    prowess = 9
+
+    trait = education_stewardship_1
+
+    6312.6.14 = {
+        birth = yes
+    }
+
+    6389.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_3 = {
+    name = "Michael"
+
+    dynasty = dynasty_horpe
+    religion = the_old_gods
+    culture = stormmen
+
+    father = horpe_1
+    mother = horpe_2
+
+    trait = honest
+    trait = ambitious
+    trait = temperate
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 2
+    learning = 2
+    prowess = 3
+
+    trait = education_martial_3
+
+    6355.8.13 = {
+        birth = yes
+    }
+
+    6401.4.14 = {
+        add_spouse = horpe_4
+    }
+
+    6426.9.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_4 = {
+    name = "Kelyce"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = honest
+    trait = stubborn
+    trait = just
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6384.5.12 = {
+        birth = yes
+    }
+
+    6466.8.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_5 = {
+    name = "Meredyth"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = horpe_3
+    mother = horpe_4
+
+    trait = humble
+    trait = gregarious
+    trait = ambitious
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 2
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6407.8.12 = {
+        birth = yes
+    }
+
+    6490.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_6 = {
+    name = "Devin"
+
+    dynasty = dynasty_horpe
+    religion = the_old_gods
+    culture = stormmen
+
+    father = horpe_3
+    mother = horpe_4
+
+    trait = arrogant
+    trait = honest
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 5
+    intrigue = 4
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_4
+
+    6416.12.20 = {
+        birth = yes
+    }
+
+    6432.5.23 = {
+        add_spouse = horpe_7
+    }
+
+    6483.9.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_7 = {
+    name = "Annara"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = sadistic
+    trait = arrogant
+    trait = diligent
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6415.4.8 = {
+        birth = yes
+    }
+
+    6484.8.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_8 = {
+    name = "Tia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = horpe_6
+    mother = horpe_7
+
+    trait = arrogant
+    trait = just
+    trait = lustful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 1
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6434.6.18 = {
+        birth = yes
+    }
+
+    6518.9.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_9 = {
+    name = "Ginni"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = horpe_6
+    mother = horpe_7
+
+    trait = impatient
+    trait = temperate
+    trait = content
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 8
+    learning = 8
+    prowess = 10
+
+    trait = education_diplomacy_2
+
+    6439.5.10 = {
+        birth = yes
+    }
+
+    6523.1.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_10 = {
+    name = "Gerald"
+
+    dynasty = dynasty_horpe
+    religion = the_old_gods
+    culture = stormmen
+
+    father = horpe_6
+    mother = horpe_7
+
+    trait = paranoid
+    trait = zealous
+    trait = fickle
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6444.3.22 = {
+        birth = yes
+    }
+
+    6489.4.7 = {
+        add_spouse = horpe_11
+    }
+
+    6510.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_11 = {
+    name = "Maer"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = patient
+    trait = calm
+    trait = deceitful
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 9
+
+    trait = education_intrigue_4
+
+    6472.5.15 = {
+        birth = yes
+    }
+
+    6552.5.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_12 = {
+    name = "Belandra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = horpe_10
+    mother = horpe_11
+
+    trait = gregarious
+    trait = brave
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 3
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_1
+
+    6493.10.20 = {
+        birth = yes
+    }
+
+    6573.12.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_13 = {
+    name = "Casper"
+
+    dynasty = dynasty_horpe
+    religion = the_old_gods
+    culture = stormmen
+
+    father = horpe_10
+    mother = horpe_11
+
+    trait = compassionate
+    trait = impatient
+    trait = craven
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 2
+
+    trait = education_martial_2
+
+    6494.12.22 = {
+        birth = yes
+    }
+
+    6517.12.10 = {
+        add_spouse = horpe_14
+    }
+
+    6565.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_14 = {
+    name = "Roelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = ambitious
+    trait = trusting
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6500.3.3 = {
+        birth = yes
+    }
+
+    6567.5.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_15 = {
+    name = "Armond"
+
+    dynasty = dynasty_horpe
+    religion = the_old_gods
+    culture = stormmen
+
+    father = horpe_13
+    mother = horpe_14
+
+    trait = diligent
+    trait = calm
+    trait = cynical
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 3
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_1
+
+    6522.7.8 = {
+        birth = yes
+    }
+
+    6553.7.21 = {
+        add_spouse = horpe_16
+    }
+
+    6604.6.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_16 = {
+    name = "Shireen"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = humble
+    trait = shy
+    trait = deceitful
+
+    diplomacy = 10
+    martial = 4
+    stewardship = 9
+    intrigue = 6
+    learning = 8
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6536.12.25 = {
+        birth = yes
+    }
+
+    6610.12.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_17 = {
+    name = "Shireen"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = horpe_15
+    mother = horpe_16
+
+    trait = sadistic
+    trait = diligent
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 8
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_1
+
+    6557.4.8 = {
+        birth = yes
+    }
+
+    6642.8.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_18 = {
+    name = "Bryen"
+
+    dynasty = dynasty_horpe
+    religion = the_old_gods
+    culture = stormmen
+
+    father = horpe_15
+    mother = horpe_16
+
+    trait = patient
+    trait = greedy
+    trait = cynical
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_1
+
+    6561.11.16 = {
+        birth = yes
+    }
+
+    6579.5.7 = {
+        add_spouse = horpe_19
+    }
+
+    6628.2.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_19 = {
+    name = "Shierle"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = fickle
+    trait = wrathful
+    trait = craven
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 11
+
+    trait = education_martial_3
+
+    6562.10.13 = {
+        birth = yes
+    }
+
+    6641.12.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_20 = {
+    name = "Cassandria"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = horpe_13
+    mother = horpe_14
+
+    trait = craven
+    trait = just
+    trait = gluttonous
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_4
+
+    6523.9.19 = {
+        birth = yes
+    }
+
+    6593.7.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_21 = {
+    name = "Harlan"
+
+    dynasty = dynasty_horpe
+    religion = the_old_gods
+    culture = stormmen
+
+    father = horpe_13
+    mother = horpe_14
+
+    trait = wrathful
+    trait = patient
+    trait = temperate
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 4
+    intrigue = 8
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_2
+
+    6531.3.10 = {
+        birth = yes
+    }
+
+    6561.10.25 = {
+        add_spouse = horpe_22
+    }
+
+    6616.4.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_22 = {
+    name = "Cerella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = cynical
+    trait = lustful
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 2
+
+    trait = education_diplomacy_4
+
+    6544.10.23 = {
+        birth = yes
+    }
+
+    6620.2.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_23 = {
+    name = "Emma"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = horpe_21
+    mother = horpe_22
+
+    trait = impatient
+    trait = stubborn
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 9
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6565.2.13 = {
+        birth = yes
+    }
+
+    6643.7.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_24 = {
+    name = "Dale"
+
+    dynasty = dynasty_horpe
+    religion = the_old_gods
+    culture = stormmen
+
+    father = horpe_21
+    mother = horpe_22
+
+    trait = content
+    trait = wrathful
+    trait = impatient
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6571.4.25 = {
+        birth = yes
+    }
+
+    6612.11.27 = {
+        add_spouse = horpe_25
+    }
+
+    6651.12.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_25 = {
+    name = "Daini"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = fickle
+    trait = impatient
+    trait = arbitrary
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 9
+    intrigue = 11
+    learning = 10
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6595.3.16 = {
+        birth = yes
+    }
+
+    6622.5.1 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+horpe_26 = {
+    name = "Marya"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = horpe_21
+    mother = horpe_22
+
+    trait = arbitrary
+    trait = arrogant
+    trait = honest
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 5
+    intrigue = 8
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_2
+
+    6573.1.8 = {
+        birth = yes
+    }
+
+    6658.8.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_27 = {
+    name = "Bonifer"
+
+    dynasty = dynasty_horpe
+    religion = the_old_gods
+    culture = stormmen
+
+    father = horpe_10
+    mother = horpe_11
+
+    trait = honest
+    trait = calm
+    trait = just
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 5
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6497.4.28 = {
+        birth = yes
+    }
+
+    6543.12.1 = {
+        add_spouse = horpe_28
+    }
+
+    6581.5.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_28 = {
+    name = "Elanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = paranoid
+    trait = arbitrary
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 4
+    intrigue = 6
+    learning = 9
+    prowess = 6
+
+    trait = education_martial_3
+
+    6526.9.2 = {
+        birth = yes
+    }
+
+    6603.7.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_29 = {
+    name = "Corwen"
+
+    dynasty = dynasty_horpe
+    religion = the_old_gods
+    culture = stormmen
+
+    father = horpe_27
+    mother = horpe_28
+
+    trait = diligent
+    trait = fickle
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 7
+    intrigue = 4
+    learning = 2
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6547.11.3 = {
+        birth = yes
+    }
+
+    6548.2.15 = {
+        give_nickname = nick_the_truthseeker
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6565.3.13 = {
+        add_spouse = horpe_30
+    }
+
+    6622.9.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_30 = {
+    name = "Belandra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = greedy
+    trait = wrathful
+    trait = paranoid
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 3
+
+    trait = education_stewardship_2
+
+    6548.8.19 = {
+        birth = yes
+    }
+
+    6614.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_31 = {
+    name = "Leobald"
+
+    dynasty = dynasty_horpe
+    religion = the_old_gods
+    culture = stormmen
+
+    father = horpe_29
+    mother = horpe_30
+
+    trait = callous
+    trait = arrogant
+    trait = wrathful
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 5
+    intrigue = 10
+    learning = 2
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6568.11.1 = {
+        birth = yes
+    }
+
+    6615.1.4 = {
+        add_spouse = horpe_32
+    }
+
+    6650.11.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_32 = {
+    name = "Jeyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = calm
+    trait = lustful
+    trait = generous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 3
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6598.3.21 = {
+        birth = yes
+    }
+
+    6672.2.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_33 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = horpe_29
+    mother = horpe_30
+
+    trait = diligent
+    trait = patient
+    trait = craven
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 2
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6574.9.21 = {
+        birth = yes
+    }
+
+    6640.3.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_34 = {
+    name = "Melara"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = horpe_29
+    mother = horpe_30
+
+    trait = cynical
+    trait = sadistic
+    trait = wrathful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 3
+    intrigue = 10
+    learning = 4
+    prowess = 11
+
+    trait = education_intrigue_4
+
+    6578.12.6 = {
+        birth = yes
+    }
+
+    6648.4.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_35 = {
+    name = "Dallia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = horpe_29
+    mother = horpe_30
+
+    trait = compassionate
+    trait = paranoid
+    trait = vengeful
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 11
+    intrigue = 5
+    learning = 9
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6579.12.3 = {
+        birth = yes
+    }
+
+    6653.2.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_36 = {
+    name = "Harbert"
+
+    dynasty = dynasty_horpe
+    religion = the_old_gods
+    culture = stormmen
+
+    father = horpe_27
+    mother = horpe_28
+
+    trait = stubborn
+    trait = gregarious
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6553.2.10 = {
+        birth = yes
+    }
+
+    6580.8.4 = {
+        add_spouse = horpe_37
+    }
+
+    6621.1.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_37 = {
+    name = "Helicent"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = gregarious
+    trait = callous
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_2
+
+    6563.9.10 = {
+        birth = yes
+    }
+
+    6641.4.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_38 = {
+    name = "Renly"
+
+    dynasty = dynasty_horpe
+    religion = the_old_gods
+    culture = stormmen
+
+    father = horpe_36
+    mother = horpe_37
+
+    trait = lustful
+    trait = ambitious
+    trait = shy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6608.5.9 = {
+        birth = yes
+    }
+
+    6649.10.2 = {
+        add_spouse = horpe_39
+    }
+
+    6674.2.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_39 = {
+    name = "Annis"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = temperate
+    trait = diligent
+    trait = humble
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_2
+
+    6632.9.3 = {
+        birth = yes
+    }
+
+    6700.7.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+horpe_40 = {
+    name = "Lyria"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = horpe_10
+    mother = horpe_11
+
+    trait = wrathful
+    trait = greedy
+    trait = fickle
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6499.12.9 = {
+        birth = yes
+    }
+
+    6549.12.4 = {
+        death = { death_reason = death_typhus }
+    }
+}

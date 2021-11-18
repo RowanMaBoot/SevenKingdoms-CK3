@@ -1,0 +1,1874 @@
+errol_1 = {
+    name = "Theo"
+
+    dynasty = dynasty_errol
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = fickle
+    trait = compassionate
+    trait = brave
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 3
+    intrigue = 3
+    learning = 4
+    prowess = 2
+
+    trait = education_diplomacy_4
+
+    6300.12.20 = {
+        birth = yes
+    }
+
+    6344.1.9 = {
+        add_spouse = errol_2
+    }
+
+    6357.4.13 = {
+        death = { death_reason = death_beaten }
+    }
+}
+
+errol_2 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = humble
+    trait = deceitful
+    trait = impatient
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6327.3.20 = {
+        birth = yes
+    }
+
+    6404.11.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_3 = {
+    name = "Theo"
+
+    dynasty = dynasty_errol
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_1
+    mother = errol_2
+
+    trait = impatient
+    trait = fickle
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 8
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6354.9.27 = {
+        birth = yes
+    }
+
+    6399.2.5 = {
+        add_spouse = errol_4
+    }
+
+    6409.1.22 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+errol_4 = {
+    name = "Daini"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = gluttonous
+    trait = zealous
+    trait = generous
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6382.8.22 = {
+        birth = yes
+    }
+
+    6451.9.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_5 = {
+    name = "Bryce"
+
+    dynasty = dynasty_errol
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_3
+    mother = errol_4
+
+    trait = trusting
+    trait = diligent
+    trait = patient
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 2
+
+    trait = education_stewardship_4
+
+    6401.2.15 = {
+        birth = yes
+    }
+
+    6421.8.17 = {
+        add_spouse = errol_6
+    }
+
+    6467.5.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_6 = {
+    name = "Shierle"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = calm
+    trait = impatient
+    trait = zealous
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 10
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6404.4.11 = {
+        birth = yes
+    }
+
+    6486.6.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_7 = {
+    name = "Alyn"
+
+    dynasty = dynasty_errol
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_5
+    mother = errol_6
+
+    trait = honest
+    trait = cynical
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 2
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6442.5.11 = {
+        birth = yes
+    }
+
+    6478.9.21 = {
+        add_spouse = errol_8
+    }
+
+    6509.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_8 = {
+    name = "Mina"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = chaste
+    trait = patient
+    trait = zealous
+
+    diplomacy = 8
+    martial = 10
+    stewardship = 3
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_3
+
+    6461.6.27 = {
+        birth = yes
+    }
+
+    6529.12.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_9 = {
+    name = "Halyn"
+
+    dynasty = dynasty_errol
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_7
+    mother = errol_8
+
+    trait = honest
+    trait = arrogant
+    trait = patient
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 5
+    intrigue = 2
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6487.1.18 = {
+        birth = yes
+    }
+
+    6509.2.12 = {
+        add_spouse = errol_10
+    }
+
+    6519.2.2 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+errol_10 = {
+    name = "Cassandra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = stubborn
+    trait = callous
+    trait = honest
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 6
+    intrigue = 9
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6492.11.28 = {
+        birth = yes
+    }
+
+    6560.12.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_11 = {
+    name = "Dainia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_9
+    mother = errol_10
+
+    trait = temperate
+    trait = brave
+    trait = wrathful
+
+    diplomacy = 11
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6511.3.26 = {
+        birth = yes
+    }
+
+    6587.11.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_12 = {
+    name = "Arion"
+
+    dynasty = dynasty_errol
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_9
+    mother = errol_10
+
+    trait = shy
+    trait = trusting
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6513.12.15 = {
+        birth = yes
+    }
+
+    6555.10.2 = {
+        add_spouse = errol_13
+    }
+
+    6585.7.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_13 = {
+    name = "Mylenda"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = forgiving
+    trait = lustful
+    trait = craven
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 3
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    6538.7.9 = {
+        birth = yes
+    }
+
+    6609.9.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_14 = {
+    name = "Hanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_12
+    mother = errol_13
+
+    trait = calm
+    trait = humble
+    trait = chaste
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 7
+    intrigue = 3
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_3
+
+    6556.4.15 = {
+        birth = yes
+    }
+
+    6630.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_15 = {
+    name = "Corwen"
+
+    dynasty = dynasty_errol
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_12
+    mother = errol_13
+
+    trait = chaste
+    trait = gluttonous
+    trait = cynical
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 5
+    intrigue = 5
+    learning = 3
+    prowess = 6
+
+    trait = education_martial_2
+
+    6566.3.15 = {
+        birth = yes
+    }
+
+    6584.1.13 = {
+        add_spouse = errol_16
+    }
+
+    6633.2.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_16 = {
+    name = "Matrice"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = paranoid
+    trait = brave
+    trait = stubborn
+
+    diplomacy = 7
+    martial = 1
+    stewardship = 5
+    intrigue = 3
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6567.4.18 = {
+        birth = yes
+    }
+
+    6643.11.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_17 = {
+    name = "Andren"
+
+    dynasty = dynasty_errol
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_9
+    mother = errol_10
+
+    trait = lazy
+    trait = honest
+    trait = zealous
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 9
+    intrigue = 7
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_3
+
+    6514.9.21 = {
+        birth = yes
+    }
+
+    6542.7.26 = {
+        add_spouse = errol_18
+    }
+
+    6574.9.16 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+errol_18 = {
+    name = "Victoria"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = brave
+    trait = stubborn
+    trait = diligent
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6525.4.2 = {
+        birth = yes
+    }
+
+    6605.6.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_19 = {
+    name = "Selwyn"
+
+    dynasty = dynasty_errol
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_17
+    mother = errol_18
+
+    trait = zealous
+    trait = sadistic
+    trait = generous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 9
+
+    trait = education_martial_2
+
+    6546.3.3 = {
+        birth = yes
+    }
+
+    6566.10.5 = {
+        add_spouse = errol_20
+    }
+
+    6627.10.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_20 = {
+    name = "Kyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = greedy
+    trait = lazy
+    trait = impatient
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_4
+
+    6549.10.4 = {
+        birth = yes
+    }
+
+    6622.5.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_21 = {
+    name = "Yonel"
+
+    dynasty = dynasty_errol
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_7
+    mother = errol_8
+
+    trait = lustful
+    trait = stubborn
+    trait = just
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 3
+    intrigue = 6
+    learning = 7
+    prowess = 11
+
+    trait = education_martial_4
+
+    6490.11.16 = {
+        birth = yes
+    }
+
+    6506.6.1 = {
+        add_spouse = errol_22
+    }
+
+    6565.12.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_22 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = chaste
+    trait = forgiving
+    trait = gluttonous
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 8
+    prowess = 2
+
+    trait = education_diplomacy_4
+
+    6489.5.4 = {
+        birth = yes
+    }
+
+    6557.8.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_23 = {
+    name = "Alesander"
+
+    dynasty = dynasty_errol
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_21
+    mother = errol_22
+
+    trait = chaste
+    trait = generous
+    trait = stubborn
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 7
+    intrigue = 9
+    learning = 3
+    prowess = 9
+
+    trait = education_martial_2
+
+    6529.7.16 = {
+        birth = yes
+    }
+
+    6556.3.16 = {
+        add_spouse = errol_24
+    }
+
+    6602.12.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_24 = {
+    name = "Sher"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = temperate
+    trait = content
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6539.10.1 = {
+        birth = yes
+    }
+
+    6613.1.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_25 = {
+    name = "Balon"
+
+    dynasty = dynasty_errol
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_23
+    mother = errol_24
+
+    trait = forgiving
+    trait = deceitful
+    trait = humble
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 4
+    intrigue = 4
+    learning = 8
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6561.1.20 = {
+        birth = yes
+    }
+
+    6599.5.22 = {
+        add_spouse = errol_26
+    }
+
+    6634.11.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_26 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = lazy
+    trait = forgiving
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    6582.10.7 = {
+        birth = yes
+    }
+
+    6659.3.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_27 = {
+    name = "Maer"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_23
+    mother = errol_24
+
+    trait = content
+    trait = forgiving
+    trait = shy
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    6564.10.11 = {
+        birth = yes
+    }
+
+    6633.10.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_28 = {
+    name = "Selyse"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_23
+    mother = errol_24
+
+    trait = arrogant
+    trait = paranoid
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 11
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    6565.1.1 = {
+        birth = yes
+    }
+
+    6641.6.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_29 = {
+    name = "Jonquil"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_23
+    mother = errol_24
+
+    trait = content
+    trait = craven
+    trait = zealous
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 6
+    intrigue = 4
+    learning = 9
+    prowess = 9
+
+    trait = education_martial_2
+
+    6570.7.1 = {
+        birth = yes
+    }
+
+    6637.4.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_30 = {
+    name = "Goodwin"
+
+    dynasty = dynasty_errol
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_3
+    mother = errol_4
+
+    trait = cynical
+    trait = content
+    trait = lazy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 9
+    learning = 9
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6404.2.27 = {
+        birth = yes
+    }
+
+    6419.6.6 = {
+        add_spouse = errol_31
+    }
+
+    6488.12.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_31 = {
+    name = "Jena"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = honest
+    trait = shy
+    trait = zealous
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 5
+    intrigue = 9
+    learning = 4
+    prowess = 4
+
+    trait = education_martial_4
+
+    6402.4.26 = {
+        birth = yes
+    }
+
+    6474.4.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_32 = {
+    name = "Arstan"
+
+    dynasty = dynasty_errol
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_30
+    mother = errol_31
+
+    trait = patient
+    trait = sadistic
+    trait = wrathful
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 7
+    intrigue = 10
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6422.8.12 = {
+        birth = yes
+    }
+
+    6463.11.2 = {
+        add_spouse = errol_33
+    }
+
+    6506.7.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_33 = {
+    name = "Kea"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = lazy
+    trait = forgiving
+    trait = calm
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 9
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6446.8.4 = {
+        birth = yes
+    }
+
+    6519.7.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_34 = {
+    name = "Sherry"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_32
+    mother = errol_33
+
+    trait = arbitrary
+    trait = arrogant
+    trait = greedy
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 10
+    intrigue = 7
+    learning = 9
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6472.3.6 = {
+        birth = yes
+    }
+
+    6523.2.9 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+errol_35 = {
+    name = "Belandra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_32
+    mother = errol_33
+
+    trait = cynical
+    trait = diligent
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 3
+    intrigue = 8
+    learning = 9
+    prowess = 3
+
+    trait = education_martial_3
+
+    6475.11.8 = {
+        birth = yes
+    }
+
+    6546.7.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_36 = {
+    name = "Galladon"
+
+    dynasty = dynasty_errol
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_32
+    mother = errol_33
+
+    trait = diligent
+    trait = deceitful
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 4
+    intrigue = 4
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_3
+
+    6478.8.25 = {
+        birth = yes
+    }
+
+    6495.4.28 = {
+        add_spouse = errol_37
+    }
+
+    6552.5.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_37 = {
+    name = "Kelycea"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = vengeful
+    trait = content
+    trait = impatient
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 9
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6478.8.13 = {
+        birth = yes
+    }
+
+    6555.9.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_38 = {
+    name = "Mina"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_36
+    mother = errol_37
+
+    trait = wrathful
+    trait = brave
+    trait = lazy
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6499.3.17 = {
+        birth = yes
+    }
+
+    6573.10.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_39 = {
+    name = "Benedict"
+
+    dynasty = dynasty_errol
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_36
+    mother = errol_37
+
+    trait = wrathful
+    trait = deceitful
+    trait = humble
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    6507.6.6 = {
+        birth = yes
+    }
+
+    6547.11.17 = {
+        add_spouse = errol_40
+    }
+
+    6585.6.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_40 = {
+    name = "Tyiah"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = wrathful
+    trait = humble
+    trait = lazy
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 1
+    intrigue = 7
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6530.8.7 = {
+        birth = yes
+    }
+
+    6608.10.2 = {
+        death = { death_reason = death_murder  }
+    }
+}
+
+errol_41 = {
+    name = "Alysanne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_39
+    mother = errol_40
+
+    trait = shy
+    trait = impatient
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_2
+
+    6555.7.13 = {
+        birth = yes
+    }
+
+    6632.4.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_42 = {
+    name = "Brienne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_39
+    mother = errol_40
+
+    trait = diligent
+    trait = cynical
+    trait = temperate
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6556.6.5 = {
+        birth = yes
+    }
+
+    6638.12.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_43 = {
+    name = "Lomas"
+
+    dynasty = dynasty_errol
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_39
+    mother = errol_40
+
+    trait = gregarious
+    trait = trusting
+    trait = callous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    6560.1.25 = {
+        birth = yes
+    }
+
+    6601.4.7 = {
+        add_spouse = errol_44
+    }
+
+    6641.5.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_44 = {
+    name = "Ravella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = trusting
+    trait = cynical
+    trait = greedy
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 3
+    intrigue = 7
+    learning = 5
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    6584.4.20 = {
+        birth = yes
+    }
+
+    6665.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_45 = {
+    name = "Benedict"
+
+    dynasty = dynasty_errol
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_30
+    mother = errol_31
+
+    trait = trusting
+    trait = deceitful
+    trait = content
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 10
+    intrigue = 7
+    learning = 3
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6423.9.25 = {
+        birth = yes
+    }
+
+    6447.5.10 = {
+        add_spouse = errol_46
+    }
+
+    6491.11.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_46 = {
+    name = "Kelycea"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = generous
+    trait = content
+    trait = just
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 4
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6430.7.6 = {
+        birth = yes
+    }
+
+    6500.11.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_47 = {
+    name = "Florian"
+
+    dynasty = dynasty_errol
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_45
+    mother = errol_46
+
+    trait = zealous
+    trait = shy
+    trait = generous
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 3
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6475.11.25 = {
+        birth = yes
+    }
+
+    6490.10.17 = {
+        add_spouse = errol_48
+    }
+
+    6506.9.26 = {
+        death = { death_reason = death_treatment }
+    }
+}
+
+errol_48 = {
+    name = "Dainia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = temperate
+    trait = callous
+    trait = arbitrary
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6473.9.2 = {
+        birth = yes
+    }
+
+    6552.8.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_49 = {
+    name = "Angron"
+
+    dynasty = dynasty_errol
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_47
+    mother = errol_48
+
+    trait = just
+    trait = content
+    trait = zealous
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 11
+    learning = 9
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6505.5.6 = {
+        birth = yes
+    }
+
+    6521.1.24 = {
+        add_spouse = errol_50
+    }
+
+    6589.9.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_50 = {
+    name = "Shireen"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = shy
+    trait = honest
+    trait = stubborn
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 9
+    intrigue = 4
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6504.5.3 = {
+        birth = yes
+    }
+
+    6571.3.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_51 = {
+    name = "Leobald"
+
+    dynasty = dynasty_errol
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_49
+    mother = errol_50
+
+    trait = craven
+    trait = compassionate
+    trait = paranoid
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 5
+    intrigue = 9
+    learning = 1
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6526.7.11 = {
+        birth = yes
+    }
+
+    6559.5.11 = {
+        add_spouse = errol_52
+    }
+
+    6609.2.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_52 = {
+    name = "Alynne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = just
+    trait = content
+    trait = generous
+
+    diplomacy = 9
+    martial = 3
+    stewardship = 4
+    intrigue = 2
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    6542.8.2 = {
+        birth = yes
+    }
+
+    6622.4.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_53 = {
+    name = "Selyse"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_49
+    mother = errol_50
+
+    trait = content
+    trait = patient
+    trait = lustful
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6528.5.28 = {
+        birth = yes
+    }
+
+    6602.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_54 = {
+    name = "Tiona"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_49
+    mother = errol_50
+
+    trait = chaste
+    trait = arbitrary
+    trait = arrogant
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6531.9.14 = {
+        birth = yes
+    }
+
+    6613.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_55 = {
+    name = "Alaric"
+
+    dynasty = dynasty_errol
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_49
+    mother = errol_50
+
+    trait = ambitious
+    trait = gluttonous
+    trait = callous
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6535.5.23 = {
+        birth = yes
+    }
+
+    6580.2.10 = {
+        add_spouse = errol_56
+    }
+
+    6608.1.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_56 = {
+    name = "Cassandrea"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = humble
+    trait = impatient
+    trait = fickle
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 8
+    intrigue = 3
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6563.8.11 = {
+        birth = yes
+    }
+
+    6634.9.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_57 = {
+    name = "Gwyneth"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_30
+    mother = errol_31
+
+    trait = vengeful
+    trait = paranoid
+    trait = honest
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6429.10.2 = {
+        birth = yes
+    }
+
+    6505.10.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+errol_58 = {
+    name = "Emelia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = errol_30
+    mother = errol_31
+
+    trait = ambitious
+    trait = craven
+    trait = temperate
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 4
+    intrigue = 4
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_2
+
+    6430.6.24 = {
+        birth = yes
+    }
+
+    6502.2.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

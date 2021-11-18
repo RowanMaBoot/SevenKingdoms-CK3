@@ -1,0 +1,1711 @@
+fell_1 = {
+    name = "Arron"
+
+    dynasty = dynasty_fell
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = generous
+    trait = craven
+    trait = cynical
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6300.9.19 = {
+        birth = yes
+    }
+
+    6332.6.19 = {
+        add_spouse = fell_2
+    }
+
+    6383.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_2 = {
+    name = "Myrcella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = zealous
+    trait = arrogant
+    trait = stubborn
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 4
+    intrigue = 5
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6315.1.19 = {
+        birth = yes
+    }
+
+    6382.8.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_3 = {
+    name = "Andren"
+
+    dynasty = dynasty_fell
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_1
+    mother = fell_2
+
+    trait = lustful
+    trait = fickle
+    trait = generous
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6360.5.5 = {
+        birth = yes
+    }
+
+    6404.4.16 = {
+        add_spouse = fell_4
+    }
+
+    6432.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_4 = {
+    name = "Rohanne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = impatient
+    trait = callous
+    trait = honest
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 3
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_4
+
+    6387.7.9 = {
+        birth = yes
+    }
+
+    6456.1.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_5 = {
+    name = "Roelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_3
+    mother = fell_4
+
+    trait = forgiving
+    trait = lustful
+    trait = fickle
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 10
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6407.7.19 = {
+        birth = yes
+    }
+
+    6491.11.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_6 = {
+    name = "Barristan"
+
+    dynasty = dynasty_fell
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_3
+    mother = fell_4
+
+    trait = cynical
+    trait = temperate
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    6411.11.2 = {
+        birth = yes
+    }
+
+    6426.5.26 = {
+        add_spouse = fell_7
+    }
+
+    6483.2.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_7 = {
+    name = "Shireen"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = stubborn
+    trait = content
+    trait = cynical
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6409.5.4 = {
+        birth = yes
+    }
+
+    6453.9.4 = {
+        death = { death_reason = death_feast_accident  }
+    }
+}
+
+fell_8 = {
+    name = "Cassandra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_6
+    mother = fell_7
+
+    trait = deceitful
+    trait = just
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 9
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6429.2.1 = {
+        birth = yes
+    }
+
+    6497.7.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_9 = {
+    name = "Ronald"
+
+    dynasty = dynasty_fell
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_6
+    mother = fell_7
+
+    trait = greedy
+    trait = sadistic
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_4
+
+    6441.5.23 = {
+        birth = yes
+    }
+
+    6464.3.19 = {
+        add_spouse = fell_10
+    }
+
+    6515.9.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_10 = {
+    name = "Vicky"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = wrathful
+    trait = callous
+    trait = forgiving
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_2
+
+    6447.6.13 = {
+        birth = yes
+    }
+
+    6516.11.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_11 = {
+    name = "Tyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_9
+    mother = fell_10
+
+    trait = vengeful
+    trait = fickle
+    trait = craven
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 10
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6464.2.27 = {
+        birth = yes
+    }
+
+    6484.5.13 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+fell_12 = {
+    name = "Rhonda"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_9
+    mother = fell_10
+
+    trait = arbitrary
+    trait = cynical
+    trait = greedy
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 9
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6465.11.23 = {
+        birth = yes
+    }
+
+    6535.10.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_13 = {
+    name = "Gawen"
+
+    dynasty = dynasty_fell
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_9
+    mother = fell_10
+
+    trait = callous
+    trait = temperate
+    trait = stubborn
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6467.11.16 = {
+        birth = yes
+    }
+
+    6482.2.3 = {
+        add_spouse = fell_14
+    }
+
+    6543.12.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_14 = {
+    name = "Mina"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = chaste
+    trait = calm
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 2
+    intrigue = 8
+    learning = 6
+    prowess = 10
+
+    trait = education_intrigue_3
+
+    6465.6.17 = {
+        birth = yes
+    }
+
+    6547.11.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_15 = {
+    name = "Alaric"
+
+    dynasty = dynasty_fell
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_13
+    mother = fell_14
+
+    trait = deceitful
+    trait = arbitrary
+    trait = stubborn
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_3
+
+    6490.12.18 = {
+        birth = yes
+    }
+
+    6537.10.25 = {
+        add_spouse = fell_16
+    }
+
+    6568.12.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_16 = {
+    name = "Jeyne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = arbitrary
+    trait = craven
+    trait = chaste
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 10
+    prowess = 8
+
+    trait = education_learning_3
+
+    6520.12.9 = {
+        birth = yes
+    }
+
+    6591.9.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_17 = {
+    name = "Victoria"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_15
+    mother = fell_16
+
+    trait = generous
+    trait = cynical
+    trait = fickle
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 2
+
+    trait = education_intrigue_2
+
+    6540.5.27 = {
+        birth = yes
+    }
+
+    6606.5.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_18 = {
+    name = "Melicent"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_15
+    mother = fell_16
+
+    trait = shy
+    trait = honest
+    trait = content
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6546.1.16 = {
+        birth = yes
+    }
+
+    6627.3.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_19 = {
+    name = "Bryen"
+
+    dynasty = dynasty_fell
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_15
+    mother = fell_16
+
+    trait = sadistic
+    trait = impatient
+    trait = shy
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 2
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    6550.5.15 = {
+        birth = yes
+    }
+
+    6599.2.25 = {
+        add_spouse = fell_20
+    }
+
+    6630.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_20 = {
+    name = "Myrcella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = paranoid
+    trait = wrathful
+    trait = lustful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 3
+    intrigue = 9
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6582.2.12 = {
+        birth = yes
+    }
+
+    6662.8.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_21 = {
+    name = "Selyse"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_15
+    mother = fell_16
+
+    trait = shy
+    trait = callous
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 9
+    prowess = 9
+
+    trait = education_learning_4
+
+    6554.12.7 = {
+        birth = yes
+    }
+
+    6628.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_22 = {
+    name = "Ginni"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_3
+    mother = fell_4
+
+    trait = arbitrary
+    trait = content
+    trait = temperate
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 4
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_3
+
+    6413.9.28 = {
+        birth = yes
+    }
+
+    6489.12.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_23 = {
+    name = "Balon"
+
+    dynasty = dynasty_fell
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_3
+    mother = fell_4
+
+    trait = content
+    trait = paranoid
+    trait = deceitful
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 2
+    intrigue = 10
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6416.1.20 = {
+        birth = yes
+    }
+
+    6445.3.17 = {
+        add_spouse = fell_24
+    }
+
+    6491.8.7 = {
+        death = { death_reason = death_vanished  }
+    }
+}
+
+fell_24 = {
+    name = "Dorna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = callous
+    trait = fickle
+    trait = lustful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6428.2.26 = {
+        birth = yes
+    }
+
+    6503.2.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_25 = {
+    name = "Cirella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_23
+    mother = fell_24
+
+    trait = ambitious
+    trait = wrathful
+    trait = zealous
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6451.4.9 = {
+        birth = yes
+    }
+
+    6530.4.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_26 = {
+    name = "Emmara"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_23
+    mother = fell_24
+
+    trait = cynical
+    trait = brave
+    trait = diligent
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 9
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    6456.2.1 = {
+        birth = yes
+    }
+
+    6530.10.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_27 = {
+    name = "Donnel"
+
+    dynasty = dynasty_fell
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_23
+    mother = fell_24
+
+    trait = patient
+    trait = content
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 2
+    intrigue = 7
+    learning = 8
+    prowess = 2
+
+    trait = education_learning_2
+
+    6457.11.15 = {
+        birth = yes
+    }
+
+    6499.9.13 = {
+        add_spouse = fell_28
+    }
+
+    6540.5.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_28 = {
+    name = "Scolera"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = cynical
+    trait = lustful
+    trait = greedy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6482.5.1 = {
+        birth = yes
+    }
+
+    6552.5.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_29 = {
+    name = "Rolland"
+
+    dynasty = dynasty_fell
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_27
+    mother = fell_28
+
+    trait = impatient
+    trait = wrathful
+    trait = compassionate
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 6
+    intrigue = 5
+    learning = 1
+    prowess = 11
+
+    trait = education_stewardship_3
+
+    6505.6.8 = {
+        birth = yes
+    }
+
+    6538.2.13 = {
+        add_spouse = fell_30
+    }
+
+    6587.8.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_30 = {
+    name = "Helicent"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = temperate
+    trait = ambitious
+    trait = arbitrary
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 9
+    learning = 2
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    6521.1.24 = {
+        birth = yes
+    }
+
+    6596.1.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_31 = {
+    name = "Pate"
+
+    dynasty = dynasty_fell
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_29
+    mother = fell_30
+
+    trait = honest
+    trait = greedy
+    trait = paranoid
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 3
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_4
+
+    6542.3.21 = {
+        birth = yes
+    }
+
+    6560.9.5 = {
+        add_spouse = fell_32
+    }
+
+    6609.6.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_32 = {
+    name = "Senelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = greedy
+    trait = paranoid
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 9
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6543.7.16 = {
+        birth = yes
+    }
+
+    6611.12.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_33 = {
+    name = "Leyla"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_31
+    mother = fell_32
+
+    trait = deceitful
+    trait = impatient
+    trait = calm
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 3
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6564.9.17 = {
+        birth = yes
+    }
+
+    6636.10.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_34 = {
+    name = "Kea"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_31
+    mother = fell_32
+
+    trait = chaste
+    trait = trusting
+    trait = lazy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 2
+    intrigue = 7
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6572.9.23 = {
+        birth = yes
+    }
+
+    6642.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_35 = {
+    name = "Cedrik"
+
+    dynasty = dynasty_fell
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_31
+    mother = fell_32
+
+    trait = compassionate
+    trait = wrathful
+    trait = impatient
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_3
+
+    6576.8.9 = {
+        birth = yes
+    }
+
+    6599.2.7 = {
+        add_spouse = fell_36
+    }
+
+    6656.10.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_36 = {
+    name = "Emmara"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = just
+    trait = compassionate
+    trait = craven
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_4
+
+    6582.8.2 = {
+        birth = yes
+    }
+
+    6650.7.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_37 = {
+    name = "Armond"
+
+    dynasty = dynasty_fell
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_29
+    mother = fell_30
+
+    trait = ambitious
+    trait = arbitrary
+    trait = calm
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6550.7.1 = {
+        birth = yes
+    }
+
+    6594.3.21 = {
+        add_spouse = fell_38
+    }
+
+    6622.7.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_38 = {
+    name = "Melessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = paranoid
+    trait = just
+    trait = compassionate
+
+    diplomacy = 2
+    martial = 10
+    stewardship = 8
+    intrigue = 9
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_3
+
+    6577.3.16 = {
+        birth = yes
+    }
+
+    6643.9.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_39 = {
+    name = "Robert"
+
+    dynasty = dynasty_fell
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_37
+    mother = fell_38
+
+    trait = wrathful
+    trait = impatient
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 9
+    learning = 8
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6622.1.17 = {
+        birth = yes
+    }
+
+    6669.7.6 = {
+        add_spouse = fell_40
+    }
+
+    6694.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_40 = {
+    name = "Marya"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = zealous
+    trait = humble
+    trait = honest
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6652.4.3 = {
+        birth = yes
+    }
+
+    6727.12.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_41 = {
+    name = "Melessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_27
+    mother = fell_28
+
+    trait = calm
+    trait = ambitious
+    trait = arbitrary
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6508.1.23 = {
+        birth = yes
+    }
+
+    6575.4.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_42 = {
+    name = "Mylenda"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_27
+    mother = fell_28
+
+    trait = diligent
+    trait = impatient
+    trait = content
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_4
+
+    6511.10.26 = {
+        birth = yes
+    }
+
+    6584.2.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_43 = {
+    name = "Harrold"
+
+    dynasty = dynasty_fell
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_23
+    mother = fell_24
+
+    trait = craven
+    trait = callous
+    trait = diligent
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6461.6.11 = {
+        birth = yes
+    }
+
+    6489.9.1 = {
+        add_spouse = fell_44
+    }
+
+    6530.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_44 = {
+    name = "Cassandria"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = greedy
+    trait = impatient
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6472.12.23 = {
+        birth = yes
+    }
+
+    6544.6.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_45 = {
+    name = "Andrew"
+
+    dynasty = dynasty_fell
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_43
+    mother = fell_44
+
+    trait = ambitious
+    trait = wrathful
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_2
+
+    6506.10.14 = {
+        birth = yes
+    }
+
+    6526.10.6 = {
+        add_spouse = fell_46
+    }
+
+    6580.9.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_46 = {
+    name = "Arianne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = honest
+    trait = callous
+    trait = vengeful
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 9
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6509.4.25 = {
+        birth = yes
+    }
+
+    6587.1.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_47 = {
+    name = "Anguy"
+
+    dynasty = dynasty_fell
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_45
+    mother = fell_46
+
+    trait = chaste
+    trait = craven
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6530.6.24 = {
+        birth = yes
+    }
+
+    6579.11.11 = {
+        add_spouse = fell_48
+    }
+
+    6601.4.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_48 = {
+    name = "Ginni"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = craven
+    trait = callous
+    trait = ambitious
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6562.7.13 = {
+        birth = yes
+    }
+
+    6638.1.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_49 = {
+    name = "Michael"
+
+    dynasty = dynasty_fell
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_47
+    mother = fell_48
+
+    trait = honest
+    trait = stubborn
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 5
+    intrigue = 8
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_3
+
+    6589.4.18 = {
+        birth = yes
+    }
+
+    6621.1.17 = {
+        add_spouse = fell_50
+    }
+
+    6631.7.12 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+fell_50 = {
+    name = "Jonquil"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = content
+    trait = chaste
+    trait = honest
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 2
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_3
+
+    6604.3.20 = {
+        birth = yes
+    }
+
+    6674.5.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_51 = {
+    name = "Guyard"
+
+    dynasty = dynasty_fell
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_47
+    mother = fell_48
+
+    trait = honest
+    trait = generous
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 4
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_3
+
+    6590.3.6 = {
+        birth = yes
+    }
+
+    6609.9.28 = {
+        add_spouse = fell_52
+    }
+
+    6634.2.2 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+fell_52 = {
+    name = "Jasonnei"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = zealous
+    trait = gregarious
+    trait = generous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 10
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6592.2.16 = {
+        birth = yes
+    }
+
+    6670.12.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+fell_53 = {
+    name = "Leyla"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = fell_45
+    mother = fell_46
+
+    trait = just
+    trait = craven
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 2
+
+    trait = education_martial_2
+
+    6532.8.22 = {
+        birth = yes
+    }
+
+    6610.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

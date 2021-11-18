@@ -1,0 +1,1044 @@
+# Made-up House
+
+griffon_1 = {
+    name = "Benedict"
+
+    dynasty = dynasty_griffon
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = patient
+    trait = fickle
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 3
+    intrigue = 10
+    learning = 4
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    6300.12.23 = {
+        birth = yes
+    }
+
+    6323.12.27 = {
+        add_spouse = griffon_2
+    }
+
+    6368.1.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_2 = {
+    name = "Elanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = gluttonous
+    trait = brave
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 4
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6306.5.13 = {
+        birth = yes
+    }
+
+    6389.1.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_3 = {
+    name = "Allard"
+
+    dynasty = dynasty_griffon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = griffon_1
+    mother = griffon_2
+
+    trait = arbitrary
+    trait = humble
+    trait = sadistic
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 10
+    prowess = 6
+
+    trait = education_learning_4
+
+    6345.8.14 = {
+        birth = yes
+    }
+
+    6372.2.10 = {
+        add_spouse = griffon_4
+    }
+
+    6416.8.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_4 = {
+    name = "Rylene"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = gregarious
+    trait = content
+    trait = chaste
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 3
+    prowess = 10
+
+    trait = education_diplomacy_4
+
+    6355.3.15 = {
+        birth = yes
+    }
+
+    6433.11.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_5 = {
+    name = "Ormund"
+
+    dynasty = dynasty_griffon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = griffon_3
+    mother = griffon_4
+
+    trait = calm
+    trait = cynical
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 2
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6381.8.25 = {
+        birth = yes
+    }
+
+    6382.8.14 = {
+        give_nickname = nick_the_architect
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6422.1.11 = {
+        add_spouse = griffon_6
+    }
+
+    6456.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_6 = {
+    name = "Emma"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = arbitrary
+    trait = cynical
+    trait = diligent
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 11
+    prowess = 5
+
+    trait = education_learning_3
+
+    6405.8.2 = {
+        birth = yes
+    }
+
+    6480.3.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_7 = {
+    name = "Cressen"
+
+    dynasty = dynasty_griffon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = griffon_5
+    mother = griffon_6
+
+    trait = stubborn
+    trait = wrathful
+    trait = brave
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_learning_4
+
+    6425.9.22 = {
+        birth = yes
+    }
+
+    6442.2.9 = {
+        add_spouse = griffon_8
+    }
+
+    6505.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_8 = {
+    name = "Jenn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = trusting
+    trait = honest
+    trait = impatient
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 7
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_1
+
+    6425.3.17 = {
+        birth = yes
+    }
+
+    6492.7.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_9 = {
+    name = "Gladden"
+
+    dynasty = dynasty_griffon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = griffon_7
+    mother = griffon_8
+
+    trait = content
+    trait = generous
+    trait = brave
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 5
+    intrigue = 3
+    learning = 9
+    prowess = 10
+
+    trait = education_learning_2
+
+    6467.7.17 = {
+        birth = yes
+    }
+
+    6487.1.27 = {
+        add_spouse = griffon_10
+    }
+
+    6497.1.4 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+griffon_10 = {
+    name = "Cirella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = brave
+    trait = just
+    trait = honest
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 3
+    intrigue = 6
+    learning = 5
+    prowess = 10
+
+    trait = education_intrigue_2
+
+    6470.3.3 = {
+        birth = yes
+    }
+
+    6541.2.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_11 = {
+    name = "Pate"
+
+    dynasty = dynasty_griffon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = griffon_9
+    mother = griffon_10
+
+    trait = sadistic
+    trait = ambitious
+    trait = temperate
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 9
+    intrigue = 2
+    learning = 6
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    6488.10.9 = {
+        birth = yes
+    }
+
+    6502.12.18 = {
+        add_spouse = griffon_12
+    }
+
+    6572.12.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_12 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = forgiving
+    trait = arbitrary
+    trait = fickle
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 11
+
+    trait = education_diplomacy_4
+
+    6485.1.27 = {
+        birth = yes
+    }
+
+    6559.8.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_13 = {
+    name = "Gwyneth"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = griffon_11
+    mother = griffon_12
+
+    trait = gregarious
+    trait = cynical
+    trait = patient
+
+    diplomacy = 2
+    martial = 2
+    stewardship = 6
+    intrigue = 5
+    learning = 2
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6515.11.6 = {
+        birth = yes
+    }
+
+    6598.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_14 = {
+    name = "Boremund"
+
+    dynasty = dynasty_griffon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = griffon_11
+    mother = griffon_12
+
+    trait = just
+    trait = chaste
+    trait = greedy
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_3
+
+    6520.7.23 = {
+        birth = yes
+    }
+
+    6536.12.14 = {
+        add_spouse = griffon_15
+    }
+
+    6595.11.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_15 = {
+    name = "Cassandria"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = lazy
+    trait = lustful
+    trait = greedy
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 7
+    intrigue = 6
+    learning = 3
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6519.10.18 = {
+        birth = yes
+    }
+
+    6586.8.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_16 = {
+    name = "Rhi"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = griffon_9
+    mother = griffon_10
+
+    trait = just
+    trait = compassionate
+    trait = content
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6490.3.16 = {
+        birth = yes
+    }
+
+    6558.2.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_17 = {
+    name = "Renly"
+
+    dynasty = dynasty_griffon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = griffon_9
+    mother = griffon_10
+
+    trait = cynical
+    trait = generous
+    trait = gluttonous
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6492.10.18 = {
+        birth = yes
+    }
+
+    6536.1.25 = {
+        add_spouse = griffon_18
+    }
+
+    6546.7.4 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+griffon_18 = {
+    name = "Arianne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = deceitful
+    trait = gregarious
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 10
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_4
+
+    6519.3.12 = {
+        birth = yes
+    }
+
+    6597.10.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_19 = {
+    name = "Arron"
+
+    dynasty = dynasty_griffon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = griffon_17
+    mother = griffon_18
+
+    trait = humble
+    trait = stubborn
+    trait = temperate
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6538.10.20 = {
+        birth = yes
+    }
+
+    6577.4.16 = {
+        add_spouse = griffon_20
+    }
+
+    6610.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_20 = {
+    name = "Leonette"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = humble
+    trait = gregarious
+    trait = cynical
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_4
+
+    6560.8.16 = {
+        birth = yes
+    }
+
+    6643.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_21 = {
+    name = "Phillip"
+
+    dynasty = dynasty_griffon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = griffon_17
+    mother = griffon_18
+
+    trait = zealous
+    trait = content
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    6541.2.21 = {
+        birth = yes
+    }
+
+    6585.7.1 = {
+        add_spouse = griffon_22
+    }
+
+    6626.2.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_22 = {
+    name = "Rhi"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = lustful
+    trait = impatient
+    trait = craven
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 4
+    intrigue = 9
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6568.9.5 = {
+        birth = yes
+    }
+
+    6643.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_23 = {
+    name = "Hugh"
+
+    dynasty = dynasty_griffon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = griffon_9
+    mother = griffon_10
+
+    trait = temperate
+    trait = paranoid
+    trait = calm
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 6
+    intrigue = 4
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_4
+
+    6493.8.26 = {
+        birth = yes
+    }
+
+    6511.12.17 = {
+        add_spouse = griffon_24
+    }
+
+    6560.1.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_24 = {
+    name = "Melessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = fickle
+    trait = generous
+    trait = cynical
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6494.9.25 = {
+        birth = yes
+    }
+
+    6573.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_25 = {
+    name = "Maris"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = griffon_23
+    mother = griffon_24
+
+    trait = gluttonous
+    trait = trusting
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 9
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6513.6.21 = {
+        birth = yes
+    }
+
+    6584.12.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_26 = {
+    name = "Rhonda"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = griffon_23
+    mother = griffon_24
+
+    trait = trusting
+    trait = ambitious
+    trait = calm
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 8
+    intrigue = 5
+    learning = 1
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6519.12.28 = {
+        birth = yes
+    }
+
+    6598.12.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_27 = {
+    name = "Angron"
+
+    dynasty = dynasty_griffon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = griffon_23
+    mother = griffon_24
+
+    trait = fickle
+    trait = ambitious
+    trait = temperate
+
+    diplomacy = 8
+    martial = 10
+    stewardship = 2
+    intrigue = 10
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_4
+
+    6520.1.6 = {
+        birth = yes
+    }
+
+    6538.6.14 = {
+        add_spouse = griffon_28
+    }
+
+    6594.9.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_28 = {
+    name = "Victoria"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = lazy
+    trait = calm
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 9
+    intrigue = 7
+    learning = 9
+    prowess = 11
+
+    trait = education_stewardship_3
+
+    6521.9.27 = {
+        birth = yes
+    }
+
+    6596.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_29 = {
+    name = "Joffrey"
+
+    dynasty = dynasty_griffon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = griffon_23
+    mother = griffon_24
+
+    trait = paranoid
+    trait = arbitrary
+    trait = vengeful
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 3
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6523.6.4 = {
+        birth = yes
+    }
+
+    6559.7.15 = {
+        add_spouse = griffon_30
+    }
+
+    6599.10.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_30 = {
+    name = "Melara"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = gregarious
+    trait = forgiving
+    trait = diligent
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 2
+    intrigue = 6
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_2
+
+    6542.6.26 = {
+        birth = yes
+    }
+
+    6615.12.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_31 = {
+    name = "Cerella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = griffon_3
+    mother = griffon_4
+
+    trait = arbitrary
+    trait = sadistic
+    trait = honest
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 9
+    intrigue = 8
+    learning = 8
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    6384.7.25 = {
+        birth = yes
+    }
+
+    6457.4.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+griffon_32 = {
+    name = "Artaria"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = griffon_3
+    mother = griffon_4
+
+    trait = ambitious
+    trait = humble
+    trait = cynical
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 10
+    intrigue = 9
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6387.11.17 = {
+        birth = yes
+    }
+
+    6468.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

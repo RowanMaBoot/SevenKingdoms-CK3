@@ -1,0 +1,677 @@
+gower_1 = {
+    name = "Humfrey"
+
+    dynasty = dynasty_gower
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = arrogant
+    trait = shy
+    trait = zealous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 10
+    intrigue = 3
+    learning = 5
+    prowess = 10
+
+    trait = education_stewardship_4
+
+    6300.3.5 = {
+        birth = yes
+    }
+
+    6344.9.12 = {
+        add_spouse = gower_2
+    }
+
+    6372.3.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gower_2 = {
+    name = "Gwyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = generous
+    trait = patient
+    trait = callous
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 2
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_3
+
+    6327.12.16 = {
+        birth = yes
+    }
+
+    6399.12.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gower_3 = {
+    name = "Theo"
+
+    dynasty = dynasty_gower
+    religion = the_old_gods
+    culture = stormmen
+
+    father = gower_1
+    mother = gower_2
+
+    trait = fickle
+    trait = forgiving
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 1
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6368.5.15 = {
+        birth = yes
+    }
+
+    6397.7.1 = {
+        add_spouse = gower_4
+    }
+
+    6435.6.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gower_4 = {
+    name = "Ellyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = brave
+    trait = arbitrary
+    trait = diligent
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_3
+
+    6380.10.9 = {
+        birth = yes
+    }
+
+    6450.9.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gower_5 = {
+    name = "Thurgood"
+
+    dynasty = dynasty_gower
+    religion = the_old_gods
+    culture = stormmen
+
+    father = gower_3
+    mother = gower_4
+
+    trait = craven
+    trait = callous
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 9
+    prowess = 8
+
+    trait = education_learning_2
+
+    6419.5.16 = {
+        birth = yes
+    }
+
+    6440.7.17 = {
+        add_spouse = gower_6
+    }
+
+    6487.3.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gower_6 = {
+    name = "Maris"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = ambitious
+    trait = callous
+    trait = generous
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_4
+
+    6423.9.22 = {
+        birth = yes
+    }
+
+    6501.3.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gower_7 = {
+    name = "Donal"
+
+    dynasty = dynasty_gower
+    religion = the_old_gods
+    culture = stormmen
+
+    father = gower_5
+    mother = gower_6
+
+    trait = chaste
+    trait = stubborn
+    trait = patient
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 2
+
+    trait = education_martial_3
+
+    6464.5.20 = {
+        birth = yes
+    }
+
+    6485.1.20 = {
+        add_spouse = gower_8
+    }
+
+    6533.12.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gower_8 = {
+    name = "Jasonnei"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = fickle
+    trait = impatient
+    trait = trusting
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6468.12.6 = {
+        birth = yes
+    }
+
+    6553.9.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gower_9 = {
+    name = "Olryn"
+
+    dynasty = dynasty_gower
+    religion = the_old_gods
+    culture = stormmen
+
+    father = gower_7
+    mother = gower_8
+
+    trait = stubborn
+    trait = gluttonous
+    trait = chaste
+
+    diplomacy = 11
+    martial = 9
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6490.4.1 = {
+        birth = yes
+    }
+
+    6515.1.21 = {
+        add_spouse = gower_10
+    }
+
+    6559.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gower_10 = {
+    name = "Jonquil"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = forgiving
+    trait = greedy
+    trait = trusting
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 3
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    6498.4.7 = {
+        birth = yes
+    }
+
+    6573.12.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gower_11 = {
+    name = "Cortnay"
+
+    dynasty = dynasty_gower
+    religion = the_old_gods
+    culture = stormmen
+
+    father = gower_9
+    mother = gower_10
+
+    trait = vengeful
+    trait = calm
+    trait = lustful
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_1
+
+    6518.9.22 = {
+        birth = yes
+    }
+
+    6548.8.24 = {
+        add_spouse = gower_12
+    }
+
+    6603.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gower_12 = {
+    name = "Sherry"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = wrathful
+    trait = paranoid
+    trait = craven
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 3
+    intrigue = 4
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_3
+
+    6531.4.22 = {
+        birth = yes
+    }
+
+    6608.8.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gower_13 = {
+    name = "Lyria"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = gower_11
+    mother = gower_12
+
+    trait = gregarious
+    trait = forgiving
+    trait = impatient
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_3
+
+    6549.3.21 = {
+        birth = yes
+    }
+
+    6623.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gower_14 = {
+    name = "Davos"
+
+    dynasty = dynasty_gower
+    religion = the_old_gods
+    culture = stormmen
+
+    father = gower_11
+    mother = gower_12
+
+    trait = compassionate
+    trait = arbitrary
+    trait = vengeful
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 9
+    intrigue = 8
+    learning = 1
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6553.9.5 = {
+        birth = yes
+    }
+
+    6602.3.15 = {
+        add_spouse = gower_15
+    }
+
+    6638.9.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gower_15 = {
+    name = "Shireen"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = deceitful
+    trait = cynical
+    trait = arbitrary
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6585.8.15 = {
+        birth = yes
+    }
+
+    6666.12.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gower_16 = {
+    name = "Renly"
+
+    dynasty = dynasty_gower
+    religion = the_old_gods
+    culture = stormmen
+
+    father = gower_11
+    mother = gower_12
+
+    trait = impatient
+    trait = brave
+    trait = ambitious
+
+    diplomacy = 8
+    martial = 2
+    stewardship = 6
+    intrigue = 8
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6556.4.4 = {
+        birth = yes
+    }
+
+    6580.7.1 = {
+        add_spouse = gower_17
+    }
+
+    6635.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gower_17 = {
+    name = "Gwyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = chaste
+    trait = compassionate
+    trait = greedy
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 9
+
+    trait = education_martial_4
+
+    6563.5.12 = {
+        birth = yes
+    }
+
+    6594.9.6 = {
+        death = { death_reason = death_crushed  }
+    }
+}
+
+gower_18 = {
+    name = "Selwyn"
+
+    dynasty = dynasty_gower
+    religion = the_old_gods
+    culture = stormmen
+
+    father = gower_11
+    mother = gower_12
+
+    trait = lazy
+    trait = vengeful
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    6559.3.17 = {
+        birth = yes
+    }
+
+    6590.10.13 = {
+        add_spouse = gower_19
+    }
+
+    6634.12.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gower_19 = {
+    name = "Melicent"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = chaste
+    trait = brave
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 2
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6573.2.19 = {
+        birth = yes
+    }
+
+    6639.12.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gower_20 = {
+    name = "Bethany"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = gower_9
+    mother = gower_10
+
+    trait = patient
+    trait = arbitrary
+    trait = craven
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 11
+    prowess = 6
+
+    trait = education_learning_2
+
+    6522.2.15 = {
+        birth = yes
+    }
+
+    6595.10.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+gower_21 = {
+    name = "Selyse"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = gower_9
+    mother = gower_10
+
+    trait = lustful
+    trait = callous
+    trait = zealous
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 2
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_learning_2
+
+    6525.12.18 = {
+        birth = yes
+    }
+
+    6580.11.17 = {
+        death = { death_reason = death_smallpox }
+    }
+}

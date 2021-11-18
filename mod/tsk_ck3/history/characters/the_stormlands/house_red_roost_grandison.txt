@@ -1,0 +1,839 @@
+grandison_1 = {
+    name = "Gunthor"
+
+    dynasty = dynasty_grandison
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = content
+    trait = deceitful
+    trait = zealous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    6300.11.4 = {
+        birth = yes
+    }
+
+    6330.7.13 = {
+        add_spouse = grandison_2
+    }
+
+    6375.3.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+grandison_2 = {
+    name = "Myrcella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = paranoid
+    trait = temperate
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6313.10.15 = {
+        birth = yes
+    }
+
+    6397.8.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+grandison_3 = {
+    name = "Beric"
+
+    dynasty = dynasty_grandison
+    religion = the_old_gods
+    culture = stormmen
+
+    father = grandison_1
+    mother = grandison_2
+
+    trait = calm
+    trait = forgiving
+    trait = just
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 10
+    learning = 10
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6358.4.17 = {
+        birth = yes
+    }
+
+    6391.3.24 = {
+        add_spouse = grandison_4
+    }
+
+    6436.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+grandison_4 = {
+    name = "Selyse"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = honest
+    trait = paranoid
+    trait = craven
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 2
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6374.5.18 = {
+        birth = yes
+    }
+
+    6446.3.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+grandison_5 = {
+    name = "Sebastion"
+
+    dynasty = dynasty_grandison
+    religion = the_old_gods
+    culture = stormmen
+
+    father = grandison_3
+    mother = grandison_4
+
+    trait = vengeful
+    trait = cynical
+    trait = humble
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 10
+    intrigue = 5
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6415.5.15 = {
+        birth = yes
+    }
+
+    6460.12.12 = {
+        add_spouse = grandison_6
+    }
+
+    6496.2.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+grandison_6 = {
+    name = "Matrice"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = patient
+    trait = trusting
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6443.1.16 = {
+        birth = yes
+    }
+
+    6512.9.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+grandison_7 = {
+    name = "Gowen"
+
+    dynasty = dynasty_grandison
+    religion = the_old_gods
+    culture = stormmen
+
+    father = grandison_5
+    mother = grandison_6
+
+    trait = wrathful
+    trait = ambitious
+    trait = patient
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 3
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6479.2.9 = {
+        birth = yes
+    }
+
+    6509.8.8 = {
+        add_spouse = grandison_8
+    }
+
+    6556.9.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+grandison_8 = {
+    name = "Gwyneth"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = stubborn
+    trait = brave
+    trait = lazy
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 5
+    intrigue = 8
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6492.9.28 = {
+        birth = yes
+    }
+
+    6561.10.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+grandison_9 = {
+    name = "Renly"
+
+    dynasty = dynasty_grandison
+    religion = the_old_gods
+    culture = stormmen
+
+    father = grandison_7
+    mother = grandison_8
+
+    trait = paranoid
+    trait = ambitious
+    trait = arrogant
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 1
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_3
+
+    6509.7.10 = {
+        birth = yes
+    }
+
+    6547.12.16 = {
+        add_spouse = grandison_10
+    }
+
+    6557.4.18 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+grandison_10 = {
+    name = "Dorna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = humble
+    trait = generous
+    trait = just
+
+    diplomacy = 6
+    martial = 11
+    stewardship = 5
+    intrigue = 7
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_2
+
+    6530.8.2 = {
+        birth = yes
+    }
+
+    6607.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+grandison_11 = {
+    name = "Daini"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = grandison_9
+    mother = grandison_10
+
+    trait = honest
+    trait = arrogant
+    trait = compassionate
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6548.11.3 = {
+        birth = yes
+    }
+
+    6621.6.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+grandison_12 = {
+    name = "Halyn"
+
+    dynasty = dynasty_grandison
+    religion = the_old_gods
+    culture = stormmen
+
+    father = grandison_9
+    mother = grandison_10
+
+    trait = arbitrary
+    trait = zealous
+    trait = paranoid
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 9
+    intrigue = 4
+    learning = 6
+    prowess = 10
+
+    trait = education_stewardship_3
+
+    6549.1.13 = {
+        birth = yes
+    }
+
+    6575.2.14 = {
+        add_spouse = grandison_13
+    }
+
+    6619.7.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+grandison_13 = {
+    name = "Mary"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = gregarious
+    trait = deceitful
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 3
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_2
+
+    6558.1.27 = {
+        birth = yes
+    }
+
+    6626.5.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+grandison_14 = {
+    name = "Arstan"
+
+    dynasty = dynasty_grandison
+    religion = the_old_gods
+    culture = stormmen
+
+    father = grandison_12
+    mother = grandison_13
+
+    trait = arbitrary
+    trait = fickle
+    trait = honest
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6578.1.4 = {
+        birth = yes
+    }
+
+    6621.6.11 = {
+        add_spouse = grandison_15
+    }
+
+    6647.10.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+grandison_15 = {
+    name = "Melessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = callous
+    trait = vengeful
+    trait = chaste
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 7
+    intrigue = 9
+    learning = 11
+    prowess = 6
+
+    trait = education_learning_3
+
+    6604.6.25 = {
+        birth = yes
+    }
+
+    6671.3.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+grandison_16 = {
+    name = "Gulian"
+
+    dynasty = dynasty_grandison
+    religion = the_old_gods
+    culture = stormmen
+
+    father = grandison_12
+    mother = grandison_13
+
+    trait = lazy
+    trait = vengeful
+    trait = craven
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    6582.8.23 = {
+        birth = yes
+    }
+
+    6629.12.4 = {
+        add_spouse = grandison_17
+    }
+
+    6667.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+grandison_17 = {
+    name = "Rhonda"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = diligent
+    trait = lustful
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 5
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_1
+
+    6612.12.1 = {
+        birth = yes
+    }
+
+    6639.6.15 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+grandison_18 = {
+    name = "Olryn"
+
+    dynasty = dynasty_grandison
+    religion = the_old_gods
+    culture = stormmen
+
+    father = grandison_12
+    mother = grandison_13
+
+    trait = calm
+    trait = callous
+    trait = diligent
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 9
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    6589.11.12 = {
+        birth = yes
+    }
+
+    6616.4.24 = {
+        add_spouse = grandison_19
+    }
+
+    6632.6.11 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+grandison_19 = {
+    name = "Kelyce"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = cynical
+    trait = honest
+    trait = calm
+
+    diplomacy = 7
+    martial = 1
+    stewardship = 8
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6599.1.25 = {
+        birth = yes
+    }
+
+    6673.5.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+grandison_20 = {
+    name = "Ralph"
+
+    dynasty = dynasty_grandison
+    religion = the_old_gods
+    culture = stormmen
+
+    father = grandison_9
+    mother = grandison_10
+
+    trait = sadistic
+    trait = diligent
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 1
+
+    trait = education_stewardship_2
+
+    6551.9.23 = {
+        birth = yes
+    }
+
+    6593.12.11 = {
+        add_spouse = grandison_21
+    }
+
+    6631.9.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+grandison_21 = {
+    name = "Mary"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = compassionate
+    trait = deceitful
+    trait = patient
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 4
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6576.5.28 = {
+        birth = yes
+    }
+
+    6652.11.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+grandison_22 = {
+    name = "Andrion"
+
+    dynasty = dynasty_grandison
+    religion = the_old_gods
+    culture = stormmen
+
+    father = grandison_20
+    mother = grandison_21
+
+    trait = diligent
+    trait = content
+    trait = cynical
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 9
+
+    trait = education_martial_1
+
+    6621.2.24 = {
+        birth = yes
+    }
+
+    6641.3.16 = {
+        add_spouse = grandison_23
+    }
+
+    6697.8.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+grandison_23 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = shy
+    trait = trusting
+    trait = brave
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 4
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_3
+
+    6624.4.21 = {
+        birth = yes
+    }
+
+    6692.1.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+grandison_24 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = grandison_7
+    mother = grandison_8
+
+    trait = cynical
+    trait = forgiving
+    trait = content
+
+    diplomacy = 10
+    martial = 9
+    stewardship = 6
+    intrigue = 3
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6512.6.6 = {
+        birth = yes
+    }
+
+    6595.12.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+grandison_25 = {
+    name = "Cerella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = grandison_7
+    mother = grandison_8
+
+    trait = cynical
+    trait = just
+    trait = brave
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 8
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6514.8.9 = {
+        birth = yes
+    }
+
+    6586.10.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+grandison_26 = {
+    name = "Melara"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = grandison_7
+    mother = grandison_8
+
+    trait = generous
+    trait = chaste
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 8
+    intrigue = 9
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6520.5.13 = {
+        birth = yes
+    }
+
+    6595.9.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

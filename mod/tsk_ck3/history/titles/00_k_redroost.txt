@@ -2,21 +2,97 @@ k_redroost = {
 	800.1.1={
 		liege=e_stormlands
 	}
+
+	6300.12.23 = {
+        holder = griffon_1 #Benedict
+    }
+    6368.1.7 = {
+        holder = griffon_3 #Allard
+    }
+    6416.8.15 = {
+        holder = griffon_5 #Ormund
+    }
+    6456.10.6 = {
+        holder = griffon_7 #Cressen
+    }
+    6505.8.18 = {
+        holder = griffon_9 #Gladden
+    }
+    6497.1.4 = {
+        holder = griffon_11 #Pate
+    }
 }
 d_griffons_roost = {
 	800.1.1={
 		liege=k_redroost
 	}
+
+	6300.12.23 = {
+        holder = griffon_1 #Benedict
+    }
+    6368.1.7 = {
+        holder = griffon_3 #Allard
+    }
+    6416.8.15 = {
+        holder = griffon_5 #Ormund
+    }
+    6456.10.6 = {
+        holder = griffon_7 #Cressen
+    }
+    6505.8.18 = {
+        holder = griffon_9 #Gladden
+    }
+    6497.1.4 = {
+        holder = griffon_11 #Pate
+    }
 }
 c_griffons_roost = {
 	800.1.1={
 		liege=d_griffons_roost
 	}
+
+	6300.12.23 = {
+        holder = griffon_1 #Benedict
+    }
+    6368.1.7 = {
+        holder = griffon_3 #Allard
+    }
+    6416.8.15 = {
+        holder = griffon_5 #Ormund
+    }
+    6456.10.6 = {
+        holder = griffon_7 #Cressen
+    }
+    6505.8.18 = {
+        holder = griffon_9 #Gladden
+    }
+    6497.1.4 = {
+        holder = griffon_11 #Pate
+    }
 }
 c_griffon_pass = {
 	800.1.1={
 		liege=d_griffons_roost
 	}
+
+	6300.12.23 = {
+        holder = griffon_1 #Benedict
+    }
+    6368.1.7 = {
+        holder = griffon_3 #Allard
+    }
+    6416.8.15 = {
+        holder = griffon_5 #Ormund
+    }
+    6456.10.6 = {
+        holder = griffon_7 #Cressen
+    }
+    6505.8.18 = {
+        holder = griffon_9 #Gladden
+    }
+    6497.1.4 = {
+        holder = griffon_11 #Pate
+    }
 }
 c_alchulm = {
 	800.1.1={
@@ -111,477 +187,81 @@ d_grandview = {
 		liege=k_redroost
 	}
 
-	4430.9.10 = {
-		holder = grandison_1 #Grance
-	}
-	4513.10.18 = {
-		holder = grandison_3 #Dermot
-	}
-	4531.4.6 = {
-		holder = grandison_5 #Andrew
-	}
-	4566.6.1 = {
-		holder = grandison_7 #Alaric
-	}
-	4620.7.26 = {
-		holder = grandison_9 #Benedict
-	}
-	4649.6.5 = {
-		holder = grandison_11 #Joffrey
-	}
-	4709.10.12 = {
-		holder = grandison_13 #Rolland
-	}
-	4749.5.10 = {
-		holder = grandison_15 #Arstan
-	}
-	4797.6.18 = {
-		holder = grandison_17 #Yonel
-	}
-	4864.4.18 = {
-		holder = grandison_19 #Bryce
-	}
-	4900.9.10 = {
-		holder = grandison_21 #Olryn
-	}
-	4916.9.20 = {
-		holder = grandison_23 #Tommen
-	}
-	4998.9.28 = {
-		holder = grandison_25 #Beric
-	}
-	4993.2.2 = {
-		holder = grandison_27 #Ronnet
-	}
-	5066.5.16 = {
-		holder = grandison_29 #Argilac
-	}
-	5068.5.26 = {
-		holder = grandison_31 #Guyard
-	}
-	5140.9.24 = {
-		holder = grandison_33 #Richard
-	}
-	5176.9.21 = {
-		holder = grandison_35 #Matthos
-	}
-	5239.7.4 = {
-		holder = grandison_37 #Cortnay
-	}
-	5244.12.22 = {
-		holder = grandison_39 #Beric
-	}
-	5311.10.12 = {
-		holder = grandison_41 #Arlan
-	}
-	5344.5.25 = {
-		holder = grandison_43 #Devin
-	}
-	5395.12.11 = {
-		holder = grandison_45 #Halyn
-	}
-	5445.7.7 = {
-		holder = grandison_47 #Byron
-	}
-	5493.2.11 = {
-		holder = grandison_49 #Richard
-	}
-	5536.8.2 = {
-		holder = grandison_51 #Goodwin
-	}
-	5584.12.8 = {
-		holder = grandison_53 #Maric
-	}
-	5615.9.26 = {
-		holder = grandison_55 #Donal
-	}
-	5699.11.6 = {
-		holder = grandison_57 #Lester
-	}
-	5729.2.25 = {
-		holder = grandison_59 #Devin
-	}
-	5750.8.22 = {
-		holder = grandison_61 #Thurgood
-	}
-	5811.8.18 = {
-		holder = grandison_63 #Phillip
-	}
-	5856.3.2 = {
-		holder = grandison_65 #Sebastion
-	}
-	5911.12.25 = {
-		holder = grandison_67 #Goodwin
-	}
-	5989.5.5 = {
-		holder = grandison_69 #Robert
-	}
-	5979.4.18 = {
-		holder = grandison_71 #Maric
-	}
-	6050.8.7 = {
-		holder = grandison_73 #Gladden
-	}
-	6095.9.26 = {
-		holder = grandison_75 #Sebastion
-	}
-	6118.8.25 = {
-		holder = grandison_77 #Dermot
-	}
-	6181.11.19 = {
-		holder = grandison_79 #Harbert
-	}
-	6225.1.15 = {
-		holder = grandison_81 #Andrion
-	}
-	6274.4.25 = {
-		holder = grandison_83 #Jerion
-	}
-	6347.1.7 = {
-		holder = grandison_85 #Beric
-	}
-	6414.12.8 = {
-		holder = grandison_87 #Beric
-	}
-	6429.2.4 = {
-		holder = grandison_89 #Bonifer
-	}
-	6501.8.18 = {
-		holder = grandison_91 #Selwyn
-	}
-	6527.2.16 = {
-		holder = grandison_93 #Borros
-	}
-	6561.5.13 = {
-		holder = grandison_95 #Cressen
-	}
-	6627.4.18 = {
-		holder = grandison_97 #Selwyn
-	}
-	6650.1.15 = {
-		holder = grandison_99 #Ralph
-	}
-	6716.10.6 = {
-		holder = grandison_101 #Cortnay
-	}
+	6300.11.4 = {
+        holder = grandison_1 #Gunthor
+    }
+    6375.3.18 = {
+        holder = grandison_3 #Beric
+    }
+    6436.6.18 = {
+        holder = grandison_5 #Sebastion
+    }
+    6496.2.15 = {
+        holder = grandison_7 #Gowen
+    }
+    6556.9.5 = {
+        holder = grandison_9 #Renly
+    }
+    6557.4.18 = {
+        holder = grandison_12 #Halyn
+    }
+    6619.7.9 = {
+        holder = grandison_14 #Arstan
+    }
 }
 c_grandview = {
 	800.1.1={
 		liege=d_grandview
 	}
 
-	4430.9.10 = {
-		holder = grandison_1 #Grance
-	}
-	4513.10.18 = {
-		holder = grandison_3 #Dermot
-	}
-	4531.4.6 = {
-		holder = grandison_5 #Andrew
-	}
-	4566.6.1 = {
-		holder = grandison_7 #Alaric
-	}
-	4620.7.26 = {
-		holder = grandison_9 #Benedict
-	}
-	4649.6.5 = {
-		holder = grandison_11 #Joffrey
-	}
-	4709.10.12 = {
-		holder = grandison_13 #Rolland
-	}
-	4749.5.10 = {
-		holder = grandison_15 #Arstan
-	}
-	4797.6.18 = {
-		holder = grandison_17 #Yonel
-	}
-	4864.4.18 = {
-		holder = grandison_19 #Bryce
-	}
-	4900.9.10 = {
-		holder = grandison_21 #Olryn
-	}
-	4916.9.20 = {
-		holder = grandison_23 #Tommen
-	}
-	4998.9.28 = {
-		holder = grandison_25 #Beric
-	}
-	4993.2.2 = {
-		holder = grandison_27 #Ronnet
-	}
-	5066.5.16 = {
-		holder = grandison_29 #Argilac
-	}
-	5068.5.26 = {
-		holder = grandison_31 #Guyard
-	}
-	5140.9.24 = {
-		holder = grandison_33 #Richard
-	}
-	5176.9.21 = {
-		holder = grandison_35 #Matthos
-	}
-	5239.7.4 = {
-		holder = grandison_37 #Cortnay
-	}
-	5244.12.22 = {
-		holder = grandison_39 #Beric
-	}
-	5311.10.12 = {
-		holder = grandison_41 #Arlan
-	}
-	5344.5.25 = {
-		holder = grandison_43 #Devin
-	}
-	5395.12.11 = {
-		holder = grandison_45 #Halyn
-	}
-	5445.7.7 = {
-		holder = grandison_47 #Byron
-	}
-	5493.2.11 = {
-		holder = grandison_49 #Richard
-	}
-	5536.8.2 = {
-		holder = grandison_51 #Goodwin
-	}
-	5584.12.8 = {
-		holder = grandison_53 #Maric
-	}
-	5615.9.26 = {
-		holder = grandison_55 #Donal
-	}
-	5699.11.6 = {
-		holder = grandison_57 #Lester
-	}
-	5729.2.25 = {
-		holder = grandison_59 #Devin
-	}
-	5750.8.22 = {
-		holder = grandison_61 #Thurgood
-	}
-	5811.8.18 = {
-		holder = grandison_63 #Phillip
-	}
-	5856.3.2 = {
-		holder = grandison_65 #Sebastion
-	}
-	5911.12.25 = {
-		holder = grandison_67 #Goodwin
-	}
-	5989.5.5 = {
-		holder = grandison_69 #Robert
-	}
-	5979.4.18 = {
-		holder = grandison_71 #Maric
-	}
-	6050.8.7 = {
-		holder = grandison_73 #Gladden
-	}
-	6095.9.26 = {
-		holder = grandison_75 #Sebastion
-	}
-	6118.8.25 = {
-		holder = grandison_77 #Dermot
-	}
-	6181.11.19 = {
-		holder = grandison_79 #Harbert
-	}
-	6225.1.15 = {
-		holder = grandison_81 #Andrion
-	}
-	6274.4.25 = {
-		holder = grandison_83 #Jerion
-	}
-	6347.1.7 = {
-		holder = grandison_85 #Beric
-	}
-	6414.12.8 = {
-		holder = grandison_87 #Beric
-	}
-	6429.2.4 = {
-		holder = grandison_89 #Bonifer
-	}
-	6501.8.18 = {
-		holder = grandison_91 #Selwyn
-	}
-	6527.2.16 = {
-		holder = grandison_93 #Borros
-	}
-	6561.5.13 = {
-		holder = grandison_95 #Cressen
-	}
-	6627.4.18 = {
-		holder = grandison_97 #Selwyn
-	}
-	6650.1.15 = {
-		holder = grandison_99 #Ralph
-	}
-	6716.10.6 = {
-		holder = grandison_101 #Cortnay
-	}
+	6300.11.4 = {
+        holder = grandison_1 #Gunthor
+    }
+    6375.3.18 = {
+        holder = grandison_3 #Beric
+    }
+    6436.6.18 = {
+        holder = grandison_5 #Sebastion
+    }
+    6496.2.15 = {
+        holder = grandison_7 #Gowen
+    }
+    6556.9.5 = {
+        holder = grandison_9 #Renly
+    }
+    6557.4.18 = {
+        holder = grandison_12 #Halyn
+    }
+    6619.7.9 = {
+        holder = grandison_14 #Arstan
+    }
 }
 c_keynes = {
 	800.1.1={
 		liege=d_grandview
 	}
 
-	4430.9.10 = {
-		holder = grandison_1 #Grance
-	}
-	4513.10.18 = {
-		holder = grandison_3 #Dermot
-	}
-	4531.4.6 = {
-		holder = grandison_5 #Andrew
-	}
-	4566.6.1 = {
-		holder = grandison_7 #Alaric
-	}
-	4620.7.26 = {
-		holder = grandison_9 #Benedict
-	}
-	4649.6.5 = {
-		holder = grandison_11 #Joffrey
-	}
-	4709.10.12 = {
-		holder = grandison_13 #Rolland
-	}
-	4749.5.10 = {
-		holder = grandison_15 #Arstan
-	}
-	4797.6.18 = {
-		holder = grandison_17 #Yonel
-	}
-	4864.4.18 = {
-		holder = grandison_19 #Bryce
-	}
-	4900.9.10 = {
-		holder = grandison_21 #Olryn
-	}
-	4916.9.20 = {
-		holder = grandison_23 #Tommen
-	}
-	4998.9.28 = {
-		holder = grandison_25 #Beric
-	}
-	4993.2.2 = {
-		holder = grandison_27 #Ronnet
-	}
-	5066.5.16 = {
-		holder = grandison_29 #Argilac
-	}
-	5068.5.26 = {
-		holder = grandison_31 #Guyard
-	}
-	5140.9.24 = {
-		holder = grandison_33 #Richard
-	}
-	5176.9.21 = {
-		holder = grandison_35 #Matthos
-	}
-	5239.7.4 = {
-		holder = grandison_37 #Cortnay
-	}
-	5244.12.22 = {
-		holder = grandison_39 #Beric
-	}
-	5311.10.12 = {
-		holder = grandison_41 #Arlan
-	}
-	5344.5.25 = {
-		holder = grandison_43 #Devin
-	}
-	5395.12.11 = {
-		holder = grandison_45 #Halyn
-	}
-	5445.7.7 = {
-		holder = grandison_47 #Byron
-	}
-	5493.2.11 = {
-		holder = grandison_49 #Richard
-	}
-	5536.8.2 = {
-		holder = grandison_51 #Goodwin
-	}
-	5584.12.8 = {
-		holder = grandison_53 #Maric
-	}
-	5615.9.26 = {
-		holder = grandison_55 #Donal
-	}
-	5699.11.6 = {
-		holder = grandison_57 #Lester
-	}
-	5729.2.25 = {
-		holder = grandison_59 #Devin
-	}
-	5750.8.22 = {
-		holder = grandison_61 #Thurgood
-	}
-	5811.8.18 = {
-		holder = grandison_63 #Phillip
-	}
-	5856.3.2 = {
-		holder = grandison_65 #Sebastion
-	}
-	5911.12.25 = {
-		holder = grandison_67 #Goodwin
-	}
-	5989.5.5 = {
-		holder = grandison_69 #Robert
-	}
-	5979.4.18 = {
-		holder = grandison_71 #Maric
-	}
-	6050.8.7 = {
-		holder = grandison_73 #Gladden
-	}
-	6095.9.26 = {
-		holder = grandison_75 #Sebastion
-	}
-	6118.8.25 = {
-		holder = grandison_77 #Dermot
-	}
-	6181.11.19 = {
-		holder = grandison_79 #Harbert
-	}
-	6225.1.15 = {
-		holder = grandison_81 #Andrion
-	}
-	6274.4.25 = {
-		holder = grandison_83 #Jerion
-	}
-	6347.1.7 = {
-		holder = grandison_85 #Beric
-	}
-	6414.12.8 = {
-		holder = grandison_87 #Beric
-	}
-	6429.2.4 = {
-		holder = grandison_89 #Bonifer
-	}
-	6501.8.18 = {
-		holder = grandison_91 #Selwyn
-	}
-	6527.2.16 = {
-		holder = grandison_93 #Borros
-	}
-	6561.5.13 = {
-		holder = grandison_95 #Cressen
-	}
-	6627.4.18 = {
-		holder = grandison_97 #Selwyn
-	}
-	6650.1.15 = {
-		holder = grandison_99 #Ralph
-	}
-	6716.10.6 = {
-		holder = grandison_101 #Cortnay
-	}
+	6300.11.4 = {
+        holder = grandison_1 #Gunthor
+    }
+    6375.3.18 = {
+        holder = grandison_3 #Beric
+    }
+    6436.6.18 = {
+        holder = grandison_5 #Sebastion
+    }
+    6496.2.15 = {
+        holder = grandison_7 #Gowen
+    }
+    6556.9.5 = {
+        holder = grandison_9 #Renly
+    }
+    6557.4.18 = {
+        holder = grandison_12 #Halyn
+    }
+    6619.7.9 = {
+        holder = grandison_14 #Arstan
+    }
 }
 c_stoneirth = {
 	800.1.1={

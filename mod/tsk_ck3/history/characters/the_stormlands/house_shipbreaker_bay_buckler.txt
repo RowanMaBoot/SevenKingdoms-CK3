@@ -1,0 +1,3849 @@
+buckler_1 = {
+    name = "Dale"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = fickle
+    trait = arbitrary
+    trait = calm
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 3
+    intrigue = 5
+    learning = 8
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    6300.10.3 = {
+        birth = yes
+    }
+
+    6315.3.21 = {
+        add_spouse = buckler_2
+    }
+
+    6380.7.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_2 = {
+    name = "Kelyce"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = craven
+    trait = content
+    trait = trusting
+
+    diplomacy = 9
+    martial = 11
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_3
+
+    6298.9.22 = {
+        birth = yes
+    }
+
+    6366.1.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_3 = {
+    name = "Balon"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_1
+    mother = buckler_2
+
+    trait = temperate
+    trait = just
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_2
+
+    6340.4.4 = {
+        birth = yes
+    }
+
+    6362.11.26 = {
+        add_spouse = buckler_4
+    }
+
+    6412.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_4 = {
+    name = "Tiona"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = paranoid
+    trait = impatient
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 3
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6345.9.15 = {
+        birth = yes
+    }
+
+    6424.1.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_5 = {
+    name = "Harbert"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_3
+    mother = buckler_4
+
+    trait = diligent
+    trait = ambitious
+    trait = temperate
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6364.11.19 = {
+        birth = yes
+    }
+
+    6413.8.13 = {
+        add_spouse = buckler_6
+    }
+
+    6443.5.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_6 = {
+    name = "Tyiah"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = impatient
+    trait = zealous
+    trait = callous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 2
+    intrigue = 4
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_4
+
+    6396.5.17 = {
+        birth = yes
+    }
+
+    6480.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_7 = {
+    name = "Dermot"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_5
+    mother = buckler_6
+
+    trait = brave
+    trait = diligent
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6418.9.18 = {
+        birth = yes
+    }
+
+    6465.8.5 = {
+        add_spouse = buckler_8
+    }
+
+    6490.5.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_8 = {
+    name = "Rylene"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = just
+    trait = fickle
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 10
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6448.4.27 = {
+        birth = yes
+    }
+
+    6514.7.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_9 = {
+    name = "Cerella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_7
+    mother = buckler_8
+
+    trait = trusting
+    trait = forgiving
+    trait = chaste
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6465.5.12 = {
+        birth = yes
+    }
+
+    6534.4.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_10 = {
+    name = "Borros"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_7
+    mother = buckler_8
+
+    trait = paranoid
+    trait = chaste
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_3
+
+    6477.11.21 = {
+        birth = yes
+    }
+
+    6518.11.15 = {
+        add_spouse = buckler_11
+    }
+
+    6533.1.4 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+buckler_11 = {
+    name = "Mair"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = ambitious
+    trait = generous
+    trait = chaste
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    6501.10.26 = {
+        birth = yes
+    }
+
+    6575.8.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_12 = {
+    name = "Gunthor"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_10
+    mother = buckler_11
+
+    trait = trusting
+    trait = chaste
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    6531.3.16 = {
+        birth = yes
+    }
+
+    6565.5.19 = {
+        add_spouse = buckler_13
+    }
+
+    6607.3.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_13 = {
+    name = "Melessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = patient
+    trait = lustful
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 5
+    learning = 8
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6548.4.7 = {
+        birth = yes
+    }
+
+    6623.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_14 = {
+    name = "Ethos"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_12
+    mother = buckler_13
+
+    trait = vengeful
+    trait = lustful
+    trait = cynical
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6566.7.26 = {
+        birth = yes
+    }
+
+    6614.1.15 = {
+        add_spouse = buckler_15
+    }
+
+    6624.12.17 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+buckler_15 = {
+    name = "Cirella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = gregarious
+    trait = arbitrary
+    trait = patient
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 8
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_3
+
+    6597.6.10 = {
+        birth = yes
+    }
+
+    6667.7.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_16 = {
+    name = "Cassandra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_12
+    mother = buckler_13
+
+    trait = sadistic
+    trait = patient
+    trait = generous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 2
+    intrigue = 3
+    learning = 2
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6568.6.3 = {
+        birth = yes
+    }
+
+    6652.10.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_17 = {
+    name = "Alysanne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_12
+    mother = buckler_13
+
+    trait = ambitious
+    trait = craven
+    trait = shy
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 5
+    intrigue = 10
+    learning = 3
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6571.12.17 = {
+        birth = yes
+    }
+
+    6641.9.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_18 = {
+    name = "Maer"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_3
+    mother = buckler_4
+
+    trait = lazy
+    trait = brave
+    trait = compassionate
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    6368.1.18 = {
+        birth = yes
+    }
+
+    6435.5.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_19 = {
+    name = "Arlan"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_3
+    mother = buckler_4
+
+    trait = forgiving
+    trait = arbitrary
+    trait = calm
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 7
+    intrigue = 3
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6374.10.24 = {
+        birth = yes
+    }
+
+    6405.10.1 = {
+        add_spouse = buckler_20
+    }
+
+    6452.1.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_20 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = generous
+    trait = brave
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6388.4.17 = {
+        birth = yes
+    }
+
+    6464.5.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_21 = {
+    name = "Simon"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_19
+    mother = buckler_20
+
+    trait = impatient
+    trait = vengeful
+    trait = craven
+
+    diplomacy = 3
+    martial = 1
+    stewardship = 4
+    intrigue = 7
+    learning = 3
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6412.12.19 = {
+        birth = yes
+    }
+
+    6455.6.21 = {
+        add_spouse = buckler_22
+    }
+
+    6497.10.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_22 = {
+    name = "Dallia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = just
+    trait = paranoid
+    trait = cynical
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 9
+    intrigue = 10
+    learning = 8
+    prowess = 3
+
+    trait = education_intrigue_1
+
+    6438.2.6 = {
+        birth = yes
+    }
+
+    6466.1.3 = {
+        death = { death_reason = death_drowned  }
+    }
+}
+
+buckler_23 = {
+    name = "Thurgood"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_21
+    mother = buckler_22
+
+    trait = vengeful
+    trait = greedy
+    trait = lazy
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    6459.8.1 = {
+        birth = yes
+    }
+
+    6504.9.13 = {
+        add_spouse = buckler_24
+    }
+
+    6541.9.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_24 = {
+    name = "Rohanne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = brave
+    trait = just
+    trait = humble
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 1
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6487.3.18 = {
+        birth = yes
+    }
+
+    6554.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_25 = {
+    name = "Herbert"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_23
+    mother = buckler_24
+
+    trait = chaste
+    trait = paranoid
+    trait = calm
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6532.2.24 = {
+        birth = yes
+    }
+
+    6576.3.20 = {
+        add_spouse = buckler_26
+    }
+
+    6602.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_26 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = wrathful
+    trait = arbitrary
+    trait = honest
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6559.3.15 = {
+        birth = yes
+    }
+
+    6642.10.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_27 = {
+    name = "Elanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_25
+    mother = buckler_26
+
+    trait = arrogant
+    trait = forgiving
+    trait = impatient
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 2
+    intrigue = 5
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6581.12.26 = {
+        birth = yes
+    }
+
+    6651.7.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_28 = {
+    name = "Dale"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_25
+    mother = buckler_26
+
+    trait = just
+    trait = brave
+    trait = fickle
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 5
+    intrigue = 4
+    learning = 10
+    prowess = 8
+
+    trait = education_learning_3
+
+    6587.10.1 = {
+        birth = yes
+    }
+
+    6604.11.4 = {
+        add_spouse = buckler_29
+    }
+
+    6666.5.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_29 = {
+    name = "Tiah"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = greedy
+    trait = fickle
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_4
+
+    6587.9.7 = {
+        birth = yes
+    }
+
+    6656.10.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_30 = {
+    name = "Elanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_25
+    mother = buckler_26
+
+    trait = chaste
+    trait = humble
+    trait = brave
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 4
+    intrigue = 8
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6589.8.10 = {
+        birth = yes
+    }
+
+    6660.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_31 = {
+    name = "Hugh"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_25
+    mother = buckler_26
+
+    trait = honest
+    trait = gregarious
+    trait = chaste
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 4
+    intrigue = 9
+    learning = 4
+    prowess = 8
+
+    trait = education_intrigue_4
+
+    6590.3.23 = {
+        birth = yes
+    }
+
+    6612.7.15 = {
+        add_spouse = buckler_32
+    }
+
+    6661.11.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_32 = {
+    name = "Mylenda"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = deceitful
+    trait = generous
+    trait = content
+
+    diplomacy = 7
+    martial = 11
+    stewardship = 9
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    6595.12.16 = {
+        birth = yes
+    }
+
+    6662.9.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_33 = {
+    name = "Kyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_19
+    mother = buckler_20
+
+    trait = wrathful
+    trait = sadistic
+    trait = just
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 3
+    learning = 10
+    prowess = 8
+
+    trait = education_learning_3
+
+    6417.3.7 = {
+        birth = yes
+    }
+
+    6493.1.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_34 = {
+    name = "Cyrenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_19
+    mother = buckler_20
+
+    trait = ambitious
+    trait = wrathful
+    trait = impatient
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_4
+
+    6419.1.21 = {
+        birth = yes
+    }
+
+    6493.7.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_35 = {
+    name = "Rolland"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_3
+    mother = buckler_4
+
+    trait = patient
+    trait = craven
+    trait = vengeful
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6375.5.13 = {
+        birth = yes
+    }
+
+    6400.6.4 = {
+        add_spouse = buckler_36
+    }
+
+    6457.4.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_36 = {
+    name = "Melicent"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = deceitful
+    trait = greedy
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 9
+    intrigue = 9
+    learning = 6
+    prowess = 2
+
+    trait = education_stewardship_4
+
+    6383.8.1 = {
+        birth = yes
+    }
+
+    6459.9.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_37 = {
+    name = "Bartimos"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_35
+    mother = buckler_36
+
+    trait = chaste
+    trait = stubborn
+    trait = content
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    6400.4.9 = {
+        birth = yes
+    }
+
+    6449.4.18 = {
+        add_spouse = buckler_38
+    }
+
+    6481.2.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_38 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = impatient
+    trait = lustful
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 2
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6432.9.27 = {
+        birth = yes
+    }
+
+    6517.11.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_39 = {
+    name = "Narbert"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_37
+    mother = buckler_38
+
+    trait = impatient
+    trait = temperate
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 11
+    prowess = 7
+
+    trait = education_learning_2
+
+    6469.5.23 = {
+        birth = yes
+    }
+
+    6496.3.12 = {
+        add_spouse = buckler_40
+    }
+
+    6554.11.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_40 = {
+    name = "Gwyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = calm
+    trait = ambitious
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 1
+
+    trait = education_stewardship_2
+
+    6479.2.5 = {
+        birth = yes
+    }
+
+    6554.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_41 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_39
+    mother = buckler_40
+
+    trait = honest
+    trait = wrathful
+    trait = chaste
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 6
+    intrigue = 2
+    learning = 6
+    prowess = 2
+
+    trait = education_stewardship_3
+
+    6507.4.10 = {
+        birth = yes
+    }
+
+    6588.3.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_42 = {
+    name = "Cressen"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_39
+    mother = buckler_40
+
+    trait = forgiving
+    trait = patient
+    trait = ambitious
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6510.1.22 = {
+        birth = yes
+    }
+
+    6545.9.26 = {
+        add_spouse = buckler_43
+    }
+
+    6561.12.17 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+buckler_43 = {
+    name = "Mina"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = zealous
+    trait = generous
+    trait = temperate
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 8
+    intrigue = 7
+    learning = 8
+    prowess = 2
+
+    trait = education_martial_3
+
+    6528.7.4 = {
+        birth = yes
+    }
+
+    6597.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_44 = {
+    name = "Bonifer"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_42
+    mother = buckler_43
+
+    trait = trusting
+    trait = chaste
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 4
+    intrigue = 6
+    learning = 10
+    prowess = 3
+
+    trait = education_learning_2
+
+    6547.7.22 = {
+        birth = yes
+    }
+
+    6577.11.27 = {
+        add_spouse = buckler_45
+    }
+
+    6625.5.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_45 = {
+    name = "Jeyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = patient
+    trait = generous
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 10
+    intrigue = 7
+    learning = 9
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6560.2.3 = {
+        birth = yes
+    }
+
+    6635.9.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_46 = {
+    name = "Gwyneth"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_42
+    mother = buckler_43
+
+    trait = wrathful
+    trait = humble
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_4
+
+    6552.3.10 = {
+        birth = yes
+    }
+
+    6635.11.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_47 = {
+    name = "Colen"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_35
+    mother = buckler_36
+
+    trait = gluttonous
+    trait = patient
+    trait = deceitful
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 11
+
+    trait = education_martial_3
+
+    6401.5.23 = {
+        birth = yes
+    }
+
+    6436.9.19 = {
+        add_spouse = buckler_48
+    }
+
+    6473.12.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_48 = {
+    name = "Donyse"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = craven
+    trait = arbitrary
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_2
+
+    6419.4.7 = {
+        birth = yes
+    }
+
+    6494.3.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_49 = {
+    name = "Shierle"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_47
+    mother = buckler_48
+
+    trait = forgiving
+    trait = honest
+    trait = humble
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 8
+    intrigue = 1
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6439.1.25 = {
+        birth = yes
+    }
+
+    6524.12.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_50 = {
+    name = "Renly"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_47
+    mother = buckler_48
+
+    trait = calm
+    trait = patient
+    trait = generous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 9
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6440.4.26 = {
+        birth = yes
+    }
+
+    6465.4.19 = {
+        add_spouse = buckler_51
+    }
+
+    6525.2.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_51 = {
+    name = "Maris"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = zealous
+    trait = arrogant
+    trait = brave
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6448.6.4 = {
+        birth = yes
+    }
+
+    6530.8.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_52 = {
+    name = "Selyse"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_50
+    mother = buckler_51
+
+    trait = just
+    trait = chaste
+    trait = honest
+
+    diplomacy = 3
+    martial = 2
+    stewardship = 8
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6470.5.9 = {
+        birth = yes
+    }
+
+    6538.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_53 = {
+    name = "Leobald"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_50
+    mother = buckler_51
+
+    trait = zealous
+    trait = arrogant
+    trait = gluttonous
+
+    diplomacy = 9
+    martial = 2
+    stewardship = 2
+    intrigue = 9
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6471.6.6 = {
+        birth = yes
+    }
+
+    6498.4.19 = {
+        add_spouse = buckler_54
+    }
+
+    6539.2.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_54 = {
+    name = "Cassandrea"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = chaste
+    trait = ambitious
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 7
+    learning = 8
+    prowess = 2
+
+    trait = education_learning_2
+
+    6481.10.20 = {
+        birth = yes
+    }
+
+    6549.4.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_55 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_53
+    mother = buckler_54
+
+    trait = sadistic
+    trait = generous
+    trait = content
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_2
+
+    6505.6.28 = {
+        birth = yes
+    }
+
+    6583.12.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_56 = {
+    name = "Elanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_53
+    mother = buckler_54
+
+    trait = brave
+    trait = paranoid
+    trait = vengeful
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 10
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6506.1.18 = {
+        birth = yes
+    }
+
+    6589.12.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_57 = {
+    name = "Kelyce"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_53
+    mother = buckler_54
+
+    trait = temperate
+    trait = vengeful
+    trait = zealous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 2
+
+    trait = education_diplomacy_4
+
+    6510.11.13 = {
+        birth = yes
+    }
+
+    6576.3.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_58 = {
+    name = "Alesander"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_53
+    mother = buckler_54
+
+    trait = lustful
+    trait = stubborn
+    trait = trusting
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 2
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6514.11.26 = {
+        birth = yes
+    }
+
+    6563.1.7 = {
+        add_spouse = buckler_59
+    }
+
+    6595.7.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_59 = {
+    name = "Belandra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = lazy
+    trait = vengeful
+    trait = greedy
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 3
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    6546.3.1 = {
+        birth = yes
+    }
+
+    6626.3.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_60 = {
+    name = "Arron"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_50
+    mother = buckler_51
+
+    trait = paranoid
+    trait = zealous
+    trait = callous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 2
+
+    trait = education_martial_3
+
+    6474.4.20 = {
+        birth = yes
+    }
+
+    6497.6.8 = {
+        add_spouse = buckler_61
+    }
+
+    6556.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_61 = {
+    name = "Megga"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = chaste
+    trait = zealous
+    trait = paranoid
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 10
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    6480.9.9 = {
+        birth = yes
+    }
+
+    6558.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_62 = {
+    name = "Aglantine"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_60
+    mother = buckler_61
+
+    trait = craven
+    trait = humble
+    trait = lazy
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 9
+
+    trait = education_martial_3
+
+    6507.11.23 = {
+        birth = yes
+    }
+
+    6577.2.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_63 = {
+    name = "Halyn"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_60
+    mother = buckler_61
+
+    trait = generous
+    trait = stubborn
+    trait = trusting
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_3
+
+    6516.6.22 = {
+        birth = yes
+    }
+
+    6549.11.28 = {
+        add_spouse = buckler_64
+    }
+
+    6568.1.20 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+buckler_64 = {
+    name = "Jonquil"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = calm
+    trait = humble
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 8
+    intrigue = 4
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_1
+
+    6532.7.20 = {
+        birth = yes
+    }
+
+    6614.3.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_65 = {
+    name = "Omrys"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_50
+    mother = buckler_51
+
+    trait = trusting
+    trait = compassionate
+    trait = humble
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6478.3.25 = {
+        birth = yes
+    }
+
+    6496.2.26 = {
+        add_spouse = buckler_66
+    }
+
+    6556.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_66 = {
+    name = "Maer"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = generous
+    trait = lazy
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    6479.3.23 = {
+        birth = yes
+    }
+
+    6555.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_67 = {
+    name = "Olryn"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_65
+    mother = buckler_66
+
+    trait = wrathful
+    trait = compassionate
+    trait = honest
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 8
+    intrigue = 3
+    learning = 3
+    prowess = 2
+
+    trait = education_stewardship_4
+
+    6523.2.12 = {
+        birth = yes
+    }
+
+    6556.11.5 = {
+        add_spouse = buckler_68
+    }
+
+    6604.5.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_68 = {
+    name = "Arianne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = just
+    trait = gregarious
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6539.5.9 = {
+        birth = yes
+    }
+
+    6618.8.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_69 = {
+    name = "Alesander"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_47
+    mother = buckler_48
+
+    trait = temperate
+    trait = honest
+    trait = humble
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 3
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_4
+
+    6442.4.7 = {
+        birth = yes
+    }
+
+    6475.12.15 = {
+        add_spouse = buckler_70
+    }
+
+    6522.2.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_70 = {
+    name = "Maer"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = gregarious
+    trait = callous
+    trait = greedy
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 7
+    intrigue = 3
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_2
+
+    6458.7.8 = {
+        birth = yes
+    }
+
+    6534.8.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_71 = {
+    name = "Jerion"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_69
+    mother = buckler_70
+
+    trait = diligent
+    trait = temperate
+    trait = fickle
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6479.1.19 = {
+        birth = yes
+    }
+
+    6504.1.2 = {
+        add_spouse = buckler_72
+    }
+
+    6564.10.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_72 = {
+    name = "Brienne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = diligent
+    trait = calm
+    trait = greedy
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 9
+    prowess = 9
+
+    trait = education_learning_2
+
+    6487.1.26 = {
+        birth = yes
+    }
+
+    6568.8.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_73 = {
+    name = "Yonel"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_71
+    mother = buckler_72
+
+    trait = forgiving
+    trait = calm
+    trait = callous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 10
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6528.7.3 = {
+        birth = yes
+    }
+
+    6559.6.11 = {
+        add_spouse = buckler_74
+    }
+
+    6607.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_74 = {
+    name = "Cyrenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = ambitious
+    trait = stubborn
+    trait = honest
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 8
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6542.9.7 = {
+        birth = yes
+    }
+
+    6624.4.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_75 = {
+    name = "Sher"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_69
+    mother = buckler_70
+
+    trait = paranoid
+    trait = impatient
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6485.10.7 = {
+        birth = yes
+    }
+
+    6555.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_76 = {
+    name = "Bryce"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_69
+    mother = buckler_70
+
+    trait = gluttonous
+    trait = cynical
+    trait = impatient
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 8
+    prowess = 9
+
+    trait = education_learning_2
+
+    6489.7.7 = {
+        birth = yes
+    }
+
+    6515.1.20 = {
+        add_spouse = buckler_77
+    }
+
+    6525.10.8 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+buckler_77 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = ambitious
+    trait = arbitrary
+    trait = lazy
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6498.12.4 = {
+        birth = yes
+    }
+
+    6577.12.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_78 = {
+    name = "Gunthor"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_76
+    mother = buckler_77
+
+    trait = sadistic
+    trait = calm
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    6516.12.18 = {
+        birth = yes
+    }
+
+    6537.10.2 = {
+        add_spouse = buckler_79
+    }
+
+    6547.8.5 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+buckler_79 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = impatient
+    trait = arrogant
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    6520.4.21 = {
+        birth = yes
+    }
+
+    6597.10.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_80 = {
+    name = "Halyn"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_69
+    mother = buckler_70
+
+    trait = compassionate
+    trait = generous
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6491.2.11 = {
+        birth = yes
+    }
+
+    6529.6.6 = {
+        add_spouse = buckler_81
+    }
+
+    6539.6.26 = {
+        death = { death_reason = death_attacked }
+    }
+}
+
+buckler_81 = {
+    name = "Brella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = lustful
+    trait = arbitrary
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    6512.2.25 = {
+        birth = yes
+    }
+
+    6539.10.20 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+buckler_82 = {
+    name = "Beric"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_80
+    mother = buckler_81
+
+    trait = impatient
+    trait = content
+    trait = lustful
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 8
+    intrigue = 8
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_1
+
+    6529.2.2 = {
+        birth = yes
+    }
+
+    6561.1.20 = {
+        add_spouse = buckler_83
+    }
+
+    6600.9.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_83 = {
+    name = "Marya"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = craven
+    trait = lazy
+    trait = callous
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6544.2.23 = {
+        birth = yes
+    }
+
+    6581.2.26 = {
+        death = { death_reason = death_plotting  }
+    }
+}
+
+buckler_84 = {
+    name = "Belandra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_80
+    mother = buckler_81
+
+    trait = trusting
+    trait = craven
+    trait = chaste
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_3
+
+    6530.2.19 = {
+        birth = yes
+    }
+
+    6610.6.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_85 = {
+    name = "Jasonnei"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_80
+    mother = buckler_81
+
+    trait = calm
+    trait = diligent
+    trait = deceitful
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 5
+    intrigue = 3
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6531.5.10 = {
+        birth = yes
+    }
+
+    6611.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_86 = {
+    name = "Selyse"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_80
+    mother = buckler_81
+
+    trait = paranoid
+    trait = shy
+    trait = honest
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_1
+
+    6532.10.1 = {
+        birth = yes
+    }
+
+    6616.3.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_87 = {
+    name = "Sarmion"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_35
+    mother = buckler_36
+
+    trait = deceitful
+    trait = impatient
+    trait = lustful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_4
+
+    6403.1.14 = {
+        birth = yes
+    }
+
+    6442.11.15 = {
+        add_spouse = buckler_88
+    }
+
+    6486.4.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_88 = {
+    name = "Elenei"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = content
+    trait = gregarious
+    trait = fickle
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_1
+
+    6425.2.6 = {
+        birth = yes
+    }
+
+    6503.4.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_89 = {
+    name = "Goodwin"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_87
+    mother = buckler_88
+
+    trait = vengeful
+    trait = fickle
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 2
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6457.4.15 = {
+        birth = yes
+    }
+
+    6502.9.25 = {
+        add_spouse = buckler_90
+    }
+
+    6532.10.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_90 = {
+    name = "Ellyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = trusting
+    trait = lustful
+    trait = diligent
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 9
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6485.1.22 = {
+        birth = yes
+    }
+
+    6561.4.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_91 = {
+    name = "Dorna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_89
+    mother = buckler_90
+
+    trait = sadistic
+    trait = gregarious
+    trait = honest
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6506.1.7 = {
+        birth = yes
+    }
+
+    6576.2.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_92 = {
+    name = "Emma"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_89
+    mother = buckler_90
+
+    trait = gregarious
+    trait = honest
+    trait = content
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    6509.11.2 = {
+        birth = yes
+    }
+
+    6586.4.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_93 = {
+    name = "Clifford"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_89
+    mother = buckler_90
+
+    trait = zealous
+    trait = patient
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_4
+
+    6515.11.6 = {
+        birth = yes
+    }
+
+    6539.8.17 = {
+        add_spouse = buckler_94
+    }
+
+    6593.5.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_94 = {
+    name = "Leonette"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = chaste
+    trait = vengeful
+    trait = brave
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 4
+    intrigue = 5
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_3
+
+    6522.7.10 = {
+        birth = yes
+    }
+
+    6605.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_95 = {
+    name = "Manfred"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_93
+    mother = buckler_94
+
+    trait = patient
+    trait = forgiving
+    trait = cynical
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 9
+    learning = 8
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6545.10.21 = {
+        birth = yes
+    }
+
+    6586.3.22 = {
+        add_spouse = buckler_96
+    }
+
+    6619.5.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_96 = {
+    name = "Senelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = craven
+    trait = paranoid
+    trait = fickle
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6569.1.8 = {
+        birth = yes
+    }
+
+    6652.5.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_97 = {
+    name = "Galladon"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_35
+    mother = buckler_36
+
+    trait = callous
+    trait = impatient
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_3
+
+    6409.7.23 = {
+        birth = yes
+    }
+
+    6457.7.19 = {
+        add_spouse = buckler_98
+    }
+
+    6492.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_98 = {
+    name = "Dainia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = lazy
+    trait = wrathful
+    trait = trusting
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 4
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6440.3.3 = {
+        birth = yes
+    }
+
+    6523.4.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_99 = {
+    name = "Anguy"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_97
+    mother = buckler_98
+
+    trait = wrathful
+    trait = honest
+    trait = shy
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 8
+    intrigue = 5
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_4
+
+    6464.6.17 = {
+        birth = yes
+    }
+
+    6489.10.20 = {
+        add_spouse = buckler_100
+    }
+
+    6534.4.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_100 = {
+    name = "Melara"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = fickle
+    trait = arbitrary
+    trait = greedy
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6472.4.20 = {
+        birth = yes
+    }
+
+    6550.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_101 = {
+    name = "Harrold"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_99
+    mother = buckler_100
+
+    trait = greedy
+    trait = forgiving
+    trait = impatient
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 8
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6512.3.5 = {
+        birth = yes
+    }
+
+    6556.10.27 = {
+        add_spouse = buckler_102
+    }
+
+    6582.8.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_102 = {
+    name = "Jenn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = calm
+    trait = fickle
+    trait = honest
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 10
+    learning = 7
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    6539.2.14 = {
+        birth = yes
+    }
+
+    6615.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_103 = {
+    name = "Dalla"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_101
+    mother = buckler_102
+
+    trait = brave
+    trait = sadistic
+    trait = honest
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    6558.11.4 = {
+        birth = yes
+    }
+
+    6624.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_104 = {
+    name = "Jenae"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_101
+    mother = buckler_102
+
+    trait = greedy
+    trait = deceitful
+    trait = calm
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 4
+    learning = 11
+    prowess = 6
+
+    trait = education_learning_2
+
+    6559.6.14 = {
+        birth = yes
+    }
+
+    6640.5.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_105 = {
+    name = "Rohanne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_101
+    mother = buckler_102
+
+    trait = ambitious
+    trait = trusting
+    trait = lazy
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_2
+
+    6565.12.16 = {
+        birth = yes
+    }
+
+    6646.6.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_106 = {
+    name = "Bartimos"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_101
+    mother = buckler_102
+
+    trait = arbitrary
+    trait = content
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 1
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6568.11.3 = {
+        birth = yes
+    }
+
+    6591.6.16 = {
+        add_spouse = buckler_107
+    }
+
+    6639.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_107 = {
+    name = "Ellyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = content
+    trait = deceitful
+    trait = impatient
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 4
+    intrigue = 8
+    learning = 4
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6574.11.10 = {
+        birth = yes
+    }
+
+    6644.2.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_108 = {
+    name = "Helicent"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_97
+    mother = buckler_98
+
+    trait = lazy
+    trait = temperate
+    trait = honest
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 9
+    intrigue = 9
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6468.9.7 = {
+        birth = yes
+    }
+
+    6541.3.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_109 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_97
+    mother = buckler_98
+
+    trait = fickle
+    trait = arrogant
+    trait = paranoid
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 2
+    intrigue = 7
+    learning = 3
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    6472.11.7 = {
+        birth = yes
+    }
+
+    6533.12.21 = {
+        death = { death_reason = death_torture  }
+    }
+}
+
+buckler_110 = {
+    name = "Boremund"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_97
+    mother = buckler_98
+
+    trait = patient
+    trait = honest
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 1
+    intrigue = 8
+    learning = 8
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6473.8.25 = {
+        birth = yes
+    }
+
+    6507.2.18 = {
+        add_spouse = buckler_111
+    }
+
+    6542.4.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_111 = {
+    name = "Brienne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = humble
+    trait = wrathful
+    trait = generous
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 10
+
+    trait = education_diplomacy_2
+
+    6490.9.5 = {
+        birth = yes
+    }
+
+    6567.5.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_112 = {
+    name = "Alynne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_110
+    mother = buckler_111
+
+    trait = patient
+    trait = greedy
+    trait = callous
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 8
+    prowess = 1
+
+    trait = education_diplomacy_3
+
+    6514.12.4 = {
+        birth = yes
+    }
+
+    6596.5.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_113 = {
+    name = "Cassandria"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_110
+    mother = buckler_111
+
+    trait = calm
+    trait = callous
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 1
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    6515.6.11 = {
+        birth = yes
+    }
+
+    6594.4.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_114 = {
+    name = "Cressen"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_110
+    mother = buckler_111
+
+    trait = just
+    trait = greedy
+    trait = chaste
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_3
+
+    6521.1.3 = {
+        birth = yes
+    }
+
+    6562.3.3 = {
+        add_spouse = buckler_115
+    }
+
+    6593.7.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_115 = {
+    name = "Dallia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = cynical
+    trait = chaste
+    trait = brave
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 4
+    intrigue = 10
+    learning = 8
+    prowess = 10
+
+    trait = education_intrigue_2
+
+    6545.3.26 = {
+        birth = yes
+    }
+
+    6611.11.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_116 = {
+    name = "Maric"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_114
+    mother = buckler_115
+
+    trait = calm
+    trait = shy
+    trait = brave
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_3
+
+    6574.4.26 = {
+        birth = yes
+    }
+
+    6620.10.12 = {
+        add_spouse = buckler_117
+    }
+
+    6641.6.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_117 = {
+    name = "Mary"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = callous
+    trait = lazy
+    trait = wrathful
+
+    diplomacy = 1
+    martial = 7
+    stewardship = 9
+    intrigue = 2
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6603.4.14 = {
+        birth = yes
+    }
+
+    6670.9.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_118 = {
+    name = "Gowen"
+
+    dynasty = dynasty_buckler
+    religion = the_old_gods
+    culture = stormmen
+
+    father = buckler_114
+    mother = buckler_115
+
+    trait = brave
+    trait = arrogant
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_2
+
+    6577.6.17 = {
+        birth = yes
+    }
+
+    6625.10.26 = {
+        add_spouse = buckler_119
+    }
+
+    6650.1.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+buckler_119 = {
+    name = "Shierle"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = greedy
+    trait = compassionate
+    trait = shy
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 2
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6608.8.26 = {
+        birth = yes
+    }
+
+    6689.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

@@ -1,0 +1,1137 @@
+lonmouth_1 = {
+    name = "Guyard"
+
+    dynasty = dynasty_lonmouth
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = greedy
+    trait = vengeful
+    trait = brave
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_4
+
+    6300.8.2 = {
+        birth = yes
+    }
+
+    6323.3.6 = {
+        add_spouse = lonmouth_2
+    }
+
+    6381.5.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_2 = {
+    name = "Leonette"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = vengeful
+    trait = trusting
+    trait = craven
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 9
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6306.6.17 = {
+        birth = yes
+    }
+
+    6382.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_3 = {
+    name = "Myles"
+
+    dynasty = dynasty_lonmouth
+    religion = the_old_gods
+    culture = stormmen
+
+    father = lonmouth_1
+    mother = lonmouth_2
+
+    trait = honest
+    trait = zealous
+    trait = chaste
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 2
+
+    trait = education_stewardship_4
+
+    6341.12.11 = {
+        birth = yes
+    }
+
+    6366.10.20 = {
+        add_spouse = lonmouth_4
+    }
+
+    6418.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_4 = {
+    name = "Ellyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = fickle
+    trait = humble
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 8
+    intrigue = 4
+    learning = 4
+    prowess = 3
+
+    trait = education_stewardship_1
+
+    6349.6.2 = {
+        birth = yes
+    }
+
+    6419.7.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_5 = {
+    name = "Ellyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = lonmouth_3
+    mother = lonmouth_4
+
+    trait = impatient
+    trait = lazy
+    trait = callous
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6366.9.17 = {
+        birth = yes
+    }
+
+    6445.2.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_6 = {
+    name = "Melara"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = lonmouth_3
+    mother = lonmouth_4
+
+    trait = chaste
+    trait = compassionate
+    trait = content
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 9
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    6372.5.28 = {
+        birth = yes
+    }
+
+    6449.8.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_7 = {
+    name = "Omrys"
+
+    dynasty = dynasty_lonmouth
+    religion = the_old_gods
+    culture = stormmen
+
+    father = lonmouth_3
+    mother = lonmouth_4
+
+    trait = sadistic
+    trait = impatient
+    trait = lustful
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 6
+    intrigue = 2
+    learning = 3
+    prowess = 8
+
+    trait = education_martial_2
+
+    6374.12.15 = {
+        birth = yes
+    }
+
+    6392.7.20 = {
+        add_spouse = lonmouth_8
+    }
+
+    6443.1.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_8 = {
+    name = "Vicky"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = brave
+    trait = sadistic
+    trait = zealous
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6375.5.21 = {
+        birth = yes
+    }
+
+    6444.8.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_9 = {
+    name = "Lester"
+
+    dynasty = dynasty_lonmouth
+    religion = the_old_gods
+    culture = stormmen
+
+    father = lonmouth_7
+    mother = lonmouth_8
+
+    trait = stubborn
+    trait = wrathful
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_1
+
+    6397.3.27 = {
+        birth = yes
+    }
+
+    6425.10.28 = {
+        add_spouse = lonmouth_10
+    }
+
+    6448.1.25 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+lonmouth_10 = {
+    name = "Cassandria"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = lazy
+    trait = vengeful
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6408.3.11 = {
+        birth = yes
+    }
+
+    6492.2.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_11 = {
+    name = "Hugh"
+
+    dynasty = dynasty_lonmouth
+    religion = the_old_gods
+    culture = stormmen
+
+    father = lonmouth_9
+    mother = lonmouth_10
+
+    trait = zealous
+    trait = callous
+    trait = trusting
+
+    diplomacy = 1
+    martial = 5
+    stewardship = 5
+    intrigue = 9
+    learning = 1
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    6445.9.13 = {
+        birth = yes
+    }
+
+    6446.9.20 = {
+        give_nickname = nick_the_devil
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6488.6.10 = {
+        add_spouse = lonmouth_12
+    }
+
+    6528.5.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_12 = {
+    name = "Lyria"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = zealous
+    trait = callous
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 2
+    stewardship = 8
+    intrigue = 9
+    learning = 5
+    prowess = 3
+
+    trait = education_intrigue_4
+
+    6471.9.15 = {
+        birth = yes
+    }
+
+    6550.6.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_13 = {
+    name = "Tiah"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = lonmouth_11
+    mother = lonmouth_12
+
+    trait = lazy
+    trait = brave
+    trait = fickle
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 5
+    intrigue = 9
+    learning = 11
+    prowess = 5
+
+    trait = education_learning_3
+
+    6489.8.15 = {
+        birth = yes
+    }
+
+    6560.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_14 = {
+    name = "Andar"
+
+    dynasty = dynasty_lonmouth
+    religion = the_old_gods
+    culture = stormmen
+
+    father = lonmouth_11
+    mother = lonmouth_12
+
+    trait = lazy
+    trait = callous
+    trait = humble
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 9
+    intrigue = 9
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6491.11.6 = {
+        birth = yes
+    }
+
+    6526.1.20 = {
+        add_spouse = lonmouth_15
+    }
+
+    6570.4.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_15 = {
+    name = "Dallia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = brave
+    trait = generous
+    trait = diligent
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_4
+
+    6509.6.16 = {
+        birth = yes
+    }
+
+    6591.4.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_16 = {
+    name = "Victaria"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = lonmouth_14
+    mother = lonmouth_15
+
+    trait = calm
+    trait = shy
+    trait = callous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_4
+
+    6526.11.13 = {
+        birth = yes
+    }
+
+    6531.3.5 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+lonmouth_17 = {
+    name = "Dainia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = lonmouth_14
+    mother = lonmouth_15
+
+    trait = trusting
+    trait = deceitful
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    6527.3.14 = {
+        birth = yes
+    }
+
+    6606.10.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_18 = {
+    name = "Daini"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = lonmouth_14
+    mother = lonmouth_15
+
+    trait = callous
+    trait = gluttonous
+    trait = greedy
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_4
+
+    6532.7.15 = {
+        birth = yes
+    }
+
+    6598.6.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_19 = {
+    name = "Narbert"
+
+    dynasty = dynasty_lonmouth
+    religion = the_old_gods
+    culture = stormmen
+
+    father = lonmouth_14
+    mother = lonmouth_15
+
+    trait = sadistic
+    trait = calm
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_3
+
+    6533.12.14 = {
+        birth = yes
+    }
+
+    6581.7.4 = {
+        add_spouse = lonmouth_20
+    }
+
+    6601.6.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_20 = {
+    name = "Marya"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = paranoid
+    trait = stubborn
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    6564.2.19 = {
+        birth = yes
+    }
+
+    6639.7.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_21 = {
+    name = "Helicent"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = lonmouth_7
+    mother = lonmouth_8
+
+    trait = honest
+    trait = arrogant
+    trait = impatient
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6398.5.12 = {
+        birth = yes
+    }
+
+    6464.4.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_22 = {
+    name = "Gunthor"
+
+    dynasty = dynasty_lonmouth
+    religion = the_old_gods
+    culture = stormmen
+
+    father = lonmouth_7
+    mother = lonmouth_8
+
+    trait = just
+    trait = cynical
+    trait = diligent
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_1
+
+    6401.5.5 = {
+        birth = yes
+    }
+
+    6449.10.19 = {
+        add_spouse = lonmouth_23
+    }
+
+    6459.7.18 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+lonmouth_23 = {
+    name = "Aglantine"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = arrogant
+    trait = stubborn
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6432.10.8 = {
+        birth = yes
+    }
+
+    6512.11.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_24 = {
+    name = "Lester"
+
+    dynasty = dynasty_lonmouth
+    religion = the_old_gods
+    culture = stormmen
+
+    father = lonmouth_22
+    mother = lonmouth_23
+
+    trait = gluttonous
+    trait = callous
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6455.12.9 = {
+        birth = yes
+    }
+
+    6475.1.25 = {
+        add_spouse = lonmouth_25
+    }
+
+    6530.4.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_25 = {
+    name = "Eglantine"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = generous
+    trait = gregarious
+    trait = craven
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_1
+
+    6458.12.4 = {
+        birth = yes
+    }
+
+    6524.4.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_26 = {
+    name = "Elanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = lonmouth_24
+    mother = lonmouth_25
+
+    trait = trusting
+    trait = fickle
+    trait = chaste
+
+    diplomacy = 4
+    martial = 10
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_2
+
+    6483.12.16 = {
+        birth = yes
+    }
+
+    6568.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_27 = {
+    name = "Brella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = lonmouth_24
+    mother = lonmouth_25
+
+    trait = trusting
+    trait = generous
+    trait = humble
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 2
+    prowess = 10
+
+    trait = education_martial_4
+
+    6490.9.5 = {
+        birth = yes
+    }
+
+    6562.10.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_28 = {
+    name = "Gladden"
+
+    dynasty = dynasty_lonmouth
+    religion = the_old_gods
+    culture = stormmen
+
+    father = lonmouth_24
+    mother = lonmouth_25
+
+    trait = honest
+    trait = humble
+    trait = just
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_4
+
+    6494.12.20 = {
+        birth = yes
+    }
+
+    6540.5.16 = {
+        add_spouse = lonmouth_29
+    }
+
+    6572.6.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_29 = {
+    name = "Victaria"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = compassionate
+    trait = paranoid
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 10
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6523.6.27 = {
+        birth = yes
+    }
+
+    6594.4.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_30 = {
+    name = "Bri"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = lonmouth_28
+    mother = lonmouth_29
+
+    trait = deceitful
+    trait = sadistic
+    trait = just
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 3
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_1
+
+    6545.8.12 = {
+        birth = yes
+    }
+
+    6617.3.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_31 = {
+    name = "Arion"
+
+    dynasty = dynasty_lonmouth
+    religion = the_old_gods
+    culture = stormmen
+
+    father = lonmouth_28
+    mother = lonmouth_29
+
+    trait = wrathful
+    trait = stubborn
+    trait = shy
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 3
+    intrigue = 3
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_2
+
+    6548.1.1 = {
+        birth = yes
+    }
+
+    6585.11.5 = {
+        add_spouse = lonmouth_32
+    }
+
+    6631.1.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_32 = {
+    name = "Sher"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = zealous
+    trait = craven
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    6568.10.12 = {
+        birth = yes
+    }
+
+    6639.5.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_33 = {
+    name = "Megga"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = lonmouth_28
+    mother = lonmouth_29
+
+    trait = zealous
+    trait = generous
+    trait = brave
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6551.3.7 = {
+        birth = yes
+    }
+
+    6621.3.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_34 = {
+    name = "Reginald"
+
+    dynasty = dynasty_lonmouth
+    religion = the_old_gods
+    culture = stormmen
+
+    father = lonmouth_28
+    mother = lonmouth_29
+
+    trait = zealous
+    trait = temperate
+    trait = just
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 2
+    intrigue = 9
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6553.1.17 = {
+        birth = yes
+    }
+
+    6586.8.5 = {
+        add_spouse = lonmouth_35
+    }
+
+    6620.12.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lonmouth_35 = {
+    name = "Helena"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = paranoid
+    trait = content
+    trait = temperate
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 4
+    intrigue = 4
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_3
+
+    6569.3.10 = {
+        birth = yes
+    }
+
+    6652.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

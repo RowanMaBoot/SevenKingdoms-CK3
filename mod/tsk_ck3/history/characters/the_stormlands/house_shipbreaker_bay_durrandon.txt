@@ -1,0 +1,547 @@
+durrandon_1 = {
+    name = "Narbert"
+
+    dynasty = dynasty_durrandon
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = arbitrary
+    trait = paranoid
+    trait = stubborn
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 9
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6300.12.10 = {
+        birth = yes
+    }
+
+    6320.8.24 = {
+        add_spouse = durrandon_2
+    }
+
+    6349.10.10 = {
+        death = { death_reason = death_duel }
+    }
+}
+
+durrandon_2 = {
+    name = "Tiona"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = just
+    trait = cynical
+    trait = craven
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 4
+    intrigue = 5
+    learning = 4
+    prowess = 3
+
+    trait = education_martial_4
+
+    6303.5.6 = {
+        birth = yes
+    }
+
+    6336.9.10 = {
+        death = { death_reason = death_great_pox }
+    }
+}
+
+durrandon_3 = {
+    name = "Sebastion"
+
+    dynasty = dynasty_durrandon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = durrandon_1
+    mother = durrandon_2
+
+    trait = content
+    trait = calm
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 9
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6327.10.20 = {
+        birth = yes
+    }
+
+    6374.6.27 = {
+        add_spouse = durrandon_4
+    }
+
+    6409.11.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+durrandon_4 = {
+    name = "Lia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = honest
+    trait = just
+    trait = lustful
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_4
+
+    6357.12.7 = {
+        birth = yes
+    }
+
+    6428.7.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+durrandon_5 = {
+    name = "Caythan"
+
+    dynasty = dynasty_durrandon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = durrandon_3
+    mother = durrandon_4
+
+    trait = diligent
+    trait = gluttonous
+    trait = trusting
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 3
+    intrigue = 5
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6401.8.28 = {
+        birth = yes
+    }
+
+    6421.9.25 = {
+        add_spouse = durrandon_6
+    }
+
+    6467.5.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+durrandon_6 = {
+    name = "Rhianna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = lazy
+    trait = gregarious
+    trait = greedy
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_4
+
+    6404.3.19 = {
+        birth = yes
+    }
+
+    6477.6.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+durrandon_7 = {
+    name = "Selyse"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = durrandon_5
+    mother = durrandon_6
+
+    trait = ambitious
+    trait = diligent
+    trait = callous
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 9
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6426.6.20 = {
+        birth = yes
+    }
+
+    6492.1.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+durrandon_8 = {
+    name = "Quentyn"
+
+    dynasty = dynasty_durrandon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = durrandon_5
+    mother = durrandon_6
+
+    trait = ambitious
+    trait = zealous
+    trait = callous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_3
+
+    6437.8.25 = {
+        birth = yes
+    }
+
+    6458.12.27 = {
+        add_spouse = durrandon_9
+    }
+
+    6507.11.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+durrandon_9 = {
+    name = "Emelia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = ambitious
+    trait = arbitrary
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 3
+
+    trait = education_intrigue_2
+
+    6441.1.15 = {
+        birth = yes
+    }
+
+    6514.7.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+durrandon_10 = {
+    name = "Kyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = durrandon_8
+    mother = durrandon_9
+
+    trait = trusting
+    trait = sadistic
+    trait = fickle
+
+    diplomacy = 6
+    martial = 11
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_3
+
+    6459.6.6 = {
+        birth = yes
+    }
+
+    6530.10.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+durrandon_11 = {
+    name = "Matthos"
+
+    dynasty = dynasty_durrandon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = durrandon_8
+    mother = durrandon_9
+
+    trait = lustful
+    trait = gluttonous
+    trait = ambitious
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6467.12.17 = {
+        birth = yes
+    }
+
+    6507.5.27 = {
+        add_spouse = durrandon_12
+    }
+
+    6549.9.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+durrandon_12 = {
+    name = "Melessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = arrogant
+    trait = calm
+    trait = greedy
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 9
+    intrigue = 5
+    learning = 5
+    prowess = 10
+
+    trait = education_stewardship_3
+
+    6490.3.9 = {
+        birth = yes
+    }
+
+    6564.7.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+durrandon_13 = {
+    name = "Florian"
+
+    dynasty = dynasty_durrandon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = durrandon_11
+    mother = durrandon_12
+
+    trait = deceitful
+    trait = trusting
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 2
+
+    trait = education_martial_2
+
+    6512.6.27 = {
+        birth = yes
+    }
+
+    6544.6.8 = {
+        add_spouse = durrandon_14
+    }
+
+    6591.6.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+durrandon_14 = {
+    name = "Maris"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = gluttonous
+    trait = patient
+    trait = zealous
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    6527.7.8 = {
+        birth = yes
+    }
+
+    6603.3.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+durrandon_15 = {
+    name = "Arion"
+
+    dynasty = dynasty_durrandon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = durrandon_13
+    mother = durrandon_14
+
+    trait = trusting
+    trait = wrathful
+    trait = temperate
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 10
+    intrigue = 10
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6572.4.16 = {
+        birth = yes
+    }
+
+    6587.9.8 = {
+        add_spouse = durrandon_16
+    }
+
+    6650.6.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+durrandon_16 = {
+    name = "Aelinor"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = gluttonous
+    trait = content
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 9
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6570.5.20 = {
+        birth = yes
+    }
+
+    6644.11.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+durrandon_17 = {
+    name = "Rhea"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = durrandon_8
+    mother = durrandon_9
+
+    trait = greedy
+    trait = wrathful
+    trait = humble
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 9
+    prowess = 3
+
+    trait = education_learning_1
+
+    6471.12.4 = {
+        birth = yes
+    }
+
+    6551.11.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

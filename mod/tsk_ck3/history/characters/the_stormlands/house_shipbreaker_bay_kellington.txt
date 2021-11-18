@@ -1,0 +1,1033 @@
+kellington_1 = {
+    name = "Pearse"
+
+    dynasty = dynasty_kellington
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = arrogant
+    trait = generous
+    trait = patient
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6300.6.20 = {
+        birth = yes
+    }
+
+    6341.3.16 = {
+        add_spouse = kellington_2
+    }
+
+    6378.4.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_2 = {
+    name = "Elyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = fickle
+    trait = sadistic
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_4
+
+    6324.4.7 = {
+        birth = yes
+    }
+
+    6408.10.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_3 = {
+    name = "Yonel"
+
+    dynasty = dynasty_kellington
+    religion = the_old_gods
+    culture = stormmen
+
+    father = kellington_1
+    mother = kellington_2
+
+    trait = gluttonous
+    trait = cynical
+    trait = honest
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 2
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6356.9.13 = {
+        birth = yes
+    }
+
+    6391.2.3 = {
+        add_spouse = kellington_4
+    }
+
+    6432.6.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_4 = {
+    name = "Mylenda"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = cynical
+    trait = craven
+    trait = fickle
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 2
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6374.11.3 = {
+        birth = yes
+    }
+
+    6455.7.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_5 = {
+    name = "Senelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = kellington_3
+    mother = kellington_4
+
+    trait = content
+    trait = temperate
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 9
+    learning = 1
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6403.4.22 = {
+        birth = yes
+    }
+
+    6486.4.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_6 = {
+    name = "Jonald"
+
+    dynasty = dynasty_kellington
+    religion = the_old_gods
+    culture = stormmen
+
+    father = kellington_3
+    mother = kellington_4
+
+    trait = fickle
+    trait = compassionate
+    trait = lustful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 9
+
+    trait = education_learning_3
+
+    6408.5.2 = {
+        birth = yes
+    }
+
+    6453.1.1 = {
+        add_spouse = kellington_7
+    }
+
+    6484.4.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_7 = {
+    name = "Rhianna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = ambitious
+    trait = cynical
+    trait = lazy
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 1
+    intrigue = 5
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_3
+
+    6436.8.25 = {
+        birth = yes
+    }
+
+    6519.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_8 = {
+    name = "Ormund"
+
+    dynasty = dynasty_kellington
+    religion = the_old_gods
+    culture = stormmen
+
+    father = kellington_6
+    mother = kellington_7
+
+    trait = diligent
+    trait = paranoid
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 1
+    stewardship = 4
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    6456.7.23 = {
+        birth = yes
+    }
+
+    6485.5.10 = {
+        add_spouse = kellington_9
+    }
+
+    6523.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_9 = {
+    name = "Emelia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = forgiving
+    trait = lustful
+    trait = greedy
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6468.3.19 = {
+        birth = yes
+    }
+
+    6547.11.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_10 = {
+    name = "Endrew"
+
+    dynasty = dynasty_kellington
+    religion = the_old_gods
+    culture = stormmen
+
+    father = kellington_8
+    mother = kellington_9
+
+    trait = deceitful
+    trait = paranoid
+    trait = greedy
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 1
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6495.3.20 = {
+        birth = yes
+    }
+
+    6531.12.22 = {
+        add_spouse = kellington_11
+    }
+
+    6562.1.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_11 = {
+    name = "Tiah"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = arbitrary
+    trait = gluttonous
+    trait = impatient
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 6
+    intrigue = 8
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_2
+
+    6514.1.14 = {
+        birth = yes
+    }
+
+    6581.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_12 = {
+    name = "Maris"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = kellington_10
+    mother = kellington_11
+
+    trait = arbitrary
+    trait = chaste
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 7
+    intrigue = 3
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    6531.10.3 = {
+        birth = yes
+    }
+
+    6597.3.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_13 = {
+    name = "Donyse"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = kellington_10
+    mother = kellington_11
+
+    trait = arbitrary
+    trait = trusting
+    trait = brave
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_2
+
+    6534.4.3 = {
+        birth = yes
+    }
+
+    6602.4.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_14 = {
+    name = "Manfred"
+
+    dynasty = dynasty_kellington
+    religion = the_old_gods
+    culture = stormmen
+
+    father = kellington_10
+    mother = kellington_11
+
+    trait = just
+    trait = brave
+    trait = trusting
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 5
+    intrigue = 8
+    learning = 8
+    prowess = 9
+
+    trait = education_martial_3
+
+    6535.7.14 = {
+        birth = yes
+    }
+
+    6582.2.18 = {
+        add_spouse = kellington_15
+    }
+
+    6604.6.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_15 = {
+    name = "Scolera"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = chaste
+    trait = compassionate
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    6565.8.27 = {
+        birth = yes
+    }
+
+    6645.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_16 = {
+    name = "Harlan"
+
+    dynasty = dynasty_kellington
+    religion = the_old_gods
+    culture = stormmen
+
+    father = kellington_14
+    mother = kellington_15
+
+    trait = vengeful
+    trait = temperate
+    trait = craven
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 8
+    prowess = 1
+
+    trait = education_stewardship_2
+
+    6591.2.20 = {
+        birth = yes
+    }
+
+    6615.4.2 = {
+        add_spouse = kellington_17
+    }
+
+    6660.9.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_17 = {
+    name = "Alynne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = compassionate
+    trait = sadistic
+    trait = trusting
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6598.5.8 = {
+        birth = yes
+    }
+
+    6678.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_18 = {
+    name = "Eglantine"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = kellington_14
+    mother = kellington_15
+
+    trait = sadistic
+    trait = generous
+    trait = honest
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 3
+    intrigue = 9
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6592.3.16 = {
+        birth = yes
+    }
+
+    6674.11.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_19 = {
+    name = "Helicent"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = kellington_6
+    mother = kellington_7
+
+    trait = just
+    trait = trusting
+    trait = brave
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_2
+
+    6462.7.19 = {
+        birth = yes
+    }
+
+    6535.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_20 = {
+    name = "Matthos"
+
+    dynasty = dynasty_kellington
+    religion = the_old_gods
+    culture = stormmen
+
+    father = kellington_6
+    mother = kellington_7
+
+    trait = paranoid
+    trait = forgiving
+    trait = craven
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 11
+    intrigue = 5
+    learning = 8
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    6464.9.2 = {
+        birth = yes
+    }
+
+    6503.5.19 = {
+        add_spouse = kellington_21
+    }
+
+    6545.6.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_21 = {
+    name = "Elinor"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = vengeful
+    trait = trusting
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6486.1.26 = {
+        birth = yes
+    }
+
+    6558.5.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_22 = {
+    name = "Lomas"
+
+    dynasty = dynasty_kellington
+    religion = the_old_gods
+    culture = stormmen
+
+    father = kellington_20
+    mother = kellington_21
+
+    trait = humble
+    trait = lazy
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 10
+    learning = 3
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6526.12.10 = {
+        birth = yes
+    }
+
+    6575.3.2 = {
+        add_spouse = kellington_23
+    }
+
+    6611.5.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_23 = {
+    name = "Bri"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = stubborn
+    trait = wrathful
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6558.12.13 = {
+        birth = yes
+    }
+
+    6643.10.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_24 = {
+    name = "Renly"
+
+    dynasty = dynasty_kellington
+    religion = the_old_gods
+    culture = stormmen
+
+    father = kellington_22
+    mother = kellington_23
+
+    trait = gluttonous
+    trait = wrathful
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 3
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_3
+
+    6577.8.9 = {
+        birth = yes
+    }
+
+    6598.4.17 = {
+        add_spouse = kellington_25
+    }
+
+    6608.3.17 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+kellington_25 = {
+    name = "Cassandra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = gregarious
+    trait = fickle
+    trait = cynical
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_3
+
+    6581.1.24 = {
+        birth = yes
+    }
+
+    6660.5.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_26 = {
+    name = "Lewys"
+
+    dynasty = dynasty_kellington
+    religion = the_old_gods
+    culture = stormmen
+
+    father = kellington_24
+    mother = kellington_25
+
+    trait = vengeful
+    trait = temperate
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_4
+
+    6600.5.23 = {
+        birth = yes
+    }
+
+    6632.10.12 = {
+        add_spouse = kellington_27
+    }
+
+    6644.7.10 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+kellington_27 = {
+    name = "Corenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = stubborn
+    trait = gregarious
+    trait = craven
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6615.4.10 = {
+        birth = yes
+    }
+
+    6642.12.23 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+kellington_28 = {
+    name = "Boremund"
+
+    dynasty = dynasty_kellington
+    religion = the_old_gods
+    culture = stormmen
+
+    father = kellington_24
+    mother = kellington_25
+
+    trait = wrathful
+    trait = greedy
+    trait = impatient
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6601.5.13 = {
+        birth = yes
+    }
+
+    6634.11.15 = {
+        add_spouse = kellington_29
+    }
+
+    6673.2.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_29 = {
+    name = "Tiona"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = content
+    trait = stubborn
+    trait = calm
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 7
+    intrigue = 3
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_2
+
+    6617.6.5 = {
+        birth = yes
+    }
+
+    6695.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_30 = {
+    name = "Robin"
+
+    dynasty = dynasty_kellington
+    religion = the_old_gods
+    culture = stormmen
+
+    father = kellington_24
+    mother = kellington_25
+
+    trait = humble
+    trait = content
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6602.3.16 = {
+        birth = yes
+    }
+
+    6622.5.17 = {
+        add_spouse = kellington_31
+    }
+
+    6676.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_31 = {
+    name = "Ellyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = honest
+    trait = generous
+    trait = fickle
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_4
+
+    6605.7.18 = {
+        birth = yes
+    }
+
+    6681.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+kellington_32 = {
+    name = "Alynne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = kellington_24
+    mother = kellington_25
+
+    trait = craven
+    trait = gregarious
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 3
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    6603.5.12 = {
+        birth = yes
+    }
+
+    6669.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

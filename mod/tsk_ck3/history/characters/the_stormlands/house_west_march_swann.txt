@@ -1,0 +1,1276 @@
+swann_1 = {
+    name = "Humfrey"
+
+    dynasty = dynasty_swann
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = ambitious
+    trait = lazy
+    trait = trusting
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 3
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6300.10.22 = {
+        birth = yes
+    }
+
+    6327.2.1 = {
+        add_spouse = swann_2
+    }
+
+    6383.9.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_2 = {
+    name = "Scolera"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = vengeful
+    trait = ambitious
+    trait = callous
+
+    diplomacy = 9
+    martial = 3
+    stewardship = 5
+    intrigue = 1
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6310.10.23 = {
+        birth = yes
+    }
+
+    6377.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_3 = {
+    name = "Cedrik"
+
+    dynasty = dynasty_swann
+    religion = the_old_gods
+    culture = marchmen
+
+    father = swann_1
+    mother = swann_2
+
+    trait = brave
+    trait = greedy
+    trait = diligent
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6343.9.8 = {
+        birth = yes
+    }
+
+    6344.7.16 = {
+        give_nickname = nick_the_flayer
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6378.3.19 = {
+        add_spouse = swann_4
+    }
+
+    6416.9.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_4 = {
+    name = "Jena"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = impatient
+    trait = honest
+    trait = generous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 9
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6361.1.20 = {
+        birth = yes
+    }
+
+    6434.6.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_5 = {
+    name = "Matrice"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = swann_3
+    mother = swann_4
+
+    trait = content
+    trait = craven
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 8
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6383.2.25 = {
+        birth = yes
+    }
+
+    6438.9.17 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+swann_6 = {
+    name = "Marya"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = swann_3
+    mother = swann_4
+
+    trait = lazy
+    trait = temperate
+    trait = greedy
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    6386.1.21 = {
+        birth = yes
+    }
+
+    6468.4.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_7 = {
+    name = "Reginald"
+
+    dynasty = dynasty_swann
+    religion = the_old_gods
+    culture = marchmen
+
+    father = swann_3
+    mother = swann_4
+
+    trait = ambitious
+    trait = humble
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 5
+    intrigue = 9
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6390.2.3 = {
+        birth = yes
+    }
+
+    6427.5.3 = {
+        add_spouse = swann_8
+    }
+
+    6442.8.3 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+swann_8 = {
+    name = "Hanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = calm
+    trait = vengeful
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    6410.1.21 = {
+        birth = yes
+    }
+
+    6490.2.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_9 = {
+    name = "Terrence"
+
+    dynasty = dynasty_swann
+    religion = the_old_gods
+    culture = marchmen
+
+    father = swann_7
+    mother = swann_8
+
+    trait = shy
+    trait = brave
+    trait = chaste
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 4
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6431.6.28 = {
+        birth = yes
+    }
+
+    6447.10.6 = {
+        add_spouse = swann_10
+    }
+
+    6510.3.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_10 = {
+    name = "Elanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = compassionate
+    trait = generous
+    trait = calm
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_4
+
+    6430.3.21 = {
+        birth = yes
+    }
+
+    6514.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_11 = {
+    name = "Reginald"
+
+    dynasty = dynasty_swann
+    religion = the_old_gods
+    culture = marchmen
+
+    father = swann_9
+    mother = swann_10
+
+    trait = just
+    trait = trusting
+    trait = cynical
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 1
+
+    trait = education_diplomacy_3
+
+    6450.7.7 = {
+        birth = yes
+    }
+
+    6451.12.3 = {
+        give_nickname = nick_the_worthy
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6467.2.24 = {
+        add_spouse = swann_12
+    }
+
+    6534.12.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_12 = {
+    name = "Dallia"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = calm
+    trait = greedy
+    trait = impatient
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 4
+    learning = 1
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6450.2.16 = {
+        birth = yes
+    }
+
+    6516.12.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_13 = {
+    name = "Vicky"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = swann_11
+    mother = swann_12
+
+    trait = greedy
+    trait = arbitrary
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 1
+    intrigue = 3
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6469.9.11 = {
+        birth = yes
+    }
+
+    6549.4.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_14 = {
+    name = "Phillip"
+
+    dynasty = dynasty_swann
+    religion = the_old_gods
+    culture = marchmen
+
+    father = swann_11
+    mother = swann_12
+
+    trait = chaste
+    trait = calm
+    trait = trusting
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 4
+    prowess = 4
+
+    trait = education_martial_4
+
+    6477.1.9 = {
+        birth = yes
+    }
+
+    6501.9.15 = {
+        add_spouse = swann_15
+    }
+
+    6547.6.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_15 = {
+    name = "Dorcas"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = chaste
+    trait = craven
+    trait = paranoid
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_3
+
+    6484.5.2 = {
+        birth = yes
+    }
+
+    6550.2.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_16 = {
+    name = "Royce"
+
+    dynasty = dynasty_swann
+    religion = the_old_gods
+    culture = marchmen
+
+    father = swann_14
+    mother = swann_15
+
+    trait = chaste
+    trait = humble
+    trait = fickle
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 3
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    6512.7.10 = {
+        birth = yes
+    }
+
+    6540.6.6 = {
+        add_spouse = swann_17
+    }
+
+    6583.2.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_17 = {
+    name = "Corenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = content
+    trait = gregarious
+    trait = greedy
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    6523.2.23 = {
+        birth = yes
+    }
+
+    6589.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_18 = {
+    name = "Aemon"
+
+    dynasty = dynasty_swann
+    religion = the_old_gods
+    culture = marchmen
+
+    father = swann_14
+    mother = swann_15
+
+    trait = chaste
+    trait = sadistic
+    trait = just
+
+    diplomacy = 9
+    martial = 3
+    stewardship = 3
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6517.7.24 = {
+        birth = yes
+    }
+
+    6560.4.1 = {
+        add_spouse = swann_19
+    }
+
+    6588.10.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_19 = {
+    name = "Gwyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = impatient
+    trait = temperate
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6543.10.28 = {
+        birth = yes
+    }
+
+    6621.10.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_20 = {
+    name = "Shireen"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = swann_11
+    mother = swann_12
+
+    trait = wrathful
+    trait = stubborn
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 6
+    intrigue = 3
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    6479.7.22 = {
+        birth = yes
+    }
+
+    6545.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_21 = {
+    name = "Maer"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = swann_9
+    mother = swann_10
+
+    trait = vengeful
+    trait = content
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 10
+    learning = 10
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6459.11.17 = {
+        birth = yes
+    }
+
+    6528.7.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_22 = {
+    name = "Steffon"
+
+    dynasty = dynasty_swann
+    religion = the_old_gods
+    culture = marchmen
+
+    father = swann_7
+    mother = swann_8
+
+    trait = greedy
+    trait = shy
+    trait = chaste
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_learning_3
+
+    6435.3.12 = {
+        birth = yes
+    }
+
+    6477.1.18 = {
+        add_spouse = swann_23
+    }
+
+    6516.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_23 = {
+    name = "Rhea"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = cynical
+    trait = lustful
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 11
+
+    trait = education_diplomacy_4
+
+    6460.1.6 = {
+        birth = yes
+    }
+
+    6545.10.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_24 = {
+    name = "Alyn"
+
+    dynasty = dynasty_swann
+    religion = the_old_gods
+    culture = marchmen
+
+    father = swann_22
+    mother = swann_23
+
+    trait = chaste
+    trait = honest
+    trait = cynical
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 9
+    intrigue = 4
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6485.5.11 = {
+        birth = yes
+    }
+
+    6507.3.22 = {
+        add_spouse = swann_25
+    }
+
+    6556.2.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_25 = {
+    name = "Shirei"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = paranoid
+    trait = shy
+    trait = diligent
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 9
+    intrigue = 4
+    learning = 9
+    prowess = 6
+
+    trait = education_martial_4
+
+    6490.12.17 = {
+        birth = yes
+    }
+
+    6572.1.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_26 = {
+    name = "Steffon"
+
+    dynasty = dynasty_swann
+    religion = the_old_gods
+    culture = marchmen
+
+    father = swann_24
+    mother = swann_25
+
+    trait = honest
+    trait = content
+    trait = callous
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    6513.10.25 = {
+        birth = yes
+    }
+
+    6551.6.27 = {
+        add_spouse = swann_27
+    }
+
+    6598.9.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_27 = {
+    name = "Maer"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = shy
+    trait = forgiving
+    trait = honest
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    6534.12.10 = {
+        birth = yes
+    }
+
+    6561.11.22 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+swann_28 = {
+    name = "Corwen"
+
+    dynasty = dynasty_swann
+    religion = the_old_gods
+    culture = marchmen
+
+    father = swann_26
+    mother = swann_27
+
+    trait = compassionate
+    trait = temperate
+    trait = craven
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 8
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6553.8.3 = {
+        birth = yes
+    }
+
+    6570.10.25 = {
+        add_spouse = swann_29
+    }
+
+    6625.5.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_29 = {
+    name = "Helicent"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = shy
+    trait = zealous
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 11
+    stewardship = 4
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_3
+
+    6553.12.8 = {
+        birth = yes
+    }
+
+    6634.11.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_30 = {
+    name = "Arlan"
+
+    dynasty = dynasty_swann
+    religion = the_old_gods
+    culture = marchmen
+
+    father = swann_26
+    mother = swann_27
+
+    trait = shy
+    trait = compassionate
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6555.7.10 = {
+        birth = yes
+    }
+
+    6602.11.4 = {
+        add_spouse = swann_31
+    }
+
+    6629.10.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_31 = {
+    name = "Tyiah"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = compassionate
+    trait = sadistic
+    trait = paranoid
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 10
+    intrigue = 7
+    learning = 7
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    6585.10.24 = {
+        birth = yes
+    }
+
+    6641.10.14 = {
+        death = { death_reason = death_drowned  }
+    }
+}
+
+swann_32 = {
+    name = "Mair"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = swann_26
+    mother = swann_27
+
+    trait = callous
+    trait = patient
+    trait = cynical
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 6
+    intrigue = 9
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6556.3.3 = {
+        birth = yes
+    }
+
+    6631.9.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_33 = {
+    name = "Angron"
+
+    dynasty = dynasty_swann
+    religion = the_old_gods
+    culture = marchmen
+
+    father = swann_26
+    mother = swann_27
+
+    trait = gluttonous
+    trait = vengeful
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 9
+    learning = 7
+    prowess = 4
+
+    trait = education_intrigue_1
+
+    6558.8.28 = {
+        birth = yes
+    }
+
+    6588.4.8 = {
+        add_spouse = swann_34
+    }
+
+    6598.12.18 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+swann_34 = {
+    name = "Vicky"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = temperate
+    trait = sadistic
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 7
+    intrigue = 7
+    learning = 9
+    prowess = 4
+
+    trait = education_martial_3
+
+    6571.9.17 = {
+        birth = yes
+    }
+
+    6639.8.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_35 = {
+    name = "Dalla"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = swann_24
+    mother = swann_25
+
+    trait = impatient
+    trait = gregarious
+    trait = just
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 9
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6514.12.3 = {
+        birth = yes
+    }
+
+    6592.3.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_36 = {
+    name = "Cirella"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = swann_24
+    mother = swann_25
+
+    trait = chaste
+    trait = generous
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 8
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6515.8.18 = {
+        birth = yes
+    }
+
+    6584.1.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_37 = {
+    name = "Megga"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = swann_24
+    mother = swann_25
+
+    trait = callous
+    trait = wrathful
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6517.12.14 = {
+        birth = yes
+    }
+
+    6585.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_38 = {
+    name = "Mair"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = swann_7
+    mother = swann_8
+
+    trait = zealous
+    trait = calm
+    trait = fickle
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_2
+
+    6436.11.17 = {
+        birth = yes
+    }
+
+    6521.6.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swann_39 = {
+    name = "Daini"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = swann_3
+    mother = swann_4
+
+    trait = arbitrary
+    trait = lazy
+    trait = generous
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6392.3.12 = {
+        birth = yes
+    }
+
+    6477.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

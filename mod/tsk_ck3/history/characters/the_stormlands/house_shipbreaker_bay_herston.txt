@@ -1,0 +1,643 @@
+herston_1 = {
+    name = "Joffrey"
+
+    dynasty = dynasty_herston
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = humble
+    trait = fickle
+    trait = cynical
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 6
+    intrigue = 4
+    learning = 8
+    prowess = 8
+
+    trait = education_martial_3
+
+    6300.5.12 = {
+        birth = yes
+    }
+
+    6333.12.6 = {
+        add_spouse = herston_2
+    }
+
+    6368.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+herston_2 = {
+    name = "Rohanne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = compassionate
+    trait = lustful
+    trait = fickle
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 2
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6316.5.24 = {
+        birth = yes
+    }
+
+    6394.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+herston_3 = {
+    name = "Omrys"
+
+    dynasty = dynasty_herston
+    religion = the_old_gods
+    culture = stormmen
+
+    father = herston_1
+    mother = herston_2
+
+    trait = gluttonous
+    trait = paranoid
+    trait = generous
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6346.10.8 = {
+        birth = yes
+    }
+
+    6369.4.27 = {
+        add_spouse = herston_4
+    }
+
+    6412.12.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+herston_4 = {
+    name = "Rhianna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = wrathful
+    trait = cynical
+    trait = gluttonous
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 2
+
+    trait = education_diplomacy_2
+
+    6352.4.18 = {
+        birth = yes
+    }
+
+    6421.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+herston_5 = {
+    name = "Cassandra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = herston_3
+    mother = herston_4
+
+    trait = callous
+    trait = greedy
+    trait = vengeful
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 8
+    intrigue = 10
+    learning = 6
+    prowess = 3
+
+    trait = education_intrigue_4
+
+    6373.11.21 = {
+        birth = yes
+    }
+
+    6442.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+herston_6 = {
+    name = "Arron"
+
+    dynasty = dynasty_herston
+    religion = the_old_gods
+    culture = stormmen
+
+    father = herston_3
+    mother = herston_4
+
+    trait = arbitrary
+    trait = callous
+    trait = shy
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 2
+
+    trait = education_diplomacy_3
+
+    6377.11.27 = {
+        birth = yes
+    }
+
+    6402.5.25 = {
+        add_spouse = herston_7
+    }
+
+    6454.3.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+herston_7 = {
+    name = "Arianne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = chaste
+    trait = craven
+    trait = vengeful
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6385.6.17 = {
+        birth = yes
+    }
+
+    6461.12.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+herston_8 = {
+    name = "Annara"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = herston_6
+    mother = herston_7
+
+    trait = temperate
+    trait = gregarious
+    trait = patient
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 4
+    intrigue = 8
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6402.12.12 = {
+        birth = yes
+    }
+
+    6470.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+herston_9 = {
+    name = "Myrcella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = herston_6
+    mother = herston_7
+
+    trait = forgiving
+    trait = cynical
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 9
+    intrigue = 6
+    learning = 7
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    6405.1.25 = {
+        birth = yes
+    }
+
+    6473.1.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+herston_10 = {
+    name = "Emma"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = herston_6
+    mother = herston_7
+
+    trait = wrathful
+    trait = callous
+    trait = content
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 3
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    6409.10.18 = {
+        birth = yes
+    }
+
+    6490.6.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+herston_11 = {
+    name = "Gowen"
+
+    dynasty = dynasty_herston
+    religion = the_old_gods
+    culture = stormmen
+
+    father = herston_6
+    mother = herston_7
+
+    trait = craven
+    trait = sadistic
+    trait = humble
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 11
+    intrigue = 7
+    learning = 8
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6410.9.28 = {
+        birth = yes
+    }
+
+    6431.11.24 = {
+        add_spouse = herston_12
+    }
+
+    6446.2.5 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+herston_12 = {
+    name = "Brienne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = arbitrary
+    trait = vengeful
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 9
+    intrigue = 8
+    learning = 6
+    prowess = 3
+
+    trait = education_stewardship_4
+
+    6414.12.11 = {
+        birth = yes
+    }
+
+    6484.9.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+herston_13 = {
+    name = "Elanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = herston_11
+    mother = herston_12
+
+    trait = compassionate
+    trait = stubborn
+    trait = shy
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_1
+
+    6438.1.7 = {
+        birth = yes
+    }
+
+    6505.12.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+herston_14 = {
+    name = "Andar"
+
+    dynasty = dynasty_herston
+    religion = the_old_gods
+    culture = stormmen
+
+    father = herston_11
+    mother = herston_12
+
+    trait = compassionate
+    trait = gregarious
+    trait = sadistic
+
+    diplomacy = 22
+    martial = 29
+    stewardship = 13
+    intrigue = 8
+    learning = 14
+    prowess = 13
+
+    trait = education_martial_4
+
+    6442.3.1 = {
+        birth = yes
+    }
+
+    6457.10.22 = {
+        add_spouse = herston_15
+    }
+
+    6473.10.27 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+herston_15 = {
+    name = "Tyiah"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = forgiving
+    trait = ambitious
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 6
+    intrigue = 2
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_1
+
+    6440.11.24 = {
+        birth = yes
+    }
+
+    6523.9.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+herston_16 = {
+    name = "Beric"
+
+    dynasty = dynasty_herston
+    religion = the_old_gods
+    culture = stormmen
+
+    father = herston_14
+    mother = herston_15
+
+    trait = stubborn
+    trait = greedy
+    trait = lustful
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 7
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_2
+
+    6469.9.22 = {
+        birth = yes
+    }
+
+    6517.8.14 = {
+        add_spouse = herston_17
+    }
+
+    6538.1.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+herston_17 = {
+    name = "Shireen"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = fickle
+    trait = temperate
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 10
+    intrigue = 4
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6500.2.27 = {
+        birth = yes
+    }
+
+    6583.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+herston_18 = {
+    name = "Ronnet"
+
+    dynasty = dynasty_herston
+    religion = the_old_gods
+    culture = stormmen
+
+    father = herston_16
+    mother = herston_17
+
+    trait = callous
+    trait = calm
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 2
+    learning = 9
+    prowess = 10
+
+    trait = education_learning_4
+
+    6521.11.28 = {
+        birth = yes
+    }
+
+    6555.12.3 = {
+        add_spouse = herston_19
+    }
+
+    6598.3.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+herston_19 = {
+    name = "Shirea"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = trusting
+    trait = forgiving
+    trait = calm
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_martial_2
+
+    6538.1.20 = {
+        birth = yes
+    }
+
+    6617.6.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+herston_20 = {
+    name = "Dorcas"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = herston_16
+    mother = herston_17
+
+    trait = callous
+    trait = greedy
+    trait = brave
+
+    diplomacy = 10
+    martial = 2
+    stewardship = 3
+    intrigue = 7
+    learning = 8
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    6525.6.15 = {
+        birth = yes
+    }
+
+    6591.4.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
