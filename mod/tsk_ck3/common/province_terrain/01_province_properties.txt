@@ -3215,7 +3215,7 @@
 583 = {
 	winter_severity_bias = 0.45
 }
-# b_tho
+# b_bassett_weald
 584 = {
 	winter_severity_bias = 0.45
 }
@@ -3250,8 +3250,8 @@
 	winter_severity_bias = 0.45
 }
 
-## c_wensington
-# b_wensington
+## c_theydon
+# b_theydon
 592 = {
 	winter_severity_bias = 0.45
 }
@@ -3259,7 +3259,7 @@
 593 = {
 	winter_severity_bias = 0.45
 }
-# b_theydon
+# b_orn
 594 = {
 	winter_severity_bias = 0.45
 }
@@ -3269,20 +3269,6 @@
 }
 # b_loughton
 596 = {
-	winter_severity_bias = 0.45
-}
-
-## c_morewood
-# b_morewood
-597 = {
-	winter_severity_bias = 0.45
-}
-# b_ingate
-598 = {
-	winter_severity_bias = 0.45
-}
-# b_fryerning
-599 = {
 	winter_severity_bias = 0.45
 }
 
@@ -3309,6 +3295,14 @@
 604 = {
 	winter_severity_bias = 0.45
 }
+# b_marbleiron
+692 = {
+	winter_severity_bias = 0.45
+}
+# b_underbeach
+693 = {
+	winter_severity_bias = 0.45
+}
 # b_wave_tower
 605 = {
 	winter_severity_bias = 0.45
@@ -3321,7 +3315,7 @@
 606 = {
 	winter_severity_bias = 0.45
 }
-# b_bassett_weald
+# b_wesington
 607 = {
 	winter_severity_bias = 0.45
 }
@@ -3491,6 +3485,42 @@
 }
 
 
+### d_estermont
+## c_estermont
+# b_greenstone
+676 = {
+	winter_severity_bias = 0.45
+}
+# b_aiston
+677 = {
+	winter_severity_bias = 0.45
+}
+# b_oifen
+642 = {
+	winter_severity_bias = 0.45
+}
+
+## c_lyre_watch
+# b_lyre_watch
+643 = {
+	winter_severity_bias = 0.45
+}
+# b_crak
+967 = {
+	winter_severity_bias = 0.45
+}
+
+## c_ester_isle
+# b_ester_isle_keep
+1548 = {
+	winter_severity_bias = 0.45
+}
+# b_windton
+1549 = {
+	winter_severity_bias = 0.45
+}
+
+
 #### k_mistwood
 ### d_mistwood
 ## c_mistwood
@@ -3554,7 +3584,7 @@
 648 = {
 	winter_severity_bias = 0.45
 }
-# b_lockport
+# b_farlon
 649 = {
 	winter_severity_bias = 0.45
 }
@@ -3564,6 +3594,20 @@
 }
 # b_funnon
 651 = {
+	winter_severity_bias = 0.45
+}
+
+## c_lockport
+# b_lakeside
+2393 = {
+	winter_severity_bias = 0.45
+}
+# b_lockport
+2394 = {
+	winter_severity_bias = 0.45
+}
+# b_amber_grove
+2395 = {
 	winter_severity_bias = 0.45
 }
 # b_vigo
@@ -3632,10 +3676,36 @@
 665 = {
 	winter_severity_bias = 0.45
 }
+# b_battered_beach
+1766 = {
+	winter_severity_bias = 0.45
+}
 
 ## c_sober_isle
-# b_sober_hold
+# b_somber_hold
+1767 = {
+	winter_severity_bias = 0.45
+}
+# b_somber_sands
 666 = {
+	winter_severity_bias = 0.45
+}
+
+## c_misty_isle
+# b_mistton
+1550 = {
+	winter_severity_bias = 0.45
+}
+# b_yalewood
+1551 = {
+	winter_severity_bias = 0.45
+}
+# b_dorneview
+1764 = {
+	winter_severity_bias = 0.45
+}
+# b_yellow_cliffs
+1765 = {
 	winter_severity_bias = 0.45
 }
 
@@ -3691,49 +3761,17 @@
 	winter_severity_bias = 0.45
 }
 
-## c_marbleiron
-# b_mableiron_keep
-692 = {
+## c_morewood
+# b_morewood
+597 = {
 	winter_severity_bias = 0.45
 }
-# b_burstow
-693 = {
+# b_ingate
+598 = {
 	winter_severity_bias = 0.45
 }
-
-
-### d_estermont
-## c_estermont
-# b_greenstone
-676 = {
-	winter_severity_bias = 0.45
-}
-# b_aiston
-677 = {
-	winter_severity_bias = 0.45
-}
-# b_oifen
-642 = {
-	winter_severity_bias = 0.45
-}
-
-## c_lyre_watch
-# b_lyre_watch
-643 = {
-	winter_severity_bias = 0.45
-}
-# b_crak
-967 = {
-	winter_severity_bias = 0.45
-}
-
-## c_ester_isle
-# b_ester_isle_keep
-1548 = {
-	winter_severity_bias = 0.45
-}
-# b_windton
-1549 = {
+# b_fryerning
+599 = {
 	winter_severity_bias = 0.45
 }
 
@@ -3795,9 +3833,9 @@
 }
 
 
-### d_harvest_hall
-## c_harvest_hall
-# b_harvest_hall
+### d_summer_peak
+## c_summer_peak
+# b_summer_peak
 706 = {
 	winter_severity_bias = 0.45
 }
@@ -4111,6 +4149,58 @@
 }
 # b_cowplain
 774 = {
+	winter_severity_bias = 0.45
+}
+
+
+### d_harvest_hall
+## c_harvest_hall
+# b_harvest_hall
+2396 = {
+	winter_severity_bias = 0.45
+}
+# b_porde
+3360 = {
+	winter_severity_bias = 0.45
+}
+# b_greywheat
+3380 = {
+	winter_severity_bias = 0.45
+}
+# b_fallow
+4718 = {
+	winter_severity_bias = 0.45
+}
+
+## c_infeld
+# b_infeld_keep
+4719 = {
+	winter_severity_bias = 0.45
+}
+# b_feldmill
+4720 = {
+	winter_severity_bias = 0.45
+}
+# b_oldspar
+4721 = {
+	winter_severity_bias = 0.45
+}
+# b_bale
+4722 = {
+	winter_severity_bias = 0.45
+}
+
+## c_borrows
+# b_borrows
+4723 = {
+	winter_severity_bias = 0.45
+}
+# b_borrow_dyke
+4724 = {
+	winter_severity_bias = 0.45
+}
+# b_old_post
+4725 = {
 	winter_severity_bias = 0.45
 }
 
@@ -21368,39 +21458,3 @@
 # UNUSED PROVINCES
 ##################
 
-1550 = {
-	winter_severity_bias = 0.00
-}
-1551 = {
-	winter_severity_bias = 0.00
-}
-1764 = {
-	winter_severity_bias = 0.00
-}
-1765 = {
-	winter_severity_bias = 0.00
-}
-1766 = {
-	winter_severity_bias = 0.00
-}
-1767 = {
-	winter_severity_bias = 0.00
-}
-2393 = {
-	winter_severity_bias = 0.00
-}
-2394 = {
-	winter_severity_bias = 0.00
-}
-2395 = {
-	winter_severity_bias = 0.00
-}
-2396 = {
-	winter_severity_bias = 0.00
-}
-3360 = {
-	winter_severity_bias = 0.00
-}
-3380 = {
-	winter_severity_bias = 0.00
-}

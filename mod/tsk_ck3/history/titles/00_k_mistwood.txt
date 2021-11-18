@@ -3,159 +3,113 @@ k_mistwood = {
 		liege=e_stormlands
 	}
 
-	4430.10.7 = {
-        holder = mertyns_1 #Angron
-    }
-    4515.7.14 = {
-        holder = mertyns_3 #Sarmion
-    }
-    4547.4.14 = {
-        holder = mertyns_5 #Colen
-    }
-    4572.5.11 = {
-        holder = mertyns_7 #Arstan
-    }
-    4619.6.15 = {
-        holder = mertyns_9 #Anguy
-    }
-    4675.9.27 = {
-        holder = mertyns_11 #Borros
-    }
-    4727.12.14 = {
-        holder = mertyns_13 #Ethos
-    }
-    4786.3.16 = {
-        holder = mertyns_15 #Jarmyn
-    }
-    4812.3.19 = {
-        holder = mertyns_17 #Caythan
-    }
-    4880.11.6 = {
-        holder = mertyns_19 #Gulian
-    }
-    4891.1.8 = {
-        holder = mertyns_21 #Casper
-    }
-    4952.6.14 = {
-        holder = mertyns_23 #Reginald
-    }
-    4987.1.4 = {
-        holder = mertyns_25 #Beric
-    }
-    5003.7.3 = {
-        holder = mertyns_27 #Gulian
-    }
-    5071.6.14 = {
-        holder = mertyns_29 #Jonald
-    }
-    5105.7.20 = {
-        holder = mertyns_31 #Selwyn
-    }
-    5158.8.27 = {
-        holder = mertyns_33 #Simon
-    }
-    5219.8.6 = {
-        holder = mertyns_35 #Robin
-    }
-    5243.10.15 = {
-        holder = mertyns_37 #Dermot
-    }
-    5294.5.25 = {
-        holder = mertyns_39 #Allard
-    }
-    5332.8.7 = {
-        holder = mertyns_41 #Bartimos
-    }
-    5367.4.27 = {
-        holder = mertyns_43 #Bryen
-    }
-    5404.5.28 = {
-        holder = mertyns_45 #Gulian
-    }
-    5442.6.13 = {
-        holder = mertyns_47 #Theo
-    }
-    5454.11.28 = {
-        holder = mertyns_49 #Angron
-    }
-    5497.4.17 = {
-        holder = mertyns_51 #Dale
-    }
-    5539.2.21 = {
-        holder = mertyns_53 #Tommen
-    }
-    5570.1.10 = {
-        holder = mertyns_55 #Argilac
-    }
-    5627.6.26 = {
-        holder = mertyns_57 #Borros
-    }
-    5684.5.2 = {
-        holder = mertyns_59 #Borros
-    }
-    5705.2.15 = {
-        holder = mertyns_61 #Phillip
-    }
-    5767.10.25 = {
-        holder = mertyns_63 #Robert
-    }
-    5822.9.26 = {
-        holder = mertyns_65 #Brus
-    }
-    5846.9.27 = {
-        holder = mertyns_67 #Gerald
-    }
-    5921.11.9 = {
-        holder = mertyns_69 #Aemon
-    }
-    5974.9.2 = {
-        holder = mertyns_71 #Robin
-    }
-    6020.11.13 = {
-        holder = mertyns_73 #Lester
-    }
-    6073.9.23 = {
-        holder = mertyns_75 #Pearse
-    }
-    6130.1.7 = {
-        holder = mertyns_77 #Meryn
-    }
-    6205.8.11 = {
-        holder = mertyns_79 #Harbert
-    }
-    6240.8.25 = {
-        holder = mertyns_81 #Raymund
-    }
-    6248.9.2 = {
-        holder = mertyns_83 #Jon
-    }
-    6327.3.20 = {
-        holder = mertyns_85 #Hugh
-    }
-    6350.11.22 = {
-        holder = mertyns_87 #Lorys
-    }
-    6389.7.19 = {
-        holder = mertyns_89 #Halyn
-    }
-    6457.10.11 = {
-        holder = mertyns_91 #Herbert
-    }
-    6529.1.18 = {
-        holder = mertyns_93 #Jonald
-    }
-    6562.4.25 = {
-        holder = mertyns_95 #Boremund
-    }
-    6599.2.15 = {
-        holder = mertyns_97 #Balon
-    }
-    6663.5.12 = {
-        holder = mertyns_99 #Donal
-    }
-    6678.12.13 = {
-        holder = mertyns_101 #Arlan
-    }
+	6300.4.23 = {
+	    holder = mertyns_1 #Argilac
+	}
+	6367.11.26 = {
+	    holder = mertyns_3 #Pate
+	}
+	6418.8.2 = {
+	    holder = mertyns_5 #Aemon
+	}
+	6453.9.21 = {
+	    holder = mertyns_9 #Borros
+	}
+	6497.9.22 = {
+	    holder = mertyns_12 #Lomas
+	}
+	6528.3.27 = {
+	    holder = mertyns_15 #Devan
+	}
+	6558.4.19 = {
+	    holder = mertyns_17 #Ormund
+	}
+}
+d_mistwood = {
+	800.1.1={
+		liege=k_mistwood
+	}
+
+	6300.4.23 = {
+	    holder = mertyns_1 #Argilac
+	}
+	6367.11.26 = {
+	    holder = mertyns_3 #Pate
+	}
+	6418.8.2 = {
+	    holder = mertyns_5 #Aemon
+	}
+	6453.9.21 = {
+	    holder = mertyns_9 #Borros
+	}
+	6497.9.22 = {
+	    holder = mertyns_12 #Lomas
+	}
+	6528.3.27 = {
+	    holder = mertyns_15 #Devan
+	}
+	6558.4.19 = {
+	    holder = mertyns_17 #Ormund
+	}
+}
+c_mistwood = {
+	800.1.1={
+		liege=d_mistwood
+	}
+
+	6300.4.23 = {
+	    holder = mertyns_1 #Argilac
+	}
+	6367.11.26 = {
+	    holder = mertyns_3 #Pate
+	}
+	6418.8.2 = {
+	    holder = mertyns_5 #Aemon
+	}
+	6453.9.21 = {
+	    holder = mertyns_9 #Borros
+	}
+	6497.9.22 = {
+	    holder = mertyns_12 #Lomas
+	}
+	6528.3.27 = {
+	    holder = mertyns_15 #Devan
+	}
+	6558.4.19 = {
+	    holder = mertyns_17 #Ormund
+	}
+}
+c_butterfold = {
+	800.1.1={
+		liege=d_mistwood
+	}
+
+	6300.4.23 = {
+	    holder = mertyns_1 #Argilac
+	}
+	6367.11.26 = {
+	    holder = mertyns_3 #Pate
+	}
+	6418.8.2 = {
+	    holder = mertyns_5 #Aemon
+	}
+	6453.9.21 = {
+	    holder = mertyns_9 #Borros
+	}
+	6497.9.22 = {
+	    holder = mertyns_12 #Lomas
+	}
+	6528.3.27 = {
+	    holder = mertyns_15 #Devan
+	}
+	6558.4.19 = {
+	    holder = mertyns_17 #Ormund
+	}
+}
+c_janholt = {
+	800.1.1={
+		liege=d_mistwood
+	}
 }
 d_amberly = {
 	800.1.1={
@@ -163,23 +117,23 @@ d_amberly = {
 	}
 
 	6300.11.21 = {
-        holder = rogers_1 #Lester
-    }
-    6351.10.3 = {
-        holder = rogers_4 #Gunthor
-    }
-    6407.4.10 = {
-        holder = rogers_8 #Steffon
-    }
-    6466.9.3 = {
-        holder = rogers_11 #Benedict
-    }
-    6513.6.18 = {
-        holder = rogers_16 #Yonel
-    }
-    6555.11.26 = {
-        holder = rogers_18 #Colen
-    }
+	    holder = rogers_1 #Lester
+	}
+	6351.10.3 = {
+	    holder = rogers_4 #Gunthor
+	}
+	6407.4.10 = {
+	    holder = rogers_8 #Steffon
+	}
+	6466.9.3 = {
+	    holder = rogers_11 #Benedict
+	}
+	6513.6.18 = {
+	    holder = rogers_16 #Yonel
+	}
+	6555.11.26 = {
+	    holder = rogers_18 #Colen
+	}
 }
 c_amberly = {
 	800.1.1={
@@ -187,47 +141,52 @@ c_amberly = {
 	}
 
 	6300.11.21 = {
-        holder = rogers_1 #Lester
-    }
-    6351.10.3 = {
-        holder = rogers_4 #Gunthor
-    }
-    6407.4.10 = {
-        holder = rogers_8 #Steffon
-    }
-    6466.9.3 = {
-        holder = rogers_11 #Benedict
-    }
-    6513.6.18 = {
-        holder = rogers_16 #Yonel
-    }
-    6555.11.26 = {
-        holder = rogers_18 #Colen
-    }
+	    holder = rogers_1 #Lester
+	}
+	6351.10.3 = {
+	    holder = rogers_4 #Gunthor
+	}
+	6407.4.10 = {
+	    holder = rogers_8 #Steffon
+	}
+	6466.9.3 = {
+	    holder = rogers_11 #Benedict
+	}
+	6513.6.18 = {
+	    holder = rogers_16 #Yonel
+	}
+	6555.11.26 = {
+	    holder = rogers_18 #Colen
+	}
+}
+c_lockport = {
+	800.1.1={
+		liege=d_amberly
+	}
+
+	6300.4.13 = {
+	    holder = swygert_1 #Gyldayn
+	}
+	6370.7.3 = {
+	    holder = swygert_6 #Arron
+	}
+	6432.12.1 = {
+	    holder = swygert_9 #Maric
+	}
+	6494.12.1 = {
+	    holder = swygert_12 #Michael
+	}
+	6535.2.12 = {
+	    holder = swygert_14 #Argilac
+	}
+	6579.12.22 = {
+	    holder = swygert_16 #Clifford
+	}
 }
 c_amber_woods = {
 	800.1.1={
 		liege=d_amberly
 	}
-
-	6300.11.21 = {
-        holder = rogers_1 #Lester
-    }
-    6351.10.3 = {
-        holder = rogers_4 #Gunthor
-    }
-    6407.4.10 = {
-        holder = rogers_8 #Steffon
-    }
-    6466.9.3 = {
-        holder = rogers_11 #Benedict
-    }
-    6513.6.18 = {
-        holder = rogers_16 #Yonel
-    }
-    6555.11.26 = {
-        holder = rogers_18 #Colen
-    }
 }
 c_bluefog = {
 	800.1.1={
@@ -240,23 +199,23 @@ c_swygert = {
 	}
 
 	6300.4.13 = {
-        holder = swygert_1 #Gyldayn
-    }
-    6370.7.3 = {
-        holder = swygert_6 #Arron
-    }
-    6432.12.1 = {
-        holder = swygert_9 #Maric
-    }
-    6494.12.1 = {
-        holder = swygert_12 #Michael
-    }
-    6535.2.12 = {
-        holder = swygert_14 #Argilac
-    }
-    6579.12.22 = {
-        holder = swygert_16 #Clifford
-    }
+	    holder = swygert_1 #Gyldayn
+	}
+	6370.7.3 = {
+	    holder = swygert_6 #Arron
+	}
+	6432.12.1 = {
+	    holder = swygert_9 #Maric
+	}
+	6494.12.1 = {
+	    holder = swygert_12 #Michael
+	}
+	6535.2.12 = {
+	    holder = swygert_14 #Argilac
+	}
+	6579.12.22 = {
+	    holder = swygert_16 #Clifford
+	}
 }
 d_wrath_isles = {
 	800.1.1={
@@ -273,332 +232,9 @@ c_sober_isle = {
 		liege=d_wrath_isles
 	}
 }
-d_mistwood = {
+c_misty_isle = {
 	800.1.1={
-		liege=k_mistwood
-	}
-
-	4430.10.7 = {
-        holder = mertyns_1 #Angron
-    }
-    4515.7.14 = {
-        holder = mertyns_3 #Sarmion
-    }
-    4547.4.14 = {
-        holder = mertyns_5 #Colen
-    }
-    4572.5.11 = {
-        holder = mertyns_7 #Arstan
-    }
-    4619.6.15 = {
-        holder = mertyns_9 #Anguy
-    }
-    4675.9.27 = {
-        holder = mertyns_11 #Borros
-    }
-    4727.12.14 = {
-        holder = mertyns_13 #Ethos
-    }
-    4786.3.16 = {
-        holder = mertyns_15 #Jarmyn
-    }
-    4812.3.19 = {
-        holder = mertyns_17 #Caythan
-    }
-    4880.11.6 = {
-        holder = mertyns_19 #Gulian
-    }
-    4891.1.8 = {
-        holder = mertyns_21 #Casper
-    }
-    4952.6.14 = {
-        holder = mertyns_23 #Reginald
-    }
-    4987.1.4 = {
-        holder = mertyns_25 #Beric
-    }
-    5003.7.3 = {
-        holder = mertyns_27 #Gulian
-    }
-    5071.6.14 = {
-        holder = mertyns_29 #Jonald
-    }
-    5105.7.20 = {
-        holder = mertyns_31 #Selwyn
-    }
-    5158.8.27 = {
-        holder = mertyns_33 #Simon
-    }
-    5219.8.6 = {
-        holder = mertyns_35 #Robin
-    }
-    5243.10.15 = {
-        holder = mertyns_37 #Dermot
-    }
-    5294.5.25 = {
-        holder = mertyns_39 #Allard
-    }
-    5332.8.7 = {
-        holder = mertyns_41 #Bartimos
-    }
-    5367.4.27 = {
-        holder = mertyns_43 #Bryen
-    }
-    5404.5.28 = {
-        holder = mertyns_45 #Gulian
-    }
-    5442.6.13 = {
-        holder = mertyns_47 #Theo
-    }
-    5454.11.28 = {
-        holder = mertyns_49 #Angron
-    }
-    5497.4.17 = {
-        holder = mertyns_51 #Dale
-    }
-    5539.2.21 = {
-        holder = mertyns_53 #Tommen
-    }
-    5570.1.10 = {
-        holder = mertyns_55 #Argilac
-    }
-    5627.6.26 = {
-        holder = mertyns_57 #Borros
-    }
-    5684.5.2 = {
-        holder = mertyns_59 #Borros
-    }
-    5705.2.15 = {
-        holder = mertyns_61 #Phillip
-    }
-    5767.10.25 = {
-        holder = mertyns_63 #Robert
-    }
-    5822.9.26 = {
-        holder = mertyns_65 #Brus
-    }
-    5846.9.27 = {
-        holder = mertyns_67 #Gerald
-    }
-    5921.11.9 = {
-        holder = mertyns_69 #Aemon
-    }
-    5974.9.2 = {
-        holder = mertyns_71 #Robin
-    }
-    6020.11.13 = {
-        holder = mertyns_73 #Lester
-    }
-    6073.9.23 = {
-        holder = mertyns_75 #Pearse
-    }
-    6130.1.7 = {
-        holder = mertyns_77 #Meryn
-    }
-    6205.8.11 = {
-        holder = mertyns_79 #Harbert
-    }
-    6240.8.25 = {
-        holder = mertyns_81 #Raymund
-    }
-    6248.9.2 = {
-        holder = mertyns_83 #Jon
-    }
-    6327.3.20 = {
-        holder = mertyns_85 #Hugh
-    }
-    6350.11.22 = {
-        holder = mertyns_87 #Lorys
-    }
-    6389.7.19 = {
-        holder = mertyns_89 #Halyn
-    }
-    6457.10.11 = {
-        holder = mertyns_91 #Herbert
-    }
-    6529.1.18 = {
-        holder = mertyns_93 #Jonald
-    }
-    6562.4.25 = {
-        holder = mertyns_95 #Boremund
-    }
-    6599.2.15 = {
-        holder = mertyns_97 #Balon
-    }
-    6663.5.12 = {
-        holder = mertyns_99 #Donal
-    }
-    6678.12.13 = {
-        holder = mertyns_101 #Arlan
-    }
-}
-c_mistwood = {
-	800.1.1={
-		liege=d_mistwood
-	}
-
-	4430.10.7 = {
-        holder = mertyns_1 #Angron
-    }
-    4515.7.14 = {
-        holder = mertyns_3 #Sarmion
-    }
-    4547.4.14 = {
-        holder = mertyns_5 #Colen
-    }
-    4572.5.11 = {
-        holder = mertyns_7 #Arstan
-    }
-    4619.6.15 = {
-        holder = mertyns_9 #Anguy
-    }
-    4675.9.27 = {
-        holder = mertyns_11 #Borros
-    }
-    4727.12.14 = {
-        holder = mertyns_13 #Ethos
-    }
-    4786.3.16 = {
-        holder = mertyns_15 #Jarmyn
-    }
-    4812.3.19 = {
-        holder = mertyns_17 #Caythan
-    }
-    4880.11.6 = {
-        holder = mertyns_19 #Gulian
-    }
-    4891.1.8 = {
-        holder = mertyns_21 #Casper
-    }
-    4952.6.14 = {
-        holder = mertyns_23 #Reginald
-    }
-    4987.1.4 = {
-        holder = mertyns_25 #Beric
-    }
-    5003.7.3 = {
-        holder = mertyns_27 #Gulian
-    }
-    5071.6.14 = {
-        holder = mertyns_29 #Jonald
-    }
-    5105.7.20 = {
-        holder = mertyns_31 #Selwyn
-    }
-    5158.8.27 = {
-        holder = mertyns_33 #Simon
-    }
-    5219.8.6 = {
-        holder = mertyns_35 #Robin
-    }
-    5243.10.15 = {
-        holder = mertyns_37 #Dermot
-    }
-    5294.5.25 = {
-        holder = mertyns_39 #Allard
-    }
-    5332.8.7 = {
-        holder = mertyns_41 #Bartimos
-    }
-    5367.4.27 = {
-        holder = mertyns_43 #Bryen
-    }
-    5404.5.28 = {
-        holder = mertyns_45 #Gulian
-    }
-    5442.6.13 = {
-        holder = mertyns_47 #Theo
-    }
-    5454.11.28 = {
-        holder = mertyns_49 #Angron
-    }
-    5497.4.17 = {
-        holder = mertyns_51 #Dale
-    }
-    5539.2.21 = {
-        holder = mertyns_53 #Tommen
-    }
-    5570.1.10 = {
-        holder = mertyns_55 #Argilac
-    }
-    5627.6.26 = {
-        holder = mertyns_57 #Borros
-    }
-    5684.5.2 = {
-        holder = mertyns_59 #Borros
-    }
-    5705.2.15 = {
-        holder = mertyns_61 #Phillip
-    }
-    5767.10.25 = {
-        holder = mertyns_63 #Robert
-    }
-    5822.9.26 = {
-        holder = mertyns_65 #Brus
-    }
-    5846.9.27 = {
-        holder = mertyns_67 #Gerald
-    }
-    5921.11.9 = {
-        holder = mertyns_69 #Aemon
-    }
-    5974.9.2 = {
-        holder = mertyns_71 #Robin
-    }
-    6020.11.13 = {
-        holder = mertyns_73 #Lester
-    }
-    6073.9.23 = {
-        holder = mertyns_75 #Pearse
-    }
-    6130.1.7 = {
-        holder = mertyns_77 #Meryn
-    }
-    6205.8.11 = {
-        holder = mertyns_79 #Harbert
-    }
-    6240.8.25 = {
-        holder = mertyns_81 #Raymund
-    }
-    6248.9.2 = {
-        holder = mertyns_83 #Jon
-    }
-    6327.3.20 = {
-        holder = mertyns_85 #Hugh
-    }
-    6350.11.22 = {
-        holder = mertyns_87 #Lorys
-    }
-    6389.7.19 = {
-        holder = mertyns_89 #Halyn
-    }
-    6457.10.11 = {
-        holder = mertyns_91 #Herbert
-    }
-    6529.1.18 = {
-        holder = mertyns_93 #Jonald
-    }
-    6562.4.25 = {
-        holder = mertyns_95 #Boremund
-    }
-    6599.2.15 = {
-        holder = mertyns_97 #Balon
-    }
-    6663.5.12 = {
-        holder = mertyns_99 #Donal
-    }
-    6678.12.13 = {
-        holder = mertyns_101 #Arlan
-    }
-}
-c_butterfold = {
-	800.1.1={
-		liege=d_mistwood
-	}
-}
-c_janholt = {
-	800.1.1={
-		liege=d_mistwood
+		liege=d_wrath_isles
 	}
 }
 d_weeping_coast = {
@@ -607,26 +243,26 @@ d_weeping_coast = {
 	}
 
 	6300.7.19 = {
-        holder = whitehead_1 #Beric
-    }
-    6370.6.5 = {
-        holder = whitehead_3 #Gulian
-    }
-    6422.6.24 = {
-        holder = whitehead_8 #Harlan
-    }
-    6441.9.21 = {
-        holder = whitehead_10 #Tommen
-    }
-    6499.9.24 = {
-        holder = whitehead_12 #Guyard
-    }
-    6538.10.10 = {
-        holder = whitehead_14 #Phillip
-    }
-    6601.7.12 = {
-        holder = whitehead_16 #Harrold
-    }
+	    holder = whitehead_1 #Beric
+	}
+	6370.6.5 = {
+	    holder = whitehead_3 #Gulian
+	}
+	6422.6.24 = {
+	    holder = whitehead_8 #Harlan
+	}
+	6441.9.21 = {
+	    holder = whitehead_10 #Tommen
+	}
+	6499.9.24 = {
+	    holder = whitehead_12 #Guyard
+	}
+	6538.10.10 = {
+	    holder = whitehead_14 #Phillip
+	}
+	6601.7.12 = {
+	    holder = whitehead_16 #Harrold
+	}
 }
 c_weeping_coast = {
 	800.1.1={
@@ -634,597 +270,61 @@ c_weeping_coast = {
 	}
 
 	6300.7.19 = {
-        holder = whitehead_1 #Beric
-    }
-    6370.6.5 = {
-        holder = whitehead_3 #Gulian
-    }
-    6422.6.24 = {
-        holder = whitehead_8 #Harlan
-    }
-    6441.9.21 = {
-        holder = whitehead_10 #Tommen
-    }
-    6499.9.24 = {
-        holder = whitehead_12 #Guyard
-    }
-    6538.10.10 = {
-        holder = whitehead_14 #Phillip
-    }
-    6601.7.12 = {
-        holder = whitehead_16 #Harrold
-    }
+	    holder = whitehead_1 #Beric
+	}
+	6370.6.5 = {
+	    holder = whitehead_3 #Gulian
+	}
+	6422.6.24 = {
+	    holder = whitehead_8 #Harlan
+	}
+	6441.9.21 = {
+	    holder = whitehead_10 #Tommen
+	}
+	6499.9.24 = {
+	    holder = whitehead_12 #Guyard
+	}
+	6538.10.10 = {
+	    holder = whitehead_14 #Phillip
+	}
+	6601.7.12 = {
+	    holder = whitehead_16 #Harrold
+	}
 }
 c_last_coast = {
 	800.1.1={
 		liege=d_weeping_coast
 	}
-
-	6300.7.19 = {
-        holder = whitehead_1 #Beric
-    }
-    6370.6.5 = {
-        holder = whitehead_3 #Gulian
-    }
-    6422.6.24 = {
-        holder = whitehead_8 #Harlan
-    }
-    6441.9.21 = {
-        holder = whitehead_10 #Tommen
-    }
-    6499.9.24 = {
-        holder = whitehead_12 #Guyard
-    }
-    6538.10.10 = {
-        holder = whitehead_14 #Phillip
-    }
-    6601.7.12 = {
-        holder = whitehead_16 #Harrold
-    }
 }
 c_maidencrow = {
 	800.1.1={
 		liege=d_weeping_coast
 	}
 }
-c_marbleiron = {
+c_morewood = {
 	800.1.1={
 		liege=d_weeping_coast
 	}
-}
-d_estermont = {
-	800.1.1={
-		liege=k_mistwood
-	}
 
-	4450.5.22 = {
-		holder = estermont_1 #Rickard
+	6300.7.19 = {
+	    holder = whitehead_1 #Beric
 	}
-	4532.9.18 = {
-		holder = estermont_3 #Casper
+	6370.6.5 = {
+	    holder = whitehead_3 #Gulian
 	}
-	4574.3.28 = {
-		holder = estermont_5 #Davos
+	6422.6.24 = {
+	    holder = whitehead_8 #Harlan
 	}
-	4632.1.11 = {
-		holder = estermont_7 #Andrion
+	6441.9.21 = {
+	    holder = whitehead_10 #Tommen
 	}
-	4672.12.27 = {
-		holder = estermont_9 #Corwen
+	6499.9.24 = {
+	    holder = whitehead_12 #Guyard
 	}
-	4676.9.13 = {
-		holder = estermont_11 #Gladden
+	6538.10.10 = {
+	    holder = whitehead_14 #Phillip
 	}
-	4739.1.5 = {
-		holder = estermont_13 #Gulian
-	}
-	4756.4.16 = {
-		holder = estermont_15 #Maric
-	}
-	4780.1.15 = {
-		holder = estermont_17 #Willem
-	}
-	4861.4.7 = {
-		holder = estermont_19 #Joffrey
-	}
-	4906.1.24 = {
-		holder = estermont_21 #Lester
-	}
-	4941.4.2 = {
-		holder = estermont_23 #Arlan
-	}
-	5010.6.17 = {
-		holder = estermont_25 #Jerion
-	}
-	5060.9.7 = {
-		holder = estermont_27 #Aemon
-	}
-	5109.11.5 = {
-		holder = estermont_29 #Sebastion
-	}
-	5147.7.25 = {
-		holder = estermont_31 #Alyn
-	}
-	5203.11.28 = {
-		holder = estermont_33 #Benedict
-	}
-	5238.11.19 = {
-		holder = estermont_35 #Phillip
-	}
-	5277.5.20 = {
-		holder = estermont_37 #Ethos
-	}
-	5307.5.13 = {
-		holder = estermont_39 #Richard
-	}
-	5383.11.13 = {
-		holder = estermont_41 #Ethos
-	}
-	5426.12.19 = {
-		holder = estermont_43 #Jerion
-	}
-	5440.2.5 = {
-		holder = estermont_45 #Lyonel
-	}
-	5473.2.7 = {
-		holder = estermont_47 #Matthos
-	}
-	5505.10.20 = {
-		holder = estermont_49 #Theo
-	}
-	5545.7.14 = {
-		holder = estermont_51 #Arstan
-	}
-	5601.3.2 = {
-		holder = estermont_53 #Rickard
-	}
-	5652.4.8 = {
-		holder = estermont_55 #Pearse
-	}
-	5682.1.25 = {
-		holder = estermont_57 #Andrew
-	}
-	5741.9.21 = {
-		holder = estermont_59 #Terrence
-	}
-	5758.12.22 = {
-		holder = estermont_61 #Raymund
-	}
-	5796.8.20 = {
-		holder = estermont_63 #Simon
-	}
-	5824.3.14 = {
-		holder = estermont_65 #Raymund
-	}
-	5885.8.25 = {
-		holder = estermont_67 #Matthos
-	}
-	5940.8.17 = {
-		holder = estermont_69 #Matthos
-	}
-	5966.6.13 = {
-		holder = estermont_71 #Arron
-	}
-	5947.8.26 = {
-		holder = estermont_73 #Ethos
-	}
-	5972.12.7 = {
-		holder = estermont_75 #Stannis
-	}
-	6037.2.26 = {
-		holder = estermont_77 #Beric
-	}
-	6062.11.6 = {
-		holder = estermont_79 #Halyn
-	}
-	6085.5.14 = {
-		holder = estermont_81 #Arstan
-	}
-	6146.9.13 = {
-		holder = estermont_83 #Bryce
-	}
-	6116.12.13 = {
-		holder = estermont_85 #Jarmyn
-	}
-	6193.9.9 = {
-		holder = estermont_87 #Allard
-	}
-	6238.6.16 = {
-		holder = estermont_89 #Corwen
-	}
-	6236.11.28 = {
-		holder = estermont_91 #Dale
-	}
-	6298.8.25 = {
-		holder = estermont_93 #Clifford
-	}
-	6361.2.27 = {
-		holder = estermont_95 #Edric
-	}
-	6376.11.10 = {
-		holder = estermont_97 #Jon
-	}
-	6431.10.15 = {
-		holder = estermont_99 #Andren
-	}
-	6484.9.19 = {
-		holder = estermont_101 #Edric
-	}
-	6545.8.12 = {
-		holder = estermont_103 #Florian
-	}
-	6613.9.10 = {
-		holder = estermont_105 #Criston
-	}
-	6632.2.25 = {
-		holder = estermont_108 #Goodwin
-	}
-	6667.8.23 = {
-		holder = estermont_110 #Andar
-	}
-	6737.12.9 = {
-		holder = estermont_112 #Barristan
-	}
-	6775.12.13 = {
-		holder = estermont_115 #Clifford
-	}
-}
-c_estermont = {
-	800.1.1={
-		liege=d_estermont
-	}
-
-	4450.5.22 = {
-		holder = estermont_1 #Rickard
-	}
-	4532.9.18 = {
-		holder = estermont_3 #Casper
-	}
-	4574.3.28 = {
-		holder = estermont_5 #Davos
-	}
-	4632.1.11 = {
-		holder = estermont_7 #Andrion
-	}
-	4672.12.27 = {
-		holder = estermont_9 #Corwen
-	}
-	4676.9.13 = {
-		holder = estermont_11 #Gladden
-	}
-	4739.1.5 = {
-		holder = estermont_13 #Gulian
-	}
-	4756.4.16 = {
-		holder = estermont_15 #Maric
-	}
-	4780.1.15 = {
-		holder = estermont_17 #Willem
-	}
-	4861.4.7 = {
-		holder = estermont_19 #Joffrey
-	}
-	4906.1.24 = {
-		holder = estermont_21 #Lester
-	}
-	4941.4.2 = {
-		holder = estermont_23 #Arlan
-	}
-	5010.6.17 = {
-		holder = estermont_25 #Jerion
-	}
-	5060.9.7 = {
-		holder = estermont_27 #Aemon
-	}
-	5109.11.5 = {
-		holder = estermont_29 #Sebastion
-	}
-	5147.7.25 = {
-		holder = estermont_31 #Alyn
-	}
-	5203.11.28 = {
-		holder = estermont_33 #Benedict
-	}
-	5238.11.19 = {
-		holder = estermont_35 #Phillip
-	}
-	5277.5.20 = {
-		holder = estermont_37 #Ethos
-	}
-	5307.5.13 = {
-		holder = estermont_39 #Richard
-	}
-	5383.11.13 = {
-		holder = estermont_41 #Ethos
-	}
-	5426.12.19 = {
-		holder = estermont_43 #Jerion
-	}
-	5440.2.5 = {
-		holder = estermont_45 #Lyonel
-	}
-	5473.2.7 = {
-		holder = estermont_47 #Matthos
-	}
-	5505.10.20 = {
-		holder = estermont_49 #Theo
-	}
-	5545.7.14 = {
-		holder = estermont_51 #Arstan
-	}
-	5601.3.2 = {
-		holder = estermont_53 #Rickard
-	}
-	5652.4.8 = {
-		holder = estermont_55 #Pearse
-	}
-	5682.1.25 = {
-		holder = estermont_57 #Andrew
-	}
-	5741.9.21 = {
-		holder = estermont_59 #Terrence
-	}
-	5758.12.22 = {
-		holder = estermont_61 #Raymund
-	}
-	5796.8.20 = {
-		holder = estermont_63 #Simon
-	}
-	5824.3.14 = {
-		holder = estermont_65 #Raymund
-	}
-	5885.8.25 = {
-		holder = estermont_67 #Matthos
-	}
-	5940.8.17 = {
-		holder = estermont_69 #Matthos
-	}
-	5966.6.13 = {
-		holder = estermont_71 #Arron
-	}
-	5947.8.26 = {
-		holder = estermont_73 #Ethos
-	}
-	5972.12.7 = {
-		holder = estermont_75 #Stannis
-	}
-	6037.2.26 = {
-		holder = estermont_77 #Beric
-	}
-	6062.11.6 = {
-		holder = estermont_79 #Halyn
-	}
-	6085.5.14 = {
-		holder = estermont_81 #Arstan
-	}
-	6146.9.13 = {
-		holder = estermont_83 #Bryce
-	}
-	6116.12.13 = {
-		holder = estermont_85 #Jarmyn
-	}
-	6193.9.9 = {
-		holder = estermont_87 #Allard
-	}
-	6238.6.16 = {
-		holder = estermont_89 #Corwen
-	}
-	6236.11.28 = {
-		holder = estermont_91 #Dale
-	}
-	6298.8.25 = {
-		holder = estermont_93 #Clifford
-	}
-	6361.2.27 = {
-		holder = estermont_95 #Edric
-	}
-	6376.11.10 = {
-		holder = estermont_97 #Jon
-	}
-	6431.10.15 = {
-		holder = estermont_99 #Andren
-	}
-	6484.9.19 = {
-		holder = estermont_101 #Edric
-	}
-	6545.8.12 = {
-		holder = estermont_103 #Florian
-	}
-	6613.9.10 = {
-		holder = estermont_105 #Criston
-	}
-	6632.2.25 = {
-		holder = estermont_108 #Goodwin
-	}
-	6667.8.23 = {
-		holder = estermont_110 #Andar
-	}
-	6737.12.9 = {
-		holder = estermont_112 #Barristan
-	}
-	6775.12.13 = {
-		holder = estermont_115 #Clifford
-	}
-}
-c_lyre_watch = {
-	800.1.1={
-		liege=d_estermont
-	}
-
-	4450.5.22 = {
-		holder = estermont_1 #Rickard
-	}
-	4532.9.18 = {
-		holder = estermont_3 #Casper
-	}
-	4574.3.28 = {
-		holder = estermont_5 #Davos
-	}
-	4632.1.11 = {
-		holder = estermont_7 #Andrion
-	}
-	4672.12.27 = {
-		holder = estermont_9 #Corwen
-	}
-	4676.9.13 = {
-		holder = estermont_11 #Gladden
-	}
-	4739.1.5 = {
-		holder = estermont_13 #Gulian
-	}
-	4756.4.16 = {
-		holder = estermont_15 #Maric
-	}
-	4780.1.15 = {
-		holder = estermont_17 #Willem
-	}
-	4861.4.7 = {
-		holder = estermont_19 #Joffrey
-	}
-	4906.1.24 = {
-		holder = estermont_21 #Lester
-	}
-	4941.4.2 = {
-		holder = estermont_23 #Arlan
-	}
-	5010.6.17 = {
-		holder = estermont_25 #Jerion
-	}
-	5060.9.7 = {
-		holder = estermont_27 #Aemon
-	}
-	5109.11.5 = {
-		holder = estermont_29 #Sebastion
-	}
-	5147.7.25 = {
-		holder = estermont_31 #Alyn
-	}
-	5203.11.28 = {
-		holder = estermont_33 #Benedict
-	}
-	5238.11.19 = {
-		holder = estermont_35 #Phillip
-	}
-	5277.5.20 = {
-		holder = estermont_37 #Ethos
-	}
-	5307.5.13 = {
-		holder = estermont_39 #Richard
-	}
-	5383.11.13 = {
-		holder = estermont_41 #Ethos
-	}
-	5426.12.19 = {
-		holder = estermont_43 #Jerion
-	}
-	5440.2.5 = {
-		holder = estermont_45 #Lyonel
-	}
-	5473.2.7 = {
-		holder = estermont_47 #Matthos
-	}
-	5505.10.20 = {
-		holder = estermont_49 #Theo
-	}
-	5545.7.14 = {
-		holder = estermont_51 #Arstan
-	}
-	5601.3.2 = {
-		holder = estermont_53 #Rickard
-	}
-	5652.4.8 = {
-		holder = estermont_55 #Pearse
-	}
-	5682.1.25 = {
-		holder = estermont_57 #Andrew
-	}
-	5741.9.21 = {
-		holder = estermont_59 #Terrence
-	}
-	5758.12.22 = {
-		holder = estermont_61 #Raymund
-	}
-	5796.8.20 = {
-		holder = estermont_63 #Simon
-	}
-	5824.3.14 = {
-		holder = estermont_65 #Raymund
-	}
-	5885.8.25 = {
-		holder = estermont_67 #Matthos
-	}
-	5940.8.17 = {
-		holder = estermont_69 #Matthos
-	}
-	5966.6.13 = {
-		holder = estermont_71 #Arron
-	}
-	5947.8.26 = {
-		holder = estermont_73 #Ethos
-	}
-	5972.12.7 = {
-		holder = estermont_75 #Stannis
-	}
-	6037.2.26 = {
-		holder = estermont_77 #Beric
-	}
-	6062.11.6 = {
-		holder = estermont_79 #Halyn
-	}
-	6085.5.14 = {
-		holder = estermont_81 #Arstan
-	}
-	6146.9.13 = {
-		holder = estermont_83 #Bryce
-	}
-	6116.12.13 = {
-		holder = estermont_85 #Jarmyn
-	}
-	6193.9.9 = {
-		holder = estermont_87 #Allard
-	}
-	6238.6.16 = {
-		holder = estermont_89 #Corwen
-	}
-	6236.11.28 = {
-		holder = estermont_91 #Dale
-	}
-	6298.8.25 = {
-		holder = estermont_93 #Clifford
-	}
-	6361.2.27 = {
-		holder = estermont_95 #Edric
-	}
-	6376.11.10 = {
-		holder = estermont_97 #Jon
-	}
-	6431.10.15 = {
-		holder = estermont_99 #Andren
-	}
-	6484.9.19 = {
-		holder = estermont_101 #Edric
-	}
-	6545.8.12 = {
-		holder = estermont_103 #Florian
-	}
-	6613.9.10 = {
-		holder = estermont_105 #Criston
-	}
-	6632.2.25 = {
-		holder = estermont_108 #Goodwin
-	}
-	6667.8.23 = {
-		holder = estermont_110 #Andar
-	}
-	6737.12.9 = {
-		holder = estermont_112 #Barristan
-	}
-	6775.12.13 = {
-		holder = estermont_115 #Clifford
-	}
-}
-c_ester_isle = {
-	800.1.1={
-		liege=d_estermont
+	6601.7.12 = {
+	    holder = whitehead_16 #Harrold
 	}
 }

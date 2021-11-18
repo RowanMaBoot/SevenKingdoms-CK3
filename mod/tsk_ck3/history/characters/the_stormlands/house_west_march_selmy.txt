@@ -1,0 +1,676 @@
+selmy_1 = {
+    name = "Leobald"
+
+    dynasty = dynasty_selmy
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = patient
+    trait = content
+    trait = callous
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 4
+    intrigue = 5
+    learning = 2
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6300.6.9 = {
+        birth = yes
+    }
+
+    6320.8.27 = {
+        add_spouse = selmy_2
+    }
+
+    6382.1.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+selmy_2 = {
+    name = "Elanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = paranoid
+    trait = wrathful
+    trait = ambitious
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 3
+    intrigue = 7
+    learning = 6
+    prowess = 9
+
+    trait = education_martial_2
+
+    6303.3.28 = {
+        birth = yes
+    }
+
+    6370.7.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+selmy_3 = {
+    name = "Bartimos"
+
+    dynasty = dynasty_selmy
+    religion = the_old_gods
+    culture = marchmen
+
+    father = selmy_1
+    mother = selmy_2
+
+    trait = diligent
+    trait = fickle
+    trait = wrathful
+
+    diplomacy = 20
+    martial = 15
+    stewardship = 16
+    intrigue = 19
+    learning = 24
+    prowess = 22
+
+    trait = education_learning_4
+
+    6326.12.25 = {
+        birth = yes
+    }
+
+    6344.7.4 = {
+        add_spouse = selmy_4
+    }
+
+    6404.5.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+selmy_4 = {
+    name = "Jena"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = vengeful
+    trait = diligent
+    trait = ambitious
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 11
+
+    trait = education_martial_3
+
+    6327.8.24 = {
+        birth = yes
+    }
+
+    6409.8.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+selmy_5 = {
+    name = "Melara"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = selmy_3
+    mother = selmy_4
+
+    trait = stubborn
+    trait = lustful
+    trait = cynical
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_2
+
+    6344.6.17 = {
+        birth = yes
+    }
+
+    6418.4.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+selmy_6 = {
+    name = "Ronald"
+
+    dynasty = dynasty_selmy
+    religion = the_old_gods
+    culture = marchmen
+
+    father = selmy_3
+    mother = selmy_4
+
+    trait = cynical
+    trait = wrathful
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6345.12.28 = {
+        birth = yes
+    }
+
+    6376.10.27 = {
+        add_spouse = selmy_7
+    }
+
+    6415.4.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+selmy_7 = {
+    name = "Kyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = paranoid
+    trait = sadistic
+    trait = brave
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 4
+    intrigue = 5
+    learning = 6
+    prowess = 9
+
+    trait = education_martial_2
+
+    6359.2.14 = {
+        birth = yes
+    }
+
+    6441.4.14 = {
+        death = { death_reason = death_accident  }
+    }
+}
+
+selmy_8 = {
+    name = "Edric"
+
+    dynasty = dynasty_selmy
+    religion = the_old_gods
+    culture = marchmen
+
+    father = selmy_6
+    mother = selmy_7
+
+    trait = ambitious
+    trait = craven
+    trait = cynical
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 2
+    intrigue = 9
+    learning = 4
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6379.3.1 = {
+        birth = yes
+    }
+
+    6406.11.26 = {
+        add_spouse = selmy_9
+    }
+
+    6448.6.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+selmy_9 = {
+    name = "Genna"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = temperate
+    trait = paranoid
+    trait = diligent
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_4
+
+    6389.10.25 = {
+        birth = yes
+    }
+
+    6466.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+selmy_10 = {
+    name = "Stannis"
+
+    dynasty = dynasty_selmy
+    religion = the_old_gods
+    culture = marchmen
+
+    father = selmy_8
+    mother = selmy_9
+
+    trait = arrogant
+    trait = vengeful
+    trait = just
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 3
+    intrigue = 5
+    learning = 4
+    prowess = 10
+
+    trait = education_diplomacy_2
+
+    6427.12.6 = {
+        birth = yes
+    }
+
+    6468.2.3 = {
+        add_spouse = selmy_11
+    }
+
+    6478.12.13 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+selmy_11 = {
+    name = "Myrcella"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = lazy
+    trait = temperate
+    trait = vengeful
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    6451.7.8 = {
+        birth = yes
+    }
+
+    6529.5.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+selmy_12 = {
+    name = "Aemon"
+
+    dynasty = dynasty_selmy
+    religion = the_old_gods
+    culture = marchmen
+
+    father = selmy_10
+    mother = selmy_11
+
+    trait = brave
+    trait = diligent
+    trait = callous
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 7
+    intrigue = 5
+    learning = 9
+    prowess = 3
+
+    trait = education_learning_3
+
+    6469.5.2 = {
+        birth = yes
+    }
+
+    6511.7.7 = {
+        add_spouse = selmy_13
+    }
+
+    6553.12.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+selmy_13 = {
+    name = "Megga"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = greedy
+    trait = paranoid
+    trait = calm
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 10
+    prowess = 4
+
+    trait = education_learning_3
+
+    6494.10.28 = {
+        birth = yes
+    }
+
+    6570.10.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+selmy_14 = {
+    name = "Borros"
+
+    dynasty = dynasty_selmy
+    religion = the_old_gods
+    culture = marchmen
+
+    father = selmy_12
+    mother = selmy_13
+
+    trait = shy
+    trait = sadistic
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    6520.6.24 = {
+        birth = yes
+    }
+
+    6543.3.6 = {
+        add_spouse = selmy_15
+    }
+
+    6587.4.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+selmy_15 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = fickle
+    trait = wrathful
+    trait = just
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 9
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6526.5.12 = {
+        birth = yes
+    }
+
+    6600.11.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+selmy_16 = {
+    name = "Criston"
+
+    dynasty = dynasty_selmy
+    religion = the_old_gods
+    culture = marchmen
+
+    father = selmy_12
+    mother = selmy_13
+
+    trait = paranoid
+    trait = gluttonous
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_learning_2
+
+    6527.3.7 = {
+        birth = yes
+    }
+
+    6555.9.6 = {
+        add_spouse = selmy_17
+    }
+
+    6608.8.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+selmy_17 = {
+    name = "Jenn"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = lustful
+    trait = diligent
+    trait = content
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_3
+
+    6538.12.11 = {
+        birth = yes
+    }
+
+    6607.6.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+selmy_18 = {
+    name = "Bethany"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = selmy_12
+    mother = selmy_13
+
+    trait = lazy
+    trait = arbitrary
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6530.8.28 = {
+        birth = yes
+    }
+
+    6577.9.1 = {
+        death = { death_reason = death_treatment }
+    }
+}
+
+selmy_19 = {
+    name = "Helicent"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = selmy_10
+    mother = selmy_11
+
+    trait = content
+    trait = diligent
+    trait = sadistic
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6472.11.23 = {
+        birth = yes
+    }
+
+    6551.6.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+selmy_20 = {
+    name = "Tia"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = selmy_6
+    mother = selmy_7
+
+    trait = craven
+    trait = temperate
+    trait = calm
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    6383.8.8 = {
+        birth = yes
+    }
+
+    6466.7.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+selmy_21 = {
+    name = "Cerella"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = selmy_6
+    mother = selmy_7
+
+    trait = just
+    trait = lustful
+    trait = zealous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 9
+    intrigue = 6
+    learning = 10
+    prowess = 6
+
+    trait = education_learning_3
+
+    6389.1.3 = {
+        birth = yes
+    }
+
+    6447.9.14 = {
+        death = { death_reason = death_typhus }
+    }
+}

@@ -68,8 +68,8 @@
 	holding = castle_holding
 }
 
-649 = {	# Lockport
-	holding = city_holding
+649 = {	# Farlon
+	holding = none
 }
 
 650 = {	# Farthing
@@ -77,6 +77,22 @@
 }
 
 651 = {	# Funnon
+	holding = none
+}
+
+
+###c_lockport
+2393 = {	# Lakeside
+	culture = wrathmen
+	religion = the_old_gods
+	holding = castle_holding
+}
+
+2394 = {	# Lockport
+	holding = city_holding
+}
+
+2395 = {	# Amber Grove
 	holding = none
 }
 
@@ -154,12 +170,40 @@
 	holding = castle_holding
 }
 
+1766 = {	# Battered Beach
+	holding = none
+}
+
 
 ###c_sober_isle
-666 = {	# Sober Hold
+1767 = {	# Somber Hold
 	culture = wrathmen
 	religion = the_old_gods
 	holding = castle_holding
+}
+
+666 = {	# Somber Sands
+	holding = none
+}
+
+
+###c_misty_isle
+1550 = {	# Mistton
+	culture = wrathmen
+	religion = the_old_gods
+	holding = castle_holding
+}
+
+1551 = {	# Yalewood
+	holding = none
+}
+
+1764 = {	# Dorneview
+	holding = none
+}
+
+1765 = {	# Yellow Cliffs
+	holding = none
 }
 
 
@@ -221,56 +265,18 @@
 }
 
 
-###c_marbleiron
-692 = {	# Mableiron Keep
-	culture = wrathmen
+###c_morewood
+597 = {	# Morewood
+	culture = rainlander
 	religion = the_old_gods
 	holding = castle_holding
 }
 
-693 = {	# Burstow
+598 = {	# Ingate
 	holding = none
 }
 
-
-
-##d_estermont ###################################
-###c_estermont
-676 = {	# Greenstone
-	culture = wrathmen
-	religion = the_old_gods
-	holding = castle_holding
-}
-
-677 = {	# Aiston
-	holding = city_holding
-}
-
-642 = {	# Oifen
-	holding = none
-}
-
-
-###c_lyre_watch
-643 = {	# Lyre Watch
-	culture = wrathmen
-	religion = the_old_gods
-	holding = castle_holding
-}
-
-967 = {	# Crak
-	holding = none
-}
-
-
-###c_ester_isle
-1548 = {	# Ester Isle Keep
-	culture = wrathmen
-	religion = the_old_gods
-	holding = castle_holding
-}
-
-1549 = {	# Windton
+599 = {	# Fryerning
 	holding = none
 }
 

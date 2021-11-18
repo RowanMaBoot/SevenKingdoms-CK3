@@ -1,0 +1,741 @@
+mertyns_1 = {
+    name = "Argilac"
+
+    dynasty = dynasty_mertyns
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = ambitious
+    trait = lustful
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6300.4.23 = {
+        birth = yes
+    }
+
+    6335.1.12 = {
+        add_spouse = mertyns_2
+    }
+
+    6367.11.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mertyns_2 = {
+    name = "Matrice"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = callous
+    trait = trusting
+    trait = arbitrary
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 3
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    6318.8.25 = {
+        birth = yes
+    }
+
+    6403.7.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mertyns_3 = {
+    name = "Pate"
+
+    dynasty = dynasty_mertyns
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = mertyns_1
+    mother = mertyns_2
+
+    trait = zealous
+    trait = stubborn
+    trait = lazy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6350.1.26 = {
+        birth = yes
+    }
+
+    6377.1.11 = {
+        add_spouse = mertyns_4
+    }
+
+    6418.8.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mertyns_4 = {
+    name = "Mylenda"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = lustful
+    trait = fickle
+    trait = impatient
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 9
+    intrigue = 8
+    learning = 9
+    prowess = 4
+
+    trait = education_martial_4
+
+    6360.2.8 = {
+        birth = yes
+    }
+
+    6429.4.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mertyns_5 = {
+    name = "Aemon"
+
+    dynasty = dynasty_mertyns
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = mertyns_3
+    mother = mertyns_4
+
+    trait = impatient
+    trait = compassionate
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 2
+    prowess = 5
+
+    trait = education_martial_3
+
+    6381.7.6 = {
+        birth = yes
+    }
+
+    6408.4.7 = {
+        add_spouse = mertyns_6
+    }
+
+    6453.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mertyns_6 = {
+    name = "Leyla"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = calm
+    trait = paranoid
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_1
+
+    6391.7.9 = {
+        birth = yes
+    }
+
+    6465.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mertyns_7 = {
+    name = "Cassandra"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = mertyns_5
+    mother = mertyns_6
+
+    trait = greedy
+    trait = stubborn
+    trait = just
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_4
+
+    6414.6.19 = {
+        birth = yes
+    }
+
+    6499.9.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mertyns_8 = {
+    name = "Genna"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = mertyns_5
+    mother = mertyns_6
+
+    trait = craven
+    trait = arrogant
+    trait = lustful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 10
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6419.5.26 = {
+        birth = yes
+    }
+
+    6500.2.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mertyns_9 = {
+    name = "Borros"
+
+    dynasty = dynasty_mertyns
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = mertyns_5
+    mother = mertyns_6
+
+    trait = zealous
+    trait = shy
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 2
+    intrigue = 10
+    learning = 8
+    prowess = 5
+
+    trait = education_martial_2
+
+    6420.6.28 = {
+        birth = yes
+    }
+
+    6437.1.27 = {
+        add_spouse = mertyns_10
+    }
+
+    6497.9.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mertyns_10 = {
+    name = "Emma"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = lazy
+    trait = callous
+    trait = content
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 8
+    intrigue = 3
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6420.6.16 = {
+        birth = yes
+    }
+
+    6492.8.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mertyns_11 = {
+    name = "Marya"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = mertyns_9
+    mother = mertyns_10
+
+    trait = craven
+    trait = callous
+    trait = humble
+
+    diplomacy = 1
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_3
+
+    6441.9.13 = {
+        birth = yes
+    }
+
+    6511.2.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mertyns_12 = {
+    name = "Lomas"
+
+    dynasty = dynasty_mertyns
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = mertyns_9
+    mother = mertyns_10
+
+    trait = paranoid
+    trait = deceitful
+    trait = callous
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_3
+
+    6444.12.18 = {
+        birth = yes
+    }
+
+    6473.2.18 = {
+        add_spouse = mertyns_13
+    }
+
+    6528.3.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mertyns_13 = {
+    name = "Elenei"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = humble
+    trait = calm
+    trait = chaste
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6456.1.6 = {
+        birth = yes
+    }
+
+    6539.9.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mertyns_14 = {
+    name = "Artaria"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = mertyns_12
+    mother = mertyns_13
+
+    trait = stubborn
+    trait = arrogant
+    trait = vengeful
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 3
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6478.11.23 = {
+        birth = yes
+    }
+
+    6537.6.24 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+mertyns_15 = {
+    name = "Devan"
+
+    dynasty = dynasty_mertyns
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = mertyns_12
+    mother = mertyns_13
+
+    trait = lazy
+    trait = compassionate
+    trait = patient
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 3
+    learning = 3
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6486.5.9 = {
+        birth = yes
+    }
+
+    6532.8.9 = {
+        add_spouse = mertyns_16
+    }
+
+    6558.4.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mertyns_16 = {
+    name = "Dorcas"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = ambitious
+    trait = stubborn
+    trait = lazy
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_4
+
+    6515.6.13 = {
+        birth = yes
+    }
+
+    6592.12.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mertyns_17 = {
+    name = "Ormund"
+
+    dynasty = dynasty_mertyns
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = mertyns_15
+    mother = mertyns_16
+
+    trait = deceitful
+    trait = brave
+    trait = zealous
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 4
+    intrigue = 7
+    learning = 3
+    prowess = 11
+
+    trait = education_intrigue_4
+
+    6541.12.9 = {
+        birth = yes
+    }
+
+    6560.12.27 = {
+        add_spouse = mertyns_18
+    }
+
+    6614.2.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mertyns_18 = {
+    name = "Marya"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = callous
+    trait = vengeful
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6543.7.9 = {
+        birth = yes
+    }
+
+    6615.1.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mertyns_19 = {
+    name = "Joffrey"
+
+    dynasty = dynasty_mertyns
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = mertyns_12
+    mother = mertyns_13
+
+    trait = fickle
+    trait = humble
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6489.9.25 = {
+        birth = yes
+    }
+
+    6532.4.10 = {
+        add_spouse = mertyns_20
+    }
+
+    6542.1.19 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+mertyns_20 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = sadistic
+    trait = fickle
+    trait = lazy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 9
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6515.9.10 = {
+        birth = yes
+    }
+
+    6594.1.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mertyns_21 = {
+    name = "Elyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = mertyns_19
+    mother = mertyns_20
+
+    trait = gregarious
+    trait = greedy
+    trait = forgiving
+
+    diplomacy = 3
+    martial = 10
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_4
+
+    6533.10.19 = {
+        birth = yes
+    }
+
+    6593.4.3 = {
+        death = { death_reason = death_vanished  }
+    }
+}
+
+mertyns_22 = {
+    name = "Arion"
+
+    dynasty = dynasty_mertyns
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = mertyns_19
+    mother = mertyns_20
+
+    trait = ambitious
+    trait = wrathful
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 3
+
+    trait = education_stewardship_2
+
+    6538.10.13 = {
+        birth = yes
+    }
+
+    6568.8.13 = {
+        add_spouse = mertyns_23
+    }
+
+    6621.11.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mertyns_23 = {
+    name = "Maer"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = gluttonous
+    trait = content
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_4
+
+    6551.9.19 = {
+        birth = yes
+    }
+
+    6627.11.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

@@ -4,23 +4,23 @@ k_rainwood = {
 	}
 
 	6300.12.6 = {
-        holder = wylde_1 #Alyn
-    }
-    6373.11.24 = {
-        holder = wylde_3 #Eldon
-    }
-    6446.11.10 = {
-        holder = wylde_5 #Gulian
-    }
-    6497.6.25 = {
-        holder = wylde_8 #Eldon
-    }
-    6536.9.13 = {
-        holder = wylde_10 #Corwen
-    }
-    6586.11.16 = {
-        holder = wylde_14 #Grance
-    }
+	    holder = wylde_1 #Alyn
+	}
+	6373.11.24 = {
+	    holder = wylde_3 #Eldon
+	}
+	6446.11.10 = {
+	    holder = wylde_5 #Gulian
+	}
+	6497.6.25 = {
+	    holder = wylde_8 #Eldon
+	}
+	6536.9.13 = {
+	    holder = wylde_10 #Corwen
+	}
+	6586.11.16 = {
+	    holder = wylde_14 #Grance
+	}
 }
 d_rain_house = {
 	800.1.1={
@@ -28,23 +28,23 @@ d_rain_house = {
 	}
 
 	6300.12.6 = {
-        holder = wylde_1 #Alyn
-    }
-    6373.11.24 = {
-        holder = wylde_3 #Eldon
-    }
-    6446.11.10 = {
-        holder = wylde_5 #Gulian
-    }
-    6497.6.25 = {
-        holder = wylde_8 #Eldon
-    }
-    6536.9.13 = {
-        holder = wylde_10 #Corwen
-    }
-    6586.11.16 = {
-        holder = wylde_14 #Grance
-    }
+	    holder = wylde_1 #Alyn
+	}
+	6373.11.24 = {
+	    holder = wylde_3 #Eldon
+	}
+	6446.11.10 = {
+	    holder = wylde_5 #Gulian
+	}
+	6497.6.25 = {
+	    holder = wylde_8 #Eldon
+	}
+	6536.9.13 = {
+	    holder = wylde_10 #Corwen
+	}
+	6586.11.16 = {
+	    holder = wylde_14 #Grance
+	}
 }
 c_rain_house = {
 	800.1.1={
@@ -52,101 +52,33 @@ c_rain_house = {
 	}
 
 	6300.12.6 = {
-        holder = wylde_1 #Alyn
-    }
-    6373.11.24 = {
-        holder = wylde_3 #Eldon
-    }
-    6446.11.10 = {
-        holder = wylde_5 #Gulian
-    }
-    6497.6.25 = {
-        holder = wylde_8 #Eldon
-    }
-    6536.9.13 = {
-        holder = wylde_10 #Corwen
-    }
-    6586.11.16 = {
-        holder = wylde_14 #Grance
-    }
+	    holder = wylde_1 #Alyn
+	}
+	6373.11.24 = {
+	    holder = wylde_3 #Eldon
+	}
+	6446.11.10 = {
+	    holder = wylde_5 #Gulian
+	}
+	6497.6.25 = {
+	    holder = wylde_8 #Eldon
+	}
+	6536.9.13 = {
+	    holder = wylde_10 #Corwen
+	}
+	6586.11.16 = {
+	    holder = wylde_14 #Grance
+	}
 }
 c_hithamp = {
 	800.1.1={
 		liege=d_rain_house
 	}
-
-	6300.12.6 = {
-        holder = wylde_1 #Alyn
-    }
-    6373.11.24 = {
-        holder = wylde_3 #Eldon
-    }
-    6446.11.10 = {
-        holder = wylde_5 #Gulian
-    }
-    6497.6.25 = {
-        holder = wylde_8 #Eldon
-    }
-    6536.9.13 = {
-        holder = wylde_10 #Corwen
-    }
-    6586.11.16 = {
-        holder = wylde_14 #Grance
-    }
 }
-c_wensington = {
+c_theydon = {
 	800.1.1={
 		liege=d_rain_house
 	}
-
-	6300.9.4 = {
-        holder = wensington_1 #Bonifer
-    }
-    6375.6.19 = {
-        holder = wensington_3 #Alaric
-    }
-    6440.1.1 = {
-        holder = wensington_5 #Galladon
-    }
-    6520.7.4 = {
-        holder = wensington_7 #Myles
-    }
-    6553.10.20 = {
-        holder = wensington_11 #Ronald
-    }
-    6588.12.28 = {
-        holder = wensington_13 #Arron
-    }
-    6618.10.23 = {
-        holder = wensington_15 #Matthos
-    }
-}
-c_morewood = {
-	800.1.1={
-		liege=d_rain_house
-	}
-
-	6300.9.4 = {
-        holder = wensington_1 #Bonifer
-    }
-    6375.6.19 = {
-        holder = wensington_3 #Alaric
-    }
-    6440.1.1 = {
-        holder = wensington_5 #Galladon
-    }
-    6520.7.4 = {
-        holder = wensington_7 #Myles
-    }
-    6553.10.20 = {
-        holder = wensington_11 #Ronald
-    }
-    6588.12.28 = {
-        holder = wensington_13 #Arron
-    }
-    6618.10.23 = {
-        holder = wensington_15 #Matthos
-    }
 }
 c_esterbeech = {
 	800.1.1={
@@ -157,20 +89,105 @@ c_rain_isle = {
 	800.1.1={
 		liege=d_rain_house
 	}
+
+	6300.12.6 = {
+	    holder = wylde_1 #Alyn
+	}
+	6373.11.24 = {
+	    holder = wylde_3 #Eldon
+	}
+	6446.11.10 = {
+	    holder = wylde_5 #Gulian
+	}
+	6497.6.25 = {
+	    holder = wylde_8 #Eldon
+	}
+	6536.9.13 = {
+	    holder = wylde_10 #Corwen
+	}
+	6586.11.16 = {
+	    holder = wylde_14 #Grance
+	}
 }
 d_rainwood = {
 	800.1.1={
 		liege=k_rainwood
+	}
+
+	6300.9.4 = {
+	    holder = wensington_1 #Bonifer
+	}
+	6375.6.19 = {
+	    holder = wensington_3 #Alaric
+	}
+	6440.1.1 = {
+	    holder = wensington_5 #Galladon
+	}
+	6520.7.4 = {
+	    holder = wensington_7 #Myles
+	}
+	6553.10.20 = {
+	    holder = wensington_11 #Ronald
+	}
+	6588.12.28 = {
+	    holder = wensington_13 #Arron
+	}
+	6618.10.23 = {
+	    holder = wensington_15 #Matthos
 	}
 }
 c_brownhill = {
 	800.1.1={
 		liege=d_rainwood
 	}
+
+	6300.9.4 = {
+	    holder = wensington_1 #Bonifer
+	}
+	6375.6.19 = {
+	    holder = wensington_3 #Alaric
+	}
+	6440.1.1 = {
+	    holder = wensington_5 #Galladon
+	}
+	6520.7.4 = {
+	    holder = wensington_7 #Myles
+	}
+	6553.10.20 = {
+	    holder = wensington_11 #Ronald
+	}
+	6588.12.28 = {
+	    holder = wensington_13 #Arron
+	}
+	6618.10.23 = {
+	    holder = wensington_15 #Matthos
+	}
 }
 c_whitehurst = {
 	800.1.1={
 		liege=d_rainwood
+	}
+
+	6300.9.4 = {
+	    holder = wensington_1 #Bonifer
+	}
+	6375.6.19 = {
+	    holder = wensington_3 #Alaric
+	}
+	6440.1.1 = {
+	    holder = wensington_5 #Galladon
+	}
+	6520.7.4 = {
+	    holder = wensington_7 #Myles
+	}
+	6553.10.20 = {
+	    holder = wensington_11 #Ronald
+	}
+	6588.12.28 = {
+	    holder = wensington_13 #Arron
+	}
+	6618.10.23 = {
+	    holder = wensington_15 #Matthos
 	}
 }
 c_oldfield = {
@@ -216,5 +233,69 @@ c_fairfall = {
 c_misty_hills = {
 	800.1.1={
 		liege=d_misty_cove
+	}
+}
+d_estermont = {
+	800.1.1={
+		liege=k_rainwood
+	}
+
+	6300.2.28 = {
+	    holder = estermont_1 #Barristan
+	}
+	6372.9.18 = {
+	    holder = estermont_3 #Terrence
+	}
+	6410.4.6 = {
+	    holder = estermont_5 #Renly
+	}
+	6462.2.14 = {
+	    holder = estermont_7 #Hugh
+	}
+	6485.7.1 = {
+	    holder = estermont_12 #Gulian
+	}
+	6547.9.14 = {
+	    holder = estermont_15 #Andrion
+	}
+	6593.4.7 = {
+	    holder = estermont_17 #Galladon
+	}
+}
+c_estermont = {
+	800.1.1={
+		liege=d_estermont
+	}
+
+	6300.2.28 = {
+	    holder = estermont_1 #Barristan
+	}
+	6372.9.18 = {
+	    holder = estermont_3 #Terrence
+	}
+	6410.4.6 = {
+	    holder = estermont_5 #Renly
+	}
+	6462.2.14 = {
+	    holder = estermont_7 #Hugh
+	}
+	6485.7.1 = {
+	    holder = estermont_12 #Gulian
+	}
+	6547.9.14 = {
+	    holder = estermont_15 #Andrion
+	}
+	6593.4.7 = {
+	    holder = estermont_17 #Galladon
+	}
+}
+c_lyre_watch = {
+	800.1.1={
+		liege=d_estermont
+	}
+}
+c_ester_isle = {
+	800.1.1={
+		liege=d_estermont
 	}
 }

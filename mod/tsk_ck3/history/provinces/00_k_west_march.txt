@@ -60,9 +60,9 @@
 
 
 
-##d_harvest_hall ###################################
-###c_harvest_hall
-706 = {	# Harvest Hall
+##d_summer_peak ###################################
+###c_summer_peak
+706 = {	# Summer Peak
 	culture = marchmen
 	religion = the_old_gods
 	holding = castle_holding
@@ -409,6 +409,64 @@
 }
 
 774 = {	# Cowplain
+	holding = none
+}
+
+
+
+##d_harvest_hall ###################################
+###c_harvest_hall
+2396 = {	# Harvest Hall
+	culture = marchmen
+	religion = the_old_gods
+	holding = castle_holding
+}
+
+3360 = {	# Porde
+	holding = none
+}
+
+3380 = {	# Greywheat
+	holding = none
+}
+
+4718 = {	# Fallow
+	holding = none
+}
+
+
+###c_infeld
+4719 = {	# Infeld Keep
+	culture = marchmen
+	religion = the_old_gods
+	holding = castle_holding
+}
+
+4720 = {	# Feldmill
+	holding = none
+}
+
+4721 = {	# Oldspar
+	holding = none
+}
+
+4722 = {	# Bale
+	holding = none
+}
+
+
+###c_borrows
+4723 = {	# Borrows
+	culture = marchmen
+	religion = the_old_gods
+	holding = castle_holding
+}
+
+4724 = {	# Borrow Dyke
+	holding = castle_holding
+}
+
+4725 = {	# Old Post
 	holding = none
 }
 

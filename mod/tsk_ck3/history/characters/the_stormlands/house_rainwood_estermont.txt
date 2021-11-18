@@ -1,0 +1,741 @@
+estermont_1 = {
+    name = "Barristan"
+
+    dynasty = dynasty_estermont
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = arrogant
+    trait = callous
+    trait = lustful
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 10
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6300.2.28 = {
+        birth = yes
+    }
+
+    6322.2.5 = {
+        add_spouse = estermont_2
+    }
+
+    6372.9.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+estermont_2 = {
+    name = "Rhi"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = arbitrary
+    trait = honest
+    trait = brave
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_3
+
+    6305.1.27 = {
+        birth = yes
+    }
+
+    6373.1.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+estermont_3 = {
+    name = "Terrence"
+
+    dynasty = dynasty_estermont
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = estermont_1
+    mother = estermont_2
+
+    trait = diligent
+    trait = shy
+    trait = temperate
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_learning_3
+
+    6329.10.21 = {
+        birth = yes
+    }
+
+    6373.11.6 = {
+        add_spouse = estermont_4
+    }
+
+    6410.4.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+estermont_4 = {
+    name = "Selyse"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = lazy
+    trait = chaste
+    trait = trusting
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_2
+
+    6356.9.19 = {
+        birth = yes
+    }
+
+    6436.3.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+estermont_5 = {
+    name = "Renly"
+
+    dynasty = dynasty_estermont
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = estermont_3
+    mother = estermont_4
+
+    trait = callous
+    trait = craven
+    trait = content
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6378.4.12 = {
+        birth = yes
+    }
+
+    6415.8.13 = {
+        add_spouse = estermont_6
+    }
+
+    6462.2.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+estermont_6 = {
+    name = "Dainia"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = brave
+    trait = content
+    trait = shy
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 11
+
+    trait = education_diplomacy_3
+
+    6398.11.23 = {
+        birth = yes
+    }
+
+    6473.6.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+estermont_7 = {
+    name = "Hugh"
+
+    dynasty = dynasty_estermont
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = estermont_5
+    mother = estermont_6
+
+    trait = content
+    trait = lustful
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6419.9.16 = {
+        birth = yes
+    }
+
+    6454.9.5 = {
+        add_spouse = estermont_8
+    }
+
+    6485.7.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+estermont_8 = {
+    name = "Selyse"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = cynical
+    trait = trusting
+    trait = ambitious
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 4
+    intrigue = 3
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6437.9.2 = {
+        birth = yes
+    }
+
+    6518.7.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+estermont_9 = {
+    name = "Ellyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = estermont_7
+    mother = estermont_8
+
+    trait = shy
+    trait = fickle
+    trait = arrogant
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 3
+    intrigue = 6
+    learning = 6
+    prowess = 9
+
+    trait = education_martial_3
+
+    6459.11.25 = {
+        birth = yes
+    }
+
+    6530.11.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+estermont_10 = {
+    name = "Helena"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = estermont_7
+    mother = estermont_8
+
+    trait = stubborn
+    trait = greedy
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_2
+
+    6465.2.7 = {
+        birth = yes
+    }
+
+    6542.5.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+estermont_11 = {
+    name = "Melicent"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = estermont_7
+    mother = estermont_8
+
+    trait = vengeful
+    trait = patient
+    trait = humble
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_2
+
+    6470.8.5 = {
+        birth = yes
+    }
+
+    6547.9.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+estermont_12 = {
+    name = "Gulian"
+
+    dynasty = dynasty_estermont
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = estermont_7
+    mother = estermont_8
+
+    trait = callous
+    trait = patient
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 5
+    intrigue = 5
+    learning = 9
+    prowess = 8
+
+    trait = education_learning_2
+
+    6472.3.9 = {
+        birth = yes
+    }
+
+    6511.9.17 = {
+        add_spouse = estermont_13
+    }
+
+    6547.9.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+estermont_13 = {
+    name = "Brella"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = temperate
+    trait = callous
+    trait = just
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6494.3.1 = {
+        birth = yes
+    }
+
+    6572.7.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+estermont_14 = {
+    name = "Shirea"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = estermont_12
+    mother = estermont_13
+
+    trait = gregarious
+    trait = fickle
+    trait = zealous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6511.10.13 = {
+        birth = yes
+    }
+
+    6577.5.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+estermont_15 = {
+    name = "Andrion"
+
+    dynasty = dynasty_estermont
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = estermont_12
+    mother = estermont_13
+
+    trait = patient
+    trait = shy
+    trait = vengeful
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 7
+    intrigue = 3
+    learning = 5
+    prowess = 2
+
+    trait = education_stewardship_3
+
+    6513.1.11 = {
+        birth = yes
+    }
+
+    6563.8.21 = {
+        add_spouse = estermont_16
+    }
+
+    6593.4.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+estermont_16 = {
+    name = "Donyse"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = greedy
+    trait = gluttonous
+    trait = humble
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6546.2.28 = {
+        birth = yes
+    }
+
+    6623.6.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+estermont_17 = {
+    name = "Galladon"
+
+    dynasty = dynasty_estermont
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = estermont_15
+    mother = estermont_16
+
+    trait = calm
+    trait = fickle
+    trait = arbitrary
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 3
+    intrigue = 7
+    learning = 9
+    prowess = 10
+
+    trait = education_learning_3
+
+    6576.6.20 = {
+        birth = yes
+    }
+
+    6600.2.1 = {
+        add_spouse = estermont_18
+    }
+
+    6649.2.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+estermont_18 = {
+    name = "Lyria"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = diligent
+    trait = arrogant
+    trait = shy
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6583.2.9 = {
+        birth = yes
+    }
+
+    6653.7.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+estermont_19 = {
+    name = "Elyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = estermont_15
+    mother = estermont_16
+
+    trait = arbitrary
+    trait = gluttonous
+    trait = greedy
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6584.11.23 = {
+        birth = yes
+    }
+
+    6667.2.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+estermont_20 = {
+    name = "Alyn"
+
+    dynasty = dynasty_estermont
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = estermont_12
+    mother = estermont_13
+
+    trait = lustful
+    trait = impatient
+    trait = diligent
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 10
+
+    trait = education_intrigue_4
+
+    6522.7.11 = {
+        birth = yes
+    }
+
+    6541.12.13 = {
+        add_spouse = estermont_21
+    }
+
+    6602.7.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+estermont_21 = {
+    name = "Vicky"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = arrogant
+    trait = ambitious
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 1
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6524.12.14 = {
+        birth = yes
+    }
+
+    6591.12.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+estermont_22 = {
+    name = "Devan"
+
+    dynasty = dynasty_estermont
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = estermont_20
+    mother = estermont_21
+
+    trait = craven
+    trait = lazy
+    trait = vengeful
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6563.12.14 = {
+        birth = yes
+    }
+
+    6589.4.24 = {
+        add_spouse = estermont_23
+    }
+
+    6609.2.11 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+estermont_23 = {
+    name = "Daini"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = greedy
+    trait = diligent
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    6572.2.24 = {
+        birth = yes
+    }
+
+    6650.2.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
