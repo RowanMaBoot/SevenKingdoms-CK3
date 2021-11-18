@@ -1,0 +1,838 @@
+penrose_1 = {
+    name = "Gunthor"
+
+    dynasty = dynasty_penrose
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = sadistic
+    trait = temperate
+    trait = content
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6300.4.27 = {
+        birth = yes
+    }
+
+    6345.8.16 = {
+        add_spouse = penrose_2
+    }
+
+    6355.10.11 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+penrose_2 = {
+    name = "Lia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = forgiving
+    trait = deceitful
+    trait = humble
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 4
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_1
+
+    6328.9.18 = {
+        birth = yes
+    }
+
+    6395.4.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+penrose_3 = {
+    name = "Barra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = penrose_1
+    mother = penrose_2
+
+    trait = content
+    trait = lazy
+    trait = forgiving
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 2
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_2
+
+    6345.1.13 = {
+        birth = yes
+    }
+
+    6418.7.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+penrose_4 = {
+    name = "Edric"
+
+    dynasty = dynasty_penrose
+    religion = the_old_gods
+    culture = stormmen
+
+    father = penrose_1
+    mother = penrose_2
+
+    trait = content
+    trait = forgiving
+    trait = shy
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 1
+
+    trait = education_martial_2
+
+    6347.6.12 = {
+        birth = yes
+    }
+
+    6396.11.28 = {
+        add_spouse = penrose_5
+    }
+
+    6406.10.25 = {
+        death = { death_reason = death_maimed }
+    }
+}
+
+penrose_5 = {
+    name = "Brienne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = paranoid
+    trait = deceitful
+    trait = diligent
+
+    diplomacy = 11
+    martial = 6
+    stewardship = 6
+    intrigue = 3
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6379.5.2 = {
+        birth = yes
+    }
+
+    6462.6.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+penrose_6 = {
+    name = "Jenn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = penrose_4
+    mother = penrose_5
+
+    trait = greedy
+    trait = callous
+    trait = chaste
+
+    diplomacy = 9
+    martial = 9
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    6399.1.5 = {
+        birth = yes
+    }
+
+    6467.10.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+penrose_7 = {
+    name = "Melicent"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = penrose_4
+    mother = penrose_5
+
+    trait = honest
+    trait = gregarious
+    trait = forgiving
+
+    diplomacy = 9
+    martial = 9
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6400.6.13 = {
+        birth = yes
+    }
+
+    6469.2.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+penrose_8 = {
+    name = "Beric"
+
+    dynasty = dynasty_penrose
+    religion = the_old_gods
+    culture = stormmen
+
+    father = penrose_4
+    mother = penrose_5
+
+    trait = shy
+    trait = callous
+    trait = vengeful
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 10
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6401.10.14 = {
+        birth = yes
+    }
+
+    6419.12.5 = {
+        add_spouse = penrose_9
+    }
+
+    6469.6.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+penrose_9 = {
+    name = "Dorcas"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = trusting
+    trait = compassionate
+    trait = arrogant
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6402.4.24 = {
+        birth = yes
+    }
+
+    6482.2.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+penrose_10 = {
+    name = "Jon"
+
+    dynasty = dynasty_penrose
+    religion = the_old_gods
+    culture = stormmen
+
+    father = penrose_8
+    mother = penrose_9
+
+    trait = humble
+    trait = compassionate
+    trait = chaste
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 1
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    6419.5.3 = {
+        birth = yes
+    }
+
+    6464.6.8 = {
+        add_spouse = penrose_11
+    }
+
+    6474.5.18 = {
+        death = { death_reason = death_maimed }
+    }
+}
+
+penrose_11 = {
+    name = "Jena"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = impatient
+    trait = sadistic
+    trait = cynical
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_2
+
+    6447.1.20 = {
+        birth = yes
+    }
+
+    6514.6.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+penrose_12 = {
+    name = "Cressen"
+
+    dynasty = dynasty_penrose
+    religion = the_old_gods
+    culture = stormmen
+
+    father = penrose_10
+    mother = penrose_11
+
+    trait = compassionate
+    trait = wrathful
+    trait = cynical
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 7
+    intrigue = 9
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6465.1.5 = {
+        birth = yes
+    }
+
+    6507.12.2 = {
+        add_spouse = penrose_13
+    }
+
+    6541.11.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+penrose_13 = {
+    name = "Mina"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = calm
+    trait = lustful
+    trait = zealous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    6490.5.4 = {
+        birth = yes
+    }
+
+    6564.9.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+penrose_14 = {
+    name = "Arion"
+
+    dynasty = dynasty_penrose
+    religion = the_old_gods
+    culture = stormmen
+
+    father = penrose_12
+    mother = penrose_13
+
+    trait = compassionate
+    trait = content
+    trait = temperate
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 3
+    learning = 1
+    prowess = 5
+
+    trait = education_martial_4
+
+    6513.6.4 = {
+        birth = yes
+    }
+
+    6551.10.13 = {
+        add_spouse = penrose_15
+    }
+
+    6579.5.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+penrose_15 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = temperate
+    trait = lazy
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 3
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6534.6.2 = {
+        birth = yes
+    }
+
+    6613.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+penrose_16 = {
+    name = "Matrice"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = penrose_12
+    mother = penrose_13
+
+    trait = paranoid
+    trait = shy
+    trait = humble
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 4
+    intrigue = 3
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    6520.7.28 = {
+        birth = yes
+    }
+
+    6591.7.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+penrose_17 = {
+    name = "Daini"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = penrose_12
+    mother = penrose_13
+
+    trait = diligent
+    trait = brave
+    trait = temperate
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 7
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6524.1.11 = {
+        birth = yes
+    }
+
+    6603.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+penrose_18 = {
+    name = "Galladon"
+
+    dynasty = dynasty_penrose
+    religion = the_old_gods
+    culture = stormmen
+
+    father = penrose_10
+    mother = penrose_11
+
+    trait = arrogant
+    trait = patient
+    trait = callous
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_2
+
+    6466.4.12 = {
+        birth = yes
+    }
+
+    6483.3.1 = {
+        add_spouse = penrose_19
+    }
+
+    6551.2.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+penrose_19 = {
+    name = "Lyria"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = ambitious
+    trait = gregarious
+    trait = patient
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    6466.2.14 = {
+        birth = yes
+    }
+
+    6546.10.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+penrose_20 = {
+    name = "Narbert"
+
+    dynasty = dynasty_penrose
+    religion = the_old_gods
+    culture = stormmen
+
+    father = penrose_18
+    mother = penrose_19
+
+    trait = gregarious
+    trait = impatient
+    trait = vengeful
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 2
+    learning = 6
+    prowess = 6
+
+    trait = education_learning_4
+
+    6483.12.20 = {
+        birth = yes
+    }
+
+    6498.1.15 = {
+        add_spouse = penrose_21
+    }
+
+    6564.4.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+penrose_21 = {
+    name = "Lyria"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = calm
+    trait = vengeful
+    trait = craven
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 9
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6481.11.25 = {
+        birth = yes
+    }
+
+    6561.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+penrose_22 = {
+    name = "Benedict"
+
+    dynasty = dynasty_penrose
+    religion = the_old_gods
+    culture = stormmen
+
+    father = penrose_18
+    mother = penrose_19
+
+    trait = gregarious
+    trait = content
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6487.8.2 = {
+        birth = yes
+    }
+
+    6518.4.15 = {
+        add_spouse = penrose_23
+    }
+
+    6554.8.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+penrose_23 = {
+    name = "Annara"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = callous
+    trait = ambitious
+    trait = lustful
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 4
+    intrigue = 7
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    6501.6.7 = {
+        birth = yes
+    }
+
+    6575.7.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+penrose_24 = {
+    name = "Willem"
+
+    dynasty = dynasty_penrose
+    religion = the_old_gods
+    culture = stormmen
+
+    father = penrose_18
+    mother = penrose_19
+
+    trait = generous
+    trait = humble
+    trait = chaste
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6492.2.16 = {
+        birth = yes
+    }
+
+    6514.12.3 = {
+        add_spouse = penrose_25
+    }
+
+    6563.8.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+penrose_25 = {
+    name = "Mina"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = callous
+    trait = gregarious
+    trait = patient
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6497.8.27 = {
+        birth = yes
+    }
+
+    6572.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+penrose_26 = {
+    name = "Melessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = penrose_18
+    mother = penrose_19
+
+    trait = vengeful
+    trait = paranoid
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 11
+    stewardship = 9
+    intrigue = 7
+    learning = 4
+    prowess = 9
+
+    trait = education_martial_2
+
+    6495.4.5 = {
+        birth = yes
+    }
+
+    6579.7.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

@@ -1,0 +1,1160 @@
+wylde_1 = {
+    name = "Alyn"
+
+    dynasty = dynasty_wylde
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = just
+    trait = trusting
+    trait = generous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_1
+
+    6300.12.6 = {
+        birth = yes
+    }
+
+    6344.8.2 = {
+        add_spouse = wylde_2
+    }
+
+    6373.11.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_2 = {
+    name = "Melicent"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = trusting
+    trait = honest
+    trait = humble
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 9
+    intrigue = 8
+    learning = 5
+    prowess = 11
+
+    trait = education_stewardship_1
+
+    6327.5.14 = {
+        birth = yes
+    }
+
+    6400.2.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_3 = {
+    name = "Eldon"
+
+    dynasty = dynasty_wylde
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wylde_1
+    mother = wylde_2
+
+    trait = brave
+    trait = shy
+    trait = fickle
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6370.1.8 = {
+        birth = yes
+    }
+
+    6404.11.28 = {
+        add_spouse = wylde_4
+    }
+
+    6446.11.10 = {
+        death = { death_reason = death_torture  }
+    }
+}
+
+wylde_4 = {
+    name = "Ravella"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = arrogant
+    trait = diligent
+    trait = fickle
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 9
+
+    trait = education_martial_3
+
+    6387.2.7 = {
+        birth = yes
+    }
+
+    6458.2.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_5 = {
+    name = "Gulian"
+
+    dynasty = dynasty_wylde
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wylde_3
+    mother = wylde_4
+
+    trait = patient
+    trait = content
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 8
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6426.4.20 = {
+        birth = yes
+    }
+
+    6449.1.15 = {
+        add_spouse = wylde_6
+    }
+
+    6497.6.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_6 = {
+    name = "Rohanne"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = lustful
+    trait = honest
+    trait = generous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 10
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6432.2.12 = {
+        birth = yes
+    }
+
+    6500.1.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_7 = {
+    name = "Cassandra"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wylde_5
+    mother = wylde_6
+
+    trait = forgiving
+    trait = gluttonous
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    6460.3.22 = {
+        birth = yes
+    }
+
+    6533.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_8 = {
+    name = "Eldon"
+
+    dynasty = dynasty_wylde
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wylde_5
+    mother = wylde_6
+
+    trait = arbitrary
+    trait = forgiving
+    trait = lazy
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    6468.4.25 = {
+        birth = yes
+    }
+
+    6511.5.16 = {
+        add_spouse = wylde_9
+    }
+
+    6536.9.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_9 = {
+    name = "Meredyth"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = cynical
+    trait = greedy
+    trait = arbitrary
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 8
+    intrigue = 4
+    learning = 10
+    prowess = 6
+
+    trait = education_learning_3
+
+    6494.2.12 = {
+        birth = yes
+    }
+
+    6521.9.25 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+wylde_10 = {
+    name = "Corwen"
+
+    dynasty = dynasty_wylde
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wylde_8
+    mother = wylde_9
+
+    trait = gregarious
+    trait = patient
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_3
+
+    6511.9.9 = {
+        birth = yes
+    }
+
+    6534.3.4 = {
+        add_spouse = wylde_11
+    }
+
+    6586.11.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_11 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = paranoid
+    trait = calm
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6517.1.15 = {
+        birth = yes
+    }
+
+    6591.5.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_12 = {
+    name = "Senelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wylde_10
+    mother = wylde_11
+
+    trait = arbitrary
+    trait = callous
+    trait = diligent
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 10
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6537.6.21 = {
+        birth = yes
+    }
+
+    6605.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_13 = {
+    name = "Tiah"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wylde_10
+    mother = wylde_11
+
+    trait = chaste
+    trait = zealous
+    trait = lazy
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 9
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6539.12.17 = {
+        birth = yes
+    }
+
+    6620.5.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_14 = {
+    name = "Grance"
+
+    dynasty = dynasty_wylde
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wylde_10
+    mother = wylde_11
+
+    trait = zealous
+    trait = wrathful
+    trait = chaste
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 8
+    intrigue = 8
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6544.4.9 = {
+        birth = yes
+    }
+
+    6580.3.2 = {
+        add_spouse = wylde_15
+    }
+
+    6621.3.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_15 = {
+    name = "Roelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = sadistic
+    trait = temperate
+    trait = arbitrary
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_2
+
+    6563.4.28 = {
+        birth = yes
+    }
+
+    6636.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_16 = {
+    name = "Shirei"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wylde_14
+    mother = wylde_15
+
+    trait = shy
+    trait = sadistic
+    trait = lustful
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 10
+    prowess = 4
+
+    trait = education_learning_2
+
+    6584.5.27 = {
+        birth = yes
+    }
+
+    6655.12.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_17 = {
+    name = "Ormund"
+
+    dynasty = dynasty_wylde
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wylde_14
+    mother = wylde_15
+
+    trait = temperate
+    trait = arbitrary
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6587.10.10 = {
+        birth = yes
+    }
+
+    6614.1.3 = {
+        add_spouse = wylde_18
+    }
+
+    6668.3.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_18 = {
+    name = "Bri"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = fickle
+    trait = arbitrary
+    trait = vengeful
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_3
+
+    6597.12.2 = {
+        birth = yes
+    }
+
+    6671.2.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_19 = {
+    name = "Brus"
+
+    dynasty = dynasty_wylde
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wylde_10
+    mother = wylde_11
+
+    trait = paranoid
+    trait = patient
+    trait = wrathful
+
+    diplomacy = 9
+    martial = 3
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6548.2.13 = {
+        birth = yes
+    }
+
+    6582.1.27 = {
+        add_spouse = wylde_20
+    }
+
+    6620.7.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_20 = {
+    name = "Corenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = arrogant
+    trait = deceitful
+    trait = craven
+
+    diplomacy = 4
+    martial = 1
+    stewardship = 2
+    intrigue = 3
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6565.1.7 = {
+        birth = yes
+    }
+
+    6648.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_21 = {
+    name = "Marya"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wylde_19
+    mother = wylde_20
+
+    trait = brave
+    trait = greedy
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 9
+
+    trait = education_stewardship_1
+
+    6583.3.20 = {
+        birth = yes
+    }
+
+    6655.6.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_22 = {
+    name = "Elanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wylde_19
+    mother = wylde_20
+
+    trait = gregarious
+    trait = generous
+    trait = temperate
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 4
+    intrigue = 5
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_4
+
+    6586.3.3 = {
+        birth = yes
+    }
+
+    6661.8.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_23 = {
+    name = "Alesander"
+
+    dynasty = dynasty_wylde
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wylde_19
+    mother = wylde_20
+
+    trait = diligent
+    trait = lustful
+    trait = craven
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 4
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    6591.5.28 = {
+        birth = yes
+    }
+
+    6635.1.19 = {
+        add_spouse = wylde_24
+    }
+
+    6657.10.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_24 = {
+    name = "Brella"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = gluttonous
+    trait = content
+    trait = humble
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6618.8.4 = {
+        birth = yes
+    }
+
+    6662.7.7 = {
+        death = { death_reason = death_great_pox }
+    }
+}
+
+wylde_25 = {
+    name = "Elenei"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wylde_8
+    mother = wylde_9
+
+    trait = greedy
+    trait = sadistic
+    trait = zealous
+
+    diplomacy = 9
+    martial = 10
+    stewardship = 7
+    intrigue = 8
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_2
+
+    6513.5.27 = {
+        birth = yes
+    }
+
+    6597.10.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_26 = {
+    name = "Tia"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wylde_8
+    mother = wylde_9
+
+    trait = generous
+    trait = calm
+    trait = stubborn
+
+    diplomacy = 1
+    martial = 2
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6514.10.1 = {
+        birth = yes
+    }
+
+    6598.2.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_27 = {
+    name = "Arrec"
+
+    dynasty = dynasty_wylde
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wylde_8
+    mother = wylde_9
+
+    trait = shy
+    trait = calm
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 10
+    learning = 4
+    prowess = 8
+
+    trait = education_intrigue_4
+
+    6515.2.6 = {
+        birth = yes
+    }
+
+    6539.1.11 = {
+        add_spouse = wylde_28
+    }
+
+    6599.4.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_28 = {
+    name = "Arianne"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = zealous
+    trait = patient
+    trait = craven
+
+    diplomacy = 9
+    martial = 3
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6522.6.11 = {
+        birth = yes
+    }
+
+    6601.8.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_29 = {
+    name = "Cerella"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wylde_27
+    mother = wylde_28
+
+    trait = lustful
+    trait = temperate
+    trait = zealous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_2
+
+    6550.6.22 = {
+        birth = yes
+    }
+
+    6627.2.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_30 = {
+    name = "Argilac"
+
+    dynasty = dynasty_wylde
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wylde_27
+    mother = wylde_28
+
+    trait = generous
+    trait = shy
+    trait = cynical
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 8
+    intrigue = 7
+    learning = 3
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6553.9.8 = {
+        birth = yes
+    }
+
+    6594.11.12 = {
+        add_spouse = wylde_31
+    }
+
+    6631.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_31 = {
+    name = "Jonquil"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = lustful
+    trait = callous
+    trait = honest
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 2
+    intrigue = 7
+    learning = 5
+    prowess = 2
+
+    trait = education_diplomacy_2
+
+    6577.2.11 = {
+        birth = yes
+    }
+
+    6644.11.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_32 = {
+    name = "Herbert"
+
+    dynasty = dynasty_wylde
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wylde_30
+    mother = wylde_31
+
+    trait = arrogant
+    trait = fickle
+    trait = lustful
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 7
+    intrigue = 3
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6600.1.28 = {
+        birth = yes
+    }
+
+    6641.11.19 = {
+        add_spouse = wylde_33
+    }
+
+    6679.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_33 = {
+    name = "Belandra"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = fickle
+    trait = wrathful
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 2
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6624.9.17 = {
+        birth = yes
+    }
+
+    6697.3.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_34 = {
+    name = "Elyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wylde_30
+    mother = wylde_31
+
+    trait = vengeful
+    trait = paranoid
+    trait = lazy
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    6601.2.11 = {
+        birth = yes
+    }
+
+    6679.4.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_35 = {
+    name = "Leyla"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wylde_30
+    mother = wylde_31
+
+    trait = vengeful
+    trait = cynical
+    trait = humble
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6605.8.23 = {
+        birth = yes
+    }
+
+    6674.5.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wylde_36 = {
+    name = "Kelycea"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wylde_30
+    mother = wylde_31
+
+    trait = callous
+    trait = fickle
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 7
+    intrigue = 3
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_4
+
+    6607.2.2 = {
+        birth = yes
+    }
+
+    6680.12.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

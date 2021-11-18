@@ -1,0 +1,548 @@
+dondarrion_1 = {
+    name = "Joffrey"
+
+    dynasty = dynasty_dondarrion
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = vengeful
+    trait = diligent
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 3
+    learning = 4
+    prowess = 4
+
+    trait = education_martial_1
+
+    6300.6.7 = {
+        birth = yes
+    }
+
+    6315.3.9 = {
+        add_spouse = dondarrion_2
+    }
+
+    6371.2.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dondarrion_2 = {
+    name = "Elyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = ambitious
+    trait = forgiving
+    trait = cynical
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 3
+    learning = 4
+    prowess = 10
+
+    trait = education_stewardship_4
+
+    6298.10.9 = {
+        birth = yes
+    }
+
+    6365.8.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dondarrion_3 = {
+    name = "Dermot"
+
+    dynasty = dynasty_dondarrion
+    religion = the_old_gods
+    culture = marchmen
+
+    father = dondarrion_1
+    mother = dondarrion_2
+
+    trait = diligent
+    trait = arbitrary
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 8
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6331.12.23 = {
+        birth = yes
+    }
+
+    6373.2.4 = {
+        add_spouse = dondarrion_4
+    }
+
+    6404.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dondarrion_4 = {
+    name = "Cassie"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = deceitful
+    trait = callous
+    trait = temperate
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 3
+    prowess = 2
+
+    trait = education_martial_2
+
+    6356.2.11 = {
+        birth = yes
+    }
+
+    6427.10.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dondarrion_5 = {
+    name = "Gerald"
+
+    dynasty = dynasty_dondarrion
+    religion = the_old_gods
+    culture = marchmen
+
+    father = dondarrion_3
+    mother = dondarrion_4
+
+    trait = just
+    trait = content
+    trait = greedy
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 3
+    intrigue = 8
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6401.8.20 = {
+        birth = yes
+    }
+
+    6448.2.25 = {
+        add_spouse = dondarrion_6
+    }
+
+    6485.11.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dondarrion_6 = {
+    name = "Artaria"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = lazy
+    trait = gregarious
+    trait = cynical
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6431.6.5 = {
+        birth = yes
+    }
+
+    6502.9.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dondarrion_7 = {
+    name = "Casper"
+
+    dynasty = dynasty_dondarrion
+    religion = the_old_gods
+    culture = marchmen
+
+    father = dondarrion_5
+    mother = dondarrion_6
+
+    trait = arbitrary
+    trait = cynical
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6476.10.24 = {
+        birth = yes
+    }
+
+    6502.5.15 = {
+        add_spouse = dondarrion_8
+    }
+
+    6512.12.13 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+dondarrion_8 = {
+    name = "Megga"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = vengeful
+    trait = callous
+    trait = shy
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 3
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6485.6.9 = {
+        birth = yes
+    }
+
+    6568.4.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dondarrion_9 = {
+    name = "Casper"
+
+    dynasty = dynasty_dondarrion
+    religion = the_old_gods
+    culture = marchmen
+
+    father = dondarrion_7
+    mother = dondarrion_8
+
+    trait = temperate
+    trait = compassionate
+    trait = craven
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 3
+    intrigue = 9
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_3
+
+    6505.3.3 = {
+        birth = yes
+    }
+
+    6553.4.13 = {
+        add_spouse = dondarrion_10
+    }
+
+    6575.1.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dondarrion_10 = {
+    name = "Jasonnei"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = ambitious
+    trait = chaste
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 3
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_2
+
+    6536.8.20 = {
+        birth = yes
+    }
+
+    6621.7.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dondarrion_11 = {
+    name = "Sarmion"
+
+    dynasty = dynasty_dondarrion
+    religion = the_old_gods
+    culture = marchmen
+
+    father = dondarrion_9
+    mother = dondarrion_10
+
+    trait = sadistic
+    trait = vengeful
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    6561.6.27 = {
+        birth = yes
+    }
+
+    6608.9.25 = {
+        add_spouse = dondarrion_12
+    }
+
+    6630.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dondarrion_12 = {
+    name = "Rylene"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = stubborn
+    trait = greedy
+    trait = paranoid
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 5
+    intrigue = 3
+    learning = 8
+    prowess = 2
+
+    trait = education_martial_2
+
+    6591.5.9 = {
+        birth = yes
+    }
+
+    6668.7.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dondarrion_13 = {
+    name = "Sarmion"
+
+    dynasty = dynasty_dondarrion
+    religion = the_old_gods
+    culture = marchmen
+
+    father = dondarrion_11
+    mother = dondarrion_12
+
+    trait = paranoid
+    trait = ambitious
+    trait = shy
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 9
+    intrigue = 5
+    learning = 5
+    prowess = 2
+
+    trait = education_stewardship_4
+
+    6613.9.11 = {
+        birth = yes
+    }
+
+    6629.8.1 = {
+        add_spouse = dondarrion_14
+    }
+
+    6682.12.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dondarrion_14 = {
+    name = "Kelycea"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = compassionate
+    trait = diligent
+    trait = deceitful
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    6612.4.14 = {
+        birth = yes
+    }
+
+    6678.7.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dondarrion_15 = {
+    name = "Emma"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = dondarrion_11
+    mother = dondarrion_12
+
+    trait = stubborn
+    trait = generous
+    trait = impatient
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    6619.12.15 = {
+        birth = yes
+    }
+
+    6687.4.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dondarrion_16 = {
+    name = "Grance"
+
+    dynasty = dynasty_dondarrion
+    religion = the_old_gods
+    culture = marchmen
+
+    father = dondarrion_11
+    mother = dondarrion_12
+
+    trait = patient
+    trait = forgiving
+    trait = just
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 8
+    intrigue = 4
+    learning = 6
+    prowess = 2
+
+    trait = education_diplomacy_3
+
+    6620.9.26 = {
+        birth = yes
+    }
+
+    6638.7.20 = {
+        add_spouse = dondarrion_17
+    }
+
+    6694.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dondarrion_17 = {
+    name = "Bethany"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = generous
+    trait = shy
+    trait = brave
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 3
+    intrigue = 8
+    learning = 3
+    prowess = 10
+
+    trait = education_martial_4
+
+    6621.6.25 = {
+        birth = yes
+    }
+
+    6699.5.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

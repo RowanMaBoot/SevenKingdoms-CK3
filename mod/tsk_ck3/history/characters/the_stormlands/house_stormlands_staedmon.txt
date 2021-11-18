@@ -1,0 +1,3543 @@
+staedmon_1 = {
+    name = "Endrew"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = paranoid
+    trait = arbitrary
+    trait = content
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 1
+
+    trait = education_martial_2
+
+    6300.11.8 = {
+        birth = yes
+    }
+
+    6343.3.7 = {
+        add_spouse = staedmon_2
+    }
+
+    6375.9.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_2 = {
+    name = "Emmara"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = gluttonous
+    trait = content
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_2
+
+    6326.6.1 = {
+        birth = yes
+    }
+
+    6408.1.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_3 = {
+    name = "Pearse"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_1
+    mother = staedmon_2
+
+    trait = gregarious
+    trait = lazy
+    trait = temperate
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 9
+    intrigue = 9
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6346.4.24 = {
+        birth = yes
+    }
+
+    6390.2.16 = {
+        add_spouse = staedmon_4
+    }
+
+    6431.11.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_4 = {
+    name = "Dalla"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = fickle
+    trait = arrogant
+    trait = paranoid
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 2
+    intrigue = 7
+    learning = 3
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    6373.1.18 = {
+        birth = yes
+    }
+
+    6447.1.26 = {
+        death = { death_reason = death_torture  }
+    }
+}
+
+staedmon_5 = {
+    name = "Clifford"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_3
+    mother = staedmon_4
+
+    trait = patient
+    trait = honest
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 1
+    intrigue = 8
+    learning = 8
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6404.7.20 = {
+        birth = yes
+    }
+
+    6429.12.1 = {
+        add_spouse = staedmon_6
+    }
+
+    6486.6.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_6 = {
+    name = "Victaria"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = humble
+    trait = wrathful
+    trait = generous
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 10
+
+    trait = education_diplomacy_2
+
+    6412.12.6 = {
+        birth = yes
+    }
+
+    6481.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_7 = {
+    name = "Tia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_5
+    mother = staedmon_6
+
+    trait = patient
+    trait = greedy
+    trait = callous
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 8
+    prowess = 1
+
+    trait = education_diplomacy_3
+
+    6433.9.11 = {
+        birth = yes
+    }
+
+    6508.9.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_8 = {
+    name = "Robert"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_5
+    mother = staedmon_6
+
+    trait = calm
+    trait = callous
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 1
+    intrigue = 6
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_2
+
+    6442.5.23 = {
+        birth = yes
+    }
+
+    6471.7.8 = {
+        add_spouse = staedmon_9
+    }
+
+    6513.4.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_9 = {
+    name = "Hanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = greedy
+    trait = chaste
+    trait = honest
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_3
+
+    6454.10.11 = {
+        birth = yes
+    }
+
+    6523.3.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_10 = {
+    name = "Guyard"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_8
+    mother = staedmon_9
+
+    trait = cynical
+    trait = chaste
+    trait = brave
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 10
+    intrigue = 8
+    learning = 10
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6472.2.12 = {
+        birth = yes
+    }
+
+    6522.9.12 = {
+        add_spouse = staedmon_11
+    }
+
+    6555.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_11 = {
+    name = "Jena"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = brave
+    trait = generous
+    trait = impatient
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6505.3.28 = {
+        birth = yes
+    }
+
+    6574.7.23 = {
+        death = { death_reason = death_disappearance  }
+    }
+}
+
+staedmon_12 = {
+    name = "Theo"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_10
+    mother = staedmon_11
+
+    trait = lazy
+    trait = wrathful
+    trait = brave
+
+    diplomacy = 9
+    martial = 2
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6530.3.10 = {
+        birth = yes
+    }
+
+    6576.12.15 = {
+        add_spouse = staedmon_13
+    }
+
+    6596.8.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_13 = {
+    name = "Rylene"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = wrathful
+    trait = vengeful
+    trait = generous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    6559.9.25 = {
+        birth = yes
+    }
+
+    6629.11.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_14 = {
+    name = "Gwyneth"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_10
+    mother = staedmon_11
+
+    trait = shy
+    trait = arbitrary
+    trait = impatient
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 6
+    intrigue = 9
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6539.11.3 = {
+        birth = yes
+    }
+
+    6624.1.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_15 = {
+    name = "Vick"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_8
+    mother = staedmon_9
+
+    trait = ambitious
+    trait = wrathful
+    trait = vengeful
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_learning_1
+
+    6473.5.8 = {
+        birth = yes
+    }
+
+    6552.2.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_16 = {
+    name = "Lynesse"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_8
+    mother = staedmon_9
+
+    trait = arbitrary
+    trait = brave
+    trait = lazy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_3
+
+    6477.4.2 = {
+        birth = yes
+    }
+
+    6546.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_17 = {
+    name = "Bethany"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_8
+    mother = staedmon_9
+
+    trait = lustful
+    trait = compassionate
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 8
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6482.12.10 = {
+        birth = yes
+    }
+
+    6553.3.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_18 = {
+    name = "Emmara"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_3
+    mother = staedmon_4
+
+    trait = shy
+    trait = chaste
+    trait = lazy
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 8
+    intrigue = 6
+    learning = 8
+    prowess = 8
+
+    trait = education_martial_3
+
+    6410.6.1 = {
+        birth = yes
+    }
+
+    6481.9.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_19 = {
+    name = "Annis"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_1
+    mother = staedmon_2
+
+    trait = calm
+    trait = sadistic
+    trait = temperate
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6350.10.27 = {
+        birth = yes
+    }
+
+    6421.12.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_20 = {
+    name = "Goodwin"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_1
+    mother = staedmon_2
+
+    trait = patient
+    trait = wrathful
+    trait = craven
+
+    diplomacy = 5
+    martial = 11
+    stewardship = 6
+    intrigue = 9
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_1
+
+    6353.9.17 = {
+        birth = yes
+    }
+
+    6392.12.22 = {
+        add_spouse = staedmon_21
+    }
+
+    6402.8.3 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+staedmon_21 = {
+    name = "Arianne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = stubborn
+    trait = trusting
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 8
+    learning = 6
+    prowess = 1
+
+    trait = education_intrigue_2
+
+    6375.9.9 = {
+        birth = yes
+    }
+
+    6457.5.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_22 = {
+    name = "Tyiah"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_20
+    mother = staedmon_21
+
+    trait = wrathful
+    trait = deceitful
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 9
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6393.2.11 = {
+        birth = yes
+    }
+
+    6474.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_23 = {
+    name = "Donnel"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_20
+    mother = staedmon_21
+
+    trait = brave
+    trait = cynical
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 3
+    intrigue = 2
+    learning = 7
+    prowess = 2
+
+    trait = education_learning_2
+
+    6395.7.19 = {
+        birth = yes
+    }
+
+    6442.2.23 = {
+        add_spouse = staedmon_24
+    }
+
+    6462.7.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_24 = {
+    name = "Barra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = arbitrary
+    trait = shy
+    trait = honest
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 11
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6425.6.25 = {
+        birth = yes
+    }
+
+    6491.5.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_25 = {
+    name = "Leyla"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_23
+    mother = staedmon_24
+
+    trait = honest
+    trait = ambitious
+    trait = forgiving
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6448.4.21 = {
+        birth = yes
+    }
+
+    6521.6.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_26 = {
+    name = "Thurgood"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_23
+    mother = staedmon_24
+
+    trait = greedy
+    trait = patient
+    trait = callous
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 1
+    intrigue = 5
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_2
+
+    6449.12.5 = {
+        birth = yes
+    }
+
+    6481.9.24 = {
+        add_spouse = staedmon_27
+    }
+
+    6521.1.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_27 = {
+    name = "Roelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = trusting
+    trait = temperate
+    trait = just
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6464.2.11 = {
+        birth = yes
+    }
+
+    6535.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_28 = {
+    name = "Maer"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_26
+    mother = staedmon_27
+
+    trait = shy
+    trait = patient
+    trait = stubborn
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 4
+    intrigue = 9
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6488.12.7 = {
+        birth = yes
+    }
+
+    6515.2.1 = {
+        death = { death_reason = death_treatment }
+    }
+}
+
+staedmon_29 = {
+    name = "Rhianna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_26
+    mother = staedmon_27
+
+    trait = callous
+    trait = trusting
+    trait = fickle
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_1
+
+    6489.5.14 = {
+        birth = yes
+    }
+
+    6566.9.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_30 = {
+    name = "Criston"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_26
+    mother = staedmon_27
+
+    trait = craven
+    trait = shy
+    trait = patient
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 1
+    intrigue = 1
+    learning = 4
+    prowess = 3
+
+    trait = education_martial_2
+
+    6491.10.21 = {
+        birth = yes
+    }
+
+    6492.2.6 = {
+        give_nickname = nick_the_magnanimous
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6525.3.13 = {
+        add_spouse = staedmon_31
+    }
+
+    6565.3.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_31 = {
+    name = "Helicent"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = diligent
+    trait = humble
+    trait = lustful
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_1
+
+    6508.10.26 = {
+        birth = yes
+    }
+
+    6549.6.23 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+staedmon_32 = {
+    name = "Arlan"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_30
+    mother = staedmon_31
+
+    trait = lazy
+    trait = trusting
+    trait = lustful
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    6531.7.5 = {
+        birth = yes
+    }
+
+    6532.5.2 = {
+        give_nickname = nick_the_valiant
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6563.6.26 = {
+        add_spouse = staedmon_33
+    }
+
+    6616.3.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_33 = {
+    name = "Jenn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = lazy
+    trait = arrogant
+    trait = chaste
+
+    diplomacy = 1
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_2
+
+    6546.2.20 = {
+        birth = yes
+    }
+
+    6628.11.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_34 = {
+    name = "Shirea"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_30
+    mother = staedmon_31
+
+    trait = temperate
+    trait = craven
+    trait = cynical
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 4
+    intrigue = 1
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_4
+
+    6538.9.26 = {
+        birth = yes
+    }
+
+    6616.1.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_35 = {
+    name = "Meryn"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_23
+    mother = staedmon_24
+
+    trait = cynical
+    trait = wrathful
+    trait = chaste
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 9
+    prowess = 8
+
+    trait = education_learning_4
+
+    6452.9.24 = {
+        birth = yes
+    }
+
+    6483.4.26 = {
+        add_spouse = staedmon_36
+    }
+
+    6535.1.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_36 = {
+    name = "Jenn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = sadistic
+    trait = humble
+    trait = gluttonous
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 9
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6466.11.22 = {
+        birth = yes
+    }
+
+    6534.5.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_37 = {
+    name = "Steffon"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_35
+    mother = staedmon_36
+
+    trait = ambitious
+    trait = just
+    trait = lustful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 4
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    6483.10.23 = {
+        birth = yes
+    }
+
+    6501.5.25 = {
+        add_spouse = staedmon_38
+    }
+
+    6568.9.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_38 = {
+    name = "Elenei"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = gluttonous
+    trait = content
+    trait = brave
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_learning_4
+
+    6484.1.25 = {
+        birth = yes
+    }
+
+    6557.7.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_39 = {
+    name = "Kyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_37
+    mother = staedmon_38
+
+    trait = cynical
+    trait = diligent
+    trait = greedy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    6502.5.9 = {
+        birth = yes
+    }
+
+    6562.2.6 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+staedmon_40 = {
+    name = "Robin"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_37
+    mother = staedmon_38
+
+    trait = zealous
+    trait = brave
+    trait = just
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_2
+
+    6505.2.26 = {
+        birth = yes
+    }
+
+    6522.6.20 = {
+        add_spouse = staedmon_41
+    }
+
+    6586.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_41 = {
+    name = "Maer"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = brave
+    trait = humble
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 10
+    stewardship = 6
+    intrigue = 6
+    learning = 3
+    prowess = 6
+
+    trait = education_martial_3
+
+    6505.11.1 = {
+        birth = yes
+    }
+
+    6589.12.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_42 = {
+    name = "Alynne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_37
+    mother = staedmon_38
+
+    trait = honest
+    trait = temperate
+    trait = lustful
+
+    diplomacy = 10
+    martial = 4
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6510.2.28 = {
+        birth = yes
+    }
+
+    6577.5.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_43 = {
+    name = "Andren"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_37
+    mother = staedmon_38
+
+    trait = chaste
+    trait = zealous
+    trait = honest
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 8
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6515.5.1 = {
+        birth = yes
+    }
+
+    6541.9.11 = {
+        add_spouse = staedmon_44
+    }
+
+    6589.7.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_44 = {
+    name = "Melicent"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = impatient
+    trait = just
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 11
+    intrigue = 8
+    learning = 5
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    6524.5.15 = {
+        birth = yes
+    }
+
+    6599.2.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_45 = {
+    name = "Hugh"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_35
+    mother = staedmon_36
+
+    trait = ambitious
+    trait = calm
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 3
+    prowess = 9
+
+    trait = education_martial_4
+
+    6489.4.28 = {
+        birth = yes
+    }
+
+    6519.4.12 = {
+        add_spouse = staedmon_46
+    }
+
+    6560.9.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_46 = {
+    name = "Tiona"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = diligent
+    trait = greedy
+    trait = patient
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 8
+    intrigue = 10
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6502.1.8 = {
+        birth = yes
+    }
+
+    6585.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_47 = {
+    name = "Benedict"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_45
+    mother = staedmon_46
+
+    trait = cynical
+    trait = paranoid
+    trait = chaste
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 10
+    intrigue = 5
+    learning = 3
+    prowess = 4
+
+    trait = education_stewardship_1
+
+    6521.4.9 = {
+        birth = yes
+    }
+
+    6552.2.7 = {
+        add_spouse = staedmon_48
+    }
+
+    6603.8.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_48 = {
+    name = "Tiah"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = lazy
+    trait = impatient
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 6
+    intrigue = 10
+    learning = 7
+    prowess = 2
+
+    trait = education_intrigue_4
+
+    6535.3.2 = {
+        birth = yes
+    }
+
+    6603.2.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_49 = {
+    name = "Donyse"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_45
+    mother = staedmon_46
+
+    trait = gregarious
+    trait = ambitious
+    trait = chaste
+
+    diplomacy = 1
+    martial = 5
+    stewardship = 4
+    intrigue = 2
+    learning = 6
+    prowess = 6
+
+    trait = education_learning_2
+
+    6527.7.3 = {
+        birth = yes
+    }
+
+    6574.6.15 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+staedmon_50 = {
+    name = "Sher"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_45
+    mother = staedmon_46
+
+    trait = trusting
+    trait = fickle
+    trait = humble
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 8
+    learning = 6
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    6530.3.8 = {
+        birth = yes
+    }
+
+    6599.8.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_51 = {
+    name = "Harwood"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_35
+    mother = staedmon_36
+
+    trait = calm
+    trait = arbitrary
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 10
+
+    trait = education_martial_3
+
+    6495.9.24 = {
+        birth = yes
+    }
+
+    6545.7.14 = {
+        add_spouse = staedmon_52
+    }
+
+    6576.1.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_52 = {
+    name = "Artaria"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = impatient
+    trait = chaste
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 9
+    learning = 7
+    prowess = 3
+
+    trait = education_intrigue_2
+
+    6528.11.10 = {
+        birth = yes
+    }
+
+    6594.4.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_53 = {
+    name = "Dorcas"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_51
+    mother = staedmon_52
+
+    trait = honest
+    trait = greedy
+    trait = patient
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6548.9.23 = {
+        birth = yes
+    }
+
+    6623.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_54 = {
+    name = "Anguy"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_51
+    mother = staedmon_52
+
+    trait = cynical
+    trait = craven
+    trait = patient
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 4
+    intrigue = 9
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    6554.6.12 = {
+        birth = yes
+    }
+
+    6580.1.8 = {
+        add_spouse = staedmon_55
+    }
+
+    6638.2.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_55 = {
+    name = "Cirella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = sadistic
+    trait = greedy
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6563.1.2 = {
+        birth = yes
+    }
+
+    6637.2.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_56 = {
+    name = "Meredyth"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_51
+    mother = staedmon_52
+
+    trait = shy
+    trait = paranoid
+    trait = brave
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 8
+    intrigue = 2
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_1
+
+    6557.5.8 = {
+        birth = yes
+    }
+
+    6635.12.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_57 = {
+    name = "Rhea"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_51
+    mother = staedmon_52
+
+    trait = content
+    trait = humble
+    trait = diligent
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6558.2.9 = {
+        birth = yes
+    }
+
+    6634.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_58 = {
+    name = "Meryn"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_20
+    mother = staedmon_21
+
+    trait = forgiving
+    trait = gluttonous
+    trait = arbitrary
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 8
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6397.6.12 = {
+        birth = yes
+    }
+
+    6441.7.20 = {
+        add_spouse = staedmon_59
+    }
+
+    6451.12.28 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+staedmon_59 = {
+    name = "Annara"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = wrathful
+    trait = compassionate
+    trait = honest
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 2
+    intrigue = 9
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    6424.7.20 = {
+        birth = yes
+    }
+
+    6509.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_60 = {
+    name = "Flora"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_58
+    mother = staedmon_59
+
+    trait = shy
+    trait = trusting
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 3
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6443.1.25 = {
+        birth = yes
+    }
+
+    6512.1.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_61 = {
+    name = "Ginni"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_58
+    mother = staedmon_59
+
+    trait = stubborn
+    trait = lazy
+    trait = brave
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 10
+    prowess = 4
+
+    trait = education_learning_3
+
+    6444.8.19 = {
+        birth = yes
+    }
+
+    6515.3.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_62 = {
+    name = "Raymund"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_58
+    mother = staedmon_59
+
+    trait = vengeful
+    trait = arbitrary
+    trait = deceitful
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 2
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6445.6.15 = {
+        birth = yes
+    }
+
+    6463.5.19 = {
+        add_spouse = staedmon_63
+    }
+
+    6524.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_63 = {
+    name = "Rhonda"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = patient
+    trait = content
+    trait = shy
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 3
+    learning = 9
+    prowess = 9
+
+    trait = education_learning_3
+
+    6446.9.23 = {
+        birth = yes
+    }
+
+    6531.9.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_64 = {
+    name = "Cassandrea"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_62
+    mother = staedmon_63
+
+    trait = lazy
+    trait = stubborn
+    trait = generous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6469.12.20 = {
+        birth = yes
+    }
+
+    6543.4.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_65 = {
+    name = "Andar"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_62
+    mother = staedmon_63
+
+    trait = cynical
+    trait = deceitful
+    trait = chaste
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6473.2.11 = {
+        birth = yes
+    }
+
+    6509.8.11 = {
+        add_spouse = staedmon_66
+    }
+
+    6542.3.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_66 = {
+    name = "Cyrenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = wrathful
+    trait = gregarious
+    trait = patient
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_4
+
+    6492.4.24 = {
+        birth = yes
+    }
+
+    6566.2.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_67 = {
+    name = "Meredyth"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_65
+    mother = staedmon_66
+
+    trait = stubborn
+    trait = impatient
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 6
+    intrigue = 3
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    6515.1.28 = {
+        birth = yes
+    }
+
+    6595.10.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_68 = {
+    name = "Clifford"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_65
+    mother = staedmon_66
+
+    trait = arbitrary
+    trait = sadistic
+    trait = cynical
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 9
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_stewardship_4
+
+    6518.5.13 = {
+        birth = yes
+    }
+
+    6558.8.18 = {
+        add_spouse = staedmon_69
+    }
+
+    6596.4.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_69 = {
+    name = "Helena"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = paranoid
+    trait = honest
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 2
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6541.3.6 = {
+        birth = yes
+    }
+
+    6620.7.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_70 = {
+    name = "Galladon"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_65
+    mother = staedmon_66
+
+    trait = stubborn
+    trait = generous
+    trait = gregarious
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 9
+    intrigue = 4
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6524.11.10 = {
+        birth = yes
+    }
+
+    6569.12.28 = {
+        add_spouse = staedmon_71
+    }
+
+    6596.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_71 = {
+    name = "Kelyce"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = cynical
+    trait = impatient
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 3
+    intrigue = 9
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6552.5.20 = {
+        birth = yes
+    }
+
+    6579.9.13 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+staedmon_72 = {
+    name = "Harbert"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_58
+    mother = staedmon_59
+
+    trait = compassionate
+    trait = arrogant
+    trait = lustful
+
+    diplomacy = 1
+    martial = 9
+    stewardship = 8
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_2
+
+    6447.7.6 = {
+        birth = yes
+    }
+
+    6479.9.8 = {
+        add_spouse = staedmon_73
+    }
+
+    6497.3.25 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+staedmon_73 = {
+    name = "Brella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = gregarious
+    trait = fickle
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6462.6.27 = {
+        birth = yes
+    }
+
+    6547.4.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_74 = {
+    name = "Renly"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_72
+    mother = staedmon_73
+
+    trait = cynical
+    trait = sadistic
+    trait = impatient
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 9
+    learning = 8
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6484.4.16 = {
+        birth = yes
+    }
+
+    6530.5.23 = {
+        add_spouse = staedmon_75
+    }
+
+    6549.6.14 = {
+        death = { death_reason = death_dungeon  }
+    }
+}
+
+staedmon_75 = {
+    name = "Elenei"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = content
+    trait = cynical
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6513.6.15 = {
+        birth = yes
+    }
+
+    6589.12.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_76 = {
+    name = "Brus"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_74
+    mother = staedmon_75
+
+    trait = diligent
+    trait = calm
+    trait = gluttonous
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_2
+
+    6534.5.25 = {
+        birth = yes
+    }
+
+    6572.1.14 = {
+        add_spouse = staedmon_77
+    }
+
+    6614.2.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_77 = {
+    name = "Arianne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = shy
+    trait = forgiving
+    trait = cynical
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    6555.8.15 = {
+        birth = yes
+    }
+
+    6634.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_78 = {
+    name = "Ronnet"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_74
+    mother = staedmon_75
+
+    trait = temperate
+    trait = diligent
+    trait = lustful
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 10
+    intrigue = 9
+    learning = 8
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6539.2.23 = {
+        birth = yes
+    }
+
+    6560.6.8 = {
+        add_spouse = staedmon_79
+    }
+
+    6608.1.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_79 = {
+    name = "Dorna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = generous
+    trait = lustful
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 6
+    intrigue = 3
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_2
+
+    6543.5.24 = {
+        birth = yes
+    }
+
+    6613.2.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_80 = {
+    name = "Michael"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_74
+    mother = staedmon_75
+
+    trait = wrathful
+    trait = diligent
+    trait = lustful
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 7
+    intrigue = 7
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_2
+
+    6543.12.10 = {
+        birth = yes
+    }
+
+    6573.2.24 = {
+        add_spouse = staedmon_81
+    }
+
+    6615.10.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_81 = {
+    name = "Mary"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = just
+    trait = trusting
+    trait = stubborn
+
+    diplomacy = 10
+    martial = 10
+    stewardship = 8
+    intrigue = 8
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6556.2.11 = {
+        birth = yes
+    }
+
+    6635.9.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_82 = {
+    name = "Rhonda"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_72
+    mother = staedmon_73
+
+    trait = stubborn
+    trait = vengeful
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 3
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6486.11.17 = {
+        birth = yes
+    }
+
+    6556.9.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_83 = {
+    name = "Simon"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_72
+    mother = staedmon_73
+
+    trait = compassionate
+    trait = craven
+    trait = wrathful
+
+    diplomacy = 24
+    martial = 23
+    stewardship = 21
+    intrigue = 19
+    learning = 23
+    prowess = 28
+
+    trait = education_diplomacy_4
+
+    6488.7.11 = {
+        birth = yes
+    }
+
+    6529.7.3 = {
+        add_spouse = staedmon_84
+    }
+
+    6573.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_84 = {
+    name = "Ravella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = chaste
+    trait = compassionate
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 3
+
+    trait = education_intrigue_2
+
+    6512.8.28 = {
+        birth = yes
+    }
+
+    6592.5.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_85 = {
+    name = "Gladden"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_83
+    mother = staedmon_84
+
+    trait = greedy
+    trait = just
+    trait = shy
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 11
+
+    trait = education_intrigue_3
+
+    6535.5.20 = {
+        birth = yes
+    }
+
+    6579.2.19 = {
+        add_spouse = staedmon_86
+    }
+
+    6589.4.18 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+staedmon_86 = {
+    name = "Corenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = humble
+    trait = arbitrary
+    trait = diligent
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6562.7.23 = {
+        birth = yes
+    }
+
+    6639.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_87 = {
+    name = "Robert"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_83
+    mother = staedmon_84
+
+    trait = paranoid
+    trait = generous
+    trait = diligent
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6540.2.7 = {
+        birth = yes
+    }
+
+    6581.12.3 = {
+        add_spouse = staedmon_88
+    }
+
+    6623.11.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_88 = {
+    name = "Jasonnei"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = craven
+    trait = lazy
+    trait = temperate
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6564.9.23 = {
+        birth = yes
+    }
+
+    6635.12.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_89 = {
+    name = "Yonel"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_83
+    mother = staedmon_84
+
+    trait = zealous
+    trait = impatient
+    trait = stubborn
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6545.10.12 = {
+        birth = yes
+    }
+
+    6563.6.22 = {
+        add_spouse = staedmon_90
+    }
+
+    6619.5.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_90 = {
+    name = "Scolera"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = cynical
+    trait = calm
+    trait = callous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 1
+
+    trait = education_martial_3
+
+    6546.11.15 = {
+        birth = yes
+    }
+
+    6627.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_91 = {
+    name = "Humfrey"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_83
+    mother = staedmon_84
+
+    trait = impatient
+    trait = shy
+    trait = humble
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 9
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_1
+
+    6548.6.5 = {
+        birth = yes
+    }
+
+    6598.8.2 = {
+        add_spouse = staedmon_92
+    }
+
+    6616.1.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_92 = {
+    name = "Helena"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = ambitious
+    trait = cynical
+    trait = chaste
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6581.7.20 = {
+        birth = yes
+    }
+
+    6659.10.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_93 = {
+    name = "Gulian"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_20
+    mother = staedmon_21
+
+    trait = gregarious
+    trait = patient
+    trait = honest
+
+    diplomacy = 10
+    martial = 2
+    stewardship = 6
+    intrigue = 2
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6398.3.5 = {
+        birth = yes
+    }
+
+    6440.10.5 = {
+        add_spouse = staedmon_94
+    }
+
+    6483.10.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_94 = {
+    name = "Melara"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = craven
+    trait = just
+    trait = stubborn
+
+    diplomacy = 7
+    martial = 11
+    stewardship = 7
+    intrigue = 8
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_4
+
+    6423.3.21 = {
+        birth = yes
+    }
+
+    6507.1.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_95 = {
+    name = "Benedict"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_93
+    mother = staedmon_94
+
+    trait = shy
+    trait = vengeful
+    trait = patient
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 7
+    learning = 4
+    prowess = 10
+
+    trait = education_stewardship_2
+
+    6447.3.11 = {
+        birth = yes
+    }
+
+    6466.10.25 = {
+        add_spouse = staedmon_96
+    }
+
+    6480.8.18 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+staedmon_96 = {
+    name = "Vicky"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = paranoid
+    trait = lustful
+    trait = craven
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 4
+    intrigue = 8
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_3
+
+    6449.4.22 = {
+        birth = yes
+    }
+
+    6515.11.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_97 = {
+    name = "Steffon"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_95
+    mother = staedmon_96
+
+    trait = trusting
+    trait = arrogant
+    trait = lazy
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_4
+
+    6470.1.28 = {
+        birth = yes
+    }
+
+    6498.2.17 = {
+        add_spouse = staedmon_98
+    }
+
+    6550.11.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_98 = {
+    name = "Maer"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = arbitrary
+    trait = gregarious
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 9
+    prowess = 3
+
+    trait = education_learning_2
+
+    6481.12.28 = {
+        birth = yes
+    }
+
+    6539.10.13 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+staedmon_99 = {
+    name = "Anguy"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_97
+    mother = staedmon_98
+
+    trait = temperate
+    trait = sadistic
+    trait = impatient
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 10
+    learning = 7
+    prowess = 9
+
+    trait = education_intrigue_4
+
+    6524.8.2 = {
+        birth = yes
+    }
+
+    6549.8.16 = {
+        add_spouse = staedmon_100
+    }
+
+    6604.2.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_100 = {
+    name = "Tiona"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = lustful
+    trait = paranoid
+    trait = callous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 2
+    intrigue = 4
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_2
+
+    6532.7.16 = {
+        birth = yes
+    }
+
+    6600.11.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_101 = {
+    name = "Lyonel"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_93
+    mother = staedmon_94
+
+    trait = diligent
+    trait = cynical
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6449.6.13 = {
+        birth = yes
+    }
+
+    6471.3.11 = {
+        add_spouse = staedmon_102
+    }
+
+    6533.11.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_102 = {
+    name = "Emma"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = paranoid
+    trait = diligent
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6454.3.15 = {
+        birth = yes
+    }
+
+    6489.10.11 = {
+        death = { death_reason = death_great_pox }
+    }
+}
+
+staedmon_103 = {
+    name = "Davos"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_101
+    mother = staedmon_102
+
+    trait = patient
+    trait = cynical
+    trait = calm
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    6477.9.17 = {
+        birth = yes
+    }
+
+    6527.8.2 = {
+        add_spouse = staedmon_104
+    }
+
+    6560.1.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_104 = {
+    name = "Rohanne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = compassionate
+    trait = greedy
+    trait = trusting
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6510.10.18 = {
+        birth = yes
+    }
+
+    6581.10.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_105 = {
+    name = "Criston"
+
+    dynasty = dynasty_staedmon
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_103
+    mother = staedmon_104
+
+    trait = impatient
+    trait = brave
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6531.7.4 = {
+        birth = yes
+    }
+
+    6553.6.9 = {
+        add_spouse = staedmon_106
+    }
+
+    6597.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_106 = {
+    name = "Tia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = ambitious
+    trait = craven
+    trait = callous
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 11
+
+    trait = education_learning_4
+
+    6536.7.10 = {
+        birth = yes
+    }
+
+    6613.8.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_107 = {
+    name = "Alysanne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_103
+    mother = staedmon_104
+
+    trait = paranoid
+    trait = lustful
+    trait = vengeful
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 9
+    intrigue = 9
+    learning = 2
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6537.4.6 = {
+        birth = yes
+    }
+
+    6621.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+staedmon_108 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_93
+    mother = staedmon_94
+
+    trait = zealous
+    trait = gregarious
+    trait = callous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_learning_4
+
+    6456.7.12 = {
+        birth = yes
+    }
+
+    6508.1.11 = {
+        death = { death_reason = death_script_cruelty   }
+    }
+}
+
+staedmon_109 = {
+    name = "Kelycea"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = staedmon_1
+    mother = staedmon_2
+
+    trait = greedy
+    trait = deceitful
+    trait = shy
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 3
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_4
+
+    6356.2.7 = {
+        birth = yes
+    }
+
+    6428.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

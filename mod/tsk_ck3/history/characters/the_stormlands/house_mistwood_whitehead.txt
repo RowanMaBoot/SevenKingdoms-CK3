@@ -1,0 +1,2003 @@
+whitehead_1 = {
+    name = "Beric"
+
+    dynasty = dynasty_whitehead
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = zealous
+    trait = content
+    trait = temperate
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 2
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_4
+
+    6300.7.19 = {
+        birth = yes
+    }
+
+    6342.4.20 = {
+        add_spouse = whitehead_2
+    }
+
+    6370.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_2 = {
+    name = "Mary"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = honest
+    trait = compassionate
+    trait = generous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 2
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_2
+
+    6325.12.5 = {
+        birth = yes
+    }
+
+    6402.11.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_3 = {
+    name = "Gulian"
+
+    dynasty = dynasty_whitehead
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_1
+    mother = whitehead_2
+
+    trait = lazy
+    trait = shy
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 5
+
+    trait = education_martial_3
+
+    6348.9.28 = {
+        birth = yes
+    }
+
+    6377.6.14 = {
+        add_spouse = whitehead_4
+    }
+
+    6422.6.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_4 = {
+    name = "Dainia"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = paranoid
+    trait = lazy
+    trait = impatient
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 3
+
+    trait = education_intrigue_4
+
+    6360.6.1 = {
+        birth = yes
+    }
+
+    6387.4.13 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+whitehead_5 = {
+    name = "Jeyne"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_3
+    mother = whitehead_4
+
+    trait = patient
+    trait = shy
+    trait = lazy
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6378.11.28 = {
+        birth = yes
+    }
+
+    6445.11.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_6 = {
+    name = "Cassandria"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_3
+    mother = whitehead_4
+
+    trait = diligent
+    trait = honest
+    trait = brave
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 8
+    intrigue = 3
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6380.7.27 = {
+        birth = yes
+    }
+
+    6459.5.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_7 = {
+    name = "Vick"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_3
+    mother = whitehead_4
+
+    trait = sadistic
+    trait = cynical
+    trait = impatient
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6381.3.5 = {
+        birth = yes
+    }
+
+    6455.2.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_8 = {
+    name = "Harlan"
+
+    dynasty = dynasty_whitehead
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_3
+    mother = whitehead_4
+
+    trait = temperate
+    trait = deceitful
+    trait = calm
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 10
+    intrigue = 4
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6383.11.28 = {
+        birth = yes
+    }
+
+    6431.3.12 = {
+        add_spouse = whitehead_9
+    }
+
+    6441.9.21 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+whitehead_9 = {
+    name = "Rhi"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = diligent
+    trait = craven
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 9
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6414.2.4 = {
+        birth = yes
+    }
+
+    6488.1.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_10 = {
+    name = "Tommen"
+
+    dynasty = dynasty_whitehead
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_8
+    mother = whitehead_9
+
+    trait = callous
+    trait = paranoid
+    trait = greedy
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 3
+    intrigue = 7
+    learning = 2
+    prowess = 4
+
+    trait = education_martial_2
+
+    6433.8.16 = {
+        birth = yes
+    }
+
+    6460.1.2 = {
+        add_spouse = whitehead_11
+    }
+
+    6499.9.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_11 = {
+    name = "Tyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = impatient
+    trait = compassionate
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 2
+    prowess = 6
+
+    trait = education_martial_2
+
+    6443.5.18 = {
+        birth = yes
+    }
+
+    6526.5.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_12 = {
+    name = "Guyard"
+
+    dynasty = dynasty_whitehead
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_10
+    mother = whitehead_11
+
+    trait = chaste
+    trait = just
+    trait = craven
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6460.4.22 = {
+        birth = yes
+    }
+
+    6501.1.21 = {
+        add_spouse = whitehead_13
+    }
+
+    6538.10.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_13 = {
+    name = "Mair"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = honest
+    trait = greedy
+    trait = temperate
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_learning_3
+
+    6484.11.21 = {
+        birth = yes
+    }
+
+    6554.6.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_14 = {
+    name = "Phillip"
+
+    dynasty = dynasty_whitehead
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_12
+    mother = whitehead_13
+
+    trait = brave
+    trait = cynical
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 9
+    intrigue = 7
+    learning = 2
+    prowess = 3
+
+    trait = education_stewardship_4
+
+    6523.10.9 = {
+        birth = yes
+    }
+
+    6570.1.2 = {
+        add_spouse = whitehead_15
+    }
+
+    6601.7.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_15 = {
+    name = "Matrice"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = brave
+    trait = cynical
+    trait = shy
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6553.8.14 = {
+        birth = yes
+    }
+
+    6636.1.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_16 = {
+    name = "Harrold"
+
+    dynasty = dynasty_whitehead
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_14
+    mother = whitehead_15
+
+    trait = vengeful
+    trait = chaste
+    trait = stubborn
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 6
+    intrigue = 10
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6575.9.16 = {
+        birth = yes
+    }
+
+    6613.12.20 = {
+        add_spouse = whitehead_17
+    }
+
+    6627.7.7 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+whitehead_17 = {
+    name = "Emmara"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = ambitious
+    trait = arrogant
+    trait = arbitrary
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6596.7.23 = {
+        birth = yes
+    }
+
+    6680.12.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_18 = {
+    name = "Ethos"
+
+    dynasty = dynasty_whitehead
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_10
+    mother = whitehead_11
+
+    trait = fickle
+    trait = sadistic
+    trait = diligent
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 3
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6465.12.5 = {
+        birth = yes
+    }
+
+    6488.5.14 = {
+        add_spouse = whitehead_19
+    }
+
+    6543.9.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_19 = {
+    name = "Meredyth"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = zealous
+    trait = diligent
+    trait = just
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_2
+
+    6471.5.1 = {
+        birth = yes
+    }
+
+    6552.12.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_20 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_18
+    mother = whitehead_19
+
+    trait = arbitrary
+    trait = trusting
+    trait = temperate
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 4
+    intrigue = 8
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6494.8.23 = {
+        birth = yes
+    }
+
+    6575.8.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_21 = {
+    name = "Byron"
+
+    dynasty = dynasty_whitehead
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_18
+    mother = whitehead_19
+
+    trait = ambitious
+    trait = compassionate
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 11
+    prowess = 8
+
+    trait = education_learning_4
+
+    6501.6.23 = {
+        birth = yes
+    }
+
+    6530.5.7 = {
+        add_spouse = whitehead_22
+    }
+
+    6569.7.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_22 = {
+    name = "Shirei"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = lustful
+    trait = greedy
+    trait = craven
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 5
+    intrigue = 10
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6513.1.19 = {
+        birth = yes
+    }
+
+    6592.7.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_23 = {
+    name = "Florian"
+
+    dynasty = dynasty_whitehead
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_21
+    mother = whitehead_22
+
+    trait = lustful
+    trait = patient
+    trait = generous
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 10
+
+    trait = education_martial_2
+
+    6536.11.14 = {
+        birth = yes
+    }
+
+    6577.1.12 = {
+        add_spouse = whitehead_24
+    }
+
+    6620.3.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_24 = {
+    name = "Kelycea"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = zealous
+    trait = generous
+    trait = honest
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 4
+
+    trait = education_martial_3
+
+    6560.1.14 = {
+        birth = yes
+    }
+
+    6636.5.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_25 = {
+    name = "Jenae"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_21
+    mother = whitehead_22
+
+    trait = chaste
+    trait = humble
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_1
+
+    6539.7.2 = {
+        birth = yes
+    }
+
+    6609.9.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_26 = {
+    name = "Olryn"
+
+    dynasty = dynasty_whitehead
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_21
+    mother = whitehead_22
+
+    trait = calm
+    trait = patient
+    trait = craven
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 3
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    6543.6.15 = {
+        birth = yes
+    }
+
+    6558.3.17 = {
+        add_spouse = whitehead_27
+    }
+
+    6579.4.21 = {
+        death = { death_reason = death_dungeon  }
+    }
+}
+
+whitehead_27 = {
+    name = "Leonette"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = lustful
+    trait = content
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 9
+    intrigue = 7
+    learning = 9
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6541.1.23 = {
+        birth = yes
+    }
+
+    6613.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_28 = {
+    name = "Alysanne"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_10
+    mother = whitehead_11
+
+    trait = arbitrary
+    trait = craven
+    trait = gregarious
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 1
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6470.8.24 = {
+        birth = yes
+    }
+
+    6544.7.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_29 = {
+    name = "Donal"
+
+    dynasty = dynasty_whitehead
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_10
+    mother = whitehead_11
+
+    trait = vengeful
+    trait = zealous
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 9
+    intrigue = 8
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    6472.9.25 = {
+        birth = yes
+    }
+
+    6495.1.21 = {
+        add_spouse = whitehead_30
+    }
+
+    6554.11.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_30 = {
+    name = "Kelyce"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = arrogant
+    trait = cynical
+    trait = content
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 1
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6478.9.26 = {
+        birth = yes
+    }
+
+    6505.1.23 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+whitehead_31 = {
+    name = "Jeyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_29
+    mother = whitehead_30
+
+    trait = temperate
+    trait = paranoid
+    trait = sadistic
+
+    diplomacy = 9
+    martial = 2
+    stewardship = 4
+    intrigue = 6
+    learning = 10
+    prowess = 6
+
+    trait = education_learning_1
+
+    6496.5.24 = {
+        birth = yes
+    }
+
+    6571.5.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_32 = {
+    name = "Narbert"
+
+    dynasty = dynasty_whitehead
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_29
+    mother = whitehead_30
+
+    trait = cynical
+    trait = gregarious
+    trait = fickle
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    6497.2.19 = {
+        birth = yes
+    }
+
+    6529.12.2 = {
+        add_spouse = whitehead_33
+    }
+
+    6539.7.7 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+whitehead_33 = {
+    name = "Daisy"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = honest
+    trait = chaste
+    trait = greedy
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 9
+
+    trait = education_martial_3
+
+    6512.2.11 = {
+        birth = yes
+    }
+
+    6595.6.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_34 = {
+    name = "Harwood"
+
+    dynasty = dynasty_whitehead
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_32
+    mother = whitehead_33
+
+    trait = deceitful
+    trait = cynical
+    trait = just
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 10
+    intrigue = 10
+    learning = 7
+    prowess = 9
+
+    trait = education_stewardship_4
+
+    6532.10.25 = {
+        birth = yes
+    }
+
+    6569.10.27 = {
+        add_spouse = whitehead_35
+    }
+
+    6581.1.23 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+whitehead_35 = {
+    name = "Bethany"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = wrathful
+    trait = arbitrary
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    6552.2.26 = {
+        birth = yes
+    }
+
+    6631.1.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_36 = {
+    name = "Tyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_29
+    mother = whitehead_30
+
+    trait = callous
+    trait = temperate
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_2
+
+    6499.10.25 = {
+        birth = yes
+    }
+
+    6573.3.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_37 = {
+    name = "Bethany"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_29
+    mother = whitehead_30
+
+    trait = impatient
+    trait = just
+    trait = compassionate
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6500.8.11 = {
+        birth = yes
+    }
+
+    6567.9.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_38 = {
+    name = "Cassandria"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_8
+    mother = whitehead_9
+
+    trait = lazy
+    trait = lustful
+    trait = brave
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 2
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6434.3.26 = {
+        birth = yes
+    }
+
+    6504.6.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_39 = {
+    name = "Rolland"
+
+    dynasty = dynasty_whitehead
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_8
+    mother = whitehead_9
+
+    trait = content
+    trait = paranoid
+    trait = diligent
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 9
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6436.5.20 = {
+        birth = yes
+    }
+
+    6477.5.26 = {
+        add_spouse = whitehead_40
+    }
+
+    6508.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_40 = {
+    name = "Ellyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = humble
+    trait = cynical
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 10
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6460.8.17 = {
+        birth = yes
+    }
+
+    6526.8.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_41 = {
+    name = "Myles"
+
+    dynasty = dynasty_whitehead
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_39
+    mother = whitehead_40
+
+    trait = content
+    trait = trusting
+    trait = brave
+
+    diplomacy = 4
+    martial = 1
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6477.9.17 = {
+        birth = yes
+    }
+
+    6491.10.20 = {
+        add_spouse = whitehead_42
+    }
+
+    6552.5.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_42 = {
+    name = "Rhea"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = gregarious
+    trait = impatient
+    trait = paranoid
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 4
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6474.8.28 = {
+        birth = yes
+    }
+
+    6554.8.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_43 = {
+    name = "Corenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_41
+    mother = whitehead_42
+
+    trait = arbitrary
+    trait = diligent
+    trait = humble
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 4
+    intrigue = 1
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_2
+
+    6495.8.28 = {
+        birth = yes
+    }
+
+    6564.8.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_44 = {
+    name = "Gulian"
+
+    dynasty = dynasty_whitehead
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_41
+    mother = whitehead_42
+
+    trait = greedy
+    trait = sadistic
+    trait = arrogant
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 9
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6496.5.28 = {
+        birth = yes
+    }
+
+    6544.11.28 = {
+        add_spouse = whitehead_45
+    }
+
+    6575.3.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_45 = {
+    name = "Elanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = cynical
+    trait = diligent
+    trait = content
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 11
+    learning = 6
+    prowess = 10
+
+    trait = education_intrigue_3
+
+    6527.11.12 = {
+        birth = yes
+    }
+
+    6597.9.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_46 = {
+    name = "Gawen"
+
+    dynasty = dynasty_whitehead
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_44
+    mother = whitehead_45
+
+    trait = cynical
+    trait = forgiving
+    trait = content
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 3
+    intrigue = 8
+    learning = 11
+    prowess = 8
+
+    trait = education_learning_3
+
+    6553.6.5 = {
+        birth = yes
+    }
+
+    6584.12.20 = {
+        add_spouse = whitehead_47
+    }
+
+    6623.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_47 = {
+    name = "Tiona"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = arbitrary
+    trait = gregarious
+    trait = zealous
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 5
+    intrigue = 9
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6567.12.11 = {
+        birth = yes
+    }
+
+    6613.8.28 = {
+        death = { death_reason = death_bubonic_plague }
+    }
+}
+
+whitehead_48 = {
+    name = "Pearse"
+
+    dynasty = dynasty_whitehead
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_41
+    mother = whitehead_42
+
+    trait = arrogant
+    trait = zealous
+    trait = patient
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 2
+    intrigue = 4
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_3
+
+    6500.9.23 = {
+        birth = yes
+    }
+
+    6536.4.6 = {
+        add_spouse = whitehead_49
+    }
+
+    6583.11.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_49 = {
+    name = "Rhea"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = lustful
+    trait = calm
+    trait = diligent
+
+    diplomacy = 10
+    martial = 4
+    stewardship = 7
+    intrigue = 8
+    learning = 9
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6519.12.13 = {
+        birth = yes
+    }
+
+    6594.6.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_50 = {
+    name = "Allard"
+
+    dynasty = dynasty_whitehead
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_48
+    mother = whitehead_49
+
+    trait = paranoid
+    trait = lazy
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 11
+    stewardship = 7
+    intrigue = 9
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_4
+
+    6563.8.12 = {
+        birth = yes
+    }
+
+    6601.1.23 = {
+        add_spouse = whitehead_51
+    }
+
+    6648.7.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_51 = {
+    name = "Senelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = vengeful
+    trait = just
+    trait = lustful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6584.2.22 = {
+        birth = yes
+    }
+
+    6653.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_52 = {
+    name = "Arron"
+
+    dynasty = dynasty_whitehead
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_41
+    mother = whitehead_42
+
+    trait = arrogant
+    trait = gregarious
+    trait = patient
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 9
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_1
+
+    6503.6.23 = {
+        birth = yes
+    }
+
+    6521.5.12 = {
+        add_spouse = whitehead_53
+    }
+
+    6580.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_53 = {
+    name = "Annara"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = brave
+    trait = arrogant
+    trait = diligent
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 9
+    learning = 6
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    6504.3.24 = {
+        birth = yes
+    }
+
+    6587.7.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_54 = {
+    name = "Shirea"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_52
+    mother = whitehead_53
+
+    trait = paranoid
+    trait = craven
+    trait = generous
+
+    diplomacy = 1
+    martial = 4
+    stewardship = 6
+    intrigue = 4
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_3
+
+    6527.7.10 = {
+        birth = yes
+    }
+
+    6569.8.24 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+whitehead_55 = {
+    name = "Andren"
+
+    dynasty = dynasty_whitehead
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_52
+    mother = whitehead_53
+
+    trait = zealous
+    trait = forgiving
+    trait = brave
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 2
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6530.6.9 = {
+        birth = yes
+    }
+
+    6562.7.24 = {
+        add_spouse = whitehead_56
+    }
+
+    6604.9.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_56 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = arrogant
+    trait = zealous
+    trait = compassionate
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 9
+    prowess = 9
+
+    trait = education_learning_3
+
+    6545.3.13 = {
+        birth = yes
+    }
+
+    6619.11.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_57 = {
+    name = "Vick"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_52
+    mother = whitehead_53
+
+    trait = craven
+    trait = wrathful
+    trait = ambitious
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 4
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_learning_3
+
+    6533.1.14 = {
+        birth = yes
+    }
+
+    6614.6.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_58 = {
+    name = "Manfred"
+
+    dynasty = dynasty_whitehead
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_52
+    mother = whitehead_53
+
+    trait = honest
+    trait = content
+    trait = chaste
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6537.3.2 = {
+        birth = yes
+    }
+
+    6566.11.4 = {
+        add_spouse = whitehead_59
+    }
+
+    6613.10.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_59 = {
+    name = "Alynne"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = compassionate
+    trait = greedy
+    trait = arbitrary
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_1
+
+    6549.10.1 = {
+        birth = yes
+    }
+
+    6634.7.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_60 = {
+    name = "Rhonda"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_39
+    mother = whitehead_40
+
+    trait = gluttonous
+    trait = sadistic
+    trait = honest
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 11
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6482.4.17 = {
+        birth = yes
+    }
+
+    6556.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_61 = {
+    name = "Maris"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_39
+    mother = whitehead_40
+
+    trait = generous
+    trait = compassionate
+    trait = shy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 9
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6486.2.3 = {
+        birth = yes
+    }
+
+    6554.5.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+whitehead_62 = {
+    name = "Cassandria"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = whitehead_8
+    mother = whitehead_9
+
+    trait = honest
+    trait = arrogant
+    trait = patient
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 2
+    intrigue = 7
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6437.7.8 = {
+        birth = yes
+    }
+
+    6515.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

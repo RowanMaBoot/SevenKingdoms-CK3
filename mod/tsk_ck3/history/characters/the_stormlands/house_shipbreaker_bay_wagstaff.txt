@@ -1,0 +1,1777 @@
+wagstaff_1 = {
+    name = "Gulian"
+
+    dynasty = dynasty_wagstaff
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = ambitious
+    trait = paranoid
+    trait = just
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 4
+    intrigue = 7
+    learning = 3
+    prowess = 3
+
+    trait = education_martial_2
+
+    6300.6.13 = {
+        birth = yes
+    }
+
+    6335.10.24 = {
+        add_spouse = wagstaff_2
+    }
+
+    6385.12.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_2 = {
+    name = "Donyse"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = forgiving
+    trait = diligent
+    trait = zealous
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 4
+    intrigue = 6
+    learning = 3
+    prowess = 6
+
+    trait = education_martial_3
+
+    6318.10.15 = {
+        birth = yes
+    }
+
+    6401.2.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_3 = {
+    name = "Joffrey"
+
+    dynasty = dynasty_wagstaff
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_1
+    mother = wagstaff_2
+
+    trait = chaste
+    trait = ambitious
+    trait = calm
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 5
+    intrigue = 5
+    learning = 10
+    prowess = 1
+
+    trait = education_learning_2
+
+    6353.11.25 = {
+        birth = yes
+    }
+
+    6403.1.2 = {
+        add_spouse = wagstaff_4
+    }
+
+    6413.11.10 = {
+        death = { death_reason = death_horse_riding_accident  }
+    }
+}
+
+wagstaff_4 = {
+    name = "Donyse"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = forgiving
+    trait = humble
+    trait = trusting
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    6386.4.1 = {
+        birth = yes
+    }
+
+    6468.4.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_5 = {
+    name = "Brus"
+
+    dynasty = dynasty_wagstaff
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_3
+    mother = wagstaff_4
+
+    trait = lustful
+    trait = callous
+    trait = diligent
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 2
+    intrigue = 6
+    learning = 11
+    prowess = 3
+
+    trait = education_learning_3
+
+    6404.9.5 = {
+        birth = yes
+    }
+
+    6448.2.8 = {
+        add_spouse = wagstaff_6
+    }
+
+    6473.10.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_6 = {
+    name = "Alynne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = gluttonous
+    trait = cynical
+    trait = fickle
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6431.2.27 = {
+        birth = yes
+    }
+
+    6497.12.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_7 = {
+    name = "Davos"
+
+    dynasty = dynasty_wagstaff
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_5
+    mother = wagstaff_6
+
+    trait = gregarious
+    trait = arrogant
+    trait = just
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6449.10.25 = {
+        birth = yes
+    }
+
+    6477.9.15 = {
+        add_spouse = wagstaff_8
+    }
+
+    6520.4.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_8 = {
+    name = "Tia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = patient
+    trait = generous
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6460.1.15 = {
+        birth = yes
+    }
+
+    6528.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_9 = {
+    name = "Sher"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_7
+    mother = wagstaff_8
+
+    trait = arrogant
+    trait = vengeful
+    trait = calm
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_4
+
+    6480.8.25 = {
+        birth = yes
+    }
+
+    6551.8.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_10 = {
+    name = "Flora"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_7
+    mother = wagstaff_8
+
+    trait = craven
+    trait = arbitrary
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_3
+
+    6481.8.1 = {
+        birth = yes
+    }
+
+    6558.3.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_11 = {
+    name = "Jonald"
+
+    dynasty = dynasty_wagstaff
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_7
+    mother = wagstaff_8
+
+    trait = ambitious
+    trait = paranoid
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    6485.4.19 = {
+        birth = yes
+    }
+
+    6534.7.14 = {
+        add_spouse = wagstaff_12
+    }
+
+    6558.1.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_12 = {
+    name = "Flora"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = lustful
+    trait = gluttonous
+    trait = fickle
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 5
+    intrigue = 10
+    learning = 7
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    6517.12.18 = {
+        birth = yes
+    }
+
+    6591.3.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_13 = {
+    name = "Alyn"
+
+    dynasty = dynasty_wagstaff
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_11
+    mother = wagstaff_12
+
+    trait = forgiving
+    trait = calm
+    trait = shy
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 7
+    intrigue = 3
+    learning = 4
+    prowess = 11
+
+    trait = education_martial_2
+
+    6544.7.27 = {
+        birth = yes
+    }
+
+    6579.4.13 = {
+        add_spouse = wagstaff_14
+    }
+
+    6614.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_14 = {
+    name = "Alysanne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = lustful
+    trait = cynical
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 3
+    intrigue = 4
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_3
+
+    6562.1.10 = {
+        birth = yes
+    }
+
+    6644.6.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_15 = {
+    name = "Simon"
+
+    dynasty = dynasty_wagstaff
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_13
+    mother = wagstaff_14
+
+    trait = humble
+    trait = gregarious
+    trait = calm
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    6584.5.3 = {
+        birth = yes
+    }
+
+    6629.4.17 = {
+        add_spouse = wagstaff_16
+    }
+
+    6650.5.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_16 = {
+    name = "Marya"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = humble
+    trait = diligent
+    trait = arbitrary
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_3
+
+    6612.1.11 = {
+        birth = yes
+    }
+
+    6689.12.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_17 = {
+    name = "Cassandria"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_13
+    mother = wagstaff_14
+
+    trait = honest
+    trait = lazy
+    trait = compassionate
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 1
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6585.9.13 = {
+        birth = yes
+    }
+
+    6663.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_18 = {
+    name = "Argilac"
+
+    dynasty = dynasty_wagstaff
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_13
+    mother = wagstaff_14
+
+    trait = lustful
+    trait = vengeful
+    trait = fickle
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6590.3.23 = {
+        birth = yes
+    }
+
+    6611.7.16 = {
+        add_spouse = wagstaff_19
+    }
+
+    6656.6.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_19 = {
+    name = "Jeyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = craven
+    trait = just
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 7
+    intrigue = 7
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_1
+
+    6594.7.7 = {
+        birth = yes
+    }
+
+    6673.1.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_20 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_13
+    mother = wagstaff_14
+
+    trait = lustful
+    trait = greedy
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 1
+    intrigue = 11
+    learning = 8
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6591.6.28 = {
+        birth = yes
+    }
+
+    6672.12.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_21 = {
+    name = "Melicent"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_11
+    mother = wagstaff_12
+
+    trait = arbitrary
+    trait = calm
+    trait = trusting
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    6548.5.2 = {
+        birth = yes
+    }
+
+    6619.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_22 = {
+    name = "Allard"
+
+    dynasty = dynasty_wagstaff
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_5
+    mother = wagstaff_6
+
+    trait = lazy
+    trait = deceitful
+    trait = content
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 3
+    intrigue = 8
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6450.1.6 = {
+        birth = yes
+    }
+
+    6477.8.2 = {
+        add_spouse = wagstaff_23
+    }
+
+    6528.2.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_23 = {
+    name = "Cassandra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = fickle
+    trait = patient
+    trait = calm
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6460.1.19 = {
+        birth = yes
+    }
+
+    6535.5.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_24 = {
+    name = "Endrew"
+
+    dynasty = dynasty_wagstaff
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_22
+    mother = wagstaff_23
+
+    trait = lazy
+    trait = trusting
+    trait = lustful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 3
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6494.10.24 = {
+        birth = yes
+    }
+
+    6540.1.23 = {
+        add_spouse = wagstaff_25
+    }
+
+    6564.1.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_25 = {
+    name = "Vick"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = greedy
+    trait = vengeful
+    trait = shy
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 6
+    intrigue = 2
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_4
+
+    6523.11.23 = {
+        birth = yes
+    }
+
+    6596.8.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_26 = {
+    name = "Brella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_24
+    mother = wagstaff_25
+
+    trait = cynical
+    trait = gregarious
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 2
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_2
+
+    6544.9.18 = {
+        birth = yes
+    }
+
+    6619.7.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_27 = {
+    name = "Mylenda"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_24
+    mother = wagstaff_25
+
+    trait = vengeful
+    trait = shy
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_1
+
+    6546.9.6 = {
+        birth = yes
+    }
+
+    6616.1.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_28 = {
+    name = "Balon"
+
+    dynasty = dynasty_wagstaff
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_24
+    mother = wagstaff_25
+
+    trait = patient
+    trait = temperate
+    trait = fickle
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 9
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6549.3.23 = {
+        birth = yes
+    }
+
+    6593.8.15 = {
+        add_spouse = wagstaff_29
+    }
+
+    6634.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_29 = {
+    name = "Helena"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = wrathful
+    trait = diligent
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 8
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_2
+
+    6576.6.16 = {
+        birth = yes
+    }
+
+    6648.5.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_30 = {
+    name = "Leyla"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_28
+    mother = wagstaff_29
+
+    trait = greedy
+    trait = brave
+    trait = calm
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 8
+    intrigue = 9
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6595.5.1 = {
+        birth = yes
+    }
+
+    6677.9.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_31 = {
+    name = "Bryce"
+
+    dynasty = dynasty_wagstaff
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_28
+    mother = wagstaff_29
+
+    trait = just
+    trait = shy
+    trait = calm
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 3
+    learning = 7
+    prowess = 2
+
+    trait = education_learning_2
+
+    6602.3.19 = {
+        birth = yes
+    }
+
+    6622.6.28 = {
+        add_spouse = wagstaff_32
+    }
+
+    6644.1.17 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+wagstaff_32 = {
+    name = "Leyla"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = callous
+    trait = content
+    trait = honest
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6605.7.25 = {
+        birth = yes
+    }
+
+    6685.2.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_33 = {
+    name = "Colen"
+
+    dynasty = dynasty_wagstaff
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_28
+    mother = wagstaff_29
+
+    trait = lustful
+    trait = stubborn
+    trait = honest
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    6607.5.2 = {
+        birth = yes
+    }
+
+    6640.9.18 = {
+        add_spouse = wagstaff_34
+    }
+
+    6690.8.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_34 = {
+    name = "Donyse"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = vengeful
+    trait = wrathful
+    trait = humble
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_2
+
+    6623.2.25 = {
+        birth = yes
+    }
+
+    6703.10.2 = {
+        death = { death_reason = death_plotting  }
+    }
+}
+
+wagstaff_35 = {
+    name = "Gladden"
+
+    dynasty = dynasty_wagstaff
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_28
+    mother = wagstaff_29
+
+    trait = ambitious
+    trait = generous
+    trait = trusting
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 6
+    intrigue = 9
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    6611.3.19 = {
+        birth = yes
+    }
+
+    6640.7.18 = {
+        add_spouse = wagstaff_36
+    }
+
+    6682.5.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_36 = {
+    name = "Alynne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = diligent
+    trait = paranoid
+    trait = callous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6623.12.25 = {
+        birth = yes
+    }
+
+    6706.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_37 = {
+    name = "Aemon"
+
+    dynasty = dynasty_wagstaff
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_24
+    mother = wagstaff_25
+
+    trait = chaste
+    trait = stubborn
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 3
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_3
+
+    6551.12.10 = {
+        birth = yes
+    }
+
+    6581.5.7 = {
+        add_spouse = wagstaff_38
+    }
+
+    6621.9.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_38 = {
+    name = "Victoria"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = calm
+    trait = arbitrary
+    trait = honest
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 2
+    intrigue = 2
+    learning = 8
+    prowess = 1
+
+    trait = education_learning_4
+
+    6564.7.11 = {
+        birth = yes
+    }
+
+    6631.11.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_39 = {
+    name = "Alysanne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_37
+    mother = wagstaff_38
+
+    trait = temperate
+    trait = brave
+    trait = compassionate
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 10
+    intrigue = 1
+    learning = 9
+    prowess = 4
+
+    trait = education_stewardship_4
+
+    6584.11.10 = {
+        birth = yes
+    }
+
+    6658.8.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_40 = {
+    name = "Brienne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_37
+    mother = wagstaff_38
+
+    trait = gluttonous
+    trait = patient
+    trait = lazy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 8
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6587.11.7 = {
+        birth = yes
+    }
+
+    6606.4.3 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+wagstaff_41 = {
+    name = "Belandra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_37
+    mother = wagstaff_38
+
+    trait = diligent
+    trait = forgiving
+    trait = generous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 9
+
+    trait = education_martial_3
+
+    6591.4.11 = {
+        birth = yes
+    }
+
+    6663.5.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_42 = {
+    name = "Davos"
+
+    dynasty = dynasty_wagstaff
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_37
+    mother = wagstaff_38
+
+    trait = brave
+    trait = generous
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 9
+    intrigue = 5
+    learning = 10
+    prowess = 8
+
+    trait = education_learning_3
+
+    6593.8.22 = {
+        birth = yes
+    }
+
+    6639.3.8 = {
+        add_spouse = wagstaff_43
+    }
+
+    6661.9.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_43 = {
+    name = "Elenei"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = deceitful
+    trait = arrogant
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6622.5.11 = {
+        birth = yes
+    }
+
+    6704.11.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_44 = {
+    name = "Sher"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_5
+    mother = wagstaff_6
+
+    trait = generous
+    trait = sadistic
+    trait = content
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    6455.8.16 = {
+        birth = yes
+    }
+
+    6489.4.26 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+wagstaff_45 = {
+    name = "Bonifer"
+
+    dynasty = dynasty_wagstaff
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_3
+    mother = wagstaff_4
+
+    trait = vengeful
+    trait = honest
+    trait = cynical
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 9
+
+    trait = education_martial_3
+
+    6407.10.8 = {
+        birth = yes
+    }
+
+    6432.9.9 = {
+        add_spouse = wagstaff_46
+    }
+
+    6478.8.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_46 = {
+    name = "Gwyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = chaste
+    trait = calm
+    trait = shy
+
+    diplomacy = 9
+    martial = 3
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6415.3.21 = {
+        birth = yes
+    }
+
+    6497.8.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_47 = {
+    name = "Galladon"
+
+    dynasty = dynasty_wagstaff
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_45
+    mother = wagstaff_46
+
+    trait = calm
+    trait = temperate
+    trait = just
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 3
+
+    trait = education_stewardship_2
+
+    6434.1.23 = {
+        birth = yes
+    }
+
+    6463.8.15 = {
+        add_spouse = wagstaff_48
+    }
+
+    6514.7.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_48 = {
+    name = "Hanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = wrathful
+    trait = deceitful
+    trait = zealous
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 4
+    intrigue = 8
+    learning = 4
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6446.8.5 = {
+        birth = yes
+    }
+
+    6525.3.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_49 = {
+    name = "Leobald"
+
+    dynasty = dynasty_wagstaff
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_47
+    mother = wagstaff_48
+
+    trait = fickle
+    trait = vengeful
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 3
+    intrigue = 11
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6473.8.15 = {
+        birth = yes
+    }
+
+    6513.3.16 = {
+        add_spouse = wagstaff_50
+    }
+
+    6523.2.24 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+wagstaff_50 = {
+    name = "Mary"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = compassionate
+    trait = craven
+    trait = honest
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_4
+
+    6496.6.6 = {
+        birth = yes
+    }
+
+    6573.2.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_51 = {
+    name = "Anguy"
+
+    dynasty = dynasty_wagstaff
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_49
+    mother = wagstaff_50
+
+    trait = craven
+    trait = patient
+    trait = callous
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 6
+    intrigue = 10
+    learning = 8
+    prowess = 1
+
+    trait = education_intrigue_4
+
+    6515.8.20 = {
+        birth = yes
+    }
+
+    6558.6.4 = {
+        add_spouse = wagstaff_52
+    }
+
+    6568.10.4 = {
+        death = { death_reason = death_beaten }
+    }
+}
+
+wagstaff_52 = {
+    name = "Elyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = vengeful
+    trait = ambitious
+    trait = stubborn
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_4
+
+    6541.11.15 = {
+        birth = yes
+    }
+
+    6623.12.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_53 = {
+    name = "Arion"
+
+    dynasty = dynasty_wagstaff
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_51
+    mother = wagstaff_52
+
+    trait = arrogant
+    trait = arbitrary
+    trait = content
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    6561.4.2 = {
+        birth = yes
+    }
+
+    6587.3.17 = {
+        add_spouse = wagstaff_54
+    }
+
+    6643.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_54 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = gluttonous
+    trait = zealous
+    trait = deceitful
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 7
+    intrigue = 8
+    learning = 10
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    6570.5.15 = {
+        birth = yes
+    }
+
+    6638.5.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wagstaff_55 = {
+    name = "Cirella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = wagstaff_51
+    mother = wagstaff_52
+
+    trait = zealous
+    trait = fickle
+    trait = lazy
+
+    diplomacy = 4
+    martial = 10
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_2
+
+    6565.5.24 = {
+        birth = yes
+    }
+
+    6595.12.8 = {
+        death = { death_reason = death_script_cruelty   }
+    }
+}

@@ -1,0 +1,2458 @@
+tarth_1 = {
+    name = "Argilac"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = just
+    trait = diligent
+    trait = patient
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 10
+
+    trait = education_stewardship_4
+
+    6300.1.6 = {
+        birth = yes
+    }
+
+    6325.7.3 = {
+        add_spouse = tarth_2
+    }
+
+    6335.10.7 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+tarth_2 = {
+    name = "Jonquil"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = content
+    trait = brave
+    trait = honest
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6308.7.18 = {
+        birth = yes
+    }
+
+    6388.12.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_3 = {
+    name = "Criston"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_1
+    mother = tarth_2
+
+    trait = vengeful
+    trait = sadistic
+    trait = honest
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 3
+    prowess = 11
+
+    trait = education_diplomacy_4
+
+    6330.7.25 = {
+        birth = yes
+    }
+
+    6380.5.28 = {
+        add_spouse = tarth_4
+    }
+
+    6409.11.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_4 = {
+    name = "Elanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = callous
+    trait = calm
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6363.8.3 = {
+        birth = yes
+    }
+
+    6420.4.19 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+tarth_5 = {
+    name = "Ormund"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_3
+    mother = tarth_4
+
+    trait = diligent
+    trait = shy
+    trait = generous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 9
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6382.1.5 = {
+        birth = yes
+    }
+
+    6397.3.2 = {
+        add_spouse = tarth_6
+    }
+
+    6452.5.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_6 = {
+    name = "Artaria"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = vengeful
+    trait = patient
+    trait = content
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 9
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6380.10.13 = {
+        birth = yes
+    }
+
+    6461.7.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_7 = {
+    name = "Melessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_5
+    mother = tarth_6
+
+    trait = brave
+    trait = humble
+    trait = cynical
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 10
+    intrigue = 8
+    learning = 2
+    prowess = 3
+
+    trait = education_stewardship_4
+
+    6407.10.26 = {
+        birth = yes
+    }
+
+    6477.5.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_8 = {
+    name = "Dale"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_5
+    mother = tarth_6
+
+    trait = ambitious
+    trait = stubborn
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 2
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6411.2.13 = {
+        birth = yes
+    }
+
+    6455.1.15 = {
+        add_spouse = tarth_9
+    }
+
+    6478.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_9 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = arrogant
+    trait = temperate
+    trait = gregarious
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 2
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6438.2.3 = {
+        birth = yes
+    }
+
+    6508.11.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_10 = {
+    name = "Mary"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_8
+    mother = tarth_9
+
+    trait = paranoid
+    trait = arbitrary
+    trait = craven
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 6
+    intrigue = 9
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_2
+
+    6463.4.22 = {
+        birth = yes
+    }
+
+    6542.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_11 = {
+    name = "Donnel"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_8
+    mother = tarth_9
+
+    trait = greedy
+    trait = arrogant
+    trait = patient
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 9
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6466.10.15 = {
+        birth = yes
+    }
+
+    6500.9.25 = {
+        add_spouse = tarth_12
+    }
+
+    6537.8.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_12 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = generous
+    trait = content
+    trait = craven
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 10
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6483.9.27 = {
+        birth = yes
+    }
+
+    6551.11.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_13 = {
+    name = "Harbert"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_11
+    mother = tarth_12
+
+    trait = stubborn
+    trait = sadistic
+    trait = trusting
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 8
+    learning = 8
+    prowess = 10
+
+    trait = education_stewardship_3
+
+    6507.11.27 = {
+        birth = yes
+    }
+
+    6537.4.21 = {
+        add_spouse = tarth_14
+    }
+
+    6575.3.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_14 = {
+    name = "Sher"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = vengeful
+    trait = paranoid
+    trait = humble
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 6
+    intrigue = 9
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_4
+
+    6520.10.5 = {
+        birth = yes
+    }
+
+    6586.5.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_15 = {
+    name = "Sarmion"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_11
+    mother = tarth_12
+
+    trait = honest
+    trait = temperate
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_4
+
+    6508.3.8 = {
+        birth = yes
+    }
+
+    6548.1.13 = {
+        add_spouse = tarth_16
+    }
+
+    6589.11.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_16 = {
+    name = "Dallia"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = zealous
+    trait = forgiving
+    trait = fickle
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 10
+    learning = 7
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6531.10.23 = {
+        birth = yes
+    }
+
+    6611.3.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_17 = {
+    name = "Cerella"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_11
+    mother = tarth_12
+
+    trait = greedy
+    trait = compassionate
+    trait = diligent
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 10
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6514.5.4 = {
+        birth = yes
+    }
+
+    6582.1.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_18 = {
+    name = "Cedrik"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_3
+    mother = tarth_4
+
+    trait = shy
+    trait = greedy
+    trait = impatient
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_2
+
+    6385.2.17 = {
+        birth = yes
+    }
+
+    6419.6.8 = {
+        add_spouse = tarth_19
+    }
+
+    6429.1.10 = {
+        death = { death_reason = death_cloven_in_half }
+    }
+}
+
+tarth_19 = {
+    name = "Tia"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = paranoid
+    trait = compassionate
+    trait = greedy
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 6
+    intrigue = 3
+    learning = 2
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6402.11.27 = {
+        birth = yes
+    }
+
+    6471.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_20 = {
+    name = "Thurgood"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_18
+    mother = tarth_19
+
+    trait = shy
+    trait = craven
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_3
+
+    6421.3.22 = {
+        birth = yes
+    }
+
+    6462.7.9 = {
+        add_spouse = tarth_21
+    }
+
+    6472.3.13 = {
+        death = { death_reason = death_maimed }
+    }
+}
+
+tarth_21 = {
+    name = "Meredyth"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = zealous
+    trait = greedy
+    trait = callous
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 7
+    intrigue = 3
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6445.8.27 = {
+        birth = yes
+    }
+
+    6478.4.23 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+tarth_22 = {
+    name = "Leyla"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_20
+    mother = tarth_21
+
+    trait = impatient
+    trait = trusting
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    6462.11.21 = {
+        birth = yes
+    }
+
+    6546.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_23 = {
+    name = "Dalla"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_20
+    mother = tarth_21
+
+    trait = patient
+    trait = diligent
+    trait = chaste
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6464.5.27 = {
+        birth = yes
+    }
+
+    6549.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_24 = {
+    name = "Andrew"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_20
+    mother = tarth_21
+
+    trait = lustful
+    trait = arbitrary
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6467.2.11 = {
+        birth = yes
+    }
+
+    6487.2.28 = {
+        add_spouse = tarth_25
+    }
+
+    6540.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_25 = {
+    name = "Emelia"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = temperate
+    trait = just
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6470.9.18 = {
+        birth = yes
+    }
+
+    6554.5.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_26 = {
+    name = "Scolera"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_24
+    mother = tarth_25
+
+    trait = humble
+    trait = brave
+    trait = zealous
+
+    diplomacy = 2
+    martial = 9
+    stewardship = 7
+    intrigue = 3
+    learning = 6
+    prowess = 9
+
+    trait = education_martial_2
+
+    6491.4.7 = {
+        birth = yes
+    }
+
+    6559.10.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_27 = {
+    name = "Dale"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_24
+    mother = tarth_25
+
+    trait = diligent
+    trait = fickle
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    6499.12.4 = {
+        birth = yes
+    }
+
+    6535.5.20 = {
+        add_spouse = tarth_28
+    }
+
+    6582.10.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_28 = {
+    name = "Flora"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = content
+    trait = chaste
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6518.7.3 = {
+        birth = yes
+    }
+
+    6590.5.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_29 = {
+    name = "Renly"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_24
+    mother = tarth_25
+
+    trait = impatient
+    trait = generous
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 9
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6501.10.7 = {
+        birth = yes
+    }
+
+    6536.3.18 = {
+        add_spouse = tarth_30
+    }
+
+    6577.1.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_30 = {
+    name = "Jenae"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = arrogant
+    trait = chaste
+    trait = lazy
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 3
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6519.1.26 = {
+        birth = yes
+    }
+
+    6593.12.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_31 = {
+    name = "Myrcella"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_3
+    mother = tarth_4
+
+    trait = deceitful
+    trait = chaste
+    trait = callous
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 10
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6388.10.24 = {
+        birth = yes
+    }
+
+    6458.5.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_32 = {
+    name = "Tommen"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_3
+    mother = tarth_4
+
+    trait = lazy
+    trait = arrogant
+    trait = cynical
+
+    diplomacy = 11
+    martial = 6
+    stewardship = 3
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6391.12.7 = {
+        birth = yes
+    }
+
+    6427.6.2 = {
+        add_spouse = tarth_33
+    }
+
+    6459.2.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_33 = {
+    name = "Donyse"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = gluttonous
+    trait = generous
+    trait = impatient
+
+    diplomacy = 9
+    martial = 10
+    stewardship = 3
+    intrigue = 6
+    learning = 11
+    prowess = 6
+
+    trait = education_learning_3
+
+    6410.2.10 = {
+        birth = yes
+    }
+
+    6481.2.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_34 = {
+    name = "Reginald"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_32
+    mother = tarth_33
+
+    trait = brave
+    trait = compassionate
+    trait = stubborn
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 10
+    intrigue = 7
+    learning = 10
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    6432.8.13 = {
+        birth = yes
+    }
+
+    6449.1.21 = {
+        add_spouse = tarth_35
+    }
+
+    6516.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_35 = {
+    name = "Emelia"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = temperate
+    trait = diligent
+    trait = lustful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6432.10.19 = {
+        birth = yes
+    }
+
+    6501.1.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_36 = {
+    name = "Ellyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_34
+    mother = tarth_35
+
+    trait = arbitrary
+    trait = diligent
+    trait = trusting
+
+    diplomacy = 2
+    martial = 9
+    stewardship = 4
+    intrigue = 7
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_3
+
+    6455.11.13 = {
+        birth = yes
+    }
+
+    6525.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_37 = {
+    name = "Jerion"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_34
+    mother = tarth_35
+
+    trait = patient
+    trait = humble
+    trait = lustful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 10
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6461.1.11 = {
+        birth = yes
+    }
+
+    6498.6.17 = {
+        add_spouse = tarth_38
+    }
+
+    6518.2.25 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+tarth_38 = {
+    name = "Corenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = honest
+    trait = cynical
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 8
+
+    trait = education_stewardship_1
+
+    6481.7.4 = {
+        birth = yes
+    }
+
+    6559.11.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_39 = {
+    name = "Maer"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_37
+    mother = tarth_38
+
+    trait = lustful
+    trait = sadistic
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 9
+    intrigue = 4
+    learning = 5
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    6503.2.7 = {
+        birth = yes
+    }
+
+    6549.9.12 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+tarth_40 = {
+    name = "Scolera"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_37
+    mother = tarth_38
+
+    trait = gregarious
+    trait = calm
+    trait = callous
+
+    diplomacy = 10
+    martial = 9
+    stewardship = 5
+    intrigue = 7
+    learning = 9
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6506.2.18 = {
+        birth = yes
+    }
+
+    6586.7.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_41 = {
+    name = "Ormund"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_37
+    mother = tarth_38
+
+    trait = patient
+    trait = callous
+    trait = chaste
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 8
+    learning = 4
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6509.3.5 = {
+        birth = yes
+    }
+
+    6525.7.14 = {
+        add_spouse = tarth_42
+    }
+
+    6560.12.4 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+tarth_42 = {
+    name = "Lyria"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = generous
+    trait = chaste
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 11
+    learning = 9
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    6508.7.25 = {
+        birth = yes
+    }
+
+    6546.1.22 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+tarth_43 = {
+    name = "Andren"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_37
+    mother = tarth_38
+
+    trait = trusting
+    trait = diligent
+    trait = lustful
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 6
+    intrigue = 8
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6511.11.6 = {
+        birth = yes
+    }
+
+    6555.8.7 = {
+        add_spouse = tarth_44
+    }
+
+    6588.7.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_44 = {
+    name = "Matrice"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = arrogant
+    trait = lustful
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 9
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6538.4.10 = {
+        birth = yes
+    }
+
+    6618.4.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_45 = {
+    name = "Lyonel"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_34
+    mother = tarth_35
+
+    trait = arrogant
+    trait = brave
+    trait = trusting
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 3
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6466.1.26 = {
+        birth = yes
+    }
+
+    6507.11.11 = {
+        add_spouse = tarth_46
+    }
+
+    6517.12.28 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+tarth_46 = {
+    name = "Maris"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = cynical
+    trait = impatient
+    trait = gluttonous
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 2
+    intrigue = 5
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6490.9.16 = {
+        birth = yes
+    }
+
+    6568.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_47 = {
+    name = "Kelyce"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_45
+    mother = tarth_46
+
+    trait = gluttonous
+    trait = brave
+    trait = lazy
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 2
+
+    trait = education_diplomacy_3
+
+    6509.12.19 = {
+        birth = yes
+    }
+
+    6588.6.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_48 = {
+    name = "Shierle"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_45
+    mother = tarth_46
+
+    trait = deceitful
+    trait = wrathful
+    trait = content
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 9
+    learning = 2
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    6511.4.24 = {
+        birth = yes
+    }
+
+    6591.3.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_49 = {
+    name = "Orys"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_45
+    mother = tarth_46
+
+    trait = humble
+    trait = impatient
+    trait = vengeful
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 8
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    6512.2.5 = {
+        birth = yes
+    }
+
+    6558.1.12 = {
+        add_spouse = tarth_50
+    }
+
+    6568.12.21 = {
+        death = { death_reason = death_great_pox }
+    }
+}
+
+tarth_50 = {
+    name = "Cyrenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = just
+    trait = arrogant
+    trait = sadistic
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_2
+
+    6541.2.2 = {
+        birth = yes
+    }
+
+    6620.1.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_51 = {
+    name = "Renly"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_45
+    mother = tarth_46
+
+    trait = paranoid
+    trait = fickle
+    trait = zealous
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_2
+
+    6514.11.10 = {
+        birth = yes
+    }
+
+    6559.9.1 = {
+        add_spouse = tarth_52
+    }
+
+    6581.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_52 = {
+    name = "Dainia"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = arrogant
+    trait = generous
+    trait = craven
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 3
+    intrigue = 5
+    learning = 4
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6542.12.18 = {
+        birth = yes
+    }
+
+    6591.1.18 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+tarth_53 = {
+    name = "Olryn"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_32
+    mother = tarth_33
+
+    trait = calm
+    trait = patient
+    trait = callous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 9
+
+    trait = education_intrigue_4
+
+    6436.10.13 = {
+        birth = yes
+    }
+
+    6460.1.4 = {
+        add_spouse = tarth_54
+    }
+
+    6516.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_54 = {
+    name = "Annis"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = vengeful
+    trait = cynical
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_2
+
+    6443.7.7 = {
+        birth = yes
+    }
+
+    6526.1.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_55 = {
+    name = "Clifford"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_53
+    mother = tarth_54
+
+    trait = craven
+    trait = patient
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_2
+
+    6478.1.22 = {
+        birth = yes
+    }
+
+    6495.12.26 = {
+        add_spouse = tarth_56
+    }
+
+    6517.11.4 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+tarth_56 = {
+    name = "Jenn"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = gluttonous
+    trait = content
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 10
+    prowess = 2
+
+    trait = education_learning_4
+
+    6478.12.19 = {
+        birth = yes
+    }
+
+    6563.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_57 = {
+    name = "Stannis"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_55
+    mother = tarth_56
+
+    trait = diligent
+    trait = ambitious
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6502.7.5 = {
+        birth = yes
+    }
+
+    6534.12.13 = {
+        add_spouse = tarth_58
+    }
+
+    6570.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_58 = {
+    name = "Lyria"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = just
+    trait = stubborn
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    6517.9.14 = {
+        birth = yes
+    }
+
+    6584.9.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_59 = {
+    name = "Florian"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_55
+    mother = tarth_56
+
+    trait = zealous
+    trait = patient
+    trait = gregarious
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6505.6.22 = {
+        birth = yes
+    }
+
+    6529.2.2 = {
+        add_spouse = tarth_60
+    }
+
+    6577.2.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_60 = {
+    name = "Jasonnei"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = honest
+    trait = sadistic
+    trait = chaste
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 8
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6512.8.16 = {
+        birth = yes
+    }
+
+    6589.12.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_61 = {
+    name = "Robin"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_55
+    mother = tarth_56
+
+    trait = lustful
+    trait = humble
+    trait = cynical
+
+    diplomacy = 1
+    martial = 8
+    stewardship = 8
+    intrigue = 1
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_1
+
+    6507.11.25 = {
+        birth = yes
+    }
+
+    6542.8.4 = {
+        add_spouse = tarth_62
+    }
+
+    6552.7.11 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+tarth_62 = {
+    name = "Eglantine"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = wrathful
+    trait = chaste
+    trait = diligent
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6525.10.18 = {
+        birth = yes
+    }
+
+    6596.2.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_63 = {
+    name = "Elyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_32
+    mother = tarth_33
+
+    trait = greedy
+    trait = cynical
+    trait = lustful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 3
+    intrigue = 4
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    6438.3.5 = {
+        birth = yes
+    }
+
+    6521.3.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_64 = {
+    name = "Galladon"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_32
+    mother = tarth_33
+
+    trait = impatient
+    trait = just
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_3
+
+    6442.12.23 = {
+        birth = yes
+    }
+
+    6483.1.3 = {
+        add_spouse = tarth_65
+    }
+
+    6522.6.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_65 = {
+    name = "Myrcella"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = diligent
+    trait = gregarious
+    trait = cynical
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 3
+    intrigue = 8
+    learning = 2
+    prowess = 10
+
+    trait = education_intrigue_2
+
+    6466.10.11 = {
+        birth = yes
+    }
+
+    6493.11.10 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+tarth_66 = {
+    name = "Casper"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_64
+    mother = tarth_65
+
+    trait = lustful
+    trait = content
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 9
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6486.7.23 = {
+        birth = yes
+    }
+
+    6513.2.7 = {
+        add_spouse = tarth_67
+    }
+
+    6564.1.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_67 = {
+    name = "Bethany"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = craven
+    trait = lustful
+    trait = fickle
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_2
+
+    6496.6.24 = {
+        birth = yes
+    }
+
+    6574.9.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_68 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_66
+    mother = tarth_67
+
+    trait = trusting
+    trait = just
+    trait = lazy
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 9
+    prowess = 10
+
+    trait = education_learning_3
+
+    6526.3.17 = {
+        birth = yes
+    }
+
+    6611.11.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_69 = {
+    name = "Arstan"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_66
+    mother = tarth_67
+
+    trait = stubborn
+    trait = calm
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6530.8.26 = {
+        birth = yes
+    }
+
+    6578.2.18 = {
+        add_spouse = tarth_70
+    }
+
+    6588.10.21 = {
+        death = { death_reason = death_beaten }
+    }
+}
+
+tarth_70 = {
+    name = "Leyla"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = gregarious
+    trait = generous
+    trait = lustful
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 6
+    intrigue = 4
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_3
+
+    6561.7.13 = {
+        birth = yes
+    }
+
+    6636.10.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_71 = {
+    name = "Gowen"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_64
+    mother = tarth_65
+
+    trait = paranoid
+    trait = gregarious
+    trait = lazy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_3
+
+    6490.11.4 = {
+        birth = yes
+    }
+
+    6532.2.27 = {
+        add_spouse = tarth_72
+    }
+
+    6559.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_72 = {
+    name = "Brella"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = sadistic
+    trait = fickle
+    trait = craven
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 9
+    intrigue = 9
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6515.12.28 = {
+        birth = yes
+    }
+
+    6599.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_73 = {
+    name = "Harrold"
+
+    dynasty = dynasty_tarth
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_71
+    mother = tarth_72
+
+    trait = patient
+    trait = zealous
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6538.9.4 = {
+        birth = yes
+    }
+
+    6560.4.10 = {
+        add_spouse = tarth_74
+    }
+
+    6613.10.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_74 = {
+    name = "Dainia"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    trait = brave
+    trait = trusting
+    trait = callous
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 8
+    intrigue = 10
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6543.11.1 = {
+        birth = yes
+    }
+
+    6623.4.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_75 = {
+    name = "Emma"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_71
+    mother = tarth_72
+
+    trait = stubborn
+    trait = gluttonous
+    trait = calm
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 6
+    intrigue = 8
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    6547.6.19 = {
+        birth = yes
+    }
+
+    6627.8.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tarth_76 = {
+    name = "Tiona"
+    female = yes
+
+    religion = the_old_gods
+    culture = evenstar
+
+    father = tarth_1
+    mother = tarth_2
+
+    trait = wrathful
+    trait = compassionate
+    trait = cynical
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 3
+    intrigue = 4
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_4
+
+    6332.10.28 = {
+        birth = yes
+    }
+
+    6401.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

@@ -1,0 +1,579 @@
+tudbury_1 = {
+    name = "Alaric"
+
+    dynasty = dynasty_tudbury
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = greedy
+    trait = callous
+    trait = zealous
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 7
+    intrigue = 3
+    learning = 9
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    6300.5.8 = {
+        birth = yes
+    }
+
+    6350.1.26 = {
+        add_spouse = tudbury_2
+    }
+
+    6380.12.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tudbury_2 = {
+    name = "Ellyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = ambitious
+    trait = trusting
+    trait = chaste
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    6333.10.7 = {
+        birth = yes
+    }
+
+    6406.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tudbury_3 = {
+    name = "Beric"
+
+    dynasty = dynasty_tudbury
+    religion = the_old_gods
+    culture = stormmen
+
+    father = tudbury_1
+    mother = tudbury_2
+
+    trait = just
+    trait = callous
+    trait = chaste
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 11
+    intrigue = 6
+    learning = 9
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6372.11.17 = {
+        birth = yes
+    }
+
+    6394.10.13 = {
+        add_spouse = tudbury_4
+    }
+
+    6442.4.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tudbury_4 = {
+    name = "Rhianna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = shy
+    trait = paranoid
+    trait = humble
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 2
+    intrigue = 3
+    learning = 4
+    prowess = 11
+
+    trait = education_martial_3
+
+    6377.3.9 = {
+        birth = yes
+    }
+
+    6451.12.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tudbury_5 = {
+    name = "Devin"
+
+    dynasty = dynasty_tudbury
+    religion = the_old_gods
+    culture = stormmen
+
+    father = tudbury_3
+    mother = tudbury_4
+
+    trait = just
+    trait = craven
+    trait = callous
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 10
+    prowess = 4
+
+    trait = education_learning_4
+
+    6413.6.24 = {
+        birth = yes
+    }
+
+    6448.7.12 = {
+        add_spouse = tudbury_6
+    }
+
+    6496.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tudbury_6 = {
+    name = "Donyse"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = generous
+    trait = stubborn
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6431.6.3 = {
+        birth = yes
+    }
+
+    6505.1.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tudbury_7 = {
+    name = "Leyla"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = tudbury_5
+    mother = tudbury_6
+
+    trait = craven
+    trait = stubborn
+    trait = wrathful
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 7
+    intrigue = 9
+    learning = 5
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    6462.6.16 = {
+        birth = yes
+    }
+
+    6469.7.15 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+tudbury_8 = {
+    name = "Halyn"
+
+    dynasty = dynasty_tudbury
+    religion = the_old_gods
+    culture = stormmen
+
+    father = tudbury_5
+    mother = tudbury_6
+
+    trait = gluttonous
+    trait = humble
+    trait = gregarious
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 9
+    intrigue = 9
+    learning = 2
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6464.11.3 = {
+        birth = yes
+    }
+
+    6513.12.20 = {
+        add_spouse = tudbury_9
+    }
+
+    6535.7.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tudbury_9 = {
+    name = "Sher"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = generous
+    trait = gluttonous
+    trait = humble
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_1
+
+    6496.3.6 = {
+        birth = yes
+    }
+
+    6573.9.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tudbury_10 = {
+    name = "Argella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = tudbury_8
+    mother = tudbury_9
+
+    trait = fickle
+    trait = generous
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6521.4.5 = {
+        birth = yes
+    }
+
+    6597.1.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tudbury_11 = {
+    name = "Aemon"
+
+    dynasty = dynasty_tudbury
+    religion = the_old_gods
+    culture = stormmen
+
+    father = tudbury_8
+    mother = tudbury_9
+
+    trait = stubborn
+    trait = greedy
+    trait = callous
+
+    diplomacy = 8
+    martial = 1
+    stewardship = 4
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6525.12.28 = {
+        birth = yes
+    }
+
+    6540.6.19 = {
+        add_spouse = tudbury_12
+    }
+
+    6597.6.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tudbury_12 = {
+    name = "Meredyth"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = impatient
+    trait = humble
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 9
+
+    trait = education_intrigue_4
+
+    6523.2.2 = {
+        birth = yes
+    }
+
+    6594.8.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tudbury_13 = {
+    name = "Halyn"
+
+    dynasty = dynasty_tudbury
+    religion = the_old_gods
+    culture = stormmen
+
+    father = tudbury_11
+    mother = tudbury_12
+
+    trait = fickle
+    trait = ambitious
+    trait = lazy
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 7
+    intrigue = 3
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    6542.4.10 = {
+        birth = yes
+    }
+
+    6592.12.6 = {
+        add_spouse = tudbury_14
+    }
+
+    6622.2.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tudbury_14 = {
+    name = "Sherry"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = arbitrary
+    trait = temperate
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 2
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_4
+
+    6575.1.25 = {
+        birth = yes
+    }
+
+    6648.2.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tudbury_15 = {
+    name = "Cassie"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = tudbury_11
+    mother = tudbury_12
+
+    trait = craven
+    trait = humble
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6545.6.18 = {
+        birth = yes
+    }
+
+    6623.5.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tudbury_16 = {
+    name = "Brienne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = tudbury_11
+    mother = tudbury_12
+
+    trait = impatient
+    trait = stubborn
+    trait = brave
+
+    diplomacy = 9
+    martial = 11
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_martial_4
+
+    6547.8.7 = {
+        birth = yes
+    }
+
+    6614.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tudbury_17 = {
+    name = "Alaric"
+
+    dynasty = dynasty_tudbury
+    religion = the_old_gods
+    culture = stormmen
+
+    father = tudbury_11
+    mother = tudbury_12
+
+    trait = arrogant
+    trait = arbitrary
+    trait = fickle
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 2
+    intrigue = 4
+    learning = 4
+    prowess = 10
+
+    trait = education_martial_4
+
+    6549.3.4 = {
+        birth = yes
+    }
+
+    6566.3.21 = {
+        add_spouse = tudbury_18
+    }
+
+    6576.3.19 = {
+        death = { death_reason = death_accident  }
+    }
+}
+
+tudbury_18 = {
+    name = "Dallia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = lustful
+    trait = temperate
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_4
+
+    6549.11.3 = {
+        birth = yes
+    }
+
+    6591.4.16 = {
+        death = { death_reason = death_pneumonic }
+    }
+}

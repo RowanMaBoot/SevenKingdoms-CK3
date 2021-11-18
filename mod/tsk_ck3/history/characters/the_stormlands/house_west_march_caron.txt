@@ -1,0 +1,1559 @@
+caron_1 = {
+    name = "Pearse"
+
+    dynasty = dynasty_caron
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = trusting
+    trait = arbitrary
+    trait = cynical
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 9
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    6300.2.22 = {
+        birth = yes
+    }
+
+    6330.9.21 = {
+        add_spouse = caron_2
+    }
+
+    6381.5.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_2 = {
+    name = "Victaria"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = shy
+    trait = generous
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 4
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6313.11.17 = {
+        birth = yes
+    }
+
+    6390.4.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_3 = {
+    name = "Endrew"
+
+    dynasty = dynasty_caron
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_1
+    mother = caron_2
+
+    trait = ambitious
+    trait = greedy
+    trait = diligent
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 8
+    learning = 6
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    6339.3.6 = {
+        birth = yes
+    }
+
+    6373.12.22 = {
+        add_spouse = caron_4
+    }
+
+    6415.3.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_4 = {
+    name = "Rohanne"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = lazy
+    trait = content
+    trait = forgiving
+
+    diplomacy = 1
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    6356.4.4 = {
+        birth = yes
+    }
+
+    6437.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_5 = {
+    name = "Reginald"
+
+    dynasty = dynasty_caron
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_3
+    mother = caron_4
+
+    trait = calm
+    trait = generous
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_4
+
+    6383.9.27 = {
+        birth = yes
+    }
+
+    6407.9.23 = {
+        add_spouse = caron_6
+    }
+
+    6456.5.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_6 = {
+    name = "Matrice"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = just
+    trait = humble
+    trait = cynical
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 3
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6390.10.8 = {
+        birth = yes
+    }
+
+    6469.10.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_7 = {
+    name = "Maer"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_5
+    mother = caron_6
+
+    trait = honest
+    trait = lazy
+    trait = humble
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 8
+    intrigue = 4
+    learning = 7
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    6416.11.21 = {
+        birth = yes
+    }
+
+    6482.1.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_8 = {
+    name = "Casper"
+
+    dynasty = dynasty_caron
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_5
+    mother = caron_6
+
+    trait = greedy
+    trait = shy
+    trait = temperate
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_1
+
+    6420.8.8 = {
+        birth = yes
+    }
+
+    6459.10.5 = {
+        add_spouse = caron_9
+    }
+
+    6487.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_9 = {
+    name = "Elyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = shy
+    trait = content
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 1
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_learning_4
+
+    6442.11.14 = {
+        birth = yes
+    }
+
+    6527.12.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_10 = {
+    name = "Argella"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_8
+    mother = caron_9
+
+    trait = brave
+    trait = lustful
+    trait = vengeful
+
+    diplomacy = 4
+    martial = 10
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_2
+
+    6467.8.6 = {
+        birth = yes
+    }
+
+    6549.10.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_11 = {
+    name = "Harrold"
+
+    dynasty = dynasty_caron
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_8
+    mother = caron_9
+
+    trait = gluttonous
+    trait = stubborn
+    trait = greedy
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6473.6.19 = {
+        birth = yes
+    }
+
+    6488.12.24 = {
+        add_spouse = caron_12
+    }
+
+    6552.10.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_12 = {
+    name = "Cyrenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = humble
+    trait = craven
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 10
+    stewardship = 9
+    intrigue = 11
+    learning = 8
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6471.9.27 = {
+        birth = yes
+    }
+
+    6545.4.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_13 = {
+    name = "Jarmyn"
+
+    dynasty = dynasty_caron
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_11
+    mother = caron_12
+
+    trait = content
+    trait = patient
+    trait = brave
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6511.2.9 = {
+        birth = yes
+    }
+
+    6531.2.14 = {
+        add_spouse = caron_14
+    }
+
+    6586.1.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_14 = {
+    name = "Rohanne"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = fickle
+    trait = vengeful
+    trait = generous
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6514.3.5 = {
+        birth = yes
+    }
+
+    6596.10.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_15 = {
+    name = "Benedict"
+
+    dynasty = dynasty_caron
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_13
+    mother = caron_14
+
+    trait = humble
+    trait = temperate
+    trait = greedy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 2
+
+    trait = education_stewardship_2
+
+    6538.7.2 = {
+        birth = yes
+    }
+
+    6539.4.7 = {
+        give_nickname = nick_the_mindbreaker
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6583.7.21 = {
+        add_spouse = caron_16
+    }
+
+    6619.8.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_16 = {
+    name = "Jenn"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = humble
+    trait = lazy
+    trait = shy
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 3
+    intrigue = 6
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6566.10.19 = {
+        birth = yes
+    }
+
+    6635.2.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_17 = {
+    name = "Alesander"
+
+    dynasty = dynasty_caron
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_3
+    mother = caron_4
+
+    trait = generous
+    trait = callous
+    trait = humble
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 4
+    intrigue = 5
+    learning = 2
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6392.3.19 = {
+        birth = yes
+    }
+
+    6430.4.2 = {
+        add_spouse = caron_18
+    }
+
+    6466.12.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_18 = {
+    name = "Mair"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = gluttonous
+    trait = craven
+    trait = generous
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6413.4.15 = {
+        birth = yes
+    }
+
+    6498.6.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_19 = {
+    name = "Reginald"
+
+    dynasty = dynasty_caron
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_17
+    mother = caron_18
+
+    trait = greedy
+    trait = impatient
+    trait = lustful
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 9
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_stewardship_1
+
+    6432.10.20 = {
+        birth = yes
+    }
+
+    6460.7.15 = {
+        add_spouse = caron_20
+    }
+
+    6512.4.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_20 = {
+    name = "Tia"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = ambitious
+    trait = arrogant
+    trait = cynical
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 2
+    intrigue = 7
+    learning = 10
+    prowess = 1
+
+    trait = education_learning_4
+
+    6443.2.24 = {
+        birth = yes
+    }
+
+    6516.6.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_21 = {
+    name = "Elanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_19
+    mother = caron_20
+
+    trait = humble
+    trait = trusting
+    trait = craven
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_3
+
+    6460.7.13 = {
+        birth = yes
+    }
+
+    6545.12.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_22 = {
+    name = "Ellyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_19
+    mother = caron_20
+
+    trait = humble
+    trait = temperate
+    trait = just
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6462.5.24 = {
+        birth = yes
+    }
+
+    6505.9.27 = {
+        death = { death_reason = death_script_cruelty   }
+    }
+}
+
+caron_23 = {
+    name = "Cressen"
+
+    dynasty = dynasty_caron
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_19
+    mother = caron_20
+
+    trait = callous
+    trait = trusting
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    6464.3.28 = {
+        birth = yes
+    }
+
+    6479.10.5 = {
+        add_spouse = caron_24
+    }
+
+    6511.5.25 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+caron_24 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = trusting
+    trait = impatient
+    trait = cynical
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6462.6.17 = {
+        birth = yes
+    }
+
+    6535.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_25 = {
+    name = "Sher"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_23
+    mother = caron_24
+
+    trait = paranoid
+    trait = just
+    trait = generous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 10
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6482.1.16 = {
+        birth = yes
+    }
+
+    6496.12.4 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+caron_26 = {
+    name = "Gowen"
+
+    dynasty = dynasty_caron
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_23
+    mother = caron_24
+
+    trait = cynical
+    trait = stubborn
+    trait = chaste
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6494.1.3 = {
+        birth = yes
+    }
+
+    6534.5.16 = {
+        add_spouse = caron_27
+    }
+
+    6544.5.22 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+caron_27 = {
+    name = "Arianne"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = wrathful
+    trait = sadistic
+    trait = lazy
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 8
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6517.10.5 = {
+        birth = yes
+    }
+
+    6591.1.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_28 = {
+    name = "Belandra"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_26
+    mother = caron_27
+
+    trait = greedy
+    trait = humble
+    trait = craven
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 10
+
+    trait = education_intrigue_4
+
+    6534.1.4 = {
+        birth = yes
+    }
+
+    6614.4.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_29 = {
+    name = "Royce"
+
+    dynasty = dynasty_caron
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_26
+    mother = caron_27
+
+    trait = content
+    trait = cynical
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_3
+
+    6535.5.20 = {
+        birth = yes
+    }
+
+    6564.12.13 = {
+        add_spouse = caron_30
+    }
+
+    6602.3.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_30 = {
+    name = "Bethany"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = lazy
+    trait = generous
+    trait = forgiving
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 2
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6547.11.19 = {
+        birth = yes
+    }
+
+    6613.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_31 = {
+    name = "Matthos"
+
+    dynasty = dynasty_caron
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_26
+    mother = caron_27
+
+    trait = vengeful
+    trait = wrathful
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 3
+
+    trait = education_intrigue_4
+
+    6536.7.9 = {
+        birth = yes
+    }
+
+    6586.7.18 = {
+        add_spouse = caron_32
+    }
+
+    6596.8.16 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+caron_32 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = impatient
+    trait = temperate
+    trait = trusting
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6569.4.17 = {
+        birth = yes
+    }
+
+    6646.8.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_33 = {
+    name = "Dainia"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_26
+    mother = caron_27
+
+    trait = deceitful
+    trait = arrogant
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 3
+    intrigue = 5
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_3
+
+    6538.4.20 = {
+        birth = yes
+    }
+
+    6614.8.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_34 = {
+    name = "Lynesse"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_19
+    mother = caron_20
+
+    trait = stubborn
+    trait = ambitious
+    trait = generous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 3
+
+    trait = education_diplomacy_1
+
+    6466.8.17 = {
+        birth = yes
+    }
+
+    6540.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_35 = {
+    name = "Emmara"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_17
+    mother = caron_18
+
+    trait = vengeful
+    trait = humble
+    trait = fickle
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 1
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6433.11.12 = {
+        birth = yes
+    }
+
+    6504.5.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_36 = {
+    name = "Harlan"
+
+    dynasty = dynasty_caron
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_17
+    mother = caron_18
+
+    trait = fickle
+    trait = diligent
+    trait = zealous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_2
+
+    6440.4.1 = {
+        birth = yes
+    }
+
+    6479.2.21 = {
+        add_spouse = caron_37
+    }
+
+    6509.7.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_37 = {
+    name = "Brienne"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = arbitrary
+    trait = vengeful
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 4
+    intrigue = 7
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_4
+
+    6462.10.16 = {
+        birth = yes
+    }
+
+    6544.7.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_38 = {
+    name = "Arrec"
+
+    dynasty = dynasty_caron
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_36
+    mother = caron_37
+
+    trait = honest
+    trait = just
+    trait = greedy
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 3
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    6487.12.13 = {
+        birth = yes
+    }
+
+    6508.3.20 = {
+        add_spouse = caron_39
+    }
+
+    6564.11.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_39 = {
+    name = "Rylene"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = fickle
+    trait = callous
+    trait = brave
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 2
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6491.8.10 = {
+        birth = yes
+    }
+
+    6575.7.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_40 = {
+    name = "Lyria"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_38
+    mother = caron_39
+
+    trait = stubborn
+    trait = forgiving
+    trait = diligent
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 11
+
+    trait = education_martial_4
+
+    6509.12.19 = {
+        birth = yes
+    }
+
+    6585.1.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_41 = {
+    name = "Bonifer"
+
+    dynasty = dynasty_caron
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_38
+    mother = caron_39
+
+    trait = temperate
+    trait = generous
+    trait = just
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 10
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6510.4.24 = {
+        birth = yes
+    }
+
+    6535.9.14 = {
+        add_spouse = caron_42
+    }
+
+    6577.3.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_42 = {
+    name = "Jenae"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = gluttonous
+    trait = greedy
+    trait = calm
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 3
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6518.11.17 = {
+        birth = yes
+    }
+
+    6603.4.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_43 = {
+    name = "Simon"
+
+    dynasty = dynasty_caron
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_41
+    mother = caron_42
+
+    trait = lazy
+    trait = generous
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 9
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6537.3.16 = {
+        birth = yes
+    }
+
+    6572.3.1 = {
+        add_spouse = caron_44
+    }
+
+    6617.11.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_44 = {
+    name = "Tiah"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = lazy
+    trait = calm
+    trait = just
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    6555.12.7 = {
+        birth = yes
+    }
+
+    6640.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_45 = {
+    name = "Donyse"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_41
+    mother = caron_42
+
+    trait = lustful
+    trait = temperate
+    trait = lazy
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_4
+
+    6542.4.27 = {
+        birth = yes
+    }
+
+    6618.7.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_46 = {
+    name = "Omrys"
+
+    dynasty = dynasty_caron
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_41
+    mother = caron_42
+
+    trait = stubborn
+    trait = lazy
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 8
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6544.10.14 = {
+        birth = yes
+    }
+
+    6587.9.23 = {
+        add_spouse = caron_47
+    }
+
+    6597.6.10 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+caron_47 = {
+    name = "Dorcas"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = stubborn
+    trait = brave
+    trait = gluttonous
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 5
+    intrigue = 9
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6570.6.20 = {
+        birth = yes
+    }
+
+    6647.4.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+caron_48 = {
+    name = "Cerella"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = caron_36
+    mother = caron_37
+
+    trait = humble
+    trait = honest
+    trait = chaste
+
+    diplomacy = 8
+    martial = 2
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6488.7.14 = {
+        birth = yes
+    }
+
+    6567.12.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

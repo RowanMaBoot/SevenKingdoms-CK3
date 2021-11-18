@@ -1,0 +1,644 @@
+trant_1 = {
+    name = "Allard"
+
+    dynasty = dynasty_trant
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = just
+    trait = honest
+    trait = diligent
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 9
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6300.8.17 = {
+        birth = yes
+    }
+
+    6337.7.26 = {
+        add_spouse = trant_2
+    }
+
+    6375.1.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+trant_2 = {
+    name = "Emma"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = temperate
+    trait = trusting
+    trait = fickle
+
+    diplomacy = 10
+    martial = 4
+    stewardship = 8
+    intrigue = 5
+    learning = 8
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6320.6.9 = {
+        birth = yes
+    }
+
+    6391.3.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+trant_3 = {
+    name = "Criston"
+
+    dynasty = dynasty_trant
+    religion = the_old_gods
+    culture = stormmen
+
+    father = trant_1
+    mother = trant_2
+
+    trait = just
+    trait = impatient
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_2
+
+    6346.4.18 = {
+        birth = yes
+    }
+
+    6382.8.11 = {
+        add_spouse = trant_4
+    }
+
+    6414.11.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+trant_4 = {
+    name = "Belandra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = content
+    trait = greedy
+    trait = patient
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 2
+
+    trait = education_diplomacy_4
+
+    6365.3.20 = {
+        birth = yes
+    }
+
+    6433.6.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+trant_5 = {
+    name = "Tiah"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = trant_3
+    mother = trant_4
+
+    trait = lustful
+    trait = trusting
+    trait = honest
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 3
+    intrigue = 4
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6395.4.28 = {
+        birth = yes
+    }
+
+    6469.4.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+trant_6 = {
+    name = "Harwood"
+
+    dynasty = dynasty_trant
+    religion = the_old_gods
+    culture = stormmen
+
+    father = trant_3
+    mother = trant_4
+
+    trait = just
+    trait = lazy
+    trait = lustful
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 9
+
+    trait = education_martial_3
+
+    6401.6.25 = {
+        birth = yes
+    }
+
+    6441.9.3 = {
+        add_spouse = trant_7
+    }
+
+    6480.4.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+trant_7 = {
+    name = "Matrice"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = gregarious
+    trait = diligent
+    trait = generous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    6424.2.14 = {
+        birth = yes
+    }
+
+    6505.8.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+trant_8 = {
+    name = "Alaric"
+
+    dynasty = dynasty_trant
+    religion = the_old_gods
+    culture = stormmen
+
+    father = trant_6
+    mother = trant_7
+
+    trait = calm
+    trait = zealous
+    trait = vengeful
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 4
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6460.3.10 = {
+        birth = yes
+    }
+
+    6475.7.14 = {
+        add_spouse = trant_9
+    }
+
+    6512.9.27 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+trant_9 = {
+    name = "Elinor"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = patient
+    trait = craven
+    trait = lustful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_4
+
+    6458.11.25 = {
+        birth = yes
+    }
+
+    6524.6.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+trant_10 = {
+    name = "Bartimos"
+
+    dynasty = dynasty_trant
+    religion = the_old_gods
+    culture = stormmen
+
+    father = trant_8
+    mother = trant_9
+
+    trait = paranoid
+    trait = compassionate
+    trait = generous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 9
+    learning = 8
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    6475.10.23 = {
+        birth = yes
+    }
+
+    6506.5.4 = {
+        add_spouse = trant_11
+    }
+
+    6550.10.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+trant_11 = {
+    name = "Shirea"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = ambitious
+    trait = shy
+    trait = diligent
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_4
+
+    6489.3.16 = {
+        birth = yes
+    }
+
+    6574.12.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+trant_12 = {
+    name = "Devan"
+
+    dynasty = dynasty_trant
+    religion = the_old_gods
+    culture = stormmen
+
+    father = trant_10
+    mother = trant_11
+
+    trait = deceitful
+    trait = humble
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 3
+    intrigue = 4
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_2
+
+    6522.7.7 = {
+        birth = yes
+    }
+
+    6563.7.23 = {
+        add_spouse = trant_13
+    }
+
+    6607.2.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+trant_13 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = sadistic
+    trait = deceitful
+    trait = temperate
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    6546.3.2 = {
+        birth = yes
+    }
+
+    6631.5.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+trant_14 = {
+    name = "Brella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = trant_8
+    mother = trant_9
+
+    trait = diligent
+    trait = vengeful
+    trait = calm
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 5
+    intrigue = 6
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_4
+
+    6476.6.16 = {
+        birth = yes
+    }
+
+    6550.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+trant_15 = {
+    name = "Dainia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = trant_8
+    mother = trant_9
+
+    trait = arbitrary
+    trait = deceitful
+    trait = brave
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6483.7.7 = {
+        birth = yes
+    }
+
+    6567.8.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+trant_16 = {
+    name = "Gyldayn"
+
+    dynasty = dynasty_trant
+    religion = the_old_gods
+    culture = stormmen
+
+    father = trant_8
+    mother = trant_9
+
+    trait = temperate
+    trait = callous
+    trait = humble
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 10
+    intrigue = 6
+    learning = 3
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    6485.4.12 = {
+        birth = yes
+    }
+
+    6527.9.24 = {
+        add_spouse = trant_17
+    }
+
+    6555.9.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+trant_17 = {
+    name = "Kelycea"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = chaste
+    trait = paranoid
+    trait = diligent
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_3
+
+    6510.7.11 = {
+        birth = yes
+    }
+
+    6588.2.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+trant_18 = {
+    name = "Tiah"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = trant_16
+    mother = trant_17
+
+    trait = callous
+    trait = paranoid
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6531.2.10 = {
+        birth = yes
+    }
+
+    6608.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+trant_19 = {
+    name = "Devin"
+
+    dynasty = dynasty_trant
+    religion = the_old_gods
+    culture = stormmen
+
+    father = trant_16
+    mother = trant_17
+
+    trait = honest
+    trait = brave
+    trait = calm
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6537.9.6 = {
+        birth = yes
+    }
+
+    6566.6.13 = {
+        add_spouse = trant_20
+    }
+
+    6621.5.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+trant_20 = {
+    name = "Jena"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = gregarious
+    trait = deceitful
+    trait = trusting
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_4
+
+    6549.6.9 = {
+        birth = yes
+    }
+
+    6619.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

@@ -1,0 +1,1971 @@
+swygert_1 = {
+    name = "Gyldayn"
+
+    dynasty = dynasty_swygert
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = gregarious
+    trait = lustful
+    trait = ambitious
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6300.4.13 = {
+        birth = yes
+    }
+
+    6334.1.13 = {
+        add_spouse = swygert_2
+    }
+
+    6370.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_2 = {
+    name = "Maris"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = ambitious
+    trait = generous
+    trait = paranoid
+
+    diplomacy = 10
+    martial = 9
+    stewardship = 8
+    intrigue = 2
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6317.7.8 = {
+        birth = yes
+    }
+
+    6400.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_3 = {
+    name = "Elanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_1
+    mother = swygert_2
+
+    trait = zealous
+    trait = paranoid
+    trait = lazy
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 11
+    intrigue = 7
+    learning = 3
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6341.8.12 = {
+        birth = yes
+    }
+
+    6425.3.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_4 = {
+    name = "Dalla"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_1
+    mother = swygert_2
+
+    trait = content
+    trait = impatient
+    trait = brave
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_3
+
+    6343.11.8 = {
+        birth = yes
+    }
+
+    6424.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_5 = {
+    name = "Cassie"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_1
+    mother = swygert_2
+
+    trait = humble
+    trait = wrathful
+    trait = temperate
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 3
+    intrigue = 5
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6348.10.27 = {
+        birth = yes
+    }
+
+    6427.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_6 = {
+    name = "Arron"
+
+    dynasty = dynasty_swygert
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_1
+    mother = swygert_2
+
+    trait = forgiving
+    trait = patient
+    trait = brave
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 2
+    intrigue = 6
+    learning = 3
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6349.5.4 = {
+        birth = yes
+    }
+
+    6398.10.1 = {
+        add_spouse = swygert_7
+    }
+
+    6432.12.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_7 = {
+    name = "Cassandria"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = brave
+    trait = zealous
+    trait = chaste
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    6381.1.26 = {
+        birth = yes
+    }
+
+    6461.7.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_8 = {
+    name = "Melara"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_6
+    mother = swygert_7
+
+    trait = compassionate
+    trait = honest
+    trait = temperate
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_1
+
+    6406.2.25 = {
+        birth = yes
+    }
+
+    6475.1.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_9 = {
+    name = "Maric"
+
+    dynasty = dynasty_swygert
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_6
+    mother = swygert_7
+
+    trait = lustful
+    trait = generous
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 9
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6412.4.4 = {
+        birth = yes
+    }
+
+    6444.11.8 = {
+        add_spouse = swygert_10
+    }
+
+    6494.12.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_10 = {
+    name = "Helena"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = fickle
+    trait = impatient
+    trait = craven
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6427.5.1 = {
+        birth = yes
+    }
+
+    6500.1.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_11 = {
+    name = "Cirella"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_9
+    mother = swygert_10
+
+    trait = greedy
+    trait = content
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_4
+
+    6449.9.27 = {
+        birth = yes
+    }
+
+    6526.9.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_12 = {
+    name = "Michael"
+
+    dynasty = dynasty_swygert
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_9
+    mother = swygert_10
+
+    trait = diligent
+    trait = stubborn
+    trait = cynical
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_2
+
+    6452.11.4 = {
+        birth = yes
+    }
+
+    6488.10.8 = {
+        add_spouse = swygert_13
+    }
+
+    6535.2.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_13 = {
+    name = "Barra"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = shy
+    trait = paranoid
+    trait = stubborn
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 7
+    intrigue = 7
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_2
+
+    6471.6.7 = {
+        birth = yes
+    }
+
+    6549.1.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_14 = {
+    name = "Argilac"
+
+    dynasty = dynasty_swygert
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_12
+    mother = swygert_13
+
+    trait = wrathful
+    trait = chaste
+    trait = greedy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_2
+
+    6495.7.1 = {
+        birth = yes
+    }
+
+    6531.10.5 = {
+        add_spouse = swygert_15
+    }
+
+    6579.12.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_15 = {
+    name = "Dainia"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = zealous
+    trait = impatient
+    trait = fickle
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6514.8.9 = {
+        birth = yes
+    }
+
+    6580.4.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_16 = {
+    name = "Clifford"
+
+    dynasty = dynasty_swygert
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_14
+    mother = swygert_15
+
+    trait = chaste
+    trait = deceitful
+    trait = arbitrary
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    6542.9.28 = {
+        birth = yes
+    }
+
+    6561.6.10 = {
+        add_spouse = swygert_17
+    }
+
+    6580.11.28 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+swygert_17 = {
+    name = "Sherry"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = honest
+    trait = patient
+    trait = calm
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 9
+    intrigue = 4
+    learning = 7
+    prowess = 3
+
+    trait = education_stewardship_2
+
+    6544.7.11 = {
+        birth = yes
+    }
+
+    6615.11.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_18 = {
+    name = "Cressen"
+
+    dynasty = dynasty_swygert
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_14
+    mother = swygert_15
+
+    trait = honest
+    trait = cynical
+    trait = lazy
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 11
+    intrigue = 3
+    learning = 8
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6547.6.20 = {
+        birth = yes
+    }
+
+    6574.3.9 = {
+        add_spouse = swygert_19
+    }
+
+    6601.11.5 = {
+        death = { death_reason = death_bubonic_plague }
+    }
+}
+
+swygert_19 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = gregarious
+    trait = callous
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6557.1.1 = {
+        birth = yes
+    }
+
+    6634.2.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_20 = {
+    name = "Rickard"
+
+    dynasty = dynasty_swygert
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_12
+    mother = swygert_13
+
+    trait = zealous
+    trait = gregarious
+    trait = craven
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 8
+    learning = 8
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6499.3.7 = {
+        birth = yes
+    }
+
+    6544.7.24 = {
+        add_spouse = swygert_21
+    }
+
+    6554.2.3 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+swygert_21 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = zealous
+    trait = trusting
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 9
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    6527.4.15 = {
+        birth = yes
+    }
+
+    6606.1.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_22 = {
+    name = "Argilac"
+
+    dynasty = dynasty_swygert
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_20
+    mother = swygert_21
+
+    trait = lustful
+    trait = honest
+    trait = ambitious
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_3
+
+    6544.3.20 = {
+        birth = yes
+    }
+
+    6567.6.22 = {
+        add_spouse = swygert_23
+    }
+
+    6620.11.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_23 = {
+    name = "Brella"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = greedy
+    trait = callous
+    trait = zealous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 8
+    learning = 8
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6550.9.16 = {
+        birth = yes
+    }
+
+    6623.11.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_24 = {
+    name = "Gulian"
+
+    dynasty = dynasty_swygert
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_20
+    mother = swygert_21
+
+    trait = generous
+    trait = lustful
+    trait = shy
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 10
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6547.12.13 = {
+        birth = yes
+    }
+
+    6565.11.23 = {
+        add_spouse = swygert_25
+    }
+
+    6629.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_25 = {
+    name = "Shireen"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = arrogant
+    trait = sadistic
+    trait = diligent
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 3
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_4
+
+    6548.8.10 = {
+        birth = yes
+    }
+
+    6625.2.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_26 = {
+    name = "Tommen"
+
+    dynasty = dynasty_swygert
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_20
+    mother = swygert_21
+
+    trait = wrathful
+    trait = compassionate
+    trait = cynical
+
+    diplomacy = 6
+    martial = 1
+    stewardship = 6
+    intrigue = 3
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    6548.5.10 = {
+        birth = yes
+    }
+
+    6568.10.12 = {
+        add_spouse = swygert_27
+    }
+
+    6619.10.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_27 = {
+    name = "Cassandrea"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = arrogant
+    trait = zealous
+    trait = callous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    6551.10.24 = {
+        birth = yes
+    }
+
+    6631.10.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_28 = {
+    name = "Melessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_20
+    mother = swygert_21
+
+    trait = diligent
+    trait = generous
+    trait = zealous
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_4
+
+    6549.11.17 = {
+        birth = yes
+    }
+
+    6615.10.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_29 = {
+    name = "Cirella"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_12
+    mother = swygert_13
+
+    trait = brave
+    trait = diligent
+    trait = trusting
+
+    diplomacy = 10
+    martial = 9
+    stewardship = 8
+    intrigue = 3
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6504.3.26 = {
+        birth = yes
+    }
+
+    6572.4.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_30 = {
+    name = "Edric"
+
+    dynasty = dynasty_swygert
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_12
+    mother = swygert_13
+
+    trait = forgiving
+    trait = gluttonous
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 10
+    prowess = 2
+
+    trait = education_learning_3
+
+    6505.11.9 = {
+        birth = yes
+    }
+
+    6550.9.15 = {
+        add_spouse = swygert_31
+    }
+
+    6583.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_31 = {
+    name = "Rhi"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = arrogant
+    trait = forgiving
+    trait = trusting
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 9
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6533.1.24 = {
+        birth = yes
+    }
+
+    6614.2.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_32 = {
+    name = "Conen"
+
+    dynasty = dynasty_swygert
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_30
+    mother = swygert_31
+
+    trait = sadistic
+    trait = forgiving
+    trait = lazy
+
+    diplomacy = 6
+    martial = 1
+    stewardship = 7
+    intrigue = 9
+    learning = 5
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    6555.1.10 = {
+        birth = yes
+    }
+
+    6599.7.28 = {
+        add_spouse = swygert_33
+    }
+
+    6626.6.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_33 = {
+    name = "Jena"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = sadistic
+    trait = gregarious
+    trait = fickle
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 3
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6582.5.18 = {
+        birth = yes
+    }
+
+    6660.1.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_34 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_30
+    mother = swygert_31
+
+    trait = gluttonous
+    trait = sadistic
+    trait = just
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    6556.9.6 = {
+        birth = yes
+    }
+
+    6631.7.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_35 = {
+    name = "Willem"
+
+    dynasty = dynasty_swygert
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_30
+    mother = swygert_31
+
+    trait = stubborn
+    trait = forgiving
+    trait = just
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 2
+    learning = 5
+    prowess = 2
+
+    trait = education_martial_2
+
+    6558.3.18 = {
+        birth = yes
+    }
+
+    6606.3.1 = {
+        add_spouse = swygert_36
+    }
+
+    6625.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_36 = {
+    name = "Corenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = greedy
+    trait = cynical
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 9
+    intrigue = 7
+    learning = 9
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6589.8.19 = {
+        birth = yes
+    }
+
+    6665.1.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_37 = {
+    name = "Bonifer"
+
+    dynasty = dynasty_swygert
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_9
+    mother = swygert_10
+
+    trait = diligent
+    trait = just
+    trait = brave
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6457.7.3 = {
+        birth = yes
+    }
+
+    6494.5.24 = {
+        add_spouse = swygert_38
+    }
+
+    6536.11.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_38 = {
+    name = "Barra"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = brave
+    trait = shy
+    trait = cynical
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 2
+    intrigue = 3
+    learning = 7
+    prowess = 7
+
+    trait = education_learning_2
+
+    6477.7.3 = {
+        birth = yes
+    }
+
+    6546.11.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_39 = {
+    name = "Donal"
+
+    dynasty = dynasty_swygert
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_37
+    mother = swygert_38
+
+    trait = forgiving
+    trait = trusting
+    trait = humble
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6498.4.3 = {
+        birth = yes
+    }
+
+    6525.6.5 = {
+        add_spouse = swygert_40
+    }
+
+    6576.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_40 = {
+    name = "Sher"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = humble
+    trait = just
+    trait = generous
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 7
+    intrigue = 3
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6508.4.23 = {
+        birth = yes
+    }
+
+    6586.4.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_41 = {
+    name = "Conen"
+
+    dynasty = dynasty_swygert
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_39
+    mother = swygert_40
+
+    trait = calm
+    trait = cynical
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 3
+    prowess = 8
+
+    trait = education_martial_1
+
+    6526.11.25 = {
+        birth = yes
+    }
+
+    6549.5.2 = {
+        add_spouse = swygert_42
+    }
+
+    6606.8.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_42 = {
+    name = "Donyse"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = trusting
+    trait = compassionate
+    trait = temperate
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 4
+    learning = 3
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6532.1.23 = {
+        birth = yes
+    }
+
+    6600.10.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_43 = {
+    name = "Sarmion"
+
+    dynasty = dynasty_swygert
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_39
+    mother = swygert_40
+
+    trait = trusting
+    trait = sadistic
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6528.10.8 = {
+        birth = yes
+    }
+
+    6554.3.7 = {
+        add_spouse = swygert_44
+    }
+
+    6595.5.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_44 = {
+    name = "Rhianna"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = stubborn
+    trait = greedy
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    6537.9.3 = {
+        birth = yes
+    }
+
+    6617.10.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_45 = {
+    name = "Elanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_39
+    mother = swygert_40
+
+    trait = deceitful
+    trait = just
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6535.1.1 = {
+        birth = yes
+    }
+
+    6612.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_46 = {
+    name = "Melicent"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_39
+    mother = swygert_40
+
+    trait = cynical
+    trait = diligent
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 9
+    intrigue = 8
+    learning = 9
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6538.12.10 = {
+        birth = yes
+    }
+
+    6619.8.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_47 = {
+    name = "Shireen"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_37
+    mother = swygert_38
+
+    trait = lustful
+    trait = humble
+    trait = diligent
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6503.4.14 = {
+        birth = yes
+    }
+
+    6581.5.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_48 = {
+    name = "Ralph"
+
+    dynasty = dynasty_swygert
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_37
+    mother = swygert_38
+
+    trait = patient
+    trait = ambitious
+    trait = calm
+
+    diplomacy = 8
+    martial = 2
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 10
+
+    trait = education_diplomacy_2
+
+    6506.1.9 = {
+        birth = yes
+    }
+
+    6531.2.27 = {
+        add_spouse = swygert_49
+    }
+
+    6587.11.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_49 = {
+    name = "Aelinor"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = callous
+    trait = chaste
+    trait = generous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_3
+
+    6514.1.7 = {
+        birth = yes
+    }
+
+    6589.3.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_50 = {
+    name = "Arron"
+
+    dynasty = dynasty_swygert
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_48
+    mother = swygert_49
+
+    trait = temperate
+    trait = forgiving
+    trait = diligent
+
+    diplomacy = 10
+    martial = 4
+    stewardship = 10
+    intrigue = 4
+    learning = 10
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6535.1.10 = {
+        birth = yes
+    }
+
+    6557.1.9 = {
+        add_spouse = swygert_51
+    }
+
+    6603.3.6 = {
+        death = { death_reason = death_poison  }
+    }
+}
+
+swygert_51 = {
+    name = "Cassie"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = brave
+    trait = cynical
+    trait = chaste
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6540.11.15 = {
+        birth = yes
+    }
+
+    6623.12.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_52 = {
+    name = "Victaria"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_48
+    mother = swygert_49
+
+    trait = forgiving
+    trait = zealous
+    trait = impatient
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 3
+    intrigue = 5
+    learning = 5
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    6539.8.26 = {
+        birth = yes
+    }
+
+    6589.9.15 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+swygert_53 = {
+    name = "Mary"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_48
+    mother = swygert_49
+
+    trait = wrathful
+    trait = ambitious
+    trait = zealous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 4
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6542.1.14 = {
+        birth = yes
+    }
+
+    6553.9.24 = {
+        death = { death_reason = death_gout_ridden }
+    }
+}
+
+swygert_54 = {
+    name = "Shireen"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_48
+    mother = swygert_49
+
+    trait = chaste
+    trait = gluttonous
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 11
+    intrigue = 5
+    learning = 8
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6546.4.2 = {
+        birth = yes
+    }
+
+    6614.11.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_55 = {
+    name = "Harrold"
+
+    dynasty = dynasty_swygert
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_9
+    mother = swygert_10
+
+    trait = diligent
+    trait = paranoid
+    trait = temperate
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6458.12.13 = {
+        birth = yes
+    }
+
+    6505.8.24 = {
+        add_spouse = swygert_56
+    }
+
+    6515.11.5 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+swygert_56 = {
+    name = "Shirei"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = callous
+    trait = wrathful
+    trait = craven
+
+    diplomacy = 6
+    martial = 1
+    stewardship = 7
+    intrigue = 8
+    learning = 4
+    prowess = 9
+
+    trait = education_intrigue_4
+
+    6488.11.17 = {
+        birth = yes
+    }
+
+    6570.6.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_57 = {
+    name = "Guyard"
+
+    dynasty = dynasty_swygert
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_55
+    mother = swygert_56
+
+    trait = vengeful
+    trait = shy
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 3
+    intrigue = 4
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6511.7.6 = {
+        birth = yes
+    }
+
+    6542.2.14 = {
+        add_spouse = swygert_58
+    }
+
+    6586.2.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_58 = {
+    name = "Cassandria"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = callous
+    trait = forgiving
+    trait = lazy
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_2
+
+    6525.6.16 = {
+        birth = yes
+    }
+
+    6599.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_59 = {
+    name = "Megga"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_57
+    mother = swygert_58
+
+    trait = gregarious
+    trait = temperate
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    6544.10.19 = {
+        birth = yes
+    }
+
+    6612.6.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+swygert_60 = {
+    name = "Edric"
+
+    dynasty = dynasty_swygert
+    religion = the_old_gods
+    culture = wrathmen
+
+    father = swygert_57
+    mother = swygert_58
+
+    trait = paranoid
+    trait = gregarious
+    trait = diligent
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_4
+
+    6547.5.7 = {
+        birth = yes
+    }
+
+    6577.5.13 = {
+        add_spouse = swygert_61
+    }
+
+    6603.3.14 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+swygert_61 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = wrathmen
+
+    trait = compassionate
+    trait = greedy
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 4
+    intrigue = 1
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_3
+
+    6560.8.18 = {
+        birth = yes
+    }
+
+    6640.5.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

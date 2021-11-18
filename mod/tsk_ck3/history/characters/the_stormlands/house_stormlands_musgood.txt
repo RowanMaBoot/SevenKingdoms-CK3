@@ -1,0 +1,1777 @@
+musgood_1 = {
+    name = "Ethos"
+
+    dynasty = dynasty_musgood
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = lazy
+    trait = generous
+    trait = just
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6300.3.5 = {
+        birth = yes
+    }
+
+    6344.5.7 = {
+        add_spouse = musgood_2
+    }
+
+    6373.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_2 = {
+    name = "Senelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = craven
+    trait = lustful
+    trait = zealous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 3
+    intrigue = 5
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_2
+
+    6327.6.2 = {
+        birth = yes
+    }
+
+    6401.3.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_3 = {
+    name = "Phillip"
+
+    dynasty = dynasty_musgood
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_1
+    mother = musgood_2
+
+    trait = ambitious
+    trait = fickle
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    6351.5.25 = {
+        birth = yes
+    }
+
+    6384.4.8 = {
+        add_spouse = musgood_4
+    }
+
+    6424.10.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_4 = {
+    name = "Sherry"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = zealous
+    trait = gregarious
+    trait = content
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 2
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6367.6.16 = {
+        birth = yes
+    }
+
+    6445.4.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_5 = {
+    name = "Barristan"
+
+    dynasty = dynasty_musgood
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_3
+    mother = musgood_4
+
+    trait = greedy
+    trait = honest
+    trait = temperate
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6387.5.8 = {
+        birth = yes
+    }
+
+    6408.10.24 = {
+        add_spouse = musgood_6
+    }
+
+    6471.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_6 = {
+    name = "Myrcella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = vengeful
+    trait = shy
+    trait = sadistic
+
+    diplomacy = 11
+    martial = 8
+    stewardship = 10
+    intrigue = 4
+    learning = 9
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6391.5.9 = {
+        birth = yes
+    }
+
+    6473.1.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_7 = {
+    name = "Lysa"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_5
+    mother = musgood_6
+
+    trait = fickle
+    trait = vengeful
+    trait = just
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6415.9.15 = {
+        birth = yes
+    }
+
+    6482.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_8 = {
+    name = "Harrold"
+
+    dynasty = dynasty_musgood
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_5
+    mother = musgood_6
+
+    trait = zealous
+    trait = calm
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 3
+    prowess = 6
+
+    trait = education_martial_3
+
+    6417.11.19 = {
+        birth = yes
+    }
+
+    6467.6.16 = {
+        add_spouse = musgood_9
+    }
+
+    6502.1.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_9 = {
+    name = "Annara"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = sadistic
+    trait = craven
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 1
+    intrigue = 5
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6450.3.25 = {
+        birth = yes
+    }
+
+    6516.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_10 = {
+    name = "Devin"
+
+    dynasty = dynasty_musgood
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_8
+    mother = musgood_9
+
+    trait = paranoid
+    trait = compassionate
+    trait = shy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 3
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6482.2.17 = {
+        birth = yes
+    }
+
+    6529.9.16 = {
+        add_spouse = musgood_11
+    }
+
+    6555.8.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_11 = {
+    name = "Bri"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = calm
+    trait = craven
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    6512.11.24 = {
+        birth = yes
+    }
+
+    6594.4.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_12 = {
+    name = "Andar"
+
+    dynasty = dynasty_musgood
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_10
+    mother = musgood_11
+
+    trait = fickle
+    trait = patient
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 10
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6553.8.4 = {
+        birth = yes
+    }
+
+    6580.12.1 = {
+        add_spouse = musgood_13
+    }
+
+    6633.5.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_13 = {
+    name = "Lysa"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = humble
+    trait = gluttonous
+    trait = cynical
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 9
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6563.10.24 = {
+        birth = yes
+    }
+
+    6641.4.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_14 = {
+    name = "Endrew"
+
+    dynasty = dynasty_musgood
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_5
+    mother = musgood_6
+
+    trait = arbitrary
+    trait = lustful
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 11
+    intrigue = 3
+    learning = 8
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6421.8.15 = {
+        birth = yes
+    }
+
+    6458.6.10 = {
+        add_spouse = musgood_15
+    }
+
+    6498.7.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_15 = {
+    name = "Daini"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = callous
+    trait = fickle
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    6441.2.28 = {
+        birth = yes
+    }
+
+    6514.5.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_16 = {
+    name = "Lorys"
+
+    dynasty = dynasty_musgood
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_14
+    mother = musgood_15
+
+    trait = compassionate
+    trait = content
+    trait = paranoid
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 8
+    intrigue = 8
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6464.4.5 = {
+        birth = yes
+    }
+
+    6492.9.10 = {
+        add_spouse = musgood_17
+    }
+
+    6549.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_17 = {
+    name = "Ellyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = brave
+    trait = arrogant
+    trait = just
+
+    diplomacy = 9
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 3
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    6475.11.6 = {
+        birth = yes
+    }
+
+    6560.4.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_18 = {
+    name = "Shierle"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_16
+    mother = musgood_17
+
+    trait = ambitious
+    trait = forgiving
+    trait = stubborn
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6495.10.1 = {
+        birth = yes
+    }
+
+    6566.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_19 = {
+    name = "Elinor"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_16
+    mother = musgood_17
+
+    trait = gregarious
+    trait = honest
+    trait = humble
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 8
+    prowess = 2
+
+    trait = education_stewardship_3
+
+    6499.4.8 = {
+        birth = yes
+    }
+
+    6578.10.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_20 = {
+    name = "Rolland"
+
+    dynasty = dynasty_musgood
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_16
+    mother = musgood_17
+
+    trait = zealous
+    trait = chaste
+    trait = craven
+
+    diplomacy = 5
+    martial = 11
+    stewardship = 9
+    intrigue = 8
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_4
+
+    6502.9.9 = {
+        birth = yes
+    }
+
+    6516.3.27 = {
+        add_spouse = musgood_21
+    }
+
+    6578.1.8 = {
+        death = { death_reason = death_vanished  }
+    }
+}
+
+musgood_21 = {
+    name = "Eglantine"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = paranoid
+    trait = calm
+    trait = impatient
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 4
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6499.4.3 = {
+        birth = yes
+    }
+
+    6576.10.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_22 = {
+    name = "Bryen"
+
+    dynasty = dynasty_musgood
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_14
+    mother = musgood_15
+
+    trait = paranoid
+    trait = stubborn
+    trait = lustful
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 6
+    intrigue = 7
+    learning = 1
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6470.11.4 = {
+        birth = yes
+    }
+
+    6512.7.2 = {
+        add_spouse = musgood_23
+    }
+
+    6542.2.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_23 = {
+    name = "Mylenda"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = shy
+    trait = patient
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 4
+    intrigue = 9
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6495.6.19 = {
+        birth = yes
+    }
+
+    6573.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_24 = {
+    name = "Shirei"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_22
+    mother = musgood_23
+
+    trait = arrogant
+    trait = fickle
+    trait = greedy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 9
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6518.4.21 = {
+        birth = yes
+    }
+
+    6602.3.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_25 = {
+    name = "Roelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_22
+    mother = musgood_23
+
+    trait = diligent
+    trait = ambitious
+    trait = calm
+
+    diplomacy = 1
+    martial = 1
+    stewardship = 2
+    intrigue = 6
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6524.5.18 = {
+        birth = yes
+    }
+
+    6603.8.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_26 = {
+    name = "Sebastion"
+
+    dynasty = dynasty_musgood
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_22
+    mother = musgood_23
+
+    trait = cynical
+    trait = impatient
+    trait = temperate
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 9
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6525.7.16 = {
+        birth = yes
+    }
+
+    6546.9.1 = {
+        add_spouse = musgood_27
+    }
+
+    6607.5.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_27 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = temperate
+    trait = patient
+    trait = sadistic
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_2
+
+    6529.2.15 = {
+        birth = yes
+    }
+
+    6614.5.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_28 = {
+    name = "Sebastion"
+
+    dynasty = dynasty_musgood
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_14
+    mother = musgood_15
+
+    trait = chaste
+    trait = temperate
+    trait = callous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 3
+    intrigue = 8
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6471.6.22 = {
+        birth = yes
+    }
+
+    6501.1.17 = {
+        add_spouse = musgood_29
+    }
+
+    6549.10.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_29 = {
+    name = "Maer"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = honest
+    trait = compassionate
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 4
+    intrigue = 7
+    learning = 11
+    prowess = 6
+
+    trait = education_learning_4
+
+    6484.8.11 = {
+        birth = yes
+    }
+
+    6561.12.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_30 = {
+    name = "Kyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_28
+    mother = musgood_29
+
+    trait = arbitrary
+    trait = forgiving
+    trait = content
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 8
+    intrigue = 8
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_3
+
+    6503.11.27 = {
+        birth = yes
+    }
+
+    6579.1.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_31 = {
+    name = "Andrew"
+
+    dynasty = dynasty_musgood
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_28
+    mother = musgood_29
+
+    trait = honest
+    trait = humble
+    trait = paranoid
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_3
+
+    6509.11.10 = {
+        birth = yes
+    }
+
+    6544.1.27 = {
+        add_spouse = musgood_32
+    }
+
+    6592.6.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_32 = {
+    name = "Emmara"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = gluttonous
+    trait = paranoid
+    trait = arbitrary
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 7
+    intrigue = 3
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6527.3.25 = {
+        birth = yes
+    }
+
+    6567.8.22 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+musgood_33 = {
+    name = "Hanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_28
+    mother = musgood_29
+
+    trait = generous
+    trait = impatient
+    trait = temperate
+
+    diplomacy = 9
+    martial = 1
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6515.6.13 = {
+        birth = yes
+    }
+
+    6595.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_34 = {
+    name = "Lorys"
+
+    dynasty = dynasty_musgood
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_14
+    mother = musgood_15
+
+    trait = humble
+    trait = lustful
+    trait = honest
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 7
+    intrigue = 8
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_4
+
+    6473.3.11 = {
+        birth = yes
+    }
+
+    6512.12.18 = {
+        add_spouse = musgood_35
+    }
+
+    6522.2.14 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+musgood_35 = {
+    name = "Gwyneth"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = calm
+    trait = brave
+    trait = lazy
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6495.9.22 = {
+        birth = yes
+    }
+
+    6575.6.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_36 = {
+    name = "Gladden"
+
+    dynasty = dynasty_musgood
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_34
+    mother = musgood_35
+
+    trait = trusting
+    trait = brave
+    trait = content
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 2
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6514.3.27 = {
+        birth = yes
+    }
+
+    6530.10.1 = {
+        add_spouse = musgood_37
+    }
+
+    6586.4.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_37 = {
+    name = "Ravella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = greedy
+    trait = gregarious
+    trait = diligent
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6513.2.2 = {
+        birth = yes
+    }
+
+    6588.11.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_38 = {
+    name = "Conen"
+
+    dynasty = dynasty_musgood
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_34
+    mother = musgood_35
+
+    trait = greedy
+    trait = just
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 1
+    intrigue = 4
+    learning = 6
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    6516.3.11 = {
+        birth = yes
+    }
+
+    6543.7.12 = {
+        add_spouse = musgood_39
+    }
+
+    6594.12.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_39 = {
+    name = "Emelia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = gluttonous
+    trait = impatient
+    trait = craven
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6526.7.8 = {
+        birth = yes
+    }
+
+    6602.1.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_40 = {
+    name = "Genna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_34
+    mother = musgood_35
+
+    trait = chaste
+    trait = deceitful
+    trait = impatient
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 3
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6518.1.26 = {
+        birth = yes
+    }
+
+    6601.6.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_41 = {
+    name = "Ralph"
+
+    dynasty = dynasty_musgood
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_34
+    mother = musgood_35
+
+    trait = trusting
+    trait = brave
+    trait = humble
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6519.2.22 = {
+        birth = yes
+    }
+
+    6560.6.19 = {
+        add_spouse = musgood_42
+    }
+
+    6589.10.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_42 = {
+    name = "Cassie"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = impatient
+    trait = lustful
+    trait = zealous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 8
+    intrigue = 9
+    learning = 7
+    prowess = 2
+
+    trait = education_intrigue_3
+
+    6543.3.27 = {
+        birth = yes
+    }
+
+    6570.7.18 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+musgood_43 = {
+    name = "Matrice"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_5
+    mother = musgood_6
+
+    trait = paranoid
+    trait = ambitious
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 7
+    learning = 8
+    prowess = 10
+
+    trait = education_stewardship_2
+
+    6425.9.25 = {
+        birth = yes
+    }
+
+    6496.10.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_44 = {
+    name = "Lia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_3
+    mother = musgood_4
+
+    trait = craven
+    trait = diligent
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 1
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_4
+
+    6392.10.24 = {
+        birth = yes
+    }
+
+    6476.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_45 = {
+    name = "Arstan"
+
+    dynasty = dynasty_musgood
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_3
+    mother = musgood_4
+
+    trait = temperate
+    trait = lazy
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 6
+    prowess = 11
+
+    trait = education_martial_3
+
+    6395.10.27 = {
+        birth = yes
+    }
+
+    6410.4.28 = {
+        add_spouse = musgood_46
+    }
+
+    6473.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_46 = {
+    name = "Cerella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = impatient
+    trait = wrathful
+    trait = compassionate
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 8
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6393.1.11 = {
+        birth = yes
+    }
+
+    6468.4.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_47 = {
+    name = "Quentyn"
+
+    dynasty = dynasty_musgood
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_45
+    mother = musgood_46
+
+    trait = just
+    trait = content
+    trait = stubborn
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 10
+    learning = 8
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    6419.6.19 = {
+        birth = yes
+    }
+
+    6465.3.6 = {
+        add_spouse = musgood_48
+    }
+
+    6478.1.16 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+musgood_48 = {
+    name = "Dallia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = lustful
+    trait = sadistic
+    trait = fickle
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 3
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6448.8.17 = {
+        birth = yes
+    }
+
+    6515.1.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_49 = {
+    name = "Maric"
+
+    dynasty = dynasty_musgood
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_47
+    mother = musgood_48
+
+    trait = wrathful
+    trait = vengeful
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    6466.6.12 = {
+        birth = yes
+    }
+
+    6489.5.24 = {
+        add_spouse = musgood_50
+    }
+
+    6533.11.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_50 = {
+    name = "Cerella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = trusting
+    trait = sadistic
+    trait = calm
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 10
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6472.11.7 = {
+        birth = yes
+    }
+
+    6547.9.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_51 = {
+    name = "Reginald"
+
+    dynasty = dynasty_musgood
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_49
+    mother = musgood_50
+
+    trait = gluttonous
+    trait = arrogant
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 4
+    intrigue = 3
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_1
+
+    6504.5.11 = {
+        birth = yes
+    }
+
+    6532.6.19 = {
+        add_spouse = musgood_52
+    }
+
+    6579.12.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_52 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = vengeful
+    trait = gluttonous
+    trait = calm
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6515.2.28 = {
+        birth = yes
+    }
+
+    6594.8.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_53 = {
+    name = "Aelinor"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_47
+    mother = musgood_48
+
+    trait = cynical
+    trait = honest
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6467.7.1 = {
+        birth = yes
+    }
+
+    6536.7.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_54 = {
+    name = "Vicky"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_47
+    mother = musgood_48
+
+    trait = temperate
+    trait = gregarious
+    trait = chaste
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_4
+
+    6469.6.27 = {
+        birth = yes
+    }
+
+    6539.9.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+musgood_55 = {
+    name = "Helena"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = musgood_45
+    mother = musgood_46
+
+    trait = stubborn
+    trait = gregarious
+    trait = craven
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6424.9.23 = {
+        birth = yes
+    }
+
+    6465.5.5 = {
+        death = { death_reason = death_cancer }
+    }
+}

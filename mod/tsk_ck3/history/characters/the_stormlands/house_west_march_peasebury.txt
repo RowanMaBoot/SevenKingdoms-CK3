@@ -1,0 +1,1551 @@
+peasebury_1 = {
+    name = "Armond"
+
+    dynasty = dynasty_peasebury
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = ambitious
+    trait = wrathful
+    trait = greedy
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 10
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6300.4.24 = {
+        birth = yes
+    }
+
+    6336.4.20 = {
+        add_spouse = peasebury_2
+    }
+
+    6369.4.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_2 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = diligent
+    trait = impatient
+    trait = content
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 3
+    intrigue = 7
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_1
+
+    6319.11.25 = {
+        birth = yes
+    }
+
+    6387.6.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_3 = {
+    name = "Gyldayn"
+
+    dynasty = dynasty_peasebury
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_1
+    mother = peasebury_2
+
+    trait = gluttonous
+    trait = gregarious
+    trait = humble
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6336.8.25 = {
+        birth = yes
+    }
+
+    6381.4.3 = {
+        add_spouse = peasebury_4
+    }
+
+    6391.9.3 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+peasebury_4 = {
+    name = "Senelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = humble
+    trait = arbitrary
+    trait = honest
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 3
+    intrigue = 8
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6364.12.17 = {
+        birth = yes
+    }
+
+    6443.12.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_5 = {
+    name = "Armond"
+
+    dynasty = dynasty_peasebury
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_3
+    mother = peasebury_4
+
+    trait = lustful
+    trait = content
+    trait = craven
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 5
+    intrigue = 3
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_3
+
+    6383.1.9 = {
+        birth = yes
+    }
+
+    6403.11.13 = {
+        add_spouse = peasebury_6
+    }
+
+    6456.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_6 = {
+    name = "Jena"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = humble
+    trait = fickle
+    trait = cynical
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 9
+    intrigue = 6
+    learning = 4
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6386.5.15 = {
+        birth = yes
+    }
+
+    6461.1.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_7 = {
+    name = "Arron"
+
+    dynasty = dynasty_peasebury
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_5
+    mother = peasebury_6
+
+    trait = sadistic
+    trait = compassionate
+    trait = lustful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 2
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6403.6.10 = {
+        birth = yes
+    }
+
+    6452.1.26 = {
+        add_spouse = peasebury_8
+    }
+
+    6479.2.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_8 = {
+    name = "Aglantine"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = gluttonous
+    trait = paranoid
+    trait = generous
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_3
+
+    6435.2.9 = {
+        birth = yes
+    }
+
+    6520.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_9 = {
+    name = "Bryen"
+
+    dynasty = dynasty_peasebury
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_7
+    mother = peasebury_8
+
+    trait = shy
+    trait = wrathful
+    trait = cynical
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 2
+
+    trait = education_diplomacy_2
+
+    6460.3.10 = {
+        birth = yes
+    }
+
+    6479.5.14 = {
+        add_spouse = peasebury_10
+    }
+
+    6534.5.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_10 = {
+    name = "Cassandrea"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = callous
+    trait = greedy
+    trait = vengeful
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 8
+    intrigue = 10
+    learning = 6
+    prowess = 3
+
+    trait = education_intrigue_4
+
+    6462.6.22 = {
+        birth = yes
+    }
+
+    6529.12.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_11 = {
+    name = "Andren"
+
+    dynasty = dynasty_peasebury
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_9
+    mother = peasebury_10
+
+    trait = arbitrary
+    trait = callous
+    trait = shy
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 2
+
+    trait = education_diplomacy_3
+
+    6501.9.8 = {
+        birth = yes
+    }
+
+    6534.3.21 = {
+        add_spouse = peasebury_12
+    }
+
+    6581.12.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_12 = {
+    name = "Lyria"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = chaste
+    trait = craven
+    trait = vengeful
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6517.6.3 = {
+        birth = yes
+    }
+
+    6586.6.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_13 = {
+    name = "Tia"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_5
+    mother = peasebury_6
+
+    trait = temperate
+    trait = gregarious
+    trait = patient
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 4
+    intrigue = 8
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6406.9.21 = {
+        birth = yes
+    }
+
+    6487.7.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_14 = {
+    name = "Sherry"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_5
+    mother = peasebury_6
+
+    trait = forgiving
+    trait = cynical
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 9
+    intrigue = 6
+    learning = 7
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    6413.5.26 = {
+        birth = yes
+    }
+
+    6481.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_15 = {
+    name = "Leonette"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_1
+    mother = peasebury_2
+
+    trait = wrathful
+    trait = callous
+    trait = content
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 3
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    6341.9.14 = {
+        birth = yes
+    }
+
+    6419.12.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_16 = {
+    name = "Brus"
+
+    dynasty = dynasty_peasebury
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_1
+    mother = peasebury_2
+
+    trait = craven
+    trait = sadistic
+    trait = humble
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 11
+    intrigue = 7
+    learning = 8
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6346.10.18 = {
+        birth = yes
+    }
+
+    6384.3.15 = {
+        add_spouse = peasebury_17
+    }
+
+    6394.4.14 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+peasebury_17 = {
+    name = "Victaria"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = arbitrary
+    trait = vengeful
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 9
+    intrigue = 8
+    learning = 6
+    prowess = 3
+
+    trait = education_stewardship_4
+
+    6367.3.12 = {
+        birth = yes
+    }
+
+    6442.9.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_18 = {
+    name = "Leyla"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_16
+    mother = peasebury_17
+
+    trait = compassionate
+    trait = stubborn
+    trait = shy
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_1
+
+    6385.3.5 = {
+        birth = yes
+    }
+
+    6464.1.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_19 = {
+    name = "Maer"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_16
+    mother = peasebury_17
+
+    trait = compassionate
+    trait = gregarious
+    trait = sadistic
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 9
+    intrigue = 8
+    learning = 2
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    6388.1.25 = {
+        birth = yes
+    }
+
+    6429.8.1 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+peasebury_20 = {
+    name = "Flora"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_16
+    mother = peasebury_17
+
+    trait = forgiving
+    trait = ambitious
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 6
+    intrigue = 2
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_1
+
+    6389.6.20 = {
+        birth = yes
+    }
+
+    6459.5.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_21 = {
+    name = "Arrec"
+
+    dynasty = dynasty_peasebury
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_16
+    mother = peasebury_17
+
+    trait = stubborn
+    trait = greedy
+    trait = lustful
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 7
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_2
+
+    6391.3.26 = {
+        birth = yes
+    }
+
+    6408.4.21 = {
+        add_spouse = peasebury_22
+    }
+
+    6465.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_22 = {
+    name = "Arianne"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = fickle
+    trait = temperate
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 10
+    intrigue = 4
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6391.6.19 = {
+        birth = yes
+    }
+
+    6471.6.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_23 = {
+    name = "Sarmion"
+
+    dynasty = dynasty_peasebury
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_21
+    mother = peasebury_22
+
+    trait = callous
+    trait = calm
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 2
+    learning = 9
+    prowess = 10
+
+    trait = education_learning_4
+
+    6412.4.6 = {
+        birth = yes
+    }
+
+    6432.3.17 = {
+        add_spouse = peasebury_24
+    }
+
+    6494.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_24 = {
+    name = "Artaria"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = trusting
+    trait = forgiving
+    trait = calm
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_martial_2
+
+    6415.8.25 = {
+        birth = yes
+    }
+
+    6487.2.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_25 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_23
+    mother = peasebury_24
+
+    trait = callous
+    trait = greedy
+    trait = brave
+
+    diplomacy = 10
+    martial = 2
+    stewardship = 3
+    intrigue = 7
+    learning = 8
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    6445.9.7 = {
+        birth = yes
+    }
+
+    6524.8.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_26 = {
+    name = "Conen"
+
+    dynasty = dynasty_peasebury
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_23
+    mother = peasebury_24
+
+    trait = fickle
+    trait = compassionate
+    trait = brave
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 3
+    intrigue = 3
+    learning = 4
+    prowess = 2
+
+    trait = education_diplomacy_4
+
+    6449.6.7 = {
+        birth = yes
+    }
+
+    6480.2.11 = {
+        add_spouse = peasebury_27
+    }
+
+    6525.5.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_27 = {
+    name = "Ginni"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = humble
+    trait = deceitful
+    trait = impatient
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6463.11.1 = {
+        birth = yes
+    }
+
+    6538.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_28 = {
+    name = "Ginni"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_26
+    mother = peasebury_27
+
+    trait = calm
+    trait = impatient
+    trait = fickle
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_2
+
+    6487.2.25 = {
+        birth = yes
+    }
+
+    6566.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_29 = {
+    name = "Pate"
+
+    dynasty = dynasty_peasebury
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_26
+    mother = peasebury_27
+
+    trait = generous
+    trait = gluttonous
+    trait = zealous
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6495.6.9 = {
+        birth = yes
+    }
+
+    6514.5.23 = {
+        add_spouse = peasebury_30
+    }
+
+    6530.1.22 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+peasebury_30 = {
+    name = "Aglantine"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = trusting
+    trait = diligent
+    trait = patient
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    6497.7.4 = {
+        birth = yes
+    }
+
+    6569.1.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_31 = {
+    name = "Renly"
+
+    dynasty = dynasty_peasebury
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_21
+    mother = peasebury_22
+
+    trait = arbitrary
+    trait = calm
+    trait = impatient
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 10
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6414.11.25 = {
+        birth = yes
+    }
+
+    6440.7.21 = {
+        add_spouse = peasebury_32
+    }
+
+    6498.8.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_32 = {
+    name = "Maris"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = honest
+    trait = cynical
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 2
+
+    trait = education_intrigue_2
+
+    6423.6.27 = {
+        birth = yes
+    }
+
+    6504.10.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_33 = {
+    name = "Raymund"
+
+    dynasty = dynasty_peasebury
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_31
+    mother = peasebury_32
+
+    trait = just
+    trait = chaste
+    trait = patient
+
+    diplomacy = 8
+    martial = 10
+    stewardship = 3
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_3
+
+    6440.6.20 = {
+        birth = yes
+    }
+
+    6489.10.21 = {
+        add_spouse = peasebury_34
+    }
+
+    6506.8.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_34 = {
+    name = "Cassandrea"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = honest
+    trait = arrogant
+    trait = patient
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 3
+    intrigue = 5
+    learning = 2
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6472.10.13 = {
+        birth = yes
+    }
+
+    6500.9.10 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+peasebury_35 = {
+    name = "Ralph"
+
+    dynasty = dynasty_peasebury
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_33
+    mother = peasebury_34
+
+    trait = stubborn
+    trait = callous
+    trait = honest
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 9
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    6493.5.24 = {
+        birth = yes
+    }
+
+    6515.1.18 = {
+        add_spouse = peasebury_36
+    }
+
+    6572.10.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_36 = {
+    name = "Ellyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = brave
+    trait = wrathful
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6498.6.22 = {
+        birth = yes
+    }
+
+    6565.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_37 = {
+    name = "Goodwin"
+
+    dynasty = dynasty_peasebury
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_31
+    mother = peasebury_32
+
+    trait = trusting
+    trait = gregarious
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6447.7.19 = {
+        birth = yes
+    }
+
+    6470.11.7 = {
+        add_spouse = peasebury_38
+    }
+
+    6532.2.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_38 = {
+    name = "Selyse"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = forgiving
+    trait = lustful
+    trait = craven
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 3
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    6453.5.6 = {
+        birth = yes
+    }
+
+    6537.9.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_39 = {
+    name = "Theo"
+
+    dynasty = dynasty_peasebury
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_37
+    mother = peasebury_38
+
+    trait = calm
+    trait = humble
+    trait = chaste
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 3
+    intrigue = 8
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6476.3.13 = {
+        birth = yes
+    }
+
+    6493.7.1 = {
+        add_spouse = peasebury_40
+    }
+
+    6548.3.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_40 = {
+    name = "Flora"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = gluttonous
+    trait = cynical
+    trait = lustful
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 5
+    intrigue = 3
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6476.9.2 = {
+        birth = yes
+    }
+
+    6544.6.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_41 = {
+    name = "Bryce"
+
+    dynasty = dynasty_peasebury
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_31
+    mother = peasebury_32
+
+    trait = brave
+    trait = stubborn
+    trait = arrogant
+
+    diplomacy = 21
+    martial = 23
+    stewardship = 23
+    intrigue = 24
+    learning = 24
+    prowess = 22
+
+    trait = education_intrigue_4
+
+    6453.10.17 = {
+        birth = yes
+    }
+
+    6488.9.6 = {
+        add_spouse = peasebury_42
+    }
+
+    6519.11.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_42 = {
+    name = "Melessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = honest
+    trait = zealous
+    trait = diligent
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 9
+    intrigue = 7
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_3
+
+    6471.2.25 = {
+        birth = yes
+    }
+
+    6506.12.20 = {
+        death = { death_reason = death_dungeon  }
+    }
+}
+
+peasebury_43 = {
+    name = "Lynesse"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_41
+    mother = peasebury_42
+
+    trait = brave
+    trait = stubborn
+    trait = diligent
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6489.10.13 = {
+        birth = yes
+    }
+
+    6568.7.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_44 = {
+    name = "Hugh"
+
+    dynasty = dynasty_peasebury
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_41
+    mother = peasebury_42
+
+    trait = zealous
+    trait = sadistic
+    trait = generous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 9
+
+    trait = education_martial_2
+
+    6494.5.1 = {
+        birth = yes
+    }
+
+    6541.3.2 = {
+        add_spouse = peasebury_45
+    }
+
+    6565.8.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_45 = {
+    name = "Leonette"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = greedy
+    trait = lazy
+    trait = impatient
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_4
+
+    6524.8.20 = {
+        birth = yes
+    }
+
+    6606.9.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_46 = {
+    name = "Aemon"
+
+    dynasty = dynasty_peasebury
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_41
+    mother = peasebury_42
+
+    trait = lustful
+    trait = stubborn
+    trait = just
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 3
+    intrigue = 6
+    learning = 7
+    prowess = 11
+
+    trait = education_martial_4
+
+    6495.4.19 = {
+        birth = yes
+    }
+
+    6512.1.2 = {
+        add_spouse = peasebury_47
+    }
+
+    6572.11.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_47 = {
+    name = "Argella"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    trait = chaste
+    trait = forgiving
+    trait = gluttonous
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 8
+    prowess = 2
+
+    trait = education_diplomacy_4
+
+    6495.10.21 = {
+        birth = yes
+    }
+
+    6577.12.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+peasebury_48 = {
+    name = "Brella"
+    female = yes
+
+    religion = the_old_gods
+    culture = marchmen
+
+    father = peasebury_1
+    mother = peasebury_2
+
+    trait = chaste
+    trait = generous
+    trait = stubborn
+
+    diplomacy = 11
+    martial = 7
+    stewardship = 10
+    intrigue = 7
+    learning = 9
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    6350.11.5 = {
+        birth = yes
+    }
+
+    6426.1.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

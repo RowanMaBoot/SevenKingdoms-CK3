@@ -1,0 +1,1841 @@
+wensington_1 = {
+    name = "Bonifer"
+
+    dynasty = dynasty_wensington
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = humble
+    trait = content
+    trait = lustful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 11
+    intrigue = 5
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6300.9.4 = {
+        birth = yes
+    }
+
+    6339.10.4 = {
+        add_spouse = wensington_2
+    }
+
+    6375.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_2 = {
+    name = "Lysa"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = brave
+    trait = chaste
+    trait = gluttonous
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6322.3.23 = {
+        birth = yes
+    }
+
+    6403.4.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_3 = {
+    name = "Alaric"
+
+    dynasty = dynasty_wensington
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_1
+    mother = wensington_2
+
+    trait = lazy
+    trait = gregarious
+    trait = greedy
+
+    diplomacy = 16
+    martial = 22
+    stewardship = 20
+    intrigue = 27
+    learning = 19
+    prowess = 11
+
+    trait = education_intrigue_4
+
+    6365.1.1 = {
+        birth = yes
+    }
+
+    6409.4.25 = {
+        add_spouse = wensington_4
+    }
+
+    6440.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_4 = {
+    name = "Dalla"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = temperate
+    trait = shy
+    trait = zealous
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 8
+    intrigue = 9
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6392.11.19 = {
+        birth = yes
+    }
+
+    6435.11.5 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+wensington_5 = {
+    name = "Galladon"
+
+    dynasty = dynasty_wensington
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_3
+    mother = wensington_4
+
+    trait = paranoid
+    trait = callous
+    trait = diligent
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6435.1.12 = {
+        birth = yes
+    }
+
+    6464.7.9 = {
+        add_spouse = wensington_6
+    }
+
+    6520.7.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_6 = {
+    name = "Annis"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = sadistic
+    trait = lustful
+    trait = gluttonous
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 10
+    intrigue = 4
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6447.9.16 = {
+        birth = yes
+    }
+
+    6526.4.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_7 = {
+    name = "Myles"
+
+    dynasty = dynasty_wensington
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_5
+    mother = wensington_6
+
+    trait = greedy
+    trait = temperate
+    trait = just
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 4
+    intrigue = 8
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6469.5.7 = {
+        birth = yes
+    }
+
+    6502.1.22 = {
+        add_spouse = wensington_8
+    }
+
+    6553.10.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_8 = {
+    name = "Cassandrea"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = content
+    trait = zealous
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 1
+
+    trait = education_stewardship_3
+
+    6485.10.14 = {
+        birth = yes
+    }
+
+    6567.4.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_9 = {
+    name = "Tiah"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_7
+    mother = wensington_8
+
+    trait = cynical
+    trait = chaste
+    trait = just
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    6503.2.27 = {
+        birth = yes
+    }
+
+    6580.1.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_10 = {
+    name = "Ginni"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_7
+    mother = wensington_8
+
+    trait = calm
+    trait = patient
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 1
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6506.10.15 = {
+        birth = yes
+    }
+
+    6580.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_11 = {
+    name = "Ronald"
+
+    dynasty = dynasty_wensington
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_7
+    mother = wensington_8
+
+    trait = greedy
+    trait = arrogant
+    trait = compassionate
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 8
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6510.12.12 = {
+        birth = yes
+    }
+
+    6541.6.19 = {
+        add_spouse = wensington_12
+    }
+
+    6588.12.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_12 = {
+    name = "Dallia"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = wrathful
+    trait = compassionate
+    trait = brave
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 2
+
+    trait = education_diplomacy_2
+
+    6524.7.8 = {
+        birth = yes
+    }
+
+    6603.9.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_13 = {
+    name = "Arron"
+
+    dynasty = dynasty_wensington
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_11
+    mother = wensington_12
+
+    trait = ambitious
+    trait = diligent
+    trait = temperate
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 3
+    learning = 2
+    prowess = 7
+
+    trait = education_martial_3
+
+    6548.7.12 = {
+        birth = yes
+    }
+
+    6580.11.22 = {
+        add_spouse = wensington_14
+    }
+
+    6618.10.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_14 = {
+    name = "Brella"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = chaste
+    trait = humble
+    trait = impatient
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6563.1.17 = {
+        birth = yes
+    }
+
+    6632.10.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_15 = {
+    name = "Matthos"
+
+    dynasty = dynasty_wensington
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_13
+    mother = wensington_14
+
+    trait = patient
+    trait = stubborn
+    trait = callous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 10
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6588.9.20 = {
+        birth = yes
+    }
+
+    6631.2.10 = {
+        add_spouse = wensington_16
+    }
+
+    6647.12.8 = {
+        death = { death_reason = death_duel }
+    }
+}
+
+wensington_16 = {
+    name = "Meredyth"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = forgiving
+    trait = ambitious
+    trait = impatient
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_4
+
+    6614.10.17 = {
+        birth = yes
+    }
+
+    6689.8.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_17 = {
+    name = "Donnel"
+
+    dynasty = dynasty_wensington
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_13
+    mother = wensington_14
+
+    trait = paranoid
+    trait = patient
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 2
+
+    trait = education_intrigue_4
+
+    6589.2.4 = {
+        birth = yes
+    }
+
+    6635.9.9 = {
+        add_spouse = wensington_18
+    }
+
+    6645.1.15 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+wensington_18 = {
+    name = "Vicky"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = lustful
+    trait = cynical
+    trait = trusting
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 9
+    intrigue = 8
+    learning = 8
+    prowess = 2
+
+    trait = education_martial_1
+
+    6618.8.6 = {
+        birth = yes
+    }
+
+    6645.12.28 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+wensington_19 = {
+    name = "Lorys"
+
+    dynasty = dynasty_wensington
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_13
+    mother = wensington_14
+
+    trait = diligent
+    trait = ambitious
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 3
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6595.4.27 = {
+        birth = yes
+    }
+
+    6636.6.16 = {
+        add_spouse = wensington_20
+    }
+
+    6666.3.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_20 = {
+    name = "Helena"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = callous
+    trait = forgiving
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6619.5.16 = {
+        birth = yes
+    }
+
+    6704.12.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_21 = {
+    name = "Jena"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_11
+    mother = wensington_12
+
+    trait = ambitious
+    trait = deceitful
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 8
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6550.9.12 = {
+        birth = yes
+    }
+
+    6623.3.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_22 = {
+    name = "Victaria"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_11
+    mother = wensington_12
+
+    trait = callous
+    trait = forgiving
+    trait = lazy
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_2
+
+    6557.6.27 = {
+        birth = yes
+    }
+
+    6623.11.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_23 = {
+    name = "Donal"
+
+    dynasty = dynasty_wensington
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_5
+    mother = wensington_6
+
+    trait = craven
+    trait = stubborn
+    trait = generous
+
+    diplomacy = 4
+    martial = 1
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6477.4.28 = {
+        birth = yes
+    }
+
+    6505.11.2 = {
+        add_spouse = wensington_24
+    }
+
+    6515.9.14 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+wensington_24 = {
+    name = "Jenn"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = forgiving
+    trait = compassionate
+    trait = just
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    6488.10.23 = {
+        birth = yes
+    }
+
+    6554.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_25 = {
+    name = "Conen"
+
+    dynasty = dynasty_wensington
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_23
+    mother = wensington_24
+
+    trait = gregarious
+    trait = calm
+    trait = just
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6505.11.13 = {
+        birth = yes
+    }
+
+    6539.12.12 = {
+        add_spouse = wensington_26
+    }
+
+    6579.12.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_26 = {
+    name = "Marya"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = impatient
+    trait = vengeful
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_4
+
+    6522.12.5 = {
+        birth = yes
+    }
+
+    6604.12.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_27 = {
+    name = "Senelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_25
+    mother = wensington_26
+
+    trait = temperate
+    trait = lustful
+    trait = patient
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    6547.3.23 = {
+        birth = yes
+    }
+
+    6623.1.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_28 = {
+    name = "Harlan"
+
+    dynasty = dynasty_wensington
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_25
+    mother = wensington_26
+
+    trait = content
+    trait = fickle
+    trait = honest
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 7
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_3
+
+    6552.6.17 = {
+        birth = yes
+    }
+
+    6571.4.24 = {
+        add_spouse = wensington_29
+    }
+
+    6623.2.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_29 = {
+    name = "Shirei"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = gregarious
+    trait = lustful
+    trait = ambitious
+
+    diplomacy = 10
+    martial = 4
+    stewardship = 3
+    intrigue = 9
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    6554.11.19 = {
+        birth = yes
+    }
+
+    6639.2.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_30 = {
+    name = "Jasonnei"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_28
+    mother = wensington_29
+
+    trait = lustful
+    trait = fickle
+    trait = diligent
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 9
+    learning = 10
+    prowess = 4
+
+    trait = education_learning_4
+
+    6571.2.15 = {
+        birth = yes
+    }
+
+    6583.3.8 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+wensington_31 = {
+    name = "Kelyce"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_28
+    mother = wensington_29
+
+    trait = sadistic
+    trait = temperate
+    trait = chaste
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6577.12.2 = {
+        birth = yes
+    }
+
+    6661.2.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_32 = {
+    name = "Thurgood"
+
+    dynasty = dynasty_wensington
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_28
+    mother = wensington_29
+
+    trait = vengeful
+    trait = stubborn
+    trait = callous
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6580.9.24 = {
+        birth = yes
+    }
+
+    6622.9.24 = {
+        add_spouse = wensington_33
+    }
+
+    6662.1.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_33 = {
+    name = "Corenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = sadistic
+    trait = honest
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6605.1.21 = {
+        birth = yes
+    }
+
+    6632.12.18 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+wensington_34 = {
+    name = "Cassandrea"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_28
+    mother = wensington_29
+
+    trait = cynical
+    trait = impatient
+    trait = brave
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6584.7.25 = {
+        birth = yes
+    }
+
+    6656.7.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_35 = {
+    name = "Alynne"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_23
+    mother = wensington_24
+
+    trait = lazy
+    trait = fickle
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 3
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_2
+
+    6506.12.12 = {
+        birth = yes
+    }
+
+    6576.2.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_36 = {
+    name = "Alaric"
+
+    dynasty = dynasty_wensington
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_23
+    mother = wensington_24
+
+    trait = content
+    trait = humble
+    trait = chaste
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 3
+    intrigue = 9
+    learning = 4
+    prowess = 8
+
+    trait = education_intrigue_1
+
+    6509.6.28 = {
+        birth = yes
+    }
+
+    6544.1.14 = {
+        add_spouse = wensington_37
+    }
+
+    6586.12.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_37 = {
+    name = "Kea"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = chaste
+    trait = fickle
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_martial_2
+
+    6527.7.18 = {
+        birth = yes
+    }
+
+    6607.1.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_38 = {
+    name = "Omrys"
+
+    dynasty = dynasty_wensington
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_36
+    mother = wensington_37
+
+    trait = callous
+    trait = arrogant
+    trait = diligent
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_1
+
+    6552.3.28 = {
+        birth = yes
+    }
+
+    6580.6.19 = {
+        add_spouse = wensington_39
+    }
+
+    6604.11.2 = {
+        death = { death_reason = death_attacked }
+    }
+}
+
+wensington_39 = {
+    name = "Leyla"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = greedy
+    trait = honest
+    trait = zealous
+
+    diplomacy = 6
+    martial = 11
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_2
+
+    6563.4.25 = {
+        birth = yes
+    }
+
+    6629.6.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_40 = {
+    name = "Cassie"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_38
+    mother = wensington_39
+
+    trait = stubborn
+    trait = greedy
+    trait = lazy
+
+    diplomacy = 10
+    martial = 4
+    stewardship = 7
+    intrigue = 10
+    learning = 10
+    prowess = 2
+
+    trait = education_diplomacy_1
+
+    6584.7.25 = {
+        birth = yes
+    }
+
+    6661.1.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_41 = {
+    name = "Allard"
+
+    dynasty = dynasty_wensington
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_38
+    mother = wensington_39
+
+    trait = trusting
+    trait = content
+    trait = cynical
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 8
+    intrigue = 2
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6589.12.2 = {
+        birth = yes
+    }
+
+    6633.3.18 = {
+        add_spouse = wensington_42
+    }
+
+    6643.6.17 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+wensington_42 = {
+    name = "Sher"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = brave
+    trait = lazy
+    trait = chaste
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 7
+    intrigue = 3
+    learning = 4
+    prowess = 1
+
+    trait = education_diplomacy_3
+
+    6616.11.16 = {
+        birth = yes
+    }
+
+    6695.6.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_43 = {
+    name = "Rhea"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_38
+    mother = wensington_39
+
+    trait = impatient
+    trait = vengeful
+    trait = trusting
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 7
+    prowess = 2
+
+    trait = education_stewardship_2
+
+    6593.6.13 = {
+        birth = yes
+    }
+
+    6670.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_44 = {
+    name = "Cedrik"
+
+    dynasty = dynasty_wensington
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_36
+    mother = wensington_37
+
+    trait = content
+    trait = gluttonous
+    trait = craven
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6559.4.5 = {
+        birth = yes
+    }
+
+    6585.9.6 = {
+        add_spouse = wensington_45
+    }
+
+    6641.2.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_45 = {
+    name = "Brienne"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = just
+    trait = patient
+    trait = cynical
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 4
+    learning = 8
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    6568.5.16 = {
+        birth = yes
+    }
+
+    6651.9.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_46 = {
+    name = "Corwen"
+
+    dynasty = dynasty_wensington
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_44
+    mother = wensington_45
+
+    trait = patient
+    trait = sadistic
+    trait = diligent
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6589.8.16 = {
+        birth = yes
+    }
+
+    6605.12.2 = {
+        add_spouse = wensington_47
+    }
+
+    6669.4.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_47 = {
+    name = "Lia"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = arbitrary
+    trait = stubborn
+    trait = callous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 2
+    intrigue = 6
+    learning = 5
+    prowess = 2
+
+    trait = education_martial_3
+
+    6588.4.20 = {
+        birth = yes
+    }
+
+    6655.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_48 = {
+    name = "Scolera"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_44
+    mother = wensington_45
+
+    trait = fickle
+    trait = shy
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 10
+    prowess = 4
+
+    trait = education_learning_4
+
+    6599.10.2 = {
+        birth = yes
+    }
+
+    6667.1.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_49 = {
+    name = "Rhi"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_36
+    mother = wensington_37
+
+    trait = arbitrary
+    trait = diligent
+    trait = calm
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 9
+    intrigue = 9
+    learning = 3
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6563.7.11 = {
+        birth = yes
+    }
+
+    6630.4.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_50 = {
+    name = "Argilac"
+
+    dynasty = dynasty_wensington
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_23
+    mother = wensington_24
+
+    trait = forgiving
+    trait = gluttonous
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 9
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6511.7.27 = {
+        birth = yes
+    }
+
+    6557.12.21 = {
+        add_spouse = wensington_51
+    }
+
+    6593.3.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_51 = {
+    name = "Melicent"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = temperate
+    trait = vengeful
+    trait = callous
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    6540.4.25 = {
+        birth = yes
+    }
+
+    6616.2.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_52 = {
+    name = "Arstan"
+
+    dynasty = dynasty_wensington
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_50
+    mother = wensington_51
+
+    trait = forgiving
+    trait = arrogant
+    trait = cynical
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 8
+    intrigue = 10
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6561.8.26 = {
+        birth = yes
+    }
+
+    6576.1.19 = {
+        add_spouse = wensington_53
+    }
+
+    6643.2.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_53 = {
+    name = "Kea"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = honest
+    trait = lazy
+    trait = brave
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 2
+    intrigue = 7
+    learning = 8
+    prowess = 10
+
+    trait = education_learning_3
+
+    6559.3.19 = {
+        birth = yes
+    }
+
+    6633.5.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_54 = {
+    name = "Mylenda"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_52
+    mother = wensington_53
+
+    trait = impatient
+    trait = diligent
+    trait = honest
+
+    diplomacy = 10
+    martial = 10
+    stewardship = 5
+    intrigue = 10
+    learning = 9
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    6581.8.18 = {
+        birth = yes
+    }
+
+    6666.12.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_55 = {
+    name = "Maric"
+
+    dynasty = dynasty_wensington
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_52
+    mother = wensington_53
+
+    trait = paranoid
+    trait = arbitrary
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_4
+
+    6583.11.2 = {
+        birth = yes
+    }
+
+    6601.12.9 = {
+        add_spouse = wensington_56
+    }
+
+    6666.12.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_56 = {
+    name = "Bri"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    trait = lazy
+    trait = lustful
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 3
+    intrigue = 2
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_2
+
+    6584.5.1 = {
+        birth = yes
+    }
+
+    6659.2.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wensington_57 = {
+    name = "Annara"
+    female = yes
+
+    religion = the_old_gods
+    culture = rainlander
+
+    father = wensington_5
+    mother = wensington_6
+
+    trait = arbitrary
+    trait = forgiving
+    trait = impatient
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 7
+    intrigue = 4
+    learning = 8
+    prowess = 8
+
+    trait = education_martial_2
+
+    6479.4.6 = {
+        birth = yes
+    }
+
+    6552.9.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

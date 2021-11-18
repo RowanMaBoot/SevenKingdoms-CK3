@@ -1,0 +1,869 @@
+morrigen_1 = {
+    name = "Stannis"
+
+    dynasty = dynasty_morrigen
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = honest
+    trait = humble
+    trait = fickle
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    6300.3.20 = {
+        birth = yes
+    }
+
+    6323.1.23 = {
+        add_spouse = morrigen_2
+    }
+
+    6384.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+morrigen_2 = {
+    name = "Aglantine"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = vengeful
+    trait = callous
+    trait = zealous
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_3
+
+    6306.4.4 = {
+        birth = yes
+    }
+
+    6380.11.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+morrigen_3 = {
+    name = "Annara"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = morrigen_1
+    mother = morrigen_2
+
+    trait = arrogant
+    trait = just
+    trait = lazy
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 10
+    prowess = 9
+
+    trait = education_learning_2
+
+    6329.10.22 = {
+        birth = yes
+    }
+
+    6401.3.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+morrigen_4 = {
+    name = "Quentyn"
+
+    dynasty = dynasty_morrigen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = morrigen_1
+    mother = morrigen_2
+
+    trait = diligent
+    trait = honest
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6331.3.14 = {
+        birth = yes
+    }
+
+    6373.4.14 = {
+        add_spouse = morrigen_5
+    }
+
+    6407.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+morrigen_5 = {
+    name = "Elyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = vengeful
+    trait = fickle
+    trait = callous
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6356.1.6 = {
+        birth = yes
+    }
+
+    6439.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+morrigen_6 = {
+    name = "Colen"
+
+    dynasty = dynasty_morrigen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = morrigen_4
+    mother = morrigen_5
+
+    trait = stubborn
+    trait = just
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 6
+    intrigue = 9
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    6382.9.9 = {
+        birth = yes
+    }
+
+    6417.3.18 = {
+        add_spouse = morrigen_7
+    }
+
+    6463.3.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+morrigen_7 = {
+    name = "Cassie"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = just
+    trait = arrogant
+    trait = generous
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 7
+    intrigue = 9
+    learning = 8
+    prowess = 2
+
+    trait = education_intrigue_3
+
+    6400.7.27 = {
+        birth = yes
+    }
+
+    6485.7.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+morrigen_8 = {
+    name = "Balon"
+
+    dynasty = dynasty_morrigen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = morrigen_6
+    mother = morrigen_7
+
+    trait = arbitrary
+    trait = shy
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 5
+    intrigue = 10
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6421.2.12 = {
+        birth = yes
+    }
+
+    6471.10.23 = {
+        add_spouse = morrigen_9
+    }
+
+    6505.2.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+morrigen_9 = {
+    name = "Jeyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = gregarious
+    trait = lazy
+    trait = just
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 9
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6454.2.25 = {
+        birth = yes
+    }
+
+    6536.10.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+morrigen_10 = {
+    name = "Terrence"
+
+    dynasty = dynasty_morrigen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = morrigen_8
+    mother = morrigen_9
+
+    trait = temperate
+    trait = humble
+    trait = paranoid
+
+    diplomacy = 23
+    martial = 11
+    stewardship = 19
+    intrigue = 19
+    learning = 11
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6477.7.7 = {
+        birth = yes
+    }
+
+    6497.8.21 = {
+        add_spouse = morrigen_11
+    }
+
+    6558.9.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+morrigen_11 = {
+    name = "Lia"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = deceitful
+    trait = trusting
+    trait = calm
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_4
+
+    6480.7.19 = {
+        birth = yes
+    }
+
+    6546.9.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+morrigen_12 = {
+    name = "Edric"
+
+    dynasty = dynasty_morrigen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = morrigen_10
+    mother = morrigen_11
+
+    trait = generous
+    trait = gregarious
+    trait = ambitious
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 4
+    intrigue = 9
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6513.6.4 = {
+        birth = yes
+    }
+
+    6563.6.22 = {
+        add_spouse = morrigen_13
+    }
+
+    6573.6.22 = {
+        death = { death_reason = death_beaten }
+    }
+}
+
+morrigen_13 = {
+    name = "Aglantine"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = lazy
+    trait = arbitrary
+    trait = wrathful
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6546.2.11 = {
+        birth = yes
+    }
+
+    6630.6.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+morrigen_14 = {
+    name = "Lynesse"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = morrigen_8
+    mother = morrigen_9
+
+    trait = ambitious
+    trait = zealous
+    trait = humble
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 5
+    intrigue = 6
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_3
+
+    6482.12.16 = {
+        birth = yes
+    }
+
+    6542.4.25 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+morrigen_15 = {
+    name = "Simon"
+
+    dynasty = dynasty_morrigen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = morrigen_8
+    mother = morrigen_9
+
+    trait = arrogant
+    trait = forgiving
+    trait = lustful
+
+    diplomacy = 4
+    martial = 11
+    stewardship = 4
+    intrigue = 2
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_4
+
+    6483.11.18 = {
+        birth = yes
+    }
+
+    6512.8.5 = {
+        add_spouse = morrigen_16
+    }
+
+    6522.6.6 = {
+        death = { death_reason = death_great_pox }
+    }
+}
+
+morrigen_16 = {
+    name = "Selyse"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = paranoid
+    trait = arbitrary
+    trait = impatient
+
+    diplomacy = 11
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6495.4.23 = {
+        birth = yes
+    }
+
+    6569.6.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+morrigen_17 = {
+    name = "Gowen"
+
+    dynasty = dynasty_morrigen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = morrigen_15
+    mother = morrigen_16
+
+    trait = honest
+    trait = generous
+    trait = shy
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6513.9.2 = {
+        birth = yes
+    }
+
+    6538.6.23 = {
+        add_spouse = morrigen_18
+    }
+
+    6581.7.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+morrigen_18 = {
+    name = "Jena"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = ambitious
+    trait = humble
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6521.10.15 = {
+        birth = yes
+    }
+
+    6587.2.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+morrigen_19 = {
+    name = "Helicent"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = morrigen_15
+    mother = morrigen_16
+
+    trait = ambitious
+    trait = callous
+    trait = calm
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_martial_2
+
+    6515.5.8 = {
+        birth = yes
+    }
+
+    6583.4.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+morrigen_20 = {
+    name = "Leyla"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = morrigen_15
+    mother = morrigen_16
+
+    trait = honest
+    trait = ambitious
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 9
+    learning = 7
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    6517.3.1 = {
+        birth = yes
+    }
+
+    6585.12.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+morrigen_21 = {
+    name = "Colen"
+
+    dynasty = dynasty_morrigen
+    religion = the_old_gods
+    culture = stormmen
+
+    father = morrigen_15
+    mother = morrigen_16
+
+    trait = generous
+    trait = lazy
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6519.2.18 = {
+        birth = yes
+    }
+
+    6541.1.28 = {
+        add_spouse = morrigen_22
+    }
+
+    6571.8.16 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+morrigen_22 = {
+    name = "Cassandra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = forgiving
+    trait = wrathful
+    trait = content
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 9
+    intrigue = 6
+    learning = 6
+    prowess = 10
+
+    trait = education_stewardship_2
+
+    6524.5.9 = {
+        birth = yes
+    }
+
+    6594.11.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+morrigen_23 = {
+    name = "Elyanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = morrigen_6
+    mother = morrigen_7
+
+    trait = lazy
+    trait = shy
+    trait = chaste
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 6
+    intrigue = 9
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_3
+
+    6422.4.15 = {
+        birth = yes
+    }
+
+    6493.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+morrigen_24 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = morrigen_6
+    mother = morrigen_7
+
+    trait = patient
+    trait = shy
+    trait = lustful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 3
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6423.5.11 = {
+        birth = yes
+    }
+
+    6503.10.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+morrigen_25 = {
+    name = "Jonquil"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = morrigen_6
+    mother = morrigen_7
+
+    trait = trusting
+    trait = arbitrary
+    trait = cynical
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 4
+    intrigue = 9
+    learning = 8
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6426.7.13 = {
+        birth = yes
+    }
+
+    6498.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+morrigen_26 = {
+    name = "Cirella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = morrigen_1
+    mother = morrigen_2
+
+    trait = lustful
+    trait = shy
+    trait = generous
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    6332.2.13 = {
+        birth = yes
+    }
+
+    6405.10.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+morrigen_27 = {
+    name = "Scolera"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = morrigen_1
+    mother = morrigen_2
+
+    trait = temperate
+    trait = ambitious
+    trait = greedy
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_3
+
+    6333.8.8 = {
+        birth = yes
+    }
+
+    6400.3.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
