@@ -3,26 +3,6 @@ k_west_march = {
 		liege=e_stormlands
 	}
 }
-d_stone_arm = {
-	800.1.1={
-		liege=k_west_march
-	}
-}
-c_stone_arm = {
-	800.1.1={
-		liege=d_stone_arm
-	}
-}
-c_belden = {
-	800.1.1={
-		liege=d_stone_arm
-	}
-}
-c_agewyn = {
-	800.1.1={
-		liege=d_stone_arm
-	}
-}
 d_stonehelm = {
 	800.1.1={
 		liege=k_west_march
@@ -33,14 +13,34 @@ c_stonehelm = {
 		liege=d_stonehelm
 	}
 }
-c_wind_bast = {
+c_belden = {
 	800.1.1={
 		liege=d_stonehelm
 	}
 }
-c_satun = {
+c_agewyn = {
 	800.1.1={
 		liege=d_stonehelm
+	}
+}
+d_harvest_hall = {
+	800.1.1={
+		liege=k_west_march
+	}
+}
+c_harvest_hall = {
+	800.1.1={
+		liege=d_harvest_hall
+	}
+}
+c_wind_bast = {
+	800.1.1={
+		liege=d_harvest_hall
+	}
+}
+c_satun = {
+	800.1.1={
+		liege=d_harvest_hall
 	}
 }
 d_nightsong = {

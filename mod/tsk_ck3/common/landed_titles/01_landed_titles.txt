@@ -16368,11 +16368,11 @@ e_stormlands = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_janley = {
+			c_broad_arch = {
 				color = { 227 97 181 }
 				color2 = { 255 255 255 }
 				
-				b_janley = {
+				b_broad_arch = {
 					province = 794
 					color = { 227 97 181 }
 					color2 = { 255 255 255 }
@@ -18723,19 +18723,19 @@ e_stormlands = {
 		color = { 212 18 8 }
 		color2 = { 255 255 255 }
 		
-		capital = c_stone_arm
+		capital = c_stonehelm
 		
-		d_stone_arm = {
+		d_stonehelm = {
 			color = { 220 85 12 }
 			color2 = { 255 255 255 }
 			
-			capital = c_stone_arm
+			capital = c_stonehelm
 			
-			c_stone_arm = {
+			c_stonehelm = {
 				color = { 232 144 18 }
 				color2 = { 255 255 255 }
 				
-				b_stone_arm = {
+				b_stonehelm_holdfast = {
 					province = 694
 					color = { 232 144 18 }
 					color2 = { 255 255 255 }
@@ -19026,6 +19026,88 @@ e_stormlands = {
 				}
 			}
 		}
+		d_harvest_hall = {
+			color = { 217 83 19 }
+			color2 = { 255 255 255 }
+			
+			capital = c_harvest_hall
+			
+			c_harvest_hall = {
+				color = { 226 140 31 }
+				color2 = { 255 255 255 }
+				
+				b_harvest_hall = {
+					province = 706
+					color = { 226 140 31 }
+					color2 = { 255 255 255 }
+				}
+				b_mockbeggar = {
+					province = 707
+					color = { 226 140 31 }
+					color2 = { 255 255 255 }
+				}
+				b_godstones = {
+					province = 708
+					color = { 226 140 31 }
+					color2 = { 255 255 255 }
+				}
+				b_tenderidge = {
+					province = 709
+					color = { 226 140 31 }
+					color2 = { 255 255 255 }
+				}
+				b_old_godstone = {
+					province = 710
+					color = { 226 140 31 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_satun = {
+				color = { 228 140 18 }
+				color2 = { 255 255 255 }
+				
+				b_satun = {
+					province = 715
+					color = { 228 140 18 }
+					color2 = { 255 255 255 }
+				}
+				b_last_hawk = {
+					province = 716
+					color = { 228 140 18 }
+					color2 = { 255 255 255 }
+				}
+				b_lancing = {
+					province = 717
+					color = { 228 140 18 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_wind_bast = {
+				color = { 230 142 21 }
+				color2 = { 255 255 255 }
+				
+				b_wind_bast = {
+					province = 711
+					color = { 230 142 21 }
+					color2 = { 255 255 255 }
+				}
+				b_smallyew = {
+					province = 712
+					color = { 230 142 21 }
+					color2 = { 255 255 255 }
+				}
+				b_turners_break = {
+					province = 713
+					color = { 230 142 21 }
+					color2 = { 255 255 255 }
+				}
+				b_wineham = {
+					province = 714
+					color = { 230 142 21 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
 		d_nightsong = {
 			color = { 220 86 36 }
 			color2 = { 255 255 255 }
@@ -19186,88 +19268,6 @@ e_stormlands = {
 				b_tortle = {
 					province = 737
 					color = { 232 144 25 }
-					color2 = { 255 255 255 }
-				}
-			}
-		}
-		d_stoneheim = {
-			color = { 217 83 19 }
-			color2 = { 255 255 255 }
-			
-			capital = c_stoneheim
-			
-			c_stoneheim = {
-				color = { 226 140 31 }
-				color2 = { 255 255 255 }
-				
-				b_stoneheim = {
-					province = 706
-					color = { 226 140 31 }
-					color2 = { 255 255 255 }
-				}
-				b_mockbeggar = {
-					province = 707
-					color = { 226 140 31 }
-					color2 = { 255 255 255 }
-				}
-				b_godstones = {
-					province = 708
-					color = { 226 140 31 }
-					color2 = { 255 255 255 }
-				}
-				b_tenderidge = {
-					province = 709
-					color = { 226 140 31 }
-					color2 = { 255 255 255 }
-				}
-				b_old_godstone = {
-					province = 710
-					color = { 226 140 31 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_satun = {
-				color = { 228 140 18 }
-				color2 = { 255 255 255 }
-				
-				b_satun = {
-					province = 715
-					color = { 228 140 18 }
-					color2 = { 255 255 255 }
-				}
-				b_last_hawk = {
-					province = 716
-					color = { 228 140 18 }
-					color2 = { 255 255 255 }
-				}
-				b_lancing = {
-					province = 717
-					color = { 228 140 18 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_wind_bast = {
-				color = { 230 142 21 }
-				color2 = { 255 255 255 }
-				
-				b_wind_bast = {
-					province = 711
-					color = { 230 142 21 }
-					color2 = { 255 255 255 }
-				}
-				b_smallyew = {
-					province = 712
-					color = { 230 142 21 }
-					color2 = { 255 255 255 }
-				}
-				b_turners_break = {
-					province = 713
-					color = { 230 142 21 }
-					color2 = { 255 255 255 }
-				}
-				b_wineham = {
-					province = 714
-					color = { 230 142 21 }
 					color2 = { 255 255 255 }
 				}
 			}
