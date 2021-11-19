@@ -1,0 +1,2457 @@
+overton_1 = {
+    name = "Casamir"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = paranoid
+    trait = vengeful
+    trait = diligent
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 3
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6300.11.22 = {
+        birth = yes
+    }
+
+    6342.4.3 = {
+        add_spouse = overton_2
+    }
+
+    6382.1.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_2 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = paranoid
+    trait = arbitrary
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 9
+
+    trait = education_martial_3
+
+    6325.3.23 = {
+        birth = yes
+    }
+
+    6402.7.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_3 = {
+    name = "Farlen"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_1
+    mother = overton_2
+
+    trait = compassionate
+    trait = patient
+    trait = humble
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6344.10.17 = {
+        birth = yes
+    }
+
+    6367.2.4 = {
+        add_spouse = overton_4
+    }
+
+    6419.8.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_4 = {
+    name = "Gilli"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = fickle
+    trait = lazy
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    6350.2.4 = {
+        birth = yes
+    }
+
+    6426.9.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_5 = {
+    name = "Desmond"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_3
+    mother = overton_4
+
+    trait = deceitful
+    trait = arrogant
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_3
+
+    6378.3.4 = {
+        birth = yes
+    }
+
+    6406.2.13 = {
+        add_spouse = overton_6
+    }
+
+    6463.7.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_6 = {
+    name = "Thora"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = greedy
+    trait = vengeful
+    trait = content
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_3
+
+    6389.5.10 = {
+        birth = yes
+    }
+
+    6457.12.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_7 = {
+    name = "Alyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_5
+    mother = overton_6
+
+    trait = brave
+    trait = zealous
+    trait = generous
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6408.12.25 = {
+        birth = yes
+    }
+
+    6475.9.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_8 = {
+    name = "Alyc"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_5
+    mother = overton_6
+
+    trait = vengeful
+    trait = brave
+    trait = lustful
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 3
+    intrigue = 3
+    learning = 2
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6415.3.15 = {
+        birth = yes
+    }
+
+    6459.12.27 = {
+        add_spouse = overton_9
+    }
+
+    6494.11.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_9 = {
+    name = "Thyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = wrathful
+    trait = lazy
+    trait = stubborn
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    6442.11.25 = {
+        birth = yes
+    }
+
+    6523.12.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_10 = {
+    name = "Lynarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_8
+    mother = overton_9
+
+    trait = sadistic
+    trait = gluttonous
+    trait = brave
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_learning_2
+
+    6463.3.4 = {
+        birth = yes
+    }
+
+    6537.2.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_11 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_8
+    mother = overton_9
+
+    trait = humble
+    trait = patient
+    trait = compassionate
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6465.1.19 = {
+        birth = yes
+    }
+
+    6550.5.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_12 = {
+    name = "Markors"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_8
+    mother = overton_9
+
+    trait = gregarious
+    trait = compassionate
+    trait = lazy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 3
+
+    trait = education_diplomacy_1
+
+    6468.3.17 = {
+        birth = yes
+    }
+
+    6483.4.1 = {
+        add_spouse = overton_13
+    }
+
+    6544.2.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_13 = {
+    name = "Kyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = humble
+    trait = temperate
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_3
+
+    6466.1.15 = {
+        birth = yes
+    }
+
+    6543.4.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_14 = {
+    name = "Desmond"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_12
+    mother = overton_13
+
+    trait = stubborn
+    trait = lustful
+    trait = shy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 9
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6486.1.23 = {
+        birth = yes
+    }
+
+    6535.12.10 = {
+        add_spouse = overton_15
+    }
+
+    6552.1.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_15 = {
+    name = "Donella"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = lustful
+    trait = gluttonous
+    trait = cynical
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 10
+
+    trait = education_diplomacy_1
+
+    6518.7.19 = {
+        birth = yes
+    }
+
+    6595.12.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_16 = {
+    name = "Mattis"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_14
+    mother = overton_15
+
+    trait = stubborn
+    trait = lustful
+    trait = trusting
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 8
+    intrigue = 6
+    learning = 3
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6538.11.17 = {
+        birth = yes
+    }
+
+    6564.5.7 = {
+        add_spouse = overton_17
+    }
+
+    6610.3.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_17 = {
+    name = "Frenya"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = generous
+    trait = impatient
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 3
+    learning = 2
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    6547.3.12 = {
+        birth = yes
+    }
+
+    6622.10.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_18 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_14
+    mother = overton_15
+
+    trait = brave
+    trait = deceitful
+    trait = zealous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6540.9.27 = {
+        birth = yes
+    }
+
+    6610.12.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_19 = {
+    name = "Jynessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_14
+    mother = overton_15
+
+    trait = trusting
+    trait = stubborn
+    trait = cynical
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 3
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6541.11.26 = {
+        birth = yes
+    }
+
+    6612.11.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_20 = {
+    name = "Jaisyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_14
+    mother = overton_15
+
+    trait = gluttonous
+    trait = greedy
+    trait = chaste
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6543.8.10 = {
+        birth = yes
+    }
+
+    6616.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_21 = {
+    name = "Lydann"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_12
+    mother = overton_13
+
+    trait = greedy
+    trait = arrogant
+    trait = lazy
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 9
+    intrigue = 8
+    learning = 7
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6488.5.7 = {
+        birth = yes
+    }
+
+    6525.8.26 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+overton_22 = {
+    name = "Jonjon"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_12
+    mother = overton_13
+
+    trait = lustful
+    trait = trusting
+    trait = calm
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6491.7.25 = {
+        birth = yes
+    }
+
+    6524.9.18 = {
+        add_spouse = overton_23
+    }
+
+    6541.12.28 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+overton_23 = {
+    name = "Ely"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = arbitrary
+    trait = chaste
+    trait = arrogant
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 9
+    intrigue = 7
+    learning = 7
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6507.12.10 = {
+        birth = yes
+    }
+
+    6581.6.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_24 = {
+    name = "Theodan"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_22
+    mother = overton_23
+
+    trait = stubborn
+    trait = callous
+    trait = cynical
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 11
+    intrigue = 3
+    learning = 5
+    prowess = 1
+
+    trait = education_stewardship_3
+
+    6541.5.13 = {
+        birth = yes
+    }
+
+    6567.8.24 = {
+        add_spouse = overton_25
+    }
+
+    6577.9.7 = {
+        death = { death_reason = death_duel }
+    }
+}
+
+overton_25 = {
+    name = "Berti"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = just
+    trait = craven
+    trait = calm
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    6550.5.9 = {
+        birth = yes
+    }
+
+    6631.11.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_26 = {
+    name = "Wayn"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_12
+    mother = overton_13
+
+    trait = lazy
+    trait = paranoid
+    trait = brave
+
+    diplomacy = 7
+    martial = 1
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6492.7.8 = {
+        birth = yes
+    }
+
+    6523.1.8 = {
+        add_spouse = overton_27
+    }
+
+    6562.5.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_27 = {
+    name = "Rikissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = shy
+    trait = wrathful
+    trait = trusting
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 5
+    intrigue = 11
+    learning = 8
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6506.5.6 = {
+        birth = yes
+    }
+
+    6583.1.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_28 = {
+    name = "Caty"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_26
+    mother = overton_27
+
+    trait = wrathful
+    trait = lustful
+    trait = shy
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 5
+    intrigue = 8
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6534.7.5 = {
+        birth = yes
+    }
+
+    6601.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_29 = {
+    name = "Walder"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_26
+    mother = overton_27
+
+    trait = gluttonous
+    trait = forgiving
+    trait = chaste
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 11
+    intrigue = 6
+    learning = 5
+    prowess = 1
+
+    trait = education_stewardship_3
+
+    6535.6.5 = {
+        birth = yes
+    }
+
+    6577.5.12 = {
+        add_spouse = overton_30
+    }
+
+    6608.12.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_30 = {
+    name = "Elin"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = arrogant
+    trait = compassionate
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6560.12.9 = {
+        birth = yes
+    }
+
+    6645.4.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_31 = {
+    name = "Jonnela"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_5
+    mother = overton_6
+
+    trait = just
+    trait = calm
+    trait = shy
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6420.11.5 = {
+        birth = yes
+    }
+
+    6490.11.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_32 = {
+    name = "Jojen"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_5
+    mother = overton_6
+
+    trait = craven
+    trait = cynical
+    trait = temperate
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 6
+    intrigue = 9
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    6421.12.10 = {
+        birth = yes
+    }
+
+    6442.9.6 = {
+        add_spouse = overton_33
+    }
+
+    6505.4.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_33 = {
+    name = "Maegi"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = chaste
+    trait = temperate
+    trait = humble
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_2
+
+    6425.11.28 = {
+        birth = yes
+    }
+
+    6499.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_34 = {
+    name = "Wylis"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_32
+    mother = overton_33
+
+    trait = just
+    trait = gregarious
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 9
+
+    trait = education_learning_3
+
+    6451.12.14 = {
+        birth = yes
+    }
+
+    6471.10.3 = {
+        add_spouse = overton_35
+    }
+
+    6522.8.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_35 = {
+    name = "Danelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = sadistic
+    trait = greedy
+    trait = temperate
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 7
+    intrigue = 8
+    learning = 2
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6454.7.2 = {
+        birth = yes
+    }
+
+    6522.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_36 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_34
+    mother = overton_35
+
+    trait = stubborn
+    trait = temperate
+    trait = humble
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 1
+
+    trait = education_stewardship_3
+
+    6475.4.27 = {
+        birth = yes
+    }
+
+    6547.4.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_37 = {
+    name = "Lynarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_34
+    mother = overton_35
+
+    trait = stubborn
+    trait = impatient
+    trait = generous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 8
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6477.12.13 = {
+        birth = yes
+    }
+
+    6556.9.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_38 = {
+    name = "Owen"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_34
+    mother = overton_35
+
+    trait = gluttonous
+    trait = patient
+    trait = diligent
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 2
+    intrigue = 8
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6481.2.7 = {
+        birth = yes
+    }
+
+    6519.6.15 = {
+        add_spouse = overton_39
+    }
+
+    6552.9.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_39 = {
+    name = "Ewa"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = trusting
+    trait = just
+    trait = chaste
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 10
+    intrigue = 5
+    learning = 8
+    prowess = 4
+
+    trait = education_stewardship_1
+
+    6502.1.13 = {
+        birth = yes
+    }
+
+    6576.4.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_40 = {
+    name = "Hallis"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_38
+    mother = overton_39
+
+    trait = trusting
+    trait = stubborn
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 10
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6528.3.19 = {
+        birth = yes
+    }
+
+    6547.9.9 = {
+        add_spouse = overton_41
+    }
+
+    6608.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_41 = {
+    name = "Alyx"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = sadistic
+    trait = humble
+    trait = diligent
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_3
+
+    6530.7.1 = {
+        birth = yes
+    }
+
+    6607.2.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_42 = {
+    name = "Rogar"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_38
+    mother = overton_39
+
+    trait = stubborn
+    trait = compassionate
+    trait = lazy
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_3
+
+    6529.3.15 = {
+        birth = yes
+    }
+
+    6578.8.21 = {
+        add_spouse = overton_43
+    }
+
+    6588.2.6 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+overton_43 = {
+    name = "Mariah"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = brave
+    trait = callous
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6561.10.8 = {
+        birth = yes
+    }
+
+    6638.5.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_44 = {
+    name = "Rowena"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_38
+    mother = overton_39
+
+    trait = compassionate
+    trait = calm
+    trait = ambitious
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 6
+    intrigue = 3
+    learning = 7
+    prowess = 3
+
+    trait = education_learning_2
+
+    6535.6.15 = {
+        birth = yes
+    }
+
+    6605.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_45 = {
+    name = "Beron"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_34
+    mother = overton_35
+
+    trait = content
+    trait = chaste
+    trait = greedy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6484.11.25 = {
+        birth = yes
+    }
+
+    6513.11.18 = {
+        add_spouse = overton_46
+    }
+
+    6557.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_46 = {
+    name = "Ilyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = trusting
+    trait = forgiving
+    trait = calm
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    6496.3.25 = {
+        birth = yes
+    }
+
+    6576.3.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_47 = {
+    name = "Klas"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_45
+    mother = overton_46
+
+    trait = shy
+    trait = callous
+    trait = zealous
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6539.4.4 = {
+        birth = yes
+    }
+
+    6567.11.19 = {
+        add_spouse = overton_48
+    }
+
+    6618.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_48 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = paranoid
+    trait = calm
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6550.9.21 = {
+        birth = yes
+    }
+
+    6618.1.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_49 = {
+    name = "Skuli"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_32
+    mother = overton_33
+
+    trait = forgiving
+    trait = greedy
+    trait = fickle
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 5
+    intrigue = 9
+    learning = 9
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6455.10.13 = {
+        birth = yes
+    }
+
+    6473.9.5 = {
+        add_spouse = overton_50
+    }
+
+    6533.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_50 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = just
+    trait = patient
+    trait = temperate
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 9
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6456.6.8 = {
+        birth = yes
+    }
+
+    6533.1.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_51 = {
+    name = "Eylif"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_49
+    mother = overton_50
+
+    trait = ambitious
+    trait = gluttonous
+    trait = cynical
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 10
+    intrigue = 5
+    learning = 8
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6476.6.12 = {
+        birth = yes
+    }
+
+    6496.11.15 = {
+        add_spouse = overton_52
+    }
+
+    6544.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_52 = {
+    name = "Frennie"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = trusting
+    trait = callous
+    trait = content
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6479.6.13 = {
+        birth = yes
+    }
+
+    6551.2.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_53 = {
+    name = "Magya"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_51
+    mother = overton_52
+
+    trait = temperate
+    trait = lustful
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_2
+
+    6502.5.19 = {
+        birth = yes
+    }
+
+    6577.7.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_54 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_51
+    mother = overton_52
+
+    trait = generous
+    trait = forgiving
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    6504.2.27 = {
+        birth = yes
+    }
+
+    6589.9.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_55 = {
+    name = "Theodan"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_51
+    mother = overton_52
+
+    trait = arbitrary
+    trait = chaste
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_3
+
+    6507.12.7 = {
+        birth = yes
+    }
+
+    6551.10.21 = {
+        add_spouse = overton_56
+    }
+
+    6590.3.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_56 = {
+    name = "Lydia"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = lustful
+    trait = vengeful
+    trait = deceitful
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 4
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    6534.2.15 = {
+        birth = yes
+    }
+
+    6618.9.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_57 = {
+    name = "Medger"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_51
+    mother = overton_52
+
+    trait = gluttonous
+    trait = forgiving
+    trait = brave
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 10
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6508.3.1 = {
+        birth = yes
+    }
+
+    6536.6.24 = {
+        add_spouse = overton_58
+    }
+
+    6577.1.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_58 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = content
+    trait = arbitrary
+    trait = impatient
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6519.7.26 = {
+        birth = yes
+    }
+
+    6586.9.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_59 = {
+    name = "Theodan"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_32
+    mother = overton_33
+
+    trait = calm
+    trait = humble
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 3
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    6457.6.8 = {
+        birth = yes
+    }
+
+    6499.1.25 = {
+        add_spouse = overton_60
+    }
+
+    6509.7.23 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+overton_60 = {
+    name = "Serra"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = deceitful
+    trait = impatient
+    trait = stubborn
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 9
+
+    trait = education_martial_3
+
+    6482.4.28 = {
+        birth = yes
+    }
+
+    6531.4.15 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+overton_61 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_59
+    mother = overton_60
+
+    trait = fickle
+    trait = sadistic
+    trait = impatient
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6501.4.12 = {
+        birth = yes
+    }
+
+    6580.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_62 = {
+    name = "Kymila"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_59
+    mother = overton_60
+
+    trait = sadistic
+    trait = gregarious
+    trait = deceitful
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 4
+    intrigue = 5
+    learning = 8
+    prowess = 10
+
+    trait = education_learning_3
+
+    6502.11.9 = {
+        birth = yes
+    }
+
+    6569.7.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_63 = {
+    name = "Stan"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_59
+    mother = overton_60
+
+    trait = vengeful
+    trait = wrathful
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 6
+    intrigue = 3
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_4
+
+    6504.2.19 = {
+        birth = yes
+    }
+
+    6533.10.1 = {
+        add_spouse = overton_64
+    }
+
+    6581.9.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_64 = {
+    name = "Igrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = calm
+    trait = lazy
+    trait = patient
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 8
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6516.11.12 = {
+        birth = yes
+    }
+
+    6586.8.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_65 = {
+    name = "Benjen"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_63
+    mother = overton_64
+
+    trait = temperate
+    trait = compassionate
+    trait = shy
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    6542.10.3 = {
+        birth = yes
+    }
+
+    6586.6.15 = {
+        add_spouse = overton_66
+    }
+
+    6621.1.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_66 = {
+    name = "Tylissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = diligent
+    trait = zealous
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 8
+    intrigue = 3
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6569.5.23 = {
+        birth = yes
+    }
+
+    6640.11.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_67 = {
+    name = "Faste"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_63
+    mother = overton_64
+
+    trait = greedy
+    trait = sadistic
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 3
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_3
+
+    6544.8.13 = {
+        birth = yes
+    }
+
+    6561.3.11 = {
+        add_spouse = overton_68
+    }
+
+    6620.7.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_68 = {
+    name = "Ygritte"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = greedy
+    trait = forgiving
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_2
+
+    6544.10.12 = {
+        birth = yes
+    }
+
+    6611.4.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_69 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_63
+    mother = overton_64
+
+    trait = craven
+    trait = callous
+    trait = generous
+
+    diplomacy = 2
+    martial = 9
+    stewardship = 8
+    intrigue = 5
+    learning = 8
+    prowess = 10
+
+    trait = education_martial_4
+
+    6546.3.22 = {
+        birth = yes
+    }
+
+    6623.7.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_70 = {
+    name = "Olaff"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_59
+    mother = overton_60
+
+    trait = sadistic
+    trait = zealous
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_2
+
+    6506.6.19 = {
+        birth = yes
+    }
+
+    6556.2.9 = {
+        add_spouse = overton_71
+    }
+
+    6566.11.4 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+overton_71 = {
+    name = "Edla"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = gluttonous
+    trait = generous
+    trait = zealous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_3
+
+    6539.6.27 = {
+        birth = yes
+    }
+
+    6619.11.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_72 = {
+    name = "Porther"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_70
+    mother = overton_71
+
+    trait = just
+    trait = wrathful
+    trait = shy
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 4
+    intrigue = 6
+    learning = 3
+    prowess = 6
+
+    trait = education_martial_3
+
+    6556.10.12 = {
+        birth = yes
+    }
+
+    6591.1.22 = {
+        add_spouse = overton_73
+    }
+
+    6601.9.3 = {
+        death = { death_reason = death_hunting_accident  }
+    }
+}
+
+overton_73 = {
+    name = "Jaisyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = fickle
+    trait = lustful
+    trait = content
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 8
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6574.3.11 = {
+        birth = yes
+    }
+
+    6652.2.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_74 = {
+    name = "Halys"
+
+    dynasty = dynasty_overton
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_70
+    mother = overton_71
+
+    trait = greedy
+    trait = impatient
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 3
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6560.11.14 = {
+        birth = yes
+    }
+
+    6576.3.1 = {
+        add_spouse = overton_75
+    }
+
+    6595.8.14 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+overton_75 = {
+    name = "Kyli"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = wrathful
+    trait = zealous
+    trait = greedy
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6559.1.8 = {
+        birth = yes
+    }
+
+    6631.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+overton_76 = {
+    name = "Ylva"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = overton_3
+    mother = overton_4
+
+    trait = callous
+    trait = trusting
+    trait = honest
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 9
+    intrigue = 8
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6387.5.2 = {
+        birth = yes
+    }
+
+    6464.7.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

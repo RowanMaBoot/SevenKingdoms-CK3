@@ -1,0 +1,4635 @@
+boggs_1 = {
+    name = "Robard"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = lustful
+    trait = trusting
+    trait = just
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 6
+    intrigue = 7
+    learning = 3
+    prowess = 2
+
+    trait = education_martial_4
+
+    6300.6.7 = {
+        birth = yes
+    }
+
+    6323.3.2 = {
+        add_spouse = boggs_2
+    }
+
+    6384.9.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_2 = {
+    name = "Myra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = greedy
+    trait = lustful
+    trait = fickle
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 8
+
+    trait = education_martial_3
+
+    6306.12.10 = {
+        birth = yes
+    }
+
+    6386.9.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_3 = {
+    name = "Royce"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_1
+    mother = boggs_2
+
+    trait = lazy
+    trait = brave
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 3
+
+    trait = education_martial_2
+
+    6339.12.9 = {
+        birth = yes
+    }
+
+    6383.10.5 = {
+        add_spouse = boggs_4
+    }
+
+    6393.1.11 = {
+        death = { death_reason = death_feast_accident  }
+    }
+}
+
+boggs_4 = {
+    name = "Thora"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = content
+    trait = just
+    trait = cynical
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6366.1.13 = {
+        birth = yes
+    }
+
+    6445.5.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_5 = {
+    name = "Fanni"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_3
+    mother = boggs_4
+
+    trait = paranoid
+    trait = arbitrary
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 2
+    intrigue = 5
+    learning = 9
+    prowess = 3
+
+    trait = education_learning_4
+
+    6383.3.3 = {
+        birth = yes
+    }
+
+    6461.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_6 = {
+    name = "Ewilyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_3
+    mother = boggs_4
+
+    trait = lazy
+    trait = cynical
+    trait = craven
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 8
+    prowess = 8
+
+    trait = education_stewardship_1
+
+    6385.5.28 = {
+        birth = yes
+    }
+
+    6460.12.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_7 = {
+    name = "Benjen"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_3
+    mother = boggs_4
+
+    trait = gluttonous
+    trait = greedy
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 10
+    prowess = 8
+
+    trait = education_learning_2
+
+    6386.12.25 = {
+        birth = yes
+    }
+
+    6413.7.18 = {
+        add_spouse = boggs_8
+    }
+
+    6454.3.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_8 = {
+    name = "Wynafryd"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = zealous
+    trait = impatient
+    trait = vengeful
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_3
+
+    6396.3.25 = {
+        birth = yes
+    }
+
+    6475.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_9 = {
+    name = "Hrane"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_7
+    mother = boggs_8
+
+    trait = paranoid
+    trait = compassionate
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_3
+
+    6416.6.10 = {
+        birth = yes
+    }
+
+    6464.8.28 = {
+        add_spouse = boggs_10
+    }
+
+    6494.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_10 = {
+    name = "Ansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = gregarious
+    trait = humble
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 4
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6447.3.15 = {
+        birth = yes
+    }
+
+    6514.9.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_11 = {
+    name = "Elyassa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_9
+    mother = boggs_10
+
+    trait = callous
+    trait = vengeful
+    trait = fickle
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 3
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    6469.7.1 = {
+        birth = yes
+    }
+
+    6548.10.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_12 = {
+    name = "Harlon"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_9
+    mother = boggs_10
+
+    trait = vengeful
+    trait = gregarious
+    trait = impatient
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6474.6.6 = {
+        birth = yes
+    }
+
+    6510.12.28 = {
+        add_spouse = boggs_13
+    }
+
+    6554.11.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_13 = {
+    name = "Shiera"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = patient
+    trait = fickle
+    trait = lustful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 9
+    intrigue = 2
+    learning = 7
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    6493.3.15 = {
+        birth = yes
+    }
+
+    6561.8.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_14 = {
+    name = "Mors"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_12
+    mother = boggs_13
+
+    trait = generous
+    trait = temperate
+    trait = content
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    6511.7.24 = {
+        birth = yes
+    }
+
+    6557.9.14 = {
+        add_spouse = boggs_15
+    }
+
+    6588.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_15 = {
+    name = "Kennya"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = gregarious
+    trait = sadistic
+    trait = greedy
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 7
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    6540.7.22 = {
+        birth = yes
+    }
+
+    6619.4.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_16 = {
+    name = "Bannen"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_14
+    mother = boggs_15
+
+    trait = lazy
+    trait = temperate
+    trait = patient
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 8
+    intrigue = 7
+    learning = 3
+    prowess = 6
+
+    trait = education_martial_1
+
+    6577.2.25 = {
+        birth = yes
+    }
+
+    6621.9.10 = {
+        add_spouse = boggs_17
+    }
+
+    6652.2.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_17 = {
+    name = "Marna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = greedy
+    trait = brave
+    trait = honest
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_3
+
+    6604.12.10 = {
+        birth = yes
+    }
+
+    6687.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_18 = {
+    name = "Gorm"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_12
+    mother = boggs_13
+
+    trait = lustful
+    trait = patient
+    trait = callous
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    6516.7.22 = {
+        birth = yes
+    }
+
+    6551.2.14 = {
+        add_spouse = boggs_19
+    }
+
+    6591.2.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_19 = {
+    name = "Oraeya"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = content
+    trait = compassionate
+    trait = wrathful
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 9
+    intrigue = 6
+    learning = 9
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6534.6.21 = {
+        birth = yes
+    }
+
+    6610.2.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_20 = {
+    name = "Evalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_18
+    mother = boggs_19
+
+    trait = craven
+    trait = forgiving
+    trait = impatient
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 3
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6551.3.12 = {
+        birth = yes
+    }
+
+    6630.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_21 = {
+    name = "Torren"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_18
+    mother = boggs_19
+
+    trait = arbitrary
+    trait = lazy
+    trait = calm
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6556.5.21 = {
+        birth = yes
+    }
+
+    6599.2.4 = {
+        add_spouse = boggs_22
+    }
+
+    6635.2.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_22 = {
+    name = "Ylva"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = arbitrary
+    trait = sadistic
+    trait = craven
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    6582.12.1 = {
+        birth = yes
+    }
+
+    6657.12.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_23 = {
+    name = "Danny"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_18
+    mother = boggs_19
+
+    trait = fickle
+    trait = cynical
+    trait = paranoid
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 4
+    intrigue = 8
+    learning = 6
+    prowess = 10
+
+    trait = education_diplomacy_1
+
+    6563.1.9 = {
+        birth = yes
+    }
+
+    6608.7.4 = {
+        add_spouse = boggs_24
+    }
+
+    6646.4.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_24 = {
+    name = "Kyli"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = fickle
+    trait = ambitious
+    trait = greedy
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 10
+    intrigue = 4
+    learning = 7
+    prowess = 3
+
+    trait = education_stewardship_4
+
+    6591.5.18 = {
+        birth = yes
+    }
+
+    6659.9.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_25 = {
+    name = "Frennie"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_12
+    mother = boggs_13
+
+    trait = gregarious
+    trait = wrathful
+    trait = forgiving
+
+    diplomacy = 3
+    martial = 10
+    stewardship = 11
+    intrigue = 6
+    learning = 1
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6523.6.26 = {
+        birth = yes
+    }
+
+    6603.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_26 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_9
+    mother = boggs_10
+
+    trait = lustful
+    trait = arbitrary
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 10
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6476.7.21 = {
+        birth = yes
+    }
+
+    6547.12.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_27 = {
+    name = "Neddard"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_7
+    mother = boggs_8
+
+    trait = zealous
+    trait = trusting
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 3
+    intrigue = 4
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_4
+
+    6419.1.23 = {
+        birth = yes
+    }
+
+    6463.2.27 = {
+        add_spouse = boggs_28
+    }
+
+    6488.8.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_28 = {
+    name = "Tyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = zealous
+    trait = ambitious
+    trait = fickle
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    6446.6.8 = {
+        birth = yes
+    }
+
+    6528.1.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_29 = {
+    name = "Olaff"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_27
+    mother = boggs_28
+
+    trait = vengeful
+    trait = humble
+    trait = diligent
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 9
+    intrigue = 7
+    learning = 9
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6474.4.3 = {
+        birth = yes
+    }
+
+    6503.2.26 = {
+        add_spouse = boggs_30
+    }
+
+    6541.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_30 = {
+    name = "Barbara"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = patient
+    trait = ambitious
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    6486.11.26 = {
+        birth = yes
+    }
+
+    6513.12.7 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+boggs_31 = {
+    name = "Harwin"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_29
+    mother = boggs_30
+
+    trait = stubborn
+    trait = zealous
+    trait = humble
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6510.2.15 = {
+        birth = yes
+    }
+
+    6555.5.18 = {
+        add_spouse = boggs_32
+    }
+
+    6583.10.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_32 = {
+    name = "Kyli"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = compassionate
+    trait = cynical
+    trait = paranoid
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6538.8.6 = {
+        birth = yes
+    }
+
+    6589.1.20 = {
+        death = { death_reason = death_stress }
+    }
+}
+
+boggs_33 = {
+    name = "Bass"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_31
+    mother = boggs_32
+
+    trait = chaste
+    trait = arbitrary
+    trait = brave
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6557.12.13 = {
+        birth = yes
+    }
+
+    6593.10.25 = {
+        add_spouse = boggs_34
+    }
+
+    6632.2.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_34 = {
+    name = "Wynafryd"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = sadistic
+    trait = stubborn
+    trait = forgiving
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6576.6.24 = {
+        birth = yes
+    }
+
+    6656.10.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_35 = {
+    name = "Elyassa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_31
+    mother = boggs_32
+
+    trait = stubborn
+    trait = content
+    trait = wrathful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    6562.8.17 = {
+        birth = yes
+    }
+
+    6640.11.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_36 = {
+    name = "Alyx"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_31
+    mother = boggs_32
+
+    trait = stubborn
+    trait = paranoid
+    trait = patient
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6564.5.17 = {
+        birth = yes
+    }
+
+    6649.1.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_37 = {
+    name = "Folke"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_7
+    mother = boggs_8
+
+    trait = gluttonous
+    trait = craven
+    trait = diligent
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6423.8.8 = {
+        birth = yes
+    }
+
+    6441.6.14 = {
+        add_spouse = boggs_38
+    }
+
+    6494.12.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_38 = {
+    name = "Berti"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = shy
+    trait = trusting
+    trait = cynical
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 4
+    intrigue = 8
+    learning = 9
+    prowess = 5
+
+    trait = education_martial_4
+
+    6424.6.26 = {
+        birth = yes
+    }
+
+    6494.7.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_39 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_37
+    mother = boggs_38
+
+    trait = humble
+    trait = vengeful
+    trait = shy
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 1
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6447.3.15 = {
+        birth = yes
+    }
+
+    6513.9.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_40 = {
+    name = "Elinan"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_37
+    mother = boggs_38
+
+    trait = honest
+    trait = gregarious
+    trait = content
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6454.1.22 = {
+        birth = yes
+    }
+
+    6524.7.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_41 = {
+    name = "Magnar"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_37
+    mother = boggs_38
+
+    trait = just
+    trait = stubborn
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6456.6.12 = {
+        birth = yes
+    }
+
+    6490.11.17 = {
+        add_spouse = boggs_42
+    }
+
+    6537.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_42 = {
+    name = "Maege"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = ambitious
+    trait = calm
+    trait = fickle
+
+    diplomacy = 9
+    martial = 2
+    stewardship = 9
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6473.1.22 = {
+        birth = yes
+    }
+
+    6558.11.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_43 = {
+    name = "Casan"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_41
+    mother = boggs_42
+
+    trait = diligent
+    trait = wrathful
+    trait = arbitrary
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 4
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_learning_3
+
+    6504.4.4 = {
+        birth = yes
+    }
+
+    6538.12.26 = {
+        add_spouse = boggs_44
+    }
+
+    6572.4.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_44 = {
+    name = "Thyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = impatient
+    trait = sadistic
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_4
+
+    6521.2.25 = {
+        birth = yes
+    }
+
+    6604.12.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_45 = {
+    name = "Agnessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_43
+    mother = boggs_44
+
+    trait = impatient
+    trait = trusting
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 8
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6539.12.26 = {
+        birth = yes
+    }
+
+    6619.4.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_46 = {
+    name = "Hrane"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_43
+    mother = boggs_44
+
+    trait = calm
+    trait = diligent
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 2
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    6547.9.22 = {
+        birth = yes
+    }
+
+    6581.12.20 = {
+        add_spouse = boggs_47
+    }
+
+    6591.5.24 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+boggs_47 = {
+    name = "Elyassa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = cynical
+    trait = gregarious
+    trait = diligent
+
+    diplomacy = 11
+    martial = 5
+    stewardship = 6
+    intrigue = 9
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6564.10.13 = {
+        birth = yes
+    }
+
+    6631.4.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_48 = {
+    name = "Beth"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_43
+    mother = boggs_44
+
+    trait = calm
+    trait = ambitious
+    trait = craven
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_3
+
+    6550.12.14 = {
+        birth = yes
+    }
+
+    6629.8.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_49 = {
+    name = "Cayn"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_3
+    mother = boggs_4
+
+    trait = lazy
+    trait = fickle
+    trait = humble
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6387.5.4 = {
+        birth = yes
+    }
+
+    6421.7.12 = {
+        add_spouse = boggs_50
+    }
+
+    6466.8.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_50 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = zealous
+    trait = ambitious
+    trait = calm
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 10
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6404.12.20 = {
+        birth = yes
+    }
+
+    6470.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_51 = {
+    name = "Greg"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_49
+    mother = boggs_50
+
+    trait = lustful
+    trait = patient
+    trait = lazy
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_martial_2
+
+    6423.9.5 = {
+        birth = yes
+    }
+
+    6437.1.22 = {
+        add_spouse = boggs_52
+    }
+
+    6500.8.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_52 = {
+    name = "Igrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = trusting
+    trait = patient
+    trait = shy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_2
+
+    6420.3.8 = {
+        birth = yes
+    }
+
+    6493.6.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_53 = {
+    name = "Jaisyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_51
+    mother = boggs_52
+
+    trait = gregarious
+    trait = impatient
+    trait = greedy
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_3
+
+    6438.9.27 = {
+        birth = yes
+    }
+
+    6513.7.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_54 = {
+    name = "Arra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_51
+    mother = boggs_52
+
+    trait = just
+    trait = arrogant
+    trait = honest
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6443.12.3 = {
+        birth = yes
+    }
+
+    6524.7.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_55 = {
+    name = "Sigfryd"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_51
+    mother = boggs_52
+
+    trait = cynical
+    trait = callous
+    trait = just
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6451.12.4 = {
+        birth = yes
+    }
+
+    6467.7.1 = {
+        add_spouse = boggs_56
+    }
+
+    6520.11.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_56 = {
+    name = "Kyt"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = paranoid
+    trait = forgiving
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 3
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6450.1.18 = {
+        birth = yes
+    }
+
+    6518.12.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_57 = {
+    name = "Donnel"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_55
+    mother = boggs_56
+
+    trait = paranoid
+    trait = honest
+    trait = zealous
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    6470.7.22 = {
+        birth = yes
+    }
+
+    6495.12.16 = {
+        add_spouse = boggs_58
+    }
+
+    6545.12.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_58 = {
+    name = "Ewilyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = paranoid
+    trait = humble
+    trait = callous
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6478.10.14 = {
+        birth = yes
+    }
+
+    6547.6.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_59 = {
+    name = "Alyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_57
+    mother = boggs_58
+
+    trait = brave
+    trait = lustful
+    trait = trusting
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 3
+    learning = 5
+    prowess = 2
+
+    trait = education_martial_2
+
+    6509.1.24 = {
+        birth = yes
+    }
+
+    6576.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_60 = {
+    name = "Eddard"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_57
+    mother = boggs_58
+
+    trait = trusting
+    trait = calm
+    trait = patient
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 8
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6515.9.19 = {
+        birth = yes
+    }
+
+    6532.9.10 = {
+        add_spouse = boggs_61
+    }
+
+    6597.2.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_61 = {
+    name = "Rikyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = zealous
+    trait = content
+    trait = generous
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 7
+    intrigue = 1
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    6515.1.23 = {
+        birth = yes
+    }
+
+    6587.8.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_62 = {
+    name = "Hallis"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_55
+    mother = boggs_56
+
+    trait = callous
+    trait = content
+    trait = lazy
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 3
+    intrigue = 5
+    learning = 5
+    prowess = 2
+
+    trait = education_diplomacy_1
+
+    6471.12.17 = {
+        birth = yes
+    }
+
+    6497.9.25 = {
+        add_spouse = boggs_63
+    }
+
+    6548.2.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_63 = {
+    name = "Marissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = cynical
+    trait = chaste
+    trait = arbitrary
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6480.11.8 = {
+        birth = yes
+    }
+
+    6549.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_64 = {
+    name = "Damon"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_62
+    mother = boggs_63
+
+    trait = trusting
+    trait = patient
+    trait = humble
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_4
+
+    6502.5.25 = {
+        birth = yes
+    }
+
+    6541.6.18 = {
+        add_spouse = boggs_65
+    }
+
+    6576.11.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_65 = {
+    name = "Rikissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = gluttonous
+    trait = honest
+    trait = diligent
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 7
+    intrigue = 8
+    learning = 3
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6524.1.15 = {
+        birth = yes
+    }
+
+    6551.9.10 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+boggs_66 = {
+    name = "Wynafryd"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_62
+    mother = boggs_63
+
+    trait = arbitrary
+    trait = content
+    trait = lustful
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6506.6.10 = {
+        birth = yes
+    }
+
+    6574.1.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_67 = {
+    name = "Marna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_62
+    mother = boggs_63
+
+    trait = temperate
+    trait = arrogant
+    trait = generous
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6507.7.2 = {
+        birth = yes
+    }
+
+    6592.10.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_68 = {
+    name = "Bartimus"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_62
+    mother = boggs_63
+
+    trait = temperate
+    trait = callous
+    trait = chaste
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 7
+    intrigue = 9
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6508.5.10 = {
+        birth = yes
+    }
+
+    6551.5.12 = {
+        add_spouse = boggs_69
+    }
+
+    6577.8.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_69 = {
+    name = "Wylla"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = cynical
+    trait = just
+    trait = temperate
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    6534.9.17 = {
+        birth = yes
+    }
+
+    6606.8.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_70 = {
+    name = "Rolf"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_55
+    mother = boggs_56
+
+    trait = forgiving
+    trait = lazy
+    trait = craven
+
+    diplomacy = 9
+    martial = 11
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    6472.5.10 = {
+        birth = yes
+    }
+
+    6514.3.22 = {
+        add_spouse = boggs_71
+    }
+
+    6526.7.15 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+boggs_71 = {
+    name = "Martyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = just
+    trait = callous
+    trait = impatient
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 7
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6497.6.16 = {
+        birth = yes
+    }
+
+    6570.3.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_72 = {
+    name = "Calon"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_70
+    mother = boggs_71
+
+    trait = fickle
+    trait = ambitious
+    trait = calm
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 2
+    intrigue = 5
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6516.7.26 = {
+        birth = yes
+    }
+
+    6562.12.19 = {
+        add_spouse = boggs_73
+    }
+
+    6588.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_73 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = compassionate
+    trait = temperate
+    trait = zealous
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6545.7.1 = {
+        birth = yes
+    }
+
+    6619.10.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_74 = {
+    name = "Sarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_70
+    mother = boggs_71
+
+    trait = trusting
+    trait = just
+    trait = diligent
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 8
+    learning = 10
+    prowess = 6
+
+    trait = education_learning_4
+
+    6518.9.10 = {
+        birth = yes
+    }
+
+    6603.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_75 = {
+    name = "Jonnela"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_70
+    mother = boggs_71
+
+    trait = callous
+    trait = trusting
+    trait = temperate
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 10
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    6520.12.11 = {
+        birth = yes
+    }
+
+    6594.5.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_76 = {
+    name = "Ormyn"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_70
+    mother = boggs_71
+
+    trait = ambitious
+    trait = wrathful
+    trait = humble
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_2
+
+    6522.4.9 = {
+        birth = yes
+    }
+
+    6556.5.12 = {
+        add_spouse = boggs_77
+    }
+
+    6566.5.18 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+boggs_77 = {
+    name = "Berti"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = callous
+    trait = honest
+    trait = humble
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 5
+    intrigue = 3
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6539.12.17 = {
+        birth = yes
+    }
+
+    6617.11.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_78 = {
+    name = "Mariah"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_55
+    mother = boggs_56
+
+    trait = humble
+    trait = calm
+    trait = generous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6478.12.11 = {
+        birth = yes
+    }
+
+    6556.1.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_79 = {
+    name = "Robyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_49
+    mother = boggs_50
+
+    trait = gluttonous
+    trait = gregarious
+    trait = trusting
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 9
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    6424.5.20 = {
+        birth = yes
+    }
+
+    6491.10.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_80 = {
+    name = "Gariss"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_49
+    mother = boggs_50
+
+    trait = patient
+    trait = honest
+    trait = just
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6427.7.1 = {
+        birth = yes
+    }
+
+    6468.12.16 = {
+        add_spouse = boggs_81
+    }
+
+    6478.3.9 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+boggs_81 = {
+    name = "Martyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = lustful
+    trait = zealous
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 2
+    intrigue = 7
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_3
+
+    6451.5.2 = {
+        birth = yes
+    }
+
+    6530.6.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_82 = {
+    name = "Ansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_80
+    mother = boggs_81
+
+    trait = arbitrary
+    trait = patient
+    trait = chaste
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6469.4.16 = {
+        birth = yes
+    }
+
+    6550.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_83 = {
+    name = "Martyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_80
+    mother = boggs_81
+
+    trait = zealous
+    trait = gregarious
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    6471.3.4 = {
+        birth = yes
+    }
+
+    6542.7.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_84 = {
+    name = "Rikissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_80
+    mother = boggs_81
+
+    trait = content
+    trait = calm
+    trait = stubborn
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6473.9.15 = {
+        birth = yes
+    }
+
+    6553.11.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_85 = {
+    name = "Ned"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_80
+    mother = boggs_81
+
+    trait = compassionate
+    trait = arrogant
+    trait = chaste
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_4
+
+    6475.12.6 = {
+        birth = yes
+    }
+
+    6515.4.15 = {
+        add_spouse = boggs_86
+    }
+
+    6555.1.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_86 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = greedy
+    trait = lazy
+    trait = stubborn
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 3
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6498.11.28 = {
+        birth = yes
+    }
+
+    6573.5.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_87 = {
+    name = "Iris"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_85
+    mother = boggs_86
+
+    trait = greedy
+    trait = ambitious
+    trait = stubborn
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 3
+    intrigue = 9
+    learning = 3
+    prowess = 10
+
+    trait = education_intrigue_1
+
+    6520.5.3 = {
+        birth = yes
+    }
+
+    6605.8.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_88 = {
+    name = "Myra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_85
+    mother = boggs_86
+
+    trait = gregarious
+    trait = just
+    trait = chaste
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 4
+    intrigue = 3
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6526.2.15 = {
+        birth = yes
+    }
+
+    6597.1.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_89 = {
+    name = "Cregard"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_85
+    mother = boggs_86
+
+    trait = sadistic
+    trait = craven
+    trait = calm
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_1
+
+    6530.6.12 = {
+        birth = yes
+    }
+
+    6569.5.11 = {
+        add_spouse = boggs_90
+    }
+
+    6589.1.10 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+boggs_90 = {
+    name = "Meliana"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = arrogant
+    trait = patient
+    trait = callous
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 9
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6552.4.14 = {
+        birth = yes
+    }
+
+    6631.9.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_91 = {
+    name = "Vesimar"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_89
+    mother = boggs_90
+
+    trait = cynical
+    trait = diligent
+    trait = shy
+
+    diplomacy = 6
+    martial = 11
+    stewardship = 5
+    intrigue = 8
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_3
+
+    6576.1.15 = {
+        birth = yes
+    }
+
+    6611.6.18 = {
+        add_spouse = boggs_92
+    }
+
+    6621.9.25 = {
+        death = { death_reason = death_skull_cracked_open }
+    }
+}
+
+boggs_92 = {
+    name = "Elin"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = cynical
+    trait = lustful
+    trait = arbitrary
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6594.7.13 = {
+        birth = yes
+    }
+
+    6664.7.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_93 = {
+    name = "Osha"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_89
+    mother = boggs_90
+
+    trait = just
+    trait = vengeful
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 9
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6581.1.20 = {
+        birth = yes
+    }
+
+    6666.4.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_94 = {
+    name = "Marlon"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_85
+    mother = boggs_86
+
+    trait = vengeful
+    trait = callous
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 3
+    intrigue = 6
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_4
+
+    6533.9.23 = {
+        birth = yes
+    }
+
+    6552.6.24 = {
+        add_spouse = boggs_95
+    }
+
+    6606.4.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_95 = {
+    name = "Myra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = stubborn
+    trait = honest
+    trait = patient
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    6535.8.27 = {
+        birth = yes
+    }
+
+    6613.2.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_96 = {
+    name = "Gawen"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_94
+    mother = boggs_95
+
+    trait = diligent
+    trait = gregarious
+    trait = content
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6567.5.8 = {
+        birth = yes
+    }
+
+    6598.10.18 = {
+        add_spouse = boggs_97
+    }
+
+    6608.9.3 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+boggs_97 = {
+    name = "Margaret"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = content
+    trait = vengeful
+    trait = cynical
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 10
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6581.5.18 = {
+        birth = yes
+    }
+
+    6649.9.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_98 = {
+    name = "Yoren"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_49
+    mother = boggs_50
+
+    trait = impatient
+    trait = gluttonous
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 3
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    6433.6.4 = {
+        birth = yes
+    }
+
+    6478.12.22 = {
+        add_spouse = boggs_99
+    }
+
+    6507.7.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_99 = {
+    name = "Gilli"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = chaste
+    trait = callous
+    trait = trusting
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 1
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6461.2.28 = {
+        birth = yes
+    }
+
+    6533.5.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_100 = {
+    name = "Hrayn"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_98
+    mother = boggs_99
+
+    trait = arrogant
+    trait = callous
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 10
+
+    trait = education_diplomacy_4
+
+    6487.12.22 = {
+        birth = yes
+    }
+
+    6514.10.2 = {
+        add_spouse = boggs_101
+    }
+
+    6571.12.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_101 = {
+    name = "Jonnela"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = lustful
+    trait = vengeful
+    trait = callous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_2
+
+    6497.9.4 = {
+        birth = yes
+    }
+
+    6570.4.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_102 = {
+    name = "Oswyn"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_100
+    mother = boggs_101
+
+    trait = paranoid
+    trait = zealous
+    trait = content
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 4
+    intrigue = 3
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6515.6.7 = {
+        birth = yes
+    }
+
+    6536.3.8 = {
+        add_spouse = boggs_103
+    }
+
+    6547.6.2 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+boggs_103 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = stubborn
+    trait = brave
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 8
+    learning = 8
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6519.7.21 = {
+        birth = yes
+    }
+
+    6551.12.4 = {
+        death = { death_reason = death_training_accident  }
+    }
+}
+
+boggs_104 = {
+    name = "Greger"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_102
+    mother = boggs_103
+
+    trait = honest
+    trait = humble
+    trait = greedy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6543.8.6 = {
+        birth = yes
+    }
+
+    6581.10.17 = {
+        add_spouse = boggs_105
+    }
+
+    6621.10.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_105 = {
+    name = "Berena"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = lustful
+    trait = cynical
+    trait = callous
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 7
+    intrigue = 5
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_3
+
+    6564.1.4 = {
+        birth = yes
+    }
+
+    6641.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_106 = {
+    name = "Luton"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_100
+    mother = boggs_101
+
+    trait = wrathful
+    trait = arbitrary
+    trait = greedy
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 5
+    intrigue = 9
+    learning = 9
+    prowess = 8
+
+    trait = education_martial_1
+
+    6518.6.20 = {
+        birth = yes
+    }
+
+    6559.9.12 = {
+        add_spouse = boggs_107
+    }
+
+    6591.6.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_107 = {
+    name = "Frennie"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = callous
+    trait = temperate
+    trait = just
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_learning_3
+
+    6542.7.14 = {
+        birth = yes
+    }
+
+    6618.2.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_108 = {
+    name = "Rodwell"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_106
+    mother = boggs_107
+
+    trait = vengeful
+    trait = sadistic
+    trait = generous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 3
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    6570.12.8 = {
+        birth = yes
+    }
+
+    6609.9.6 = {
+        add_spouse = boggs_109
+    }
+
+    6654.4.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_109 = {
+    name = "Karci"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = temperate
+    trait = greedy
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6592.3.2 = {
+        birth = yes
+    }
+
+    6663.3.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_110 = {
+    name = "Tormand"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_98
+    mother = boggs_99
+
+    trait = content
+    trait = impatient
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_2
+
+    6488.9.17 = {
+        birth = yes
+    }
+
+    6489.10.13 = {
+        give_nickname = nick_the_unworthy
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6524.7.8 = {
+        add_spouse = boggs_111
+    }
+
+    6567.4.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_111 = {
+    name = "Beth"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = zealous
+    trait = diligent
+    trait = temperate
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 9
+    prowess = 2
+
+    trait = education_learning_2
+
+    6507.7.16 = {
+        birth = yes
+    }
+
+    6588.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_112 = {
+    name = "Benfred"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_110
+    mother = boggs_111
+
+    trait = forgiving
+    trait = stubborn
+    trait = callous
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 7
+    intrigue = 3
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6530.12.12 = {
+        birth = yes
+    }
+
+    6559.4.19 = {
+        add_spouse = boggs_113
+    }
+
+    6601.1.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_113 = {
+    name = "Martyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = patient
+    trait = paranoid
+    trait = compassionate
+
+    diplomacy = 1
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_3
+
+    6542.5.12 = {
+        birth = yes
+    }
+
+    6618.5.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_114 = {
+    name = "Greger"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_112
+    mother = boggs_113
+
+    trait = craven
+    trait = vengeful
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 8
+
+    trait = education_martial_2
+
+    6563.4.13 = {
+        birth = yes
+    }
+
+    6611.10.15 = {
+        add_spouse = boggs_115
+    }
+
+    6621.8.4 = {
+        death = { death_reason = death_raid }
+    }
+}
+
+boggs_115 = {
+    name = "Kyli"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = forgiving
+    trait = honest
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 9
+    learning = 5
+    prowess = 9
+
+    trait = education_intrigue_2
+
+    6594.7.2 = {
+        birth = yes
+    }
+
+    6662.6.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_116 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_112
+    mother = boggs_113
+
+    trait = trusting
+    trait = compassionate
+    trait = generous
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_stewardship_4
+
+    6566.4.17 = {
+        birth = yes
+    }
+
+    6651.3.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_117 = {
+    name = "Asha"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_112
+    mother = boggs_113
+
+    trait = ambitious
+    trait = callous
+    trait = calm
+
+    diplomacy = 5
+    martial = 1
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6570.8.7 = {
+        birth = yes
+    }
+
+    6642.12.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_118 = {
+    name = "Cateryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_112
+    mother = boggs_113
+
+    trait = diligent
+    trait = sadistic
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 3
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6572.6.12 = {
+        birth = yes
+    }
+
+    6642.2.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_119 = {
+    name = "Beron"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_110
+    mother = boggs_111
+
+    trait = honest
+    trait = generous
+    trait = stubborn
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 2
+    prowess = 2
+
+    trait = education_diplomacy_4
+
+    6532.7.22 = {
+        birth = yes
+    }
+
+    6561.11.10 = {
+        add_spouse = boggs_120
+    }
+
+    6606.7.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_120 = {
+    name = "Mylessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = humble
+    trait = lazy
+    trait = trusting
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 3
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    6544.4.25 = {
+        birth = yes
+    }
+
+    6571.10.25 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+boggs_121 = {
+    name = "Cecil"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_119
+    mother = boggs_120
+
+    trait = stubborn
+    trait = ambitious
+    trait = zealous
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 2
+    intrigue = 4
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_3
+
+    6562.3.23 = {
+        birth = yes
+    }
+
+    6644.6.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_122 = {
+    name = "Robin"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_119
+    mother = boggs_120
+
+    trait = fickle
+    trait = callous
+    trait = shy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 3
+    intrigue = 3
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    6565.4.5 = {
+        birth = yes
+    }
+
+    6603.5.13 = {
+        add_spouse = boggs_123
+    }
+
+    6613.7.21 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+boggs_123 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = honest
+    trait = lazy
+    trait = cynical
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 5
+    intrigue = 6
+    learning = 2
+    prowess = 4
+
+    trait = education_martial_1
+
+    6586.5.1 = {
+        birth = yes
+    }
+
+    6667.3.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_124 = {
+    name = "Benjicot"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_110
+    mother = boggs_111
+
+    trait = chaste
+    trait = just
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 4
+    intrigue = 9
+    learning = 6
+    prowess = 3
+
+    trait = education_intrigue_2
+
+    6534.3.10 = {
+        birth = yes
+    }
+
+    6570.3.9 = {
+        add_spouse = boggs_125
+    }
+
+    6615.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_125 = {
+    name = "Ewa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = cynical
+    trait = patient
+    trait = generous
+
+    diplomacy = 11
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    6553.2.4 = {
+        birth = yes
+    }
+
+    6636.10.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_126 = {
+    name = "Vesamar"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_124
+    mother = boggs_125
+
+    trait = impatient
+    trait = cynical
+    trait = arrogant
+
+    diplomacy = 17
+    martial = 21
+    stewardship = 10
+    intrigue = 9
+    learning = 20
+    prowess = 12
+
+    trait = education_martial_4
+
+    6596.11.15 = {
+        birth = yes
+    }
+
+    6641.7.28 = {
+        add_spouse = boggs_127
+    }
+
+    6678.1.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_127 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = arbitrary
+    trait = content
+    trait = brave
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 3
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6624.8.17 = {
+        birth = yes
+    }
+
+    6707.7.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_128 = {
+    name = "Ulthan"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_110
+    mother = boggs_111
+
+    trait = craven
+    trait = just
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 4
+    intrigue = 3
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_2
+
+    6539.7.13 = {
+        birth = yes
+    }
+
+    6564.12.18 = {
+        add_spouse = boggs_129
+    }
+
+    6574.12.19 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+boggs_129 = {
+    name = "Lysa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = lustful
+    trait = paranoid
+    trait = fickle
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 2
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6547.4.8 = {
+        birth = yes
+    }
+
+    6616.5.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_130 = {
+    name = "Lysanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_128
+    mother = boggs_129
+
+    trait = gregarious
+    trait = impatient
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6567.12.24 = {
+        birth = yes
+    }
+
+    6633.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_131 = {
+    name = "Mallador"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_128
+    mother = boggs_129
+
+    trait = arbitrary
+    trait = deceitful
+    trait = chaste
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6568.8.25 = {
+        birth = yes
+    }
+
+    6608.12.28 = {
+        add_spouse = boggs_132
+    }
+
+    6619.4.20 = {
+        death = { death_reason = death_duel }
+    }
+}
+
+boggs_132 = {
+    name = "Sera"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = arbitrary
+    trait = temperate
+    trait = chaste
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 5
+    intrigue = 9
+    learning = 3
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6591.5.4 = {
+        birth = yes
+    }
+
+    6670.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_133 = {
+    name = "Eilif"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_98
+    mother = boggs_99
+
+    trait = just
+    trait = humble
+    trait = impatient
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    6493.6.24 = {
+        birth = yes
+    }
+
+    6514.9.7 = {
+        add_spouse = boggs_134
+    }
+
+    6575.5.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_134 = {
+    name = "Lyanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = diligent
+    trait = wrathful
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_2
+
+    6497.11.16 = {
+        birth = yes
+    }
+
+    6582.5.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_135 = {
+    name = "Ormr"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_133
+    mother = boggs_134
+
+    trait = lustful
+    trait = vengeful
+    trait = content
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 10
+    learning = 10
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6520.1.18 = {
+        birth = yes
+    }
+
+    6542.3.25 = {
+        add_spouse = boggs_136
+    }
+
+    6587.4.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_136 = {
+    name = "Ewa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = greedy
+    trait = shy
+    trait = chaste
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6525.11.3 = {
+        birth = yes
+    }
+
+    6602.1.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_137 = {
+    name = "Mallador"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_135
+    mother = boggs_136
+
+    trait = humble
+    trait = cynical
+    trait = lustful
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 11
+
+    trait = education_diplomacy_4
+
+    6547.8.21 = {
+        birth = yes
+    }
+
+    6585.9.28 = {
+        add_spouse = boggs_138
+    }
+
+    6615.2.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_138 = {
+    name = "Gilli"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = chaste
+    trait = honest
+    trait = cynical
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 4
+    intrigue = 9
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6568.4.6 = {
+        birth = yes
+    }
+
+    6639.7.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_139 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_135
+    mother = boggs_136
+
+    trait = arrogant
+    trait = paranoid
+    trait = shy
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 9
+    intrigue = 9
+    learning = 4
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    6549.9.18 = {
+        birth = yes
+    }
+
+    6624.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_140 = {
+    name = "Calon"
+
+    dynasty = dynasty_boggs
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_135
+    mother = boggs_136
+
+    trait = shy
+    trait = honest
+    trait = content
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6552.6.1 = {
+        birth = yes
+    }
+
+    6597.12.5 = {
+        add_spouse = boggs_141
+    }
+
+    6627.7.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_141 = {
+    name = "Jonella"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = craven
+    trait = humble
+    trait = shy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6580.10.17 = {
+        birth = yes
+    }
+
+    6654.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_142 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_135
+    mother = boggs_136
+
+    trait = deceitful
+    trait = compassionate
+    trait = temperate
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 5
+    intrigue = 9
+    learning = 8
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6555.9.23 = {
+        birth = yes
+    }
+
+    6635.12.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+boggs_143 = {
+    name = "Ewilyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = boggs_133
+    mother = boggs_134
+
+    trait = honest
+    trait = lazy
+    trait = humble
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 11
+    prowess = 4
+
+    trait = education_learning_2
+
+    6527.3.15 = {
+        birth = yes
+    }
+
+    6605.12.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

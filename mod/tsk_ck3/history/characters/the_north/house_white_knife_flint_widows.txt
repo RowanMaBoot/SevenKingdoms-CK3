@@ -1,0 +1,547 @@
+flint_w_1 = {
+    name = "Hakon"
+
+    dynasty = dynasty_flint_w
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    trait = deceitful
+    trait = temperate
+    trait = generous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 2
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_4
+
+    6300.4.6 = {
+        birth = yes
+    }
+
+    6320.5.4 = {
+        add_spouse = flint_w_2
+    }
+
+    6374.9.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+flint_w_2 = {
+    name = "Oraeya"
+    female = yes
+
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    trait = stubborn
+    trait = generous
+    trait = content
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 3
+    intrigue = 2
+    learning = 2
+    prowess = 1
+
+    trait = education_martial_1
+
+    6303.8.23 = {
+        birth = yes
+    }
+
+    6379.8.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+flint_w_3 = {
+    name = "Morgan"
+
+    dynasty = dynasty_flint_w
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    father = flint_w_1
+    mother = flint_w_2
+
+    trait = ambitious
+    trait = greedy
+    trait = lustful
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_4
+
+    6327.7.16 = {
+        birth = yes
+    }
+
+    6355.11.4 = {
+        add_spouse = flint_w_4
+    }
+
+    6412.12.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+flint_w_4 = {
+    name = "Edla"
+    female = yes
+
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    trait = gregarious
+    trait = gluttonous
+    trait = honest
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 6
+    intrigue = 9
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6338.8.11 = {
+        birth = yes
+    }
+
+    6406.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+flint_w_5 = {
+    name = "Tora"
+    female = yes
+
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    father = flint_w_3
+    mother = flint_w_4
+
+    trait = lustful
+    trait = gluttonous
+    trait = content
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    6356.3.9 = {
+        birth = yes
+    }
+
+    6428.9.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+flint_w_6 = {
+    name = "Lidya"
+    female = yes
+
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    father = flint_w_3
+    mother = flint_w_4
+
+    trait = cynical
+    trait = brave
+    trait = temperate
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 1
+    intrigue = 4
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6357.2.7 = {
+        birth = yes
+    }
+
+    6438.3.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+flint_w_7 = {
+    name = "Ramsay"
+
+    dynasty = dynasty_flint_w
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    father = flint_w_3
+    mother = flint_w_4
+
+    trait = wrathful
+    trait = stubborn
+    trait = callous
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_1
+
+    6360.9.7 = {
+        birth = yes
+    }
+
+    6374.12.1 = {
+        add_spouse = flint_w_8
+    }
+
+    6434.7.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+flint_w_8 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    trait = paranoid
+    trait = arrogant
+    trait = lazy
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 10
+
+    trait = education_stewardship_2
+
+    6357.3.14 = {
+        birth = yes
+    }
+
+    6425.9.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+flint_w_9 = {
+    name = "Felip"
+
+    dynasty = dynasty_flint_w
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    father = flint_w_7
+    mother = flint_w_8
+
+    trait = greedy
+    trait = lustful
+    trait = content
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6399.1.17 = {
+        birth = yes
+    }
+
+    6425.4.24 = {
+        add_spouse = flint_w_10
+    }
+
+    6471.2.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+flint_w_10 = {
+    name = "Maegi"
+    female = yes
+
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    trait = lustful
+    trait = compassionate
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6408.10.19 = {
+        birth = yes
+    }
+
+    6438.8.6 = {
+        death = { death_reason = death_poison  }
+    }
+}
+
+flint_w_11 = {
+    name = "Harmond"
+
+    dynasty = dynasty_flint_w
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    father = flint_w_9
+    mother = flint_w_10
+
+    trait = lazy
+    trait = lustful
+    trait = paranoid
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 9
+    intrigue = 3
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6433.5.19 = {
+        birth = yes
+    }
+
+    6447.10.3 = {
+        add_spouse = flint_w_12
+    }
+
+    6505.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+flint_w_12 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    trait = fickle
+    trait = gregarious
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6430.7.22 = {
+        birth = yes
+    }
+
+    6496.6.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+flint_w_13 = {
+    name = "Ely"
+    female = yes
+
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    father = flint_w_11
+    mother = flint_w_12
+
+    trait = impatient
+    trait = gluttonous
+    trait = trusting
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 9
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6457.8.9 = {
+        birth = yes
+    }
+
+    6523.5.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+flint_w_14 = {
+    name = "Laen"
+
+    dynasty = dynasty_flint_w
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    father = flint_w_11
+    mother = flint_w_12
+
+    trait = patient
+    trait = content
+    trait = honest
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_learning_3
+
+    6461.2.28 = {
+        birth = yes
+    }
+
+    6509.2.18 = {
+        add_spouse = flint_w_15
+    }
+
+    6537.4.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+flint_w_15 = {
+    name = "Fanni"
+    female = yes
+
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    trait = gluttonous
+    trait = chaste
+    trait = generous
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 8
+    learning = 2
+    prowess = 7
+
+    trait = education_martial_4
+
+    6492.5.9 = {
+        birth = yes
+    }
+
+    6574.5.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+flint_w_16 = {
+    name = "Torren"
+
+    dynasty = dynasty_flint_w
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    father = flint_w_14
+    mother = flint_w_15
+
+    trait = zealous
+    trait = patient
+    trait = forgiving
+
+    diplomacy = 21
+    martial = 22
+    stewardship = 17
+    intrigue = 12
+    learning = 19
+    prowess = 17
+
+    trait = education_martial_4
+
+    6528.2.16 = {
+        birth = yes
+    }
+
+    6546.1.26 = {
+        add_spouse = flint_w_17
+    }
+
+    6609.1.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+flint_w_17 = {
+    name = "Judyth"
+    female = yes
+
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    trait = temperate
+    trait = patient
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    6529.3.14 = {
+        birth = yes
+    }
+
+    6607.2.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

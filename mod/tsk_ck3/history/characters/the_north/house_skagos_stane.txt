@@ -1,0 +1,739 @@
+stane_1 = {
+    name = "Skuli"
+
+    dynasty = dynasty_stane
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = humble
+    trait = diligent
+    trait = patient
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 11
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    6300.9.17 = {
+        birth = yes
+    }
+
+    6338.10.14 = {
+        add_spouse = stane_2
+    }
+
+    6370.5.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stane_2 = {
+    name = "Arra"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = craven
+    trait = zealous
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_2
+
+    6321.2.25 = {
+        birth = yes
+    }
+
+    6387.5.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stane_3 = {
+    name = "Streen"
+
+    dynasty = dynasty_stane
+    religion = the_old_gods
+    culture = skagosi
+
+    father = stane_1
+    mother = stane_2
+
+    trait = impatient
+    trait = trusting
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 3
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6362.4.16 = {
+        birth = yes
+    }
+
+    6388.5.20 = {
+        add_spouse = stane_4
+    }
+
+    6432.10.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stane_4 = {
+    name = "Tissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = honest
+    trait = shy
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6371.12.1 = {
+        birth = yes
+    }
+
+    6442.12.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stane_5 = {
+    name = "Kyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = stane_3
+    mother = stane_4
+
+    trait = arbitrary
+    trait = sadistic
+    trait = lazy
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 4
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_2
+
+    6388.11.2 = {
+        birth = yes
+    }
+
+    6462.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stane_6 = {
+    name = "Styn"
+
+    dynasty = dynasty_stane
+    religion = the_old_gods
+    culture = skagosi
+
+    father = stane_3
+    mother = stane_4
+
+    trait = greedy
+    trait = lustful
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 10
+    prowess = 4
+
+    trait = education_learning_3
+
+    6391.6.27 = {
+        birth = yes
+    }
+
+    6417.10.17 = {
+        add_spouse = stane_7
+    }
+
+    6468.4.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stane_7 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = callous
+    trait = shy
+    trait = temperate
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 4
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_learning_3
+
+    6400.9.3 = {
+        birth = yes
+    }
+
+    6472.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stane_8 = {
+    name = "Elin"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = stane_6
+    mother = stane_7
+
+    trait = gluttonous
+    trait = sadistic
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_3
+
+    6417.8.4 = {
+        birth = yes
+    }
+
+    6502.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stane_9 = {
+    name = "Lysanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = stane_6
+    mother = stane_7
+
+    trait = content
+    trait = generous
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6418.9.16 = {
+        birth = yes
+    }
+
+    6487.1.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stane_10 = {
+    name = "Izabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = stane_6
+    mother = stane_7
+
+    trait = arbitrary
+    trait = honest
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_2
+
+    6424.4.1 = {
+        birth = yes
+    }
+
+    6495.7.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stane_11 = {
+    name = "Niklas"
+
+    dynasty = dynasty_stane
+    religion = the_old_gods
+    culture = skagosi
+
+    father = stane_6
+    mother = stane_7
+
+    trait = lustful
+    trait = calm
+    trait = shy
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    6429.10.28 = {
+        birth = yes
+    }
+
+    6475.9.28 = {
+        add_spouse = stane_12
+    }
+
+    6485.12.10 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+stane_12 = {
+    name = "Gil"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = chaste
+    trait = shy
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6458.8.7 = {
+        birth = yes
+    }
+
+    6534.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stane_13 = {
+    name = "Evalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = stane_11
+    mother = stane_12
+
+    trait = forgiving
+    trait = chaste
+    trait = brave
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 1
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6478.4.13 = {
+        birth = yes
+    }
+
+    6559.12.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stane_14 = {
+    name = "Barbrey"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = stane_11
+    mother = stane_12
+
+    trait = greedy
+    trait = patient
+    trait = just
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 2
+    intrigue = 5
+    learning = 1
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6479.12.9 = {
+        birth = yes
+    }
+
+    6559.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stane_15 = {
+    name = "Rickon"
+
+    dynasty = dynasty_stane
+    religion = the_old_gods
+    culture = skagosi
+
+    father = stane_11
+    mother = stane_12
+
+    trait = arrogant
+    trait = ambitious
+    trait = impatient
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 3
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6480.1.17 = {
+        birth = yes
+    }
+
+    6522.5.20 = {
+        add_spouse = stane_16
+    }
+
+    6553.1.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stane_16 = {
+    name = "Kristyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = callous
+    trait = content
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    6505.4.25 = {
+        birth = yes
+    }
+
+    6571.8.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stane_17 = {
+    name = "Igrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = stane_15
+    mother = stane_16
+
+    trait = cynical
+    trait = trusting
+    trait = calm
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 2
+
+    trait = education_diplomacy_2
+
+    6527.3.3 = {
+        birth = yes
+    }
+
+    6602.10.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stane_18 = {
+    name = "Alys"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = stane_15
+    mother = stane_16
+
+    trait = shy
+    trait = wrathful
+    trait = callous
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 3
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6531.4.23 = {
+        birth = yes
+    }
+
+    6568.6.23 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+stane_19 = {
+    name = "Ondrew"
+
+    dynasty = dynasty_stane
+    religion = the_old_gods
+    culture = skagosi
+
+    father = stane_15
+    mother = stane_16
+
+    trait = compassionate
+    trait = zealous
+    trait = generous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_3
+
+    6536.10.11 = {
+        birth = yes
+    }
+
+    6567.1.18 = {
+        add_spouse = stane_20
+    }
+
+    6614.11.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stane_20 = {
+    name = "Kymila"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = shy
+    trait = diligent
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 8
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_3
+
+    6550.2.19 = {
+        birth = yes
+    }
+
+    6632.7.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stane_21 = {
+    name = "Faste"
+
+    dynasty = dynasty_stane
+    religion = the_old_gods
+    culture = skagosi
+
+    father = stane_19
+    mother = stane_20
+
+    trait = generous
+    trait = zealous
+    trait = ambitious
+
+    diplomacy = 10
+    martial = 4
+    stewardship = 9
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6583.2.6 = {
+        birth = yes
+    }
+
+    6615.11.9 = {
+        add_spouse = stane_22
+    }
+
+    6661.9.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stane_22 = {
+    name = "Danelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = brave
+    trait = patient
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    6598.7.21 = {
+        birth = yes
+    }
+
+    6672.2.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stane_23 = {
+    name = "Maggi"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = stane_3
+    mother = stane_4
+
+    trait = greedy
+    trait = forgiving
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 8
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6394.7.15 = {
+        birth = yes
+    }
+
+    6479.2.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

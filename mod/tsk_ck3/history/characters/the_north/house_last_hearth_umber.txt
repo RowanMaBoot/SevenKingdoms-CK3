@@ -1,0 +1,2408 @@
+umber_1 = {
+    name = "Rodrik"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = forgiving
+    trait = calm
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 9
+    intrigue = 6
+    learning = 2
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6300.7.24 = {
+        birth = yes
+    }
+
+    6324.10.13 = {
+        add_spouse = umber_2
+    }
+
+    6375.10.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_2 = {
+    name = "Elyssi"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = gluttonous
+    trait = honest
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6307.6.23 = {
+        birth = yes
+    }
+
+    6392.5.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_3 = {
+    name = "Aefan"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_1
+    mother = umber_2
+
+    trait = greedy
+    trait = gluttonous
+    trait = humble
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 2
+
+    trait = education_stewardship_3
+
+    6340.12.14 = {
+        birth = yes
+    }
+
+    6370.3.27 = {
+        add_spouse = umber_4
+    }
+
+    6414.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_4 = {
+    name = "Kataryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = greedy
+    trait = wrathful
+    trait = patient
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    6353.12.12 = {
+        birth = yes
+    }
+
+    6438.3.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_5 = {
+    name = "Aronn"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_3
+    mother = umber_4
+
+    trait = vengeful
+    trait = craven
+    trait = chaste
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 5
+    intrigue = 4
+    learning = 2
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6386.11.1 = {
+        birth = yes
+    }
+
+    6410.2.20 = {
+        add_spouse = umber_6
+    }
+
+    6452.3.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_6 = {
+    name = "Lysa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = cynical
+    trait = craven
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6393.1.5 = {
+        birth = yes
+    }
+
+    6475.5.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_7 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_5
+    mother = umber_6
+
+    trait = craven
+    trait = calm
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 4
+    intrigue = 9
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    6413.4.19 = {
+        birth = yes
+    }
+
+    6490.5.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_8 = {
+    name = "Anun"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_5
+    mother = umber_6
+
+    trait = compassionate
+    trait = content
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 3
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6417.4.8 = {
+        birth = yes
+    }
+
+    6456.11.4 = {
+        add_spouse = umber_9
+    }
+
+    6466.12.4 = {
+        death = { death_reason = death_script_cruelty   }
+    }
+}
+
+umber_9 = {
+    name = "Agnyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = arbitrary
+    trait = callous
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 7
+    intrigue = 3
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6439.7.18 = {
+        birth = yes
+    }
+
+    6518.12.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_10 = {
+    name = "Styn"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_8
+    mother = umber_9
+
+    trait = content
+    trait = lazy
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6458.11.12 = {
+        birth = yes
+    }
+
+    6499.5.12 = {
+        add_spouse = umber_11
+    }
+
+    6509.1.19 = {
+        death = { death_reason = death_raid }
+    }
+}
+
+umber_11 = {
+    name = "Martyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = diligent
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 2
+    intrigue = 9
+    learning = 9
+    prowess = 2
+
+    trait = education_intrigue_2
+
+    6482.2.5 = {
+        birth = yes
+    }
+
+    6556.8.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_12 = {
+    name = "Greger"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_10
+    mother = umber_11
+
+    trait = callous
+    trait = brave
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6499.9.23 = {
+        birth = yes
+    }
+
+    6516.4.10 = {
+        add_spouse = umber_13
+    }
+
+    6571.3.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_13 = {
+    name = "Sera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = temperate
+    trait = just
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6499.10.13 = {
+        birth = yes
+    }
+
+    6582.6.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_14 = {
+    name = "Ricardya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_12
+    mother = umber_13
+
+    trait = zealous
+    trait = gregarious
+    trait = content
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 3
+    intrigue = 8
+    learning = 8
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6518.3.18 = {
+        birth = yes
+    }
+
+    6585.9.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_15 = {
+    name = "Jonnela"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_12
+    mother = umber_13
+
+    trait = calm
+    trait = stubborn
+    trait = greedy
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6521.6.8 = {
+        birth = yes
+    }
+
+    6561.3.6 = {
+        death = { death_reason = death_accident  }
+    }
+}
+
+umber_16 = {
+    name = "Matus"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_12
+    mother = umber_13
+
+    trait = impatient
+    trait = arrogant
+    trait = zealous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_3
+
+    6523.11.1 = {
+        birth = yes
+    }
+
+    6550.4.20 = {
+        add_spouse = umber_17
+    }
+
+    6560.4.26 = {
+        death = { death_reason = death_raid }
+    }
+}
+
+umber_17 = {
+    name = "Maegi"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = wrathful
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 9
+    intrigue = 7
+    learning = 7
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    6533.6.2 = {
+        birth = yes
+    }
+
+    6612.5.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_18 = {
+    name = "Elin"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_12
+    mother = umber_13
+
+    trait = generous
+    trait = gluttonous
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 10
+    intrigue = 5
+    learning = 10
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6528.10.17 = {
+        birth = yes
+    }
+
+    6611.5.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_19 = {
+    name = "Karci"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_10
+    mother = umber_11
+
+    trait = patient
+    trait = trusting
+    trait = just
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    6500.3.8 = {
+        birth = yes
+    }
+
+    6581.4.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_20 = {
+    name = "Raya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_10
+    mother = umber_11
+
+    trait = deceitful
+    trait = just
+    trait = patient
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6503.6.12 = {
+        birth = yes
+    }
+
+    6587.4.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_21 = {
+    name = "Alaric"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_10
+    mother = umber_11
+
+    trait = callous
+    trait = arbitrary
+    trait = temperate
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_2
+
+    6504.8.6 = {
+        birth = yes
+    }
+
+    6505.11.4 = {
+        give_nickname = nick_the_victorious
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6531.12.8 = {
+        add_spouse = umber_22
+    }
+
+    6572.6.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_22 = {
+    name = "Gilli"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = zealous
+    trait = shy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6514.3.21 = {
+        birth = yes
+    }
+
+    6593.4.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_23 = {
+    name = "Cley"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_21
+    mother = umber_22
+
+    trait = cynical
+    trait = trusting
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 8
+    learning = 6
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    6532.1.13 = {
+        birth = yes
+    }
+
+    6578.12.19 = {
+        add_spouse = umber_24
+    }
+
+    6588.2.15 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+umber_24 = {
+    name = "Lysanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = temperate
+    trait = lustful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6561.10.14 = {
+        birth = yes
+    }
+
+    6588.5.1 = {
+        death = { death_reason = death_treatment }
+    }
+}
+
+umber_25 = {
+    name = "Aefan"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_21
+    mother = umber_22
+
+    trait = impatient
+    trait = humble
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 2
+    intrigue = 5
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_1
+
+    6539.7.20 = {
+        birth = yes
+    }
+
+    6586.4.7 = {
+        add_spouse = umber_26
+    }
+
+    6608.7.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_26 = {
+    name = "Ingarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = trusting
+    trait = lazy
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6569.11.3 = {
+        birth = yes
+    }
+
+    6646.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_27 = {
+    name = "Vesamir"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_21
+    mother = umber_22
+
+    trait = paranoid
+    trait = gregarious
+    trait = lazy
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 2
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6543.1.4 = {
+        birth = yes
+    }
+
+    6588.11.9 = {
+        add_spouse = umber_28
+    }
+
+    6622.8.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_28 = {
+    name = "Elyssi"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = compassionate
+    trait = shy
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 2
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    6571.5.18 = {
+        birth = yes
+    }
+
+    6640.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_29 = {
+    name = "Tessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_21
+    mother = umber_22
+
+    trait = zealous
+    trait = craven
+    trait = shy
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 8
+    intrigue = 6
+    learning = 8
+    prowess = 9
+
+    trait = education_stewardship_4
+
+    6544.4.16 = {
+        birth = yes
+    }
+
+    6621.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_30 = {
+    name = "Ely"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_8
+    mother = umber_9
+
+    trait = humble
+    trait = ambitious
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 2
+    intrigue = 5
+    learning = 1
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    6462.1.21 = {
+        birth = yes
+    }
+
+    6547.2.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_31 = {
+    name = "Dyncen"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_5
+    mother = umber_6
+
+    trait = diligent
+    trait = patient
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 11
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_1
+
+    6422.2.23 = {
+        birth = yes
+    }
+
+    6449.1.18 = {
+        add_spouse = umber_32
+    }
+
+    6498.1.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_32 = {
+    name = "Rikissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = lazy
+    trait = zealous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 9
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6432.6.6 = {
+        birth = yes
+    }
+
+    6459.12.13 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+umber_33 = {
+    name = "Eilif"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_31
+    mother = umber_32
+
+    trait = arbitrary
+    trait = lazy
+    trait = honest
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_4
+
+    6449.9.18 = {
+        birth = yes
+    }
+
+    6494.10.7 = {
+        add_spouse = umber_34
+    }
+
+    6524.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_34 = {
+    name = "Lysa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = greedy
+    trait = lustful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 4
+
+    trait = education_martial_3
+
+    6477.11.5 = {
+        birth = yes
+    }
+
+    6549.5.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_35 = {
+    name = "Ethan"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_33
+    mother = umber_34
+
+    trait = lazy
+    trait = generous
+    trait = trusting
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6496.10.14 = {
+        birth = yes
+    }
+
+    6528.3.24 = {
+        add_spouse = umber_36
+    }
+
+    6566.11.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_36 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = wrathful
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 10
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6511.5.19 = {
+        birth = yes
+    }
+
+    6579.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_37 = {
+    name = "Kol"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_35
+    mother = umber_36
+
+    trait = temperate
+    trait = lazy
+    trait = craven
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6531.3.3 = {
+        birth = yes
+    }
+
+    6532.1.7 = {
+        give_nickname = nick_the_crow
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6562.6.15 = {
+        add_spouse = umber_38
+    }
+
+    6611.3.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_38 = {
+    name = "Anna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = generous
+    trait = zealous
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 3
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_3
+
+    6545.9.15 = {
+        birth = yes
+    }
+
+    6617.4.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_39 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_35
+    mother = umber_36
+
+    trait = arrogant
+    trait = honest
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    6535.11.4 = {
+        birth = yes
+    }
+
+    6601.9.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_40 = {
+    name = "Wylis"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_33
+    mother = umber_34
+
+    trait = ambitious
+    trait = humble
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6499.11.17 = {
+        birth = yes
+    }
+
+    6543.3.6 = {
+        add_spouse = umber_41
+    }
+
+    6571.12.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_41 = {
+    name = "Kaeli"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = temperate
+    trait = trusting
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6526.10.23 = {
+        birth = yes
+    }
+
+    6613.12.17 = {
+        death = { death_reason = death_disappearance  }
+    }
+}
+
+umber_42 = {
+    name = "Krysti"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_40
+    mother = umber_41
+
+    trait = shy
+    trait = compassionate
+    trait = diligent
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 4
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6553.7.15 = {
+        birth = yes
+    }
+
+    6633.9.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_43 = {
+    name = "Grimir"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_40
+    mother = umber_41
+
+    trait = chaste
+    trait = brave
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 1
+    intrigue = 7
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_3
+
+    6562.4.9 = {
+        birth = yes
+    }
+
+    6579.10.25 = {
+        add_spouse = umber_44
+    }
+
+    6647.5.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_44 = {
+    name = "Maegi"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = just
+    trait = impatient
+    trait = craven
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 1
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6562.9.21 = {
+        birth = yes
+    }
+
+    6637.4.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_45 = {
+    name = "Galbart"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_31
+    mother = umber_32
+
+    trait = impatient
+    trait = diligent
+    trait = cynical
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6451.2.19 = {
+        birth = yes
+    }
+
+    6485.1.6 = {
+        add_spouse = umber_46
+    }
+
+    6521.6.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_46 = {
+    name = "Izabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = content
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    6468.1.3 = {
+        birth = yes
+    }
+
+    6544.12.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_47 = {
+    name = "Agnyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_45
+    mother = umber_46
+
+    trait = cynical
+    trait = trusting
+    trait = calm
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 2
+
+    trait = education_diplomacy_2
+
+    6486.8.16 = {
+        birth = yes
+    }
+
+    6565.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_48 = {
+    name = "Lidya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_45
+    mother = umber_46
+
+    trait = shy
+    trait = wrathful
+    trait = callous
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 3
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6487.7.25 = {
+        birth = yes
+    }
+
+    6502.9.12 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+umber_49 = {
+    name = "Cellador"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_45
+    mother = umber_46
+
+    trait = compassionate
+    trait = zealous
+    trait = generous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_3
+
+    6494.12.8 = {
+        birth = yes
+    }
+
+    6525.3.7 = {
+        add_spouse = umber_50
+    }
+
+    6560.12.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_50 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = shy
+    trait = diligent
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 8
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_3
+
+    6508.7.7 = {
+        birth = yes
+    }
+
+    6578.1.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_51 = {
+    name = "Tormand"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_49
+    mother = umber_50
+
+    trait = generous
+    trait = zealous
+    trait = ambitious
+
+    diplomacy = 10
+    martial = 4
+    stewardship = 9
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6530.6.18 = {
+        birth = yes
+    }
+
+    6548.8.21 = {
+        add_spouse = umber_52
+    }
+
+    6614.8.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_52 = {
+    name = "Kymila"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = patient
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    6531.2.12 = {
+        birth = yes
+    }
+
+    6609.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_53 = {
+    name = "Alys"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_49
+    mother = umber_50
+
+    trait = greedy
+    trait = forgiving
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 8
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6535.11.21 = {
+        birth = yes
+    }
+
+    6602.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_54 = {
+    name = "Styn"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_49
+    mother = umber_50
+
+    trait = diligent
+    trait = stubborn
+    trait = honest
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 1
+
+    trait = education_learning_2
+
+    6536.6.9 = {
+        birth = yes
+    }
+
+    6575.3.16 = {
+        add_spouse = umber_55
+    }
+
+    6617.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_55 = {
+    name = "Ingrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = impatient
+    trait = temperate
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 5
+    intrigue = 3
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6558.7.21 = {
+        birth = yes
+    }
+
+    6630.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_56 = {
+    name = "Lysa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_49
+    mother = umber_50
+
+    trait = diligent
+    trait = arrogant
+    trait = greedy
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 4
+    intrigue = 5
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_3
+
+    6537.11.3 = {
+        birth = yes
+    }
+
+    6612.1.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_57 = {
+    name = "Mors"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_45
+    mother = umber_46
+
+    trait = chaste
+    trait = brave
+    trait = compassionate
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 9
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6498.12.9 = {
+        birth = yes
+    }
+
+    6526.4.27 = {
+        add_spouse = umber_58
+    }
+
+    6578.7.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_58 = {
+    name = "Rykissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = trusting
+    trait = chaste
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 8
+    intrigue = 4
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    6509.4.5 = {
+        birth = yes
+    }
+
+    6580.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_59 = {
+    name = "Dyncen"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_57
+    mother = umber_58
+
+    trait = ambitious
+    trait = fickle
+    trait = paranoid
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 6
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    6528.2.11 = {
+        birth = yes
+    }
+
+    6543.3.27 = {
+        add_spouse = umber_60
+    }
+
+    6599.9.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_60 = {
+    name = "Ely"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = patient
+    trait = wrathful
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_1
+
+    6526.2.10 = {
+        birth = yes
+    }
+
+    6598.10.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_61 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_57
+    mother = umber_58
+
+    trait = paranoid
+    trait = compassionate
+    trait = humble
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 10
+
+    trait = education_diplomacy_2
+
+    6532.9.18 = {
+        birth = yes
+    }
+
+    6618.6.26 = {
+        death = { death_reason = death_dungeon  }
+    }
+}
+
+umber_62 = {
+    name = "Ewilyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_57
+    mother = umber_58
+
+    trait = impatient
+    trait = ambitious
+    trait = forgiving
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 4
+    intrigue = 9
+    learning = 9
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6533.9.10 = {
+        birth = yes
+    }
+
+    6616.10.15 = {
+        death = { death_reason = death_plotting  }
+    }
+}
+
+umber_63 = {
+    name = "Dorron"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_31
+    mother = umber_32
+
+    trait = vengeful
+    trait = content
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_1
+
+    6452.3.17 = {
+        birth = yes
+    }
+
+    6469.8.23 = {
+        add_spouse = umber_64
+    }
+
+    6531.3.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_64 = {
+    name = "Jaisyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = impatient
+    trait = chaste
+    trait = humble
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 3
+    intrigue = 5
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6452.6.26 = {
+        birth = yes
+    }
+
+    6518.9.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_65 = {
+    name = "Arrana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_63
+    mother = umber_64
+
+    trait = arbitrary
+    trait = shy
+    trait = lustful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 11
+    prowess = 5
+
+    trait = education_learning_3
+
+    6471.5.2 = {
+        birth = yes
+    }
+
+    6540.5.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_66 = {
+    name = "Thyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_63
+    mother = umber_64
+
+    trait = forgiving
+    trait = humble
+    trait = craven
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 2
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6477.4.5 = {
+        birth = yes
+    }
+
+    6546.8.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_67 = {
+    name = "Alysane"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_63
+    mother = umber_64
+
+    trait = craven
+    trait = paranoid
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6481.11.17 = {
+        birth = yes
+    }
+
+    6549.3.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_68 = {
+    name = "Kol"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_63
+    mother = umber_64
+
+    trait = chaste
+    trait = trusting
+    trait = calm
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 7
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6483.4.27 = {
+        birth = yes
+    }
+
+    6505.8.8 = {
+        add_spouse = umber_69
+    }
+
+    6565.8.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_69 = {
+    name = "Ewalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = humble
+    trait = honest
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6488.10.14 = {
+        birth = yes
+    }
+
+    6548.7.11 = {
+        death = { death_reason = death_crushed  }
+    }
+}
+
+umber_70 = {
+    name = "Arra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_68
+    mother = umber_69
+
+    trait = gregarious
+    trait = paranoid
+    trait = content
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 6
+    prowess = 2
+
+    trait = education_learning_4
+
+    6509.1.17 = {
+        birth = yes
+    }
+
+    6594.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_71 = {
+    name = "Mallador"
+
+    dynasty = dynasty_umber
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_68
+    mother = umber_69
+
+    trait = lazy
+    trait = generous
+    trait = just
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6513.4.11 = {
+        birth = yes
+    }
+
+    6549.2.28 = {
+        add_spouse = umber_72
+    }
+
+    6583.12.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_72 = {
+    name = "Meera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = lustful
+    trait = zealous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 3
+    intrigue = 5
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_2
+
+    6532.3.6 = {
+        birth = yes
+    }
+
+    6617.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_73 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_68
+    mother = umber_69
+
+    trait = ambitious
+    trait = fickle
+    trait = sadistic
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_2
+
+    6517.7.15 = {
+        birth = yes
+    }
+
+    6592.4.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+umber_74 = {
+    name = "Kennya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = umber_5
+    mother = umber_6
+
+    trait = wrathful
+    trait = zealous
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 2
+
+    trait = education_intrigue_2
+
+    6425.11.12 = {
+        birth = yes
+    }
+
+    6501.2.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

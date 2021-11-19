@@ -1,0 +1,611 @@
+branch_1 = {
+    name = "Ormyn"
+
+    dynasty = dynasty_branch
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = wrathful
+    trait = callous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 3
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    6300.6.27 = {
+        birth = yes
+    }
+
+    6340.9.22 = {
+        add_spouse = branch_2
+    }
+
+    6375.4.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+branch_2 = {
+    name = "Robyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = sadistic
+    trait = humble
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 8
+    intrigue = 11
+    learning = 7
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6323.2.5 = {
+        birth = yes
+    }
+
+    6350.2.26 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+branch_3 = {
+    name = "Oswyn"
+
+    dynasty = dynasty_branch
+    religion = the_old_gods
+    culture = northmen
+
+    father = branch_1
+    mother = branch_2
+
+    trait = patient
+    trait = arbitrary
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 9
+    intrigue = 8
+    learning = 6
+    prowess = 3
+
+    trait = education_stewardship_4
+
+    6347.8.15 = {
+        birth = yes
+    }
+
+    6366.1.16 = {
+        add_spouse = branch_4
+    }
+
+    6417.5.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+branch_4 = {
+    name = "Alys"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = stubborn
+    trait = shy
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_1
+
+    6349.11.27 = {
+        birth = yes
+    }
+
+    6424.10.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+branch_5 = {
+    name = "Grimir"
+
+    dynasty = dynasty_branch
+    religion = the_old_gods
+    culture = northmen
+
+    father = branch_3
+    mother = branch_4
+
+    trait = compassionate
+    trait = gregarious
+    trait = sadistic
+
+    diplomacy = 20
+    martial = 23
+    stewardship = 27
+    intrigue = 20
+    learning = 16
+    prowess = 18
+
+    trait = education_stewardship_4
+
+    6393.7.5 = {
+        birth = yes
+    }
+
+    6413.10.5 = {
+        add_spouse = branch_6
+    }
+
+    6444.2.4 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+branch_6 = {
+    name = "Krysti"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = ambitious
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 6
+    intrigue = 2
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_1
+
+    6396.2.17 = {
+        birth = yes
+    }
+
+    6468.11.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+branch_7 = {
+    name = "Ewalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = branch_5
+    mother = branch_6
+
+    trait = stubborn
+    trait = greedy
+    trait = lustful
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6424.9.24 = {
+        birth = yes
+    }
+
+    6506.8.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+branch_8 = {
+    name = "Aefan"
+
+    dynasty = dynasty_branch
+    religion = the_old_gods
+    culture = northmen
+
+    father = branch_5
+    mother = branch_6
+
+    trait = greedy
+    trait = fickle
+    trait = temperate
+
+    diplomacy = 11
+    martial = 6
+    stewardship = 5
+    intrigue = 10
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6431.5.27 = {
+        birth = yes
+    }
+
+    6470.3.23 = {
+        add_spouse = branch_9
+    }
+
+    6504.1.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+branch_9 = {
+    name = "Margaret"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = calm
+    trait = forgiving
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 8
+    intrigue = 7
+    learning = 2
+    prowess = 9
+
+    trait = education_martial_4
+
+    6453.2.22 = {
+        birth = yes
+    }
+
+    6530.9.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+branch_10 = {
+    name = "Helman"
+
+    dynasty = dynasty_branch
+    religion = the_old_gods
+    culture = northmen
+
+    father = branch_8
+    mother = branch_9
+
+    trait = sadistic
+    trait = trusting
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_martial_2
+
+    6479.7.21 = {
+        birth = yes
+    }
+
+    6527.9.9 = {
+        add_spouse = branch_11
+    }
+
+    6563.7.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+branch_11 = {
+    name = "Lidya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = greedy
+    trait = brave
+
+    diplomacy = 10
+    martial = 2
+    stewardship = 3
+    intrigue = 7
+    learning = 8
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    6510.4.25 = {
+        birth = yes
+    }
+
+    6582.12.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+branch_12 = {
+    name = "Kyli"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = branch_10
+    mother = branch_11
+
+    trait = fickle
+    trait = compassionate
+    trait = brave
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 3
+    learning = 3
+    prowess = 4
+
+    trait = education_martial_1
+
+    6539.12.19 = {
+        birth = yes
+    }
+
+    6615.12.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+branch_13 = {
+    name = "Hrayn"
+
+    dynasty = dynasty_branch
+    religion = the_old_gods
+    culture = northmen
+
+    father = branch_10
+    mother = branch_11
+
+    trait = lustful
+    trait = humble
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6544.12.17 = {
+        birth = yes
+    }
+
+    6563.9.13 = {
+        add_spouse = branch_14
+    }
+
+    6623.1.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+branch_14 = {
+    name = "Kennya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = impatient
+    trait = fickle
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_2
+
+    6546.6.24 = {
+        birth = yes
+    }
+
+    6614.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+branch_15 = {
+    name = "Ylva"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = branch_13
+    mother = branch_14
+
+    trait = generous
+    trait = gluttonous
+    trait = zealous
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_3
+
+    6574.3.28 = {
+        birth = yes
+    }
+
+    6644.3.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+branch_16 = {
+    name = "Ulfr"
+
+    dynasty = dynasty_branch
+    religion = the_old_gods
+    culture = northmen
+
+    father = branch_13
+    mother = branch_14
+
+    trait = ambitious
+    trait = trusting
+    trait = diligent
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    6577.9.19 = {
+        birth = yes
+    }
+
+    6593.4.5 = {
+        add_spouse = branch_17
+    }
+
+    6662.4.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+branch_17 = {
+    name = "Danelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = calm
+    trait = impatient
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 6
+    intrigue = 10
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6576.8.15 = {
+        birth = yes
+    }
+
+    6646.2.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+branch_18 = {
+    name = "Sarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = branch_8
+    mother = branch_9
+
+    trait = content
+    trait = honest
+    trait = cynical
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_learning_1
+
+    6483.9.24 = {
+        birth = yes
+    }
+
+    6564.8.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+branch_19 = {
+    name = "Jolyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = branch_8
+    mother = branch_9
+
+    trait = callous
+    trait = just
+    trait = chaste
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 8
+    intrigue = 10
+    learning = 3
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6488.1.17 = {
+        birth = yes
+    }
+
+    6573.11.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

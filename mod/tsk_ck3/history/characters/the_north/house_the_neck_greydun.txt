@@ -1,0 +1,1875 @@
+greydun_1 = {
+    name = "Marlon"
+
+    dynasty = dynasty_greydun
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = diligent
+    trait = honest
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 9
+    intrigue = 5
+    learning = 3
+    prowess = 10
+
+    trait = education_martial_3
+
+    6300.10.20 = {
+        birth = yes
+    }
+
+    6342.1.28 = {
+        add_spouse = greydun_2
+    }
+
+    6375.2.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_2 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = arbitrary
+    trait = wrathful
+    trait = patient
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_4
+
+    6325.11.26 = {
+        birth = yes
+    }
+
+    6409.1.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_3 = {
+    name = "Leobald"
+
+    dynasty = dynasty_greydun
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_1
+    mother = greydun_2
+
+    trait = lazy
+    trait = lustful
+    trait = compassionate
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 2
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6345.4.2 = {
+        birth = yes
+    }
+
+    6370.12.4 = {
+        add_spouse = greydun_4
+    }
+
+    6423.11.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_4 = {
+    name = "Darlessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = forgiving
+    trait = impatient
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 8
+    intrigue = 8
+    learning = 4
+    prowess = 2
+
+    trait = education_stewardship_2
+
+    6353.10.5 = {
+        birth = yes
+    }
+
+    6433.7.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_5 = {
+    name = "Elyassa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_3
+    mother = greydun_4
+
+    trait = temperate
+    trait = wrathful
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 10
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6375.5.6 = {
+        birth = yes
+    }
+
+    6445.12.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_6 = {
+    name = "Walder"
+
+    dynasty = dynasty_greydun
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_3
+    mother = greydun_4
+
+    trait = greedy
+    trait = compassionate
+    trait = fickle
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 10
+    intrigue = 5
+    learning = 9
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6384.7.16 = {
+        birth = yes
+    }
+
+    6425.5.26 = {
+        add_spouse = greydun_7
+    }
+
+    6435.12.8 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+greydun_7 = {
+    name = "Ewalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = callous
+    trait = vengeful
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6408.12.8 = {
+        birth = yes
+    }
+
+    6491.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_8 = {
+    name = "Sage"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_6
+    mother = greydun_7
+
+    trait = content
+    trait = greedy
+    trait = temperate
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_3
+
+    6425.10.15 = {
+        birth = yes
+    }
+
+    6508.7.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_9 = {
+    name = "Leobald"
+
+    dynasty = dynasty_greydun
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_6
+    mother = greydun_7
+
+    trait = gregarious
+    trait = stubborn
+    trait = impatient
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 7
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6429.6.14 = {
+        birth = yes
+    }
+
+    6466.6.25 = {
+        add_spouse = greydun_10
+    }
+
+    6496.4.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_10 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = greedy
+    trait = vengeful
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6449.12.2 = {
+        birth = yes
+    }
+
+    6521.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_11 = {
+    name = "Laen"
+
+    dynasty = dynasty_greydun
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_9
+    mother = greydun_10
+
+    trait = paranoid
+    trait = zealous
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 9
+
+    trait = education_diplomacy_1
+
+    6474.7.21 = {
+        birth = yes
+    }
+
+    6513.12.3 = {
+        add_spouse = greydun_12
+    }
+
+    6523.6.22 = {
+        death = { death_reason = death_heart_ripped_out }
+    }
+}
+
+greydun_12 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = vengeful
+    trait = honest
+    trait = temperate
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 4
+    intrigue = 5
+    learning = 2
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6496.4.3 = {
+        birth = yes
+    }
+
+    6576.9.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_13 = {
+    name = "Theodan"
+
+    dynasty = dynasty_greydun
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_11
+    mother = greydun_12
+
+    trait = sadistic
+    trait = patient
+    trait = lustful
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6514.4.20 = {
+        birth = yes
+    }
+
+    6548.1.6 = {
+        add_spouse = greydun_14
+    }
+
+    6591.6.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_14 = {
+    name = "Cateryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = honest
+    trait = impatient
+    trait = trusting
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6531.8.19 = {
+        birth = yes
+    }
+
+    6608.5.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_15 = {
+    name = "Ulward"
+
+    dynasty = dynasty_greydun
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_13
+    mother = greydun_14
+
+    trait = forgiving
+    trait = generous
+    trait = content
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6550.12.5 = {
+        birth = yes
+    }
+
+    6578.6.28 = {
+        add_spouse = greydun_16
+    }
+
+    6590.12.7 = {
+        death = { death_reason = death_torture  }
+    }
+}
+
+greydun_16 = {
+    name = "Cecilia"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = brave
+    trait = arbitrary
+    trait = temperate
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_1
+
+    6561.8.19 = {
+        birth = yes
+    }
+
+    6639.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_17 = {
+    name = "Margaret"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_11
+    mother = greydun_12
+
+    trait = ambitious
+    trait = gregarious
+    trait = impatient
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 9
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6516.11.21 = {
+        birth = yes
+    }
+
+    6588.4.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_18 = {
+    name = "Hrayn"
+
+    dynasty = dynasty_greydun
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_11
+    mother = greydun_12
+
+    trait = deceitful
+    trait = just
+    trait = shy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6517.7.2 = {
+        birth = yes
+    }
+
+    6564.1.23 = {
+        add_spouse = greydun_19
+    }
+
+    6597.2.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_19 = {
+    name = "Kyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = humble
+    trait = content
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6547.8.20 = {
+        birth = yes
+    }
+
+    6618.9.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_20 = {
+    name = "Wylis"
+
+    dynasty = dynasty_greydun
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_18
+    mother = greydun_19
+
+    trait = generous
+    trait = shy
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 4
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6570.1.21 = {
+        birth = yes
+    }
+
+    6618.3.16 = {
+        add_spouse = greydun_21
+    }
+
+    6648.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_21 = {
+    name = "Lysa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = calm
+    trait = just
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 6
+    prowess = 3
+
+    trait = education_intrigue_4
+
+    6601.6.8 = {
+        birth = yes
+    }
+
+    6667.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_22 = {
+    name = "Harmond"
+
+    dynasty = dynasty_greydun
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_18
+    mother = greydun_19
+
+    trait = arrogant
+    trait = stubborn
+    trait = impatient
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 3
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    6573.8.26 = {
+        birth = yes
+    }
+
+    6610.7.27 = {
+        add_spouse = greydun_23
+    }
+
+    6652.2.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_23 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = compassionate
+    trait = chaste
+    trait = shy
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6593.10.7 = {
+        birth = yes
+    }
+
+    6659.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_24 = {
+    name = "Laen"
+
+    dynasty = dynasty_greydun
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_18
+    mother = greydun_19
+
+    trait = gregarious
+    trait = impatient
+    trait = stubborn
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    6575.1.27 = {
+        birth = yes
+    }
+
+    6624.8.11 = {
+        add_spouse = greydun_25
+    }
+
+    6634.2.24 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+greydun_25 = {
+    name = "Tissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = deceitful
+    trait = wrathful
+    trait = callous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 9
+    intrigue = 5
+    learning = 8
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6607.3.12 = {
+        birth = yes
+    }
+
+    6686.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_26 = {
+    name = "Serra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_18
+    mother = greydun_19
+
+    trait = lustful
+    trait = brave
+    trait = calm
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    6576.11.24 = {
+        birth = yes
+    }
+
+    6578.9.28 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+greydun_27 = {
+    name = "Benjicot"
+
+    dynasty = dynasty_greydun
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_11
+    mother = greydun_12
+
+    trait = arrogant
+    trait = chaste
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 9
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    6518.8.12 = {
+        birth = yes
+    }
+
+    6565.10.18 = {
+        add_spouse = greydun_28
+    }
+
+    6597.4.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_28 = {
+    name = "Cecil"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = sadistic
+    trait = honest
+    trait = chaste
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_1
+
+    6548.1.8 = {
+        birth = yes
+    }
+
+    6615.9.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_29 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_27
+    mother = greydun_28
+
+    trait = diligent
+    trait = ambitious
+    trait = greedy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_learning_3
+
+    6565.4.15 = {
+        birth = yes
+    }
+
+    6650.4.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_30 = {
+    name = "Jorah"
+
+    dynasty = dynasty_greydun
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_27
+    mother = greydun_28
+
+    trait = lazy
+    trait = shy
+    trait = vengeful
+
+    diplomacy = 18
+    martial = 25
+    stewardship = 25
+    intrigue = 18
+    learning = 25
+    prowess = 24
+
+    trait = education_martial_4
+
+    6577.5.18 = {
+        birth = yes
+    }
+
+    6598.5.19 = {
+        add_spouse = greydun_31
+    }
+
+    6653.1.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_31 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = gregarious
+    trait = calm
+    trait = cynical
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6581.3.8 = {
+        birth = yes
+    }
+
+    6662.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_32 = {
+    name = "Kyli"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_9
+    mother = greydun_10
+
+    trait = impatient
+    trait = ambitious
+    trait = honest
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 1
+    prowess = 8
+
+    trait = education_martial_2
+
+    6475.6.17 = {
+        birth = yes
+    }
+
+    6557.8.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_33 = {
+    name = "Theo"
+
+    dynasty = dynasty_greydun
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_9
+    mother = greydun_10
+
+    trait = stubborn
+    trait = chaste
+    trait = lazy
+
+    diplomacy = 11
+    martial = 9
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6481.8.25 = {
+        birth = yes
+    }
+
+    6524.4.13 = {
+        add_spouse = greydun_34
+    }
+
+    6534.10.24 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+greydun_34 = {
+    name = "Agnessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = just
+    trait = forgiving
+    trait = lustful
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 3
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_2
+
+    6507.3.10 = {
+        birth = yes
+    }
+
+    6585.1.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_35 = {
+    name = "Magnar"
+
+    dynasty = dynasty_greydun
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_33
+    mother = greydun_34
+
+    trait = stubborn
+    trait = callous
+    trait = generous
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 11
+    intrigue = 7
+    learning = 3
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    6524.8.16 = {
+        birth = yes
+    }
+
+    6543.4.25 = {
+        add_spouse = greydun_36
+    }
+
+    6553.1.24 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+greydun_36 = {
+    name = "Lydann"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = sadistic
+    trait = arbitrary
+    trait = deceitful
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    6526.9.26 = {
+        birth = yes
+    }
+
+    6606.4.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_37 = {
+    name = "Lawyrence"
+
+    dynasty = dynasty_greydun
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_35
+    mother = greydun_36
+
+    trait = lustful
+    trait = arrogant
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_3
+
+    6544.5.17 = {
+        birth = yes
+    }
+
+    6565.4.22 = {
+        add_spouse = greydun_38
+    }
+
+    6575.3.12 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+greydun_38 = {
+    name = "Lydia"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = diligent
+    trait = compassionate
+    trait = honest
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 2
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    6548.10.13 = {
+        birth = yes
+    }
+
+    6617.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_39 = {
+    name = "Gilli"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_35
+    mother = greydun_36
+
+    trait = fickle
+    trait = compassionate
+    trait = greedy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 3
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6547.4.7 = {
+        birth = yes
+    }
+
+    6617.4.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_40 = {
+    name = "Myra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_35
+    mother = greydun_36
+
+    trait = content
+    trait = arbitrary
+    trait = zealous
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 8
+    intrigue = 5
+    learning = 3
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6548.5.13 = {
+        birth = yes
+    }
+
+    6631.9.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_41 = {
+    name = "Klas"
+
+    dynasty = dynasty_greydun
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_33
+    mother = greydun_34
+
+    trait = brave
+    trait = zealous
+    trait = ambitious
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 2
+    prowess = 7
+
+    trait = education_martial_3
+
+    6527.6.1 = {
+        birth = yes
+    }
+
+    6549.10.23 = {
+        add_spouse = greydun_42
+    }
+
+    6593.7.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_42 = {
+    name = "Igrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = vengeful
+    trait = callous
+    trait = calm
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 9
+
+    trait = education_martial_3
+
+    6532.4.23 = {
+        birth = yes
+    }
+
+    6608.10.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_43 = {
+    name = "Tora"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_41
+    mother = greydun_42
+
+    trait = content
+    trait = honest
+    trait = cynical
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_2
+
+    6558.9.21 = {
+        birth = yes
+    }
+
+    6643.4.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_44 = {
+    name = "Laen"
+
+    dynasty = dynasty_greydun
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_41
+    mother = greydun_42
+
+    trait = forgiving
+    trait = arrogant
+    trait = just
+
+    diplomacy = 5
+    martial = 11
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_3
+
+    6565.2.4 = {
+        birth = yes
+    }
+
+    6607.9.10 = {
+        add_spouse = greydun_45
+    }
+
+    6633.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_45 = {
+    name = "Eri"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = ambitious
+    trait = fickle
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6590.5.26 = {
+        birth = yes
+    }
+
+    6642.11.16 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+greydun_46 = {
+    name = "Hother"
+
+    dynasty = dynasty_greydun
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_33
+    mother = greydun_34
+
+    trait = ambitious
+    trait = stubborn
+    trait = callous
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 4
+    intrigue = 2
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6528.9.1 = {
+        birth = yes
+    }
+
+    6544.3.23 = {
+        add_spouse = greydun_47
+    }
+
+    6596.3.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_47 = {
+    name = "Beth"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = honest
+    trait = cynical
+    trait = ambitious
+
+    diplomacy = 9
+    martial = 9
+    stewardship = 8
+    intrigue = 9
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6527.1.12 = {
+        birth = yes
+    }
+
+    6597.3.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_48 = {
+    name = "Robin"
+
+    dynasty = dynasty_greydun
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_46
+    mother = greydun_47
+
+    trait = cynical
+    trait = compassionate
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 3
+    intrigue = 9
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6559.1.11 = {
+        birth = yes
+    }
+
+    6591.12.26 = {
+        add_spouse = greydun_49
+    }
+
+    6644.5.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_49 = {
+    name = "Faya"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = cynical
+    trait = trusting
+    trait = impatient
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 10
+
+    trait = education_martial_2
+
+    6574.5.5 = {
+        birth = yes
+    }
+
+    6643.5.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_50 = {
+    name = "Beron"
+
+    dynasty = dynasty_greydun
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_33
+    mother = greydun_34
+
+    trait = sadistic
+    trait = diligent
+    trait = lustful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_2
+
+    6530.6.24 = {
+        birth = yes
+    }
+
+    6578.6.21 = {
+        add_spouse = greydun_51
+    }
+
+    6613.4.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_51 = {
+    name = "Serena"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = patient
+    trait = calm
+    trait = arbitrary
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6561.8.24 = {
+        birth = yes
+    }
+
+    6637.12.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_52 = {
+    name = "Jorah"
+
+    dynasty = dynasty_greydun
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_50
+    mother = greydun_51
+
+    trait = chaste
+    trait = brave
+    trait = zealous
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 7
+    intrigue = 2
+    learning = 3
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6583.6.16 = {
+        birth = yes
+    }
+
+    6607.5.8 = {
+        add_spouse = greydun_53
+    }
+
+    6655.12.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_53 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = wrathful
+    trait = greedy
+    trait = zealous
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 4
+    intrigue = 4
+    learning = 4
+    prowess = 10
+
+    trait = education_diplomacy_4
+
+    6590.6.23 = {
+        birth = yes
+    }
+
+    6660.3.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_54 = {
+    name = "Thyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_50
+    mother = greydun_51
+
+    trait = arbitrary
+    trait = compassionate
+    trait = vengeful
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 3
+    intrigue = 7
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6584.12.2 = {
+        birth = yes
+    }
+
+    6660.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_55 = {
+    name = "Alaric"
+
+    dynasty = dynasty_greydun
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_50
+    mother = greydun_51
+
+    trait = vengeful
+    trait = honest
+    trait = trusting
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 11
+    learning = 2
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6585.10.4 = {
+        birth = yes
+    }
+
+    6605.4.17 = {
+        add_spouse = greydun_56
+    }
+
+    6624.10.13 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+greydun_56 = {
+    name = "Meliana"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = content
+    trait = generous
+    trait = cynical
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_3
+
+    6588.2.9 = {
+        birth = yes
+    }
+
+    6667.11.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greydun_57 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_50
+    mother = greydun_51
+
+    trait = humble
+    trait = forgiving
+    trait = patient
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 11
+    prowess = 9
+
+    trait = education_learning_1
+
+    6591.3.3 = {
+        birth = yes
+    }
+
+    6600.10.9 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+greydun_58 = {
+    name = "Kataryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = greydun_6
+    mother = greydun_7
+
+    trait = sadistic
+    trait = shy
+    trait = craven
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 5
+    intrigue = 9
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6431.2.18 = {
+        birth = yes
+    }
+
+    6498.7.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

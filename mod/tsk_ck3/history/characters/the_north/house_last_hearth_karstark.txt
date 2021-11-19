@@ -1,0 +1,4011 @@
+karstark_1 = {
+    name = "Ormyn"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = arrogant
+    trait = generous
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6300.6.24 = {
+        birth = yes
+    }
+
+    6346.8.25 = {
+        add_spouse = karstark_2
+    }
+
+    6375.8.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_2 = {
+    name = "Elinan"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = diligent
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 3
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_3
+
+    6329.7.1 = {
+        birth = yes
+    }
+
+    6401.11.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_3 = {
+    name = "Loboda"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_1
+    mother = karstark_2
+
+    trait = stubborn
+    trait = sadistic
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 3
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_4
+
+    6362.3.24 = {
+        birth = yes
+    }
+
+    6384.11.5 = {
+        add_spouse = karstark_4
+    }
+
+    6445.3.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_4 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = lazy
+    trait = fickle
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 10
+    prowess = 9
+
+    trait = education_learning_2
+
+    6367.6.6 = {
+        birth = yes
+    }
+
+    6441.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_5 = {
+    name = "Casamor"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_3
+    mother = karstark_4
+
+    trait = trusting
+    trait = humble
+    trait = honest
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_2
+
+    6385.12.2 = {
+        birth = yes
+    }
+
+    6431.1.22 = {
+        add_spouse = karstark_6
+    }
+
+    6467.7.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_6 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = wrathful
+    trait = callous
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 8
+    intrigue = 8
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6414.5.25 = {
+        birth = yes
+    }
+
+    6489.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_7 = {
+    name = "Alyxander"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_5
+    mother = karstark_6
+
+    trait = generous
+    trait = shy
+    trait = patient
+
+    diplomacy = 26
+    martial = 10
+    stewardship = 19
+    intrigue = 19
+    learning = 23
+    prowess = 21
+
+    trait = education_diplomacy_4
+
+    6454.9.27 = {
+        birth = yes
+    }
+
+    6495.3.21 = {
+        add_spouse = karstark_8
+    }
+
+    6505.11.15 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+karstark_8 = {
+    name = "Ricardya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = fickle
+    trait = chaste
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 8
+    intrigue = 2
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6478.11.8 = {
+        birth = yes
+    }
+
+    6555.12.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_9 = {
+    name = "Jonnela"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_7
+    mother = karstark_8
+
+    trait = ambitious
+    trait = lustful
+    trait = diligent
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 4
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_2
+
+    6496.7.7 = {
+        birth = yes
+    }
+
+    6533.11.15 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+karstark_10 = {
+    name = "Mikken"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_7
+    mother = karstark_8
+
+    trait = callous
+    trait = brave
+    trait = generous
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 10
+    intrigue = 10
+    learning = 8
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6498.3.11 = {
+        birth = yes
+    }
+
+    6546.8.27 = {
+        add_spouse = karstark_11
+    }
+
+    6556.8.27 = {
+        death = { death_reason = death_maimed }
+    }
+}
+
+karstark_11 = {
+    name = "Eri"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = content
+    trait = callous
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6529.8.11 = {
+        birth = yes
+    }
+
+    6598.7.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_12 = {
+    name = "Domeric"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_10
+    mother = karstark_11
+
+    trait = deceitful
+    trait = fickle
+    trait = humble
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 4
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6549.5.5 = {
+        birth = yes
+    }
+
+    6578.4.26 = {
+        add_spouse = karstark_13
+    }
+
+    6623.12.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_13 = {
+    name = "Kaeli"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = brave
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 9
+    prowess = 2
+
+    trait = education_learning_3
+
+    6561.4.16 = {
+        birth = yes
+    }
+
+    6646.12.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_14 = {
+    name = "Ingarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_12
+    mother = karstark_13
+
+    trait = calm
+    trait = generous
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6586.1.9 = {
+        birth = yes
+    }
+
+    6671.12.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_15 = {
+    name = "Cateryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_12
+    mother = karstark_13
+
+    trait = chaste
+    trait = craven
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6590.10.19 = {
+        birth = yes
+    }
+
+    6667.12.9 = {
+        death = { death_reason = death_plotting  }
+    }
+}
+
+karstark_16 = {
+    name = "Gorm"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_12
+    mother = karstark_13
+
+    trait = greedy
+    trait = deceitful
+    trait = gluttonous
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6593.5.21 = {
+        birth = yes
+    }
+
+    6643.12.1 = {
+        add_spouse = karstark_17
+    }
+
+    6653.6.28 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+karstark_17 = {
+    name = "Sarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = chaste
+    trait = impatient
+    trait = deceitful
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 4
+    intrigue = 3
+    learning = 3
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    6626.3.11 = {
+        birth = yes
+    }
+
+    6707.12.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_18 = {
+    name = "Ewalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_10
+    mother = karstark_11
+
+    trait = paranoid
+    trait = temperate
+    trait = lustful
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 2
+    intrigue = 7
+    learning = 2
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6551.6.2 = {
+        birth = yes
+    }
+
+    6620.7.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_19 = {
+    name = "Igrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_10
+    mother = karstark_11
+
+    trait = temperate
+    trait = just
+    trait = humble
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 10
+    intrigue = 6
+    learning = 10
+    prowess = 2
+
+    trait = education_stewardship_3
+
+    6553.6.4 = {
+        birth = yes
+    }
+
+    6604.11.16 = {
+        death = { death_reason = death_stress }
+    }
+}
+
+karstark_20 = {
+    name = "Caty"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_7
+    mother = karstark_8
+
+    trait = deceitful
+    trait = zealous
+    trait = trusting
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 2
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_3
+
+    6501.11.21 = {
+        birth = yes
+    }
+
+    6568.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_21 = {
+    name = "Edderion"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_3
+    mother = karstark_4
+
+    trait = lazy
+    trait = sadistic
+    trait = shy
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 7
+    prowess = 1
+
+    trait = education_martial_3
+
+    6389.8.19 = {
+        birth = yes
+    }
+
+    6418.11.4 = {
+        add_spouse = karstark_22
+    }
+
+    6468.8.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_22 = {
+    name = "Meera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = humble
+    trait = stubborn
+    trait = temperate
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 9
+    intrigue = 8
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6401.7.11 = {
+        birth = yes
+    }
+
+    6474.12.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_23 = {
+    name = "Aefan"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_21
+    mother = karstark_22
+
+    trait = zealous
+    trait = deceitful
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_learning_3
+
+    6436.3.24 = {
+        birth = yes
+    }
+
+    6454.2.18 = {
+        add_spouse = karstark_24
+    }
+
+    6511.5.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_24 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = fickle
+    trait = gluttonous
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 4
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6437.3.12 = {
+        birth = yes
+    }
+
+    6503.6.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_25 = {
+    name = "Mikken"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_23
+    mother = karstark_24
+
+    trait = compassionate
+    trait = patient
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 3
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_learning_3
+
+    6461.10.10 = {
+        birth = yes
+    }
+
+    6502.4.28 = {
+        add_spouse = karstark_26
+    }
+
+    6530.8.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_26 = {
+    name = "Kaeli"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = humble
+    trait = just
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 7
+    intrigue = 3
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    6485.11.13 = {
+        birth = yes
+    }
+
+    6568.12.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_27 = {
+    name = "Danelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_25
+    mother = karstark_26
+
+    trait = impatient
+    trait = generous
+    trait = diligent
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 10
+    learning = 7
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6505.7.9 = {
+        birth = yes
+    }
+
+    6587.7.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_28 = {
+    name = "Donella"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_25
+    mother = karstark_26
+
+    trait = arrogant
+    trait = deceitful
+    trait = vengeful
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6511.8.23 = {
+        birth = yes
+    }
+
+    6577.3.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_29 = {
+    name = "Myra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_25
+    mother = karstark_26
+
+    trait = arrogant
+    trait = paranoid
+    trait = impatient
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 3
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6513.9.22 = {
+        birth = yes
+    }
+
+    6521.12.25 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+karstark_30 = {
+    name = "Torrhen"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_25
+    mother = karstark_26
+
+    trait = just
+    trait = calm
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 1
+    intrigue = 3
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_4
+
+    6515.7.6 = {
+        birth = yes
+    }
+
+    6535.4.18 = {
+        add_spouse = karstark_31
+    }
+
+    6600.10.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_31 = {
+    name = "Jolyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = zealous
+    trait = shy
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 9
+    intrigue = 7
+    learning = 4
+    prowess = 2
+
+    trait = education_stewardship_4
+
+    6518.4.10 = {
+        birth = yes
+    }
+
+    6557.5.8 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+karstark_32 = {
+    name = "Ylva"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_30
+    mother = karstark_31
+
+    trait = cynical
+    trait = content
+    trait = fickle
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 8
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_2
+
+    6535.12.21 = {
+        birth = yes
+    }
+
+    6612.10.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_33 = {
+    name = "Skuli"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_30
+    mother = karstark_31
+
+    trait = shy
+    trait = arrogant
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    6542.11.5 = {
+        birth = yes
+    }
+
+    6563.9.25 = {
+        add_spouse = karstark_34
+    }
+
+    6624.1.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_34 = {
+    name = "Osha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = gregarious
+    trait = calm
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6546.8.22 = {
+        birth = yes
+    }
+
+    6573.8.26 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+karstark_35 = {
+    name = "Torrhen"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_30
+    mother = karstark_31
+
+    trait = craven
+    trait = honest
+    trait = humble
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6543.9.19 = {
+        birth = yes
+    }
+
+    6590.9.6 = {
+        add_spouse = karstark_36
+    }
+
+    6628.8.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_36 = {
+    name = "Ylva"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = humble
+    trait = ambitious
+    trait = calm
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 3
+
+    trait = education_learning_1
+
+    6573.9.24 = {
+        birth = yes
+    }
+
+    6645.3.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_37 = {
+    name = "Maegi"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_23
+    mother = karstark_24
+
+    trait = arbitrary
+    trait = craven
+    trait = calm
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 9
+
+    trait = education_intrigue_1
+
+    6463.10.25 = {
+        birth = yes
+    }
+
+    6546.6.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_38 = {
+    name = "Oswyn"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_23
+    mother = karstark_24
+
+    trait = temperate
+    trait = trusting
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 4
+    intrigue = 8
+    learning = 3
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    6464.2.17 = {
+        birth = yes
+    }
+
+    6481.6.3 = {
+        add_spouse = karstark_39
+    }
+
+    6547.6.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_39 = {
+    name = "Lidania"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = zealous
+    trait = trusting
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 8
+    prowess = 1
+
+    trait = education_learning_3
+
+    6464.10.11 = {
+        birth = yes
+    }
+
+    6534.9.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_40 = {
+    name = "Benfred"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_38
+    mother = karstark_39
+
+    trait = calm
+    trait = sadistic
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 11
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_3
+
+    6500.9.28 = {
+        birth = yes
+    }
+
+    6539.8.25 = {
+        add_spouse = karstark_41
+    }
+
+    6566.10.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_41 = {
+    name = "Gilli"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = callous
+    trait = honest
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_2
+
+    6522.8.13 = {
+        birth = yes
+    }
+
+    6606.12.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_42 = {
+    name = "Streen"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_40
+    mother = karstark_41
+
+    trait = forgiving
+    trait = lazy
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 4
+    intrigue = 8
+    learning = 4
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    6550.7.15 = {
+        birth = yes
+    }
+
+    6575.12.21 = {
+        add_spouse = karstark_43
+    }
+
+    6634.2.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_43 = {
+    name = "Serena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = just
+    trait = diligent
+    trait = lustful
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_4
+
+    6558.2.16 = {
+        birth = yes
+    }
+
+    6633.12.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_44 = {
+    name = "Lidya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_40
+    mother = karstark_41
+
+    trait = callous
+    trait = chaste
+    trait = greedy
+
+    diplomacy = 4
+    martial = 10
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_1
+
+    6558.3.20 = {
+        birth = yes
+    }
+
+    6629.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_45 = {
+    name = "Nikla"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_3
+    mother = karstark_4
+
+    trait = gregarious
+    trait = generous
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 2
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    6392.4.27 = {
+        birth = yes
+    }
+
+    6432.8.1 = {
+        add_spouse = karstark_46
+    }
+
+    6477.1.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_46 = {
+    name = "Lynarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = calm
+    trait = honest
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_2
+
+    6415.5.24 = {
+        birth = yes
+    }
+
+    6485.5.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_47 = {
+    name = "Eri"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_45
+    mother = karstark_46
+
+    trait = chaste
+    trait = gregarious
+    trait = patient
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6435.9.7 = {
+        birth = yes
+    }
+
+    6516.8.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_48 = {
+    name = "Olf"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_45
+    mother = karstark_46
+
+    trait = forgiving
+    trait = wrathful
+    trait = humble
+
+    diplomacy = 10
+    martial = 4
+    stewardship = 8
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6436.10.24 = {
+        birth = yes
+    }
+
+    6453.7.16 = {
+        add_spouse = karstark_49
+    }
+
+    6512.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_49 = {
+    name = "Lysa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = arrogant
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 8
+    prowess = 2
+
+    trait = education_stewardship_3
+
+    6436.11.28 = {
+        birth = yes
+    }
+
+    6520.5.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_50 = {
+    name = "Elyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_48
+    mother = karstark_49
+
+    trait = stubborn
+    trait = lazy
+    trait = generous
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 7
+    intrigue = 7
+    learning = 3
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6459.6.13 = {
+        birth = yes
+    }
+
+    6525.2.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_51 = {
+    name = "Styn"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_48
+    mother = karstark_49
+
+    trait = lazy
+    trait = deceitful
+    trait = brave
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 3
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_4
+
+    6461.5.10 = {
+        birth = yes
+    }
+
+    6488.5.14 = {
+        add_spouse = karstark_52
+    }
+
+    6514.11.26 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+karstark_52 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = patient
+    trait = brave
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 2
+    intrigue = 2
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_4
+
+    6471.6.2 = {
+        birth = yes
+    }
+
+    6548.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_53 = {
+    name = "Hugo"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_51
+    mother = karstark_52
+
+    trait = patient
+    trait = temperate
+    trait = calm
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 2
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_2
+
+    6490.3.1 = {
+        birth = yes
+    }
+
+    6522.2.5 = {
+        add_spouse = karstark_54
+    }
+
+    6539.6.27 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+karstark_54 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = shy
+    trait = ambitious
+    trait = generous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 3
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6505.8.26 = {
+        birth = yes
+    }
+
+    6589.6.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_55 = {
+    name = "Martyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_53
+    mother = karstark_54
+
+    trait = gluttonous
+    trait = paranoid
+    trait = craven
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 8
+    learning = 8
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6523.10.20 = {
+        birth = yes
+    }
+
+    6574.1.16 = {
+        death = { death_reason = death_horse_riding_accident  }
+    }
+}
+
+karstark_56 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_53
+    mother = karstark_54
+
+    trait = deceitful
+    trait = content
+    trait = craven
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 2
+
+    trait = education_stewardship_2
+
+    6524.1.14 = {
+        birth = yes
+    }
+
+    6597.4.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_57 = {
+    name = "Petar"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_53
+    mother = karstark_54
+
+    trait = arrogant
+    trait = stubborn
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 2
+    intrigue = 2
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6528.1.10 = {
+        birth = yes
+    }
+
+    6558.1.6 = {
+        add_spouse = karstark_58
+    }
+
+    6595.4.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_58 = {
+    name = "Elinan"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = greedy
+    trait = impatient
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 9
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6541.1.27 = {
+        birth = yes
+    }
+
+    6617.9.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_59 = {
+    name = "Aethan"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_48
+    mother = karstark_49
+
+    trait = paranoid
+    trait = deceitful
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6466.12.15 = {
+        birth = yes
+    }
+
+    6490.1.27 = {
+        add_spouse = karstark_60
+    }
+
+    6533.5.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_60 = {
+    name = "Kristyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = paranoid
+    trait = stubborn
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 7
+    intrigue = 9
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6473.4.3 = {
+        birth = yes
+    }
+
+    6544.9.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_61 = {
+    name = "Aefan"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_59
+    mother = karstark_60
+
+    trait = sadistic
+    trait = shy
+    trait = fickle
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 4
+    intrigue = 8
+    learning = 7
+    prowess = 8
+
+    trait = education_intrigue_4
+
+    6491.2.17 = {
+        birth = yes
+    }
+
+    6526.8.25 = {
+        add_spouse = karstark_62
+    }
+
+    6536.11.1 = {
+        death = { death_reason = death_maimed }
+    }
+}
+
+karstark_62 = {
+    name = "Kaeli"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = trusting
+    trait = arrogant
+
+    diplomacy = 10
+    martial = 4
+    stewardship = 7
+    intrigue = 5
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    6509.10.27 = {
+        birth = yes
+    }
+
+    6581.4.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_63 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_61
+    mother = karstark_62
+
+    trait = temperate
+    trait = diligent
+    trait = calm
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6528.3.8 = {
+        birth = yes
+    }
+
+    6599.2.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_64 = {
+    name = "Maggi"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_61
+    mother = karstark_62
+
+    trait = temperate
+    trait = just
+    trait = shy
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    6530.5.10 = {
+        birth = yes
+    }
+
+    6597.10.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_65 = {
+    name = "Calon"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_61
+    mother = karstark_62
+
+    trait = temperate
+    trait = compassionate
+    trait = zealous
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_learning_2
+
+    6531.8.28 = {
+        birth = yes
+    }
+
+    6552.6.16 = {
+        add_spouse = karstark_66
+    }
+
+    6588.3.5 = {
+        death = { death_reason = death_attacked }
+    }
+}
+
+karstark_66 = {
+    name = "Sybelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = calm
+    trait = content
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_3
+
+    6535.8.14 = {
+        birth = yes
+    }
+
+    6562.3.6 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+karstark_67 = {
+    name = "Cellador"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_61
+    mother = karstark_62
+
+    trait = cynical
+    trait = ambitious
+    trait = lazy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_2
+
+    6533.6.3 = {
+        birth = yes
+    }
+
+    6549.3.23 = {
+        add_spouse = karstark_68
+    }
+
+    6607.8.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_68 = {
+    name = "Jorelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = trusting
+    trait = callous
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6532.1.10 = {
+        birth = yes
+    }
+
+    6614.7.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_69 = {
+    name = "Desmond"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_59
+    mother = karstark_60
+
+    trait = callous
+    trait = humble
+    trait = gluttonous
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_2
+
+    6497.3.14 = {
+        birth = yes
+    }
+
+    6522.10.15 = {
+        add_spouse = karstark_70
+    }
+
+    6538.10.20 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+karstark_70 = {
+    name = "Elin"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = content
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 3
+    learning = 8
+    prowess = 1
+
+    trait = education_learning_3
+
+    6505.6.25 = {
+        birth = yes
+    }
+
+    6583.12.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_71 = {
+    name = "Eilif"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_69
+    mother = karstark_70
+
+    trait = arbitrary
+    trait = sadistic
+    trait = craven
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6525.12.27 = {
+        birth = yes
+    }
+
+    6555.4.1 = {
+        add_spouse = karstark_72
+    }
+
+    6595.6.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_72 = {
+    name = "Anna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = deceitful
+    trait = fickle
+    trait = cynical
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6538.1.12 = {
+        birth = yes
+    }
+
+    6619.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_73 = {
+    name = "Barbara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_59
+    mother = karstark_60
+
+    trait = ambitious
+    trait = trusting
+    trait = deceitful
+
+    diplomacy = 10
+    martial = 3
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6503.11.10 = {
+        birth = yes
+    }
+
+    6588.6.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_74 = {
+    name = "Raya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_48
+    mother = karstark_49
+
+    trait = gluttonous
+    trait = generous
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 8
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6468.7.3 = {
+        birth = yes
+    }
+
+    6542.8.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_75 = {
+    name = "Wylla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_45
+    mother = karstark_46
+
+    trait = ambitious
+    trait = lazy
+    trait = craven
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 9
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6444.9.9 = {
+        birth = yes
+    }
+
+    6521.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_76 = {
+    name = "Aethan"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_3
+    mother = karstark_4
+
+    trait = arrogant
+    trait = brave
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 7
+    intrigue = 3
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_3
+
+    6393.12.15 = {
+        birth = yes
+    }
+
+    6409.6.2 = {
+        add_spouse = karstark_77
+    }
+
+    6462.6.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_77 = {
+    name = "Barbara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = cynical
+    trait = greedy
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_2
+
+    6392.3.5 = {
+        birth = yes
+    }
+
+    6467.12.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_78 = {
+    name = "Folke"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_76
+    mother = karstark_77
+
+    trait = lustful
+    trait = wrathful
+    trait = zealous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6423.3.20 = {
+        birth = yes
+    }
+
+    6449.6.4 = {
+        add_spouse = karstark_79
+    }
+
+    6499.4.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_79 = {
+    name = "Leana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = calm
+    trait = generous
+
+    diplomacy = 9
+    martial = 10
+    stewardship = 6
+    intrigue = 9
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    6432.6.5 = {
+        birth = yes
+    }
+
+    6501.12.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_80 = {
+    name = "Kaeli"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_78
+    mother = karstark_79
+
+    trait = zealous
+    trait = sadistic
+    trait = forgiving
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 1
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    6449.1.3 = {
+        birth = yes
+    }
+
+    6533.7.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_81 = {
+    name = "Ormr"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_78
+    mother = karstark_79
+
+    trait = brave
+    trait = ambitious
+    trait = forgiving
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 3
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6455.3.14 = {
+        birth = yes
+    }
+
+    6502.6.10 = {
+        add_spouse = karstark_82
+    }
+
+    6532.10.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_82 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = wrathful
+    trait = cynical
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 9
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6485.5.19 = {
+        birth = yes
+    }
+
+    6557.2.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_83 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_81
+    mother = karstark_82
+
+    trait = ambitious
+    trait = brave
+    trait = lazy
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 3
+    intrigue = 11
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_4
+
+    6507.10.11 = {
+        birth = yes
+    }
+
+    6574.9.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_84 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_81
+    mother = karstark_82
+
+    trait = compassionate
+    trait = calm
+    trait = ambitious
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 8
+    intrigue = 11
+    learning = 2
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6514.10.13 = {
+        birth = yes
+    }
+
+    6582.6.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_85 = {
+    name = "Hallis"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_81
+    mother = karstark_82
+
+    trait = trusting
+    trait = shy
+    trait = generous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 9
+    intrigue = 5
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6517.12.12 = {
+        birth = yes
+    }
+
+    6566.11.5 = {
+        add_spouse = karstark_86
+    }
+
+    6588.12.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_86 = {
+    name = "Alyx"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = forgiving
+    trait = just
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 10
+    intrigue = 5
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6549.8.5 = {
+        birth = yes
+    }
+
+    6629.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_87 = {
+    name = "Kol"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_85
+    mother = karstark_86
+
+    trait = callous
+    trait = chaste
+    trait = calm
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 10
+    intrigue = 7
+    learning = 4
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6573.10.23 = {
+        birth = yes
+    }
+
+    6587.2.5 = {
+        add_spouse = karstark_88
+    }
+
+    6656.2.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_88 = {
+    name = "Ewilyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = compassionate
+    trait = gregarious
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 5
+    intrigue = 4
+    learning = 4
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    6570.4.20 = {
+        birth = yes
+    }
+
+    6637.10.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_89 = {
+    name = "Gariss"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_78
+    mother = karstark_79
+
+    trait = impatient
+    trait = honest
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 3
+    learning = 1
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6457.5.13 = {
+        birth = yes
+    }
+
+    6484.9.20 = {
+        add_spouse = karstark_90
+    }
+
+    6529.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_90 = {
+    name = "Ylva"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = honest
+    trait = lazy
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6467.9.7 = {
+        birth = yes
+    }
+
+    6543.12.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_91 = {
+    name = "Yoren"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_89
+    mother = karstark_90
+
+    trait = craven
+    trait = diligent
+    trait = impatient
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 7
+    intrigue = 4
+    learning = 2
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6498.12.2 = {
+        birth = yes
+    }
+
+    6526.4.20 = {
+        add_spouse = karstark_92
+    }
+
+    6582.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_92 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = sadistic
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 8
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6509.11.9 = {
+        birth = yes
+    }
+
+    6591.7.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_93 = {
+    name = "Nikla"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_91
+    mother = karstark_92
+
+    trait = callous
+    trait = trusting
+    trait = craven
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 10
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6527.3.26 = {
+        birth = yes
+    }
+
+    6562.12.2 = {
+        add_spouse = karstark_94
+    }
+
+    6600.11.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_94 = {
+    name = "Margaret"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = ambitious
+    trait = lustful
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 8
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_stewardship_4
+
+    6545.11.14 = {
+        birth = yes
+    }
+
+    6626.7.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_95 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_91
+    mother = karstark_92
+
+    trait = stubborn
+    trait = brave
+    trait = patient
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 1
+    intrigue = 9
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6532.4.20 = {
+        birth = yes
+    }
+
+    6602.5.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_96 = {
+    name = "Torkel"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_91
+    mother = karstark_92
+
+    trait = content
+    trait = generous
+    trait = diligent
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6538.7.3 = {
+        birth = yes
+    }
+
+    6578.8.18 = {
+        add_spouse = karstark_97
+    }
+
+    6610.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_97 = {
+    name = "Anna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = vengeful
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 8
+    intrigue = 6
+    learning = 3
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6561.3.6 = {
+        birth = yes
+    }
+
+    6627.4.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_98 = {
+    name = "Olf"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_91
+    mother = karstark_92
+
+    trait = craven
+    trait = wrathful
+    trait = sadistic
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6539.9.24 = {
+        birth = yes
+    }
+
+    6553.8.5 = {
+        add_spouse = karstark_99
+    }
+
+    6618.7.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_99 = {
+    name = "Ewa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = chaste
+    trait = callous
+    trait = generous
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 11
+    prowess = 5
+
+    trait = education_learning_3
+
+    6536.4.10 = {
+        birth = yes
+    }
+
+    6614.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_100 = {
+    name = "Oswyn"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_89
+    mother = karstark_90
+
+    trait = arrogant
+    trait = temperate
+    trait = content
+
+    diplomacy = 4
+    martial = 10
+    stewardship = 8
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_3
+
+    6502.8.28 = {
+        birth = yes
+    }
+
+    6549.10.24 = {
+        add_spouse = karstark_101
+    }
+
+    6580.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_101 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = deceitful
+    trait = stubborn
+    trait = humble
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 3
+    intrigue = 8
+    learning = 2
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    6532.7.28 = {
+        birth = yes
+    }
+
+    6619.12.22 = {
+        death = { death_reason = death_script_cruelty   }
+    }
+}
+
+karstark_102 = {
+    name = "Matus"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_100
+    mother = karstark_101
+
+    trait = brave
+    trait = just
+    trait = vengeful
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 3
+    intrigue = 10
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6558.1.13 = {
+        birth = yes
+    }
+
+    6574.12.5 = {
+        add_spouse = karstark_103
+    }
+
+    6636.10.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_103 = {
+    name = "Martyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = gregarious
+    trait = humble
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 11
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6557.11.22 = {
+        birth = yes
+    }
+
+    6642.4.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_104 = {
+    name = "Elin"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_100
+    mother = karstark_101
+
+    trait = shy
+    trait = trusting
+    trait = content
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 9
+    intrigue = 6
+    learning = 6
+    prowess = 9
+
+    trait = education_stewardship_4
+
+    6561.8.19 = {
+        birth = yes
+    }
+
+    6636.8.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_105 = {
+    name = "Galbart"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_100
+    mother = karstark_101
+
+    trait = calm
+    trait = trusting
+    trait = greedy
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 4
+    learning = 4
+    prowess = 4
+
+    trait = education_martial_2
+
+    6564.5.22 = {
+        birth = yes
+    }
+
+    6585.9.7 = {
+        add_spouse = karstark_106
+    }
+
+    6632.10.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_106 = {
+    name = "Kyli"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = callous
+    trait = brave
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6568.3.3 = {
+        birth = yes
+    }
+
+    6642.2.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_107 = {
+    name = "Edrick"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_76
+    mother = karstark_77
+
+    trait = calm
+    trait = lustful
+    trait = humble
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_2
+
+    6428.9.8 = {
+        birth = yes
+    }
+
+    6461.5.10 = {
+        add_spouse = karstark_108
+    }
+
+    6512.7.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_108 = {
+    name = "Cateryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = callous
+    trait = lazy
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 8
+    intrigue = 9
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6444.3.15 = {
+        birth = yes
+    }
+
+    6511.6.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_109 = {
+    name = "Kyli"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_107
+    mother = karstark_108
+
+    trait = lazy
+    trait = cynical
+    trait = temperate
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6461.2.22 = {
+        birth = yes
+    }
+
+    6532.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_110 = {
+    name = "Steen"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_107
+    mother = karstark_108
+
+    trait = shy
+    trait = paranoid
+    trait = brave
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 10
+    intrigue = 11
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6463.7.8 = {
+        birth = yes
+    }
+
+    6480.2.22 = {
+        add_spouse = karstark_111
+    }
+
+    6518.4.7 = {
+        death = { death_reason = death_raid }
+    }
+}
+
+karstark_111 = {
+    name = "Igrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = deceitful
+    trait = paranoid
+    trait = patient
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6463.5.6 = {
+        birth = yes
+    }
+
+    6534.1.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_112 = {
+    name = "Casimir"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_110
+    mother = karstark_111
+
+    trait = callous
+    trait = diligent
+    trait = honest
+
+    diplomacy = 5
+    martial = 11
+    stewardship = 2
+    intrigue = 5
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    6482.2.21 = {
+        birth = yes
+    }
+
+    6524.5.21 = {
+        add_spouse = karstark_113
+    }
+
+    6559.1.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_113 = {
+    name = "Elinan"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = greedy
+    trait = lustful
+    trait = callous
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 4
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_3
+
+    6507.4.26 = {
+        birth = yes
+    }
+
+    6591.5.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_114 = {
+    name = "Olf"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_112
+    mother = karstark_113
+
+    trait = lazy
+    trait = calm
+    trait = trusting
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_4
+
+    6529.12.28 = {
+        birth = yes
+    }
+
+    6570.2.9 = {
+        add_spouse = karstark_115
+    }
+
+    6596.5.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_115 = {
+    name = "Lyanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = arbitrary
+    trait = lustful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 10
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    6553.11.5 = {
+        birth = yes
+    }
+
+    6627.11.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_116 = {
+    name = "Vesamir"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_112
+    mother = karstark_113
+
+    trait = arbitrary
+    trait = gluttonous
+    trait = greedy
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_3
+
+    6532.11.24 = {
+        birth = yes
+    }
+
+    6571.11.22 = {
+        add_spouse = karstark_117
+    }
+
+    6615.5.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_117 = {
+    name = "Jynessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = calm
+    trait = diligent
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 8
+    prowess = 10
+
+    trait = education_learning_3
+
+    6554.4.1 = {
+        birth = yes
+    }
+
+    6627.6.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_118 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_110
+    mother = karstark_111
+
+    trait = forgiving
+    trait = gluttonous
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 4
+    intrigue = 4
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_2
+
+    6485.7.15 = {
+        birth = yes
+    }
+
+    6567.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_119 = {
+    name = "Barba"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_110
+    mother = karstark_111
+
+    trait = zealous
+    trait = just
+    trait = calm
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 11
+
+    trait = education_diplomacy_2
+
+    6489.9.3 = {
+        birth = yes
+    }
+
+    6558.8.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_120 = {
+    name = "Eilif"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_110
+    mother = karstark_111
+
+    trait = wrathful
+    trait = honest
+    trait = humble
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6492.11.5 = {
+        birth = yes
+    }
+
+    6523.6.26 = {
+        add_spouse = karstark_121
+    }
+
+    6565.2.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_121 = {
+    name = "Mylessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = generous
+    trait = chaste
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_2
+
+    6506.4.9 = {
+        birth = yes
+    }
+
+    6533.9.8 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+karstark_122 = {
+    name = "Branda"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_120
+    mother = karstark_121
+
+    trait = calm
+    trait = paranoid
+    trait = stubborn
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 9
+
+    trait = education_stewardship_4
+
+    6527.11.16 = {
+        birth = yes
+    }
+
+    6600.10.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_123 = {
+    name = "Ned"
+
+    dynasty = dynasty_karstark
+    religion = the_old_gods
+    culture = northmen
+
+    father = karstark_120
+    mother = karstark_121
+
+    trait = wrathful
+    trait = gregarious
+    trait = fickle
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    6529.12.23 = {
+        birth = yes
+    }
+
+    6565.11.7 = {
+        add_spouse = karstark_124
+    }
+
+    6600.1.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+karstark_124 = {
+    name = "Evalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = lustful
+    trait = honest
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 6
+    intrigue = 5
+    learning = 2
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6548.9.9 = {
+        birth = yes
+    }
+
+    6622.3.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

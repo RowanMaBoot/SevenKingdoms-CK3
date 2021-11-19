@@ -1,0 +1,1655 @@
+cray_1 = {
+    name = "Wyman"
+
+    dynasty = dynasty_cray
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = trusting
+    trait = gluttonous
+    trait = honest
+
+    diplomacy = 17
+    martial = 20
+    stewardship = 23
+    intrigue = 17
+    learning = 18
+    prowess = 23
+
+    trait = education_stewardship_4
+
+    6300.10.27 = {
+        birth = yes
+    }
+
+    6339.12.11 = {
+        add_spouse = cray_2
+    }
+
+    6369.1.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_2 = {
+    name = "Lysanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = humble
+    trait = greedy
+    trait = calm
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_2
+
+    6322.6.6 = {
+        birth = yes
+    }
+
+    6376.8.2 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+cray_3 = {
+    name = "Dorron"
+
+    dynasty = dynasty_cray
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_1
+    mother = cray_2
+
+    trait = arrogant
+    trait = calm
+    trait = callous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    6360.1.2 = {
+        birth = yes
+    }
+
+    6390.6.21 = {
+        add_spouse = cray_4
+    }
+
+    6429.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_4 = {
+    name = "Gilliane"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = paranoid
+    trait = stubborn
+    trait = temperate
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6373.9.11 = {
+        birth = yes
+    }
+
+    6443.9.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_5 = {
+    name = "Stan"
+
+    dynasty = dynasty_cray
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_3
+    mother = cray_4
+
+    trait = content
+    trait = craven
+    trait = shy
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6410.5.21 = {
+        birth = yes
+    }
+
+    6440.4.7 = {
+        add_spouse = cray_6
+    }
+
+    6494.3.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_6 = {
+    name = "Dacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = brave
+    trait = trusting
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 8
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6423.5.14 = {
+        birth = yes
+    }
+
+    6494.10.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_7 = {
+    name = "Mark"
+
+    dynasty = dynasty_cray
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_5
+    mother = cray_6
+
+    trait = generous
+    trait = forgiving
+    trait = stubborn
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6447.4.22 = {
+        birth = yes
+    }
+
+    6476.2.6 = {
+        add_spouse = cray_8
+    }
+
+    6514.9.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_8 = {
+    name = "Iris"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = temperate
+    trait = generous
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_2
+
+    6459.10.24 = {
+        birth = yes
+    }
+
+    6538.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_9 = {
+    name = "Oswyn"
+
+    dynasty = dynasty_cray
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_7
+    mother = cray_8
+
+    trait = arbitrary
+    trait = paranoid
+    trait = generous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 9
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6484.10.25 = {
+        birth = yes
+    }
+
+    6522.8.27 = {
+        add_spouse = cray_10
+    }
+
+    6567.5.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_10 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = cynical
+    trait = just
+    trait = chaste
+
+    diplomacy = 5
+    martial = 1
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6505.12.27 = {
+        birth = yes
+    }
+
+    6582.7.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_11 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_9
+    mother = cray_10
+
+    trait = diligent
+    trait = generous
+    trait = patient
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 3
+    intrigue = 3
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_4
+
+    6524.12.10 = {
+        birth = yes
+    }
+
+    6607.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_12 = {
+    name = "Pate"
+
+    dynasty = dynasty_cray
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_9
+    mother = cray_10
+
+    trait = lustful
+    trait = stubborn
+    trait = arbitrary
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 9
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6528.5.19 = {
+        birth = yes
+    }
+
+    6577.12.7 = {
+        add_spouse = cray_13
+    }
+
+    6603.4.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_13 = {
+    name = "Agnessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = paranoid
+    trait = patient
+    trait = callous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6560.5.26 = {
+        birth = yes
+    }
+
+    6645.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_14 = {
+    name = "Ylva"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_12
+    mother = cray_13
+
+    trait = arbitrary
+    trait = trusting
+    trait = shy
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 8
+    intrigue = 8
+    learning = 4
+    prowess = 4
+
+    trait = education_stewardship_4
+
+    6579.8.13 = {
+        birth = yes
+    }
+
+    6654.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_15 = {
+    name = "Roger"
+
+    dynasty = dynasty_cray
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_12
+    mother = cray_13
+
+    trait = arrogant
+    trait = paranoid
+    trait = just
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_2
+
+    6587.7.28 = {
+        birth = yes
+    }
+
+    6629.5.16 = {
+        add_spouse = cray_16
+    }
+
+    6655.1.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_16 = {
+    name = "Kaeli"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = cynical
+    trait = lazy
+    trait = fickle
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_2
+
+    6612.10.6 = {
+        birth = yes
+    }
+
+    6683.10.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_17 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_12
+    mother = cray_13
+
+    trait = shy
+    trait = ambitious
+    trait = greedy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 2
+    prowess = 8
+
+    trait = education_martial_2
+
+    6589.2.3 = {
+        birth = yes
+    }
+
+    6655.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_18 = {
+    name = "Walton"
+
+    dynasty = dynasty_cray
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_9
+    mother = cray_10
+
+    trait = greedy
+    trait = lazy
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 10
+
+    trait = education_martial_3
+
+    6531.9.5 = {
+        birth = yes
+    }
+
+    6559.2.10 = {
+        add_spouse = cray_19
+    }
+
+    6602.8.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_19 = {
+    name = "Raya"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = stubborn
+    trait = compassionate
+    trait = brave
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 2
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6542.8.15 = {
+        birth = yes
+    }
+
+    6610.1.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_20 = {
+    name = "Darlessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_18
+    mother = cray_19
+
+    trait = lustful
+    trait = ambitious
+    trait = greedy
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    6564.4.17 = {
+        birth = yes
+    }
+
+    6632.3.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_21 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_18
+    mother = cray_19
+
+    trait = content
+    trait = trusting
+    trait = lazy
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_2
+
+    6570.3.24 = {
+        birth = yes
+    }
+
+    6645.4.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_22 = {
+    name = "Sigwyn"
+
+    dynasty = dynasty_cray
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_18
+    mother = cray_19
+
+    trait = arbitrary
+    trait = content
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 1
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6571.7.26 = {
+        birth = yes
+    }
+
+    6586.1.24 = {
+        add_spouse = cray_23
+    }
+
+    6652.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_23 = {
+    name = "Tylissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = content
+    trait = deceitful
+    trait = impatient
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 4
+    intrigue = 8
+    learning = 4
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6569.11.7 = {
+        birth = yes
+    }
+
+    6644.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_24 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_7
+    mother = cray_8
+
+    trait = lazy
+    trait = temperate
+    trait = honest
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 9
+    intrigue = 9
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6490.2.25 = {
+        birth = yes
+    }
+
+    6566.5.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_25 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_7
+    mother = cray_8
+
+    trait = fickle
+    trait = arrogant
+    trait = paranoid
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 2
+    intrigue = 7
+    learning = 3
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    6492.5.25 = {
+        birth = yes
+    }
+
+    6528.7.12 = {
+        death = { death_reason = death_torture  }
+    }
+}
+
+cray_26 = {
+    name = "Garth"
+
+    dynasty = dynasty_cray
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_5
+    mother = cray_6
+
+    trait = patient
+    trait = honest
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 1
+    intrigue = 8
+    learning = 8
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6448.7.8 = {
+        birth = yes
+    }
+
+    6476.1.7 = {
+        add_spouse = cray_27
+    }
+
+    6531.1.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_27 = {
+    name = "Barbara"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = humble
+    trait = wrathful
+    trait = generous
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 10
+
+    trait = education_diplomacy_2
+
+    6459.5.27 = {
+        birth = yes
+    }
+
+    6531.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_28 = {
+    name = "Bethany"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_26
+    mother = cray_27
+
+    trait = patient
+    trait = greedy
+    trait = callous
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 8
+    prowess = 1
+
+    trait = education_diplomacy_3
+
+    6478.6.28 = {
+        birth = yes
+    }
+
+    6561.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_29 = {
+    name = "Shiera"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_26
+    mother = cray_27
+
+    trait = calm
+    trait = callous
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 1
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    6482.7.21 = {
+        birth = yes
+    }
+
+    6552.6.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_30 = {
+    name = "Kamyla"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_26
+    mother = cray_27
+
+    trait = just
+    trait = greedy
+    trait = chaste
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 10
+
+    trait = education_martial_2
+
+    6484.1.22 = {
+        birth = yes
+    }
+
+    6566.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_31 = {
+    name = "Edric"
+
+    dynasty = dynasty_cray
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_26
+    mother = cray_27
+
+    trait = fickle
+    trait = cynical
+    trait = chaste
+
+    diplomacy = 2
+    martial = 9
+    stewardship = 8
+    intrigue = 4
+    learning = 10
+    prowess = 8
+
+    trait = education_learning_4
+
+    6485.6.10 = {
+        birth = yes
+    }
+
+    6508.2.18 = {
+        add_spouse = cray_32
+    }
+
+    6562.5.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_32 = {
+    name = "Myra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = generous
+    trait = calm
+    trait = shy
+
+    diplomacy = 1
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6491.4.22 = {
+        birth = yes
+    }
+
+    6563.5.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_33 = {
+    name = "Dorron"
+
+    dynasty = dynasty_cray
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_31
+    mother = cray_32
+
+    trait = greedy
+    trait = humble
+    trait = callous
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 1
+    intrigue = 7
+    learning = 9
+    prowess = 2
+
+    trait = education_learning_3
+
+    6514.9.12 = {
+        birth = yes
+    }
+
+    6549.11.10 = {
+        add_spouse = cray_34
+    }
+
+    6581.10.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_34 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = trusting
+    trait = fickle
+    trait = brave
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6532.6.3 = {
+        birth = yes
+    }
+
+    6604.4.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_35 = {
+    name = "Degilf"
+
+    dynasty = dynasty_cray
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_33
+    mother = cray_34
+
+    trait = content
+    trait = stubborn
+    trait = wrathful
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 2
+
+    trait = education_diplomacy_3
+
+    6551.1.7 = {
+        birth = yes
+    }
+
+    6579.7.3 = {
+        add_spouse = cray_36
+    }
+
+    6619.10.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_36 = {
+    name = "Thora"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = paranoid
+    trait = patient
+    trait = craven
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 4
+    intrigue = 3
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6562.4.27 = {
+        birth = yes
+    }
+
+    6644.4.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_37 = {
+    name = "Arra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_31
+    mother = cray_32
+
+    trait = just
+    trait = trusting
+    trait = craven
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 2
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    6516.4.26 = {
+        birth = yes
+    }
+
+    6595.1.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_38 = {
+    name = "Jaisyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_31
+    mother = cray_32
+
+    trait = cynical
+    trait = lazy
+    trait = just
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_3
+
+    6522.12.22 = {
+        birth = yes
+    }
+
+    6597.11.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_39 = {
+    name = "Mallador"
+
+    dynasty = dynasty_cray
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_5
+    mother = cray_6
+
+    trait = paranoid
+    trait = zealous
+    trait = content
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_4
+
+    6449.4.24 = {
+        birth = yes
+    }
+
+    6497.12.28 = {
+        add_spouse = cray_40
+    }
+
+    6515.3.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_40 = {
+    name = "Igrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = gluttonous
+    trait = greedy
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 11
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6480.5.1 = {
+        birth = yes
+    }
+
+    6562.9.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_41 = {
+    name = "Styr"
+
+    dynasty = dynasty_cray
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_39
+    mother = cray_40
+
+    trait = vengeful
+    trait = lazy
+    trait = patient
+
+    diplomacy = 20
+    martial = 16
+    stewardship = 20
+    intrigue = 16
+    learning = 11
+    prowess = 12
+
+    trait = education_diplomacy_4
+
+    6504.11.28 = {
+        birth = yes
+    }
+
+    6505.7.21 = {
+        give_nickname = nick_the_historian
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6518.7.24 = {
+        add_spouse = cray_42
+    }
+
+    6571.8.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_42 = {
+    name = "Jonella"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = cynical
+    trait = wrathful
+    trait = temperate
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_2
+
+    6501.4.23 = {
+        birth = yes
+    }
+
+    6585.11.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_43 = {
+    name = "Elric"
+
+    dynasty = dynasty_cray
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_41
+    mother = cray_42
+
+    trait = greedy
+    trait = brave
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6527.10.25 = {
+        birth = yes
+    }
+
+    6558.10.23 = {
+        add_spouse = cray_44
+    }
+
+    6568.8.27 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+cray_44 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = generous
+    trait = arbitrary
+    trait = brave
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 3
+    prowess = 3
+
+    trait = education_diplomacy_1
+
+    6541.4.20 = {
+        birth = yes
+    }
+
+    6568.8.17 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+cray_45 = {
+    name = "Gariss"
+
+    dynasty = dynasty_cray
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_43
+    mother = cray_44
+
+    trait = lazy
+    trait = fickle
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 8
+    learning = 11
+    prowess = 6
+
+    trait = education_learning_4
+
+    6560.3.6 = {
+        birth = yes
+    }
+
+    6577.2.15 = {
+        add_spouse = cray_46
+    }
+
+    6593.6.22 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+cray_46 = {
+    name = "Marissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = honest
+    trait = ambitious
+    trait = forgiving
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6560.5.26 = {
+        birth = yes
+    }
+
+    6587.9.8 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+cray_47 = {
+    name = "Porther"
+
+    dynasty = dynasty_cray
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_43
+    mother = cray_44
+
+    trait = greedy
+    trait = patient
+    trait = callous
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 1
+    intrigue = 5
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_2
+
+    6562.10.3 = {
+        birth = yes
+    }
+
+    6586.3.22 = {
+        add_spouse = cray_48
+    }
+
+    6643.4.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_48 = {
+    name = "Kyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = trusting
+    trait = temperate
+    trait = just
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6569.8.20 = {
+        birth = yes
+    }
+
+    6653.4.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_49 = {
+    name = "Kyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_43
+    mother = cray_44
+
+    trait = shy
+    trait = patient
+    trait = stubborn
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 4
+    intrigue = 9
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6564.5.4 = {
+        birth = yes
+    }
+
+    6608.7.5 = {
+        death = { death_reason = death_treatment }
+    }
+}
+
+cray_50 = {
+    name = "Isyabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_43
+    mother = cray_44
+
+    trait = callous
+    trait = trusting
+    trait = fickle
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_1
+
+    6565.5.28 = {
+        birth = yes
+    }
+
+    6650.4.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cray_51 = {
+    name = "Asha"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = cray_5
+    mother = cray_6
+
+    trait = craven
+    trait = shy
+    trait = patient
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 8
+    intrigue = 1
+    learning = 1
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    6453.4.9 = {
+        birth = yes
+    }
+
+    6536.5.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

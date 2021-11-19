@@ -1,0 +1,2490 @@
+tallhart_1 = {
+    name = "Rickon"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = shy
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 3
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6300.4.6 = {
+        birth = yes
+    }
+
+    6346.9.21 = {
+        add_spouse = tallhart_2
+    }
+
+    6369.7.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_2 = {
+    name = "Lydia"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = content
+    trait = temperate
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 4
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    6329.7.28 = {
+        birth = yes
+    }
+
+    6402.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_3 = {
+    name = "Teo"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_1
+    mother = tallhart_2
+
+    trait = cynical
+    trait = paranoid
+    trait = calm
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 9
+    prowess = 8
+
+    trait = education_learning_2
+
+    6349.8.23 = {
+        birth = yes
+    }
+
+    6381.6.26 = {
+        add_spouse = tallhart_4
+    }
+
+    6430.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_4 = {
+    name = "Arrana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = gregarious
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6364.9.6 = {
+        birth = yes
+    }
+
+    6437.9.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_5 = {
+    name = "Markus"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_3
+    mother = tallhart_4
+
+    trait = stubborn
+    trait = zealous
+    trait = honest
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6381.1.7 = {
+        birth = yes
+    }
+
+    6417.8.13 = {
+        add_spouse = tallhart_6
+    }
+
+    6457.12.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_6 = {
+    name = "Elyssi"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = callous
+    trait = lustful
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_4
+
+    6400.1.8 = {
+        birth = yes
+    }
+
+    6483.4.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_7 = {
+    name = "Caty"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_5
+    mother = tallhart_6
+
+    trait = temperate
+    trait = deceitful
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6421.1.3 = {
+        birth = yes
+    }
+
+    6487.8.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_8 = {
+    name = "Harwin"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_5
+    mother = tallhart_6
+
+    trait = forgiving
+    trait = generous
+    trait = diligent
+
+    diplomacy = 26
+    martial = 13
+    stewardship = 9
+    intrigue = 16
+    learning = 23
+    prowess = 13
+
+    trait = education_diplomacy_4
+
+    6427.5.10 = {
+        birth = yes
+    }
+
+    6477.6.4 = {
+        add_spouse = tallhart_9
+    }
+
+    6508.7.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_9 = {
+    name = "Beth"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = content
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 9
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_stewardship_1
+
+    6460.10.15 = {
+        birth = yes
+    }
+
+    6487.5.5 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+tallhart_10 = {
+    name = "Theodan"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_8
+    mother = tallhart_9
+
+    trait = brave
+    trait = deceitful
+    trait = content
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_4
+
+    6483.11.15 = {
+        birth = yes
+    }
+
+    6497.5.9 = {
+        add_spouse = tallhart_11
+    }
+
+    6566.1.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_11 = {
+    name = "Caty"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = shy
+    trait = just
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 8
+
+    trait = education_martial_4
+
+    6480.1.14 = {
+        birth = yes
+    }
+
+    6554.10.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_12 = {
+    name = "Barthogan"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_10
+    mother = tallhart_11
+
+    trait = compassionate
+    trait = temperate
+    trait = honest
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 8
+    learning = 4
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    6502.3.13 = {
+        birth = yes
+    }
+
+    6533.9.21 = {
+        add_spouse = tallhart_13
+    }
+
+    6568.8.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_13 = {
+    name = "Asha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = brave
+    trait = trusting
+
+    diplomacy = 10
+    martial = 9
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6516.4.21 = {
+        birth = yes
+    }
+
+    6590.6.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_14 = {
+    name = "Beren"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_12
+    mother = tallhart_13
+
+    trait = callous
+    trait = brave
+    trait = impatient
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6534.12.23 = {
+        birth = yes
+    }
+
+    6565.3.4 = {
+        add_spouse = tallhart_15
+    }
+
+    6616.4.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_15 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = callous
+    trait = shy
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6548.7.11 = {
+        birth = yes
+    }
+
+    6631.9.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_16 = {
+    name = "Osric"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_12
+    mother = tallhart_13
+
+    trait = stubborn
+    trait = gregarious
+    trait = just
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 2
+
+    trait = education_martial_1
+
+    6540.2.26 = {
+        birth = yes
+    }
+
+    6580.8.21 = {
+        add_spouse = tallhart_17
+    }
+
+    6590.11.15 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+tallhart_17 = {
+    name = "Kyli"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = greedy
+    trait = vengeful
+    trait = brave
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 10
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    6563.8.20 = {
+        birth = yes
+    }
+
+    6635.1.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_18 = {
+    name = "Robard"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_12
+    mother = tallhart_13
+
+    trait = compassionate
+    trait = vengeful
+    trait = lazy
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 3
+    prowess = 10
+
+    trait = education_stewardship_4
+
+    6542.8.12 = {
+        birth = yes
+    }
+
+    6577.6.4 = {
+        add_spouse = tallhart_19
+    }
+
+    6611.6.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_19 = {
+    name = "Faya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = zealous
+    trait = arrogant
+    trait = content
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_3
+
+    6560.8.15 = {
+        birth = yes
+    }
+
+    6629.8.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_20 = {
+    name = "Helman"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_10
+    mother = tallhart_11
+
+    trait = lustful
+    trait = temperate
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6506.3.18 = {
+        birth = yes
+    }
+
+    6536.7.18 = {
+        add_spouse = tallhart_21
+    }
+
+    6577.6.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_21 = {
+    name = "Berena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = zealous
+    trait = calm
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_4
+
+    6519.4.6 = {
+        birth = yes
+    }
+
+    6595.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_22 = {
+    name = "Alyxander"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_20
+    mother = tallhart_21
+
+    trait = forgiving
+    trait = fickle
+    trait = patient
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 2
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6542.4.11 = {
+        birth = yes
+    }
+
+    6587.11.13 = {
+        add_spouse = tallhart_23
+    }
+
+    6609.11.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_23 = {
+    name = "Cecilia"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = stubborn
+    trait = vengeful
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 10
+
+    trait = education_diplomacy_2
+
+    6570.10.28 = {
+        birth = yes
+    }
+
+    6613.5.11 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+tallhart_24 = {
+    name = "Cersera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_20
+    mother = tallhart_21
+
+    trait = ambitious
+    trait = compassionate
+    trait = chaste
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_3
+
+    6548.7.2 = {
+        birth = yes
+    }
+
+    6625.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_25 = {
+    name = "Olf"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_20
+    mother = tallhart_21
+
+    trait = impatient
+    trait = gluttonous
+    trait = diligent
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    6553.1.1 = {
+        birth = yes
+    }
+
+    6601.11.6 = {
+        add_spouse = tallhart_26
+    }
+
+    6621.1.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_26 = {
+    name = "Bethany"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = zealous
+    trait = lustful
+    trait = shy
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6584.6.27 = {
+        birth = yes
+    }
+
+    6662.12.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_27 = {
+    name = "Robard"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_10
+    mother = tallhart_11
+
+    trait = generous
+    trait = patient
+    trait = chaste
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 7
+    intrigue = 4
+    learning = 2
+    prowess = 3
+
+    trait = education_diplomacy_1
+
+    6511.10.9 = {
+        birth = yes
+    }
+
+    6540.1.3 = {
+        add_spouse = tallhart_28
+    }
+
+    6591.5.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_28 = {
+    name = "Lynarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = shy
+    trait = arbitrary
+    trait = cynical
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 11
+    prowess = 5
+
+    trait = education_learning_3
+
+    6523.2.15 = {
+        birth = yes
+    }
+
+    6592.4.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_29 = {
+    name = "Maege"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_27
+    mother = tallhart_28
+
+    trait = vengeful
+    trait = brave
+    trait = honest
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 9
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_3
+
+    6546.1.16 = {
+        birth = yes
+    }
+
+    6612.4.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_30 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_27
+    mother = tallhart_28
+
+    trait = trusting
+    trait = temperate
+    trait = arbitrary
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 8
+    intrigue = 3
+    learning = 8
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    6550.5.14 = {
+        birth = yes
+    }
+
+    6617.11.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_31 = {
+    name = "Andren"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_27
+    mother = tallhart_28
+
+    trait = just
+    trait = deceitful
+    trait = lustful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 3
+
+    trait = education_martial_3
+
+    6554.6.19 = {
+        birth = yes
+    }
+
+    6593.4.14 = {
+        add_spouse = tallhart_32
+    }
+
+    6629.4.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_32 = {
+    name = "Krystyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = trusting
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    6576.8.26 = {
+        birth = yes
+    }
+
+    6651.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_33 = {
+    name = "Tissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_27
+    mother = tallhart_28
+
+    trait = chaste
+    trait = honest
+    trait = greedy
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 4
+    intrigue = 10
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6557.1.11 = {
+        birth = yes
+    }
+
+    6626.12.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_34 = {
+    name = "Kaelon"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_10
+    mother = tallhart_11
+
+    trait = patient
+    trait = callous
+    trait = honest
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 4
+    intrigue = 4
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_3
+
+    6513.8.19 = {
+        birth = yes
+    }
+
+    6560.10.23 = {
+        add_spouse = tallhart_35
+    }
+
+    6589.11.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_35 = {
+    name = "Caty"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = arbitrary
+    trait = brave
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 10
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6543.10.2 = {
+        birth = yes
+    }
+
+    6617.8.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_36 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_34
+    mother = tallhart_35
+
+    trait = wrathful
+    trait = brave
+    trait = arbitrary
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 3
+    intrigue = 10
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6565.2.27 = {
+        birth = yes
+    }
+
+    6641.4.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_37 = {
+    name = "Maegi"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_34
+    mother = tallhart_35
+
+    trait = generous
+    trait = cynical
+    trait = chaste
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 4
+    intrigue = 4
+    learning = 9
+    prowess = 6
+
+    trait = education_martial_1
+
+    6570.10.26 = {
+        birth = yes
+    }
+
+    6653.4.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_38 = {
+    name = "Helman"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_34
+    mother = tallhart_35
+
+    trait = zealous
+    trait = patient
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 11
+    intrigue = 5
+    learning = 8
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6573.8.16 = {
+        birth = yes
+    }
+
+    6607.10.22 = {
+        add_spouse = tallhart_39
+    }
+
+    6617.7.21 = {
+        death = { death_reason = death_beaten }
+    }
+}
+
+tallhart_39 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = deceitful
+    trait = vengeful
+    trait = brave
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 5
+    intrigue = 9
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6590.5.7 = {
+        birth = yes
+    }
+
+    6664.10.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_40 = {
+    name = "Skule"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_34
+    mother = tallhart_35
+
+    trait = content
+    trait = wrathful
+    trait = callous
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 5
+    intrigue = 4
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_2
+
+    6576.10.24 = {
+        birth = yes
+    }
+
+    6595.7.28 = {
+        add_spouse = tallhart_41
+    }
+
+    6642.9.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_41 = {
+    name = "Cat"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = stubborn
+    trait = compassionate
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 1
+
+    trait = education_learning_1
+
+    6578.10.6 = {
+        birth = yes
+    }
+
+    6659.12.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_42 = {
+    name = "Ely"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_5
+    mother = tallhart_6
+
+    trait = impatient
+    trait = paranoid
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    6431.10.6 = {
+        birth = yes
+    }
+
+    6514.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_43 = {
+    name = "Stan"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_5
+    mother = tallhart_6
+
+    trait = wrathful
+    trait = stubborn
+    trait = impatient
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 9
+    intrigue = 7
+    learning = 1
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6432.5.25 = {
+        birth = yes
+    }
+
+    6449.7.1 = {
+        add_spouse = tallhart_44
+    }
+
+    6499.12.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_44 = {
+    name = "Krystyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = content
+    trait = diligent
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    6432.4.11 = {
+        birth = yes
+    }
+
+    6511.8.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_45 = {
+    name = "Casan"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_43
+    mother = tallhart_44
+
+    trait = deceitful
+    trait = gregarious
+    trait = arbitrary
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 8
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    6451.8.10 = {
+        birth = yes
+    }
+
+    6477.1.17 = {
+        add_spouse = tallhart_46
+    }
+
+    6518.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_46 = {
+    name = "Lyessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = humble
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 1
+    stewardship = 9
+    intrigue = 7
+    learning = 9
+    prowess = 3
+
+    trait = education_stewardship_2
+
+    6460.3.19 = {
+        birth = yes
+    }
+
+    6532.4.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_47 = {
+    name = "Matus"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_45
+    mother = tallhart_46
+
+    trait = lustful
+    trait = calm
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 3
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6485.6.14 = {
+        birth = yes
+    }
+
+    6505.7.20 = {
+        add_spouse = tallhart_48
+    }
+
+    6515.8.9 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+tallhart_48 = {
+    name = "Lyessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = arbitrary
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_2
+
+    6488.4.21 = {
+        birth = yes
+    }
+
+    6571.11.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_49 = {
+    name = "Rykissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_47
+    mother = tallhart_48
+
+    trait = lustful
+    trait = lazy
+    trait = impatient
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    6505.3.22 = {
+        birth = yes
+    }
+
+    6582.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_50 = {
+    name = "Magar"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_47
+    mother = tallhart_48
+
+    trait = calm
+    trait = forgiving
+    trait = cynical
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 9
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    6506.7.27 = {
+        birth = yes
+    }
+
+    6537.3.20 = {
+        add_spouse = tallhart_51
+    }
+
+    6577.12.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_51 = {
+    name = "Gilliane"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = sadistic
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    6520.7.26 = {
+        birth = yes
+    }
+
+    6591.5.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_52 = {
+    name = "Beron"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_45
+    mother = tallhart_46
+
+    trait = callous
+    trait = gregarious
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 4
+    intrigue = 8
+    learning = 9
+    prowess = 8
+
+    trait = education_learning_3
+
+    6491.6.28 = {
+        birth = yes
+    }
+
+    6509.3.15 = {
+        add_spouse = tallhart_53
+    }
+
+    6561.8.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_53 = {
+    name = "Ewalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = impatient
+    trait = calm
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 4
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_2
+
+    6492.11.16 = {
+        birth = yes
+    }
+
+    6573.9.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_54 = {
+    name = "Oraeya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_52
+    mother = tallhart_53
+
+    trait = zealous
+    trait = impatient
+    trait = calm
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 8
+    learning = 11
+    prowess = 8
+
+    trait = education_learning_4
+
+    6512.7.18 = {
+        birth = yes
+    }
+
+    6585.12.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_55 = {
+    name = "Arra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_52
+    mother = tallhart_53
+
+    trait = sadistic
+    trait = temperate
+    trait = greedy
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 9
+    learning = 8
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6518.9.25 = {
+        birth = yes
+    }
+
+    6587.6.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_56 = {
+    name = "Streen"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_52
+    mother = tallhart_53
+
+    trait = gluttonous
+    trait = lustful
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    6522.4.6 = {
+        birth = yes
+    }
+
+    6559.9.17 = {
+        add_spouse = tallhart_57
+    }
+
+    6599.7.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_57 = {
+    name = "Jolanta"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = compassionate
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_3
+
+    6542.9.5 = {
+        birth = yes
+    }
+
+    6611.1.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_58 = {
+    name = "Mikken"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_45
+    mother = tallhart_46
+
+    trait = callous
+    trait = gregarious
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 4
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6495.8.19 = {
+        birth = yes
+    }
+
+    6518.2.3 = {
+        add_spouse = tallhart_59
+    }
+
+    6566.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_59 = {
+    name = "Igrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = diligent
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 8
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6501.10.1 = {
+        birth = yes
+    }
+
+    6576.6.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_60 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_58
+    mother = tallhart_59
+
+    trait = sadistic
+    trait = forgiving
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6518.5.24 = {
+        birth = yes
+    }
+
+    6576.4.12 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+tallhart_61 = {
+    name = "Hareth"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_58
+    mother = tallhart_59
+
+    trait = compassionate
+    trait = calm
+    trait = shy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    6528.1.28 = {
+        birth = yes
+    }
+
+    6557.12.26 = {
+        add_spouse = tallhart_62
+    }
+
+    6599.5.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_62 = {
+    name = "Maege"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = cynical
+    trait = wrathful
+    trait = craven
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_4
+
+    6540.3.22 = {
+        birth = yes
+    }
+
+    6610.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_63 = {
+    name = "Alys"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_3
+    mother = tallhart_4
+
+    trait = sadistic
+    trait = craven
+    trait = stubborn
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 4
+    intrigue = 10
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6390.6.19 = {
+        birth = yes
+    }
+
+    6473.5.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_64 = {
+    name = "Rolfwyn"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_3
+    mother = tallhart_4
+
+    trait = craven
+    trait = honest
+    trait = patient
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6395.7.6 = {
+        birth = yes
+    }
+
+    6415.9.18 = {
+        add_spouse = tallhart_65
+    }
+
+    6436.3.19 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+tallhart_65 = {
+    name = "Jynessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = cynical
+    trait = brave
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 4
+    learning = 2
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6398.6.15 = {
+        birth = yes
+    }
+
+    6473.12.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_66 = {
+    name = "Frodoi"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_64
+    mother = tallhart_65
+
+    trait = lustful
+    trait = greedy
+    trait = zealous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 8
+    intrigue = 3
+    learning = 9
+    prowess = 3
+
+    trait = education_learning_2
+
+    6434.6.5 = {
+        birth = yes
+    }
+
+    6481.9.8 = {
+        add_spouse = tallhart_67
+    }
+
+    6507.5.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_67 = {
+    name = "Sera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = just
+    trait = patient
+    trait = compassionate
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 5
+    intrigue = 9
+    learning = 5
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    6464.4.22 = {
+        birth = yes
+    }
+
+    6536.5.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_68 = {
+    name = "Byam"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_66
+    mother = tallhart_67
+
+    trait = chaste
+    trait = generous
+    trait = ambitious
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6486.4.9 = {
+        birth = yes
+    }
+
+    6527.8.26 = {
+        add_spouse = tallhart_69
+    }
+
+    6568.7.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_69 = {
+    name = "Arra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = greedy
+    trait = shy
+    trait = lazy
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_4
+
+    6510.12.28 = {
+        birth = yes
+    }
+
+    6583.12.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_70 = {
+    name = "Klas"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_68
+    mother = tallhart_69
+
+    trait = generous
+    trait = fickle
+    trait = impatient
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 4
+    learning = 6
+    prowess = 11
+
+    trait = education_stewardship_4
+
+    6547.3.8 = {
+        birth = yes
+    }
+
+    6579.8.10 = {
+        add_spouse = tallhart_71
+    }
+
+    6593.10.13 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+tallhart_71 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = just
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_2
+
+    6562.1.22 = {
+        birth = yes
+    }
+
+    6642.1.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_72 = {
+    name = "Mattis"
+
+    dynasty = dynasty_tallhart
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_70
+    mother = tallhart_71
+
+    trait = calm
+    trait = impatient
+    trait = temperate
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 4
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6580.2.26 = {
+        birth = yes
+    }
+
+    6606.4.20 = {
+        add_spouse = tallhart_73
+    }
+
+    6665.10.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_73 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = zealous
+    trait = craven
+    trait = just
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 8
+    intrigue = 2
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    6589.9.19 = {
+        birth = yes
+    }
+
+    6662.1.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_74 = {
+    name = "Dacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_70
+    mother = tallhart_71
+
+    trait = ambitious
+    trait = patient
+    trait = diligent
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_learning_3
+
+    6583.1.4 = {
+        birth = yes
+    }
+
+    6654.9.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_75 = {
+    name = "Caty"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_70
+    mother = tallhart_71
+
+    trait = cynical
+    trait = gluttonous
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 11
+    intrigue = 9
+    learning = 4
+    prowess = 9
+
+    trait = education_stewardship_4
+
+    6586.9.21 = {
+        birth = yes
+    }
+
+    6659.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_76 = {
+    name = "Izabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_66
+    mother = tallhart_67
+
+    trait = stubborn
+    trait = deceitful
+    trait = humble
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 7
+    intrigue = 10
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6490.6.14 = {
+        birth = yes
+    }
+
+    6575.8.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+tallhart_77 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = tallhart_66
+    mother = tallhart_67
+
+    trait = trusting
+    trait = just
+    trait = impatient
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 2
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6491.3.20 = {
+        birth = yes
+    }
+
+    6563.2.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

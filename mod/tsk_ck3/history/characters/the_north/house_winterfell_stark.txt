@@ -1,0 +1,1916 @@
+stark_1 = {
+    name = "Stan"
+
+    dynasty = dynasty_stark
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = gregarious
+    trait = cynical
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_4
+
+    6300.7.20 = {
+        birth = yes
+    }
+
+    6321.9.4 = {
+        add_spouse = stark_2
+    }
+
+    6380.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_2 = {
+    name = "Maegi"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = cynical
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6304.12.20 = {
+        birth = yes
+    }
+
+    6377.7.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_3 = {
+    name = "Frodoi"
+
+    dynasty = dynasty_stark
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_1
+    mother = stark_2
+
+    trait = zealous
+    trait = vengeful
+    trait = callous
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 3
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6336.7.20 = {
+        birth = yes
+    }
+
+    6382.7.8 = {
+        add_spouse = stark_4
+    }
+
+    6415.2.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_4 = {
+    name = "Lyanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = compassionate
+    trait = craven
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 3
+    learning = 9
+    prowess = 10
+
+    trait = education_learning_2
+
+    6365.7.14 = {
+        birth = yes
+    }
+
+    6436.9.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_5 = {
+    name = "Domeric"
+
+    dynasty = dynasty_stark
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_3
+    mother = stark_4
+
+    trait = ambitious
+    trait = chaste
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6387.8.1 = {
+        birth = yes
+    }
+
+    6418.12.16 = {
+        add_spouse = stark_6
+    }
+
+    6464.6.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_6 = {
+    name = "Tessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = gluttonous
+    trait = trusting
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    6401.3.1 = {
+        birth = yes
+    }
+
+    6478.2.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_7 = {
+    name = "Berta"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_5
+    mother = stark_6
+
+    trait = stubborn
+    trait = greedy
+    trait = paranoid
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 5
+    intrigue = 3
+    learning = 8
+    prowess = 2
+
+    trait = education_martial_2
+
+    6424.4.9 = {
+        birth = yes
+    }
+
+    6504.1.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_8 = {
+    name = "Torkel"
+
+    dynasty = dynasty_stark
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_5
+    mother = stark_6
+
+    trait = paranoid
+    trait = ambitious
+    trait = shy
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 9
+    intrigue = 5
+    learning = 5
+    prowess = 2
+
+    trait = education_stewardship_4
+
+    6428.10.9 = {
+        birth = yes
+    }
+
+    6463.4.23 = {
+        add_spouse = stark_9
+    }
+
+    6495.5.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_9 = {
+    name = "Lynarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = diligent
+    trait = deceitful
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    6446.10.19 = {
+        birth = yes
+    }
+
+    6512.4.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_10 = {
+    name = "Edwyn"
+
+    dynasty = dynasty_stark
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_8
+    mother = stark_9
+
+    trait = stubborn
+    trait = generous
+    trait = impatient
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_3
+
+    6473.8.17 = {
+        birth = yes
+    }
+
+    6494.9.12 = {
+        add_spouse = stark_11
+    }
+
+    6548.7.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_11 = {
+    name = "Kyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = just
+    trait = lustful
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 8
+    intrigue = 4
+    learning = 6
+    prowess = 2
+
+    trait = education_diplomacy_3
+
+    6477.2.10 = {
+        birth = yes
+    }
+
+    6552.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_12 = {
+    name = "Streen"
+
+    dynasty = dynasty_stark
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_10
+    mother = stark_11
+
+    trait = generous
+    trait = shy
+    trait = brave
+
+    diplomacy = 10
+    martial = 3
+    stewardship = 8
+    intrigue = 3
+    learning = 10
+    prowess = 11
+
+    trait = education_diplomacy_3
+
+    6508.2.18 = {
+        birth = yes
+    }
+
+    6531.8.12 = {
+        add_spouse = stark_13
+    }
+
+    6578.9.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_13 = {
+    name = "Meliana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = callous
+    trait = patient
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 4
+    intrigue = 5
+    learning = 2
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6514.10.3 = {
+        birth = yes
+    }
+
+    6598.10.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_14 = {
+    name = "Ilyssi"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_12
+    mother = stark_13
+
+    trait = paranoid
+    trait = wrathful
+    trait = ambitious
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 3
+    intrigue = 7
+    learning = 6
+    prowess = 9
+
+    trait = education_martial_2
+
+    6537.9.15 = {
+        birth = yes
+    }
+
+    6614.7.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_15 = {
+    name = "Frenya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_12
+    mother = stark_13
+
+    trait = diligent
+    trait = fickle
+    trait = wrathful
+
+    diplomacy = 1
+    martial = 9
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_4
+
+    6542.1.15 = {
+        birth = yes
+    }
+
+    6622.11.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_16 = {
+    name = "Jolyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_12
+    mother = stark_13
+
+    trait = vengeful
+    trait = diligent
+    trait = ambitious
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 11
+
+    trait = education_martial_3
+
+    6547.6.12 = {
+        birth = yes
+    }
+
+    6628.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_17 = {
+    name = "Domeric"
+
+    dynasty = dynasty_stark
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_12
+    mother = stark_13
+
+    trait = stubborn
+    trait = lustful
+    trait = cynical
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 5
+    intrigue = 10
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6548.11.9 = {
+        birth = yes
+    }
+
+    6570.9.12 = {
+        add_spouse = stark_18
+    }
+
+    6618.5.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_18 = {
+    name = "Cersera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = cynical
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6553.10.16 = {
+        birth = yes
+    }
+
+    6619.5.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_19 = {
+    name = "Eva"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_10
+    mother = stark_11
+
+    trait = calm
+    trait = craven
+    trait = paranoid
+
+    diplomacy = 10
+    martial = 2
+    stewardship = 7
+    intrigue = 9
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6512.2.27 = {
+        birth = yes
+    }
+
+    6582.4.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_20 = {
+    name = "Magar"
+
+    dynasty = dynasty_stark
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_5
+    mother = stark_6
+
+    trait = just
+    trait = ambitious
+    trait = craven
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 3
+    intrigue = 2
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_4
+
+    6429.9.14 = {
+        birth = yes
+    }
+
+    6447.6.20 = {
+        add_spouse = stark_21
+    }
+
+    6457.11.15 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+stark_21 = {
+    name = "Gil"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = temperate
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 8
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6430.9.16 = {
+        birth = yes
+    }
+
+    6514.6.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_22 = {
+    name = "Craster"
+
+    dynasty = dynasty_stark
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_20
+    mother = stark_21
+
+    trait = brave
+    trait = stubborn
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6447.8.7 = {
+        birth = yes
+    }
+
+    6448.1.26 = {
+        give_nickname = nick_the_conqueror
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6490.3.1 = {
+        add_spouse = stark_23
+    }
+
+    6527.4.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_23 = {
+    name = "Orya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = just
+    trait = cynical
+    trait = lazy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_2
+
+    6473.11.21 = {
+        birth = yes
+    }
+
+    6544.8.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_24 = {
+    name = "Edwyn"
+
+    dynasty = dynasty_stark
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_22
+    mother = stark_23
+
+    trait = arbitrary
+    trait = gregarious
+    trait = deceitful
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 9
+    intrigue = 3
+    learning = 8
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    6509.11.8 = {
+        birth = yes
+    }
+
+    6550.9.22 = {
+        add_spouse = stark_25
+    }
+
+    6592.11.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_25 = {
+    name = "Fanni"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = humble
+    trait = shy
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6533.5.8 = {
+        birth = yes
+    }
+
+    6600.12.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_26 = {
+    name = "Larence"
+
+    dynasty = dynasty_stark
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_24
+    mother = stark_25
+
+    trait = sadistic
+    trait = chaste
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 10
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6555.10.2 = {
+        birth = yes
+    }
+
+    6595.5.21 = {
+        add_spouse = stark_27
+    }
+
+    6627.8.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_27 = {
+    name = "Rikissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = wrathful
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 3
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_3
+
+    6578.4.8 = {
+        birth = yes
+    }
+
+    6658.11.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_28 = {
+    name = "Petwyn"
+
+    dynasty = dynasty_stark
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_24
+    mother = stark_25
+
+    trait = ambitious
+    trait = lustful
+    trait = impatient
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_3
+
+    6558.1.25 = {
+        birth = yes
+    }
+
+    6602.8.5 = {
+        add_spouse = stark_29
+    }
+
+    6635.6.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_29 = {
+    name = "Alyx"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = stubborn
+    trait = lazy
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6585.7.22 = {
+        birth = yes
+    }
+
+    6670.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_30 = {
+    name = "Mallador"
+
+    dynasty = dynasty_stark
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_24
+    mother = stark_25
+
+    trait = fickle
+    trait = arbitrary
+    trait = diligent
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 9
+    intrigue = 5
+    learning = 7
+    prowess = 11
+
+    trait = education_stewardship_2
+
+    6560.7.17 = {
+        birth = yes
+    }
+
+    6606.4.5 = {
+        add_spouse = stark_31
+    }
+
+    6641.8.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_31 = {
+    name = "Wynafryd"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = impatient
+    trait = diligent
+    trait = zealous
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 11
+
+    trait = education_diplomacy_1
+
+    6589.5.18 = {
+        birth = yes
+    }
+
+    6674.11.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_32 = {
+    name = "Lysanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_24
+    mother = stark_25
+
+    trait = fickle
+    trait = lustful
+    trait = gregarious
+
+    diplomacy = 9
+    martial = 2
+    stewardship = 7
+    intrigue = 3
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6565.2.28 = {
+        birth = yes
+    }
+
+    6635.12.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_33 = {
+    name = "Jynessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_20
+    mother = stark_21
+
+    trait = content
+    trait = compassionate
+    trait = stubborn
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_3
+
+    6448.8.5 = {
+        birth = yes
+    }
+
+    6526.10.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_34 = {
+    name = "Pate"
+
+    dynasty = dynasty_stark
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_5
+    mother = stark_6
+
+    trait = sadistic
+    trait = greedy
+    trait = temperate
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 7
+    intrigue = 10
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6430.12.18 = {
+        birth = yes
+    }
+
+    6471.12.16 = {
+        add_spouse = stark_35
+    }
+
+    6510.5.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_35 = {
+    name = "Alysane"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = patient
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 8
+    intrigue = 7
+    learning = 3
+    prowess = 6
+
+    trait = education_martial_1
+
+    6454.6.20 = {
+        birth = yes
+    }
+
+    6537.8.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_36 = {
+    name = "Mark"
+
+    dynasty = dynasty_stark
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_34
+    mother = stark_35
+
+    trait = greedy
+    trait = brave
+    trait = honest
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6478.2.15 = {
+        birth = yes
+    }
+
+    6500.6.12 = {
+        add_spouse = stark_37
+    }
+
+    6559.9.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_37 = {
+    name = "Sera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = callous
+    trait = gluttonous
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    6483.7.7 = {
+        birth = yes
+    }
+
+    6568.8.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_38 = {
+    name = "Baldr"
+
+    dynasty = dynasty_stark
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_36
+    mother = stark_37
+
+    trait = content
+    trait = compassionate
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 6
+    intrigue = 9
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_2
+
+    6504.11.21 = {
+        birth = yes
+    }
+
+    6529.2.23 = {
+        add_spouse = stark_39
+    }
+
+    6589.7.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_39 = {
+    name = "Tora"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = impatient
+    trait = calm
+    trait = diligent
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 4
+    intrigue = 7
+    learning = 10
+    prowess = 8
+
+    trait = education_learning_3
+
+    6512.12.9 = {
+        birth = yes
+    }
+
+    6539.8.7 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+stark_40 = {
+    name = "Mors"
+
+    dynasty = dynasty_stark
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_38
+    mother = stark_39
+
+    trait = calm
+    trait = stubborn
+    trait = diligent
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 8
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6530.11.20 = {
+        birth = yes
+    }
+
+    6575.9.26 = {
+        add_spouse = stark_41
+    }
+
+    6601.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_41 = {
+    name = "Alys"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = deceitful
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 10
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6558.3.15 = {
+        birth = yes
+    }
+
+    6637.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_42 = {
+    name = "Gregeroi"
+
+    dynasty = dynasty_stark
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_38
+    mother = stark_39
+
+    trait = stubborn
+    trait = zealous
+    trait = shy
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 10
+    intrigue = 2
+    learning = 10
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6532.11.13 = {
+        birth = yes
+    }
+
+    6560.8.7 = {
+        add_spouse = stark_43
+    }
+
+    6615.11.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_43 = {
+    name = "Rikyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = lazy
+    trait = callous
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 3
+    intrigue = 8
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6543.3.14 = {
+        birth = yes
+    }
+
+    6614.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_44 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_38
+    mother = stark_39
+
+    trait = forgiving
+    trait = craven
+    trait = callous
+
+    diplomacy = 11
+    martial = 6
+    stewardship = 1
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6533.10.6 = {
+        birth = yes
+    }
+
+    6606.12.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_45 = {
+    name = "Alyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_38
+    mother = stark_39
+
+    trait = ambitious
+    trait = humble
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    6534.3.18 = {
+        birth = yes
+    }
+
+    6608.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_46 = {
+    name = "Torrhen"
+
+    dynasty = dynasty_stark
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_36
+    mother = stark_37
+
+    trait = arbitrary
+    trait = lazy
+    trait = greedy
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 9
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6505.8.20 = {
+        birth = yes
+    }
+
+    6541.5.25 = {
+        add_spouse = stark_47
+    }
+
+    6575.5.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_47 = {
+    name = "Jolyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = craven
+    trait = greedy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 9
+    learning = 7
+    prowess = 3
+
+    trait = education_intrigue_2
+
+    6524.3.18 = {
+        birth = yes
+    }
+
+    6593.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_48 = {
+    name = "Wylis"
+
+    dynasty = dynasty_stark
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_46
+    mother = stark_47
+
+    trait = diligent
+    trait = compassionate
+    trait = generous
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 9
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    6556.8.4 = {
+        birth = yes
+    }
+
+    6570.11.26 = {
+        add_spouse = stark_49
+    }
+
+    6629.5.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_49 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = forgiving
+    trait = temperate
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_4
+
+    6553.3.18 = {
+        birth = yes
+    }
+
+    6627.11.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_50 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_36
+    mother = stark_37
+
+    trait = zealous
+    trait = humble
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6511.4.21 = {
+        birth = yes
+    }
+
+    6578.3.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_51 = {
+    name = "Rogar"
+
+    dynasty = dynasty_stark
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_36
+    mother = stark_37
+
+    trait = compassionate
+    trait = cynical
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 8
+
+    trait = education_martial_3
+
+    6514.8.21 = {
+        birth = yes
+    }
+
+    6536.9.4 = {
+        add_spouse = stark_52
+    }
+
+    6546.12.13 = {
+        death = { death_reason = death_piteously_cut_down }
+    }
+}
+
+stark_52 = {
+    name = "Osha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = chaste
+    trait = brave
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6519.7.12 = {
+        birth = yes
+    }
+
+    6586.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_53 = {
+    name = "Frenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_51
+    mother = stark_52
+
+    trait = forgiving
+    trait = sadistic
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_3
+
+    6539.9.11 = {
+        birth = yes
+    }
+
+    6619.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_54 = {
+    name = "Rolfwyn"
+
+    dynasty = dynasty_stark
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_51
+    mother = stark_52
+
+    trait = humble
+    trait = stubborn
+    trait = content
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    6541.6.18 = {
+        birth = yes
+    }
+
+    6577.2.27 = {
+        add_spouse = stark_55
+    }
+
+    6616.9.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_55 = {
+    name = "Rikissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = paranoid
+    trait = patient
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6560.2.25 = {
+        birth = yes
+    }
+
+    6629.11.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_56 = {
+    name = "Casamir"
+
+    dynasty = dynasty_stark
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_51
+    mother = stark_52
+
+    trait = gluttonous
+    trait = craven
+    trait = diligent
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6543.3.20 = {
+        birth = yes
+    }
+
+    6563.9.24 = {
+        add_spouse = stark_57
+    }
+
+    6609.11.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_57 = {
+    name = "Tessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = shy
+    trait = trusting
+    trait = cynical
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 4
+    intrigue = 8
+    learning = 9
+    prowess = 5
+
+    trait = education_martial_4
+
+    6546.4.5 = {
+        birth = yes
+    }
+
+    6619.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_58 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_34
+    mother = stark_35
+
+    trait = humble
+    trait = vengeful
+    trait = shy
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 1
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6482.12.10 = {
+        birth = yes
+    }
+
+    6560.3.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+stark_59 = {
+    name = "Sera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = stark_34
+    mother = stark_35
+
+    trait = honest
+    trait = gregarious
+    trait = content
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6484.10.25 = {
+        birth = yes
+    }
+
+    6566.5.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

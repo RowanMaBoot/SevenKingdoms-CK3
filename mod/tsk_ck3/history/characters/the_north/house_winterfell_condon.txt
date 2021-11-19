@@ -1,0 +1,969 @@
+condon_1 = {
+    name = "Roose"
+
+    dynasty = dynasty_condon
+    religion = the_old_gods
+    culture = northmen
+
+    trait = shy
+    trait = sadistic
+    trait = generous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_2
+
+    6300.7.6 = {
+        birth = yes
+    }
+
+    6322.8.19 = {
+        add_spouse = condon_2
+    }
+
+    6381.12.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_2 = {
+    name = "Raya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = paranoid
+    trait = vengeful
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 10
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6305.1.16 = {
+        birth = yes
+    }
+
+    6374.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_3 = {
+    name = "Bennard"
+
+    dynasty = dynasty_condon
+    religion = the_old_gods
+    culture = northmen
+
+    father = condon_1
+    mother = condon_2
+
+    trait = temperate
+    trait = vengeful
+    trait = zealous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 2
+    prowess = 10
+
+    trait = education_diplomacy_2
+
+    6332.12.22 = {
+        birth = yes
+    }
+
+    6366.6.22 = {
+        add_spouse = condon_4
+    }
+
+    6411.7.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_4 = {
+    name = "Shiera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = lustful
+    trait = trusting
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 2
+
+    trait = education_diplomacy_4
+
+    6349.10.17 = {
+        birth = yes
+    }
+
+    6418.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_5 = {
+    name = "Anun"
+
+    dynasty = dynasty_condon
+    religion = the_old_gods
+    culture = northmen
+
+    father = condon_3
+    mother = condon_4
+
+    trait = impatient
+    trait = lazy
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 3
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    6381.9.16 = {
+        birth = yes
+    }
+
+    6417.12.15 = {
+        add_spouse = condon_6
+    }
+
+    6456.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_6 = {
+    name = "Kamyla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = paranoid
+    trait = zealous
+    trait = callous
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 3
+
+    trait = education_stewardship_1
+
+    6400.6.7 = {
+        birth = yes
+    }
+
+    6466.11.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_7 = {
+    name = "Kollen"
+
+    dynasty = dynasty_condon
+    religion = the_old_gods
+    culture = northmen
+
+    father = condon_5
+    mother = condon_6
+
+    trait = deceitful
+    trait = chaste
+    trait = zealous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 10
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    6437.11.20 = {
+        birth = yes
+    }
+
+    6460.6.16 = {
+        add_spouse = condon_8
+    }
+
+    6505.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_8 = {
+    name = "Dacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = humble
+    trait = lazy
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 9
+
+    trait = education_martial_3
+
+    6443.4.23 = {
+        birth = yes
+    }
+
+    6518.10.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_9 = {
+    name = "Howland"
+
+    dynasty = dynasty_condon
+    religion = the_old_gods
+    culture = northmen
+
+    father = condon_7
+    mother = condon_8
+
+    trait = generous
+    trait = stubborn
+    trait = trusting
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_3
+
+    6466.9.17 = {
+        birth = yes
+    }
+
+    6498.10.28 = {
+        add_spouse = condon_10
+    }
+
+    6508.6.14 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+condon_10 = {
+    name = "Osha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = humble
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 8
+    intrigue = 4
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_1
+
+    6481.9.13 = {
+        birth = yes
+    }
+
+    6548.9.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_11 = {
+    name = "Robin"
+
+    dynasty = dynasty_condon
+    religion = the_old_gods
+    culture = northmen
+
+    father = condon_9
+    mother = condon_10
+
+    trait = trusting
+    trait = compassionate
+    trait = humble
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6507.4.7 = {
+        birth = yes
+    }
+
+    6523.4.10 = {
+        add_spouse = condon_12
+    }
+
+    6573.4.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_12 = {
+    name = "Anna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = lazy
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    6506.2.3 = {
+        birth = yes
+    }
+
+    6589.8.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_13 = {
+    name = "Mors"
+
+    dynasty = dynasty_condon
+    religion = the_old_gods
+    culture = northmen
+
+    father = condon_11
+    mother = condon_12
+
+    trait = wrathful
+    trait = compassionate
+    trait = honest
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 8
+    intrigue = 3
+    learning = 3
+    prowess = 2
+
+    trait = education_stewardship_4
+
+    6551.10.13 = {
+        birth = yes
+    }
+
+    6574.12.22 = {
+        add_spouse = condon_14
+    }
+
+    6622.8.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_14 = {
+    name = "Orya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = just
+    trait = gregarious
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6557.5.15 = {
+        birth = yes
+    }
+
+    6629.6.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_15 = {
+    name = "Ulf"
+
+    dynasty = dynasty_condon
+    religion = the_old_gods
+    culture = northmen
+
+    father = condon_7
+    mother = condon_8
+
+    trait = temperate
+    trait = honest
+    trait = humble
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 3
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_4
+
+    6472.11.18 = {
+        birth = yes
+    }
+
+    6508.6.4 = {
+        add_spouse = condon_16
+    }
+
+    6543.11.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_16 = {
+    name = "Igrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = callous
+    trait = greedy
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 7
+    intrigue = 3
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_2
+
+    6491.10.28 = {
+        birth = yes
+    }
+
+    6569.11.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_17 = {
+    name = "Jon"
+
+    dynasty = dynasty_condon
+    religion = the_old_gods
+    culture = northmen
+
+    father = condon_15
+    mother = condon_16
+
+    trait = diligent
+    trait = temperate
+    trait = fickle
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6514.12.8 = {
+        birth = yes
+    }
+
+    6543.10.24 = {
+        add_spouse = condon_18
+    }
+
+    6590.1.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_18 = {
+    name = "Lydann"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = calm
+    trait = greedy
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 9
+    prowess = 9
+
+    trait = education_learning_2
+
+    6526.10.24 = {
+        birth = yes
+    }
+
+    6602.6.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_19 = {
+    name = "Vesimar"
+
+    dynasty = dynasty_condon
+    religion = the_old_gods
+    culture = northmen
+
+    father = condon_17
+    mother = condon_18
+
+    trait = forgiving
+    trait = calm
+    trait = callous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 10
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6545.5.27 = {
+        birth = yes
+    }
+
+    6581.10.16 = {
+        add_spouse = condon_20
+    }
+
+    6626.7.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_20 = {
+    name = "Darlessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = stubborn
+    trait = honest
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 8
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6564.11.14 = {
+        birth = yes
+    }
+
+    6630.6.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_21 = {
+    name = "Ansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = condon_17
+    mother = condon_18
+
+    trait = paranoid
+    trait = impatient
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6554.7.3 = {
+        birth = yes
+    }
+
+    6632.12.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_22 = {
+    name = "Hother"
+
+    dynasty = dynasty_condon
+    religion = the_old_gods
+    culture = northmen
+
+    father = condon_17
+    mother = condon_18
+
+    trait = gluttonous
+    trait = cynical
+    trait = impatient
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 8
+    prowess = 9
+
+    trait = education_learning_2
+
+    6559.12.13 = {
+        birth = yes
+    }
+
+    6588.11.14 = {
+        add_spouse = condon_23
+    }
+
+    6603.12.9 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+condon_23 = {
+    name = "Ewalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = arbitrary
+    trait = lazy
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6571.1.21 = {
+        birth = yes
+    }
+
+    6637.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_24 = {
+    name = "Ricardya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = condon_15
+    mother = condon_16
+
+    trait = sadistic
+    trait = calm
+    trait = deceitful
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6519.11.21 = {
+        birth = yes
+    }
+
+    6538.12.2 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+condon_25 = {
+    name = "Kennya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = condon_15
+    mother = condon_16
+
+    trait = trusting
+    trait = impatient
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    6522.11.14 = {
+        birth = yes
+    }
+
+    6606.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_26 = {
+    name = "Baldr"
+
+    dynasty = dynasty_condon
+    religion = the_old_gods
+    culture = northmen
+
+    father = condon_15
+    mother = condon_16
+
+    trait = craven
+    trait = trusting
+    trait = compassionate
+
+    diplomacy = 11
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6526.4.26 = {
+        birth = yes
+    }
+
+    6550.11.17 = {
+        add_spouse = condon_27
+    }
+
+    6607.7.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_27 = {
+    name = "Tylissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = just
+    trait = craven
+    trait = content
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6533.5.7 = {
+        birth = yes
+    }
+
+    6601.1.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_28 = {
+    name = "Kollen"
+
+    dynasty = dynasty_condon
+    religion = the_old_gods
+    culture = northmen
+
+    father = condon_26
+    mother = condon_27
+
+    trait = craven
+    trait = trusting
+    trait = patient
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 9
+
+    trait = education_intrigue_4
+
+    6573.6.8 = {
+        birth = yes
+    }
+
+    6591.3.3 = {
+        add_spouse = condon_29
+    }
+
+    6639.2.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_29 = {
+    name = "Rykissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = craven
+    trait = deceitful
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 3
+    intrigue = 5
+    learning = 9
+    prowess = 8
+
+    trait = education_learning_3
+
+    6574.3.8 = {
+        birth = yes
+    }
+
+    6641.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+condon_30 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = condon_7
+    mother = condon_8
+
+    trait = paranoid
+    trait = generous
+    trait = brave
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 2
+    intrigue = 4
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_2
+
+    6474.11.1 = {
+        birth = yes
+    }
+
+    6555.3.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

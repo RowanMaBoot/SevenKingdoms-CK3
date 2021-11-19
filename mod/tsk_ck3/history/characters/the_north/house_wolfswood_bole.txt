@@ -1,0 +1,806 @@
+bole_1 = {
+    name = "Starkad"
+
+    dynasty = dynasty_bole
+    religion = the_old_gods
+    culture = northmen
+
+    trait = just
+    trait = gregarious
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 6
+    prowess = 2
+
+    trait = education_learning_4
+
+    6300.2.22 = {
+        birth = yes
+    }
+
+    6314.8.15 = {
+        add_spouse = bole_2
+    }
+
+    6369.2.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bole_2 = {
+    name = "Kyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = generous
+    trait = just
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 4
+
+    trait = education_martial_3
+
+    6297.7.17 = {
+        birth = yes
+    }
+
+    6375.12.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bole_3 = {
+    name = "Leobald"
+
+    dynasty = dynasty_bole
+    religion = the_old_gods
+    culture = northmen
+
+    father = bole_1
+    mother = bole_2
+
+    trait = generous
+    trait = craven
+    trait = lustful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 3
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6333.11.12 = {
+        birth = yes
+    }
+
+    6369.3.18 = {
+        add_spouse = bole_4
+    }
+
+    6405.6.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bole_4 = {
+    name = "Kennya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = ambitious
+    trait = fickle
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_4
+
+    6352.7.15 = {
+        birth = yes
+    }
+
+    6432.6.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bole_5 = {
+    name = "Vesamir"
+
+    dynasty = dynasty_bole
+    religion = the_old_gods
+    culture = northmen
+
+    father = bole_3
+    mother = bole_4
+
+    trait = wrathful
+    trait = patient
+    trait = zealous
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 2
+
+    trait = education_intrigue_2
+
+    6377.3.11 = {
+        birth = yes
+    }
+
+    6405.6.19 = {
+        add_spouse = bole_6
+    }
+
+    6459.8.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bole_6 = {
+    name = "Jaisyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = greedy
+    trait = honest
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 3
+    prowess = 6
+
+    trait = education_martial_2
+
+    6388.6.14 = {
+        birth = yes
+    }
+
+    6454.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bole_7 = {
+    name = "Frenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = bole_5
+    mother = bole_6
+
+    trait = lustful
+    trait = impatient
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 10
+    intrigue = 11
+    learning = 8
+    prowess = 10
+
+    trait = education_intrigue_2
+
+    6412.7.9 = {
+        birth = yes
+    }
+
+    6485.2.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bole_8 = {
+    name = "Andren"
+
+    dynasty = dynasty_bole
+    religion = the_old_gods
+    culture = northmen
+
+    father = bole_5
+    mother = bole_6
+
+    trait = temperate
+    trait = lazy
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6422.5.27 = {
+        birth = yes
+    }
+
+    6471.7.7 = {
+        add_spouse = bole_9
+    }
+
+    6500.9.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bole_9 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = callous
+    trait = zealous
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_2
+
+    6454.7.2 = {
+        birth = yes
+    }
+
+    6522.12.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bole_10 = {
+    name = "Ygritte"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = bole_8
+    mother = bole_9
+
+    trait = impatient
+    trait = trusting
+    trait = temperate
+
+    diplomacy = 10
+    martial = 3
+    stewardship = 7
+    intrigue = 5
+    learning = 4
+    prowess = 1
+
+    trait = education_diplomacy_2
+
+    6478.11.26 = {
+        birth = yes
+    }
+
+    6559.11.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bole_11 = {
+    name = "Hother"
+
+    dynasty = dynasty_bole
+    religion = the_old_gods
+    culture = northmen
+
+    father = bole_8
+    mother = bole_9
+
+    trait = callous
+    trait = shy
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 3
+    prowess = 7
+
+    trait = education_martial_3
+
+    6479.4.3 = {
+        birth = yes
+    }
+
+    6497.2.15 = {
+        add_spouse = bole_12
+    }
+
+    6507.7.20 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+bole_12 = {
+    name = "Alyx"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = zealous
+    trait = calm
+
+    diplomacy = 2
+    martial = 11
+    stewardship = 5
+    intrigue = 3
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_2
+
+    6480.12.19 = {
+        birth = yes
+    }
+
+    6557.1.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bole_13 = {
+    name = "Barba"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = bole_11
+    mother = bole_12
+
+    trait = ambitious
+    trait = fickle
+    trait = patient
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 10
+
+    trait = education_diplomacy_2
+
+    6497.10.16 = {
+        birth = yes
+    }
+
+    6574.4.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bole_14 = {
+    name = "Benjicot"
+
+    dynasty = dynasty_bole
+    religion = the_old_gods
+    culture = northmen
+
+    father = bole_11
+    mother = bole_12
+
+    trait = content
+    trait = gluttonous
+    trait = humble
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 9
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6499.6.18 = {
+        birth = yes
+    }
+
+    6513.4.16 = {
+        add_spouse = bole_15
+    }
+
+    6577.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bole_15 = {
+    name = "Rowena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = arbitrary
+    trait = lustful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 10
+    learning = 11
+    prowess = 3
+
+    trait = education_learning_4
+
+    6496.2.10 = {
+        birth = yes
+    }
+
+    6567.2.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bole_16 = {
+    name = "Vesamar"
+
+    dynasty = dynasty_bole
+    religion = the_old_gods
+    culture = northmen
+
+    father = bole_14
+    mother = bole_15
+
+    trait = honest
+    trait = zealous
+    trait = callous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 8
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6522.8.8 = {
+        birth = yes
+    }
+
+    6559.1.26 = {
+        add_spouse = bole_17
+    }
+
+    6597.11.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bole_17 = {
+    name = "Maege"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = patient
+    trait = compassionate
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 10
+    intrigue = 10
+    learning = 7
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6542.3.7 = {
+        birth = yes
+    }
+
+    6613.4.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bole_18 = {
+    name = "Heward"
+
+    dynasty = dynasty_bole
+    religion = the_old_gods
+    culture = northmen
+
+    father = bole_14
+    mother = bole_15
+
+    trait = gluttonous
+    trait = content
+    trait = patient
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 9
+    intrigue = 9
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    6529.8.6 = {
+        birth = yes
+    }
+
+    6547.2.3 = {
+        add_spouse = bole_19
+    }
+
+    6595.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bole_19 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = greedy
+    trait = diligent
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 9
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6530.6.26 = {
+        birth = yes
+    }
+
+    6601.9.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bole_20 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = bole_14
+    mother = bole_15
+
+    trait = chaste
+    trait = trusting
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_4
+
+    6531.3.26 = {
+        birth = yes
+    }
+
+    6601.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bole_21 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = bole_11
+    mother = bole_12
+
+    trait = craven
+    trait = lustful
+    trait = trusting
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 9
+    intrigue = 9
+    learning = 2
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6500.6.25 = {
+        birth = yes
+    }
+
+    6581.5.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bole_22 = {
+    name = "Skule"
+
+    dynasty = dynasty_bole
+    religion = the_old_gods
+    culture = northmen
+
+    father = bole_11
+    mother = bole_12
+
+    trait = cynical
+    trait = vengeful
+    trait = just
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 8
+    intrigue = 3
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    6501.6.21 = {
+        birth = yes
+    }
+
+    6515.5.28 = {
+        add_spouse = bole_23
+    }
+
+    6571.4.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bole_23 = {
+    name = "Ygritte"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = shy
+    trait = wrathful
+    trait = impatient
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6498.6.1 = {
+        birth = yes
+    }
+
+    6578.2.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bole_24 = {
+    name = "Benjen"
+
+    dynasty = dynasty_bole
+    religion = the_old_gods
+    culture = northmen
+
+    father = bole_22
+    mother = bole_23
+
+    trait = temperate
+    trait = brave
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6532.2.16 = {
+        birth = yes
+    }
+
+    6571.6.6 = {
+        add_spouse = bole_25
+    }
+
+    6612.6.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bole_25 = {
+    name = "Jolyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = forgiving
+    trait = chaste
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6554.8.27 = {
+        birth = yes
+    }
+
+    6620.5.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

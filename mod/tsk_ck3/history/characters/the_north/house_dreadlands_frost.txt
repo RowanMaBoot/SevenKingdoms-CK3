@@ -1,0 +1,3657 @@
+frost_1 = {
+    name = "Danny"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = vengeful
+    trait = fickle
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6300.12.20 = {
+        birth = yes
+    }
+
+    6329.2.3 = {
+        add_spouse = frost_2
+    }
+
+    6380.7.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_2 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = deceitful
+    trait = brave
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6312.2.17 = {
+        birth = yes
+    }
+
+    6387.2.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_3 = {
+    name = "Dog"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_1
+    mother = frost_2
+
+    trait = shy
+    trait = generous
+    trait = lustful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_learning_2
+
+    6343.5.13 = {
+        birth = yes
+    }
+
+    6360.5.25 = {
+        add_spouse = frost_4
+    }
+
+    6419.4.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_4 = {
+    name = "Arrana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = content
+    trait = brave
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    6343.7.11 = {
+        birth = yes
+    }
+
+    6424.10.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_5 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_3
+    mother = frost_4
+
+    trait = deceitful
+    trait = callous
+    trait = paranoid
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 10
+    prowess = 3
+
+    trait = education_learning_4
+
+    6361.10.24 = {
+        birth = yes
+    }
+
+    6443.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_6 = {
+    name = "Robett"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_3
+    mother = frost_4
+
+    trait = arbitrary
+    trait = calm
+    trait = trusting
+
+    diplomacy = 13
+    martial = 16
+    stewardship = 27
+    intrigue = 12
+    learning = 11
+    prowess = 18
+
+    trait = education_stewardship_4
+
+    6363.1.5 = {
+        birth = yes
+    }
+
+    6412.1.23 = {
+        add_spouse = frost_7
+    }
+
+    6439.5.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_7 = {
+    name = "Jaisyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = just
+    trait = lustful
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6395.1.18 = {
+        birth = yes
+    }
+
+    6479.5.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_8 = {
+    name = "Bowen"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_6
+    mother = frost_7
+
+    trait = arrogant
+    trait = paranoid
+    trait = honest
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 4
+    intrigue = 9
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6425.9.16 = {
+        birth = yes
+    }
+
+    6456.7.9 = {
+        add_spouse = frost_9
+    }
+
+    6470.1.23 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+frost_9 = {
+    name = "Gilliane"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = vengeful
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 9
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6439.5.13 = {
+        birth = yes
+    }
+
+    6506.10.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_10 = {
+    name = "Bo"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_8
+    mother = frost_9
+
+    trait = craven
+    trait = lazy
+    trait = paranoid
+
+    diplomacy = 8
+    martial = 10
+    stewardship = 10
+    intrigue = 9
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_3
+
+    6456.4.12 = {
+        birth = yes
+    }
+
+    6499.4.1 = {
+        add_spouse = frost_11
+    }
+
+    6536.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_11 = {
+    name = "Frenya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = gregarious
+    trait = diligent
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6482.10.9 = {
+        birth = yes
+    }
+
+    6549.10.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_12 = {
+    name = "Beron"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_10
+    mother = frost_11
+
+    trait = humble
+    trait = craven
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 1
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    6505.2.16 = {
+        birth = yes
+    }
+
+    6549.8.24 = {
+        add_spouse = frost_13
+    }
+
+    6559.4.21 = {
+        death = { death_reason = death_raid }
+    }
+}
+
+frost_13 = {
+    name = "Judyth"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = chaste
+    trait = paranoid
+    trait = craven
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 6
+    intrigue = 8
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_3
+
+    6532.9.13 = {
+        birth = yes
+    }
+
+    6601.1.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_14 = {
+    name = "Lonnel"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_12
+    mother = frost_13
+
+    trait = sadistic
+    trait = shy
+    trait = content
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 7
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_3
+
+    6550.2.13 = {
+        birth = yes
+    }
+
+    6587.10.20 = {
+        add_spouse = frost_15
+    }
+
+    6597.4.5 = {
+        death = { death_reason = death_mysterious  }
+    }
+}
+
+frost_15 = {
+    name = "Agnyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = temperate
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 2
+
+    trait = education_martial_1
+
+    6570.1.23 = {
+        birth = yes
+    }
+
+    6636.7.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_16 = {
+    name = "Eri"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_12
+    mother = frost_13
+
+    trait = content
+    trait = cynical
+    trait = fickle
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 8
+    intrigue = 3
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    6553.12.25 = {
+        birth = yes
+    }
+
+    6626.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_17 = {
+    name = "Frenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_12
+    mother = frost_13
+
+    trait = calm
+    trait = generous
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6555.2.16 = {
+        birth = yes
+    }
+
+    6562.5.20 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+frost_18 = {
+    name = "Ilyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_12
+    mother = frost_13
+
+    trait = lazy
+    trait = fickle
+    trait = compassionate
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_2
+
+    6556.2.19 = {
+        birth = yes
+    }
+
+    6641.1.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_19 = {
+    name = "Vesamar"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_8
+    mother = frost_9
+
+    trait = diligent
+    trait = impatient
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6457.9.18 = {
+        birth = yes
+    }
+
+    6490.10.27 = {
+        add_spouse = frost_20
+    }
+
+    6501.8.14 = {
+        death = { death_reason = death_beaten }
+    }
+}
+
+frost_20 = {
+    name = "Tyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = craven
+    trait = impatient
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 7
+    prowess = 2
+
+    trait = education_stewardship_3
+
+    6473.11.3 = {
+        birth = yes
+    }
+
+    6552.9.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_21 = {
+    name = "Aefan"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_19
+    mother = frost_20
+
+    trait = arrogant
+    trait = gluttonous
+    trait = compassionate
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6492.5.9 = {
+        birth = yes
+    }
+
+    6521.3.10 = {
+        add_spouse = frost_22
+    }
+
+    6531.3.6 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+frost_22 = {
+    name = "Alysane"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = generous
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 11
+    stewardship = 5
+    intrigue = 9
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_1
+
+    6504.4.25 = {
+        birth = yes
+    }
+
+    6560.9.10 = {
+        death = { death_reason = death_drowned  }
+    }
+}
+
+frost_23 = {
+    name = "Ingarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_21
+    mother = frost_22
+
+    trait = humble
+    trait = lazy
+    trait = impatient
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 10
+    prowess = 4
+
+    trait = education_learning_2
+
+    6526.2.13 = {
+        birth = yes
+    }
+
+    6602.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_24 = {
+    name = "Lawyrence"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_21
+    mother = frost_22
+
+    trait = fickle
+    trait = calm
+    trait = greedy
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_4
+
+    6529.3.25 = {
+        birth = yes
+    }
+
+    6546.9.27 = {
+        add_spouse = frost_25
+    }
+
+    6608.10.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_25 = {
+    name = "Mariah"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = impatient
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 5
+    intrigue = 8
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_4
+
+    6529.7.10 = {
+        birth = yes
+    }
+
+    6608.11.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_26 = {
+    name = "Faya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_19
+    mother = frost_20
+
+    trait = gluttonous
+    trait = ambitious
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 3
+    intrigue = 4
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6495.7.18 = {
+        birth = yes
+    }
+
+    6570.3.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_27 = {
+    name = "Casamor"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_19
+    mother = frost_20
+
+    trait = brave
+    trait = lazy
+    trait = gluttonous
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6497.1.2 = {
+        birth = yes
+    }
+
+    6521.2.1 = {
+        add_spouse = frost_28
+    }
+
+    6576.8.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_28 = {
+    name = "Krysti"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = patient
+    trait = fickle
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 8
+    intrigue = 5
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_3
+
+    6504.5.1 = {
+        birth = yes
+    }
+
+    6573.8.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_29 = {
+    name = "Teo"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_27
+    mother = frost_28
+
+    trait = content
+    trait = just
+    trait = greedy
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 7
+    intrigue = 11
+    learning = 5
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    6524.9.16 = {
+        birth = yes
+    }
+
+    6574.4.8 = {
+        add_spouse = frost_30
+    }
+
+    6590.6.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_30 = {
+    name = "Ely"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = impatient
+    trait = trusting
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 4
+    intrigue = 9
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6557.6.11 = {
+        birth = yes
+    }
+
+    6632.9.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_31 = {
+    name = "Cecil"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_27
+    mother = frost_28
+
+    trait = gregarious
+    trait = lazy
+    trait = impatient
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_3
+
+    6528.5.28 = {
+        birth = yes
+    }
+
+    6608.9.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_32 = {
+    name = "Magar"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_27
+    mother = frost_28
+
+    trait = humble
+    trait = content
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6534.4.18 = {
+        birth = yes
+    }
+
+    6561.9.12 = {
+        add_spouse = frost_33
+    }
+
+    6600.6.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_33 = {
+    name = "Berti"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = calm
+    trait = cynical
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6544.12.1 = {
+        birth = yes
+    }
+
+    6615.1.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_34 = {
+    name = "Wylis"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_3
+    mother = frost_4
+
+    trait = compassionate
+    trait = gregarious
+    trait = calm
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6369.3.1 = {
+        birth = yes
+    }
+
+    6400.8.8 = {
+        add_spouse = frost_35
+    }
+
+    6441.10.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_35 = {
+    name = "Dacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = fickle
+    trait = temperate
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 4
+    intrigue = 3
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6383.5.11 = {
+        birth = yes
+    }
+
+    6466.4.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_36 = {
+    name = "Barbrey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_34
+    mother = frost_35
+
+    trait = diligent
+    trait = patient
+    trait = callous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 11
+    learning = 6
+    prowess = 9
+
+    trait = education_intrigue_2
+
+    6407.11.22 = {
+        birth = yes
+    }
+
+    6487.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_37 = {
+    name = "Jory"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_34
+    mother = frost_35
+
+    trait = greedy
+    trait = patient
+    trait = zealous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 4
+    intrigue = 7
+    learning = 2
+    prowess = 3
+
+    trait = education_martial_1
+
+    6410.7.17 = {
+        birth = yes
+    }
+
+    6448.11.18 = {
+        add_spouse = frost_38
+    }
+
+    6476.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_38 = {
+    name = "Branda"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = impatient
+    trait = lustful
+    trait = brave
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 5
+    intrigue = 9
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6431.3.15 = {
+        birth = yes
+    }
+
+    6511.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_39 = {
+    name = "Ansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_37
+    mother = frost_38
+
+    trait = arbitrary
+    trait = wrathful
+    trait = temperate
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 3
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_2
+
+    6453.8.5 = {
+        birth = yes
+    }
+
+    6528.7.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_40 = {
+    name = "Danny"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_37
+    mother = frost_38
+
+    trait = lazy
+    trait = gregarious
+    trait = temperate
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6456.6.12 = {
+        birth = yes
+    }
+
+    6484.3.7 = {
+        add_spouse = frost_41
+    }
+
+    6527.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_41 = {
+    name = "Cateryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = chaste
+    trait = lazy
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 4
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_2
+
+    6467.11.20 = {
+        birth = yes
+    }
+
+    6534.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_42 = {
+    name = "Harrion"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_40
+    mother = frost_41
+
+    trait = greedy
+    trait = impatient
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_2
+
+    6485.7.10 = {
+        birth = yes
+    }
+
+    6500.3.18 = {
+        add_spouse = frost_43
+    }
+
+    6531.9.4 = {
+        death = { death_reason = death_dungeon  }
+    }
+}
+
+frost_43 = {
+    name = "Kennya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = callous
+    trait = patient
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_4
+
+    6483.7.1 = {
+        birth = yes
+    }
+
+    6556.9.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_44 = {
+    name = "Robard"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_42
+    mother = frost_43
+
+    trait = craven
+    trait = gregarious
+    trait = trusting
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_3
+
+    6526.9.21 = {
+        birth = yes
+    }
+
+    6558.6.14 = {
+        add_spouse = frost_45
+    }
+
+    6606.12.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_45 = {
+    name = "Rowena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = calm
+    trait = patient
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 5
+    intrigue = 2
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_2
+
+    6541.10.5 = {
+        birth = yes
+    }
+
+    6616.7.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_46 = {
+    name = "Dywen"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_40
+    mother = frost_41
+
+    trait = lustful
+    trait = greedy
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_1
+
+    6493.4.2 = {
+        birth = yes
+    }
+
+    6513.4.8 = {
+        add_spouse = frost_47
+    }
+
+    6573.11.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_47 = {
+    name = "Magdalyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = calm
+    trait = brave
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 3
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6496.11.4 = {
+        birth = yes
+    }
+
+    6564.8.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_48 = {
+    name = "Cley"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_46
+    mother = frost_47
+
+    trait = generous
+    trait = chaste
+    trait = impatient
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 2
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6517.6.23 = {
+        birth = yes
+    }
+
+    6562.1.12 = {
+        add_spouse = frost_49
+    }
+
+    6588.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_49 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = deceitful
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_2
+
+    6545.2.12 = {
+        birth = yes
+    }
+
+    6625.1.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_50 = {
+    name = "Hallis"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_46
+    mother = frost_47
+
+    trait = greedy
+    trait = shy
+    trait = content
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 9
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_2
+
+    6526.6.7 = {
+        birth = yes
+    }
+
+    6559.6.9 = {
+        add_spouse = frost_51
+    }
+
+    6599.5.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_51 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = deceitful
+    trait = shy
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 9
+    intrigue = 5
+    learning = 10
+    prowess = 6
+
+    trait = education_learning_2
+
+    6542.11.15 = {
+        birth = yes
+    }
+
+    6619.8.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_52 = {
+    name = "Kyli"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_40
+    mother = frost_41
+
+    trait = ambitious
+    trait = trusting
+    trait = just
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 2
+
+    trait = education_stewardship_4
+
+    6498.8.28 = {
+        birth = yes
+    }
+
+    6583.5.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_53 = {
+    name = "Jorah"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_37
+    mother = frost_38
+
+    trait = zealous
+    trait = sadistic
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 10
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6460.8.26 = {
+        birth = yes
+    }
+
+    6498.8.5 = {
+        add_spouse = frost_54
+    }
+
+    6508.10.19 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+frost_54 = {
+    name = "Ewalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = impatient
+    trait = ambitious
+    trait = cynical
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_3
+
+    6481.4.11 = {
+        birth = yes
+    }
+
+    6555.10.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_55 = {
+    name = "Lidia"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_53
+    mother = frost_54
+
+    trait = craven
+    trait = deceitful
+    trait = cynical
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 4
+    intrigue = 9
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6501.4.14 = {
+        birth = yes
+    }
+
+    6581.4.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_56 = {
+    name = "Alyc"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_53
+    mother = frost_54
+
+    trait = fickle
+    trait = impatient
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 11
+    learning = 2
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6504.5.25 = {
+        birth = yes
+    }
+
+    6552.6.2 = {
+        add_spouse = frost_57
+    }
+
+    6579.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_57 = {
+    name = "Frennie"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = patient
+    trait = just
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 3
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_4
+
+    6535.9.22 = {
+        birth = yes
+    }
+
+    6619.11.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_58 = {
+    name = "Hareth"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_56
+    mother = frost_57
+
+    trait = ambitious
+    trait = wrathful
+    trait = vengeful
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 3
+    learning = 4
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6559.3.20 = {
+        birth = yes
+    }
+
+    6587.11.18 = {
+        add_spouse = frost_59
+    }
+
+    6626.2.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_59 = {
+    name = "Lydann"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = paranoid
+    trait = craven
+    trait = patient
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_3
+
+    6570.6.24 = {
+        birth = yes
+    }
+
+    6653.6.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_60 = {
+    name = "Eri"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_56
+    mother = frost_57
+
+    trait = ambitious
+    trait = compassionate
+    trait = brave
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 9
+    intrigue = 2
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6567.9.7 = {
+        birth = yes
+    }
+
+    6652.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_61 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_53
+    mother = frost_54
+
+    trait = fickle
+    trait = trusting
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 4
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_4
+
+    6505.9.11 = {
+        birth = yes
+    }
+
+    6589.4.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_62 = {
+    name = "Branda"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_34
+    mother = frost_35
+
+    trait = zealous
+    trait = patient
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 10
+
+    trait = education_learning_4
+
+    6412.7.23 = {
+        birth = yes
+    }
+
+    6489.6.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_63 = {
+    name = "Vagmir"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_34
+    mother = frost_35
+
+    trait = shy
+    trait = diligent
+    trait = stubborn
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 11
+    prowess = 7
+
+    trait = education_learning_1
+
+    6413.6.18 = {
+        birth = yes
+    }
+
+    6456.9.9 = {
+        add_spouse = frost_64
+    }
+
+    6466.1.4 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+frost_64 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = arbitrary
+    trait = content
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6439.10.10 = {
+        birth = yes
+    }
+
+    6520.4.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_65 = {
+    name = "Elyiot"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_63
+    mother = frost_64
+
+    trait = ambitious
+    trait = stubborn
+    trait = humble
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 3
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    6456.10.10 = {
+        birth = yes
+    }
+
+    6493.10.8 = {
+        add_spouse = frost_66
+    }
+
+    6527.11.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_66 = {
+    name = "Osha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = forgiving
+    trait = patient
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 2
+    prowess = 6
+
+    trait = education_martial_1
+
+    6476.10.18 = {
+        birth = yes
+    }
+
+    6542.6.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_67 = {
+    name = "Falki"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_65
+    mother = frost_66
+
+    trait = forgiving
+    trait = chaste
+    trait = brave
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_3
+
+    6502.10.23 = {
+        birth = yes
+    }
+
+    6544.6.8 = {
+        add_spouse = frost_68
+    }
+
+    6569.10.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_68 = {
+    name = "Perra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = compassionate
+    trait = honest
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 3
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6527.7.23 = {
+        birth = yes
+    }
+
+    6593.7.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_69 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_67
+    mother = frost_68
+
+    trait = gregarious
+    trait = lustful
+    trait = generous
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    6545.8.21 = {
+        birth = yes
+    }
+
+    6620.8.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_70 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_67
+    mother = frost_68
+
+    trait = ambitious
+    trait = forgiving
+    trait = fickle
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 2
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6546.12.5 = {
+        birth = yes
+    }
+
+    6615.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_71 = {
+    name = "Roger"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_67
+    mother = frost_68
+
+    trait = diligent
+    trait = content
+    trait = compassionate
+
+    diplomacy = 4
+    martial = 10
+    stewardship = 8
+    intrigue = 9
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_4
+
+    6550.9.5 = {
+        birth = yes
+    }
+
+    6594.11.13 = {
+        add_spouse = frost_72
+    }
+
+    6627.7.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_72 = {
+    name = "Tora"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = impatient
+    trait = humble
+    trait = diligent
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 8
+    intrigue = 4
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_2
+
+    6577.5.1 = {
+        birth = yes
+    }
+
+    6648.7.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_73 = {
+    name = "Matus"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_65
+    mother = frost_66
+
+    trait = lazy
+    trait = ambitious
+    trait = shy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 3
+    intrigue = 7
+    learning = 7
+    prowess = 10
+
+    trait = education_martial_2
+
+    6506.5.15 = {
+        birth = yes
+    }
+
+    6539.5.2 = {
+        add_spouse = frost_74
+    }
+
+    6587.5.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_74 = {
+    name = "Rikyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = wrathful
+    trait = chaste
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_3
+
+    6522.2.10 = {
+        birth = yes
+    }
+
+    6605.8.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_75 = {
+    name = "Marlon"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_73
+    mother = frost_74
+
+    trait = sadistic
+    trait = zealous
+    trait = impatient
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6539.6.2 = {
+        birth = yes
+    }
+
+    6573.2.27 = {
+        add_spouse = frost_76
+    }
+
+    6583.2.8 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+frost_76 = {
+    name = "Sybelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = chaste
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 9
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6556.9.25 = {
+        birth = yes
+    }
+
+    6625.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_77 = {
+    name = "Andren"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_73
+    mother = frost_74
+
+    trait = gluttonous
+    trait = honest
+    trait = patient
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 9
+    intrigue = 4
+    learning = 7
+    prowess = 3
+
+    trait = education_stewardship_2
+
+    6544.12.6 = {
+        birth = yes
+    }
+
+    6590.10.25 = {
+        add_spouse = frost_78
+    }
+
+    6603.2.22 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+frost_78 = {
+    name = "Izabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = honest
+    trait = cynical
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 11
+    prowess = 3
+
+    trait = education_learning_4
+
+    6573.9.2 = {
+        birth = yes
+    }
+
+    6641.2.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_79 = {
+    name = "Filype"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_73
+    mother = frost_74
+
+    trait = gregarious
+    trait = trusting
+    trait = callous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    6546.8.14 = {
+        birth = yes
+    }
+
+    6583.4.12 = {
+        add_spouse = frost_80
+    }
+
+    6628.9.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_80 = {
+    name = "Wynafryd"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = honest
+    trait = zealous
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 2
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_3
+
+    6566.10.4 = {
+        birth = yes
+    }
+
+    6637.8.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_81 = {
+    name = "Dywen"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_65
+    mother = frost_66
+
+    trait = trusting
+    trait = deceitful
+    trait = patient
+
+    diplomacy = 16
+    martial = 15
+    stewardship = 24
+    intrigue = 18
+    learning = 27
+    prowess = 27
+
+    trait = education_learning_4
+
+    6507.6.23 = {
+        birth = yes
+    }
+
+    6556.4.5 = {
+        add_spouse = frost_82
+    }
+
+    6586.4.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_82 = {
+    name = "Edla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = brave
+    trait = impatient
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6539.6.8 = {
+        birth = yes
+    }
+
+    6609.11.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_83 = {
+    name = "Torkel"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_81
+    mother = frost_82
+
+    trait = generous
+    trait = gregarious
+    trait = content
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 6
+    intrigue = 10
+    learning = 8
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6565.4.6 = {
+        birth = yes
+    }
+
+    6614.8.20 = {
+        add_spouse = frost_84
+    }
+
+    6636.3.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_84 = {
+    name = "Darlessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = paranoid
+    trait = humble
+    trait = arbitrary
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6597.10.17 = {
+        birth = yes
+    }
+
+    6669.5.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_85 = {
+    name = "Darlessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_81
+    mother = frost_82
+
+    trait = lazy
+    trait = temperate
+    trait = greedy
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_2
+
+    6571.3.1 = {
+        birth = yes
+    }
+
+    6640.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_86 = {
+    name = "Alyn"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_81
+    mother = frost_82
+
+    trait = calm
+    trait = stubborn
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 4
+    intrigue = 9
+    learning = 8
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6572.3.15 = {
+        birth = yes
+    }
+
+    6591.10.2 = {
+        add_spouse = frost_87
+    }
+
+    6644.1.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_87 = {
+    name = "Ewa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = greedy
+    trait = paranoid
+
+    diplomacy = 1
+    martial = 4
+    stewardship = 8
+    intrigue = 7
+    learning = 8
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6574.10.11 = {
+        birth = yes
+    }
+
+    6656.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_88 = {
+    name = "Rolf"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_63
+    mother = frost_64
+
+    trait = gluttonous
+    trait = greedy
+    trait = diligent
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    6459.2.1 = {
+        birth = yes
+    }
+
+    6475.8.14 = {
+        add_spouse = frost_89
+    }
+
+    6540.11.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_89 = {
+    name = "Lysanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = paranoid
+    trait = humble
+    trait = generous
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 5
+    intrigue = 7
+    learning = 1
+    prowess = 5
+
+    trait = education_martial_4
+
+    6458.8.22 = {
+        birth = yes
+    }
+
+    6531.10.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_90 = {
+    name = "Tord"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_88
+    mother = frost_89
+
+    trait = zealous
+    trait = craven
+    trait = ambitious
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6479.3.22 = {
+        birth = yes
+    }
+
+    6521.9.23 = {
+        add_spouse = frost_91
+    }
+
+    6563.3.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_91 = {
+    name = "Kennya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = humble
+    trait = sadistic
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_4
+
+    6504.10.13 = {
+        birth = yes
+    }
+
+    6581.11.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_92 = {
+    name = "Serra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_90
+    mother = frost_91
+
+    trait = callous
+    trait = arrogant
+    trait = generous
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_2
+
+    6521.6.19 = {
+        birth = yes
+    }
+
+    6592.12.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_93 = {
+    name = "Maggi"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_90
+    mother = frost_91
+
+    trait = brave
+    trait = temperate
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 10
+
+    trait = education_martial_3
+
+    6526.4.9 = {
+        birth = yes
+    }
+
+    6595.7.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_94 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_90
+    mother = frost_91
+
+    trait = craven
+    trait = impatient
+    trait = humble
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    6531.9.17 = {
+        birth = yes
+    }
+
+    6601.11.13 = {
+        death = { death_reason = death_dungeon  }
+    }
+}
+
+frost_95 = {
+    name = "Niklys"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_90
+    mother = frost_91
+
+    trait = paranoid
+    trait = fickle
+    trait = cynical
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 9
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6532.4.9 = {
+        birth = yes
+    }
+
+    6559.9.23 = {
+        add_spouse = frost_96
+    }
+
+    6600.12.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_96 = {
+    name = "Isyabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = impatient
+    trait = arrogant
+    trait = brave
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6542.10.14 = {
+        birth = yes
+    }
+
+    6621.9.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_97 = {
+    name = "Ricardya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_88
+    mother = frost_89
+
+    trait = gregarious
+    trait = lustful
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    6481.6.26 = {
+        birth = yes
+    }
+
+    6548.9.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_98 = {
+    name = "Ormyn"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_88
+    mother = frost_89
+
+    trait = ambitious
+    trait = chaste
+    trait = trusting
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 1
+
+    trait = education_martial_3
+
+    6485.7.10 = {
+        birth = yes
+    }
+
+    6510.10.18 = {
+        add_spouse = frost_99
+    }
+
+    6522.9.15 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+frost_99 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = brave
+    trait = calm
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_4
+
+    6493.1.26 = {
+        birth = yes
+    }
+
+    6573.10.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_100 = {
+    name = "Ulf"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_98
+    mother = frost_99
+
+    trait = stubborn
+    trait = impatient
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_2
+
+    6511.9.15 = {
+        birth = yes
+    }
+
+    6545.8.13 = {
+        add_spouse = frost_101
+    }
+
+    6555.11.17 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+frost_101 = {
+    name = "Ingrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = patient
+    trait = humble
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6528.10.24 = {
+        birth = yes
+    }
+
+    6555.9.8 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+frost_102 = {
+    name = "Jonnel"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_98
+    mother = frost_99
+
+    trait = zealous
+    trait = craven
+    trait = content
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 7
+    intrigue = 5
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_2
+
+    6513.12.1 = {
+        birth = yes
+    }
+
+    6562.6.17 = {
+        add_spouse = frost_103
+    }
+
+    6572.2.24 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+frost_103 = {
+    name = "Frenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = gluttonous
+    trait = gregarious
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 11
+    intrigue = 7
+    learning = 5
+    prowess = 3
+
+    trait = education_stewardship_1
+
+    6545.12.3 = {
+        birth = yes
+    }
+
+    6620.5.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_104 = {
+    name = "Ewalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_98
+    mother = frost_99
+
+    trait = deceitful
+    trait = temperate
+    trait = wrathful
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6515.10.13 = {
+        birth = yes
+    }
+
+    6592.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_105 = {
+    name = "Beron"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_98
+    mother = frost_99
+
+    trait = deceitful
+    trait = trusting
+    trait = generous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6517.2.8 = {
+        birth = yes
+    }
+
+    6553.10.1 = {
+        add_spouse = frost_106
+    }
+
+    6591.12.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_106 = {
+    name = "Elyssi"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = forgiving
+    trait = lazy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6536.11.13 = {
+        birth = yes
+    }
+
+    6618.4.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_107 = {
+    name = "Hother"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_63
+    mother = frost_64
+
+    trait = compassionate
+    trait = trusting
+    trait = shy
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 9
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6460.12.12 = {
+        birth = yes
+    }
+
+    6475.4.23 = {
+        add_spouse = frost_108
+    }
+
+    6540.5.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_108 = {
+    name = "Ingrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = impatient
+    trait = gregarious
+    trait = ambitious
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 3
+    intrigue = 7
+    learning = 8
+    prowess = 2
+
+    trait = education_learning_3
+
+    6458.1.26 = {
+        birth = yes
+    }
+
+    6538.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_109 = {
+    name = "Olaff"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_107
+    mother = frost_108
+
+    trait = sadistic
+    trait = chaste
+    trait = paranoid
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6475.10.11 = {
+        birth = yes
+    }
+
+    6501.1.9 = {
+        add_spouse = frost_110
+    }
+
+    6544.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_110 = {
+    name = "Arrana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = cynical
+    trait = content
+    trait = shy
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 10
+
+    trait = education_diplomacy_2
+
+    6484.9.27 = {
+        birth = yes
+    }
+
+    6528.7.7 = {
+        death = { death_reason = death_mysterious  }
+    }
+}
+
+frost_111 = {
+    name = "Ulthan"
+
+    dynasty = dynasty_frost
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_109
+    mother = frost_110
+
+    trait = shy
+    trait = arrogant
+    trait = sadistic
+
+    diplomacy = 1
+    martial = 8
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_2
+
+    6512.5.2 = {
+        birth = yes
+    }
+
+    6544.12.14 = {
+        add_spouse = frost_112
+    }
+
+    6554.11.6 = {
+        death = { death_reason = death_crushed  }
+    }
+}
+
+frost_112 = {
+    name = "Judyth"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = shy
+    trait = craven
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_1
+
+    6527.2.2 = {
+        birth = yes
+    }
+
+    6608.12.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+frost_113 = {
+    name = "Wylla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = frost_109
+    mother = frost_110
+
+    trait = sadistic
+    trait = greedy
+    trait = chaste
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 4
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_martial_2
+
+    6520.10.27 = {
+        birth = yes
+    }
+
+    6588.4.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

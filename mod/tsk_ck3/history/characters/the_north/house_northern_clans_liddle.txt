@@ -1,0 +1,675 @@
+liddle_1 = {
+    name = "Owen"
+
+    dynasty = dynasty_liddle
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = paranoid
+    trait = ambitious
+    trait = diligent
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    6300.1.10 = {
+        birth = yes
+    }
+
+    6321.9.4 = {
+        add_spouse = liddle_2
+    }
+
+    6378.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+liddle_2 = {
+    name = "Flora"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = arbitrary
+    trait = calm
+    trait = impatient
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 6
+    intrigue = 10
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6304.3.11 = {
+        birth = yes
+    }
+
+    6373.11.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+liddle_3 = {
+    name = "Nordar"
+
+    dynasty = dynasty_liddle
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = liddle_1
+    mother = liddle_2
+
+    trait = content
+    trait = honest
+    trait = cynical
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 2
+
+    trait = education_intrigue_2
+
+    6339.8.13 = {
+        birth = yes
+    }
+
+    6362.8.20 = {
+        add_spouse = liddle_4
+    }
+
+    6420.2.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+liddle_4 = {
+    name = "Mulberry"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = just
+    trait = chaste
+    trait = patient
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 10
+    intrigue = 3
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6345.5.14 = {
+        birth = yes
+    }
+
+    6426.12.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+liddle_5 = {
+    name = "Olwen"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = liddle_3
+    mother = liddle_4
+
+    trait = brave
+    trait = humble
+    trait = honest
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    6364.9.13 = {
+        birth = yes
+    }
+
+    6448.12.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+liddle_6 = {
+    name = "Naregg"
+
+    dynasty = dynasty_liddle
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = liddle_3
+    mother = liddle_4
+
+    trait = impatient
+    trait = trusting
+    trait = stubborn
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 3
+    intrigue = 7
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6367.12.17 = {
+        birth = yes
+    }
+
+    6382.11.12 = {
+        add_spouse = liddle_7
+    }
+
+    6437.8.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+liddle_7 = {
+    name = "Jilly"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = calm
+    trait = arbitrary
+    trait = temperate
+
+    diplomacy = 1
+    martial = 4
+    stewardship = 11
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6365.3.4 = {
+        birth = yes
+    }
+
+    6442.9.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+liddle_8 = {
+    name = "Conall"
+
+    dynasty = dynasty_liddle
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = liddle_6
+    mother = liddle_7
+
+    trait = shy
+    trait = trusting
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6398.5.27 = {
+        birth = yes
+    }
+
+    6443.4.14 = {
+        add_spouse = liddle_9
+    }
+
+    6453.9.26 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+liddle_9 = {
+    name = "Cassie"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = forgiving
+    trait = lustful
+    trait = craven
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 3
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    6426.12.12 = {
+        birth = yes
+    }
+
+    6508.2.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+liddle_10 = {
+    name = "Cherra"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = liddle_8
+    mother = liddle_9
+
+    trait = calm
+    trait = humble
+    trait = chaste
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 7
+    intrigue = 3
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_3
+
+    6445.5.23 = {
+        birth = yes
+    }
+
+    6518.7.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+liddle_11 = {
+    name = "Edna"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = liddle_8
+    mother = liddle_9
+
+    trait = chaste
+    trait = gluttonous
+    trait = cynical
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 9
+    intrigue = 5
+    learning = 5
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    6446.9.4 = {
+        birth = yes
+    }
+
+    6520.8.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+liddle_12 = {
+    name = "Gest"
+
+    dynasty = dynasty_liddle
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = liddle_8
+    mother = liddle_9
+
+    trait = shy
+    trait = paranoid
+    trait = brave
+
+    diplomacy = 7
+    martial = 1
+    stewardship = 5
+    intrigue = 3
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6447.1.14 = {
+        birth = yes
+    }
+
+    6474.7.3 = {
+        add_spouse = liddle_13
+    }
+
+    6518.2.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+liddle_13 = {
+    name = "Morvana"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = lazy
+    trait = honest
+    trait = zealous
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 9
+    intrigue = 9
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6457.3.10 = {
+        birth = yes
+    }
+
+    6493.9.18 = {
+        death = { death_reason = death_accident  }
+    }
+}
+
+liddle_14 = {
+    name = "Yarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = liddle_12
+    mother = liddle_13
+
+    trait = brave
+    trait = stubborn
+    trait = diligent
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6475.7.25 = {
+        birth = yes
+    }
+
+    6489.3.26 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+liddle_15 = {
+    name = "Myk"
+
+    dynasty = dynasty_liddle
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = liddle_12
+    mother = liddle_13
+
+    trait = zealous
+    trait = sadistic
+    trait = generous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 9
+
+    trait = education_martial_2
+
+    6479.5.3 = {
+        birth = yes
+    }
+
+    6528.7.26 = {
+        add_spouse = liddle_16
+    }
+
+    6559.9.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+liddle_16 = {
+    name = "Grenda"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = greedy
+    trait = lazy
+    trait = impatient
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_4
+
+    6511.1.5 = {
+        birth = yes
+    }
+
+    6581.11.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+liddle_17 = {
+    name = "Mael"
+
+    dynasty = dynasty_liddle
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = liddle_15
+    mother = liddle_16
+
+    trait = lustful
+    trait = stubborn
+    trait = just
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 3
+    intrigue = 6
+    learning = 7
+    prowess = 11
+
+    trait = education_martial_4
+
+    6533.6.10 = {
+        birth = yes
+    }
+
+    6580.12.9 = {
+        add_spouse = liddle_18
+    }
+
+    6613.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+liddle_18 = {
+    name = "Ysilla"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = chaste
+    trait = forgiving
+    trait = gluttonous
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 8
+    prowess = 2
+
+    trait = education_diplomacy_4
+
+    6563.5.23 = {
+        birth = yes
+    }
+
+    6648.11.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+liddle_19 = {
+    name = "Rowly"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = liddle_15
+    mother = liddle_16
+
+    trait = chaste
+    trait = generous
+    trait = stubborn
+
+    diplomacy = 11
+    martial = 7
+    stewardship = 10
+    intrigue = 7
+    learning = 9
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    6544.5.9 = {
+        birth = yes
+    }
+
+    6627.8.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+liddle_20 = {
+    name = "Ash"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = liddle_12
+    mother = liddle_13
+
+    trait = sadistic
+    trait = temperate
+    trait = content
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_2
+
+    6483.11.13 = {
+        birth = yes
+    }
+
+    6555.9.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+liddle_21 = {
+    name = "Osha"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = liddle_12
+    mother = liddle_13
+
+    trait = honest
+    trait = forgiving
+    trait = humble
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 4
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_1
+
+    6484.9.5 = {
+        birth = yes
+    }
+
+    6561.12.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

@@ -1,0 +1,5156 @@
+snowrow_1 = {
+    name = "Vayon"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = vengeful
+    trait = ambitious
+    trait = callous
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 1
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_learning_3
+
+    6300.11.27 = {
+        birth = yes
+    }
+
+    6330.11.28 = {
+        add_spouse = snowrow_2
+    }
+
+    6381.3.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_2 = {
+    name = "Wynafryd"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = diligent
+    trait = sadistic
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 3
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6313.10.27 = {
+        birth = yes
+    }
+
+    6358.1.7 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+snowrow_3 = {
+    name = "Oswyn"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_1
+    mother = snowrow_2
+
+    trait = honest
+    trait = generous
+    trait = stubborn
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 2
+    prowess = 2
+
+    trait = education_diplomacy_4
+
+    6358.5.28 = {
+        birth = yes
+    }
+
+    6403.1.25 = {
+        add_spouse = snowrow_4
+    }
+
+    6443.1.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_4 = {
+    name = "Rykissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = humble
+    trait = lazy
+    trait = trusting
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 3
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    6386.2.17 = {
+        birth = yes
+    }
+
+    6419.7.20 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+snowrow_5 = {
+    name = "Tora"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_3
+    mother = snowrow_4
+
+    trait = stubborn
+    trait = ambitious
+    trait = zealous
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 2
+    intrigue = 4
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_3
+
+    6404.11.10 = {
+        birth = yes
+    }
+
+    6487.6.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_6 = {
+    name = "Ormr"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_3
+    mother = snowrow_4
+
+    trait = fickle
+    trait = callous
+    trait = shy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 3
+    intrigue = 3
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    6407.4.6 = {
+        birth = yes
+    }
+
+    6447.9.21 = {
+        add_spouse = snowrow_7
+    }
+
+    6460.1.22 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+snowrow_7 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = honest
+    trait = lazy
+    trait = cynical
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 5
+    intrigue = 6
+    learning = 2
+    prowess = 4
+
+    trait = education_martial_1
+
+    6430.11.16 = {
+        birth = yes
+    }
+
+    6509.11.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_8 = {
+    name = "Artos"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_6
+    mother = snowrow_7
+
+    trait = chaste
+    trait = just
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 4
+    intrigue = 9
+    learning = 6
+    prowess = 3
+
+    trait = education_intrigue_2
+
+    6447.12.28 = {
+        birth = yes
+    }
+
+    6468.1.15 = {
+        add_spouse = snowrow_9
+    }
+
+    6517.7.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_9 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = cynical
+    trait = patient
+    trait = generous
+
+    diplomacy = 11
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    6451.1.6 = {
+        birth = yes
+    }
+
+    6529.11.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_10 = {
+    name = "Bass"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_8
+    mother = snowrow_9
+
+    trait = impatient
+    trait = cynical
+    trait = arrogant
+
+    diplomacy = 27
+    martial = 24
+    stewardship = 17
+    intrigue = 18
+    learning = 12
+    prowess = 15
+
+    trait = education_diplomacy_4
+
+    6485.4.26 = {
+        birth = yes
+    }
+
+    6520.9.5 = {
+        add_spouse = snowrow_11
+    }
+
+    6551.5.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_11 = {
+    name = "Tylissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = arbitrary
+    trait = content
+    trait = brave
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 3
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6503.10.5 = {
+        birth = yes
+    }
+
+    6584.1.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_12 = {
+    name = "Baldr"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_10
+    mother = snowrow_11
+
+    trait = craven
+    trait = just
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 4
+    intrigue = 3
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_2
+
+    6533.6.9 = {
+        birth = yes
+    }
+
+    6559.11.5 = {
+        add_spouse = snowrow_13
+    }
+
+    6569.4.8 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+snowrow_13 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = lustful
+    trait = paranoid
+    trait = fickle
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 2
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6542.3.9 = {
+        birth = yes
+    }
+
+    6617.8.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_14 = {
+    name = "Owen"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_12
+    mother = snowrow_13
+
+    trait = gregarious
+    trait = impatient
+    trait = sadistic
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_2
+
+    6566.2.15 = {
+        birth = yes
+    }
+
+    6587.11.4 = {
+        add_spouse = snowrow_15
+    }
+
+    6639.5.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_15 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = arbitrary
+    trait = deceitful
+    trait = chaste
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6570.5.28 = {
+        birth = yes
+    }
+
+    6637.5.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_16 = {
+    name = "Niklas"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_6
+    mother = snowrow_7
+
+    trait = arrogant
+    trait = arbitrary
+    trait = temperate
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 5
+    intrigue = 9
+    learning = 3
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6453.4.27 = {
+        birth = yes
+    }
+
+    6474.5.28 = {
+        add_spouse = snowrow_17
+    }
+
+    6523.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_17 = {
+    name = "Gilli"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = just
+    trait = humble
+    trait = impatient
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6457.6.12 = {
+        birth = yes
+    }
+
+    6528.1.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_18 = {
+    name = "Borys"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_16
+    mother = snowrow_17
+
+    trait = shy
+    trait = diligent
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_2
+
+    6484.11.24 = {
+        birth = yes
+    }
+
+    6485.3.17 = {
+        give_nickname = nick_the_anointed
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6514.9.22 = {
+        add_spouse = snowrow_19
+    }
+
+    6557.12.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_19 = {
+    name = "Osha"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = lustful
+    trait = vengeful
+    trait = content
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 10
+    prowess = 10
+
+    trait = education_learning_3
+
+    6497.9.27 = {
+        birth = yes
+    }
+
+    6570.6.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_20 = {
+    name = "Gilliane"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_18
+    mother = snowrow_19
+
+    trait = paranoid
+    trait = greedy
+    trait = shy
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_3
+
+    6517.5.23 = {
+        birth = yes
+    }
+
+    6602.5.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_21 = {
+    name = "Wynton"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_18
+    mother = snowrow_19
+
+    trait = arbitrary
+    trait = humble
+    trait = cynical
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_4
+
+    6528.10.25 = {
+        birth = yes
+    }
+
+    6546.5.28 = {
+        add_spouse = snowrow_22
+    }
+
+    6613.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_22 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = trusting
+    trait = chaste
+    trait = honest
+
+    diplomacy = 9
+    martial = 2
+    stewardship = 3
+    intrigue = 4
+    learning = 9
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6529.3.17 = {
+        birth = yes
+    }
+
+    6601.9.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_23 = {
+    name = "Beth"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_21
+    mother = snowrow_22
+
+    trait = ambitious
+    trait = arrogant
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 3
+    intrigue = 9
+    learning = 9
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    6546.3.14 = {
+        birth = yes
+    }
+
+    6620.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_24 = {
+    name = "Kettil"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_21
+    mother = snowrow_22
+
+    trait = arrogant
+    trait = shy
+    trait = honest
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 3
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6550.11.28 = {
+        birth = yes
+    }
+
+    6578.5.28 = {
+        add_spouse = snowrow_25
+    }
+
+    6631.11.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_25 = {
+    name = "Ewalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = callous
+    trait = craven
+    trait = humble
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_2
+
+    6561.7.20 = {
+        birth = yes
+    }
+
+    6633.2.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_26 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_21
+    mother = snowrow_22
+
+    trait = arrogant
+    trait = deceitful
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 3
+    intrigue = 5
+    learning = 9
+    prowess = 8
+
+    trait = education_learning_4
+
+    6554.4.24 = {
+        birth = yes
+    }
+
+    6632.3.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_27 = {
+    name = "Ulthan"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_21
+    mother = snowrow_22
+
+    trait = arrogant
+    trait = honest
+    trait = lazy
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 11
+    prowess = 4
+
+    trait = education_learning_2
+
+    6557.9.14 = {
+        birth = yes
+    }
+
+    6584.8.17 = {
+        add_spouse = snowrow_28
+    }
+
+    6641.6.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_28 = {
+    name = "Barba"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = humble
+    trait = trusting
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 9
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    6567.6.5 = {
+        birth = yes
+    }
+
+    6634.8.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_29 = {
+    name = "Knut"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_3
+    mother = snowrow_4
+
+    trait = generous
+    trait = cynical
+    trait = gregarious
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 10
+    intrigue = 8
+    learning = 3
+    prowess = 9
+
+    trait = education_stewardship_4
+
+    6408.11.17 = {
+        birth = yes
+    }
+
+    6425.2.24 = {
+        add_spouse = snowrow_30
+    }
+
+    6489.9.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_30 = {
+    name = "Jaisyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = wrathful
+    trait = humble
+    trait = ambitious
+
+    diplomacy = 9
+    martial = 10
+    stewardship = 7
+    intrigue = 8
+    learning = 2
+    prowess = 8
+
+    trait = education_martial_3
+
+    6408.5.2 = {
+        birth = yes
+    }
+
+    6483.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_31 = {
+    name = "Hullen"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_29
+    mother = snowrow_30
+
+    trait = diligent
+    trait = gluttonous
+    trait = honest
+
+    diplomacy = 16
+    martial = 17
+    stewardship = 15
+    intrigue = 25
+    learning = 13
+    prowess = 21
+
+    trait = education_intrigue_4
+
+    6430.12.21 = {
+        birth = yes
+    }
+
+    6476.12.5 = {
+        add_spouse = snowrow_32
+    }
+
+    6501.5.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_32 = {
+    name = "Ygritte"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = compassionate
+    trait = temperate
+    trait = content
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_2
+
+    6459.9.20 = {
+        birth = yes
+    }
+
+    6541.10.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_33 = {
+    name = "Ulthan"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_31
+    mother = snowrow_32
+
+    trait = arbitrary
+    trait = cynical
+    trait = lustful
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_3
+
+    6482.7.26 = {
+        birth = yes
+    }
+
+    6526.9.16 = {
+        add_spouse = snowrow_34
+    }
+
+    6559.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_34 = {
+    name = "Lidania"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = patient
+    trait = stubborn
+    trait = lazy
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    6509.4.3 = {
+        birth = yes
+    }
+
+    6582.11.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_35 = {
+    name = "Mallador"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_33
+    mother = snowrow_34
+
+    trait = wrathful
+    trait = trusting
+    trait = stubborn
+
+    diplomacy = 27
+    martial = 16
+    stewardship = 21
+    intrigue = 17
+    learning = 21
+    prowess = 16
+
+    trait = education_diplomacy_4
+
+    6535.11.13 = {
+        birth = yes
+    }
+
+    6557.4.11 = {
+        add_spouse = snowrow_36
+    }
+
+    6606.1.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_36 = {
+    name = "Cecilia"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = honest
+    trait = arbitrary
+    trait = sadistic
+
+    diplomacy = 1
+    martial = 6
+    stewardship = 8
+    intrigue = 3
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6540.10.25 = {
+        birth = yes
+    }
+
+    6616.10.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_37 = {
+    name = "Mattys"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_35
+    mother = snowrow_36
+
+    trait = gluttonous
+    trait = patient
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_2
+
+    6564.8.7 = {
+        birth = yes
+    }
+
+    6600.8.26 = {
+        add_spouse = snowrow_38
+    }
+
+    6636.12.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_38 = {
+    name = "Lydia"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = shy
+    trait = sadistic
+    trait = diligent
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    6583.12.11 = {
+        birth = yes
+    }
+
+    6660.10.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_39 = {
+    name = "Robett"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_35
+    mother = snowrow_36
+
+    trait = temperate
+    trait = shy
+    trait = zealous
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_3
+
+    6566.11.18 = {
+        birth = yes
+    }
+
+    6594.5.18 = {
+        add_spouse = snowrow_40
+    }
+
+    6621.7.9 = {
+        death = { death_reason = death_gout_ridden }
+    }
+}
+
+snowrow_40 = {
+    name = "Cecil"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = honest
+    trait = callous
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 8
+    intrigue = 2
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_2
+
+    6577.3.20 = {
+        birth = yes
+    }
+
+    6652.3.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_41 = {
+    name = "Brandon"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_35
+    mother = snowrow_36
+
+    trait = trusting
+    trait = shy
+    trait = arbitrary
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_1
+
+    6567.7.24 = {
+        birth = yes
+    }
+
+    6584.5.27 = {
+        add_spouse = snowrow_42
+    }
+
+    6644.11.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_42 = {
+    name = "Eva"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = arrogant
+    trait = honest
+    trait = calm
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6567.8.3 = {
+        birth = yes
+    }
+
+    6638.7.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_43 = {
+    name = "Lydann"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_33
+    mother = snowrow_34
+
+    trait = gregarious
+    trait = sadistic
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 5
+    intrigue = 2
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_3
+
+    6538.8.25 = {
+        birth = yes
+    }
+
+    6619.4.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_44 = {
+    name = "Andren"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_33
+    mother = snowrow_34
+
+    trait = arbitrary
+    trait = forgiving
+    trait = sadistic
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6544.12.9 = {
+        birth = yes
+    }
+
+    6570.8.16 = {
+        add_spouse = snowrow_45
+    }
+
+    6611.12.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_45 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = callous
+    trait = vengeful
+    trait = ambitious
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_2
+
+    6553.3.24 = {
+        birth = yes
+    }
+
+    6620.4.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_46 = {
+    name = "Eilif"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_44
+    mother = snowrow_45
+
+    trait = craven
+    trait = ambitious
+    trait = chaste
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 2
+    intrigue = 7
+    learning = 6
+    prowess = 3
+
+    trait = education_intrigue_2
+
+    6572.5.26 = {
+        birth = yes
+    }
+
+    6616.10.16 = {
+        add_spouse = snowrow_47
+    }
+
+    6649.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_47 = {
+    name = "Kyt"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = callous
+    trait = ambitious
+    trait = brave
+
+    diplomacy = 6
+    martial = 1
+    stewardship = 7
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    6599.7.24 = {
+        birth = yes
+    }
+
+    6667.10.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_48 = {
+    name = "Mattys"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_44
+    mother = snowrow_45
+
+    trait = callous
+    trait = ambitious
+    trait = gluttonous
+
+    diplomacy = 11
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    6582.11.9 = {
+        birth = yes
+    }
+
+    6607.10.15 = {
+        add_spouse = snowrow_49
+    }
+
+    6653.1.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_49 = {
+    name = "Lidania"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = compassionate
+    trait = generous
+    trait = lazy
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6590.8.6 = {
+        birth = yes
+    }
+
+    6661.3.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_50 = {
+    name = "Arsa"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_31
+    mother = snowrow_32
+
+    trait = sadistic
+    trait = diligent
+    trait = temperate
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 2
+    learning = 2
+    prowess = 6
+
+    trait = education_martial_2
+
+    6486.7.6 = {
+        birth = yes
+    }
+
+    6558.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_51 = {
+    name = "Tissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_31
+    mother = snowrow_32
+
+    trait = wrathful
+    trait = trusting
+    trait = just
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 3
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6490.1.25 = {
+        birth = yes
+    }
+
+    6571.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_52 = {
+    name = "Beron"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_31
+    mother = snowrow_32
+
+    trait = shy
+    trait = compassionate
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 3
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    6491.7.6 = {
+        birth = yes
+    }
+
+    6531.11.4 = {
+        add_spouse = snowrow_53
+    }
+
+    6568.10.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_53 = {
+    name = "Elinan"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = content
+    trait = temperate
+    trait = just
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 4
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6514.7.15 = {
+        birth = yes
+    }
+
+    6585.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_54 = {
+    name = "Casamir"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_52
+    mother = snowrow_53
+
+    trait = paranoid
+    trait = calm
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 8
+    intrigue = 9
+    learning = 8
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6535.2.3 = {
+        birth = yes
+    }
+
+    6577.6.20 = {
+        add_spouse = snowrow_55
+    }
+
+    6608.1.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_55 = {
+    name = "Elyssi"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = gregarious
+    trait = forgiving
+    trait = patient
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_3
+
+    6560.10.3 = {
+        birth = yes
+    }
+
+    6628.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_56 = {
+    name = "Markus"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_54
+    mother = snowrow_55
+
+    trait = zealous
+    trait = honest
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_4
+
+    6583.1.15 = {
+        birth = yes
+    }
+
+    6599.3.3 = {
+        add_spouse = snowrow_57
+    }
+
+    6651.2.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_57 = {
+    name = "Karci"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = callous
+    trait = lustful
+    trait = content
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 9
+
+    trait = education_intrigue_2
+
+    6582.3.16 = {
+        birth = yes
+    }
+
+    6667.11.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_58 = {
+    name = "Niklys"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_54
+    mother = snowrow_55
+
+    trait = deceitful
+    trait = compassionate
+    trait = patient
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6587.1.26 = {
+        birth = yes
+    }
+
+    6615.12.6 = {
+        add_spouse = snowrow_59
+    }
+
+    6654.1.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_59 = {
+    name = "Ely"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = diligent
+    trait = brave
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 4
+    intrigue = 7
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    6598.7.28 = {
+        birth = yes
+    }
+
+    6680.12.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_60 = {
+    name = "Agnessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_52
+    mother = snowrow_53
+
+    trait = content
+    trait = stubborn
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 3
+
+    trait = education_martial_2
+
+    6540.11.17 = {
+        birth = yes
+    }
+
+    6623.9.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_61 = {
+    name = "Edderion"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_29
+    mother = snowrow_30
+
+    trait = content
+    trait = compassionate
+    trait = generous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6432.9.15 = {
+        birth = yes
+    }
+
+    6480.2.24 = {
+        add_spouse = snowrow_62
+    }
+
+    6490.5.2 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+snowrow_62 = {
+    name = "Lyanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = forgiving
+    trait = humble
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 8
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_2
+
+    6463.5.18 = {
+        birth = yes
+    }
+
+    6535.7.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_63 = {
+    name = "Edrick"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_61
+    mother = snowrow_62
+
+    trait = honest
+    trait = lustful
+    trait = gregarious
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 4
+    intrigue = 3
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    6480.10.20 = {
+        birth = yes
+    }
+
+    6509.7.3 = {
+        add_spouse = snowrow_64
+    }
+
+    6553.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_64 = {
+    name = "Krysti"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = callous
+    trait = diligent
+    trait = fickle
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 10
+    learning = 8
+    prowess = 10
+
+    trait = education_intrigue_1
+
+    6492.5.14 = {
+        birth = yes
+    }
+
+    6522.8.1 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+snowrow_65 = {
+    name = "Hrayn"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_63
+    mother = snowrow_64
+
+    trait = trusting
+    trait = cynical
+    trait = fickle
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6511.5.7 = {
+        birth = yes
+    }
+
+    6534.7.19 = {
+        add_spouse = snowrow_66
+    }
+
+    6585.11.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_66 = {
+    name = "Igrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = shy
+    trait = impatient
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 8
+    learning = 8
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    6517.1.27 = {
+        birth = yes
+    }
+
+    6584.5.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_67 = {
+    name = "Arra"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_65
+    mother = snowrow_66
+
+    trait = just
+    trait = diligent
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 2
+    prowess = 2
+
+    trait = education_diplomacy_3
+
+    6540.3.28 = {
+        birth = yes
+    }
+
+    6624.5.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_68 = {
+    name = "Joseth"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_65
+    mother = snowrow_66
+
+    trait = vengeful
+    trait = brave
+    trait = paranoid
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 9
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6547.8.15 = {
+        birth = yes
+    }
+
+    6574.10.12 = {
+        add_spouse = snowrow_69
+    }
+
+    6616.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_69 = {
+    name = "Marissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = lazy
+    trait = lustful
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 8
+    intrigue = 3
+    learning = 10
+    prowess = 9
+
+    trait = education_learning_2
+
+    6557.1.16 = {
+        birth = yes
+    }
+
+    6630.12.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_70 = {
+    name = "Marlon"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_63
+    mother = snowrow_64
+
+    trait = arrogant
+    trait = content
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6513.4.10 = {
+        birth = yes
+    }
+
+    6553.10.2 = {
+        add_spouse = snowrow_71
+    }
+
+    6588.11.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_71 = {
+    name = "Eva"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = deceitful
+    trait = paranoid
+    trait = temperate
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_3
+
+    6536.11.15 = {
+        birth = yes
+    }
+
+    6606.12.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_72 = {
+    name = "Beren"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_70
+    mother = snowrow_71
+
+    trait = zealous
+    trait = calm
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 10
+    prowess = 10
+
+    trait = education_learning_2
+
+    6560.9.22 = {
+        birth = yes
+    }
+
+    6584.5.25 = {
+        add_spouse = snowrow_73
+    }
+
+    6640.6.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_73 = {
+    name = "Kennya"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = patient
+    trait = honest
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    6567.11.1 = {
+        birth = yes
+    }
+
+    6649.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_74 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_70
+    mother = snowrow_71
+
+    trait = generous
+    trait = stubborn
+    trait = vengeful
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 10
+
+    trait = education_diplomacy_2
+
+    6562.5.19 = {
+        birth = yes
+    }
+
+    6644.10.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_75 = {
+    name = "Kyt"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_61
+    mother = snowrow_62
+
+    trait = ambitious
+    trait = compassionate
+    trait = chaste
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_3
+
+    6483.7.28 = {
+        birth = yes
+    }
+
+    6565.2.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_76 = {
+    name = "Mattys"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_61
+    mother = snowrow_62
+
+    trait = impatient
+    trait = gluttonous
+    trait = diligent
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    6485.10.14 = {
+        birth = yes
+    }
+
+    6503.3.1 = {
+        add_spouse = snowrow_77
+    }
+
+    6567.9.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_77 = {
+    name = "Ingrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = zealous
+    trait = lustful
+    trait = shy
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6486.8.4 = {
+        birth = yes
+    }
+
+    6556.4.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_78 = {
+    name = "Roose"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_76
+    mother = snowrow_77
+
+    trait = generous
+    trait = patient
+    trait = chaste
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 7
+    intrigue = 4
+    learning = 2
+    prowess = 3
+
+    trait = education_diplomacy_1
+
+    6521.10.16 = {
+        birth = yes
+    }
+
+    6547.1.8 = {
+        add_spouse = snowrow_79
+    }
+
+    6605.8.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_79 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = shy
+    trait = arbitrary
+    trait = cynical
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 11
+    prowess = 5
+
+    trait = education_learning_3
+
+    6530.4.8 = {
+        birth = yes
+    }
+
+    6613.11.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_80 = {
+    name = "Meera"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_78
+    mother = snowrow_79
+
+    trait = vengeful
+    trait = brave
+    trait = honest
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 9
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_3
+
+    6548.9.21 = {
+        birth = yes
+    }
+
+    6622.12.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_81 = {
+    name = "Lysanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_78
+    mother = snowrow_79
+
+    trait = trusting
+    trait = temperate
+    trait = arbitrary
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 8
+    intrigue = 3
+    learning = 8
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    6550.1.18 = {
+        birth = yes
+    }
+
+    6625.4.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_82 = {
+    name = "Artos"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_78
+    mother = snowrow_79
+
+    trait = just
+    trait = deceitful
+    trait = lustful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 3
+
+    trait = education_martial_3
+
+    6556.4.7 = {
+        birth = yes
+    }
+
+    6574.1.2 = {
+        add_spouse = snowrow_83
+    }
+
+    6632.11.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_83 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = arrogant
+    trait = trusting
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    6557.5.16 = {
+        birth = yes
+    }
+
+    6629.2.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_84 = {
+    name = "Serra"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_78
+    mother = snowrow_79
+
+    trait = chaste
+    trait = honest
+    trait = greedy
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 4
+    intrigue = 10
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6557.10.8 = {
+        birth = yes
+    }
+
+    6642.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_85 = {
+    name = "Errold"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_61
+    mother = snowrow_62
+
+    trait = patient
+    trait = callous
+    trait = honest
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 4
+    intrigue = 4
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_3
+
+    6486.11.9 = {
+        birth = yes
+    }
+
+    6521.2.14 = {
+        add_spouse = snowrow_86
+    }
+
+    6554.5.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_86 = {
+    name = "Raya"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = generous
+    trait = arbitrary
+    trait = brave
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 10
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6504.1.17 = {
+        birth = yes
+    }
+
+    6570.7.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_87 = {
+    name = "Elyassa"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_85
+    mother = snowrow_86
+
+    trait = wrathful
+    trait = brave
+    trait = arbitrary
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 3
+    intrigue = 10
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6528.2.3 = {
+        birth = yes
+    }
+
+    6600.10.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_88 = {
+    name = "Mattis"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_85
+    mother = snowrow_86
+
+    trait = cynical
+    trait = chaste
+    trait = compassionate
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 6
+    intrigue = 3
+    learning = 7
+    prowess = 1
+
+    trait = education_martial_3
+
+    6535.1.9 = {
+        birth = yes
+    }
+
+    6583.3.9 = {
+        add_spouse = snowrow_89
+    }
+
+    6593.8.25 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+snowrow_89 = {
+    name = "Shiera"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = arbitrary
+    trait = forgiving
+    trait = temperate
+
+    diplomacy = 6
+    martial = 11
+    stewardship = 5
+    intrigue = 8
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_3
+
+    6566.6.12 = {
+        birth = yes
+    }
+
+    6634.3.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_90 = {
+    name = "Refil"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_88
+    mother = snowrow_89
+
+    trait = vengeful
+    trait = brave
+    trait = chaste
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_3
+
+    6584.7.15 = {
+        birth = yes
+    }
+
+    6624.12.13 = {
+        add_spouse = snowrow_91
+    }
+
+    6667.7.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_91 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = callous
+    trait = gluttonous
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 4
+    intrigue = 9
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6607.8.18 = {
+        birth = yes
+    }
+
+    6683.5.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_92 = {
+    name = "Arrana"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_88
+    mother = snowrow_89
+
+    trait = stubborn
+    trait = compassionate
+    trait = craven
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 8
+    learning = 1
+    prowess = 3
+
+    trait = education_intrigue_2
+
+    6586.6.27 = {
+        birth = yes
+    }
+
+    6654.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_93 = {
+    name = "Mylessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_88
+    mother = snowrow_89
+
+    trait = paranoid
+    trait = ambitious
+    trait = greedy
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 4
+    prowess = 10
+
+    trait = education_stewardship_4
+
+    6587.2.4 = {
+        birth = yes
+    }
+
+    6667.7.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_94 = {
+    name = "Klas"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_29
+    mother = snowrow_30
+
+    trait = impatient
+    trait = arrogant
+    trait = shy
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 1
+    intrigue = 4
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6434.1.5 = {
+        birth = yes
+    }
+
+    6470.9.7 = {
+        add_spouse = snowrow_95
+    }
+
+    6480.3.19 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+snowrow_95 = {
+    name = "Shiera"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = diligent
+    trait = forgiving
+    trait = lustful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 3
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6453.12.10 = {
+        birth = yes
+    }
+
+    6523.8.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_96 = {
+    name = "Alyn"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_94
+    mother = snowrow_95
+
+    trait = arbitrary
+    trait = craven
+    trait = zealous
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 8
+    intrigue = 4
+    learning = 8
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6471.7.11 = {
+        birth = yes
+    }
+
+    6485.4.1 = {
+        add_spouse = snowrow_97
+    }
+
+    6554.8.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_97 = {
+    name = "Jeyne"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = arbitrary
+    trait = shy
+    trait = brave
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 9
+    intrigue = 3
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6468.6.21 = {
+        birth = yes
+    }
+
+    6541.4.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_98 = {
+    name = "Casamor"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_96
+    mother = snowrow_97
+
+    trait = sadistic
+    trait = fickle
+    trait = shy
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 4
+    intrigue = 7
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_2
+
+    6494.8.22 = {
+        birth = yes
+    }
+
+    6508.9.22 = {
+        add_spouse = snowrow_99
+    }
+
+    6518.8.13 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+snowrow_99 = {
+    name = "Lacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = ambitious
+    trait = just
+    trait = cynical
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6491.3.26 = {
+        birth = yes
+    }
+
+    6557.11.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_100 = {
+    name = "Donella"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_98
+    mother = snowrow_99
+
+    trait = diligent
+    trait = impatient
+    trait = zealous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 2
+
+    trait = education_learning_4
+
+    6508.10.12 = {
+        birth = yes
+    }
+
+    6588.3.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_101 = {
+    name = "Rykissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_98
+    mother = snowrow_99
+
+    trait = cynical
+    trait = gluttonous
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_2
+
+    6511.12.4 = {
+        birth = yes
+    }
+
+    6521.10.8 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+snowrow_102 = {
+    name = "Edla"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_98
+    mother = snowrow_99
+
+    trait = sadistic
+    trait = forgiving
+    trait = cynical
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 9
+    prowess = 8
+
+    trait = education_learning_4
+
+    6513.2.8 = {
+        birth = yes
+    }
+
+    6593.10.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_103 = {
+    name = "Bass"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_98
+    mother = snowrow_99
+
+    trait = gregarious
+    trait = vengeful
+    trait = lustful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 9
+    learning = 8
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6514.2.21 = {
+        birth = yes
+    }
+
+    6555.7.12 = {
+        add_spouse = snowrow_104
+    }
+
+    6596.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_104 = {
+    name = "Gilliane"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = impatient
+    trait = calm
+    trait = deceitful
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6538.8.9 = {
+        birth = yes
+    }
+
+    6610.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_105 = {
+    name = "Kaeli"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_94
+    mother = snowrow_95
+
+    trait = impatient
+    trait = calm
+    trait = fickle
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 8
+    intrigue = 11
+    learning = 8
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    6472.1.22 = {
+        birth = yes
+    }
+
+    6543.4.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_106 = {
+    name = "Wayn"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_3
+    mother = snowrow_4
+
+    trait = temperate
+    trait = greedy
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 8
+    intrigue = 4
+    learning = 8
+    prowess = 5
+
+    trait = education_martial_2
+
+    6410.4.17 = {
+        birth = yes
+    }
+
+    6451.5.1 = {
+        add_spouse = snowrow_107
+    }
+
+    6494.4.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_107 = {
+    name = "Ely"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = arrogant
+    trait = patient
+    trait = honest
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_3
+
+    6434.11.22 = {
+        birth = yes
+    }
+
+    6514.9.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_108 = {
+    name = "Ulfr"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_106
+    mother = snowrow_107
+
+    trait = compassionate
+    trait = vengeful
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_4
+
+    6453.11.28 = {
+        birth = yes
+    }
+
+    6493.8.26 = {
+        add_spouse = snowrow_109
+    }
+
+    6527.8.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_109 = {
+    name = "Cecil"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = arbitrary
+    trait = gluttonous
+    trait = craven
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6476.8.23 = {
+        birth = yes
+    }
+
+    6558.4.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_110 = {
+    name = "Eyron"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_108
+    mother = snowrow_109
+
+    trait = gluttonous
+    trait = gregarious
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 8
+    intrigue = 4
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_1
+
+    6495.1.28 = {
+        birth = yes
+    }
+
+    6514.7.17 = {
+        add_spouse = snowrow_111
+    }
+
+    6562.9.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_111 = {
+    name = "Donella"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = sadistic
+    trait = forgiving
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6497.8.10 = {
+        birth = yes
+    }
+
+    6576.10.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_112 = {
+    name = "Knut"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_110
+    mother = snowrow_111
+
+    trait = compassionate
+    trait = calm
+    trait = shy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    6521.9.8 = {
+        birth = yes
+    }
+
+    6565.2.8 = {
+        add_spouse = snowrow_113
+    }
+
+    6606.1.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_113 = {
+    name = "Sarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = cynical
+    trait = wrathful
+    trait = craven
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_4
+
+    6548.8.16 = {
+        birth = yes
+    }
+
+    6621.12.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_114 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_112
+    mother = snowrow_113
+
+    trait = sadistic
+    trait = craven
+    trait = stubborn
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 4
+    intrigue = 10
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6569.4.23 = {
+        birth = yes
+    }
+
+    6643.5.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_115 = {
+    name = "Lenn"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_112
+    mother = snowrow_113
+
+    trait = craven
+    trait = honest
+    trait = patient
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6575.6.18 = {
+        birth = yes
+    }
+
+    6623.6.14 = {
+        add_spouse = snowrow_116
+    }
+
+    6633.10.15 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+snowrow_116 = {
+    name = "Elyssi"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = generous
+    trait = cynical
+    trait = brave
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 4
+    learning = 2
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6606.11.22 = {
+        birth = yes
+    }
+
+    6684.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_117 = {
+    name = "Evalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_112
+    mother = snowrow_113
+
+    trait = lustful
+    trait = greedy
+    trait = zealous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 3
+    prowess = 9
+
+    trait = education_intrigue_1
+
+    6577.7.9 = {
+        birth = yes
+    }
+
+    6643.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_118 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_108
+    mother = snowrow_109
+
+    trait = greedy
+    trait = just
+    trait = patient
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 4
+    intrigue = 5
+    learning = 9
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6502.10.2 = {
+        birth = yes
+    }
+
+    6569.10.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_119 = {
+    name = "Dacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_108
+    mother = snowrow_109
+
+    trait = cynical
+    trait = chaste
+    trait = generous
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 10
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6503.8.28 = {
+        birth = yes
+    }
+
+    6579.4.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_120 = {
+    name = "Eyron"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_106
+    mother = snowrow_107
+
+    trait = arbitrary
+    trait = compassionate
+    trait = greedy
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 8
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6462.9.24 = {
+        birth = yes
+    }
+
+    6505.9.7 = {
+        add_spouse = snowrow_121
+    }
+
+    6542.7.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_121 = {
+    name = "Agnessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = craven
+    trait = humble
+    trait = generous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6488.3.12 = {
+        birth = yes
+    }
+
+    6572.4.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_122 = {
+    name = "Nikla"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_120
+    mother = snowrow_121
+
+    trait = sadistic
+    trait = compassionate
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6505.1.7 = {
+        birth = yes
+    }
+
+    6519.2.5 = {
+        add_spouse = snowrow_123
+    }
+
+    6571.6.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_123 = {
+    name = "Caty"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = calm
+    trait = ambitious
+    trait = just
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 3
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6502.10.25 = {
+        birth = yes
+    }
+
+    6577.7.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_124 = {
+    name = "Dag"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_122
+    mother = snowrow_123
+
+    trait = lazy
+    trait = zealous
+    trait = shy
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 3
+    intrigue = 7
+    learning = 8
+    prowess = 3
+
+    trait = education_martial_4
+
+    6544.3.14 = {
+        birth = yes
+    }
+
+    6582.10.21 = {
+        add_spouse = snowrow_125
+    }
+
+    6592.11.25 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+snowrow_125 = {
+    name = "Lydia"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = lazy
+    trait = calm
+    trait = content
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6565.12.20 = {
+        birth = yes
+    }
+
+    6632.3.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_126 = {
+    name = "Berena"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_124
+    mother = snowrow_125
+
+    trait = lazy
+    trait = honest
+    trait = content
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 8
+    intrigue = 8
+    learning = 8
+    prowess = 9
+
+    trait = education_martial_4
+
+    6585.1.20 = {
+        birth = yes
+    }
+
+    6653.6.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_127 = {
+    name = "Rodrik"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_124
+    mother = snowrow_125
+
+    trait = sadistic
+    trait = compassionate
+    trait = lustful
+
+    diplomacy = 8
+    martial = 1
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6588.10.5 = {
+        birth = yes
+    }
+
+    6613.2.26 = {
+        add_spouse = snowrow_128
+    }
+
+    6663.8.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_128 = {
+    name = "Lynarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = sadistic
+    trait = gregarious
+    trait = lustful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 8
+    learning = 8
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6596.2.1 = {
+        birth = yes
+    }
+
+    6668.6.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_129 = {
+    name = "Lidia"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_124
+    mother = snowrow_125
+
+    trait = vengeful
+    trait = paranoid
+    trait = craven
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_1
+
+    6590.6.12 = {
+        birth = yes
+    }
+
+    6668.10.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_130 = {
+    name = "Sigwyn"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_106
+    mother = snowrow_107
+
+    trait = compassionate
+    trait = greedy
+    trait = craven
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 9
+    learning = 9
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6464.9.8 = {
+        birth = yes
+    }
+
+    6507.10.26 = {
+        add_spouse = snowrow_131
+    }
+
+    6517.2.10 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+snowrow_131 = {
+    name = "Agnessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = stubborn
+    trait = ambitious
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6490.1.23 = {
+        birth = yes
+    }
+
+    6564.12.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_132 = {
+    name = "Lenn"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_130
+    mother = snowrow_131
+
+    trait = stubborn
+    trait = lazy
+    trait = wrathful
+
+    diplomacy = 21
+    martial = 24
+    stewardship = 17
+    intrigue = 20
+    learning = 20
+    prowess = 26
+
+    trait = education_martial_4
+
+    6509.7.18 = {
+        birth = yes
+    }
+
+    6541.11.5 = {
+        add_spouse = snowrow_133
+    }
+
+    6551.7.17 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+snowrow_133 = {
+    name = "Magdalyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = craven
+    trait = zealous
+    trait = impatient
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 11
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    6524.8.27 = {
+        birth = yes
+    }
+
+    6606.2.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_134 = {
+    name = "Casamor"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_132
+    mother = snowrow_133
+
+    trait = zealous
+    trait = diligent
+    trait = lustful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_1
+
+    6548.1.3 = {
+        birth = yes
+    }
+
+    6562.7.3 = {
+        add_spouse = snowrow_135
+    }
+
+    6575.12.13 = {
+        death = { death_reason = death_treatment }
+    }
+}
+
+snowrow_135 = {
+    name = "Ilyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = just
+    trait = paranoid
+    trait = content
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 8
+    learning = 3
+    prowess = 3
+
+    trait = education_intrigue_4
+
+    6545.7.22 = {
+        birth = yes
+    }
+
+    6628.12.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_136 = {
+    name = "Grim"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_134
+    mother = snowrow_135
+
+    trait = wrathful
+    trait = compassionate
+    trait = lazy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 6
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_3
+
+    6563.9.17 = {
+        birth = yes
+    }
+
+    6582.5.27 = {
+        add_spouse = snowrow_137
+    }
+
+    6635.8.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_137 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = fickle
+    trait = temperate
+    trait = lazy
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_learning_3
+
+    6565.9.3 = {
+        birth = yes
+    }
+
+    6635.4.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_138 = {
+    name = "Ingrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_134
+    mother = snowrow_135
+
+    trait = sadistic
+    trait = temperate
+    trait = impatient
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 8
+    intrigue = 9
+    learning = 11
+    prowess = 2
+
+    trait = education_learning_3
+
+    6564.8.2 = {
+        birth = yes
+    }
+
+    6631.7.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_139 = {
+    name = "Lidania"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_134
+    mother = snowrow_135
+
+    trait = sadistic
+    trait = honest
+    trait = zealous
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_1
+
+    6566.5.3 = {
+        birth = yes
+    }
+
+    6647.4.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_140 = {
+    name = "Jonos"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_130
+    mother = snowrow_131
+
+    trait = diligent
+    trait = forgiving
+    trait = content
+
+    diplomacy = 2
+    martial = 9
+    stewardship = 9
+    intrigue = 2
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_2
+
+    6510.6.12 = {
+        birth = yes
+    }
+
+    6546.12.8 = {
+        add_spouse = snowrow_141
+    }
+
+    6583.9.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_141 = {
+    name = "Lyessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = just
+    trait = temperate
+    trait = patient
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 2
+
+    trait = education_diplomacy_3
+
+    6529.9.1 = {
+        birth = yes
+    }
+
+    6563.7.16 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+snowrow_142 = {
+    name = "Krysti"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_140
+    mother = snowrow_141
+
+    trait = just
+    trait = humble
+    trait = generous
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6548.6.18 = {
+        birth = yes
+    }
+
+    6624.11.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_143 = {
+    name = "Karlon"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_140
+    mother = snowrow_141
+
+    trait = content
+    trait = arrogant
+    trait = wrathful
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_1
+
+    6549.9.25 = {
+        birth = yes
+    }
+
+    6581.7.2 = {
+        add_spouse = snowrow_144
+    }
+
+    6630.5.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_144 = {
+    name = "Evalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = greedy
+    trait = trusting
+    trait = content
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    6564.8.24 = {
+        birth = yes
+    }
+
+    6631.3.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_145 = {
+    name = "Steen"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_143
+    mother = snowrow_144
+
+    trait = arrogant
+    trait = zealous
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    6582.4.24 = {
+        birth = yes
+    }
+
+    6632.3.25 = {
+        add_spouse = snowrow_146
+    }
+
+    6657.3.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_146 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = wrathful
+    trait = gregarious
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 7
+    intrigue = 7
+    learning = 9
+    prowess = 6
+
+    trait = education_martial_2
+
+    6615.8.3 = {
+        birth = yes
+    }
+
+    6696.7.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_147 = {
+    name = "Eylif"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_143
+    mother = snowrow_144
+
+    trait = greedy
+    trait = gluttonous
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 5
+    intrigue = 10
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_2
+
+    6585.10.19 = {
+        birth = yes
+    }
+
+    6603.9.23 = {
+        add_spouse = snowrow_148
+    }
+
+    6652.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_148 = {
+    name = "Raya"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = trusting
+    trait = just
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 8
+    prowess = 2
+
+    trait = education_learning_3
+
+    6586.10.3 = {
+        birth = yes
+    }
+
+    6667.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_149 = {
+    name = "Niklas"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_143
+    mother = snowrow_144
+
+    trait = just
+    trait = patient
+    trait = zealous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_3
+
+    6587.4.5 = {
+        birth = yes
+    }
+
+    6615.4.1 = {
+        add_spouse = snowrow_150
+    }
+
+    6672.1.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_150 = {
+    name = "Alys"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = temperate
+    trait = brave
+    trait = wrathful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6598.6.20 = {
+        birth = yes
+    }
+
+    6666.12.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_151 = {
+    name = "Olf"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_143
+    mother = snowrow_144
+
+    trait = cynical
+    trait = shy
+    trait = diligent
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6588.12.28 = {
+        birth = yes
+    }
+
+    6613.10.4 = {
+        add_spouse = snowrow_152
+    }
+
+    6625.5.19 = {
+        death = { death_reason = death_duel }
+    }
+}
+
+snowrow_152 = {
+    name = "Maggi"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = trusting
+    trait = wrathful
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 8
+    learning = 6
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    6596.3.18 = {
+        birth = yes
+    }
+
+    6678.5.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_153 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_140
+    mother = snowrow_141
+
+    trait = compassionate
+    trait = temperate
+    trait = lustful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6553.4.26 = {
+        birth = yes
+    }
+
+    6566.5.24 = {
+        death = { death_reason = death_treatment }
+    }
+}
+
+snowrow_154 = {
+    name = "Jon"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_140
+    mother = snowrow_141
+
+    trait = impatient
+    trait = humble
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 2
+    intrigue = 5
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_1
+
+    6555.1.3 = {
+        birth = yes
+    }
+
+    6572.12.9 = {
+        add_spouse = snowrow_155
+    }
+
+    6623.7.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_155 = {
+    name = "Fanni"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = stubborn
+    trait = trusting
+    trait = lazy
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6555.10.12 = {
+        birth = yes
+    }
+
+    6626.4.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_156 = {
+    name = "Vesimar"
+
+    dynasty = dynasty_snowrow
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_154
+    mother = snowrow_155
+
+    trait = paranoid
+    trait = gregarious
+    trait = lazy
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 2
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6587.12.18 = {
+        birth = yes
+    }
+
+    6635.12.7 = {
+        add_spouse = snowrow_157
+    }
+
+    6672.4.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_157 = {
+    name = "Izabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = patient
+    trait = compassionate
+    trait = shy
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 2
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    6618.3.4 = {
+        birth = yes
+    }
+
+    6696.11.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_158 = {
+    name = "Shiera"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_130
+    mother = snowrow_131
+
+    trait = zealous
+    trait = craven
+    trait = shy
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 8
+    intrigue = 6
+    learning = 8
+    prowess = 9
+
+    trait = education_stewardship_4
+
+    6512.1.13 = {
+        birth = yes
+    }
+
+    6596.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+snowrow_159 = {
+    name = "Agnessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = snowrow_130
+    mother = snowrow_131
+
+    trait = humble
+    trait = ambitious
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 2
+    intrigue = 5
+    learning = 1
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    6514.8.13 = {
+        birth = yes
+    }
+
+    6591.5.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

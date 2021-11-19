@@ -1,0 +1,1236 @@
+dustin_1 = {
+    name = "Grimir"
+
+    dynasty = dynasty_dustin
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = sadistic
+    trait = craven
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6300.3.9 = {
+        birth = yes
+    }
+
+    6319.4.21 = {
+        add_spouse = dustin_2
+    }
+
+    6366.5.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_2 = {
+    name = "Ingrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = compassionate
+    trait = lazy
+    trait = trusting
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 2
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6302.1.16 = {
+        birth = yes
+    }
+
+    6329.5.3 = {
+        death = { death_reason = death_treatment }
+    }
+}
+
+dustin_3 = {
+    name = "Tord"
+
+    dynasty = dynasty_dustin
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = dustin_1
+    mother = dustin_2
+
+    trait = sadistic
+    trait = diligent
+    trait = arrogant
+
+    diplomacy = 1
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_2
+
+    6324.9.7 = {
+        birth = yes
+    }
+
+    6367.1.22 = {
+        add_spouse = dustin_4
+    }
+
+    6400.9.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_4 = {
+    name = "Alyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = temperate
+    trait = craven
+    trait = cynical
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 4
+    intrigue = 1
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_4
+
+    6350.3.18 = {
+        birth = yes
+    }
+
+    6429.10.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_5 = {
+    name = "Dyncen"
+
+    dynasty = dynasty_dustin
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = dustin_3
+    mother = dustin_4
+
+    trait = cynical
+    trait = wrathful
+    trait = chaste
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 9
+    prowess = 8
+
+    trait = education_learning_4
+
+    6376.7.26 = {
+        birth = yes
+    }
+
+    6391.9.3 = {
+        add_spouse = dustin_6
+    }
+
+    6443.2.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_6 = {
+    name = "Karci"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = sadistic
+    trait = humble
+    trait = gluttonous
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 9
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6374.12.27 = {
+        birth = yes
+    }
+
+    6455.6.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_7 = {
+    name = "Magar"
+
+    dynasty = dynasty_dustin
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = dustin_5
+    mother = dustin_6
+
+    trait = ambitious
+    trait = just
+    trait = lustful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 4
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    6405.5.2 = {
+        birth = yes
+    }
+
+    6451.2.6 = {
+        add_spouse = dustin_8
+    }
+
+    6485.9.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_8 = {
+    name = "Thora"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = gluttonous
+    trait = content
+    trait = brave
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_learning_4
+
+    6434.1.8 = {
+        birth = yes
+    }
+
+    6510.11.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_9 = {
+    name = "Anna"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = dustin_7
+    mother = dustin_8
+
+    trait = cynical
+    trait = diligent
+    trait = greedy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    6451.1.19 = {
+        birth = yes
+    }
+
+    6481.10.7 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+dustin_10 = {
+    name = "Jojen"
+
+    dynasty = dynasty_dustin
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = dustin_7
+    mother = dustin_8
+
+    trait = zealous
+    trait = brave
+    trait = just
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_2
+
+    6457.10.15 = {
+        birth = yes
+    }
+
+    6500.8.22 = {
+        add_spouse = dustin_11
+    }
+
+    6541.9.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_11 = {
+    name = "Sybelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = brave
+    trait = humble
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 10
+    stewardship = 6
+    intrigue = 6
+    learning = 3
+    prowess = 6
+
+    trait = education_martial_3
+
+    6483.3.6 = {
+        birth = yes
+    }
+
+    6566.10.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_12 = {
+    name = "Edwyle"
+
+    dynasty = dynasty_dustin
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = dustin_10
+    mother = dustin_11
+
+    trait = temperate
+    trait = lustful
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 10
+    prowess = 8
+
+    trait = education_learning_3
+
+    6510.6.13 = {
+        birth = yes
+    }
+
+    6539.12.20 = {
+        add_spouse = dustin_13
+    }
+
+    6561.11.3 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+dustin_13 = {
+    name = "Cecilia"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = zealous
+    trait = honest
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 8
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6522.3.5 = {
+        birth = yes
+    }
+
+    6607.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_14 = {
+    name = "Byam"
+
+    dynasty = dynasty_dustin
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = dustin_12
+    mother = dustin_13
+
+    trait = impatient
+    trait = just
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 11
+    stewardship = 8
+    intrigue = 5
+    learning = 9
+    prowess = 7
+
+    trait = education_martial_3
+
+    6546.5.10 = {
+        birth = yes
+    }
+
+    6566.1.5 = {
+        add_spouse = dustin_15
+    }
+
+    6616.10.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_15 = {
+    name = "Lacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = calm
+    trait = vengeful
+    trait = zealous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 3
+    prowess = 9
+
+    trait = education_martial_4
+
+    6549.11.16 = {
+        birth = yes
+    }
+
+    6634.5.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_16 = {
+    name = "Torghen"
+
+    dynasty = dynasty_dustin
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = dustin_12
+    mother = dustin_13
+
+    trait = diligent
+    trait = greedy
+    trait = patient
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 10
+    intrigue = 4
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6550.6.27 = {
+        birth = yes
+    }
+
+    6551.1.4 = {
+        give_nickname = nick_the_magnificent
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6591.8.25 = {
+        add_spouse = dustin_17
+    }
+
+    6630.1.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_17 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = paranoid
+    trait = chaste
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 10
+    intrigue = 5
+    learning = 3
+    prowess = 4
+
+    trait = education_stewardship_1
+
+    6574.9.10 = {
+        birth = yes
+    }
+
+    6659.12.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_18 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = dustin_12
+    mother = dustin_13
+
+    trait = lazy
+    trait = impatient
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 6
+    intrigue = 10
+    learning = 7
+    prowess = 2
+
+    trait = education_intrigue_4
+
+    6551.6.5 = {
+        birth = yes
+    }
+
+    6618.12.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_19 = {
+    name = "Kyt"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = dustin_7
+    mother = dustin_8
+
+    trait = gregarious
+    trait = ambitious
+    trait = chaste
+
+    diplomacy = 1
+    martial = 5
+    stewardship = 4
+    intrigue = 2
+    learning = 6
+    prowess = 6
+
+    trait = education_learning_2
+
+    6460.8.18 = {
+        birth = yes
+    }
+
+    6476.9.12 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+dustin_20 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = dustin_7
+    mother = dustin_8
+
+    trait = trusting
+    trait = fickle
+    trait = humble
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 8
+    learning = 6
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    6461.5.28 = {
+        birth = yes
+    }
+
+    6530.11.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_21 = {
+    name = "Torkel"
+
+    dynasty = dynasty_dustin
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = dustin_5
+    mother = dustin_6
+
+    trait = calm
+    trait = arbitrary
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 10
+
+    trait = education_martial_3
+
+    6406.10.23 = {
+        birth = yes
+    }
+
+    6441.5.5 = {
+        add_spouse = dustin_22
+    }
+
+    6475.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_22 = {
+    name = "Berta"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = impatient
+    trait = chaste
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 9
+    learning = 7
+    prowess = 3
+
+    trait = education_intrigue_2
+
+    6424.7.21 = {
+        birth = yes
+    }
+
+    6490.8.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_23 = {
+    name = "Kristyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = dustin_21
+    mother = dustin_22
+
+    trait = honest
+    trait = greedy
+    trait = patient
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6448.9.27 = {
+        birth = yes
+    }
+
+    6527.11.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_24 = {
+    name = "Harlon"
+
+    dynasty = dynasty_dustin
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = dustin_21
+    mother = dustin_22
+
+    trait = cynical
+    trait = craven
+    trait = patient
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 4
+    intrigue = 9
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    6459.7.2 = {
+        birth = yes
+    }
+
+    6478.7.23 = {
+        add_spouse = dustin_25
+    }
+
+    6525.3.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_25 = {
+    name = "Ricardya"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = sadistic
+    trait = greedy
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6461.12.13 = {
+        birth = yes
+    }
+
+    6537.1.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_26 = {
+    name = "Lysanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = dustin_24
+    mother = dustin_25
+
+    trait = shy
+    trait = paranoid
+    trait = brave
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 8
+    intrigue = 2
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_1
+
+    6482.5.16 = {
+        birth = yes
+    }
+
+    6559.5.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_27 = {
+    name = "Alyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = dustin_24
+    mother = dustin_25
+
+    trait = content
+    trait = humble
+    trait = diligent
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6483.3.27 = {
+        birth = yes
+    }
+
+    6554.4.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_28 = {
+    name = "Degilf"
+
+    dynasty = dynasty_dustin
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = dustin_24
+    mother = dustin_25
+
+    trait = forgiving
+    trait = gluttonous
+    trait = arbitrary
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 8
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6487.9.2 = {
+        birth = yes
+    }
+
+    6527.2.9 = {
+        add_spouse = dustin_29
+    }
+
+    6541.3.21 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+dustin_29 = {
+    name = "Kristyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = wrathful
+    trait = compassionate
+    trait = honest
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 2
+    intrigue = 9
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    6510.2.2 = {
+        birth = yes
+    }
+
+    6592.8.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_30 = {
+    name = "Hareth"
+
+    dynasty = dynasty_dustin
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = dustin_28
+    mother = dustin_29
+
+    trait = shy
+    trait = trusting
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 3
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    6540.4.14 = {
+        birth = yes
+    }
+
+    6589.4.5 = {
+        add_spouse = dustin_31
+    }
+
+    6607.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_31 = {
+    name = "Ansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = lazy
+    trait = brave
+    trait = zealous
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 7
+    intrigue = 10
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6572.8.5 = {
+        birth = yes
+    }
+
+    6656.8.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_32 = {
+    name = "Loboda"
+
+    dynasty = dynasty_dustin
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = dustin_24
+    mother = dustin_25
+
+    trait = arbitrary
+    trait = deceitful
+    trait = temperate
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_1
+
+    6488.1.21 = {
+        birth = yes
+    }
+
+    6535.2.16 = {
+        add_spouse = dustin_33
+    }
+
+    6568.5.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_33 = {
+    name = "Lidya"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = content
+    trait = shy
+    trait = patient
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 9
+    intrigue = 7
+    learning = 3
+    prowess = 10
+
+    trait = education_martial_2
+
+    6518.4.4 = {
+        birth = yes
+    }
+
+    6599.7.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_34 = {
+    name = "Meliana"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = dustin_32
+    mother = dustin_33
+
+    trait = shy
+    trait = deceitful
+    trait = diligent
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 9
+    learning = 2
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6535.6.25 = {
+        birth = yes
+    }
+
+    6615.11.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_35 = {
+    name = "Robard"
+
+    dynasty = dynasty_dustin
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = dustin_32
+    mother = dustin_33
+
+    trait = impatient
+    trait = arbitrary
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_3
+
+    6544.4.24 = {
+        birth = yes
+    }
+
+    6582.7.12 = {
+        add_spouse = dustin_36
+    }
+
+    6592.2.28 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+dustin_36 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = gregarious
+    trait = lustful
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 8
+    intrigue = 4
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_3
+
+    6565.1.10 = {
+        birth = yes
+    }
+
+    6633.12.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_37 = {
+    name = "Jon"
+
+    dynasty = dynasty_dustin
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = dustin_32
+    mother = dustin_33
+
+    trait = calm
+    trait = greedy
+    trait = brave
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 10
+    intrigue = 9
+    learning = 3
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6545.10.6 = {
+        birth = yes
+    }
+
+    6576.10.20 = {
+        add_spouse = dustin_38
+    }
+
+    6625.1.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+dustin_38 = {
+    name = "Berta"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = chaste
+    trait = ambitious
+    trait = paranoid
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6559.9.21 = {
+        birth = yes
+    }
+
+    6638.10.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

@@ -1,0 +1,643 @@
+krann_1 = {
+    name = "Joseth"
+
+    dynasty = dynasty_krann
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    trait = gregarious
+    trait = gluttonous
+    trait = generous
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 9
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6300.10.5 = {
+        birth = yes
+    }
+
+    6322.5.9 = {
+        add_spouse = krann_2
+    }
+
+    6373.9.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+krann_2 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    trait = forgiving
+    trait = temperate
+    trait = just
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 10
+    prowess = 4
+
+    trait = education_learning_3
+
+    6305.1.13 = {
+        birth = yes
+    }
+
+    6374.3.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+krann_3 = {
+    name = "Streen"
+
+    dynasty = dynasty_krann
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    father = krann_1
+    mother = krann_2
+
+    trait = compassionate
+    trait = shy
+    trait = impatient
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_4
+
+    6332.6.3 = {
+        birth = yes
+    }
+
+    6379.2.22 = {
+        add_spouse = krann_4
+    }
+
+    6401.3.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+krann_4 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    trait = zealous
+    trait = diligent
+    trait = sadistic
+
+    diplomacy = 2
+    martial = 10
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_3
+
+    6362.7.18 = {
+        birth = yes
+    }
+
+    6445.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+krann_5 = {
+    name = "Robyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    father = krann_3
+    mother = krann_4
+
+    trait = sadistic
+    trait = deceitful
+    trait = craven
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    6388.4.22 = {
+        birth = yes
+    }
+
+    6471.12.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+krann_6 = {
+    name = "Aethan"
+
+    dynasty = dynasty_krann
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    father = krann_3
+    mother = krann_4
+
+    trait = temperate
+    trait = stubborn
+    trait = arrogant
+
+    diplomacy = 11
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6395.8.24 = {
+        birth = yes
+    }
+
+    6432.9.18 = {
+        add_spouse = krann_7
+    }
+
+    6477.6.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+krann_7 = {
+    name = "Tora"
+    female = yes
+
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    trait = arbitrary
+    trait = diligent
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 4
+    intrigue = 8
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6415.12.11 = {
+        birth = yes
+    }
+
+    6494.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+krann_8 = {
+    name = "Tylissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    father = krann_6
+    mother = krann_7
+
+    trait = impatient
+    trait = fickle
+    trait = shy
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 7
+    intrigue = 7
+    learning = 2
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    6437.7.10 = {
+        birth = yes
+    }
+
+    6513.2.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+krann_9 = {
+    name = "Lydia"
+    female = yes
+
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    father = krann_6
+    mother = krann_7
+
+    trait = ambitious
+    trait = deceitful
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 3
+    learning = 10
+    prowess = 6
+
+    trait = education_learning_2
+
+    6439.8.18 = {
+        birth = yes
+    }
+
+    6512.7.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+krann_10 = {
+    name = "Danelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    father = krann_6
+    mother = krann_7
+
+    trait = sadistic
+    trait = temperate
+    trait = humble
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 2
+    prowess = 6
+
+    trait = education_martial_2
+
+    6441.2.14 = {
+        birth = yes
+    }
+
+    6512.11.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+krann_11 = {
+    name = "Benjicot"
+
+    dynasty = dynasty_krann
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    father = krann_6
+    mother = krann_7
+
+    trait = ambitious
+    trait = diligent
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6446.1.14 = {
+        birth = yes
+    }
+
+    6476.12.14 = {
+        add_spouse = krann_12
+    }
+
+    6530.4.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+krann_12 = {
+    name = "Gilliane"
+    female = yes
+
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    trait = chaste
+    trait = zealous
+    trait = trusting
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 9
+    intrigue = 2
+    learning = 3
+    prowess = 2
+
+    trait = education_stewardship_2
+
+    6459.6.6 = {
+        birth = yes
+    }
+
+    6535.3.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+krann_13 = {
+    name = "Benjen"
+
+    dynasty = dynasty_krann
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    father = krann_11
+    mother = krann_12
+
+    trait = stubborn
+    trait = temperate
+    trait = gregarious
+
+    diplomacy = 8
+    martial = 2
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    6482.7.23 = {
+        birth = yes
+    }
+
+    6512.6.8 = {
+        add_spouse = krann_14
+    }
+
+    6522.1.10 = {
+        death = { death_reason = death_maimed }
+    }
+}
+
+krann_14 = {
+    name = "Meera"
+    female = yes
+
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    trait = cynical
+    trait = impatient
+    trait = fickle
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 3
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6495.1.22 = {
+        birth = yes
+    }
+
+    6578.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+krann_15 = {
+    name = "Thora"
+    female = yes
+
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    father = krann_13
+    mother = krann_14
+
+    trait = temperate
+    trait = diligent
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 4
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    6517.8.5 = {
+        birth = yes
+    }
+
+    6596.7.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+krann_16 = {
+    name = "Aronn"
+
+    dynasty = dynasty_krann
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    father = krann_13
+    mother = krann_14
+
+    trait = wrathful
+    trait = lustful
+    trait = humble
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 3
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6518.11.24 = {
+        birth = yes
+    }
+
+    6548.11.9 = {
+        add_spouse = krann_17
+    }
+
+    6590.11.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+krann_17 = {
+    name = "Iris"
+    female = yes
+
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    trait = vengeful
+    trait = diligent
+    trait = gregarious
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6531.9.2 = {
+        birth = yes
+    }
+
+    6584.6.9 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+krann_18 = {
+    name = "Helman"
+
+    dynasty = dynasty_krann
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    father = krann_16
+    mother = krann_17
+
+    trait = ambitious
+    trait = fickle
+    trait = honest
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    6550.9.28 = {
+        birth = yes
+    }
+
+    6597.11.12 = {
+        add_spouse = krann_19
+    }
+
+    6627.7.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+krann_19 = {
+    name = "Alyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    trait = patient
+    trait = temperate
+    trait = honest
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 9
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6580.10.6 = {
+        birth = yes
+    }
+
+    6654.5.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+krann_20 = {
+    name = "Orya"
+    female = yes
+
+    religion = the_old_gods
+    culture = flint_clansmen
+
+    father = krann_11
+    mother = krann_12
+
+    trait = stubborn
+    trait = temperate
+    trait = content
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6486.11.21 = {
+        birth = yes
+    }
+
+    6494.9.14 = {
+        death = { death_reason = death_attempted_treatment }
+    }
+}

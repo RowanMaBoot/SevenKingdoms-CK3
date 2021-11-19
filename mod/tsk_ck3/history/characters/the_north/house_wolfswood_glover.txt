@@ -1,0 +1,2661 @@
+glover_1 = {
+    name = "Hugo"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = brave
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6300.12.21 = {
+        birth = yes
+    }
+
+    6333.3.25 = {
+        add_spouse = glover_2
+    }
+
+    6366.4.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_2 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = chaste
+    trait = just
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6316.7.27 = {
+        birth = yes
+    }
+
+    6383.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_3 = {
+    name = "Greg"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_1
+    mother = glover_2
+
+    trait = lustful
+    trait = honest
+    trait = lazy
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 9
+
+    trait = education_martial_3
+
+    6338.1.24 = {
+        birth = yes
+    }
+
+    6368.12.5 = {
+        add_spouse = glover_4
+    }
+
+    6419.3.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_4 = {
+    name = "Berti"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = zealous
+    trait = chaste
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 10
+    prowess = 4
+
+    trait = education_learning_2
+
+    6351.7.15 = {
+        birth = yes
+    }
+
+    6378.3.10 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+glover_5 = {
+    name = "Petar"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_3
+    mother = glover_4
+
+    trait = gluttonous
+    trait = chaste
+    trait = fickle
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 4
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6370.9.27 = {
+        birth = yes
+    }
+
+    6391.8.2 = {
+        add_spouse = glover_6
+    }
+
+    6442.6.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_6 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = brave
+    trait = cynical
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 8
+    intrigue = 8
+    learning = 3
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6374.10.20 = {
+        birth = yes
+    }
+
+    6426.9.2 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+glover_7 = {
+    name = "Tomard"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_5
+    mother = glover_6
+
+    trait = lazy
+    trait = gregarious
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_2
+
+    6398.5.24 = {
+        birth = yes
+    }
+
+    6447.12.25 = {
+        add_spouse = glover_8
+    }
+
+    6481.4.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_8 = {
+    name = "Jolanta"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = fickle
+    trait = calm
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6430.12.22 = {
+        birth = yes
+    }
+
+    6506.11.20 = {
+        death = { death_reason = death_plotting  }
+    }
+}
+
+glover_9 = {
+    name = "Mikken"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_7
+    mother = glover_8
+
+    trait = wrathful
+    trait = ambitious
+    trait = stubborn
+
+    diplomacy = 10
+    martial = 2
+    stewardship = 4
+    intrigue = 5
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6467.1.8 = {
+        birth = yes
+    }
+
+    6511.6.24 = {
+        add_spouse = glover_10
+    }
+
+    6539.10.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_10 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = callous
+    trait = content
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 3
+    prowess = 8
+
+    trait = education_martial_3
+
+    6494.5.9 = {
+        birth = yes
+    }
+
+    6535.11.20 = {
+        death = { death_reason = death_torture  }
+    }
+}
+
+glover_11 = {
+    name = "Cregan"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_9
+    mother = glover_10
+
+    trait = cynical
+    trait = craven
+    trait = shy
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 3
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6514.5.15 = {
+        birth = yes
+    }
+
+    6533.4.8 = {
+        add_spouse = glover_12
+    }
+
+    6587.7.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_12 = {
+    name = "Kaeli"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = just
+    trait = gregarious
+    trait = fickle
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6516.4.26 = {
+        birth = yes
+    }
+
+    6582.11.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_13 = {
+    name = "Edwyle"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_11
+    mother = glover_12
+
+    trait = cynical
+    trait = callous
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 3
+    prowess = 6
+
+    trait = education_martial_2
+
+    6547.2.11 = {
+        birth = yes
+    }
+
+    6593.5.11 = {
+        add_spouse = glover_14
+    }
+
+    6629.9.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_14 = {
+    name = "Rikissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = patient
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6576.12.3 = {
+        birth = yes
+    }
+
+    6629.4.10 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+glover_15 = {
+    name = "Degilf"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_11
+    mother = glover_12
+
+    trait = chaste
+    trait = cynical
+    trait = impatient
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6552.9.28 = {
+        birth = yes
+    }
+
+    6590.10.12 = {
+        add_spouse = glover_16
+    }
+
+    6632.7.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_16 = {
+    name = "Cersera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = diligent
+    trait = generous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 11
+    learning = 5
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    6573.4.26 = {
+        birth = yes
+    }
+
+    6655.1.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_17 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_9
+    mother = glover_10
+
+    trait = cynical
+    trait = just
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 10
+
+    trait = education_learning_3
+
+    6519.11.27 = {
+        birth = yes
+    }
+
+    6604.10.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_18 = {
+    name = "Rolf"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_9
+    mother = glover_10
+
+    trait = honest
+    trait = forgiving
+    trait = generous
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 2
+    learning = 8
+    prowess = 10
+
+    trait = education_learning_4
+
+    6521.7.10 = {
+        birth = yes
+    }
+
+    6535.9.11 = {
+        add_spouse = glover_19
+    }
+
+    6589.1.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_19 = {
+    name = "Kennya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = just
+    trait = cynical
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 3
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    6518.6.27 = {
+        birth = yes
+    }
+
+    6592.12.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_20 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_18
+    mother = glover_19
+
+    trait = generous
+    trait = honest
+    trait = lazy
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 9
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    6543.1.13 = {
+        birth = yes
+    }
+
+    6609.11.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_21 = {
+    name = "Arya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_18
+    mother = glover_19
+
+    trait = honest
+    trait = compassionate
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_3
+
+    6549.10.2 = {
+        birth = yes
+    }
+
+    6615.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_22 = {
+    name = "Skuli"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_18
+    mother = glover_19
+
+    trait = brave
+    trait = arbitrary
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6554.9.3 = {
+        birth = yes
+    }
+
+    6571.10.3 = {
+        add_spouse = glover_23
+    }
+
+    6624.3.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_23 = {
+    name = "Cateryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = temperate
+    trait = diligent
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 2
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_learning_4
+
+    6554.12.2 = {
+        birth = yes
+    }
+
+    6620.1.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_24 = {
+    name = "Berta"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_5
+    mother = glover_6
+
+    trait = temperate
+    trait = trusting
+    trait = lustful
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_2
+
+    6403.8.9 = {
+        birth = yes
+    }
+
+    6485.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_25 = {
+    name = "Magdalyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_5
+    mother = glover_6
+
+    trait = fickle
+    trait = lazy
+    trait = chaste
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 2
+
+    trait = education_diplomacy_3
+
+    6404.9.5 = {
+        birth = yes
+    }
+
+    6471.8.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_26 = {
+    name = "Agnessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_3
+    mother = glover_4
+
+    trait = callous
+    trait = arbitrary
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 4
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6372.9.19 = {
+        birth = yes
+    }
+
+    6443.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_27 = {
+    name = "Ulward"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_3
+    mother = glover_4
+
+    trait = brave
+    trait = zealous
+    trait = arbitrary
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 2
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6374.12.18 = {
+        birth = yes
+    }
+
+    6409.5.23 = {
+        add_spouse = glover_28
+    }
+
+    6456.5.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_28 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = sadistic
+    trait = shy
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 5
+    intrigue = 8
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_2
+
+    6392.2.22 = {
+        birth = yes
+    }
+
+    6466.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_29 = {
+    name = "Dywen"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_27
+    mother = glover_28
+
+    trait = patient
+    trait = greedy
+    trait = content
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6421.2.17 = {
+        birth = yes
+    }
+
+    6467.10.21 = {
+        add_spouse = glover_30
+    }
+
+    6490.8.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_30 = {
+    name = "Serena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = arrogant
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 8
+    intrigue = 7
+    learning = 3
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6450.11.1 = {
+        birth = yes
+    }
+
+    6530.3.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_31 = {
+    name = "Wylla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_29
+    mother = glover_30
+
+    trait = callous
+    trait = brave
+    trait = humble
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 3
+
+    trait = education_intrigue_4
+
+    6468.12.17 = {
+        birth = yes
+    }
+
+    6537.7.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_32 = {
+    name = "Frodoi"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_29
+    mother = glover_30
+
+    trait = gluttonous
+    trait = content
+    trait = impatient
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 9
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6470.10.22 = {
+        birth = yes
+    }
+
+    6519.10.10 = {
+        add_spouse = glover_33
+    }
+
+    6529.8.2 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+glover_33 = {
+    name = "Barbara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = arbitrary
+    trait = craven
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 2
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    6502.5.1 = {
+        birth = yes
+    }
+
+    6578.8.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_34 = {
+    name = "Harwood"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_32
+    mother = glover_33
+
+    trait = just
+    trait = calm
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 1
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6524.5.2 = {
+        birth = yes
+    }
+
+    6574.2.11 = {
+        add_spouse = glover_35
+    }
+
+    6594.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_35 = {
+    name = "Cecilia"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = impatient
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_2
+
+    6557.2.21 = {
+        birth = yes
+    }
+
+    6640.2.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_36 = {
+    name = "Stan"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_34
+    mother = glover_35
+
+    trait = forgiving
+    trait = chaste
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_4
+
+    6579.9.26 = {
+        birth = yes
+    }
+
+    6580.10.1 = {
+        give_nickname = nick_the_inevitable
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6628.3.27 = {
+        add_spouse = glover_37
+    }
+
+    6652.2.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_37 = {
+    name = "Anna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = sadistic
+    trait = temperate
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6611.2.26 = {
+        birth = yes
+    }
+
+    6693.10.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_38 = {
+    name = "Judyth"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_34
+    mother = glover_35
+
+    trait = lazy
+    trait = gregarious
+    trait = greedy
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6582.11.28 = {
+        birth = yes
+    }
+
+    6659.4.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_39 = {
+    name = "Tormand"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_34
+    mother = glover_35
+
+    trait = compassionate
+    trait = lazy
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 3
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_2
+
+    6585.8.15 = {
+        birth = yes
+    }
+
+    6618.6.22 = {
+        add_spouse = glover_40
+    }
+
+    6628.8.26 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+glover_40 = {
+    name = "Tissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = impatient
+    trait = temperate
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 10
+
+    trait = education_intrigue_3
+
+    6601.5.21 = {
+        birth = yes
+    }
+
+    6679.11.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_41 = {
+    name = "Walder"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_34
+    mother = glover_35
+
+    trait = patient
+    trait = greedy
+    trait = temperate
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 2
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6587.8.28 = {
+        birth = yes
+    }
+
+    6607.9.25 = {
+        add_spouse = glover_42
+    }
+
+    6666.4.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_42 = {
+    name = "Mariah"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = fickle
+    trait = temperate
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 9
+    intrigue = 5
+    learning = 3
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6590.11.18 = {
+        birth = yes
+    }
+
+    6668.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_43 = {
+    name = "Beron"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_29
+    mother = glover_30
+
+    trait = generous
+    trait = patient
+    trait = craven
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 2
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_3
+
+    6475.12.13 = {
+        birth = yes
+    }
+
+    6522.1.11 = {
+        add_spouse = glover_44
+    }
+
+    6558.10.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_44 = {
+    name = "Cateryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = trusting
+    trait = zealous
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 10
+    learning = 8
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6505.10.27 = {
+        birth = yes
+    }
+
+    6586.9.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_45 = {
+    name = "Yoren"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_43
+    mother = glover_44
+
+    trait = lustful
+    trait = trusting
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 2
+    intrigue = 9
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6522.5.24 = {
+        birth = yes
+    }
+
+    6564.2.17 = {
+        add_spouse = glover_46
+    }
+
+    6574.11.9 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+glover_46 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = craven
+    trait = patient
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 9
+    intrigue = 8
+    learning = 5
+    prowess = 10
+
+    trait = education_stewardship_4
+
+    6547.4.10 = {
+        birth = yes
+    }
+
+    6614.10.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_47 = {
+    name = "Streen"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_45
+    mother = glover_46
+
+    trait = zealous
+    trait = forgiving
+    trait = content
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 3
+    intrigue = 5
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_2
+
+    6569.10.27 = {
+        birth = yes
+    }
+
+    6616.11.25 = {
+        add_spouse = glover_48
+    }
+
+    6626.6.1 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+glover_48 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = cynical
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_2
+
+    6599.3.7 = {
+        birth = yes
+    }
+
+    6673.12.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_49 = {
+    name = "Grimir"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_43
+    mother = glover_44
+
+    trait = diligent
+    trait = deceitful
+    trait = zealous
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 9
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6525.12.9 = {
+        birth = yes
+    }
+
+    6575.6.19 = {
+        add_spouse = glover_50
+    }
+
+    6595.4.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_50 = {
+    name = "Arya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = zealous
+    trait = temperate
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 10
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6558.8.23 = {
+        birth = yes
+    }
+
+    6638.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_51 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_49
+    mother = glover_50
+
+    trait = chaste
+    trait = ambitious
+    trait = lazy
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 9
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6578.2.21 = {
+        birth = yes
+    }
+
+    6644.6.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_52 = {
+    name = "Hother"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_49
+    mother = glover_50
+
+    trait = gluttonous
+    trait = generous
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 11
+    intrigue = 6
+    learning = 2
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6584.9.11 = {
+        birth = yes
+    }
+
+    6609.11.25 = {
+        add_spouse = glover_53
+    }
+
+    6666.6.24 = {
+        death = { death_reason = death_hunting_accident  }
+    }
+}
+
+glover_53 = {
+    name = "Kymila"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = zealous
+    trait = fickle
+    trait = lazy
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 3
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_4
+
+    6592.9.25 = {
+        birth = yes
+    }
+
+    6670.1.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_54 = {
+    name = "Ygritte"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_43
+    mother = glover_44
+
+    trait = arrogant
+    trait = craven
+    trait = patient
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 4
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6529.1.11 = {
+        birth = yes
+    }
+
+    6600.8.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_55 = {
+    name = "Lyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_29
+    mother = glover_30
+
+    trait = lazy
+    trait = chaste
+    trait = content
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 11
+    intrigue = 2
+    learning = 5
+    prowess = 10
+
+    trait = education_stewardship_2
+
+    6476.9.17 = {
+        birth = yes
+    }
+
+    6554.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_56 = {
+    name = "Royce"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_27
+    mother = glover_28
+
+    trait = temperate
+    trait = forgiving
+    trait = patient
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 2
+    intrigue = 8
+    learning = 7
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6426.11.20 = {
+        birth = yes
+    }
+
+    6449.1.11 = {
+        add_spouse = glover_57
+    }
+
+    6497.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_57 = {
+    name = "Edla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = content
+    trait = compassionate
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 4
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6432.7.20 = {
+        birth = yes
+    }
+
+    6513.1.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_58 = {
+    name = "Mariah"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_56
+    mother = glover_57
+
+    trait = ambitious
+    trait = chaste
+    trait = impatient
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6455.3.24 = {
+        birth = yes
+    }
+
+    6530.4.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_59 = {
+    name = "Ingrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_56
+    mother = glover_57
+
+    trait = fickle
+    trait = gregarious
+    trait = just
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 11
+    intrigue = 4
+    learning = 8
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    6457.7.25 = {
+        birth = yes
+    }
+
+    6536.11.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_60 = {
+    name = "Barth"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_56
+    mother = glover_57
+
+    trait = honest
+    trait = craven
+    trait = paranoid
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 10
+    intrigue = 4
+    learning = 8
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6461.6.22 = {
+        birth = yes
+    }
+
+    6485.11.22 = {
+        add_spouse = glover_61
+    }
+
+    6538.9.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_61 = {
+    name = "Krysti"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = gluttonous
+    trait = just
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_2
+
+    6468.10.22 = {
+        birth = yes
+    }
+
+    6546.4.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_62 = {
+    name = "Styn"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_60
+    mother = glover_61
+
+    trait = wrathful
+    trait = greedy
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6505.1.6 = {
+        birth = yes
+    }
+
+    6534.12.16 = {
+        add_spouse = glover_63
+    }
+
+    6588.4.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_63 = {
+    name = "Lysa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = just
+    trait = lustful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 3
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6517.4.2 = {
+        birth = yes
+    }
+
+    6548.2.19 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+glover_64 = {
+    name = "Rodrik"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_62
+    mother = glover_63
+
+    trait = temperate
+    trait = diligent
+    trait = just
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 8
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6537.9.26 = {
+        birth = yes
+    }
+
+    6581.6.27 = {
+        add_spouse = glover_65
+    }
+
+    6603.7.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_65 = {
+    name = "Gil"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = callous
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_learning_3
+
+    6564.6.6 = {
+        birth = yes
+    }
+
+    6633.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_66 = {
+    name = "Grimir"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_62
+    mother = glover_63
+
+    trait = temperate
+    trait = brave
+    trait = just
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 8
+    intrigue = 5
+    learning = 9
+    prowess = 9
+
+    trait = education_learning_2
+
+    6540.7.21 = {
+        birth = yes
+    }
+
+    6561.8.22 = {
+        add_spouse = glover_67
+    }
+
+    6623.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_67 = {
+    name = "Cat"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = greedy
+    trait = forgiving
+    trait = just
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 2
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6544.5.25 = {
+        birth = yes
+    }
+
+    6629.11.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_68 = {
+    name = "Jynessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_62
+    mother = glover_63
+
+    trait = gluttonous
+    trait = generous
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 8
+    intrigue = 9
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6542.5.6 = {
+        birth = yes
+    }
+
+    6624.12.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_69 = {
+    name = "Ingrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_56
+    mother = glover_57
+
+    trait = compassionate
+    trait = paranoid
+    trait = zealous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_learning_2
+
+    6462.7.27 = {
+        birth = yes
+    }
+
+    6543.7.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_70 = {
+    name = "Neddard"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_3
+    mother = glover_4
+
+    trait = arbitrary
+    trait = chaste
+    trait = cynical
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6375.10.11 = {
+        birth = yes
+    }
+
+    6408.5.4 = {
+        add_spouse = glover_71
+    }
+
+    6434.11.8 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+glover_71 = {
+    name = "Kennya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = lustful
+    trait = diligent
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_3
+
+    6391.6.22 = {
+        birth = yes
+    }
+
+    6468.6.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_72 = {
+    name = "Agnyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_70
+    mother = glover_71
+
+    trait = chaste
+    trait = shy
+    trait = diligent
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 4
+    intrigue = 9
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    6409.7.18 = {
+        birth = yes
+    }
+
+    6475.2.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_73 = {
+    name = "Wyman"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_70
+    mother = glover_71
+
+    trait = ambitious
+    trait = callous
+    trait = arbitrary
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_4
+
+    6417.9.21 = {
+        birth = yes
+    }
+
+    6432.11.28 = {
+        add_spouse = glover_74
+    }
+
+    6491.9.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_74 = {
+    name = "Maegi"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = shy
+    trait = temperate
+    trait = callous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 10
+    prowess = 6
+
+    trait = education_learning_1
+
+    6415.2.6 = {
+        birth = yes
+    }
+
+    6490.1.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_75 = {
+    name = "Bennard"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_73
+    mother = glover_74
+
+    trait = fickle
+    trait = lustful
+    trait = paranoid
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_3
+
+    6457.10.17 = {
+        birth = yes
+    }
+
+    6505.4.3 = {
+        add_spouse = glover_76
+    }
+
+    6536.4.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_76 = {
+    name = "Iris"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = paranoid
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6488.7.2 = {
+        birth = yes
+    }
+
+    6554.5.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_77 = {
+    name = "Bennard"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_75
+    mother = glover_76
+
+    trait = honest
+    trait = brave
+    trait = calm
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6528.1.22 = {
+        birth = yes
+    }
+
+    6546.4.14 = {
+        add_spouse = glover_78
+    }
+
+    6594.7.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_78 = {
+    name = "Darlessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = deceitful
+    trait = trusting
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_4
+
+    6529.12.4 = {
+        birth = yes
+    }
+
+    6609.4.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_79 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_77
+    mother = glover_78
+
+    trait = paranoid
+    trait = cynical
+    trait = humble
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    6559.12.20 = {
+        birth = yes
+    }
+
+    6629.8.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_80 = {
+    name = "Danny"
+
+    dynasty = dynasty_glover
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_77
+    mother = glover_78
+
+    trait = patient
+    trait = temperate
+    trait = cynical
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 2
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6567.3.7 = {
+        birth = yes
+    }
+
+    6589.6.28 = {
+        add_spouse = glover_81
+    }
+
+    6633.8.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_81 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = deceitful
+    trait = arbitrary
+    trait = compassionate
+
+    diplomacy = 11
+    martial = 5
+    stewardship = 4
+    intrigue = 7
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    6572.5.15 = {
+        birth = yes
+    }
+
+    6640.1.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+glover_82 = {
+    name = "Kyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = glover_70
+    mother = glover_71
+
+    trait = diligent
+    trait = deceitful
+    trait = brave
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 2
+    intrigue = 10
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6420.9.17 = {
+        birth = yes
+    }
+
+    6434.11.26 = {
+        death = { death_reason = death_leper }
+    }
+}

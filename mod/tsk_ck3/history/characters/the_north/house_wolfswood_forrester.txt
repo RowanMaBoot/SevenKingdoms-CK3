@@ -1,0 +1,1032 @@
+forrester_1 = {
+    name = "Petar"
+
+    dynasty = dynasty_forrester
+    religion = the_old_gods
+    culture = northmen
+
+    trait = paranoid
+    trait = just
+    trait = calm
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 10
+    intrigue = 5
+    learning = 5
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    6300.12.8 = {
+        birth = yes
+    }
+
+    6317.4.12 = {
+        add_spouse = forrester_2
+    }
+
+    6368.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_2 = {
+    name = "Cecil"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = diligent
+    trait = generous
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 2
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_1
+
+    6300.1.11 = {
+        birth = yes
+    }
+
+    6372.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_3 = {
+    name = "Ned"
+
+    dynasty = dynasty_forrester
+    religion = the_old_gods
+    culture = northmen
+
+    father = forrester_1
+    mother = forrester_2
+
+    trait = arbitrary
+    trait = craven
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 3
+    intrigue = 9
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6330.2.10 = {
+        birth = yes
+    }
+
+    6355.5.9 = {
+        add_spouse = forrester_4
+    }
+
+    6411.8.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_4 = {
+    name = "Meera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = zealous
+    trait = paranoid
+    trait = brave
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 4
+    intrigue = 6
+    learning = 2
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6338.2.14 = {
+        birth = yes
+    }
+
+    6411.8.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_5 = {
+    name = "Rykissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = forrester_3
+    mother = forrester_4
+
+    trait = just
+    trait = paranoid
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 3
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6363.4.23 = {
+        birth = yes
+    }
+
+    6435.2.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_6 = {
+    name = "Beron"
+
+    dynasty = dynasty_forrester
+    religion = the_old_gods
+    culture = northmen
+
+    father = forrester_3
+    mother = forrester_4
+
+    trait = fickle
+    trait = ambitious
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6368.2.1 = {
+        birth = yes
+    }
+
+    6398.9.8 = {
+        add_spouse = forrester_7
+    }
+
+    6440.2.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_7 = {
+    name = "Elin"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = gregarious
+    trait = greedy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 2
+    intrigue = 8
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6381.8.22 = {
+        birth = yes
+    }
+
+    6449.10.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_8 = {
+    name = "Alaric"
+
+    dynasty = dynasty_forrester
+    religion = the_old_gods
+    culture = northmen
+
+    father = forrester_6
+    mother = forrester_7
+
+    trait = just
+    trait = paranoid
+    trait = shy
+
+    diplomacy = 8
+    martial = 1
+    stewardship = 7
+    intrigue = 3
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    6419.11.16 = {
+        birth = yes
+    }
+
+    6433.7.8 = {
+        add_spouse = forrester_9
+    }
+
+    6488.11.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_9 = {
+    name = "Marissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = fickle
+    trait = paranoid
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_2
+
+    6416.10.22 = {
+        birth = yes
+    }
+
+    6499.7.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_10 = {
+    name = "Mariah"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = forrester_8
+    mother = forrester_9
+
+    trait = just
+    trait = trusting
+    trait = content
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_2
+
+    6442.10.22 = {
+        birth = yes
+    }
+
+    6522.9.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_11 = {
+    name = "Wyman"
+
+    dynasty = dynasty_forrester
+    religion = the_old_gods
+    culture = northmen
+
+    father = forrester_8
+    mother = forrester_9
+
+    trait = vengeful
+    trait = arbitrary
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6449.3.7 = {
+        birth = yes
+    }
+
+    6497.8.5 = {
+        add_spouse = forrester_12
+    }
+
+    6521.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_12 = {
+    name = "Jolanta"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = fickle
+    trait = patient
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_learning_4
+
+    6480.8.6 = {
+        birth = yes
+    }
+
+    6558.1.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_13 = {
+    name = "Robett"
+
+    dynasty = dynasty_forrester
+    religion = the_old_gods
+    culture = northmen
+
+    father = forrester_11
+    mother = forrester_12
+
+    trait = lustful
+    trait = arrogant
+    trait = diligent
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6498.2.2 = {
+        birth = yes
+    }
+
+    6531.6.8 = {
+        add_spouse = forrester_14
+    }
+
+    6556.11.26 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+forrester_14 = {
+    name = "Barbrey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = trusting
+    trait = fickle
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6514.1.7 = {
+        birth = yes
+    }
+
+    6580.1.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_15 = {
+    name = "Markors"
+
+    dynasty = dynasty_forrester
+    religion = the_old_gods
+    culture = northmen
+
+    father = forrester_13
+    mother = forrester_14
+
+    trait = arbitrary
+    trait = callous
+    trait = humble
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 9
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6532.4.15 = {
+        birth = yes
+    }
+
+    6548.5.2 = {
+        add_spouse = forrester_16
+    }
+
+    6600.7.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_16 = {
+    name = "Elyssi"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = forgiving
+    trait = trusting
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    6531.7.15 = {
+        birth = yes
+    }
+
+    6600.4.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_17 = {
+    name = "Perra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = forrester_11
+    mother = forrester_12
+
+    trait = arrogant
+    trait = fickle
+    trait = patient
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 3
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_2
+
+    6504.6.3 = {
+        birth = yes
+    }
+
+    6577.1.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_18 = {
+    name = "Elyssi"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = forrester_11
+    mother = forrester_12
+
+    trait = forgiving
+    trait = stubborn
+    trait = chaste
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 2
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6508.4.28 = {
+        birth = yes
+    }
+
+    6587.7.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_19 = {
+    name = "Rowena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = forrester_11
+    mother = forrester_12
+
+    trait = impatient
+    trait = humble
+    trait = calm
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 9
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    6512.4.26 = {
+        birth = yes
+    }
+
+    6579.11.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_20 = {
+    name = "Karlon"
+
+    dynasty = dynasty_forrester
+    religion = the_old_gods
+    culture = northmen
+
+    father = forrester_3
+    mother = forrester_4
+
+    trait = shy
+    trait = lazy
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 5
+    intrigue = 1
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6370.9.12 = {
+        birth = yes
+    }
+
+    6405.9.24 = {
+        add_spouse = forrester_21
+    }
+
+    6453.9.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_21 = {
+    name = "Tora"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = lazy
+    trait = stubborn
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_1
+
+    6388.1.15 = {
+        birth = yes
+    }
+
+    6467.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_22 = {
+    name = "Anun"
+
+    dynasty = dynasty_forrester
+    religion = the_old_gods
+    culture = northmen
+
+    father = forrester_20
+    mother = forrester_21
+
+    trait = sadistic
+    trait = calm
+    trait = honest
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 8
+    intrigue = 8
+    learning = 5
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    6421.2.20 = {
+        birth = yes
+    }
+
+    6449.9.7 = {
+        add_spouse = forrester_23
+    }
+
+    6494.2.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_23 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = just
+    trait = shy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 4
+    intrigue = 2
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_1
+
+    6432.12.9 = {
+        birth = yes
+    }
+
+    6514.5.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_24 = {
+    name = "Rodwell"
+
+    dynasty = dynasty_forrester
+    religion = the_old_gods
+    culture = northmen
+
+    father = forrester_22
+    mother = forrester_23
+
+    trait = diligent
+    trait = arrogant
+    trait = impatient
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_4
+
+    6454.7.4 = {
+        birth = yes
+    }
+
+    6501.10.20 = {
+        add_spouse = forrester_25
+    }
+
+    6523.11.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_25 = {
+    name = "Berta"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = diligent
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6484.10.25 = {
+        birth = yes
+    }
+
+    6556.7.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_26 = {
+    name = "Jon"
+
+    dynasty = dynasty_forrester
+    religion = the_old_gods
+    culture = northmen
+
+    father = forrester_24
+    mother = forrester_25
+
+    trait = compassionate
+    trait = trusting
+    trait = temperate
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 4
+    intrigue = 2
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_4
+
+    6502.9.22 = {
+        birth = yes
+    }
+
+    6523.4.6 = {
+        add_spouse = forrester_27
+    }
+
+    6582.4.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_27 = {
+    name = "Sage"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = zealous
+    trait = diligent
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 9
+    intrigue = 7
+    learning = 3
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6506.9.1 = {
+        birth = yes
+    }
+
+    6586.12.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_28 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = forrester_26
+    mother = forrester_27
+
+    trait = calm
+    trait = greedy
+    trait = shy
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6523.5.17 = {
+        birth = yes
+    }
+
+    6602.7.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_29 = {
+    name = "Judyth"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = forrester_26
+    mother = forrester_27
+
+    trait = calm
+    trait = brave
+    trait = impatient
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 6
+    prowess = 2
+
+    trait = education_diplomacy_2
+
+    6529.1.13 = {
+        birth = yes
+    }
+
+    6611.3.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_30 = {
+    name = "Margaret"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = forrester_26
+    mother = forrester_27
+
+    trait = generous
+    trait = forgiving
+    trait = honest
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_3
+
+    6535.1.9 = {
+        birth = yes
+    }
+
+    6605.9.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+forrester_31 = {
+    name = "Loboda"
+
+    dynasty = dynasty_forrester
+    religion = the_old_gods
+    culture = northmen
+
+    father = forrester_26
+    mother = forrester_27
+
+    trait = chaste
+    trait = diligent
+    trait = humble
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6539.1.9 = {
+        birth = yes
+    }
+
+    6556.10.5 = {
+        add_spouse = forrester_32
+    }
+
+    6574.12.6 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+forrester_32 = {
+    name = "Osha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = lustful
+    trait = diligent
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    6539.7.28 = {
+        birth = yes
+    }
+
+    6614.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

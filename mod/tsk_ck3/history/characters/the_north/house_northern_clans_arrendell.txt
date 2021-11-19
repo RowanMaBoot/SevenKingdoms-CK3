@@ -1,0 +1,1873 @@
+arrendell_1 = {
+    name = "Baerik"
+
+    dynasty = dynasty_arrendell
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = ambitious
+    trait = lustful
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6300.8.3 = {
+        birth = yes
+    }
+
+    6348.8.1 = {
+        add_spouse = arrendell_2
+    }
+
+    6369.5.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_2 = {
+    name = "Nesha"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = callous
+    trait = trusting
+    trait = arbitrary
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 3
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    6331.9.21 = {
+        birth = yes
+    }
+
+    6416.8.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_3 = {
+    name = "Jojen"
+
+    dynasty = dynasty_arrendell
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_1
+    mother = arrendell_2
+
+    trait = zealous
+    trait = stubborn
+    trait = lazy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6357.11.13 = {
+        birth = yes
+    }
+
+    6380.6.25 = {
+        add_spouse = arrendell_4
+    }
+
+    6425.10.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_4 = {
+    name = "Bonny"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = lustful
+    trait = fickle
+    trait = impatient
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 9
+    intrigue = 8
+    learning = 9
+    prowess = 4
+
+    trait = education_martial_4
+
+    6363.4.12 = {
+        birth = yes
+    }
+
+    6438.2.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_5 = {
+    name = "Frenya"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_3
+    mother = arrendell_4
+
+    trait = impatient
+    trait = compassionate
+    trait = gregarious
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 2
+
+    trait = education_diplomacy_2
+
+    6386.5.23 = {
+        birth = yes
+    }
+
+    6466.4.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_6 = {
+    name = "Bernarr"
+
+    dynasty = dynasty_arrendell
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_3
+    mother = arrendell_4
+
+    trait = calm
+    trait = paranoid
+    trait = ambitious
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6392.7.4 = {
+        birth = yes
+    }
+
+    6433.5.21 = {
+        add_spouse = arrendell_7
+    }
+
+    6443.9.5 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+arrendell_7 = {
+    name = "Nanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = stubborn
+    trait = just
+    trait = greedy
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 11
+
+    trait = education_diplomacy_1
+
+    6416.7.27 = {
+        birth = yes
+    }
+
+    6488.12.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_8 = {
+    name = "Caltram"
+
+    dynasty = dynasty_arrendell
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_6
+    mother = arrendell_7
+
+    trait = lustful
+    trait = shy
+    trait = greedy
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 8
+    learning = 8
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6433.10.9 = {
+        birth = yes
+    }
+
+    6479.1.28 = {
+        add_spouse = arrendell_9
+    }
+
+    6489.12.27 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+arrendell_9 = {
+    name = "Nettles"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = cynical
+    trait = shy
+    trait = sadistic
+
+    diplomacy = 2
+    martial = 10
+    stewardship = 8
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_3
+
+    6462.3.19 = {
+        birth = yes
+    }
+
+    6536.4.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_10 = {
+    name = "Henk"
+
+    dynasty = dynasty_arrendell
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_8
+    mother = arrendell_9
+
+    trait = content
+    trait = just
+    trait = craven
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_1
+
+    6479.4.1 = {
+        birth = yes
+    }
+
+    6508.9.8 = {
+        add_spouse = arrendell_11
+    }
+
+    6559.12.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_11 = {
+    name = "Maud"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = humble
+    trait = brave
+    trait = temperate
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6491.9.26 = {
+        birth = yes
+    }
+
+    6576.9.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_12 = {
+    name = "Ryk"
+
+    dynasty = dynasty_arrendell
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_10
+    mother = arrendell_11
+
+    trait = vengeful
+    trait = arrogant
+    trait = chaste
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_3
+
+    6530.6.16 = {
+        birth = yes
+    }
+
+    6568.2.24 = {
+        add_spouse = arrendell_13
+    }
+
+    6601.2.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_13 = {
+    name = "Sera"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = callous
+    trait = diligent
+    trait = zealous
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 4
+    learning = 5
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    6551.7.2 = {
+        birth = yes
+    }
+
+    6624.5.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_14 = {
+    name = "Drad"
+
+    dynasty = dynasty_arrendell
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_12
+    mother = arrendell_13
+
+    trait = vengeful
+    trait = compassionate
+    trait = impatient
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_2
+
+    6593.3.6 = {
+        birth = yes
+    }
+
+    6608.10.8 = {
+        add_spouse = arrendell_15
+    }
+
+    6668.1.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_15 = {
+    name = "Ysilla"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = compassionate
+    trait = gregarious
+    trait = stubborn
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 3
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6591.9.17 = {
+        birth = yes
+    }
+
+    6665.3.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_16 = {
+    name = "Mulberry"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_6
+    mother = arrendell_7
+
+    trait = lazy
+    trait = gregarious
+    trait = callous
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_2
+
+    6434.5.1 = {
+        birth = yes
+    }
+
+    6501.9.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_17 = {
+    name = "Galem"
+
+    dynasty = dynasty_arrendell
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_6
+    mother = arrendell_7
+
+    trait = greedy
+    trait = deceitful
+    trait = lustful
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 11
+    intrigue = 9
+    learning = 8
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6435.9.3 = {
+        birth = yes
+    }
+
+    6451.5.14 = {
+        add_spouse = arrendell_18
+    }
+
+    6476.1.19 = {
+        death = { death_reason = death_duel }
+    }
+}
+
+arrendell_18 = {
+    name = "Cherra"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = vengeful
+    trait = greedy
+    trait = paranoid
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    6434.5.19 = {
+        birth = yes
+    }
+
+    6518.12.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_19 = {
+    name = "Berny"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_17
+    mother = arrendell_18
+
+    trait = forgiving
+    trait = arbitrary
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 10
+
+    trait = education_stewardship_2
+
+    6454.1.4 = {
+        birth = yes
+    }
+
+    6524.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_20 = {
+    name = "Boradir"
+
+    dynasty = dynasty_arrendell
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_17
+    mother = arrendell_18
+
+    trait = fickle
+    trait = lazy
+    trait = arbitrary
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    6464.10.3 = {
+        birth = yes
+    }
+
+    6509.11.11 = {
+        add_spouse = arrendell_21
+    }
+
+    6549.1.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_21 = {
+    name = "Hattie"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = forgiving
+    trait = craven
+    trait = callous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_4
+
+    6492.4.17 = {
+        birth = yes
+    }
+
+    6571.9.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_22 = {
+    name = "Briar"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_20
+    mother = arrendell_21
+
+    trait = gregarious
+    trait = chaste
+    trait = paranoid
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 3
+    intrigue = 5
+    learning = 6
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    6516.8.13 = {
+        birth = yes
+    }
+
+    6601.6.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_23 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_20
+    mother = arrendell_21
+
+    trait = arbitrary
+    trait = compassionate
+    trait = shy
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_4
+
+    6521.11.12 = {
+        birth = yes
+    }
+
+    6590.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_24 = {
+    name = "Kran"
+
+    dynasty = dynasty_arrendell
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_20
+    mother = arrendell_21
+
+    trait = callous
+    trait = vengeful
+    trait = generous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    6522.1.11 = {
+        birth = yes
+    }
+
+    6551.1.21 = {
+        add_spouse = arrendell_25
+    }
+
+    6595.10.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_25 = {
+    name = "Brella"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = stubborn
+    trait = greedy
+    trait = cynical
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6534.5.5 = {
+        birth = yes
+    }
+
+    6604.2.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_26 = {
+    name = "Thorna"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_24
+    mother = arrendell_25
+
+    trait = greedy
+    trait = honest
+    trait = diligent
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6559.6.21 = {
+        birth = yes
+    }
+
+    6631.11.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_27 = {
+    name = "Jarl"
+
+    dynasty = dynasty_arrendell
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_24
+    mother = arrendell_25
+
+    trait = humble
+    trait = diligent
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 3
+    intrigue = 5
+    learning = 9
+    prowess = 2
+
+    trait = education_learning_4
+
+    6566.7.1 = {
+        birth = yes
+    }
+
+    6595.10.24 = {
+        add_spouse = arrendell_28
+    }
+
+    6651.1.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_28 = {
+    name = "Nelna"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = arrogant
+    trait = content
+    trait = just
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 7
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_1
+
+    6578.1.10 = {
+        birth = yes
+    }
+
+    6662.3.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_29 = {
+    name = "Lennel"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_6
+    mother = arrendell_7
+
+    trait = shy
+    trait = just
+    trait = impatient
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 11
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6436.11.5 = {
+        birth = yes
+    }
+
+    6506.7.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_30 = {
+    name = "Dyah"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_3
+    mother = arrendell_4
+
+    trait = arrogant
+    trait = ambitious
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6394.7.7 = {
+        birth = yes
+    }
+
+    6464.5.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_31 = {
+    name = "Doval"
+
+    dynasty = dynasty_arrendell
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_3
+    mother = arrendell_4
+
+    trait = trusting
+    trait = ambitious
+    trait = cynical
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 3
+    intrigue = 5
+    learning = 5
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    6397.4.14 = {
+        birth = yes
+    }
+
+    6411.7.22 = {
+        add_spouse = arrendell_32
+    }
+
+    6480.1.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_32 = {
+    name = "Cassie"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = arrogant
+    trait = brave
+    trait = greedy
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 9
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6394.5.20 = {
+        birth = yes
+    }
+
+    6476.6.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_33 = {
+    name = "Kadie"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_31
+    mother = arrendell_32
+
+    trait = compassionate
+    trait = greedy
+    trait = temperate
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 8
+    intrigue = 3
+    learning = 5
+    prowess = 3
+
+    trait = education_stewardship_2
+
+    6411.7.18 = {
+        birth = yes
+    }
+
+    6495.11.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_34 = {
+    name = "Lokamun"
+
+    dynasty = dynasty_arrendell
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_31
+    mother = arrendell_32
+
+    trait = humble
+    trait = cynical
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 9
+
+    trait = education_martial_4
+
+    6419.2.26 = {
+        birth = yes
+    }
+
+    6450.4.9 = {
+        add_spouse = arrendell_35
+    }
+
+    6488.1.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_35 = {
+    name = "Jonquil"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = chaste
+    trait = shy
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 9
+    intrigue = 8
+    learning = 4
+    prowess = 3
+
+    trait = education_stewardship_2
+
+    6433.9.28 = {
+        birth = yes
+    }
+
+    6515.2.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_36 = {
+    name = "Mavin"
+
+    dynasty = dynasty_arrendell
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_34
+    mother = arrendell_35
+
+    trait = just
+    trait = gregarious
+    trait = lazy
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6456.1.28 = {
+        birth = yes
+    }
+
+    6502.8.23 = {
+        add_spouse = arrendell_37
+    }
+
+    6533.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_37 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = arbitrary
+    trait = paranoid
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 8
+    intrigue = 8
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_3
+
+    6485.2.17 = {
+        birth = yes
+    }
+
+    6560.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_38 = {
+    name = "Tansy"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_36
+    mother = arrendell_37
+
+    trait = wrathful
+    trait = diligent
+    trait = temperate
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 2
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6503.4.26 = {
+        birth = yes
+    }
+
+    6577.10.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_39 = {
+    name = "Dyah"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_36
+    mother = arrendell_37
+
+    trait = gluttonous
+    trait = humble
+    trait = forgiving
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_learning_3
+
+    6509.4.15 = {
+        birth = yes
+    }
+
+    6585.11.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_40 = {
+    name = "Dolner"
+
+    dynasty = dynasty_arrendell
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_36
+    mother = arrendell_37
+
+    trait = arbitrary
+    trait = impatient
+    trait = paranoid
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 9
+    intrigue = 10
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6514.12.6 = {
+        birth = yes
+    }
+
+    6555.3.1 = {
+        add_spouse = arrendell_41
+    }
+
+    6572.9.8 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+arrendell_41 = {
+    name = "Svala"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = shy
+    trait = forgiving
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 3
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6538.11.20 = {
+        birth = yes
+    }
+
+    6614.5.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_42 = {
+    name = "Ban"
+
+    dynasty = dynasty_arrendell
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_40
+    mother = arrendell_41
+
+    trait = craven
+    trait = greedy
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_2
+
+    6565.5.9 = {
+        birth = yes
+    }
+
+    6607.9.10 = {
+        add_spouse = arrendell_43
+    }
+
+    6646.4.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_43 = {
+    name = "Honeysuckle"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = diligent
+    trait = wrathful
+    trait = greedy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 10
+    prowess = 10
+
+    trait = education_learning_3
+
+    6590.2.15 = {
+        birth = yes
+    }
+
+    6658.2.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_44 = {
+    name = "Nonne"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_36
+    mother = arrendell_37
+
+    trait = arrogant
+    trait = ambitious
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 1
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6518.1.7 = {
+        birth = yes
+    }
+
+    6591.11.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_45 = {
+    name = "Hemlock"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_34
+    mother = arrendell_35
+
+    trait = craven
+    trait = lazy
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 3
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_3
+
+    6464.4.6 = {
+        birth = yes
+    }
+
+    6515.6.16 = {
+        death = { death_reason = death_dungeon  }
+    }
+}
+
+arrendell_46 = {
+    name = "Isrand"
+
+    dynasty = dynasty_arrendell
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_34
+    mother = arrendell_35
+
+    trait = cynical
+    trait = greedy
+    trait = diligent
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    6469.3.6 = {
+        birth = yes
+    }
+
+    6515.10.6 = {
+        add_spouse = arrendell_47
+    }
+
+    6554.2.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_47 = {
+    name = "Linnea"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = honest
+    trait = paranoid
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 4
+    intrigue = 5
+    learning = 8
+    prowess = 10
+
+    trait = education_martial_3
+
+    6498.1.7 = {
+        birth = yes
+    }
+
+    6573.9.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_48 = {
+    name = "Nuala"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_46
+    mother = arrendell_47
+
+    trait = diligent
+    trait = craven
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 9
+    intrigue = 4
+    learning = 9
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6518.4.15 = {
+        birth = yes
+    }
+
+    6586.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_49 = {
+    name = "Rosey"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_46
+    mother = arrendell_47
+
+    trait = humble
+    trait = calm
+    trait = shy
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    6523.3.19 = {
+        birth = yes
+    }
+
+    6600.7.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_50 = {
+    name = "Rand"
+
+    dynasty = dynasty_arrendell
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_46
+    mother = arrendell_47
+
+    trait = honest
+    trait = diligent
+    trait = impatient
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 2
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6526.2.16 = {
+        birth = yes
+    }
+
+    6550.9.26 = {
+        add_spouse = arrendell_51
+    }
+
+    6598.7.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_51 = {
+    name = "Ragwyle"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = arbitrary
+    trait = trusting
+    trait = calm
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_2
+
+    6533.7.23 = {
+        birth = yes
+    }
+
+    6609.3.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_52 = {
+    name = "Drik"
+
+    dynasty = dynasty_arrendell
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_50
+    mother = arrendell_51
+
+    trait = shy
+    trait = temperate
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_2
+
+    6554.2.19 = {
+        birth = yes
+    }
+
+    6584.4.15 = {
+        add_spouse = arrendell_53
+    }
+
+    6634.1.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_53 = {
+    name = "Thistle"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = generous
+    trait = ambitious
+    trait = arrogant
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 7
+    intrigue = 9
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6567.3.18 = {
+        birth = yes
+    }
+
+    6644.11.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_54 = {
+    name = "Maisie"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_50
+    mother = arrendell_51
+
+    trait = cynical
+    trait = wrathful
+    trait = greedy
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6556.5.20 = {
+        birth = yes
+    }
+
+    6634.5.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_55 = {
+    name = "Rory"
+
+    dynasty = dynasty_arrendell
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_50
+    mother = arrendell_51
+
+    trait = lazy
+    trait = chaste
+    trait = gluttonous
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6560.2.5 = {
+        birth = yes
+    }
+
+    6580.1.3 = {
+        add_spouse = arrendell_56
+    }
+
+    6638.9.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_56 = {
+    name = "Betony"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = patient
+    trait = vengeful
+    trait = just
+
+    diplomacy = 8
+    martial = 10
+    stewardship = 7
+    intrigue = 9
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_1
+
+    6563.2.18 = {
+        birth = yes
+    }
+
+    6638.1.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_57 = {
+    name = "Harkul"
+
+    dynasty = dynasty_arrendell
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = arrendell_50
+    mother = arrendell_51
+
+    trait = content
+    trait = diligent
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 3
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    6561.1.3 = {
+        birth = yes
+    }
+
+    6601.11.8 = {
+        add_spouse = arrendell_58
+    }
+
+    6629.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+arrendell_58 = {
+    name = "Pansy"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = zealous
+    trait = wrathful
+    trait = brave
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 7
+    intrigue = 8
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_2
+
+    6584.5.10 = {
+        birth = yes
+    }
+
+    6658.9.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

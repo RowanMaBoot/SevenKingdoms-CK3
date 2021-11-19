@@ -1,0 +1,1421 @@
+cerwyn_1 = {
+    name = "Ulward"
+
+    dynasty = dynasty_cerwyn
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = trusting
+    trait = generous
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 2
+    prowess = 10
+
+    trait = education_martial_4
+
+    6300.2.3 = {
+        birth = yes
+    }
+
+    6332.11.7 = {
+        add_spouse = cerwyn_2
+    }
+
+    6382.3.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_2 = {
+    name = "Kaeli"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = humble
+    trait = just
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 9
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6315.9.14 = {
+        birth = yes
+    }
+
+    6400.5.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_3 = {
+    name = "Alyn"
+
+    dynasty = dynasty_cerwyn
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_1
+    mother = cerwyn_2
+
+    trait = compassionate
+    trait = paranoid
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_3
+
+    6348.6.27 = {
+        birth = yes
+    }
+
+    6364.8.15 = {
+        add_spouse = cerwyn_4
+    }
+
+    6403.9.3 = {
+        death = { death_reason = death_viciously_dismembered }
+    }
+}
+
+cerwyn_4 = {
+    name = "Sybelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = just
+    trait = craven
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 2
+
+    trait = education_learning_3
+
+    6347.5.14 = {
+        birth = yes
+    }
+
+    6418.10.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_5 = {
+    name = "Agnyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_3
+    mother = cerwyn_4
+
+    trait = stubborn
+    trait = shy
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 3
+    intrigue = 3
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_2
+
+    6371.4.27 = {
+        birth = yes
+    }
+
+    6440.7.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_6 = {
+    name = "Hrane"
+
+    dynasty = dynasty_cerwyn
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_3
+    mother = cerwyn_4
+
+    trait = zealous
+    trait = craven
+    trait = deceitful
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 3
+    prowess = 8
+
+    trait = education_martial_2
+
+    6373.9.26 = {
+        birth = yes
+    }
+
+    6396.5.26 = {
+        add_spouse = cerwyn_7
+    }
+
+    6455.3.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_7 = {
+    name = "Margaret"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = brave
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6379.8.11 = {
+        birth = yes
+    }
+
+    6460.2.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_8 = {
+    name = "Niklys"
+
+    dynasty = dynasty_cerwyn
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_6
+    mother = cerwyn_7
+
+    trait = temperate
+    trait = just
+    trait = callous
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 9
+    intrigue = 4
+    learning = 7
+    prowess = 10
+
+    trait = education_stewardship_2
+
+    6396.4.16 = {
+        birth = yes
+    }
+
+    6418.7.17 = {
+        add_spouse = cerwyn_9
+    }
+
+    6478.11.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_9 = {
+    name = "Lyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = temperate
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 4
+    intrigue = 9
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6401.12.22 = {
+        birth = yes
+    }
+
+    6476.7.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_10 = {
+    name = "Mikken"
+
+    dynasty = dynasty_cerwyn
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_8
+    mother = cerwyn_9
+
+    trait = lustful
+    trait = fickle
+    trait = callous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6441.3.5 = {
+        birth = yes
+    }
+
+    6472.12.27 = {
+        add_spouse = cerwyn_11
+    }
+
+    6516.10.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_11 = {
+    name = "Lysanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = deceitful
+    trait = craven
+    trait = zealous
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 4
+    intrigue = 9
+    learning = 3
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6455.5.21 = {
+        birth = yes
+    }
+
+    6530.4.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_12 = {
+    name = "Walder"
+
+    dynasty = dynasty_cerwyn
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_10
+    mother = cerwyn_11
+
+    trait = temperate
+    trait = lazy
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 2
+    intrigue = 3
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6475.9.7 = {
+        birth = yes
+    }
+
+    6506.7.18 = {
+        add_spouse = cerwyn_13
+    }
+
+    6542.9.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_13 = {
+    name = "Meera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = just
+    trait = content
+    trait = humble
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6489.8.22 = {
+        birth = yes
+    }
+
+    6572.2.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_14 = {
+    name = "Elric"
+
+    dynasty = dynasty_cerwyn
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_12
+    mother = cerwyn_13
+
+    trait = compassionate
+    trait = forgiving
+    trait = craven
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    6508.9.18 = {
+        birth = yes
+    }
+
+    6542.12.20 = {
+        add_spouse = cerwyn_15
+    }
+
+    6587.2.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_15 = {
+    name = "Gilli"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = sadistic
+    trait = vengeful
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 5
+    intrigue = 11
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6525.5.27 = {
+        birth = yes
+    }
+
+    6595.2.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_16 = {
+    name = "Dag"
+
+    dynasty = dynasty_cerwyn
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_10
+    mother = cerwyn_11
+
+    trait = fickle
+    trait = wrathful
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 3
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6477.7.17 = {
+        birth = yes
+    }
+
+    6500.12.21 = {
+        add_spouse = cerwyn_17
+    }
+
+    6561.8.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_17 = {
+    name = "Kyt"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = shy
+    trait = zealous
+    trait = brave
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_3
+
+    6483.1.15 = {
+        birth = yes
+    }
+
+    6560.5.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_18 = {
+    name = "Lyanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_16
+    mother = cerwyn_17
+
+    trait = zealous
+    trait = arbitrary
+    trait = paranoid
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 9
+    intrigue = 6
+    learning = 8
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6504.8.25 = {
+        birth = yes
+    }
+
+    6582.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_19 = {
+    name = "Ulf"
+
+    dynasty = dynasty_cerwyn
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_16
+    mother = cerwyn_17
+
+    trait = temperate
+    trait = greedy
+    trait = diligent
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6506.1.25 = {
+        birth = yes
+    }
+
+    6523.10.2 = {
+        add_spouse = cerwyn_20
+    }
+
+    6574.6.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_20 = {
+    name = "Frenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = just
+    trait = trusting
+    trait = callous
+
+    diplomacy = 11
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 1
+
+    trait = education_diplomacy_3
+
+    6506.4.6 = {
+        birth = yes
+    }
+
+    6580.11.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_21 = {
+    name = "Luton"
+
+    dynasty = dynasty_cerwyn
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_16
+    mother = cerwyn_17
+
+    trait = paranoid
+    trait = wrathful
+    trait = lazy
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 5
+    intrigue = 9
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_1
+
+    6511.6.11 = {
+        birth = yes
+    }
+
+    6531.2.18 = {
+        add_spouse = cerwyn_22
+    }
+
+    6587.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_22 = {
+    name = "Eva"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = ambitious
+    trait = temperate
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    6514.4.14 = {
+        birth = yes
+    }
+
+    6584.4.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_23 = {
+    name = "Barbrey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_16
+    mother = cerwyn_17
+
+    trait = lustful
+    trait = arrogant
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 11
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    6516.5.15 = {
+        birth = yes
+    }
+
+    6591.7.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_24 = {
+    name = "Mattys"
+
+    dynasty = dynasty_cerwyn
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_10
+    mother = cerwyn_11
+
+    trait = wrathful
+    trait = arrogant
+    trait = lustful
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 2
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6478.7.20 = {
+        birth = yes
+    }
+
+    6517.7.16 = {
+        add_spouse = cerwyn_25
+    }
+
+    6549.5.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_25 = {
+    name = "Anna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = chaste
+    trait = compassionate
+    trait = shy
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 10
+
+    trait = education_diplomacy_2
+
+    6500.6.11 = {
+        birth = yes
+    }
+
+    6568.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_26 = {
+    name = "Gariss"
+
+    dynasty = dynasty_cerwyn
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_24
+    mother = cerwyn_25
+
+    trait = gregarious
+    trait = gluttonous
+    trait = compassionate
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    6522.6.12 = {
+        birth = yes
+    }
+
+    6560.8.16 = {
+        add_spouse = cerwyn_27
+    }
+
+    6570.7.17 = {
+        death = { death_reason = death_mysterious  }
+    }
+}
+
+cerwyn_27 = {
+    name = "Kyli"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = paranoid
+    trait = just
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 3
+    intrigue = 8
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6543.2.14 = {
+        birth = yes
+    }
+
+    6620.7.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_28 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_24
+    mother = cerwyn_25
+
+    trait = arbitrary
+    trait = generous
+    trait = content
+
+    diplomacy = 5
+    martial = 11
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_3
+
+    6524.4.28 = {
+        birth = yes
+    }
+
+    6603.5.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_29 = {
+    name = "Rickard"
+
+    dynasty = dynasty_cerwyn
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_24
+    mother = cerwyn_25
+
+    trait = gregarious
+    trait = patient
+    trait = stubborn
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6530.9.26 = {
+        birth = yes
+    }
+
+    6576.1.4 = {
+        add_spouse = cerwyn_30
+    }
+
+    6586.6.19 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+cerwyn_30 = {
+    name = "Meera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = content
+    trait = zealous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 9
+
+    trait = education_martial_2
+
+    6559.1.8 = {
+        birth = yes
+    }
+
+    6641.1.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_31 = {
+    name = "Harmond"
+
+    dynasty = dynasty_cerwyn
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_6
+    mother = cerwyn_7
+
+    trait = just
+    trait = greedy
+    trait = lustful
+
+    diplomacy = 28
+    martial = 21
+    stewardship = 22
+    intrigue = 21
+    learning = 12
+    prowess = 25
+
+    trait = education_diplomacy_4
+
+    6398.2.28 = {
+        birth = yes
+    }
+
+    6428.11.6 = {
+        add_spouse = cerwyn_32
+    }
+
+    6464.4.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_32 = {
+    name = "Kaeli"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = compassionate
+    trait = fickle
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 3
+
+    trait = education_intrigue_2
+
+    6411.2.10 = {
+        birth = yes
+    }
+
+    6478.1.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_33 = {
+    name = "Howland"
+
+    dynasty = dynasty_cerwyn
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_31
+    mother = cerwyn_32
+
+    trait = gregarious
+    trait = arrogant
+    trait = trusting
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 7
+    intrigue = 2
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6451.10.11 = {
+        birth = yes
+    }
+
+    6481.5.18 = {
+        add_spouse = cerwyn_34
+    }
+
+    6491.4.19 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+cerwyn_34 = {
+    name = "Barbara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = chaste
+    trait = callous
+    trait = humble
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6464.9.8 = {
+        birth = yes
+    }
+
+    6530.11.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_35 = {
+    name = "Maege"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_33
+    mother = cerwyn_34
+
+    trait = cynical
+    trait = compassionate
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    6486.6.22 = {
+        birth = yes
+    }
+
+    6566.1.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_36 = {
+    name = "Magar"
+
+    dynasty = dynasty_cerwyn
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_33
+    mother = cerwyn_34
+
+    trait = brave
+    trait = stubborn
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_4
+
+    6488.3.11 = {
+        birth = yes
+    }
+
+    6506.8.9 = {
+        add_spouse = cerwyn_37
+    }
+
+    6560.5.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_37 = {
+    name = "Berta"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = chaste
+    trait = honest
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6489.1.19 = {
+        birth = yes
+    }
+
+    6561.11.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_38 = {
+    name = "Barba"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_36
+    mother = cerwyn_37
+
+    trait = craven
+    trait = impatient
+    trait = content
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 8
+    intrigue = 11
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6508.8.10 = {
+        birth = yes
+    }
+
+    6567.4.19 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+cerwyn_39 = {
+    name = "Duncan"
+
+    dynasty = dynasty_cerwyn
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_36
+    mother = cerwyn_37
+
+    trait = fickle
+    trait = arrogant
+    trait = generous
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 7
+    intrigue = 9
+    learning = 9
+    prowess = 7
+
+    trait = education_intrigue_1
+
+    6515.2.12 = {
+        birth = yes
+    }
+
+    6529.3.2 = {
+        add_spouse = cerwyn_40
+    }
+
+    6598.11.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_40 = {
+    name = "Ansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = callous
+    trait = craven
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 9
+    learning = 3
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6512.12.3 = {
+        birth = yes
+    }
+
+    6539.9.9 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+cerwyn_41 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_36
+    mother = cerwyn_37
+
+    trait = greedy
+    trait = just
+    trait = craven
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 10
+    intrigue = 2
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6516.6.9 = {
+        birth = yes
+    }
+
+    6601.9.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_42 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_36
+    mother = cerwyn_37
+
+    trait = trusting
+    trait = lustful
+    trait = generous
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 9
+
+    trait = education_stewardship_4
+
+    6517.4.11 = {
+        birth = yes
+    }
+
+    6596.10.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_43 = {
+    name = "Ely"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_6
+    mother = cerwyn_7
+
+    trait = deceitful
+    trait = calm
+    trait = sadistic
+
+    diplomacy = 4
+    martial = 11
+    stewardship = 9
+    intrigue = 5
+    learning = 9
+    prowess = 9
+
+    trait = education_martial_4
+
+    6400.8.10 = {
+        birth = yes
+    }
+
+    6480.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cerwyn_44 = {
+    name = "Jorelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = cerwyn_6
+    mother = cerwyn_7
+
+    trait = cynical
+    trait = sadistic
+    trait = diligent
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6403.6.12 = {
+        birth = yes
+    }
+
+    6487.8.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

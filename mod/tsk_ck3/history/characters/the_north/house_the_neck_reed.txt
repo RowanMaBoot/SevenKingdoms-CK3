@@ -1,0 +1,2102 @@
+reed_1 = {
+    name = "Ned"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = fickle
+    trait = generous
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 5
+    intrigue = 9
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6300.2.20 = {
+        birth = yes
+    }
+
+    6319.10.6 = {
+        add_spouse = reed_2
+    }
+
+    6381.5.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_2 = {
+    name = "Iris"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = stubborn
+    trait = just
+    trait = lazy
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 8
+    intrigue = 4
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6302.4.14 = {
+        birth = yes
+    }
+
+    6387.3.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_3 = {
+    name = "Dorron"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_1
+    mother = reed_2
+
+    trait = diligent
+    trait = trusting
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 9
+
+    trait = education_stewardship_4
+
+    6335.7.16 = {
+        birth = yes
+    }
+
+    6350.1.15 = {
+        add_spouse = reed_4
+    }
+
+    6420.2.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_4 = {
+    name = "Kataryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = diligent
+    trait = craven
+    trait = patient
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 3
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6333.1.25 = {
+        birth = yes
+    }
+
+    6400.8.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_5 = {
+    name = "Gawen"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_3
+    mother = reed_4
+
+    trait = fickle
+    trait = cynical
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6357.9.28 = {
+        birth = yes
+    }
+
+    6391.6.17 = {
+        add_spouse = reed_6
+    }
+
+    6433.11.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_6 = {
+    name = "Asha"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = diligent
+    trait = paranoid
+    trait = callous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_4
+
+    6374.11.13 = {
+        birth = yes
+    }
+
+    6401.6.27 = {
+        death = { death_reason = death_attempted_treatment }
+    }
+}
+
+reed_7 = {
+    name = "Ormyn"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_5
+    mother = reed_6
+
+    trait = compassionate
+    trait = paranoid
+    trait = wrathful
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 7
+    intrigue = 10
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    6392.11.10 = {
+        birth = yes
+    }
+
+    6420.6.20 = {
+        add_spouse = reed_8
+    }
+
+    6467.11.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_8 = {
+    name = "Tyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = stubborn
+    trait = gluttonous
+    trait = gregarious
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 3
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6403.9.18 = {
+        birth = yes
+    }
+
+    6481.6.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_9 = {
+    name = "Mattis"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_7
+    mother = reed_8
+
+    trait = gluttonous
+    trait = gregarious
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 4
+    intrigue = 11
+    learning = 8
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6420.5.9 = {
+        birth = yes
+    }
+
+    6444.8.17 = {
+        add_spouse = reed_10
+    }
+
+    6499.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_10 = {
+    name = "Barba"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = calm
+    trait = content
+    trait = temperate
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6427.11.23 = {
+        birth = yes
+    }
+
+    6498.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_11 = {
+    name = "Lyanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_9
+    mother = reed_10
+
+    trait = cynical
+    trait = brave
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 7
+    intrigue = 3
+    learning = 9
+    prowess = 5
+
+    trait = education_martial_3
+
+    6450.9.26 = {
+        birth = yes
+    }
+
+    6491.12.7 = {
+        death = { death_reason = death_stress }
+    }
+}
+
+reed_12 = {
+    name = "Bran"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_9
+    mother = reed_10
+
+    trait = zealous
+    trait = honest
+    trait = diligent
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 9
+    intrigue = 8
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6452.5.8 = {
+        birth = yes
+    }
+
+    6487.3.27 = {
+        add_spouse = reed_13
+    }
+
+    6523.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_13 = {
+    name = "Elyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = deceitful
+    trait = craven
+    trait = cynical
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    6470.10.1 = {
+        birth = yes
+    }
+
+    6530.8.13 = {
+        death = { death_reason = death_dungeon  }
+    }
+}
+
+reed_14 = {
+    name = "Mattis"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_12
+    mother = reed_13
+
+    trait = humble
+    trait = cynical
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_2
+
+    6496.3.22 = {
+        birth = yes
+    }
+
+    6529.10.5 = {
+        add_spouse = reed_15
+    }
+
+    6569.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_15 = {
+    name = "Kataryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = stubborn
+    trait = deceitful
+    trait = temperate
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_2
+
+    6512.10.11 = {
+        birth = yes
+    }
+
+    6581.11.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_16 = {
+    name = "Dyncen"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_12
+    mother = reed_13
+
+    trait = gregarious
+    trait = humble
+    trait = generous
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 4
+    intrigue = 2
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6503.1.24 = {
+        birth = yes
+    }
+
+    6535.10.11 = {
+        add_spouse = reed_17
+    }
+
+    6577.7.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_17 = {
+    name = "Judyth"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = calm
+    trait = callous
+    trait = chaste
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_2
+
+    6518.5.26 = {
+        birth = yes
+    }
+
+    6597.2.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_18 = {
+    name = "Ewa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_7
+    mother = reed_8
+
+    trait = wrathful
+    trait = just
+    trait = gregarious
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6423.8.23 = {
+        birth = yes
+    }
+
+    6508.5.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_19 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_7
+    mother = reed_8
+
+    trait = gregarious
+    trait = content
+    trait = honest
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 7
+    intrigue = 8
+    learning = 3
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6429.6.25 = {
+        birth = yes
+    }
+
+    6511.4.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_20 = {
+    name = "Lydia"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_7
+    mother = reed_8
+
+    trait = cynical
+    trait = callous
+    trait = brave
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 8
+    intrigue = 6
+    learning = 9
+    prowess = 5
+
+    trait = education_martial_2
+
+    6432.9.8 = {
+        birth = yes
+    }
+
+    6511.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_21 = {
+    name = "Jory"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_3
+    mother = reed_4
+
+    trait = deceitful
+    trait = lazy
+    trait = cynical
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 6
+    prowess = 2
+
+    trait = education_intrigue_2
+
+    6365.11.17 = {
+        birth = yes
+    }
+
+    6381.6.18 = {
+        add_spouse = reed_22
+    }
+
+    6437.5.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_22 = {
+    name = "Kennya"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = wrathful
+    trait = forgiving
+    trait = patient
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 6
+    prowess = 2
+
+    trait = education_diplomacy_1
+
+    6364.6.16 = {
+        birth = yes
+    }
+
+    6434.4.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_23 = {
+    name = "Jynessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_21
+    mother = reed_22
+
+    trait = generous
+    trait = cynical
+    trait = brave
+
+    diplomacy = 8
+    martial = 11
+    stewardship = 4
+    intrigue = 8
+    learning = 6
+    prowess = 10
+
+    trait = education_martial_4
+
+    6381.10.27 = {
+        birth = yes
+    }
+
+    6451.10.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_24 = {
+    name = "Sigfryd"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_21
+    mother = reed_22
+
+    trait = ambitious
+    trait = vengeful
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_2
+
+    6386.12.27 = {
+        birth = yes
+    }
+
+    6418.6.19 = {
+        add_spouse = reed_25
+    }
+
+    6442.1.1 = {
+        death = { death_reason = death_fall  }
+    }
+}
+
+reed_25 = {
+    name = "Kyli"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = callous
+    trait = brave
+    trait = lazy
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_2
+
+    6401.12.3 = {
+        birth = yes
+    }
+
+    6474.8.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_26 = {
+    name = "Ethan"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_24
+    mother = reed_25
+
+    trait = lazy
+    trait = arbitrary
+    trait = lustful
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 3
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_3
+
+    6422.12.17 = {
+        birth = yes
+    }
+
+    6467.5.18 = {
+        add_spouse = reed_27
+    }
+
+    6495.11.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_27 = {
+    name = "Jynessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = stubborn
+    trait = zealous
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 9
+    prowess = 9
+
+    trait = education_learning_3
+
+    6450.9.6 = {
+        birth = yes
+    }
+
+    6516.7.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_28 = {
+    name = "Knut"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_26
+    mother = reed_27
+
+    trait = temperate
+    trait = compassionate
+    trait = ambitious
+
+    diplomacy = 3
+    martial = 10
+    stewardship = 3
+    intrigue = 4
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_2
+
+    6467.3.3 = {
+        birth = yes
+    }
+
+    6504.4.28 = {
+        add_spouse = reed_29
+    }
+
+    6541.5.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_29 = {
+    name = "Alysane"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = honest
+    trait = stubborn
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    6487.9.14 = {
+        birth = yes
+    }
+
+    6521.10.4 = {
+        death = { death_reason = death_poison  }
+    }
+}
+
+reed_30 = {
+    name = "Helman"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_28
+    mother = reed_29
+
+    trait = shy
+    trait = forgiving
+    trait = just
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 9
+    intrigue = 3
+    learning = 8
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    6510.10.4 = {
+        birth = yes
+    }
+
+    6527.4.26 = {
+        add_spouse = reed_31
+    }
+
+    6581.4.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_31 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = patient
+    trait = brave
+    trait = lazy
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 4
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6510.9.7 = {
+        birth = yes
+    }
+
+    6577.11.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_32 = {
+    name = "Willam"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_26
+    mother = reed_27
+
+    trait = vengeful
+    trait = arbitrary
+    trait = cynical
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 2
+    intrigue = 6
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6477.8.26 = {
+        birth = yes
+    }
+
+    6502.6.4 = {
+        add_spouse = reed_33
+    }
+
+    6512.11.16 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+reed_33 = {
+    name = "Danelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = humble
+    trait = impatient
+    trait = temperate
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6485.10.15 = {
+        birth = yes
+    }
+
+    6570.10.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_34 = {
+    name = "Greger"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_32
+    mother = reed_33
+
+    trait = lazy
+    trait = cynical
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6502.4.16 = {
+        birth = yes
+    }
+
+    6523.5.5 = {
+        add_spouse = reed_35
+    }
+
+    6570.7.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_35 = {
+    name = "Lyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = content
+    trait = generous
+    trait = impatient
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 3
+    learning = 2
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    6506.8.28 = {
+        birth = yes
+    }
+
+    6578.7.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_36 = {
+    name = "Sera"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_32
+    mother = reed_33
+
+    trait = sadistic
+    trait = cynical
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 8
+
+    trait = education_learning_1
+
+    6505.5.17 = {
+        birth = yes
+    }
+
+    6592.9.4 = {
+        death = { death_reason = death_drowned  }
+    }
+}
+
+reed_37 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_26
+    mother = reed_27
+
+    trait = sadistic
+    trait = zealous
+    trait = greedy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 10
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6479.8.7 = {
+        birth = yes
+    }
+
+    6554.10.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_38 = {
+    name = "Martyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_24
+    mother = reed_25
+
+    trait = honest
+    trait = generous
+    trait = brave
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_4
+
+    6423.1.18 = {
+        birth = yes
+    }
+
+    6498.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_39 = {
+    name = "Yoren"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_24
+    mother = reed_25
+
+    trait = forgiving
+    trait = shy
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    6424.1.22 = {
+        birth = yes
+    }
+
+    6472.9.14 = {
+        add_spouse = reed_40
+    }
+
+    6498.11.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_40 = {
+    name = "Danelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = wrathful
+    trait = sadistic
+    trait = craven
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 2
+    prowess = 6
+
+    trait = education_martial_4
+
+    6455.9.25 = {
+        birth = yes
+    }
+
+    6527.7.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_41 = {
+    name = "Andren"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_39
+    mother = reed_40
+
+    trait = diligent
+    trait = compassionate
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 10
+    intrigue = 10
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6475.9.23 = {
+        birth = yes
+    }
+
+    6498.9.26 = {
+        add_spouse = reed_42
+    }
+
+    6553.11.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_42 = {
+    name = "Ylva"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = content
+    trait = just
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6481.10.23 = {
+        birth = yes
+    }
+
+    6559.10.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_43 = {
+    name = "Mariah"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_41
+    mother = reed_42
+
+    trait = honest
+    trait = craven
+    trait = lazy
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    6499.5.12 = {
+        birth = yes
+    }
+
+    6566.7.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_44 = {
+    name = "Barbara"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_41
+    mother = reed_42
+
+    trait = compassionate
+    trait = vengeful
+    trait = diligent
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    6508.1.1 = {
+        birth = yes
+    }
+
+    6586.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_45 = {
+    name = "Arthor"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_41
+    mother = reed_42
+
+    trait = gregarious
+    trait = just
+    trait = lustful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 10
+
+    trait = education_diplomacy_2
+
+    6513.6.14 = {
+        birth = yes
+    }
+
+    6537.7.7 = {
+        add_spouse = reed_46
+    }
+
+    6552.3.11 = {
+        death = { death_reason = death_attacked }
+    }
+}
+
+reed_46 = {
+    name = "Lacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = patient
+    trait = calm
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    6520.7.2 = {
+        birth = yes
+    }
+
+    6604.1.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_47 = {
+    name = "Greg"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_39
+    mother = reed_40
+
+    trait = content
+    trait = wrathful
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 9
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6479.10.4 = {
+        birth = yes
+    }
+
+    6516.5.12 = {
+        add_spouse = reed_48
+    }
+
+    6561.8.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_48 = {
+    name = "Orya"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = cynical
+    trait = gluttonous
+    trait = generous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6499.5.5 = {
+        birth = yes
+    }
+
+    6578.11.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_49 = {
+    name = "Dog"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_47
+    mother = reed_48
+
+    trait = paranoid
+    trait = temperate
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    6531.3.28 = {
+        birth = yes
+    }
+
+    6579.12.21 = {
+        add_spouse = reed_50
+    }
+
+    6591.10.11 = {
+        death = { death_reason = death_attacked }
+    }
+}
+
+reed_50 = {
+    name = "Lynarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = gregarious
+    trait = temperate
+    trait = just
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_learning_3
+
+    6562.5.15 = {
+        birth = yes
+    }
+
+    6634.2.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_51 = {
+    name = "Cellador"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_39
+    mother = reed_40
+
+    trait = arbitrary
+    trait = arrogant
+    trait = lazy
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 9
+    intrigue = 8
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6483.1.10 = {
+        birth = yes
+    }
+
+    6513.3.6 = {
+        add_spouse = reed_52
+    }
+
+    6552.8.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_52 = {
+    name = "Gil"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = gregarious
+    trait = content
+    trait = patient
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 2
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6496.6.4 = {
+        birth = yes
+    }
+
+    6576.7.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_53 = {
+    name = "Edric"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_51
+    mother = reed_52
+
+    trait = calm
+    trait = fickle
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 4
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_2
+
+    6534.8.19 = {
+        birth = yes
+    }
+
+    6549.3.7 = {
+        add_spouse = reed_54
+    }
+
+    6559.4.7 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+reed_54 = {
+    name = "Orya"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = impatient
+    trait = fickle
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 11
+    intrigue = 7
+    learning = 8
+    prowess = 11
+
+    trait = education_stewardship_2
+
+    6532.4.23 = {
+        birth = yes
+    }
+
+    6603.7.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_55 = {
+    name = "Robb"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_39
+    mother = reed_40
+
+    trait = chaste
+    trait = trusting
+    trait = cynical
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 7
+    intrigue = 2
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6486.1.16 = {
+        birth = yes
+    }
+
+    6509.8.3 = {
+        add_spouse = reed_56
+    }
+
+    6571.2.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_56 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = stubborn
+    trait = brave
+    trait = humble
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 9
+
+    trait = education_martial_3
+
+    6492.12.5 = {
+        birth = yes
+    }
+
+    6568.9.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_57 = {
+    name = "Aethan"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_55
+    mother = reed_56
+
+    trait = honest
+    trait = calm
+    trait = lustful
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 2
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6513.4.20 = {
+        birth = yes
+    }
+
+    6560.9.8 = {
+        add_spouse = reed_58
+    }
+
+    6593.12.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_58 = {
+    name = "Sybelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = patient
+    trait = lazy
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 3
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6543.10.10 = {
+        birth = yes
+    }
+
+    6580.4.17 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+reed_59 = {
+    name = "Daryn"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_55
+    mother = reed_56
+
+    trait = patient
+    trait = lazy
+    trait = gregarious
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 10
+    intrigue = 5
+    learning = 8
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6514.8.2 = {
+        birth = yes
+    }
+
+    6539.7.22 = {
+        add_spouse = reed_60
+    }
+
+    6551.6.12 = {
+        death = { death_reason = death_beaten }
+    }
+}
+
+reed_60 = {
+    name = "Sera"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = sadistic
+    trait = shy
+    trait = brave
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_1
+
+    6522.11.26 = {
+        birth = yes
+    }
+
+    6599.5.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_61 = {
+    name = "Cateryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_55
+    mother = reed_56
+
+    trait = gluttonous
+    trait = ambitious
+    trait = generous
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6519.5.11 = {
+        birth = yes
+    }
+
+    6594.11.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_62 = {
+    name = "Edwyn"
+
+    dynasty = dynasty_reed
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_55
+    mother = reed_56
+
+    trait = sadistic
+    trait = impatient
+    trait = ambitious
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 7
+    intrigue = 3
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6524.2.4 = {
+        birth = yes
+    }
+
+    6544.3.28 = {
+        add_spouse = reed_63
+    }
+
+    6606.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_63 = {
+    name = "Osha"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = brave
+    trait = generous
+    trait = impatient
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 1
+    learning = 7
+    prowess = 3
+
+    trait = education_learning_2
+
+    6527.6.19 = {
+        birth = yes
+    }
+
+    6576.10.10 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+reed_64 = {
+    name = "Jolyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_24
+    mother = reed_25
+
+    trait = impatient
+    trait = lazy
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 9
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6426.5.26 = {
+        birth = yes
+    }
+
+    6501.10.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+reed_65 = {
+    name = "Rikyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = reed_21
+    mother = reed_22
+
+    trait = lustful
+    trait = forgiving
+    trait = greedy
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    6393.5.10 = {
+        birth = yes
+    }
+
+    6466.11.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

@@ -1,0 +1,2749 @@
+shadowmore_1 = {
+    name = "Thom"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = lustful
+    trait = craven
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 2
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_3
+
+    6300.2.11 = {
+        birth = yes
+    }
+
+    6336.8.13 = {
+        add_spouse = shadowmore_2
+    }
+
+    6380.1.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_2 = {
+    name = "Ingiren"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = forgiving
+    trait = calm
+    trait = arbitrary
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_3
+
+    6319.6.8 = {
+        birth = yes
+    }
+
+    6388.11.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_3 = {
+    name = "Cregan"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_1
+    mother = shadowmore_2
+
+    trait = content
+    trait = paranoid
+    trait = patient
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_1
+
+    6342.11.11 = {
+        birth = yes
+    }
+
+    6366.7.20 = {
+        add_spouse = shadowmore_4
+    }
+
+    6378.2.14 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+shadowmore_4 = {
+    name = "Piney"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = content
+    trait = impatient
+    trait = craven
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 3
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_4
+
+    6349.1.27 = {
+        birth = yes
+    }
+
+    6393.7.4 = {
+        death = { death_reason = death_accident  }
+    }
+}
+
+shadowmore_5 = {
+    name = "Quort"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_3
+    mother = shadowmore_4
+
+    trait = callous
+    trait = paranoid
+    trait = calm
+
+    diplomacy = 26
+    martial = 25
+    stewardship = 13
+    intrigue = 22
+    learning = 12
+    prowess = 10
+
+    trait = education_diplomacy_4
+
+    6369.6.15 = {
+        birth = yes
+    }
+
+    6402.11.27 = {
+        add_spouse = shadowmore_6
+    }
+
+    6413.9.3 = {
+        death = { death_reason = death_gout_ridden }
+    }
+}
+
+shadowmore_6 = {
+    name = "Lobelia"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = lustful
+    trait = forgiving
+    trait = just
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 2
+    intrigue = 7
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6385.3.21 = {
+        birth = yes
+    }
+
+    6452.3.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_7 = {
+    name = "Aethon"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_5
+    mother = shadowmore_6
+
+    trait = brave
+    trait = just
+    trait = temperate
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 8
+    intrigue = 3
+    learning = 3
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    6404.6.22 = {
+        birth = yes
+    }
+
+    6446.5.16 = {
+        add_spouse = shadowmore_8
+    }
+
+    6486.6.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_8 = {
+    name = "Freny"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = stubborn
+    trait = cynical
+    trait = honest
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_3
+
+    6429.10.5 = {
+        birth = yes
+    }
+
+    6500.11.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_9 = {
+    name = "Harlon"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_7
+    mother = shadowmore_8
+
+    trait = lazy
+    trait = honest
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 7
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    6453.4.21 = {
+        birth = yes
+    }
+
+    6491.7.2 = {
+        add_spouse = shadowmore_10
+    }
+
+    6525.5.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_10 = {
+    name = "Halda"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = chaste
+    trait = ambitious
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 2
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6474.5.15 = {
+        birth = yes
+    }
+
+    6550.6.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_11 = {
+    name = "Piney"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_9
+    mother = shadowmore_10
+
+    trait = ambitious
+    trait = sadistic
+    trait = cynical
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6493.7.4 = {
+        birth = yes
+    }
+
+    6575.8.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_12 = {
+    name = "Noll"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_9
+    mother = shadowmore_10
+
+    trait = arrogant
+    trait = just
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 4
+    intrigue = 6
+    learning = 2
+    prowess = 8
+
+    trait = education_martial_4
+
+    6495.5.10 = {
+        birth = yes
+    }
+
+    6511.4.8 = {
+        add_spouse = shadowmore_13
+    }
+
+    6577.10.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_13 = {
+    name = "Willow"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = generous
+    trait = gluttonous
+    trait = impatient
+
+    diplomacy = 8
+    martial = 10
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_martial_4
+
+    6494.11.4 = {
+        birth = yes
+    }
+
+    6566.1.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_14 = {
+    name = "Kalene"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_12
+    mother = shadowmore_13
+
+    trait = compassionate
+    trait = wrathful
+    trait = cynical
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 4
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6517.4.1 = {
+        birth = yes
+    }
+
+    6595.4.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_15 = {
+    name = "Jym"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_12
+    mother = shadowmore_13
+
+    trait = gregarious
+    trait = greedy
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 11
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6526.4.7 = {
+        birth = yes
+    }
+
+    6561.10.19 = {
+        add_spouse = shadowmore_16
+    }
+
+    6602.3.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_16 = {
+    name = "Myrtle"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = zealous
+    trait = shy
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 3
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6544.11.16 = {
+        birth = yes
+    }
+
+    6618.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_17 = {
+    name = "Ingiren"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_9
+    mother = shadowmore_10
+
+    trait = diligent
+    trait = sadistic
+    trait = impatient
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 3
+    intrigue = 5
+    learning = 2
+    prowess = 3
+
+    trait = education_martial_2
+
+    6496.8.13 = {
+        birth = yes
+    }
+
+    6567.12.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_18 = {
+    name = "Hallis"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_9
+    mother = shadowmore_10
+
+    trait = diligent
+    trait = patient
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 2
+
+    trait = education_diplomacy_4
+
+    6498.1.20 = {
+        birth = yes
+    }
+
+    6517.10.8 = {
+        add_spouse = shadowmore_19
+    }
+
+    6576.9.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_19 = {
+    name = "Piney"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = craven
+    trait = trusting
+    trait = gluttonous
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 5
+    intrigue = 4
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6500.10.22 = {
+        birth = yes
+    }
+
+    6579.8.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_20 = {
+    name = "Dolner"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_18
+    mother = shadowmore_19
+
+    trait = wrathful
+    trait = patient
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6522.5.21 = {
+        birth = yes
+    }
+
+    6557.2.2 = {
+        add_spouse = shadowmore_21
+    }
+
+    6605.6.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_21 = {
+    name = "Dalla"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = shy
+    trait = arrogant
+    trait = fickle
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6540.11.5 = {
+        birth = yes
+    }
+
+    6567.5.19 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+shadowmore_22 = {
+    name = "Lupina"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_18
+    mother = shadowmore_19
+
+    trait = arbitrary
+    trait = diligent
+    trait = callous
+
+    diplomacy = 10
+    martial = 3
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6534.3.17 = {
+        birth = yes
+    }
+
+    6600.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_23 = {
+    name = "Daran"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_5
+    mother = shadowmore_6
+
+    trait = brave
+    trait = lazy
+    trait = greedy
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    6407.11.14 = {
+        birth = yes
+    }
+
+    6428.12.1 = {
+        add_spouse = shadowmore_24
+    }
+
+    6489.12.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_24 = {
+    name = "Oliwa"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = shy
+    trait = brave
+    trait = humble
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    6411.12.1 = {
+        birth = yes
+    }
+
+    6442.1.19 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+shadowmore_25 = {
+    name = "Dran"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_23
+    mother = shadowmore_24
+
+    trait = patient
+    trait = arrogant
+    trait = generous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 8
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6435.11.7 = {
+        birth = yes
+    }
+
+    6458.4.15 = {
+        add_spouse = shadowmore_26
+    }
+
+    6510.5.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_26 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = cynical
+    trait = gluttonous
+    trait = trusting
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 2
+    intrigue = 5
+    learning = 4
+    prowess = 4
+
+    trait = education_martial_3
+
+    6441.2.9 = {
+        birth = yes
+    }
+
+    6518.11.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_27 = {
+    name = "Rance"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_25
+    mother = shadowmore_26
+
+    trait = callous
+    trait = gluttonous
+    trait = patient
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 8
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_4
+
+    6462.3.11 = {
+        birth = yes
+    }
+
+    6498.3.6 = {
+        add_spouse = shadowmore_28
+    }
+
+    6508.9.18 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+shadowmore_28 = {
+    name = "Rue"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = generous
+    trait = zealous
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_4
+
+    6481.11.16 = {
+        birth = yes
+    }
+
+    6550.3.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_29 = {
+    name = "Milly"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_27
+    mother = shadowmore_28
+
+    trait = temperate
+    trait = impatient
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 2
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6500.1.18 = {
+        birth = yes
+    }
+
+    6568.1.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_30 = {
+    name = "Wit"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_27
+    mother = shadowmore_28
+
+    trait = patient
+    trait = craven
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_2
+
+    6502.9.4 = {
+        birth = yes
+    }
+
+    6534.3.18 = {
+        add_spouse = shadowmore_31
+    }
+
+    6582.12.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_31 = {
+    name = "Sheena"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = forgiving
+    trait = honest
+    trait = humble
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 8
+    intrigue = 1
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6517.6.8 = {
+        birth = yes
+    }
+
+    6597.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_32 = {
+    name = "Toran"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_27
+    mother = shadowmore_28
+
+    trait = calm
+    trait = patient
+    trait = generous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 9
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6504.5.25 = {
+        birth = yes
+    }
+
+    6544.4.15 = {
+        add_spouse = shadowmore_33
+    }
+
+    6580.12.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_33 = {
+    name = "Kalene"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = zealous
+    trait = arrogant
+    trait = brave
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6527.8.17 = {
+        birth = yes
+    }
+
+    6610.3.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_34 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_25
+    mother = shadowmore_26
+
+    trait = just
+    trait = chaste
+    trait = honest
+
+    diplomacy = 3
+    martial = 2
+    stewardship = 8
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6466.6.27 = {
+        birth = yes
+    }
+
+    6548.2.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_35 = {
+    name = "Redbreeches"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_25
+    mother = shadowmore_26
+
+    trait = zealous
+    trait = arrogant
+    trait = gluttonous
+
+    diplomacy = 9
+    martial = 2
+    stewardship = 2
+    intrigue = 9
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6467.4.21 = {
+        birth = yes
+    }
+
+    6487.3.1 = {
+        add_spouse = shadowmore_36
+    }
+
+    6549.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_36 = {
+    name = "Cicely"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = chaste
+    trait = ambitious
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 7
+    learning = 8
+    prowess = 2
+
+    trait = education_learning_2
+
+    6470.3.17 = {
+        birth = yes
+    }
+
+    6537.11.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_37 = {
+    name = "Dani"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_35
+    mother = shadowmore_36
+
+    trait = sadistic
+    trait = generous
+    trait = content
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_2
+
+    6490.1.4 = {
+        birth = yes
+    }
+
+    6571.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_38 = {
+    name = "Bran"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_35
+    mother = shadowmore_36
+
+    trait = brave
+    trait = paranoid
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    6498.10.25 = {
+        birth = yes
+    }
+
+    6529.10.14 = {
+        add_spouse = shadowmore_39
+    }
+
+    6566.1.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_39 = {
+    name = "Tyka"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = vengeful
+    trait = zealous
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 2
+    prowess = 10
+
+    trait = education_diplomacy_2
+
+    6512.4.18 = {
+        birth = yes
+    }
+
+    6588.1.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_40 = {
+    name = "Tormun"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_25
+    mother = shadowmore_26
+
+    trait = lustful
+    trait = trusting
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 2
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_2
+
+    6468.8.16 = {
+        birth = yes
+    }
+
+    6492.4.7 = {
+        add_spouse = shadowmore_41
+    }
+
+    6525.11.14 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+shadowmore_41 = {
+    name = "Seva"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = vengeful
+    trait = greedy
+    trait = temperate
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 3
+    learning = 3
+    prowess = 9
+
+    trait = education_martial_3
+
+    6475.12.25 = {
+        birth = yes
+    }
+
+    6559.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_42 = {
+    name = "Dyre"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_40
+    mother = shadowmore_41
+
+    trait = zealous
+    trait = callous
+    trait = craven
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 3
+    learning = 2
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6500.2.18 = {
+        birth = yes
+    }
+
+    6548.6.2 = {
+        add_spouse = shadowmore_43
+    }
+
+    6568.5.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_43 = {
+    name = "Anise"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = zealous
+    trait = paranoid
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 10
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_stewardship_1
+
+    6531.1.26 = {
+        birth = yes
+    }
+
+    6597.10.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_44 = {
+    name = "Dana"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_23
+    mother = shadowmore_24
+
+    trait = lazy
+    trait = content
+    trait = impatient
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 9
+    learning = 7
+    prowess = 8
+
+    trait = education_intrigue_1
+
+    6439.9.8 = {
+        birth = yes
+    }
+
+    6480.9.1 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+shadowmore_45 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_5
+    mother = shadowmore_6
+
+    trait = stubborn
+    trait = trusting
+    trait = cynical
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_3
+
+    6408.8.15 = {
+        birth = yes
+    }
+
+    6491.5.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_46 = {
+    name = "Harma"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_5
+    mother = shadowmore_6
+
+    trait = calm
+    trait = humble
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 8
+    intrigue = 4
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_1
+
+    6410.1.10 = {
+        birth = yes
+    }
+
+    6484.10.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_47 = {
+    name = "Raymund"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_3
+    mother = shadowmore_4
+
+    trait = trusting
+    trait = compassionate
+    trait = humble
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6374.8.4 = {
+        birth = yes
+    }
+
+    6408.3.11 = {
+        add_spouse = shadowmore_48
+    }
+
+    6445.1.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_48 = {
+    name = "Olwen"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = generous
+    trait = lazy
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    6391.5.3 = {
+        birth = yes
+    }
+
+    6462.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_49 = {
+    name = "Freesia"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_47
+    mother = shadowmore_48
+
+    trait = wrathful
+    trait = compassionate
+    trait = honest
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 3
+    intrigue = 8
+    learning = 3
+    prowess = 3
+
+    trait = education_intrigue_1
+
+    6419.11.7 = {
+        birth = yes
+    }
+
+    6500.1.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_50 = {
+    name = "Jeor"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_47
+    mother = shadowmore_48
+
+    trait = compassionate
+    trait = just
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6427.2.7 = {
+        birth = yes
+    }
+
+    6458.1.28 = {
+        add_spouse = shadowmore_51
+    }
+
+    6498.11.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_51 = {
+    name = "Nelna"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = temperate
+    trait = honest
+    trait = humble
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 7
+    learning = 3
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6441.12.19 = {
+        birth = yes
+    }
+
+    6508.4.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_52 = {
+    name = "Ragrad"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_50
+    mother = shadowmore_51
+
+    trait = impatient
+    trait = gregarious
+    trait = callous
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 7
+    intrigue = 3
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_2
+
+    6462.1.20 = {
+        birth = yes
+    }
+
+    6478.10.18 = {
+        add_spouse = shadowmore_53
+    }
+
+    6534.8.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_53 = {
+    name = "Larkspur"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = diligent
+    trait = temperate
+    trait = fickle
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    6461.1.28 = {
+        birth = yes
+    }
+
+    6528.5.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_54 = {
+    name = "Briar"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_52
+    mother = shadowmore_53
+
+    trait = greedy
+    trait = diligent
+    trait = calm
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 9
+    prowess = 9
+
+    trait = education_learning_2
+
+    6481.12.27 = {
+        birth = yes
+    }
+
+    6516.12.2 = {
+        add_spouse = shadowmore_55
+    }
+
+    6549.3.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_55 = {
+    name = "Dorli"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = forgiving
+    trait = calm
+    trait = callous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 10
+    prowess = 6
+
+    trait = education_learning_2
+
+    6499.6.5 = {
+        birth = yes
+    }
+
+    6583.2.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_56 = {
+    name = "Orm"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_54
+    mother = shadowmore_55
+
+    trait = stubborn
+    trait = ambitious
+    trait = honest
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 9
+
+    trait = education_stewardship_1
+
+    6521.4.22 = {
+        birth = yes
+    }
+
+    6567.1.16 = {
+        add_spouse = shadowmore_57
+    }
+
+    6595.10.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_57 = {
+    name = "Hazel"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = impatient
+    trait = ambitious
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_3
+
+    6550.3.27 = {
+        birth = yes
+    }
+
+    6631.9.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_58 = {
+    name = "Nilly"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_54
+    mother = shadowmore_55
+
+    trait = gluttonous
+    trait = cynical
+    trait = impatient
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_4
+
+    6525.11.2 = {
+        birth = yes
+    }
+
+    6603.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_59 = {
+    name = "Durila"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_54
+    mother = shadowmore_55
+
+    trait = greedy
+    trait = ambitious
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 3
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_learning_2
+
+    6530.12.10 = {
+        birth = yes
+    }
+
+    6611.2.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_60 = {
+    name = "Nils"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_54
+    mother = shadowmore_55
+
+    trait = brave
+    trait = humble
+    trait = sadistic
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 9
+    intrigue = 8
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6532.10.2 = {
+        birth = yes
+    }
+
+    6578.9.1 = {
+        add_spouse = shadowmore_61
+    }
+
+    6609.4.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_61 = {
+    name = "Ingiren"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = craven
+    trait = wrathful
+    trait = trusting
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6561.10.19 = {
+        birth = yes
+    }
+
+    6628.6.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_62 = {
+    name = "Beron"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_52
+    mother = shadowmore_53
+
+    trait = deceitful
+    trait = cynical
+    trait = craven
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 11
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6484.8.8 = {
+        birth = yes
+    }
+
+    6526.7.15 = {
+        add_spouse = shadowmore_63
+    }
+
+    6559.1.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_63 = {
+    name = "Ysilla"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = deceitful
+    trait = diligent
+    trait = just
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 4
+    intrigue = 7
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_2
+
+    6509.6.20 = {
+        birth = yes
+    }
+
+    6584.10.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_64 = {
+    name = "Gilly"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_62
+    mother = shadowmore_63
+
+    trait = fickle
+    trait = honest
+    trait = craven
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6537.11.1 = {
+        birth = yes
+    }
+
+    6611.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_65 = {
+    name = "Hankar"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_62
+    mother = shadowmore_63
+
+    trait = trusting
+    trait = gluttonous
+    trait = honest
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 3
+    intrigue = 4
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_4
+
+    6538.6.17 = {
+        birth = yes
+    }
+
+    6569.6.14 = {
+        add_spouse = shadowmore_66
+    }
+
+    6620.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_66 = {
+    name = "Canna"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = lazy
+    trait = arbitrary
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 1
+    intrigue = 4
+    learning = 8
+    prowess = 2
+
+    trait = education_martial_2
+
+    6552.4.17 = {
+        birth = yes
+    }
+
+    6632.3.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_67 = {
+    name = "Vorwynd"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_52
+    mother = shadowmore_53
+
+    trait = arrogant
+    trait = trusting
+    trait = gluttonous
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 3
+    intrigue = 5
+    learning = 6
+    prowess = 9
+
+    trait = education_learning_4
+
+    6486.10.27 = {
+        birth = yes
+    }
+
+    6511.11.14 = {
+        add_spouse = shadowmore_68
+    }
+
+    6521.7.15 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+shadowmore_68 = {
+    name = "Dani"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = humble
+    trait = greedy
+    trait = calm
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_2
+
+    6494.4.18 = {
+        birth = yes
+    }
+
+    6521.12.20 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+shadowmore_69 = {
+    name = "Cassie"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_67
+    mother = shadowmore_68
+
+    trait = arrogant
+    trait = calm
+    trait = callous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6515.7.13 = {
+        birth = yes
+    }
+
+    6598.4.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_70 = {
+    name = "Dryk"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_67
+    mother = shadowmore_68
+
+    trait = stubborn
+    trait = paranoid
+    trait = temperate
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_3
+
+    6516.1.21 = {
+        birth = yes
+    }
+
+    6533.6.15 = {
+        add_spouse = shadowmore_71
+    }
+
+    6591.1.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_71 = {
+    name = "Jonella"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = craven
+    trait = shy
+    trait = generous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6516.12.21 = {
+        birth = yes
+    }
+
+    6596.12.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_72 = {
+    name = "Howd"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_52
+    mother = shadowmore_53
+
+    trait = brave
+    trait = trusting
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 4
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_4
+
+    6488.2.8 = {
+        birth = yes
+    }
+
+    6520.4.9 = {
+        add_spouse = shadowmore_73
+    }
+
+    6555.7.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_73 = {
+    name = "Slaine"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = forgiving
+    trait = stubborn
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6503.9.16 = {
+        birth = yes
+    }
+
+    6580.11.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_74 = {
+    name = "Cregan"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_72
+    mother = shadowmore_73
+
+    trait = generous
+    trait = gregarious
+    trait = honest
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6520.12.26 = {
+        birth = yes
+    }
+
+    6560.9.8 = {
+        add_spouse = shadowmore_75
+    }
+
+    6592.4.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_75 = {
+    name = "Urielle"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = generous
+    trait = zealous
+    trait = patient
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 4
+    intrigue = 5
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_2
+
+    6543.11.17 = {
+        birth = yes
+    }
+
+    6615.11.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_76 = {
+    name = "Bryony"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_72
+    mother = shadowmore_73
+
+    trait = just
+    trait = cynical
+    trait = chaste
+
+    diplomacy = 5
+    martial = 1
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6527.8.27 = {
+        birth = yes
+    }
+
+    6595.12.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_77 = {
+    name = "Marny"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_72
+    mother = shadowmore_73
+
+    trait = diligent
+    trait = generous
+    trait = patient
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 3
+    intrigue = 3
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_4
+
+    6529.5.12 = {
+        birth = yes
+    }
+
+    6605.1.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_78 = {
+    name = "Valorn"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_50
+    mother = shadowmore_51
+
+    trait = lustful
+    trait = stubborn
+    trait = arbitrary
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 9
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6473.3.6 = {
+        birth = yes
+    }
+
+    6499.10.17 = {
+        add_spouse = shadowmore_79
+    }
+
+    6557.9.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_79 = {
+    name = "Mari"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = paranoid
+    trait = patient
+    trait = callous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6482.5.5 = {
+        birth = yes
+    }
+
+    6551.1.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_80 = {
+    name = "Maelchon"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_78
+    mother = shadowmore_79
+
+    trait = arbitrary
+    trait = trusting
+    trait = shy
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 8
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_3
+
+    6526.3.28 = {
+        birth = yes
+    }
+
+    6561.8.8 = {
+        add_spouse = shadowmore_81
+    }
+
+    6596.12.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_81 = {
+    name = "Meha"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = paranoid
+    trait = just
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_2
+
+    6544.8.3 = {
+        birth = yes
+    }
+
+    6610.4.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_82 = {
+    name = "Hilde"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_80
+    mother = shadowmore_81
+
+    trait = cynical
+    trait = lazy
+    trait = fickle
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_2
+
+    6569.2.7 = {
+        birth = yes
+    }
+
+    6641.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_83 = {
+    name = "Hilde"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_80
+    mother = shadowmore_81
+
+    trait = shy
+    trait = ambitious
+    trait = greedy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 2
+    prowess = 8
+
+    trait = education_martial_2
+
+    6576.3.3 = {
+        birth = yes
+    }
+
+    6654.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_84 = {
+    name = "Groval"
+
+    dynasty = dynasty_shadowmore
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = shadowmore_80
+    mother = shadowmore_81
+
+    trait = greedy
+    trait = lazy
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 10
+
+    trait = education_martial_3
+
+    6579.10.16 = {
+        birth = yes
+    }
+
+    6594.10.20 = {
+        add_spouse = shadowmore_85
+    }
+
+    6652.3.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+shadowmore_85 = {
+    name = "Ally"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = stubborn
+    trait = compassionate
+    trait = brave
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 2
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6577.6.15 = {
+        birth = yes
+    }
+
+    6656.6.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

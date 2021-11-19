@@ -1,0 +1,1462 @@
+bolton_1 = {
+    name = "Theo"
+
+    dynasty = dynasty_bolton
+    religion = the_old_gods
+    culture = northmen
+
+    trait = humble
+    trait = sadistic
+    trait = brave
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 3
+    intrigue = 1
+    learning = 1
+    prowess = 2
+
+    trait = education_diplomacy_3
+
+    6300.4.17 = {
+        birth = yes
+    }
+
+    6321.7.8 = {
+        add_spouse = bolton_2
+    }
+
+    6381.2.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_2 = {
+    name = "Danelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = humble
+    trait = cynical
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 9
+    learning = 6
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    6304.11.13 = {
+        birth = yes
+    }
+
+    6379.10.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_3 = {
+    name = "Grim"
+
+    dynasty = dynasty_bolton
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_1
+    mother = bolton_2
+
+    trait = diligent
+    trait = fickle
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 3
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    6331.2.9 = {
+        birth = yes
+    }
+
+    6370.2.15 = {
+        add_spouse = bolton_4
+    }
+
+    6412.8.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_4 = {
+    name = "Cecilia"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = gregarious
+    trait = chaste
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_4
+
+    6353.7.15 = {
+        birth = yes
+    }
+
+    6423.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_5 = {
+    name = "Rickard"
+
+    dynasty = dynasty_bolton
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_3
+    mother = bolton_4
+
+    trait = arrogant
+    trait = generous
+    trait = patient
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6370.11.13 = {
+        birth = yes
+    }
+
+    6420.11.28 = {
+        add_spouse = bolton_6
+    }
+
+    6444.5.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_6 = {
+    name = "Izabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = sadistic
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_4
+
+    6403.3.9 = {
+        birth = yes
+    }
+
+    6470.2.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_7 = {
+    name = "Rowena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_5
+    mother = bolton_6
+
+    trait = gluttonous
+    trait = cynical
+    trait = honest
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 2
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    6424.5.10 = {
+        birth = yes
+    }
+
+    6492.11.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_8 = {
+    name = "Eylif"
+
+    dynasty = dynasty_bolton
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_5
+    mother = bolton_6
+
+    trait = patient
+    trait = cynical
+    trait = craven
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 2
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6428.11.27 = {
+        birth = yes
+    }
+
+    6446.8.27 = {
+        add_spouse = bolton_9
+    }
+
+    6498.8.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_9 = {
+    name = "Barbrey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = temperate
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 9
+    learning = 1
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6429.10.14 = {
+        birth = yes
+    }
+
+    6512.11.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_10 = {
+    name = "Leobald"
+
+    dynasty = dynasty_bolton
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_8
+    mother = bolton_9
+
+    trait = fickle
+    trait = compassionate
+    trait = lustful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 9
+
+    trait = education_learning_3
+
+    6455.3.26 = {
+        birth = yes
+    }
+
+    6482.3.15 = {
+        add_spouse = bolton_11
+    }
+
+    6530.4.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_11 = {
+    name = "Ewalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = cynical
+    trait = lazy
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 1
+    intrigue = 5
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_3
+
+    6465.8.11 = {
+        birth = yes
+    }
+
+    6535.1.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_12 = {
+    name = "Torkel"
+
+    dynasty = dynasty_bolton
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_10
+    mother = bolton_11
+
+    trait = diligent
+    trait = paranoid
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 1
+    stewardship = 4
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    6482.6.17 = {
+        birth = yes
+    }
+
+    6529.6.14 = {
+        add_spouse = bolton_13
+    }
+
+    6551.5.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_13 = {
+    name = "Thyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = lustful
+    trait = greedy
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6512.1.4 = {
+        birth = yes
+    }
+
+    6589.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_14 = {
+    name = "Dyncen"
+
+    dynasty = dynasty_bolton
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_12
+    mother = bolton_13
+
+    trait = deceitful
+    trait = paranoid
+    trait = greedy
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 1
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6531.10.5 = {
+        birth = yes
+    }
+
+    6574.1.11 = {
+        add_spouse = bolton_15
+    }
+
+    6606.4.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_15 = {
+    name = "Lyessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = gluttonous
+    trait = impatient
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 6
+    intrigue = 8
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_2
+
+    6557.6.2 = {
+        birth = yes
+    }
+
+    6629.3.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_16 = {
+    name = "Berena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_10
+    mother = bolton_11
+
+    trait = arbitrary
+    trait = chaste
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 7
+    intrigue = 3
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    6490.7.15 = {
+        birth = yes
+    }
+
+    6572.3.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_17 = {
+    name = "Berti"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_10
+    mother = bolton_11
+
+    trait = arbitrary
+    trait = trusting
+    trait = brave
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_2
+
+    6491.7.11 = {
+        birth = yes
+    }
+
+    6571.10.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_18 = {
+    name = "Ulthan"
+
+    dynasty = dynasty_bolton
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_8
+    mother = bolton_9
+
+    trait = just
+    trait = brave
+    trait = trusting
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 5
+    intrigue = 8
+    learning = 8
+    prowess = 9
+
+    trait = education_martial_3
+
+    6464.9.10 = {
+        birth = yes
+    }
+
+    6504.5.10 = {
+        add_spouse = bolton_19
+    }
+
+    6535.2.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_19 = {
+    name = "Alys"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = chaste
+    trait = compassionate
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    6487.11.1 = {
+        birth = yes
+    }
+
+    6556.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_20 = {
+    name = "Galbart"
+
+    dynasty = dynasty_bolton
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_18
+    mother = bolton_19
+
+    trait = vengeful
+    trait = temperate
+    trait = craven
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 8
+    prowess = 1
+
+    trait = education_stewardship_2
+
+    6509.3.19 = {
+        birth = yes
+    }
+
+    6531.3.15 = {
+        add_spouse = bolton_21
+    }
+
+    6581.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_21 = {
+    name = "Cecilia"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = sadistic
+    trait = trusting
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6514.5.28 = {
+        birth = yes
+    }
+
+    6595.6.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_22 = {
+    name = "Gil"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_20
+    mother = bolton_21
+
+    trait = sadistic
+    trait = generous
+    trait = honest
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 3
+    intrigue = 9
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6537.12.14 = {
+        birth = yes
+    }
+
+    6618.5.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_23 = {
+    name = "Berta"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_20
+    mother = bolton_21
+
+    trait = just
+    trait = trusting
+    trait = brave
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_2
+
+    6543.12.12 = {
+        birth = yes
+    }
+
+    6611.3.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_24 = {
+    name = "Styn"
+
+    dynasty = dynasty_bolton
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_20
+    mother = bolton_21
+
+    trait = paranoid
+    trait = forgiving
+    trait = craven
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 11
+    intrigue = 5
+    learning = 8
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    6544.10.22 = {
+        birth = yes
+    }
+
+    6583.10.4 = {
+        add_spouse = bolton_25
+    }
+
+    6612.5.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_25 = {
+    name = "Kyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = trusting
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6566.12.12 = {
+        birth = yes
+    }
+
+    6651.10.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_26 = {
+    name = "Tormand"
+
+    dynasty = dynasty_bolton
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_5
+    mother = bolton_6
+
+    trait = humble
+    trait = lazy
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 10
+    learning = 3
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6429.1.5 = {
+        birth = yes
+    }
+
+    6445.7.10 = {
+        add_spouse = bolton_27
+    }
+
+    6495.10.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_27 = {
+    name = "Donella"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = wrathful
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6428.4.1 = {
+        birth = yes
+    }
+
+    6511.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_28 = {
+    name = "Casamir"
+
+    dynasty = dynasty_bolton
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_26
+    mother = bolton_27
+
+    trait = gluttonous
+    trait = wrathful
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 3
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_3
+
+    6450.2.5 = {
+        birth = yes
+    }
+
+    6489.2.24 = {
+        add_spouse = bolton_29
+    }
+
+    6500.6.26 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+bolton_29 = {
+    name = "Cersera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = fickle
+    trait = cynical
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_3
+
+    6472.6.9 = {
+        birth = yes
+    }
+
+    6548.8.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_30 = {
+    name = "Owen"
+
+    dynasty = dynasty_bolton
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_28
+    mother = bolton_29
+
+    trait = vengeful
+    trait = temperate
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_4
+
+    6490.8.5 = {
+        birth = yes
+    }
+
+    6537.4.27 = {
+        add_spouse = bolton_31
+    }
+
+    6547.4.12 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+bolton_31 = {
+    name = "Agnessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = gregarious
+    trait = craven
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6520.1.22 = {
+        birth = yes
+    }
+
+    6572.11.12 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+bolton_32 = {
+    name = "Vayon"
+
+    dynasty = dynasty_bolton
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_30
+    mother = bolton_31
+
+    trait = wrathful
+    trait = greedy
+    trait = impatient
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6538.5.18 = {
+        birth = yes
+    }
+
+    6573.11.7 = {
+        add_spouse = bolton_33
+    }
+
+    6616.5.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_33 = {
+    name = "Fanni"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = stubborn
+    trait = calm
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 7
+    intrigue = 3
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_2
+
+    6556.4.5 = {
+        birth = yes
+    }
+
+    6623.12.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_34 = {
+    name = "Dywen"
+
+    dynasty = dynasty_bolton
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_30
+    mother = bolton_31
+
+    trait = humble
+    trait = content
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6541.10.22 = {
+        birth = yes
+    }
+
+    6575.5.9 = {
+        add_spouse = bolton_35
+    }
+
+    6616.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_35 = {
+    name = "Ingarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = generous
+    trait = fickle
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_4
+
+    6558.1.10 = {
+        birth = yes
+    }
+
+    6633.3.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_36 = {
+    name = "Elyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_28
+    mother = bolton_29
+
+    trait = craven
+    trait = gregarious
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 3
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    6493.2.2 = {
+        birth = yes
+    }
+
+    6567.2.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_37 = {
+    name = "Medger"
+
+    dynasty = dynasty_bolton
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_28
+    mother = bolton_29
+
+    trait = fickle
+    trait = cynical
+    trait = impatient
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 4
+    intrigue = 8
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6495.12.15 = {
+        birth = yes
+    }
+
+    6496.12.7 = {
+        give_nickname = nick_the_fishy
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6545.10.1 = {
+        add_spouse = bolton_38
+    }
+
+    6579.2.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_38 = {
+    name = "Lydia"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = fickle
+    trait = impatient
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 2
+    intrigue = 8
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6528.11.14 = {
+        birth = yes
+    }
+
+    6611.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_39 = {
+    name = "Kataryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_37
+    mother = bolton_38
+
+    trait = paranoid
+    trait = generous
+    trait = humble
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6551.1.4 = {
+        birth = yes
+    }
+
+    6628.6.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_40 = {
+    name = "Sage"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_37
+    mother = bolton_38
+
+    trait = wrathful
+    trait = cynical
+    trait = gluttonous
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 2
+
+    trait = education_diplomacy_2
+
+    6558.8.28 = {
+        birth = yes
+    }
+
+    6628.7.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_41 = {
+    name = "Domeric"
+
+    dynasty = dynasty_bolton
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_37
+    mother = bolton_38
+
+    trait = callous
+    trait = greedy
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 10
+    intrigue = 6
+    learning = 3
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6560.3.5 = {
+        birth = yes
+    }
+
+    6575.10.25 = {
+        add_spouse = bolton_42
+    }
+
+    6644.12.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_42 = {
+    name = "Rikissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = shy
+    trait = greedy
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 2
+
+    trait = education_diplomacy_3
+
+    6558.12.18 = {
+        birth = yes
+    }
+
+    6627.12.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_43 = {
+    name = "Jolyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_28
+    mother = bolton_29
+
+    trait = chaste
+    trait = craven
+    trait = vengeful
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6496.1.10 = {
+        birth = yes
+    }
+
+    6565.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_44 = {
+    name = "Ireni"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_26
+    mother = bolton_27
+
+    trait = temperate
+    trait = gregarious
+    trait = patient
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 4
+    intrigue = 8
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6453.2.28 = {
+        birth = yes
+    }
+
+    6528.9.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+bolton_45 = {
+    name = "Asha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = bolton_26
+    mother = bolton_27
+
+    trait = forgiving
+    trait = cynical
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 9
+    intrigue = 6
+    learning = 7
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    6456.11.25 = {
+        birth = yes
+    }
+
+    6531.8.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

@@ -1,0 +1,791 @@
+cassel_1 = {
+    name = "Rolfwyn"
+
+    dynasty = dynasty_cassel
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = zealous
+    trait = chaste
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 2
+
+    trait = education_stewardship_4
+
+    6300.5.14 = {
+        birth = yes
+    }
+
+    6347.10.12 = {
+        add_spouse = cassel_2
+    }
+
+    6370.10.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cassel_2 = {
+    name = "Ely"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = humble
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 8
+    intrigue = 4
+    learning = 4
+    prowess = 3
+
+    trait = education_stewardship_1
+
+    6330.3.17 = {
+        birth = yes
+    }
+
+    6402.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cassel_3 = {
+    name = "Dann"
+
+    dynasty = dynasty_cassel
+    religion = the_old_gods
+    culture = northmen
+
+    father = cassel_1
+    mother = cassel_2
+
+    trait = impatient
+    trait = lazy
+    trait = callous
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6369.6.19 = {
+        birth = yes
+    }
+
+    6401.6.22 = {
+        add_spouse = cassel_4
+    }
+
+    6441.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cassel_4 = {
+    name = "Serra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = content
+    trait = just
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 4
+    intrigue = 6
+    learning = 2
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6384.11.7 = {
+        birth = yes
+    }
+
+    6451.11.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cassel_5 = {
+    name = "Marlon"
+
+    dynasty = dynasty_cassel
+    religion = the_old_gods
+    culture = northmen
+
+    father = cassel_3
+    mother = cassel_4
+
+    trait = lustful
+    trait = just
+    trait = temperate
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 3
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    6419.7.18 = {
+        birth = yes
+    }
+
+    6451.12.2 = {
+        add_spouse = cassel_6
+    }
+
+    6490.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cassel_6 = {
+    name = "Ygritte"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = zealous
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6434.5.1 = {
+        birth = yes
+    }
+
+    6506.7.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cassel_7 = {
+    name = "Kristyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = cassel_5
+    mother = cassel_6
+
+    trait = stubborn
+    trait = wrathful
+    trait = paranoid
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 9
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    6458.2.18 = {
+        birth = yes
+    }
+
+    6530.10.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cassel_8 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = cassel_5
+    mother = cassel_6
+
+    trait = ambitious
+    trait = lazy
+    trait = vengeful
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6462.6.1 = {
+        birth = yes
+    }
+
+    6531.6.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cassel_9 = {
+    name = "Oraeya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = cassel_5
+    mother = cassel_6
+
+    trait = fickle
+    trait = zealous
+    trait = callous
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 1
+    intrigue = 5
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_1
+
+    6464.5.8 = {
+        birth = yes
+    }
+
+    6531.2.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cassel_10 = {
+    name = "Medger"
+
+    dynasty = dynasty_cassel
+    religion = the_old_gods
+    culture = northmen
+
+    father = cassel_5
+    mother = cassel_6
+
+    trait = sadistic
+    trait = chaste
+    trait = zealous
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 2
+    intrigue = 8
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_1
+
+    6465.6.6 = {
+        birth = yes
+    }
+
+    6466.5.22 = {
+        give_nickname = nick_the_immortal
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6489.5.25 = {
+        add_spouse = cassel_11
+    }
+
+    6550.6.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cassel_11 = {
+    name = "Martyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = brave
+    trait = fickle
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 5
+    intrigue = 9
+    learning = 11
+    prowess = 5
+
+    trait = education_learning_3
+
+    6472.7.21 = {
+        birth = yes
+    }
+
+    6499.7.12 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+cassel_12 = {
+    name = "Barba"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = cassel_10
+    mother = cassel_11
+
+    trait = lazy
+    trait = callous
+    trait = humble
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 3
+    intrigue = 9
+    learning = 9
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6489.5.16 = {
+        birth = yes
+    }
+
+    6571.1.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cassel_13 = {
+    name = "Thyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = cassel_10
+    mother = cassel_11
+
+    trait = lustful
+    trait = brave
+    trait = generous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 8
+    learning = 8
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6493.2.27 = {
+        birth = yes
+    }
+
+    6560.5.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cassel_14 = {
+    name = "Medger"
+
+    dynasty = dynasty_cassel
+    religion = the_old_gods
+    culture = northmen
+
+    father = cassel_10
+    mother = cassel_11
+
+    trait = diligent
+    trait = craven
+    trait = calm
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_4
+
+    6495.7.26 = {
+        birth = yes
+    }
+
+    6517.9.14 = {
+        add_spouse = cassel_15
+    }
+
+    6561.9.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cassel_15 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = chaste
+    trait = wrathful
+    trait = trusting
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6500.9.23 = {
+        birth = yes
+    }
+
+    6572.12.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cassel_16 = {
+    name = "Farlen"
+
+    dynasty = dynasty_cassel
+    religion = the_old_gods
+    culture = northmen
+
+    father = cassel_14
+    mother = cassel_15
+
+    trait = diligent
+    trait = vengeful
+    trait = callous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 9
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6529.2.20 = {
+        birth = yes
+    }
+
+    6530.7.6 = {
+        give_nickname = nick_the_whirlwind
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6543.1.26 = {
+        add_spouse = cassel_17
+    }
+
+    6610.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cassel_17 = {
+    name = "Lydia"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = sadistic
+    trait = calm
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6526.3.24 = {
+        birth = yes
+    }
+
+    6607.1.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cassel_18 = {
+    name = "Bowen"
+
+    dynasty = dynasty_cassel
+    religion = the_old_gods
+    culture = northmen
+
+    father = cassel_16
+    mother = cassel_17
+
+    trait = deceitful
+    trait = gluttonous
+    trait = paranoid
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6549.3.24 = {
+        birth = yes
+    }
+
+    6572.8.26 = {
+        add_spouse = cassel_19
+    }
+
+    6615.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cassel_19 = {
+    name = "Iris"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = honest
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6555.1.28 = {
+        birth = yes
+    }
+
+    6638.11.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cassel_20 = {
+    name = "Arthor"
+
+    dynasty = dynasty_cassel
+    religion = the_old_gods
+    culture = northmen
+
+    father = cassel_16
+    mother = cassel_17
+
+    trait = lustful
+    trait = just
+    trait = cynical
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6552.1.24 = {
+        birth = yes
+    }
+
+    6591.2.19 = {
+        add_spouse = cassel_21
+    }
+
+    6621.7.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cassel_21 = {
+    name = "Perra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = stubborn
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6574.12.17 = {
+        birth = yes
+    }
+
+    6627.8.28 = {
+        death = { death_reason = death_horse_riding_accident  }
+    }
+}
+
+cassel_22 = {
+    name = "Rolf"
+
+    dynasty = dynasty_cassel
+    religion = the_old_gods
+    culture = northmen
+
+    father = cassel_16
+    mother = cassel_17
+
+    trait = gluttonous
+    trait = callous
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6556.10.23 = {
+        birth = yes
+    }
+
+    6573.8.21 = {
+        add_spouse = cassel_23
+    }
+
+    6630.10.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cassel_23 = {
+    name = "Ewilyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = gregarious
+    trait = craven
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_1
+
+    6556.2.13 = {
+        birth = yes
+    }
+
+    6633.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+cassel_24 = {
+    name = "Barbrey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = cassel_14
+    mother = cassel_15
+
+    trait = trusting
+    trait = fickle
+    trait = chaste
+
+    diplomacy = 4
+    martial = 10
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_2
+
+    6537.9.25 = {
+        birth = yes
+    }
+
+    6615.1.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

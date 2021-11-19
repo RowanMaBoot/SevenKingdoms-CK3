@@ -1,0 +1,1138 @@
+magnar_1 = {
+    name = "Bennard"
+
+    dynasty = dynasty_magnar
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = arbitrary
+    trait = patient
+    trait = chaste
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6300.6.7 = {
+        birth = yes
+    }
+
+    6348.5.18 = {
+        add_spouse = magnar_2
+    }
+
+    6375.11.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_2 = {
+    name = "Evalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = gregarious
+    trait = arrogant
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6331.8.16 = {
+        birth = yes
+    }
+
+    6415.7.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_3 = {
+    name = "Casimir"
+
+    dynasty = dynasty_magnar
+    religion = the_old_gods
+    culture = skagosi
+
+    father = magnar_1
+    mother = magnar_2
+
+    trait = paranoid
+    trait = arrogant
+    trait = temperate
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6371.6.16 = {
+        birth = yes
+    }
+
+    6387.12.16 = {
+        add_spouse = magnar_4
+    }
+
+    6429.1.7 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+magnar_4 = {
+    name = "Kennya"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = craven
+    trait = gluttonous
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 11
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6370.11.27 = {
+        birth = yes
+    }
+
+    6443.12.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_5 = {
+    name = "Maege"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = magnar_3
+    mother = magnar_4
+
+    trait = temperate
+    trait = diligent
+    trait = craven
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 1
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6391.1.25 = {
+        birth = yes
+    }
+
+    6468.3.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_6 = {
+    name = "Elyassa"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = magnar_3
+    mother = magnar_4
+
+    trait = craven
+    trait = calm
+    trait = compassionate
+
+    diplomacy = 3
+    martial = 10
+    stewardship = 2
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_3
+
+    6392.9.12 = {
+        birth = yes
+    }
+
+    6461.12.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_7 = {
+    name = "Martyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = magnar_3
+    mother = magnar_4
+
+    trait = generous
+    trait = lustful
+    trait = calm
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6394.12.10 = {
+        birth = yes
+    }
+
+    6475.6.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_8 = {
+    name = "Roose"
+
+    dynasty = dynasty_magnar
+    religion = the_old_gods
+    culture = skagosi
+
+    father = magnar_3
+    mother = magnar_4
+
+    trait = gluttonous
+    trait = stubborn
+    trait = just
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 3
+    intrigue = 9
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6397.6.26 = {
+        birth = yes
+    }
+
+    6439.11.5 = {
+        add_spouse = magnar_9
+    }
+
+    6449.1.10 = {
+        death = { death_reason = death_attacked }
+    }
+}
+
+magnar_9 = {
+    name = "Leana"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = craven
+    trait = compassionate
+    trait = paranoid
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 2
+    prowess = 10
+
+    trait = education_martial_4
+
+    6422.2.7 = {
+        birth = yes
+    }
+
+    6503.8.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_10 = {
+    name = "Tomard"
+
+    dynasty = dynasty_magnar
+    religion = the_old_gods
+    culture = skagosi
+
+    father = magnar_8
+    mother = magnar_9
+
+    trait = zealous
+    trait = greedy
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    6441.3.6 = {
+        birth = yes
+    }
+
+    6466.2.21 = {
+        add_spouse = magnar_11
+    }
+
+    6521.9.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_11 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = zealous
+    trait = arbitrary
+    trait = calm
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6449.3.1 = {
+        birth = yes
+    }
+
+    6519.4.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_12 = {
+    name = "Wylla"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = magnar_10
+    mother = magnar_11
+
+    trait = arbitrary
+    trait = vengeful
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 9
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6471.10.14 = {
+        birth = yes
+    }
+
+    6543.8.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_13 = {
+    name = "Wynton"
+
+    dynasty = dynasty_magnar
+    religion = the_old_gods
+    culture = skagosi
+
+    father = magnar_10
+    mother = magnar_11
+
+    trait = vengeful
+    trait = callous
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 3
+    intrigue = 6
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_4
+
+    6474.3.18 = {
+        birth = yes
+    }
+
+    6514.5.7 = {
+        add_spouse = magnar_14
+    }
+
+    6548.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_14 = {
+    name = "Tora"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = stubborn
+    trait = honest
+    trait = patient
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    6497.5.9 = {
+        birth = yes
+    }
+
+    6578.4.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_15 = {
+    name = "Casimir"
+
+    dynasty = dynasty_magnar
+    religion = the_old_gods
+    culture = skagosi
+
+    father = magnar_13
+    mother = magnar_14
+
+    trait = diligent
+    trait = gregarious
+    trait = content
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6516.3.18 = {
+        birth = yes
+    }
+
+    6560.5.1 = {
+        add_spouse = magnar_16
+    }
+
+    6570.5.9 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+magnar_16 = {
+    name = "Asha"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = content
+    trait = vengeful
+    trait = cynical
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 10
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6543.9.12 = {
+        birth = yes
+    }
+
+    6628.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_17 = {
+    name = "Desmond"
+
+    dynasty = dynasty_magnar
+    religion = the_old_gods
+    culture = skagosi
+
+    father = magnar_15
+    mother = magnar_16
+
+    trait = impatient
+    trait = gluttonous
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 3
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    6562.7.15 = {
+        birth = yes
+    }
+
+    6590.6.19 = {
+        add_spouse = magnar_18
+    }
+
+    6632.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_18 = {
+    name = "Beth"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = chaste
+    trait = callous
+    trait = trusting
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 1
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6573.3.5 = {
+        birth = yes
+    }
+
+    6646.3.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_19 = {
+    name = "Medger"
+
+    dynasty = dynasty_magnar
+    religion = the_old_gods
+    culture = skagosi
+
+    father = magnar_15
+    mother = magnar_16
+
+    trait = arrogant
+    trait = callous
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 10
+
+    trait = education_diplomacy_4
+
+    6564.9.22 = {
+        birth = yes
+    }
+
+    6584.12.18 = {
+        add_spouse = magnar_20
+    }
+
+    6631.1.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_20 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = lustful
+    trait = vengeful
+    trait = callous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_2
+
+    6567.11.20 = {
+        birth = yes
+    }
+
+    6646.7.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_21 = {
+    name = "Hallis"
+
+    dynasty = dynasty_magnar
+    religion = the_old_gods
+    culture = skagosi
+
+    father = magnar_15
+    mother = magnar_16
+
+    trait = paranoid
+    trait = zealous
+    trait = content
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 4
+    intrigue = 3
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6566.3.27 = {
+        birth = yes
+    }
+
+    6605.12.20 = {
+        add_spouse = magnar_22
+    }
+
+    6615.5.12 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+magnar_22 = {
+    name = "Kyli"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = stubborn
+    trait = brave
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 8
+    learning = 8
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6588.2.15 = {
+        birth = yes
+    }
+
+    6635.10.20 = {
+        death = { death_reason = death_training_accident  }
+    }
+}
+
+magnar_23 = {
+    name = "Lidania"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = magnar_15
+    mother = magnar_16
+
+    trait = honest
+    trait = humble
+    trait = greedy
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6567.6.23 = {
+        birth = yes
+    }
+
+    6637.1.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_24 = {
+    name = "Farlen"
+
+    dynasty = dynasty_magnar
+    religion = the_old_gods
+    culture = skagosi
+
+    father = magnar_13
+    mother = magnar_14
+
+    trait = lustful
+    trait = cynical
+    trait = callous
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 5
+    intrigue = 9
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6519.2.18 = {
+        birth = yes
+    }
+
+    6550.4.19 = {
+        add_spouse = magnar_25
+    }
+
+    6576.1.23 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+magnar_25 = {
+    name = "Beth"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = greedy
+    trait = honest
+    trait = lustful
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 9
+    intrigue = 9
+    learning = 8
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6533.7.21 = {
+        birth = yes
+    }
+
+    6572.12.15 = {
+        death = { death_reason = death_hunting_accident  }
+    }
+}
+
+magnar_26 = {
+    name = "Elin"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = magnar_24
+    mother = magnar_25
+
+    trait = temperate
+    trait = just
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_1
+
+    6553.2.15 = {
+        birth = yes
+    }
+
+    6633.2.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_27 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = magnar_24
+    mother = magnar_25
+
+    trait = vengeful
+    trait = sadistic
+    trait = generous
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    6558.10.18 = {
+        birth = yes
+    }
+
+    6637.9.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_28 = {
+    name = "Rykissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = magnar_24
+    mother = magnar_25
+
+    trait = generous
+    trait = temperate
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6561.8.14 = {
+        birth = yes
+    }
+
+    6636.1.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_29 = {
+    name = "Arthor"
+
+    dynasty = dynasty_magnar
+    religion = the_old_gods
+    culture = skagosi
+
+    father = magnar_24
+    mother = magnar_25
+
+    trait = content
+    trait = impatient
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_2
+
+    6564.2.10 = {
+        birth = yes
+    }
+
+    6565.10.12 = {
+        give_nickname = nick_the_unworthy
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6609.11.26 = {
+        add_spouse = magnar_30
+    }
+
+    6641.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_30 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = zealous
+    trait = diligent
+    trait = temperate
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 9
+    prowess = 2
+
+    trait = education_learning_2
+
+    6592.8.27 = {
+        birth = yes
+    }
+
+    6668.5.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_31 = {
+    name = "Rogar"
+
+    dynasty = dynasty_magnar
+    religion = the_old_gods
+    culture = skagosi
+
+    father = magnar_13
+    mother = magnar_14
+
+    trait = forgiving
+    trait = stubborn
+    trait = callous
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 7
+    intrigue = 3
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6525.10.20 = {
+        birth = yes
+    }
+
+    6562.11.21 = {
+        add_spouse = magnar_32
+    }
+
+    6608.12.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_32 = {
+    name = "Marissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = patient
+    trait = paranoid
+    trait = compassionate
+
+    diplomacy = 1
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_3
+
+    6545.1.26 = {
+        birth = yes
+    }
+
+    6629.8.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_33 = {
+    name = "Jory"
+
+    dynasty = dynasty_magnar
+    religion = the_old_gods
+    culture = skagosi
+
+    father = magnar_31
+    mother = magnar_32
+
+    trait = craven
+    trait = vengeful
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 8
+
+    trait = education_martial_2
+
+    6577.10.7 = {
+        birth = yes
+    }
+
+    6592.7.19 = {
+        add_spouse = magnar_34
+    }
+
+    6622.3.7 = {
+        death = { death_reason = death_raid }
+    }
+}
+
+magnar_34 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    trait = forgiving
+    trait = honest
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 9
+    learning = 5
+    prowess = 9
+
+    trait = education_intrigue_2
+
+    6575.3.6 = {
+        birth = yes
+    }
+
+    6654.10.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+magnar_35 = {
+    name = "Mylessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = skagosi
+
+    father = magnar_10
+    mother = magnar_11
+
+    trait = trusting
+    trait = compassionate
+    trait = generous
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_stewardship_4
+
+    6479.4.2 = {
+        birth = yes
+    }
+
+    6548.6.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

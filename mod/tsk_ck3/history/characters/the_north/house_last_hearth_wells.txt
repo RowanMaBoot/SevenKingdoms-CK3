@@ -1,0 +1,1235 @@
+wells_n_1 = {
+    name = "Ronnel"
+
+    dynasty = dynasty_wells_n
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = generous
+    trait = patient
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6300.8.15 = {
+        birth = yes
+    }
+
+    6319.9.25 = {
+        add_spouse = wells_n_2
+    }
+
+    6367.8.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_2 = {
+    name = "Lidia"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = sadistic
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_4
+
+    6302.8.2 = {
+        birth = yes
+    }
+
+    6372.10.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_3 = {
+    name = "Ramsay"
+
+    dynasty = dynasty_wells_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = wells_n_1
+    mother = wells_n_2
+
+    trait = gluttonous
+    trait = cynical
+    trait = honest
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 2
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6332.4.18 = {
+        birth = yes
+    }
+
+    6371.11.10 = {
+        add_spouse = wells_n_4
+    }
+
+    6398.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_4 = {
+    name = "Gil"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = cynical
+    trait = craven
+    trait = fickle
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 2
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6354.10.9 = {
+        birth = yes
+    }
+
+    6430.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_5 = {
+    name = "Saga"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = wells_n_3
+    mother = wells_n_4
+
+    trait = content
+    trait = temperate
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 9
+    learning = 1
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6374.2.25 = {
+        birth = yes
+    }
+
+    6441.9.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_6 = {
+    name = "Yoren"
+
+    dynasty = dynasty_wells_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = wells_n_3
+    mother = wells_n_4
+
+    trait = fickle
+    trait = compassionate
+    trait = lustful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 9
+
+    trait = education_learning_3
+
+    6380.12.19 = {
+        birth = yes
+    }
+
+    6406.2.27 = {
+        add_spouse = wells_n_7
+    }
+
+    6462.11.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_7 = {
+    name = "Elyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = cynical
+    trait = lazy
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 1
+    intrigue = 5
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_3
+
+    6389.7.22 = {
+        birth = yes
+    }
+
+    6462.7.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_8 = {
+    name = "Bannen"
+
+    dynasty = dynasty_wells_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = wells_n_6
+    mother = wells_n_7
+
+    trait = diligent
+    trait = paranoid
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 1
+    stewardship = 4
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    6410.11.9 = {
+        birth = yes
+    }
+
+    6425.3.5 = {
+        add_spouse = wells_n_9
+    }
+
+    6488.4.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_9 = {
+    name = "Rikyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = lustful
+    trait = greedy
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6408.1.28 = {
+        birth = yes
+    }
+
+    6489.2.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_10 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = wells_n_8
+    mother = wells_n_9
+
+    trait = deceitful
+    trait = paranoid
+    trait = greedy
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 1
+
+    trait = education_martial_2
+
+    6431.7.23 = {
+        birth = yes
+    }
+
+    6509.2.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_11 = {
+    name = "Orya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = wells_n_8
+    mother = wells_n_9
+
+    trait = just
+    trait = gluttonous
+    trait = impatient
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 6
+    intrigue = 8
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_2
+
+    6434.5.18 = {
+        birth = yes
+    }
+
+    6515.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_12 = {
+    name = "Jaisyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = wells_n_8
+    mother = wells_n_9
+
+    trait = arbitrary
+    trait = chaste
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 7
+    intrigue = 3
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    6436.4.9 = {
+        birth = yes
+    }
+
+    6507.3.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_13 = {
+    name = "Marlon"
+
+    dynasty = dynasty_wells_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = wells_n_8
+    mother = wells_n_9
+
+    trait = arbitrary
+    trait = trusting
+    trait = brave
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6438.5.16 = {
+        birth = yes
+    }
+
+    6482.3.19 = {
+        add_spouse = wells_n_14
+    }
+
+    6515.2.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_14 = {
+    name = "Maege"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = trusting
+    trait = impatient
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 5
+    intrigue = 8
+    learning = 8
+    prowess = 9
+
+    trait = education_martial_3
+
+    6465.11.25 = {
+        birth = yes
+    }
+
+    6545.4.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_15 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = wells_n_13
+    mother = wells_n_14
+
+    trait = chaste
+    trait = compassionate
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 5
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    6494.3.28 = {
+        birth = yes
+    }
+
+    6572.7.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_16 = {
+    name = "Benfred"
+
+    dynasty = dynasty_wells_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = wells_n_13
+    mother = wells_n_14
+
+    trait = vengeful
+    trait = temperate
+    trait = craven
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 8
+    prowess = 1
+
+    trait = education_stewardship_2
+
+    6498.11.3 = {
+        birth = yes
+    }
+
+    6520.4.3 = {
+        add_spouse = wells_n_17
+    }
+
+    6580.11.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_17 = {
+    name = "Alyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = sadistic
+    trait = trusting
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6503.12.7 = {
+        birth = yes
+    }
+
+    6577.11.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_18 = {
+    name = "Pate"
+
+    dynasty = dynasty_wells_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = wells_n_16
+    mother = wells_n_17
+
+    trait = sadistic
+    trait = generous
+    trait = honest
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 9
+    intrigue = 3
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6537.10.13 = {
+        birth = yes
+    }
+
+    6558.11.15 = {
+        add_spouse = wells_n_19
+    }
+
+    6619.4.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_19 = {
+    name = "Tyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = trusting
+    trait = brave
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_2
+
+    6541.12.13 = {
+        birth = yes
+    }
+
+    6611.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_20 = {
+    name = "Harmond"
+
+    dynasty = dynasty_wells_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = wells_n_6
+    mother = wells_n_7
+
+    trait = paranoid
+    trait = forgiving
+    trait = craven
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 11
+    intrigue = 5
+    learning = 8
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    6422.11.4 = {
+        birth = yes
+    }
+
+    6463.12.14 = {
+        add_spouse = wells_n_21
+    }
+
+    6488.12.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_21 = {
+    name = "Serra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = trusting
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6446.9.14 = {
+        birth = yes
+    }
+
+    6523.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_22 = {
+    name = "Vayon"
+
+    dynasty = dynasty_wells_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = wells_n_20
+    mother = wells_n_21
+
+    trait = humble
+    trait = lazy
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 10
+    learning = 3
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6463.7.19 = {
+        birth = yes
+    }
+
+    6503.12.1 = {
+        add_spouse = wells_n_23
+    }
+
+    6547.8.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_23 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = wrathful
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6486.6.17 = {
+        birth = yes
+    }
+
+    6558.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_24 = {
+    name = "Larence"
+
+    dynasty = dynasty_wells_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = wells_n_22
+    mother = wells_n_23
+
+    trait = gluttonous
+    trait = wrathful
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 3
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_3
+
+    6511.11.15 = {
+        birth = yes
+    }
+
+    6551.1.1 = {
+        add_spouse = wells_n_25
+    }
+
+    6561.6.28 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+wells_n_25 = {
+    name = "Ilyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = fickle
+    trait = cynical
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_3
+
+    6534.1.7 = {
+        birth = yes
+    }
+
+    6612.7.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_26 = {
+    name = "Bo"
+
+    dynasty = dynasty_wells_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = wells_n_24
+    mother = wells_n_25
+
+    trait = vengeful
+    trait = temperate
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_4
+
+    6555.6.2 = {
+        birth = yes
+    }
+
+    6577.2.16 = {
+        add_spouse = wells_n_27
+    }
+
+    6587.2.26 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+wells_n_27 = {
+    name = "Kymila"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = gregarious
+    trait = craven
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6560.9.23 = {
+        birth = yes
+    }
+
+    6596.12.24 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+wells_n_28 = {
+    name = "Kaelon"
+
+    dynasty = dynasty_wells_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = wells_n_22
+    mother = wells_n_23
+
+    trait = wrathful
+    trait = greedy
+    trait = impatient
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6513.1.16 = {
+        birth = yes
+    }
+
+    6554.10.18 = {
+        add_spouse = wells_n_29
+    }
+
+    6594.1.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_29 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = stubborn
+    trait = calm
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 7
+    intrigue = 3
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_2
+
+    6537.9.17 = {
+        birth = yes
+    }
+
+    6605.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_30 = {
+    name = "Yoren"
+
+    dynasty = dynasty_wells_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = wells_n_28
+    mother = wells_n_29
+
+    trait = humble
+    trait = content
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6556.1.5 = {
+        birth = yes
+    }
+
+    6580.1.18 = {
+        add_spouse = wells_n_31
+    }
+
+    6623.8.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_31 = {
+    name = "Ingrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = generous
+    trait = fickle
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_4
+
+    6563.11.1 = {
+        birth = yes
+    }
+
+    6636.9.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_32 = {
+    name = "Maegi"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = wells_n_28
+    mother = wells_n_29
+
+    trait = craven
+    trait = gregarious
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 3
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    6559.1.21 = {
+        birth = yes
+    }
+
+    6642.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_33 = {
+    name = "Benfred"
+
+    dynasty = dynasty_wells_n
+    religion = the_old_gods
+    culture = northmen
+
+    father = wells_n_28
+    mother = wells_n_29
+
+    trait = fickle
+    trait = cynical
+    trait = impatient
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 4
+    intrigue = 8
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6564.3.17 = {
+        birth = yes
+    }
+
+    6565.10.6 = {
+        give_nickname = nick_the_fishy
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6588.5.5 = {
+        add_spouse = wells_n_34
+    }
+
+    6639.11.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_34 = {
+    name = "Ansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = fickle
+    trait = impatient
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 2
+    intrigue = 8
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6571.2.22 = {
+        birth = yes
+    }
+
+    6640.2.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_35 = {
+    name = "Dacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = wells_n_28
+    mother = wells_n_29
+
+    trait = paranoid
+    trait = generous
+    trait = humble
+
+    diplomacy = 9
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6568.1.8 = {
+        birth = yes
+    }
+
+    6650.3.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_36 = {
+    name = "Ylva"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = wells_n_22
+    mother = wells_n_23
+
+    trait = wrathful
+    trait = cynical
+    trait = gluttonous
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 2
+
+    trait = education_diplomacy_2
+
+    6518.8.9 = {
+        birth = yes
+    }
+
+    6585.3.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_37 = {
+    name = "Tylissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = wells_n_20
+    mother = wells_n_21
+
+    trait = callous
+    trait = greedy
+    trait = vengeful
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 8
+    intrigue = 10
+    learning = 6
+    prowess = 3
+
+    trait = education_intrigue_4
+
+    6472.12.17 = {
+        birth = yes
+    }
+
+    6543.11.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+wells_n_38 = {
+    name = "Wylla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = wells_n_3
+    mother = wells_n_4
+
+    trait = arbitrary
+    trait = callous
+    trait = shy
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_1
+
+    6386.1.20 = {
+        birth = yes
+    }
+
+    6471.3.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

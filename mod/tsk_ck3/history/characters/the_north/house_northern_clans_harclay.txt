@@ -1,0 +1,3528 @@
+harclay_1 = {
+    name = "Hankar"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = greedy
+    trait = sadistic
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6300.7.23 = {
+        birth = yes
+    }
+
+    6323.5.23 = {
+        add_spouse = harclay_2
+    }
+
+    6389.6.23 = {
+        death = { death_reason = death_accident  }
+    }
+}
+
+harclay_2 = {
+    name = "Rose"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = compassionate
+    trait = calm
+    trait = shy
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    6306.11.20 = {
+        birth = yes
+    }
+
+    6386.1.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_3 = {
+    name = "Wit"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_1
+    mother = harclay_2
+
+    trait = content
+    trait = cynical
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_4
+
+    6333.10.15 = {
+        birth = yes
+    }
+
+    6365.6.23 = {
+        add_spouse = harclay_4
+    }
+
+    6411.3.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_4 = {
+    name = "Muriel"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = sadistic
+    trait = craven
+    trait = stubborn
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 4
+    intrigue = 10
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6348.8.23 = {
+        birth = yes
+    }
+
+    6428.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_5 = {
+    name = "Dryn"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_3
+    mother = harclay_4
+
+    trait = craven
+    trait = honest
+    trait = patient
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6367.2.27 = {
+        birth = yes
+    }
+
+    6403.3.8 = {
+        add_spouse = harclay_6
+    }
+
+    6413.6.27 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+harclay_6 = {
+    name = "Lobelia"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = generous
+    trait = cynical
+    trait = brave
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 4
+    learning = 2
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6386.6.5 = {
+        birth = yes
+    }
+
+    6463.7.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_7 = {
+    name = "Grenda"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_5
+    mother = harclay_6
+
+    trait = lustful
+    trait = greedy
+    trait = zealous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 3
+    prowess = 9
+
+    trait = education_intrigue_1
+
+    6407.9.9 = {
+        birth = yes
+    }
+
+    6478.3.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_8 = {
+    name = "Thom"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_5
+    mother = harclay_6
+
+    trait = greedy
+    trait = just
+    trait = patient
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 5
+    intrigue = 9
+    learning = 5
+    prowess = 9
+
+    trait = education_intrigue_3
+
+    6409.11.22 = {
+        birth = yes
+    }
+
+    6424.8.17 = {
+        add_spouse = harclay_9
+    }
+
+    6488.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_9 = {
+    name = "Frynne"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = chaste
+    trait = generous
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_3
+
+    6407.4.17 = {
+        birth = yes
+    }
+
+    6483.9.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_10 = {
+    name = "Stiv"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_8
+    mother = harclay_9
+
+    trait = compassionate
+    trait = greedy
+    trait = shy
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_4
+
+    6437.9.17 = {
+        birth = yes
+    }
+
+    6465.4.20 = {
+        add_spouse = harclay_11
+    }
+
+    6516.5.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_11 = {
+    name = "Clary"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = generous
+    trait = fickle
+    trait = impatient
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 8
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6448.12.5 = {
+        birth = yes
+    }
+
+    6475.11.9 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+harclay_12 = {
+    name = "Nordar"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_10
+    mother = harclay_11
+
+    trait = trusting
+    trait = vengeful
+    trait = just
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_2
+
+    6467.4.16 = {
+        birth = yes
+    }
+
+    6515.6.26 = {
+        add_spouse = harclay_13
+    }
+
+    6542.5.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_13 = {
+    name = "Morien"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = calm
+    trait = impatient
+    trait = temperate
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 3
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6498.9.14 = {
+        birth = yes
+    }
+
+    6564.8.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_14 = {
+    name = "Devyn"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_12
+    mother = harclay_13
+
+    trait = forgiving
+    trait = zealous
+    trait = craven
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 8
+    intrigue = 2
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    6524.11.23 = {
+        birth = yes
+    }
+
+    6553.2.16 = {
+        add_spouse = harclay_15
+    }
+
+    6594.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_15 = {
+    name = "Anesa"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = ambitious
+    trait = patient
+    trait = diligent
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_learning_3
+
+    6536.2.21 = {
+        birth = yes
+    }
+
+    6616.11.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_16 = {
+    name = "Yarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_10
+    mother = harclay_11
+
+    trait = cynical
+    trait = gluttonous
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 11
+    intrigue = 9
+    learning = 4
+    prowess = 9
+
+    trait = education_stewardship_4
+
+    6468.1.9 = {
+        birth = yes
+    }
+
+    6541.7.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_17 = {
+    name = "Grethe"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_10
+    mother = harclay_11
+
+    trait = stubborn
+    trait = deceitful
+    trait = humble
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 7
+    intrigue = 10
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6470.10.21 = {
+        birth = yes
+    }
+
+    6554.6.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_18 = {
+    name = "Ash"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_10
+    mother = harclay_11
+
+    trait = trusting
+    trait = just
+    trait = impatient
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 2
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6472.10.6 = {
+        birth = yes
+    }
+
+    6551.11.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_19 = {
+    name = "Dryk"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_8
+    mother = harclay_9
+
+    trait = forgiving
+    trait = calm
+    trait = sadistic
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 6
+    intrigue = 2
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_3
+
+    6440.8.5 = {
+        birth = yes
+    }
+
+    6483.11.10 = {
+        add_spouse = harclay_20
+    }
+
+    6522.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_20 = {
+    name = "Maisie"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = compassionate
+    trait = gluttonous
+    trait = honest
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6466.9.18 = {
+        birth = yes
+    }
+
+    6534.5.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_21 = {
+    name = "Winterberry"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_19
+    mother = harclay_20
+
+    trait = greedy
+    trait = gluttonous
+    trait = humble
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 2
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_1
+
+    6486.11.20 = {
+        birth = yes
+    }
+
+    6561.11.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_22 = {
+    name = "Rhodry"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_19
+    mother = harclay_20
+
+    trait = gregarious
+    trait = greedy
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 3
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6499.8.20 = {
+        birth = yes
+    }
+
+    6500.5.6 = {
+        give_nickname = nick_the_merciless
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6520.12.23 = {
+        add_spouse = harclay_23
+    }
+
+    6576.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_23 = {
+    name = "Caminda"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = forgiving
+    trait = craven
+    trait = chaste
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 8
+    intrigue = 5
+    learning = 4
+    prowess = 2
+
+    trait = education_martial_3
+
+    6503.1.4 = {
+        birth = yes
+    }
+
+    6587.4.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_24 = {
+    name = "Vorwynd"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_22
+    mother = harclay_23
+
+    trait = stubborn
+    trait = cynical
+    trait = craven
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 8
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6522.11.26 = {
+        birth = yes
+    }
+
+    6538.12.13 = {
+        add_spouse = harclay_25
+    }
+
+    6597.2.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_25 = {
+    name = "Lennel"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = sadistic
+    trait = zealous
+    trait = lazy
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_2
+
+    6521.5.17 = {
+        birth = yes
+    }
+
+    6548.1.2 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+harclay_26 = {
+    name = "Nonne"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_22
+    mother = harclay_23
+
+    trait = content
+    trait = gluttonous
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 3
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6535.3.18 = {
+        birth = yes
+    }
+
+    6601.4.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_27 = {
+    name = "Rowan"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_3
+    mother = harclay_4
+
+    trait = content
+    trait = arbitrary
+    trait = callous
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 7
+    intrigue = 3
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6368.5.4 = {
+        birth = yes
+    }
+
+    6438.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_28 = {
+    name = "Unen"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_3
+    mother = harclay_4
+
+    trait = content
+    trait = lazy
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6371.1.8 = {
+        birth = yes
+    }
+
+    6407.10.20 = {
+        add_spouse = harclay_29
+    }
+
+    6426.3.3 = {
+        death = { death_reason = death_raid }
+    }
+}
+
+harclay_29 = {
+    name = "Thyme"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = stubborn
+    trait = diligent
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 2
+    intrigue = 9
+    learning = 9
+    prowess = 2
+
+    trait = education_intrigue_2
+
+    6390.4.1 = {
+        birth = yes
+    }
+
+    6462.6.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_30 = {
+    name = "Gormund"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_28
+    mother = harclay_29
+
+    trait = callous
+    trait = brave
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6409.5.1 = {
+        birth = yes
+    }
+
+    6445.6.1 = {
+        add_spouse = harclay_31
+    }
+
+    6479.6.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_31 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = stubborn
+    trait = temperate
+    trait = just
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6428.10.28 = {
+        birth = yes
+    }
+
+    6507.5.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_32 = {
+    name = "Skamun"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_30
+    mother = harclay_31
+
+    trait = zealous
+    trait = gregarious
+    trait = content
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 8
+    intrigue = 8
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6446.1.20 = {
+        birth = yes
+    }
+
+    6496.4.16 = {
+        add_spouse = harclay_33
+    }
+
+    6529.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_33 = {
+    name = "Yarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = stubborn
+    trait = greedy
+    trait = trusting
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    6479.10.27 = {
+        birth = yes
+    }
+
+    6510.10.13 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+harclay_34 = {
+    name = "Murron"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_32
+    mother = harclay_33
+
+    trait = impatient
+    trait = arrogant
+    trait = zealous
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_learning_2
+
+    6498.11.22 = {
+        birth = yes
+    }
+
+    6574.2.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_35 = {
+    name = "Gornlak"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_32
+    mother = harclay_33
+
+    trait = temperate
+    trait = trusting
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 9
+    intrigue = 7
+    learning = 7
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    6500.9.6 = {
+        birth = yes
+    }
+
+    6524.6.1 = {
+        add_spouse = harclay_36
+    }
+
+    6579.4.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_36 = {
+    name = "Maege"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = generous
+    trait = gluttonous
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 10
+    intrigue = 5
+    learning = 10
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6507.1.26 = {
+        birth = yes
+    }
+
+    6575.9.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_37 = {
+    name = "Osha"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_35
+    mother = harclay_36
+
+    trait = patient
+    trait = trusting
+    trait = just
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    6524.9.12 = {
+        birth = yes
+    }
+
+    6609.8.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_38 = {
+    name = "Aly"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_35
+    mother = harclay_36
+
+    trait = deceitful
+    trait = just
+    trait = patient
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6533.6.6 = {
+        birth = yes
+    }
+
+    6601.6.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_39 = {
+    name = "Raudill"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_35
+    mother = harclay_36
+
+    trait = callous
+    trait = arbitrary
+    trait = temperate
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_2
+
+    6536.11.12 = {
+        birth = yes
+    }
+
+    6537.11.6 = {
+        give_nickname = nick_the_victorious
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6557.8.6 = {
+        add_spouse = harclay_40
+    }
+
+    6602.11.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_40 = {
+    name = "Violet"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = brave
+    trait = zealous
+    trait = shy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6540.1.4 = {
+        birth = yes
+    }
+
+    6614.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_41 = {
+    name = "Raymund"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_32
+    mother = harclay_33
+
+    trait = cynical
+    trait = trusting
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 8
+    learning = 6
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    6502.6.10 = {
+        birth = yes
+    }
+
+    6550.9.18 = {
+        add_spouse = harclay_42
+    }
+
+    6560.11.26 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+harclay_42 = {
+    name = "Honeysuckle"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = compassionate
+    trait = temperate
+    trait = lustful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6533.9.10 = {
+        birth = yes
+    }
+
+    6560.7.11 = {
+        death = { death_reason = death_treatment }
+    }
+}
+
+harclay_43 = {
+    name = "Ardle"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_41
+    mother = harclay_42
+
+    trait = impatient
+    trait = humble
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 2
+    intrigue = 5
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_1
+
+    6552.8.19 = {
+        birth = yes
+    }
+
+    6580.10.21 = {
+        add_spouse = harclay_44
+    }
+
+    6621.1.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_44 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = stubborn
+    trait = trusting
+    trait = lazy
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6563.7.24 = {
+        birth = yes
+    }
+
+    6648.4.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_45 = {
+    name = "Orl"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_41
+    mother = harclay_42
+
+    trait = paranoid
+    trait = gregarious
+    trait = lazy
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 2
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6553.9.6 = {
+        birth = yes
+    }
+
+    6582.12.27 = {
+        add_spouse = harclay_46
+    }
+
+    6631.2.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_46 = {
+    name = "Inethe"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = patient
+    trait = compassionate
+    trait = shy
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 2
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+
+    6565.10.7 = {
+        birth = yes
+    }
+
+    6633.1.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_47 = {
+    name = "Lobelia"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_41
+    mother = harclay_42
+
+    trait = zealous
+    trait = craven
+    trait = shy
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 8
+    intrigue = 6
+    learning = 8
+    prowess = 9
+
+    trait = education_stewardship_4
+
+    6555.8.11 = {
+        birth = yes
+    }
+
+    6622.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_48 = {
+    name = "Lenny"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_32
+    mother = harclay_33
+
+    trait = humble
+    trait = ambitious
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 2
+    intrigue = 5
+    learning = 1
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    6504.5.3 = {
+        birth = yes
+    }
+
+    6586.6.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_49 = {
+    name = "Rand"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_28
+    mother = harclay_29
+
+    trait = diligent
+    trait = patient
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 11
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_1
+
+    6413.2.18 = {
+        birth = yes
+    }
+
+    6454.3.9 = {
+        add_spouse = harclay_50
+    }
+
+    6495.6.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_50 = {
+    name = "Ash"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = gluttonous
+    trait = lazy
+    trait = zealous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 9
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6437.2.18 = {
+        birth = yes
+    }
+
+    6478.6.25 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+harclay_51 = {
+    name = "Raudill"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_49
+    mother = harclay_50
+
+    trait = arbitrary
+    trait = lazy
+    trait = honest
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_4
+
+    6461.10.15 = {
+        birth = yes
+    }
+
+    6477.2.26 = {
+        add_spouse = harclay_52
+    }
+
+    6539.5.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_52 = {
+    name = "Honeysuckle"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = arbitrary
+    trait = greedy
+    trait = lustful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 4
+
+    trait = education_martial_3
+
+    6460.10.21 = {
+        birth = yes
+    }
+
+    6541.1.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_53 = {
+    name = "Cayn"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_51
+    mother = harclay_52
+
+    trait = lazy
+    trait = generous
+    trait = trusting
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6500.8.24 = {
+        birth = yes
+    }
+
+    6532.12.24 = {
+        add_spouse = harclay_54
+    }
+
+    6573.2.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_54 = {
+    name = "Rela"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = vengeful
+    trait = wrathful
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 10
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6515.5.28 = {
+        birth = yes
+    }
+
+    6582.6.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_55 = {
+    name = "Gorne"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_53
+    mother = harclay_54
+
+    trait = temperate
+    trait = lazy
+    trait = craven
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6535.9.4 = {
+        birth = yes
+    }
+
+    6536.9.25 = {
+        give_nickname = nick_the_crow
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6572.12.2 = {
+        add_spouse = harclay_56
+    }
+
+    6609.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_56 = {
+    name = "Morvana"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = forgiving
+    trait = generous
+    trait = zealous
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 3
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_3
+
+    6555.8.2 = {
+        birth = yes
+    }
+
+    6622.7.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_57 = {
+    name = "Shona"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_53
+    mother = harclay_54
+
+    trait = arrogant
+    trait = honest
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    6536.1.25 = {
+        birth = yes
+    }
+
+    6608.10.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_58 = {
+    name = "Walton"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_53
+    mother = harclay_54
+
+    trait = ambitious
+    trait = humble
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6537.11.3 = {
+        birth = yes
+    }
+
+    6587.5.1 = {
+        add_spouse = harclay_59
+    }
+
+    6608.3.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_59 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = ambitious
+    trait = temperate
+    trait = trusting
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6570.9.5 = {
+        birth = yes
+    }
+
+    6618.8.27 = {
+        death = { death_reason = death_disappearance  }
+    }
+}
+
+harclay_60 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_53
+    mother = harclay_54
+
+    trait = shy
+    trait = compassionate
+    trait = diligent
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 4
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6540.4.23 = {
+        birth = yes
+    }
+
+    6609.9.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_61 = {
+    name = "Svem"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_49
+    mother = harclay_50
+
+    trait = chaste
+    trait = brave
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 1
+    intrigue = 7
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_3
+
+    6467.10.16 = {
+        birth = yes
+    }
+
+    6495.10.9 = {
+        add_spouse = harclay_62
+    }
+
+    6538.7.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_62 = {
+    name = "Winterberry"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = just
+    trait = impatient
+    trait = craven
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 1
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6478.8.1 = {
+        birth = yes
+    }
+
+    6558.9.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_63 = {
+    name = "Aethon"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_61
+    mother = harclay_62
+
+    trait = impatient
+    trait = diligent
+    trait = cynical
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6500.6.17 = {
+        birth = yes
+    }
+
+    6538.11.24 = {
+        add_spouse = harclay_64
+    }
+
+    6571.1.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_64 = {
+    name = "Bryony"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = sadistic
+    trait = content
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 9
+
+    trait = education_stewardship_2
+
+    6521.4.24 = {
+        birth = yes
+    }
+
+    6592.4.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_65 = {
+    name = "Caster"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_63
+    mother = harclay_64
+
+    trait = cynical
+    trait = trusting
+    trait = calm
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 2
+    prowess = 5
+
+    trait = education_martial_2
+
+    6548.6.21 = {
+        birth = yes
+    }
+
+    6564.6.18 = {
+        add_spouse = harclay_66
+    }
+
+    6617.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_66 = {
+    name = "Dani"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = shy
+    trait = wrathful
+    trait = callous
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 3
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6547.10.17 = {
+        birth = yes
+    }
+
+    6632.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_67 = {
+    name = "Toramun"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_28
+    mother = harclay_29
+
+    trait = compassionate
+    trait = zealous
+    trait = generous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_3
+
+    6414.9.11 = {
+        birth = yes
+    }
+
+    6430.1.11 = {
+        add_spouse = harclay_68
+    }
+
+    6483.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_68 = {
+    name = "Minya"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = shy
+    trait = diligent
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 8
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_3
+
+    6413.8.21 = {
+        birth = yes
+    }
+
+    6480.7.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_69 = {
+    name = "Sigorn"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_67
+    mother = harclay_68
+
+    trait = generous
+    trait = zealous
+    trait = ambitious
+
+    diplomacy = 10
+    martial = 4
+    stewardship = 9
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6431.2.20 = {
+        birth = yes
+    }
+
+    6455.10.6 = {
+        add_spouse = harclay_70
+    }
+
+    6516.10.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_70 = {
+    name = "Nonne"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = brave
+    trait = patient
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    6438.5.11 = {
+        birth = yes
+    }
+
+    6506.11.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_71 = {
+    name = "Nella"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_69
+    mother = harclay_70
+
+    trait = greedy
+    trait = forgiving
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 8
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6457.8.6 = {
+        birth = yes
+    }
+
+    6540.10.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_72 = {
+    name = "Boland"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_69
+    mother = harclay_70
+
+    trait = diligent
+    trait = stubborn
+    trait = honest
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 1
+
+    trait = education_learning_2
+
+    6466.3.13 = {
+        birth = yes
+    }
+
+    6494.5.21 = {
+        add_spouse = harclay_73
+    }
+
+    6541.12.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_73 = {
+    name = "Grenda"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = arrogant
+    trait = impatient
+    trait = temperate
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 5
+    intrigue = 3
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6477.8.15 = {
+        birth = yes
+    }
+
+    6557.11.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_74 = {
+    name = "Rook"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_72
+    mother = harclay_73
+
+    trait = diligent
+    trait = arrogant
+    trait = greedy
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 5
+    intrigue = 9
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6500.2.16 = {
+        birth = yes
+    }
+
+    6540.6.20 = {
+        add_spouse = harclay_75
+    }
+
+    6581.2.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_75 = {
+    name = "Grisella"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = brave
+    trait = compassionate
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_2
+
+    6523.7.14 = {
+        birth = yes
+    }
+
+    6591.6.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_76 = {
+    name = "Soren"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_69
+    mother = harclay_70
+
+    trait = trusting
+    trait = chaste
+    trait = cynical
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 3
+    intrigue = 6
+    learning = 1
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6472.11.25 = {
+        birth = yes
+    }
+
+    6490.5.23 = {
+        add_spouse = harclay_77
+    }
+
+    6540.5.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_77 = {
+    name = "Jackey"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = fickle
+    trait = content
+    trait = paranoid
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 4
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_4
+
+    6473.6.17 = {
+        birth = yes
+    }
+
+    6555.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_78 = {
+    name = "Rowan"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_76
+    mother = harclay_77
+
+    trait = deceitful
+    trait = trusting
+    trait = patient
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6492.4.20 = {
+        birth = yes
+    }
+
+    6570.11.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_79 = {
+    name = "Edna"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_76
+    mother = harclay_77
+
+    trait = calm
+    trait = lazy
+    trait = paranoid
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6498.3.1 = {
+        birth = yes
+    }
+
+    6575.3.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_80 = {
+    name = "Jormund"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_76
+    mother = harclay_77
+
+    trait = lustful
+    trait = calm
+    trait = impatient
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 8
+    intrigue = 4
+    learning = 9
+    prowess = 9
+
+    trait = education_learning_3
+
+    6500.1.27 = {
+        birth = yes
+    }
+
+    6501.2.21 = {
+        give_nickname = nick_the_historian
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6536.9.1 = {
+        add_spouse = harclay_81
+    }
+
+    6570.7.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_81 = {
+    name = "Winterberry"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = temperate
+    trait = vengeful
+    trait = content
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 2
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_learning_3
+
+    6519.2.21 = {
+        birth = yes
+    }
+
+    6598.1.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_82 = {
+    name = "Maple"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_76
+    mother = harclay_77
+
+    trait = wrathful
+    trait = patient
+    trait = chaste
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6505.9.3 = {
+        birth = yes
+    }
+
+    6577.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_83 = {
+    name = "Jilly"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_28
+    mother = harclay_29
+
+    trait = generous
+    trait = vengeful
+    trait = impatient
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6415.2.17 = {
+        birth = yes
+    }
+
+    6485.12.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_84 = {
+    name = "Tormun"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_3
+    mother = harclay_4
+
+    trait = diligent
+    trait = impatient
+    trait = calm
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 3
+    intrigue = 9
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6376.6.15 = {
+        birth = yes
+    }
+
+    6420.2.25 = {
+        add_spouse = harclay_85
+    }
+
+    6443.8.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_85 = {
+    name = "Rowly"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = fickle
+    trait = gregarious
+    trait = generous
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6403.5.19 = {
+        birth = yes
+    }
+
+    6475.9.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_86 = {
+    name = "Ivy"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_84
+    mother = harclay_85
+
+    trait = paranoid
+    trait = deceitful
+    trait = impatient
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 8
+    intrigue = 3
+    learning = 5
+    prowess = 3
+
+    trait = education_stewardship_2
+
+    6424.11.8 = {
+        birth = yes
+    }
+
+    6504.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_87 = {
+    name = "Bael"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_84
+    mother = harclay_85
+
+    trait = deceitful
+    trait = just
+    trait = arrogant
+
+    diplomacy = 10
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 9
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6427.8.14 = {
+        birth = yes
+    }
+
+    6470.11.20 = {
+        add_spouse = harclay_88
+    }
+
+    6488.11.22 = {
+        death = { death_reason = death_training_accident  }
+    }
+}
+
+harclay_88 = {
+    name = "Nilly"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = fickle
+    trait = vengeful
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6453.7.14 = {
+        birth = yes
+    }
+
+    6535.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_89 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_87
+    mother = harclay_88
+
+    trait = brave
+    trait = cynical
+    trait = just
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    6474.10.25 = {
+        birth = yes
+    }
+
+    6548.11.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_90 = {
+    name = "Ryn"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_87
+    mother = harclay_88
+
+    trait = greedy
+    trait = arrogant
+    trait = craven
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_4
+
+    6476.8.9 = {
+        birth = yes
+    }
+
+    6523.5.27 = {
+        add_spouse = harclay_91
+    }
+
+    6533.1.8 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+harclay_91 = {
+    name = "Gerie"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = content
+    trait = honest
+    trait = fickle
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_4
+
+    6506.9.19 = {
+        birth = yes
+    }
+
+    6576.12.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_92 = {
+    name = "Harkul"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_90
+    mother = harclay_91
+
+    trait = wrathful
+    trait = patient
+    trait = zealous
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 2
+
+    trait = education_intrigue_2
+
+    6525.9.16 = {
+        birth = yes
+    }
+
+    6568.3.14 = {
+        add_spouse = harclay_93
+    }
+
+    6600.5.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_93 = {
+    name = "Yasha"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = gregarious
+    trait = greedy
+    trait = honest
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 3
+    prowess = 6
+
+    trait = education_martial_2
+
+    6551.1.5 = {
+        birth = yes
+    }
+
+    6618.2.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_94 = {
+    name = "Maege"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_92
+    mother = harclay_93
+
+    trait = lustful
+    trait = impatient
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 10
+    intrigue = 11
+    learning = 8
+    prowess = 10
+
+    trait = education_intrigue_2
+
+    6574.11.19 = {
+        birth = yes
+    }
+
+    6647.1.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_95 = {
+    name = "Doln"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_92
+    mother = harclay_93
+
+    trait = temperate
+    trait = lazy
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6579.5.17 = {
+        birth = yes
+    }
+
+    6595.10.9 = {
+        add_spouse = harclay_96
+    }
+
+    6645.11.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_96 = {
+    name = "Isla"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = diligent
+    trait = callous
+    trait = zealous
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_2
+
+    6578.1.3 = {
+        birth = yes
+    }
+
+    6649.2.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_97 = {
+    name = "Tera"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_92
+    mother = harclay_93
+
+    trait = impatient
+    trait = trusting
+    trait = temperate
+
+    diplomacy = 10
+    martial = 3
+    stewardship = 7
+    intrigue = 5
+    learning = 4
+    prowess = 1
+
+    trait = education_diplomacy_2
+
+    6583.3.4 = {
+        birth = yes
+    }
+
+    6653.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_98 = {
+    name = "Maple"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_92
+    mother = harclay_93
+
+    trait = callous
+    trait = shy
+    trait = paranoid
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6584.11.21 = {
+        birth = yes
+    }
+
+    6594.1.3 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+harclay_99 = {
+    name = "Hallis"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_87
+    mother = harclay_88
+
+    trait = zealous
+    trait = temperate
+    trait = calm
+
+    diplomacy = 11
+    martial = 5
+    stewardship = 3
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6479.7.24 = {
+        birth = yes
+    }
+
+    6523.12.25 = {
+        add_spouse = harclay_100
+    }
+
+    6546.8.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_100 = {
+    name = "Laurel"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = fickle
+    trait = patient
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 10
+    prowess = 4
+
+    trait = education_learning_3
+
+    6506.5.4 = {
+        birth = yes
+    }
+
+    6584.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_101 = {
+    name = "Davin"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_99
+    mother = harclay_100
+
+    trait = humble
+    trait = gluttonous
+    trait = cynical
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    6539.12.7 = {
+        birth = yes
+    }
+
+    6559.10.5 = {
+        add_spouse = harclay_102
+    }
+
+    6615.11.8 = {
+        death = { death_reason = death_torture  }
+    }
+}
+
+harclay_102 = {
+    name = "Harma"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = lustful
+    trait = gluttonous
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 11
+    intrigue = 3
+    learning = 8
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6542.5.11 = {
+        birth = yes
+    }
+
+    6617.7.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_103 = {
+    name = "Gede"
+
+    dynasty = dynasty_harclay
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_101
+    mother = harclay_102
+
+    trait = callous
+    trait = fickle
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6562.4.15 = {
+        birth = yes
+    }
+
+    6592.11.25 = {
+        add_spouse = harclay_104
+    }
+
+    6634.7.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_104 = {
+    name = "Clary"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = content
+    trait = paranoid
+    trait = sadistic
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 8
+    intrigue = 8
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6575.1.6 = {
+        birth = yes
+    }
+
+    6660.2.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_105 = {
+    name = "Olwen"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_101
+    mother = harclay_102
+
+    trait = brave
+    trait = arrogant
+    trait = just
+
+    diplomacy = 9
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 3
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    6563.6.19 = {
+        birth = yes
+    }
+
+    6645.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_106 = {
+    name = "Piney"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_101
+    mother = harclay_102
+
+    trait = ambitious
+    trait = forgiving
+    trait = stubborn
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6567.9.26 = {
+        birth = yes
+    }
+
+    6646.11.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_107 = {
+    name = "Maisie"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_101
+    mother = harclay_102
+
+    trait = gregarious
+    trait = honest
+    trait = humble
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 8
+    prowess = 2
+
+    trait = education_stewardship_3
+
+    6568.10.23 = {
+        birth = yes
+    }
+
+    6643.3.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+harclay_108 = {
+    name = "Jackey"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = harclay_87
+    mother = harclay_88
+
+    trait = trusting
+    trait = zealous
+    trait = chaste
+
+    diplomacy = 9
+    martial = 9
+    stewardship = 2
+    intrigue = 7
+    learning = 5
+    prowess = 11
+
+    trait = education_diplomacy_4
+
+    6482.2.26 = {
+        birth = yes
+    }
+
+    6557.6.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

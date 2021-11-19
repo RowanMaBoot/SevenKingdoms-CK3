@@ -1,0 +1,838 @@
+quagg_1 = {
+    name = "Torghen"
+
+    dynasty = dynasty_quagg
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = gluttonous
+    trait = lustful
+    trait = wrathful
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 5
+    intrigue = 9
+    learning = 7
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6300.4.27 = {
+        birth = yes
+    }
+
+    6325.6.13 = {
+        add_spouse = quagg_2
+    }
+
+    6384.3.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+quagg_2 = {
+    name = "Kyli"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = generous
+    trait = honest
+    trait = lazy
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 3
+
+    trait = education_stewardship_2
+
+    6308.9.6 = {
+        birth = yes
+    }
+
+    6390.11.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+quagg_3 = {
+    name = "Vesamir"
+
+    dynasty = dynasty_quagg
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = quagg_1
+    mother = quagg_2
+
+    trait = honest
+    trait = cynical
+    trait = greedy
+
+    diplomacy = 16
+    martial = 19
+    stewardship = 22
+    intrigue = 21
+    learning = 9
+    prowess = 15
+
+    trait = education_stewardship_4
+
+    6348.3.15 = {
+        birth = yes
+    }
+
+    6385.7.17 = {
+        add_spouse = quagg_4
+    }
+
+    6418.11.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+quagg_4 = {
+    name = "Lidia"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = vengeful
+    trait = arrogant
+    trait = fickle
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 2
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    6368.12.11 = {
+        birth = yes
+    }
+
+    6440.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+quagg_5 = {
+    name = "Berena"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = quagg_3
+    mother = quagg_4
+
+    trait = gregarious
+    trait = chaste
+    trait = fickle
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6388.8.23 = {
+        birth = yes
+    }
+
+    6473.9.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+quagg_6 = {
+    name = "Jonnel"
+
+    dynasty = dynasty_quagg
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = quagg_3
+    mother = quagg_4
+
+    trait = gregarious
+    trait = diligent
+    trait = chaste
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 4
+    intrigue = 8
+    learning = 3
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6393.12.2 = {
+        birth = yes
+    }
+
+    6426.7.11 = {
+        add_spouse = quagg_7
+    }
+
+    6463.12.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+quagg_7 = {
+    name = "Alyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = craven
+    trait = trusting
+    trait = fickle
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6409.5.8 = {
+        birth = yes
+    }
+
+    6482.4.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+quagg_8 = {
+    name = "Jonjon"
+
+    dynasty = dynasty_quagg
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = quagg_6
+    mother = quagg_7
+
+    trait = chaste
+    trait = impatient
+    trait = cynical
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_2
+
+    6450.2.7 = {
+        birth = yes
+    }
+
+    6480.2.18 = {
+        add_spouse = quagg_9
+    }
+
+    6517.4.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+quagg_9 = {
+    name = "Cat"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = wrathful
+    trait = shy
+    trait = honest
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 6
+    intrigue = 2
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_3
+
+    6463.5.8 = {
+        birth = yes
+    }
+
+    6531.9.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+quagg_10 = {
+    name = "Kyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = quagg_8
+    mother = quagg_9
+
+    trait = greedy
+    trait = paranoid
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 9
+    intrigue = 5
+    learning = 2
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6487.5.19 = {
+        birth = yes
+    }
+
+    6555.11.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+quagg_11 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = quagg_8
+    mother = quagg_9
+
+    trait = compassionate
+    trait = sadistic
+    trait = calm
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 8
+    prowess = 10
+
+    trait = education_diplomacy_4
+
+    6489.4.28 = {
+        birth = yes
+    }
+
+    6540.10.14 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+quagg_12 = {
+    name = "Edwyn"
+
+    dynasty = dynasty_quagg
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = quagg_8
+    mother = quagg_9
+
+    trait = patient
+    trait = sadistic
+    trait = trusting
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6490.6.27 = {
+        birth = yes
+    }
+
+    6538.1.26 = {
+        add_spouse = quagg_13
+    }
+
+    6573.4.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+quagg_13 = {
+    name = "Thyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = stubborn
+    trait = gluttonous
+    trait = patient
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_2
+
+    6521.10.6 = {
+        birth = yes
+    }
+
+    6598.5.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+quagg_14 = {
+    name = "Markors"
+
+    dynasty = dynasty_quagg
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = quagg_12
+    mother = quagg_13
+
+    trait = ambitious
+    trait = shy
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 2
+
+    trait = education_intrigue_1
+
+    6542.12.14 = {
+        birth = yes
+    }
+
+    6561.6.4 = {
+        add_spouse = quagg_15
+    }
+
+    6625.11.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+quagg_15 = {
+    name = "Ansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = arrogant
+    trait = diligent
+    trait = zealous
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 2
+    prowess = 9
+
+    trait = education_martial_3
+
+    6544.10.21 = {
+        birth = yes
+    }
+
+    6622.1.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+quagg_16 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = quagg_14
+    mother = quagg_15
+
+    trait = compassionate
+    trait = chaste
+    trait = greedy
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 3
+    intrigue = 6
+    learning = 10
+    prowess = 11
+
+    trait = education_diplomacy_3
+
+    6567.10.4 = {
+        birth = yes
+    }
+
+    6634.5.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+quagg_17 = {
+    name = "Streen"
+
+    dynasty = dynasty_quagg
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = quagg_14
+    mother = quagg_15
+
+    trait = temperate
+    trait = stubborn
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 3
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    6571.10.10 = {
+        birth = yes
+    }
+
+    6586.9.6 = {
+        add_spouse = quagg_18
+    }
+
+    6655.9.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+quagg_18 = {
+    name = "Rykissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = lustful
+    trait = wrathful
+    trait = gregarious
+
+    diplomacy = 2
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    6569.2.27 = {
+        birth = yes
+    }
+
+    6652.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+quagg_19 = {
+    name = "Niklys"
+
+    dynasty = dynasty_quagg
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = quagg_12
+    mother = quagg_13
+
+    trait = greedy
+    trait = deceitful
+    trait = zealous
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 7
+    intrigue = 7
+    learning = 10
+    prowess = 3
+
+    trait = education_learning_3
+
+    6552.10.16 = {
+        birth = yes
+    }
+
+    6571.6.12 = {
+        add_spouse = quagg_20
+    }
+
+    6621.1.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+quagg_20 = {
+    name = "Kyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = humble
+    trait = gluttonous
+    trait = fickle
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 5
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_4
+
+    6554.5.9 = {
+        birth = yes
+    }
+
+    6622.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+quagg_21 = {
+    name = "Pate"
+
+    dynasty = dynasty_quagg
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = quagg_19
+    mother = quagg_20
+
+    trait = wrathful
+    trait = content
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6580.6.8 = {
+        birth = yes
+    }
+
+    6597.2.13 = {
+        add_spouse = quagg_22
+    }
+
+    6663.4.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+quagg_22 = {
+    name = "Jynessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = calm
+    trait = ambitious
+    trait = patient
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 7
+
+    trait = education_martial_4
+
+    6580.2.23 = {
+        birth = yes
+    }
+
+    6647.9.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+quagg_23 = {
+    name = "Helman"
+
+    dynasty = dynasty_quagg
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = quagg_19
+    mother = quagg_20
+
+    trait = lazy
+    trait = humble
+    trait = fickle
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    6589.9.25 = {
+        birth = yes
+    }
+
+    6638.11.27 = {
+        add_spouse = quagg_24
+    }
+
+    6648.7.11 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+quagg_24 = {
+    name = "Kyt"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = arbitrary
+    trait = wrathful
+    trait = arrogant
+
+    diplomacy = 1
+    martial = 7
+    stewardship = 10
+    intrigue = 4
+    learning = 3
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    6621.2.26 = {
+        birth = yes
+    }
+
+    6703.2.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+quagg_25 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = quagg_3
+    mother = quagg_4
+
+    trait = chaste
+    trait = just
+    trait = callous
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 2
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6396.11.20 = {
+        birth = yes
+    }
+
+    6466.8.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+quagg_26 = {
+    name = "Lacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = quagg_3
+    mother = quagg_4
+
+    trait = sadistic
+    trait = stubborn
+    trait = trusting
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 10
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    6397.10.4 = {
+        birth = yes
+    }
+
+    6482.11.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

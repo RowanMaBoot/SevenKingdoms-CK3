@@ -1,0 +1,580 @@
+marsh_1 = {
+    name = "Ned"
+
+    dynasty = dynasty_marsh
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = honest
+    trait = zealous
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_learning_3
+
+    6300.10.20 = {
+        birth = yes
+    }
+
+    6325.9.5 = {
+        add_spouse = marsh_2
+    }
+
+    6383.8.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+marsh_2 = {
+    name = "Tessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = content
+    trait = zealous
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6308.9.11 = {
+        birth = yes
+    }
+
+    6382.11.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+marsh_3 = {
+    name = "Hother"
+
+    dynasty = dynasty_marsh
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = marsh_1
+    mother = marsh_2
+
+    trait = wrathful
+    trait = compassionate
+    trait = zealous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 8
+    prowess = 4
+
+    trait = education_stewardship_1
+
+    6340.2.8 = {
+        birth = yes
+    }
+
+    6382.1.4 = {
+        add_spouse = marsh_4
+    }
+
+    6408.11.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+marsh_4 = {
+    name = "Ingarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = forgiving
+    trait = ambitious
+    trait = brave
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 2
+    learning = 8
+    prowess = 3
+
+    trait = education_martial_3
+
+    6365.6.14 = {
+        birth = yes
+    }
+
+    6440.12.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+marsh_5 = {
+    name = "Donnel"
+
+    dynasty = dynasty_marsh
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = marsh_3
+    mother = marsh_4
+
+    trait = arbitrary
+    trait = callous
+    trait = humble
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_1
+
+    6388.12.2 = {
+        birth = yes
+    }
+
+    6426.12.6 = {
+        add_spouse = marsh_6
+    }
+
+    6461.2.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+marsh_6 = {
+    name = "Cateryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = temperate
+    trait = calm
+    trait = cynical
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 6
+    intrigue = 2
+    learning = 10
+    prowess = 4
+
+    trait = education_learning_2
+
+    6409.2.2 = {
+        birth = yes
+    }
+
+    6475.8.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+marsh_7 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = marsh_5
+    mother = marsh_6
+
+    trait = patient
+    trait = chaste
+    trait = humble
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 2
+    intrigue = 8
+    learning = 3
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6437.2.11 = {
+        birth = yes
+    }
+
+    6515.4.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+marsh_8 = {
+    name = "Ondrew"
+
+    dynasty = dynasty_marsh
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = marsh_5
+    mother = marsh_6
+
+    trait = cynical
+    trait = brave
+    trait = fickle
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6445.12.26 = {
+        birth = yes
+    }
+
+    6490.4.22 = {
+        add_spouse = marsh_9
+    }
+
+    6500.9.17 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+marsh_9 = {
+    name = "Ireni"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = chaste
+    trait = arrogant
+    trait = patient
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6473.10.2 = {
+        birth = yes
+    }
+
+    6544.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+marsh_10 = {
+    name = "Perra"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = marsh_8
+    mother = marsh_9
+
+    trait = fickle
+    trait = trusting
+    trait = cynical
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 10
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6492.11.4 = {
+        birth = yes
+    }
+
+    6577.10.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+marsh_11 = {
+    name = "Casan"
+
+    dynasty = dynasty_marsh
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = marsh_8
+    mother = marsh_9
+
+    trait = stubborn
+    trait = sadistic
+    trait = lustful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 9
+    intrigue = 4
+    learning = 4
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    6495.7.16 = {
+        birth = yes
+    }
+
+    6536.10.25 = {
+        add_spouse = marsh_12
+    }
+
+    6564.5.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+marsh_12 = {
+    name = "Jaisyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = craven
+    trait = patient
+    trait = stubborn
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    6519.2.20 = {
+        birth = yes
+    }
+
+    6587.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+marsh_13 = {
+    name = "Rogar"
+
+    dynasty = dynasty_marsh
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = marsh_11
+    mother = marsh_12
+
+    trait = arbitrary
+    trait = lustful
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 9
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6536.1.16 = {
+        birth = yes
+    }
+
+    6564.4.15 = {
+        add_spouse = marsh_14
+    }
+
+    6574.11.20 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+marsh_14 = {
+    name = "Kaeli"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = wrathful
+    trait = compassionate
+    trait = shy
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6547.8.23 = {
+        birth = yes
+    }
+
+    6627.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+marsh_15 = {
+    name = "Gawen"
+
+    dynasty = dynasty_marsh
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = marsh_13
+    mother = marsh_14
+
+    trait = cynical
+    trait = callous
+    trait = generous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_3
+
+    6566.11.24 = {
+        birth = yes
+    }
+
+    6586.2.3 = {
+        add_spouse = marsh_16
+    }
+
+    6636.1.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+marsh_16 = {
+    name = "Kyt"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = calm
+    trait = fickle
+    trait = humble
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 8
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6569.6.14 = {
+        birth = yes
+    }
+
+    6651.8.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+marsh_17 = {
+    name = "Helman"
+
+    dynasty = dynasty_marsh
+    religion = the_old_gods
+    culture = crannogmen
+
+    father = marsh_13
+    mother = marsh_14
+
+    trait = diligent
+    trait = content
+    trait = gluttonous
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    6569.12.26 = {
+        birth = yes
+    }
+
+    6599.12.22 = {
+        add_spouse = marsh_18
+    }
+
+    6641.10.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+marsh_18 = {
+    name = "Kaeli"
+    female = yes
+
+    religion = the_old_gods
+    culture = crannogmen
+
+    trait = wrathful
+    trait = arbitrary
+    trait = compassionate
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_martial_3
+
+    6582.8.4 = {
+        birth = yes
+    }
+
+    6667.7.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

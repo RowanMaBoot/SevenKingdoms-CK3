@@ -1,0 +1,1227 @@
+mollen_1 = {
+    name = "Casamir"
+
+    dynasty = dynasty_mollen
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = fickle
+    trait = sadistic
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_4
+
+    6300.7.24 = {
+        birth = yes
+    }
+
+    6328.6.14 = {
+        add_spouse = mollen_2
+    }
+
+    6373.12.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_2 = {
+    name = "Kyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = arrogant
+    trait = content
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 9
+
+    trait = education_martial_2
+
+    6311.8.18 = {
+        birth = yes
+    }
+
+    6390.4.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_3 = {
+    name = "Alyxander"
+
+    dynasty = dynasty_mollen
+    religion = the_old_gods
+    culture = northmen
+
+    father = mollen_1
+    mother = mollen_2
+
+    trait = chaste
+    trait = calm
+    trait = greedy
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 10
+    learning = 9
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6348.10.21 = {
+        birth = yes
+    }
+
+    6362.4.3 = {
+        add_spouse = mollen_4
+    }
+
+    6421.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_4 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = generous
+    trait = paranoid
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_4
+
+    6345.2.3 = {
+        birth = yes
+    }
+
+    6428.4.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_5 = {
+    name = "Refil"
+
+    dynasty = dynasty_mollen
+    religion = the_old_gods
+    culture = northmen
+
+    father = mollen_3
+    mother = mollen_4
+
+    trait = cynical
+    trait = wrathful
+    trait = impatient
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 9
+
+    trait = education_learning_2
+
+    6363.6.3 = {
+        birth = yes
+    }
+
+    6393.5.5 = {
+        add_spouse = mollen_6
+    }
+
+    6403.6.8 = {
+        death = { death_reason = death_crushed  }
+    }
+}
+
+mollen_6 = {
+    name = "Berena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = wrathful
+    trait = honest
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 9
+    intrigue = 7
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6376.10.5 = {
+        birth = yes
+    }
+
+    6450.4.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_7 = {
+    name = "Ulf"
+
+    dynasty = dynasty_mollen
+    religion = the_old_gods
+    culture = northmen
+
+    father = mollen_5
+    mother = mollen_6
+
+    trait = content
+    trait = forgiving
+    trait = generous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6395.12.22 = {
+        birth = yes
+    }
+
+    6441.6.5 = {
+        add_spouse = mollen_8
+    }
+
+    6476.8.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_8 = {
+    name = "Jaisyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = stubborn
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 3
+    prowess = 2
+
+    trait = education_stewardship_3
+
+    6424.1.10 = {
+        birth = yes
+    }
+
+    6496.12.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_9 = {
+    name = "Oswyn"
+
+    dynasty = dynasty_mollen
+    religion = the_old_gods
+    culture = northmen
+
+    father = mollen_7
+    mother = mollen_8
+
+    trait = temperate
+    trait = zealous
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 7
+    learning = 2
+    prowess = 6
+
+    trait = education_martial_2
+
+    6464.12.1 = {
+        birth = yes
+    }
+
+    6512.7.20 = {
+        add_spouse = mollen_10
+    }
+
+    6544.2.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_10 = {
+    name = "Robyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = just
+    trait = trusting
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_4
+
+    6495.8.11 = {
+        birth = yes
+    }
+
+    6567.11.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_11 = {
+    name = "Markus"
+
+    dynasty = dynasty_mollen
+    religion = the_old_gods
+    culture = northmen
+
+    father = mollen_9
+    mother = mollen_10
+
+    trait = greedy
+    trait = temperate
+    trait = cynical
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 3
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_2
+
+    6532.5.6 = {
+        birth = yes
+    }
+
+    6553.3.11 = {
+        add_spouse = mollen_12
+    }
+
+    6613.1.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_12 = {
+    name = "Bethany"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = paranoid
+    trait = fickle
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 6
+    intrigue = 8
+    learning = 8
+    prowess = 3
+
+    trait = education_diplomacy_1
+
+    6536.1.4 = {
+        birth = yes
+    }
+
+    6615.9.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_13 = {
+    name = "Howland"
+
+    dynasty = dynasty_mollen
+    religion = the_old_gods
+    culture = northmen
+
+    father = mollen_11
+    mother = mollen_12
+
+    trait = just
+    trait = patient
+    trait = greedy
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 3
+    intrigue = 7
+    learning = 9
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6579.9.15 = {
+        birth = yes
+    }
+
+    6593.12.23 = {
+        add_spouse = mollen_14
+    }
+
+    6661.3.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_14 = {
+    name = "Agnessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = zealous
+    trait = trusting
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6576.11.10 = {
+        birth = yes
+    }
+
+    6644.11.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_15 = {
+    name = "Marlon"
+
+    dynasty = dynasty_mollen
+    religion = the_old_gods
+    culture = northmen
+
+    father = mollen_5
+    mother = mollen_6
+
+    trait = trusting
+    trait = cynical
+    trait = humble
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 5
+    intrigue = 3
+    learning = 6
+    prowess = 2
+
+    trait = education_learning_3
+
+    6397.12.24 = {
+        birth = yes
+    }
+
+    6438.2.9 = {
+        add_spouse = mollen_16
+    }
+
+    6467.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_16 = {
+    name = "Barbrey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = greedy
+    trait = lazy
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6421.5.3 = {
+        birth = yes
+    }
+
+    6506.2.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_17 = {
+    name = "Helman"
+
+    dynasty = dynasty_mollen
+    religion = the_old_gods
+    culture = northmen
+
+    father = mollen_15
+    mother = mollen_16
+
+    trait = brave
+    trait = wrathful
+    trait = fickle
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 5
+    intrigue = 9
+    learning = 8
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6459.4.17 = {
+        birth = yes
+    }
+
+    6489.10.2 = {
+        add_spouse = mollen_18
+    }
+
+    6499.11.20 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+mollen_18 = {
+    name = "Ygritte"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = craven
+    trait = honest
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6472.8.16 = {
+        birth = yes
+    }
+
+    6539.7.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_19 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = mollen_17
+    mother = mollen_18
+
+    trait = fickle
+    trait = ambitious
+    trait = calm
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 4
+    intrigue = 1
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6489.2.2 = {
+        birth = yes
+    }
+
+    6559.4.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_20 = {
+    name = "Harlon"
+
+    dynasty = dynasty_mollen
+    religion = the_old_gods
+    culture = northmen
+
+    father = mollen_17
+    mother = mollen_18
+
+    trait = callous
+    trait = lustful
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6492.6.21 = {
+        birth = yes
+    }
+
+    6510.7.9 = {
+        add_spouse = mollen_21
+    }
+
+    6566.7.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_21 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = just
+    trait = generous
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6493.7.8 = {
+        birth = yes
+    }
+
+    6562.5.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_22 = {
+    name = "Krystyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = mollen_20
+    mother = mollen_21
+
+    trait = content
+    trait = stubborn
+    trait = vengeful
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_2
+
+    6522.9.1 = {
+        birth = yes
+    }
+
+    6563.8.1 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+mollen_23 = {
+    name = "Roger"
+
+    dynasty = dynasty_mollen
+    religion = the_old_gods
+    culture = northmen
+
+    father = mollen_20
+    mother = mollen_21
+
+    trait = stubborn
+    trait = impatient
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 3
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_3
+
+    6523.10.6 = {
+        birth = yes
+    }
+
+    6557.11.3 = {
+        add_spouse = mollen_24
+    }
+
+    6602.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_24 = {
+    name = "Ygritte"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = zealous
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 3
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    6540.5.2 = {
+        birth = yes
+    }
+
+    6615.5.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_25 = {
+    name = "Garth"
+
+    dynasty = dynasty_mollen
+    religion = the_old_gods
+    culture = northmen
+
+    father = mollen_5
+    mother = mollen_6
+
+    trait = forgiving
+    trait = chaste
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 10
+    intrigue = 7
+    learning = 8
+    prowess = 8
+
+    trait = education_stewardship_1
+
+    6398.11.8 = {
+        birth = yes
+    }
+
+    6421.11.21 = {
+        add_spouse = mollen_26
+    }
+
+    6466.9.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_26 = {
+    name = "Jynessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = humble
+    trait = paranoid
+
+    diplomacy = 1
+    martial = 5
+    stewardship = 10
+    intrigue = 5
+    learning = 2
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6404.1.17 = {
+        birth = yes
+    }
+
+    6431.11.10 = {
+        death = { death_reason = death_accident  }
+    }
+}
+
+mollen_27 = {
+    name = "Agnyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = mollen_25
+    mother = mollen_26
+
+    trait = forgiving
+    trait = deceitful
+    trait = temperate
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_3
+
+    6422.4.27 = {
+        birth = yes
+    }
+
+    6492.3.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_28 = {
+    name = "Iris"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = mollen_25
+    mother = mollen_26
+
+    trait = generous
+    trait = lustful
+    trait = craven
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 4
+    intrigue = 7
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6424.6.3 = {
+        birth = yes
+    }
+
+    6492.3.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_29 = {
+    name = "Wyl"
+
+    dynasty = dynasty_mollen
+    religion = the_old_gods
+    culture = northmen
+
+    father = mollen_25
+    mother = mollen_26
+
+    trait = paranoid
+    trait = lustful
+    trait = impatient
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    6425.7.24 = {
+        birth = yes
+    }
+
+    6471.11.17 = {
+        add_spouse = mollen_30
+    }
+
+    6500.8.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_30 = {
+    name = "Erena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = humble
+    trait = temperate
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6454.9.12 = {
+        birth = yes
+    }
+
+    6524.11.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_31 = {
+    name = "Toste"
+
+    dynasty = dynasty_mollen
+    religion = the_old_gods
+    culture = northmen
+
+    father = mollen_29
+    mother = mollen_30
+
+    trait = arbitrary
+    trait = lustful
+    trait = diligent
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6482.3.24 = {
+        birth = yes
+    }
+
+    6513.5.2 = {
+        add_spouse = mollen_32
+    }
+
+    6555.9.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_32 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = cynical
+    trait = fickle
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 9
+    intrigue = 10
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6496.1.3 = {
+        birth = yes
+    }
+
+    6570.3.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_33 = {
+    name = "Kymila"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = mollen_31
+    mother = mollen_32
+
+    trait = sadistic
+    trait = trusting
+    trait = zealous
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 5
+    intrigue = 2
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_3
+
+    6515.10.5 = {
+        birth = yes
+    }
+
+    6593.7.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_34 = {
+    name = "Darlessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = mollen_31
+    mother = mollen_32
+
+    trait = vengeful
+    trait = compassionate
+    trait = greedy
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_4
+
+    6517.6.14 = {
+        birth = yes
+    }
+
+    6589.9.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_35 = {
+    name = "Niklys"
+
+    dynasty = dynasty_mollen
+    religion = the_old_gods
+    culture = northmen
+
+    father = mollen_31
+    mother = mollen_32
+
+    trait = honest
+    trait = gregarious
+    trait = wrathful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 10
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6522.11.20 = {
+        birth = yes
+    }
+
+    6559.4.13 = {
+        add_spouse = mollen_36
+    }
+
+    6590.3.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_36 = {
+    name = "Faya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = gluttonous
+    trait = generous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 1
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6542.2.2 = {
+        birth = yes
+    }
+
+    6625.11.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_37 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = mollen_31
+    mother = mollen_32
+
+    trait = arrogant
+    trait = gluttonous
+    trait = craven
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    6523.9.10 = {
+        birth = yes
+    }
+
+    6590.10.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+mollen_38 = {
+    name = "Ylva"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = mollen_25
+    mother = mollen_26
+
+    trait = patient
+    trait = diligent
+    trait = ambitious
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_2
+
+    6427.1.22 = {
+        birth = yes
+    }
+
+    6508.11.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

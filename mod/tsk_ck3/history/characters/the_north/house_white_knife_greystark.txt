@@ -1,0 +1,2068 @@
+greystark_1 = {
+    name = "Greger"
+
+    dynasty = dynasty_greystark
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = shy
+    trait = lustful
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 2
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_3
+
+    6300.5.8 = {
+        birth = yes
+    }
+
+    6343.10.19 = {
+        add_spouse = greystark_2
+    }
+
+    6376.9.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_2 = {
+    name = "Jeyne"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = shy
+    trait = arrogant
+    trait = ambitious
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 5
+    intrigue = 2
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6326.5.16 = {
+        birth = yes
+    }
+
+    6397.9.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_3 = {
+    name = "Folke"
+
+    dynasty = dynasty_greystark
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_1
+    mother = greystark_2
+
+    trait = shy
+    trait = temperate
+    trait = callous
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 8
+    intrigue = 8
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_3
+
+    6347.5.4 = {
+        birth = yes
+    }
+
+    6372.10.11 = {
+        add_spouse = greystark_4
+    }
+
+    6413.4.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_4 = {
+    name = "Cat"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = wrathful
+    trait = diligent
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 4
+    intrigue = 7
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_2
+
+    6355.7.7 = {
+        birth = yes
+    }
+
+    6400.12.7 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+greystark_5 = {
+    name = "Streen"
+
+    dynasty = dynasty_greystark
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_3
+    mother = greystark_4
+
+    trait = gregarious
+    trait = sadistic
+    trait = forgiving
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_4
+
+    6374.5.11 = {
+        birth = yes
+    }
+
+    6398.9.28 = {
+        add_spouse = greystark_6
+    }
+
+    6451.11.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_6 = {
+    name = "Lidia"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = diligent
+    trait = chaste
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 9
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    6381.2.5 = {
+        birth = yes
+    }
+
+    6454.8.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_7 = {
+    name = "Kymila"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_5
+    mother = greystark_6
+
+    trait = forgiving
+    trait = honest
+    trait = fickle
+
+    diplomacy = 2
+    martial = 9
+    stewardship = 6
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_4
+
+    6405.4.3 = {
+        birth = yes
+    }
+
+    6481.4.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_8 = {
+    name = "Styr"
+
+    dynasty = dynasty_greystark
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_5
+    mother = greystark_6
+
+    trait = trusting
+    trait = compassionate
+    trait = gregarious
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 9
+
+    trait = education_martial_1
+
+    6406.6.8 = {
+        birth = yes
+    }
+
+    6423.1.27 = {
+        add_spouse = greystark_9
+    }
+
+    6443.8.16 = {
+        death = { death_reason = death_raid }
+    }
+}
+
+greystark_9 = {
+    name = "Ilyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = arrogant
+    trait = impatient
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    6406.12.23 = {
+        birth = yes
+    }
+
+    6474.8.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_10 = {
+    name = "Igrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_8
+    mother = greystark_9
+
+    trait = brave
+    trait = diligent
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6433.3.2 = {
+        birth = yes
+    }
+
+    6512.5.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_11 = {
+    name = "Vesamar"
+
+    dynasty = dynasty_greystark
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_8
+    mother = greystark_9
+
+    trait = lustful
+    trait = temperate
+    trait = wrathful
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6438.2.19 = {
+        birth = yes
+    }
+
+    6487.4.22 = {
+        add_spouse = greystark_12
+    }
+
+    6497.6.7 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+greystark_12 = {
+    name = "Wynafryd"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = gregarious
+    trait = patient
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 11
+    prowess = 9
+
+    trait = education_learning_3
+
+    6470.9.26 = {
+        birth = yes
+    }
+
+    6536.5.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_13 = {
+    name = "Wendel"
+
+    dynasty = dynasty_greystark
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_11
+    mother = greystark_12
+
+    trait = compassionate
+    trait = content
+    trait = patient
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 6
+    intrigue = 9
+    learning = 8
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6487.11.18 = {
+        birth = yes
+    }
+
+    6515.8.13 = {
+        add_spouse = greystark_14
+    }
+
+    6543.11.13 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+greystark_14 = {
+    name = "Raya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = sadistic
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6498.12.23 = {
+        birth = yes
+    }
+
+    6580.12.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_15 = {
+    name = "Bennard"
+
+    dynasty = dynasty_greystark
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_13
+    mother = greystark_14
+
+    trait = sadistic
+    trait = cynical
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 10
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 8
+
+    trait = education_martial_2
+
+    6528.7.16 = {
+        birth = yes
+    }
+
+    6576.3.23 = {
+        add_spouse = greystark_16
+    }
+
+    6586.4.1 = {
+        death = { death_reason = death_beaten }
+    }
+}
+
+greystark_16 = {
+    name = "Elyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = shy
+    trait = content
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    6559.12.4 = {
+        birth = yes
+    }
+
+    6643.7.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_17 = {
+    name = "Kyt"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_11
+    mother = greystark_12
+
+    trait = compassionate
+    trait = content
+    trait = arbitrary
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 3
+    learning = 5
+    prowess = 10
+
+    trait = education_martial_2
+
+    6491.2.13 = {
+        birth = yes
+    }
+
+    6506.7.13 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+greystark_18 = {
+    name = "Petar"
+
+    dynasty = dynasty_greystark
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_11
+    mother = greystark_12
+
+    trait = cynical
+    trait = generous
+    trait = wrathful
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 3
+    learning = 6
+    prowess = 11
+
+    trait = education_diplomacy_3
+
+    6493.2.3 = {
+        birth = yes
+    }
+
+    6522.2.4 = {
+        add_spouse = greystark_19
+    }
+
+    6562.6.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_19 = {
+    name = "Jonella"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = paranoid
+    trait = temperate
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6505.2.19 = {
+        birth = yes
+    }
+
+    6577.10.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_20 = {
+    name = "Martyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_18
+    mother = greystark_19
+
+    trait = chaste
+    trait = zealous
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6525.12.14 = {
+        birth = yes
+    }
+
+    6608.10.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_21 = {
+    name = "Alic"
+
+    dynasty = dynasty_greystark
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_18
+    mother = greystark_19
+
+    trait = stubborn
+    trait = calm
+    trait = honest
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_4
+
+    6529.6.8 = {
+        birth = yes
+    }
+
+    6570.12.28 = {
+        add_spouse = greystark_22
+    }
+
+    6599.2.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_22 = {
+    name = "Leana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = wrathful
+    trait = paranoid
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 1
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_4
+
+    6553.3.3 = {
+        birth = yes
+    }
+
+    6599.3.15 = {
+        death = { death_reason = death_training_accident  }
+    }
+}
+
+greystark_23 = {
+    name = "Danny"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_18
+    mother = greystark_19
+
+    trait = shy
+    trait = stubborn
+    trait = zealous
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 6
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    6530.9.2 = {
+        birth = yes
+    }
+
+    6605.6.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_24 = {
+    name = "Grim"
+
+    dynasty = dynasty_greystark
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_3
+    mother = greystark_4
+
+    trait = deceitful
+    trait = trusting
+    trait = arrogant
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    6378.2.11 = {
+        birth = yes
+    }
+
+    6409.8.14 = {
+        add_spouse = greystark_25
+    }
+
+    6462.10.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_25 = {
+    name = "Tissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = craven
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 4
+    intrigue = 4
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6392.6.4 = {
+        birth = yes
+    }
+
+    6467.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_26 = {
+    name = "Eddara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_24
+    mother = greystark_25
+
+    trait = gluttonous
+    trait = honest
+    trait = content
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 9
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6412.10.24 = {
+        birth = yes
+    }
+
+    6484.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_27 = {
+    name = "Frenya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_24
+    mother = greystark_25
+
+    trait = honest
+    trait = generous
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 8
+    intrigue = 9
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6415.2.3 = {
+        birth = yes
+    }
+
+    6488.7.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_28 = {
+    name = "Galbart"
+
+    dynasty = dynasty_greystark
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_24
+    mother = greystark_25
+
+    trait = zealous
+    trait = gluttonous
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 11
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6419.4.7 = {
+        birth = yes
+    }
+
+    6450.9.23 = {
+        add_spouse = greystark_29
+    }
+
+    6460.8.5 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+greystark_29 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = generous
+    trait = compassionate
+    trait = shy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 9
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6433.6.10 = {
+        birth = yes
+    }
+
+    6510.12.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_30 = {
+    name = "Markors"
+
+    dynasty = dynasty_greystark
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_28
+    mother = greystark_29
+
+    trait = honest
+    trait = arrogant
+    trait = patient
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 7
+    intrigue = 3
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    6454.6.23 = {
+        birth = yes
+    }
+
+    6476.9.4 = {
+        add_spouse = greystark_31
+    }
+
+    6524.5.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_31 = {
+    name = "Jolyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = paranoid
+    trait = generous
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_1
+
+    6459.6.12 = {
+        birth = yes
+    }
+
+    6536.6.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_32 = {
+    name = "Cateryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_30
+    mother = greystark_31
+
+    trait = trusting
+    trait = honest
+    trait = humble
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 9
+    intrigue = 8
+    learning = 5
+    prowess = 11
+
+    trait = education_stewardship_1
+
+    6479.5.18 = {
+        birth = yes
+    }
+
+    6556.8.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_33 = {
+    name = "Asha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_30
+    mother = greystark_31
+
+    trait = gluttonous
+    trait = brave
+    trait = shy
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 2
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_3
+
+    6486.8.22 = {
+        birth = yes
+    }
+
+    6569.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_34 = {
+    name = "Kollen"
+
+    dynasty = dynasty_greystark
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_30
+    mother = greystark_31
+
+    trait = content
+    trait = vengeful
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6488.11.11 = {
+        birth = yes
+    }
+
+    6524.4.8 = {
+        add_spouse = greystark_35
+    }
+
+    6572.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_35 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = patient
+    trait = content
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 8
+    intrigue = 5
+    learning = 8
+    prowess = 8
+
+    trait = education_martial_3
+
+    6507.4.19 = {
+        birth = yes
+    }
+
+    6581.3.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_36 = {
+    name = "Borin"
+
+    dynasty = dynasty_greystark
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_34
+    mother = greystark_35
+
+    trait = temperate
+    trait = trusting
+    trait = lustful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 10
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6533.5.18 = {
+        birth = yes
+    }
+
+    6565.9.17 = {
+        add_spouse = greystark_37
+    }
+
+    6603.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_37 = {
+    name = "Kyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = forgiving
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6548.10.11 = {
+        birth = yes
+    }
+
+    6628.11.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_38 = {
+    name = "Wynafryd"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_34
+    mother = greystark_35
+
+    trait = zealous
+    trait = arbitrary
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 6
+    intrigue = 2
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_2
+
+    6538.5.8 = {
+        birth = yes
+    }
+
+    6612.6.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_39 = {
+    name = "Refil"
+
+    dynasty = dynasty_greystark
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_34
+    mother = greystark_35
+
+    trait = craven
+    trait = just
+    trait = cynical
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 2
+    intrigue = 8
+    learning = 4
+    prowess = 10
+
+    trait = education_intrigue_3
+
+    6539.7.24 = {
+        birth = yes
+    }
+
+    6575.11.3 = {
+        add_spouse = greystark_40
+    }
+
+    6585.6.17 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+greystark_40 = {
+    name = "Meliana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = zealous
+    trait = gregarious
+    trait = patient
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 8
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6558.2.13 = {
+        birth = yes
+    }
+
+    6631.3.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_41 = {
+    name = "Helman"
+
+    dynasty = dynasty_greystark
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_3
+    mother = greystark_4
+
+    trait = impatient
+    trait = honest
+    trait = content
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 7
+    intrigue = 4
+    learning = 2
+    prowess = 6
+
+    trait = education_martial_4
+
+    6379.6.20 = {
+        birth = yes
+    }
+
+    6407.1.22 = {
+        add_spouse = greystark_42
+    }
+
+    6463.8.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_42 = {
+    name = "Kyt"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = calm
+    trait = content
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_4
+
+    6390.1.23 = {
+        birth = yes
+    }
+
+    6471.5.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_43 = {
+    name = "Robin"
+
+    dynasty = dynasty_greystark
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_41
+    mother = greystark_42
+
+    trait = diligent
+    trait = calm
+    trait = impatient
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 9
+    intrigue = 5
+    learning = 9
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6412.9.18 = {
+        birth = yes
+    }
+
+    6458.1.12 = {
+        add_spouse = greystark_44
+    }
+
+    6482.2.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_44 = {
+    name = "Jolanta"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = ambitious
+    trait = zealous
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 8
+
+    trait = education_intrigue_4
+
+    6441.11.22 = {
+        birth = yes
+    }
+
+    6516.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_45 = {
+    name = "Larence"
+
+    dynasty = dynasty_greystark
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_43
+    mother = greystark_44
+
+    trait = cynical
+    trait = deceitful
+    trait = fickle
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 3
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6471.1.20 = {
+        birth = yes
+    }
+
+    6493.1.2 = {
+        add_spouse = greystark_46
+    }
+
+    6543.11.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_46 = {
+    name = "Kymila"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = arbitrary
+    trait = shy
+
+    diplomacy = 11
+    martial = 4
+    stewardship = 7
+    intrigue = 8
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6476.11.23 = {
+        birth = yes
+    }
+
+    6561.10.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_47 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_45
+    mother = greystark_46
+
+    trait = vengeful
+    trait = paranoid
+    trait = temperate
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6493.8.1 = {
+        birth = yes
+    }
+
+    6578.7.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_48 = {
+    name = "Howland"
+
+    dynasty = dynasty_greystark
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_45
+    mother = greystark_46
+
+    trait = arrogant
+    trait = deceitful
+    trait = content
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 3
+    intrigue = 8
+    learning = 8
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6499.10.4 = {
+        birth = yes
+    }
+
+    6535.10.13 = {
+        add_spouse = greystark_49
+    }
+
+    6573.5.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_49 = {
+    name = "Elin"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = paranoid
+    trait = gregarious
+    trait = patient
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 9
+    intrigue = 3
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6518.11.21 = {
+        birth = yes
+    }
+
+    6586.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_50 = {
+    name = "Rickon"
+
+    dynasty = dynasty_greystark
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_48
+    mother = greystark_49
+
+    trait = generous
+    trait = impatient
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 1
+    intrigue = 2
+    learning = 3
+    prowess = 4
+
+    trait = education_martial_4
+
+    6539.8.23 = {
+        birth = yes
+    }
+
+    6569.3.11 = {
+        add_spouse = greystark_51
+    }
+
+    6609.5.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_51 = {
+    name = "Magya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = brave
+    trait = greedy
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6552.10.6 = {
+        birth = yes
+    }
+
+    6626.4.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_52 = {
+    name = "Ilyssi"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_45
+    mother = greystark_46
+
+    trait = deceitful
+    trait = gregarious
+    trait = generous
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 4
+    learning = 5
+    prowess = 9
+
+    trait = education_stewardship_3
+
+    6507.10.27 = {
+        birth = yes
+    }
+
+    6578.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_53 = {
+    name = "Edwyn"
+
+    dynasty = dynasty_greystark
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_41
+    mother = greystark_42
+
+    trait = diligent
+    trait = lustful
+    trait = craven
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 4
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    6414.3.12 = {
+        birth = yes
+    }
+
+    6448.8.18 = {
+        add_spouse = greystark_54
+    }
+
+    6463.11.2 = {
+        death = { death_reason = death_raid }
+    }
+}
+
+greystark_54 = {
+    name = "Gilliane"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = content
+    trait = humble
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6431.10.8 = {
+        birth = yes
+    }
+
+    6458.9.16 = {
+        death = { death_reason = death_great_pox }
+    }
+}
+
+greystark_55 = {
+    name = "Owen"
+
+    dynasty = dynasty_greystark
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_53
+    mother = greystark_54
+
+    trait = greedy
+    trait = sadistic
+    trait = zealous
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 8
+    intrigue = 8
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6451.6.10 = {
+        birth = yes
+    }
+
+    6470.1.19 = {
+        add_spouse = greystark_56
+    }
+
+    6527.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_56 = {
+    name = "Krystyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = stubborn
+    trait = brave
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_3
+
+    6453.1.7 = {
+        birth = yes
+    }
+
+    6529.4.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_57 = {
+    name = "Nikla"
+
+    dynasty = dynasty_greystark
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_55
+    mother = greystark_56
+
+    trait = calm
+    trait = vengeful
+    trait = honest
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 10
+    intrigue = 4
+    learning = 8
+    prowess = 10
+
+    trait = education_stewardship_4
+
+    6486.8.9 = {
+        birth = yes
+    }
+
+    6523.11.18 = {
+        add_spouse = greystark_58
+    }
+
+    6554.4.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_58 = {
+    name = "Sybelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = craven
+    trait = callous
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_learning_3
+
+    6506.7.27 = {
+        birth = yes
+    }
+
+    6587.11.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_59 = {
+    name = "Meliana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_57
+    mother = greystark_58
+
+    trait = temperate
+    trait = zealous
+    trait = lazy
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 3
+    prowess = 4
+
+    trait = education_intrigue_1
+
+    6523.6.20 = {
+        birth = yes
+    }
+
+    6605.1.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_60 = {
+    name = "Lysara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_57
+    mother = greystark_58
+
+    trait = shy
+    trait = cynical
+    trait = fickle
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 8
+    intrigue = 7
+    learning = 3
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6524.11.19 = {
+        birth = yes
+    }
+
+    6609.11.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_61 = {
+    name = "Jorelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_57
+    mother = greystark_58
+
+    trait = lustful
+    trait = callous
+    trait = honest
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 2
+    intrigue = 7
+    learning = 5
+    prowess = 2
+
+    trait = education_diplomacy_2
+
+    6529.2.7 = {
+        birth = yes
+    }
+
+    6609.8.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_62 = {
+    name = "Oswyn"
+
+    dynasty = dynasty_greystark
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_57
+    mother = greystark_58
+
+    trait = arrogant
+    trait = fickle
+    trait = lustful
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 7
+    intrigue = 3
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6530.11.20 = {
+        birth = yes
+    }
+
+    6568.1.24 = {
+        add_spouse = greystark_63
+    }
+
+    6608.10.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_63 = {
+    name = "Berta"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = wrathful
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 8
+    intrigue = 2
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6551.4.23 = {
+        birth = yes
+    }
+
+    6619.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+greystark_64 = {
+    name = "Agnessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = greystark_41
+    mother = greystark_42
+
+    trait = vengeful
+    trait = paranoid
+    trait = lazy
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    6415.3.16 = {
+        birth = yes
+    }
+
+    6491.11.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

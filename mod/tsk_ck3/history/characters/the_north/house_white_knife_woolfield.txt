@@ -1,0 +1,1809 @@
+woolfield_1 = {
+    name = "Robett"
+
+    dynasty = dynasty_woolfield
+    religion = the_old_gods
+    culture = northmen
+
+    trait = deceitful
+    trait = temperate
+    trait = just
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6300.2.9 = {
+        birth = yes
+    }
+
+    6348.10.20 = {
+        add_spouse = woolfield_2
+    }
+
+    6385.6.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_2 = {
+    name = "Harra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = paranoid
+    trait = impatient
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 5
+    intrigue = 3
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6331.8.3 = {
+        birth = yes
+    }
+
+    6413.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_3 = {
+    name = "Harwood"
+
+    dynasty = dynasty_woolfield
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_1
+    mother = woolfield_2
+
+    trait = arbitrary
+    trait = diligent
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6354.8.22 = {
+        birth = yes
+    }
+
+    6369.1.25 = {
+        add_spouse = woolfield_4
+    }
+
+    6429.9.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_4 = {
+    name = "Gil"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = impatient
+    trait = zealous
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 6
+    intrigue = 2
+    learning = 4
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6352.10.17 = {
+        birth = yes
+    }
+
+    6418.8.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_5 = {
+    name = "Hoarfrost"
+
+    dynasty = dynasty_woolfield
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_3
+    mother = woolfield_4
+
+    trait = fickle
+    trait = brave
+    trait = diligent
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6376.2.11 = {
+        birth = yes
+    }
+
+    6410.1.28 = {
+        add_spouse = woolfield_6
+    }
+
+    6461.9.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_6 = {
+    name = "Bethany"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = deceitful
+    trait = just
+    trait = fickle
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_3
+
+    6393.6.26 = {
+        birth = yes
+    }
+
+    6469.7.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_7 = {
+    name = "Cat"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_5
+    mother = woolfield_6
+
+    trait = chaste
+    trait = stubborn
+    trait = trusting
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6422.1.28 = {
+        birth = yes
+    }
+
+    6492.4.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_8 = {
+    name = "Dann"
+
+    dynasty = dynasty_woolfield
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_5
+    mother = woolfield_6
+
+    trait = cynical
+    trait = calm
+    trait = diligent
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_2
+
+    6430.5.9 = {
+        birth = yes
+    }
+
+    6446.1.4 = {
+        add_spouse = woolfield_9
+    }
+
+    6502.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_9 = {
+    name = "Agnessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = humble
+    trait = cynical
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_4
+
+    6429.1.11 = {
+        birth = yes
+    }
+
+    6498.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_10 = {
+    name = "Lydann"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_8
+    mother = woolfield_9
+
+    trait = trusting
+    trait = humble
+    trait = just
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6447.7.17 = {
+        birth = yes
+    }
+
+    6529.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_11 = {
+    name = "Medger"
+
+    dynasty = dynasty_woolfield
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_8
+    mother = woolfield_9
+
+    trait = greedy
+    trait = gregarious
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_3
+
+    6451.5.3 = {
+        birth = yes
+    }
+
+    6501.2.15 = {
+        add_spouse = woolfield_12
+    }
+
+    6517.11.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_12 = {
+    name = "Wylla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = paranoid
+    trait = sadistic
+    trait = calm
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 4
+    intrigue = 8
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6484.2.11 = {
+        birth = yes
+    }
+
+    6567.6.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_13 = {
+    name = "Dacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_11
+    mother = woolfield_12
+
+    trait = arbitrary
+    trait = honest
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6505.6.26 = {
+        birth = yes
+    }
+
+    6586.9.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_14 = {
+    name = "Jyana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_11
+    mother = woolfield_12
+
+    trait = compassionate
+    trait = arrogant
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 10
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6508.7.13 = {
+        birth = yes
+    }
+
+    6590.10.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_15 = {
+    name = "Barbara"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_11
+    mother = woolfield_12
+
+    trait = craven
+    trait = greedy
+    trait = content
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 3
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_4
+
+    6510.8.5 = {
+        birth = yes
+    }
+
+    6554.8.8 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+woolfield_16 = {
+    name = "Martyn"
+
+    dynasty = dynasty_woolfield
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_11
+    mother = woolfield_12
+
+    trait = calm
+    trait = temperate
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 1
+    intrigue = 9
+    learning = 4
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    6512.12.18 = {
+        birth = yes
+    }
+
+    6542.10.21 = {
+        add_spouse = woolfield_17
+    }
+
+    6596.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_17 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = craven
+    trait = impatient
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 3
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    6525.9.24 = {
+        birth = yes
+    }
+
+    6596.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_18 = {
+    name = "Garth"
+
+    dynasty = dynasty_woolfield
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_16
+    mother = woolfield_17
+
+    trait = humble
+    trait = patient
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 3
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6548.1.22 = {
+        birth = yes
+    }
+
+    6562.1.8 = {
+        add_spouse = woolfield_19
+    }
+
+    6587.2.19 = {
+        death = { death_reason = death_attacked }
+    }
+}
+
+woolfield_19 = {
+    name = "Lydann"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = humble
+    trait = impatient
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 3
+    intrigue = 3
+    learning = 1
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6545.4.2 = {
+        birth = yes
+    }
+
+    6615.1.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_20 = {
+    name = "Ewalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_16
+    mother = woolfield_17
+
+    trait = deceitful
+    trait = vengeful
+    trait = calm
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 8
+    intrigue = 8
+    learning = 4
+    prowess = 9
+
+    trait = education_diplomacy_4
+
+    6550.12.3 = {
+        birth = yes
+    }
+
+    6626.2.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_21 = {
+    name = "Byam"
+
+    dynasty = dynasty_woolfield
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_16
+    mother = woolfield_17
+
+    trait = calm
+    trait = brave
+    trait = shy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 3
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_2
+
+    6551.10.9 = {
+        birth = yes
+    }
+
+    6596.7.24 = {
+        add_spouse = woolfield_22
+    }
+
+    6619.8.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_22 = {
+    name = "Robyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = just
+    trait = callous
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 7
+    intrigue = 6
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_3
+
+    6579.2.3 = {
+        birth = yes
+    }
+
+    6645.2.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_23 = {
+    name = "Harlon"
+
+    dynasty = dynasty_woolfield
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_16
+    mother = woolfield_17
+
+    trait = temperate
+    trait = diligent
+    trait = chaste
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 9
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6554.12.22 = {
+        birth = yes
+    }
+
+    6591.9.26 = {
+        add_spouse = woolfield_24
+    }
+
+    6601.1.12 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+woolfield_24 = {
+    name = "Alysane"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = just
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 6
+    intrigue = 6
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6574.10.8 = {
+        birth = yes
+    }
+
+    6641.7.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_25 = {
+    name = "Sigfryd"
+
+    dynasty = dynasty_woolfield
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_3
+    mother = woolfield_4
+
+    trait = vengeful
+    trait = greedy
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 7
+    intrigue = 2
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_2
+
+    6378.7.15 = {
+        birth = yes
+    }
+
+    6408.4.1 = {
+        add_spouse = woolfield_26
+    }
+
+    6446.5.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_26 = {
+    name = "Meera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = just
+    trait = brave
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 3
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_4
+
+    6391.10.5 = {
+        birth = yes
+    }
+
+    6459.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_27 = {
+    name = "Matus"
+
+    dynasty = dynasty_woolfield
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_25
+    mother = woolfield_26
+
+    trait = brave
+    trait = cynical
+    trait = greedy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6413.9.11 = {
+        birth = yes
+    }
+
+    6446.6.7 = {
+        add_spouse = woolfield_28
+    }
+
+    6487.4.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_28 = {
+    name = "Jaisyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = chaste
+    trait = humble
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 8
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_3
+
+    6429.6.2 = {
+        birth = yes
+    }
+
+    6508.6.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_29 = {
+    name = "Roger"
+
+    dynasty = dynasty_woolfield
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_27
+    mother = woolfield_28
+
+    trait = sadistic
+    trait = honest
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 5
+    intrigue = 4
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_4
+
+    6472.12.16 = {
+        birth = yes
+    }
+
+    6498.8.16 = {
+        add_spouse = woolfield_30
+    }
+
+    6557.1.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_30 = {
+    name = "Ewalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = deceitful
+    trait = generous
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 11
+    intrigue = 9
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6481.9.20 = {
+        birth = yes
+    }
+
+    6549.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_31 = {
+    name = "Nikla"
+
+    dynasty = dynasty_woolfield
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_29
+    mother = woolfield_30
+
+    trait = shy
+    trait = wrathful
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 3
+    learning = 10
+    prowess = 8
+
+    trait = education_learning_3
+
+    6499.12.22 = {
+        birth = yes
+    }
+
+    6543.10.2 = {
+        add_spouse = woolfield_32
+    }
+
+    6583.1.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_32 = {
+    name = "Ansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = wrathful
+    trait = impatient
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_4
+
+    6526.2.25 = {
+        birth = yes
+    }
+
+    6601.11.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_33 = {
+    name = "Oddr"
+
+    dynasty = dynasty_woolfield
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_31
+    mother = woolfield_32
+
+    trait = patient
+    trait = craven
+    trait = vengeful
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6543.2.12 = {
+        birth = yes
+    }
+
+    6558.4.2 = {
+        add_spouse = woolfield_34
+    }
+
+    6627.7.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_34 = {
+    name = "Kristyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = deceitful
+    trait = greedy
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 9
+    intrigue = 9
+    learning = 6
+    prowess = 2
+
+    trait = education_stewardship_4
+
+    6541.6.4 = {
+        birth = yes
+    }
+
+    6611.6.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_35 = {
+    name = "Farlen"
+
+    dynasty = dynasty_woolfield
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_31
+    mother = woolfield_32
+
+    trait = chaste
+    trait = stubborn
+    trait = content
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    6546.8.27 = {
+        birth = yes
+    }
+
+    6573.7.14 = {
+        add_spouse = woolfield_36
+    }
+
+    6612.4.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_36 = {
+    name = "Donella"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = impatient
+    trait = lustful
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 2
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6556.1.24 = {
+        birth = yes
+    }
+
+    6626.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_37 = {
+    name = "Cregard"
+
+    dynasty = dynasty_woolfield
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_31
+    mother = woolfield_32
+
+    trait = impatient
+    trait = temperate
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 11
+    prowess = 7
+
+    trait = education_learning_2
+
+    6552.4.15 = {
+        birth = yes
+    }
+
+    6573.6.20 = {
+        add_spouse = woolfield_38
+    }
+
+    6622.10.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_38 = {
+    name = "Lynarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = ambitious
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 1
+
+    trait = education_stewardship_2
+
+    6556.3.4 = {
+        birth = yes
+    }
+
+    6635.5.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_39 = {
+    name = "Arya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_31
+    mother = woolfield_32
+
+    trait = honest
+    trait = wrathful
+    trait = chaste
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 6
+    intrigue = 2
+    learning = 6
+    prowess = 2
+
+    trait = education_stewardship_3
+
+    6556.12.23 = {
+        birth = yes
+    }
+
+    6637.11.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_40 = {
+    name = "Lysanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_29
+    mother = woolfield_30
+
+    trait = forgiving
+    trait = patient
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    6501.4.1 = {
+        birth = yes
+    }
+
+    6542.7.25 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+woolfield_41 = {
+    name = "Rikulf"
+
+    dynasty = dynasty_woolfield
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_29
+    mother = woolfield_30
+
+    trait = generous
+    trait = zealous
+    trait = temperate
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 8
+    learning = 2
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6502.6.6 = {
+        birth = yes
+    }
+
+    6541.6.3 = {
+        add_spouse = woolfield_42
+    }
+
+    6577.8.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_42 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = chaste
+    trait = arrogant
+    trait = brave
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 4
+    intrigue = 6
+    learning = 10
+    prowess = 3
+
+    trait = education_learning_2
+
+    6524.2.17 = {
+        birth = yes
+    }
+
+    6597.8.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_43 = {
+    name = "Roose"
+
+    dynasty = dynasty_woolfield
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_41
+    mother = woolfield_42
+
+    trait = patient
+    trait = generous
+    trait = deceitful
+
+    diplomacy = 8
+    martial = 10
+    stewardship = 7
+    intrigue = 9
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_3
+
+    6545.10.20 = {
+        birth = yes
+    }
+
+    6573.10.11 = {
+        add_spouse = woolfield_44
+    }
+
+    6613.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_44 = {
+    name = "Karci"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = humble
+    trait = paranoid
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    6556.3.17 = {
+        birth = yes
+    }
+
+    6634.5.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_45 = {
+    name = "Mance"
+
+    dynasty = dynasty_woolfield
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_41
+    mother = woolfield_42
+
+    trait = patient
+    trait = gluttonous
+    trait = deceitful
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 11
+
+    trait = education_martial_3
+
+    6546.7.17 = {
+        birth = yes
+    }
+
+    6595.11.15 = {
+        add_spouse = woolfield_46
+    }
+
+    6627.8.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_46 = {
+    name = "Wynafryd"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = arbitrary
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_2
+
+    6578.1.28 = {
+        birth = yes
+    }
+
+    6648.2.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_47 = {
+    name = "Cateryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_41
+    mother = woolfield_42
+
+    trait = forgiving
+    trait = honest
+    trait = humble
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 8
+    intrigue = 1
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6553.1.16 = {
+        birth = yes
+    }
+
+    6625.9.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_48 = {
+    name = "Filype"
+
+    dynasty = dynasty_woolfield
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_29
+    mother = woolfield_30
+
+    trait = calm
+    trait = patient
+    trait = generous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 9
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6507.7.23 = {
+        birth = yes
+    }
+
+    6521.4.14 = {
+        add_spouse = woolfield_49
+    }
+
+    6583.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_49 = {
+    name = "Lyessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = zealous
+    trait = arrogant
+    trait = brave
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6504.5.18 = {
+        birth = yes
+    }
+
+    6588.1.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_50 = {
+    name = "Wylla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_48
+    mother = woolfield_49
+
+    trait = just
+    trait = chaste
+    trait = honest
+
+    diplomacy = 3
+    martial = 2
+    stewardship = 8
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6531.9.20 = {
+        birth = yes
+    }
+
+    6602.1.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_51 = {
+    name = "Magar"
+
+    dynasty = dynasty_woolfield
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_48
+    mother = woolfield_49
+
+    trait = zealous
+    trait = arrogant
+    trait = gluttonous
+
+    diplomacy = 9
+    martial = 2
+    stewardship = 2
+    intrigue = 9
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6539.3.7 = {
+        birth = yes
+    }
+
+    6557.12.2 = {
+        add_spouse = woolfield_52
+    }
+
+    6615.8.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_52 = {
+    name = "Eri"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = chaste
+    trait = ambitious
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 7
+    learning = 8
+    prowess = 2
+
+    trait = education_learning_2
+
+    6540.10.10 = {
+        birth = yes
+    }
+
+    6617.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_53 = {
+    name = "Ewilyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_25
+    mother = woolfield_26
+
+    trait = sadistic
+    trait = generous
+    trait = content
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_2
+
+    6415.6.22 = {
+        birth = yes
+    }
+
+    6498.4.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_54 = {
+    name = "Elyassa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_25
+    mother = woolfield_26
+
+    trait = brave
+    trait = paranoid
+    trait = vengeful
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 10
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6421.7.3 = {
+        birth = yes
+    }
+
+    6503.6.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_55 = {
+    name = "Isyabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_3
+    mother = woolfield_4
+
+    trait = temperate
+    trait = vengeful
+    trait = zealous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 2
+
+    trait = education_diplomacy_4
+
+    6381.6.12 = {
+        birth = yes
+    }
+
+    6453.6.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+woolfield_56 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = woolfield_3
+    mother = woolfield_4
+
+    trait = lustful
+    trait = stubborn
+    trait = trusting
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 2
+
+    trait = education_diplomacy_4
+
+    6383.9.3 = {
+        birth = yes
+    }
+
+    6468.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

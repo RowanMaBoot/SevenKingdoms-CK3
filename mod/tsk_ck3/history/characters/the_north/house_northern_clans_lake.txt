@@ -1,0 +1,2952 @@
+lake_1 = {
+    name = "Gawen"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = cynical
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 3
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_2
+
+    6300.1.8 = {
+        birth = yes
+    }
+
+    6349.1.7 = {
+        add_spouse = lake_2
+    }
+
+    6371.9.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_2 = {
+    name = "Melantha"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = wrathful
+    trait = humble
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6332.6.7 = {
+        birth = yes
+    }
+
+    6413.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_3 = {
+    name = "Yoren"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_1
+    mother = lake_2
+
+    trait = stubborn
+    trait = ambitious
+    trait = just
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 3
+    intrigue = 9
+    learning = 4
+    prowess = 3
+
+    trait = education_intrigue_2
+
+    6362.6.12 = {
+        birth = yes
+    }
+
+    6386.3.26 = {
+        add_spouse = lake_4
+    }
+
+    6397.8.18 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+lake_4 = {
+    name = "Alyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = just
+    trait = ambitious
+    trait = impatient
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 8
+    learning = 10
+    prowess = 2
+
+    trait = education_learning_2
+
+    6369.9.20 = {
+        birth = yes
+    }
+
+    6447.5.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_5 = {
+    name = "Alaric"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_3
+    mother = lake_4
+
+    trait = forgiving
+    trait = chaste
+    trait = greedy
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_3
+
+    6391.4.16 = {
+        birth = yes
+    }
+
+    6410.1.9 = {
+        add_spouse = lake_6
+    }
+
+    6472.1.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_6 = {
+    name = "Sarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = wrathful
+    trait = lazy
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 3
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    6393.6.6 = {
+        birth = yes
+    }
+
+    6430.11.4 = {
+        death = { death_reason = death_horse_riding_accident  }
+    }
+}
+
+lake_7 = {
+    name = "Ronnel"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_5
+    mother = lake_6
+
+    trait = just
+    trait = arrogant
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 9
+    intrigue = 8
+    learning = 8
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6413.10.6 = {
+        birth = yes
+    }
+
+    6455.2.14 = {
+        add_spouse = lake_8
+    }
+
+    6493.4.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_8 = {
+    name = "Berta"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = deceitful
+    trait = greedy
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6438.7.28 = {
+        birth = yes
+    }
+
+    6505.10.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_9 = {
+    name = "Iris"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_7
+    mother = lake_8
+
+    trait = sadistic
+    trait = calm
+    trait = humble
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6464.1.12 = {
+        birth = yes
+    }
+
+    6544.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_10 = {
+    name = "Duncan"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_7
+    mother = lake_8
+
+    trait = gregarious
+    trait = trusting
+    trait = forgiving
+
+    diplomacy = 12
+    martial = 14
+    stewardship = 12
+    intrigue = 22
+    learning = 18
+    prowess = 17
+
+    trait = education_intrigue_4
+
+    6469.4.3 = {
+        birth = yes
+    }
+
+    6507.8.26 = {
+        add_spouse = lake_11
+    }
+
+    6517.12.2 = {
+        death = { death_reason = death_drowned  }
+    }
+}
+
+lake_11 = {
+    name = "Shiera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = lazy
+    trait = callous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 7
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_2
+
+    6490.5.1 = {
+        birth = yes
+    }
+
+    6569.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_12 = {
+    name = "Cley"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_10
+    mother = lake_11
+
+    trait = forgiving
+    trait = honest
+    trait = trusting
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 8
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_2
+
+    6510.9.9 = {
+        birth = yes
+    }
+
+    6526.7.15 = {
+        add_spouse = lake_13
+    }
+
+    6585.7.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_13 = {
+    name = "Caty"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = honest
+    trait = forgiving
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    6509.1.16 = {
+        birth = yes
+    }
+
+    6582.10.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_14 = {
+    name = "Berena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_12
+    mother = lake_13
+
+    trait = temperate
+    trait = forgiving
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_3
+
+    6538.7.14 = {
+        birth = yes
+    }
+
+    6620.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_15 = {
+    name = "Markus"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_12
+    mother = lake_13
+
+    trait = chaste
+    trait = diligent
+    trait = patient
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 8
+    learning = 9
+    prowess = 8
+
+    trait = education_learning_4
+
+    6546.8.11 = {
+        birth = yes
+    }
+
+    6584.10.13 = {
+        add_spouse = lake_16
+    }
+
+    6615.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_16 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = wrathful
+    trait = patient
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 2
+    intrigue = 6
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_2
+
+    6567.1.6 = {
+        birth = yes
+    }
+
+    6652.5.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_17 = {
+    name = "Felip"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_10
+    mother = lake_11
+
+    trait = brave
+    trait = trusting
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 6
+    intrigue = 7
+    learning = 9
+    prowess = 8
+
+    trait = education_martial_3
+
+    6511.11.20 = {
+        birth = yes
+    }
+
+    6553.1.25 = {
+        add_spouse = lake_18
+    }
+
+    6564.3.16 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+lake_18 = {
+    name = "Ingarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = shy
+    trait = generous
+    trait = calm
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 9
+    intrigue = 3
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6536.10.16 = {
+        birth = yes
+    }
+
+    6617.9.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_19 = {
+    name = "Craster"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_17
+    mother = lake_18
+
+    trait = impatient
+    trait = lazy
+    trait = just
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6554.1.22 = {
+        birth = yes
+    }
+
+    6604.9.17 = {
+        add_spouse = lake_20
+    }
+
+    6627.9.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_20 = {
+    name = "Meera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = stubborn
+    trait = diligent
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6587.11.22 = {
+        birth = yes
+    }
+
+    6662.8.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_21 = {
+    name = "Ygritte"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_17
+    mother = lake_18
+
+    trait = calm
+    trait = arrogant
+    trait = chaste
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_2
+
+    6555.6.4 = {
+        birth = yes
+    }
+
+    6629.12.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_22 = {
+    name = "Filype"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_10
+    mother = lake_11
+
+    trait = gluttonous
+    trait = generous
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 3
+    intrigue = 7
+    learning = 3
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6513.3.22 = {
+        birth = yes
+    }
+
+    6514.7.27 = {
+        give_nickname = nick_the_meticulous
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6553.2.4 = {
+        add_spouse = lake_23
+    }
+
+    6586.5.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_23 = {
+    name = "Anna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = humble
+    trait = shy
+    trait = cynical
+
+    diplomacy = 10
+    martial = 9
+    stewardship = 7
+    intrigue = 9
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6536.2.2 = {
+        birth = yes
+    }
+
+    6604.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_24 = {
+    name = "Izabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_22
+    mother = lake_23
+
+    trait = lustful
+    trait = trusting
+    trait = impatient
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_4
+
+    6559.7.23 = {
+        birth = yes
+    }
+
+    6637.9.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_25 = {
+    name = "Donnel"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_22
+    mother = lake_23
+
+    trait = forgiving
+    trait = generous
+    trait = trusting
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6570.6.22 = {
+        birth = yes
+    }
+
+    6609.4.2 = {
+        add_spouse = lake_26
+    }
+
+    6639.6.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_26 = {
+    name = "Branda"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = calm
+    trait = patient
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 7
+    intrigue = 1
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_3
+
+    6592.12.19 = {
+        birth = yes
+    }
+
+    6637.11.17 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+lake_27 = {
+    name = "Roger"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_7
+    mother = lake_8
+
+    trait = vengeful
+    trait = humble
+    trait = callous
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6471.2.24 = {
+        birth = yes
+    }
+
+    6505.12.12 = {
+        add_spouse = lake_28
+    }
+
+    6548.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_28 = {
+    name = "Cat"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = lustful
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 7
+    intrigue = 5
+    learning = 11
+    prowess = 5
+
+    trait = education_learning_2
+
+    6488.8.25 = {
+        birth = yes
+    }
+
+    6560.6.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_29 = {
+    name = "Wyman"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_27
+    mother = lake_28
+
+    trait = generous
+    trait = gluttonous
+    trait = content
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 3
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_1
+
+    6505.6.17 = {
+        birth = yes
+    }
+
+    6546.6.27 = {
+        add_spouse = lake_30
+    }
+
+    6556.11.22 = {
+        death = { death_reason = death_attacked }
+    }
+}
+
+lake_30 = {
+    name = "Sage"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = zealous
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 2
+    intrigue = 8
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6529.9.6 = {
+        birth = yes
+    }
+
+    6607.9.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_31 = {
+    name = "Ingarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_29
+    mother = lake_30
+
+    trait = craven
+    trait = temperate
+    trait = humble
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 4
+    intrigue = 9
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6547.10.4 = {
+        birth = yes
+    }
+
+    6630.6.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_32 = {
+    name = "Edla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_29
+    mother = lake_30
+
+    trait = calm
+    trait = craven
+    trait = generous
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 4
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6549.5.2 = {
+        birth = yes
+    }
+
+    6626.5.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_33 = {
+    name = "Hoarfrost"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_29
+    mother = lake_30
+
+    trait = callous
+    trait = brave
+    trait = gregarious
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6552.1.22 = {
+        birth = yes
+    }
+
+    6596.9.7 = {
+        add_spouse = lake_34
+    }
+
+    6606.3.14 = {
+        death = { death_reason = death_maimed }
+    }
+}
+
+lake_34 = {
+    name = "Tissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = honest
+    trait = content
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 10
+    prowess = 8
+
+    trait = education_learning_3
+
+    6579.4.27 = {
+        birth = yes
+    }
+
+    6650.2.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_35 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_5
+    mother = lake_6
+
+    trait = brave
+    trait = diligent
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6418.4.4 = {
+        birth = yes
+    }
+
+    6493.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_36 = {
+    name = "Kristyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_5
+    mother = lake_6
+
+    trait = craven
+    trait = vengeful
+    trait = just
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6421.1.22 = {
+        birth = yes
+    }
+
+    6496.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_37 = {
+    name = "Ondrew"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_5
+    mother = lake_6
+
+    trait = fickle
+    trait = ambitious
+    trait = calm
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 6
+
+    trait = education_martial_3
+
+    6422.1.18 = {
+        birth = yes
+    }
+
+    6439.1.11 = {
+        add_spouse = lake_38
+    }
+
+    6491.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_38 = {
+    name = "Bethany"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = craven
+    trait = diligent
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 6
+    intrigue = 10
+    learning = 9
+    prowess = 3
+
+    trait = education_intrigue_2
+
+    6422.8.19 = {
+        birth = yes
+    }
+
+    6499.12.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_39 = {
+    name = "Grim"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_37
+    mother = lake_38
+
+    trait = arbitrary
+    trait = diligent
+    trait = callous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_1
+
+    6445.10.28 = {
+        birth = yes
+    }
+
+    6462.12.17 = {
+        add_spouse = lake_40
+    }
+
+    6529.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_40 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = deceitful
+    trait = humble
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 3
+    intrigue = 4
+    learning = 7
+    prowess = 4
+
+    trait = education_learning_2
+
+    6445.11.2 = {
+        birth = yes
+    }
+
+    6522.2.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_41 = {
+    name = "Berena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_39
+    mother = lake_40
+
+    trait = paranoid
+    trait = temperate
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_3
+
+    6462.1.6 = {
+        birth = yes
+    }
+
+    6538.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_42 = {
+    name = "Cayn"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_39
+    mother = lake_40
+
+    trait = arrogant
+    trait = gluttonous
+    trait = craven
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6474.3.14 = {
+        birth = yes
+    }
+
+    6524.4.9 = {
+        add_spouse = lake_43
+    }
+
+    6547.11.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_43 = {
+    name = "Robyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = temperate
+    trait = impatient
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 10
+    prowess = 3
+
+    trait = education_learning_2
+
+    6507.3.17 = {
+        birth = yes
+    }
+
+    6590.3.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_44 = {
+    name = "Jory"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_42
+    mother = lake_43
+
+    trait = paranoid
+    trait = humble
+    trait = greedy
+
+    diplomacy = 10
+    martial = 4
+    stewardship = 8
+    intrigue = 9
+    learning = 6
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    6541.11.3 = {
+        birth = yes
+    }
+
+    6563.7.19 = {
+        add_spouse = lake_45
+    }
+
+    6608.12.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_45 = {
+    name = "Krysti"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lazy
+    trait = zealous
+    trait = greedy
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6546.5.7 = {
+        birth = yes
+    }
+
+    6616.8.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_46 = {
+    name = "Ulthan"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_37
+    mother = lake_38
+
+    trait = zealous
+    trait = sadistic
+    trait = wrathful
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 9
+    learning = 3
+    prowess = 8
+
+    trait = education_intrigue_4
+
+    6447.4.21 = {
+        birth = yes
+    }
+
+    6479.6.28 = {
+        add_spouse = lake_47
+    }
+
+    6517.3.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_47 = {
+    name = "Ewa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = shy
+    trait = impatient
+    trait = craven
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 4
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6462.2.22 = {
+        birth = yes
+    }
+
+    6534.11.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_48 = {
+    name = "Jon"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_46
+    mother = lake_47
+
+    trait = sadistic
+    trait = brave
+    trait = just
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 7
+    intrigue = 3
+    learning = 4
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    6490.12.8 = {
+        birth = yes
+    }
+
+    6526.4.23 = {
+        add_spouse = lake_49
+    }
+
+    6565.1.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_49 = {
+    name = "Shiera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = trusting
+    trait = stubborn
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_learning_3
+
+    6509.11.12 = {
+        birth = yes
+    }
+
+    6589.5.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_50 = {
+    name = "Berena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_48
+    mother = lake_49
+
+    trait = honest
+    trait = forgiving
+    trait = just
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 9
+    prowess = 10
+
+    trait = education_learning_2
+
+    6530.7.22 = {
+        birth = yes
+    }
+
+    6596.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_51 = {
+    name = "Lysa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_48
+    mother = lake_49
+
+    trait = content
+    trait = lazy
+    trait = just
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 4
+    intrigue = 3
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_4
+
+    6536.6.22 = {
+        birth = yes
+    }
+
+    6586.1.18 = {
+        death = { death_reason = death_crushed  }
+    }
+}
+
+lake_52 = {
+    name = "Tora"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_48
+    mother = lake_49
+
+    trait = stubborn
+    trait = wrathful
+    trait = content
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6537.8.5 = {
+        birth = yes
+    }
+
+    6604.5.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_53 = {
+    name = "Wendel"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_48
+    mother = lake_49
+
+    trait = content
+    trait = cynical
+    trait = honest
+
+    diplomacy = 6
+    martial = 11
+    stewardship = 3
+    intrigue = 6
+    learning = 9
+    prowess = 2
+
+    trait = education_martial_3
+
+    6541.1.5 = {
+        birth = yes
+    }
+
+    6580.1.16 = {
+        add_spouse = lake_54
+    }
+
+    6618.1.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_54 = {
+    name = "Elinan"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = compassionate
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    6563.5.22 = {
+        birth = yes
+    }
+
+    6631.8.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_55 = {
+    name = "Dyncen"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_46
+    mother = lake_47
+
+    trait = wrathful
+    trait = humble
+    trait = shy
+
+    diplomacy = 11
+    martial = 6
+    stewardship = 9
+    intrigue = 8
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6493.5.4 = {
+        birth = yes
+    }
+
+    6507.9.15 = {
+        add_spouse = lake_56
+    }
+
+    6575.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_56 = {
+    name = "Berti"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = trusting
+    trait = brave
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6490.11.16 = {
+        birth = yes
+    }
+
+    6563.11.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_57 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_55
+    mother = lake_56
+
+    trait = patient
+    trait = diligent
+    trait = trusting
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 4
+    intrigue = 8
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6508.2.23 = {
+        birth = yes
+    }
+
+    6575.2.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_58 = {
+    name = "Krystyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_55
+    mother = lake_56
+
+    trait = brave
+    trait = fickle
+    trait = greedy
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6514.5.3 = {
+        birth = yes
+    }
+
+    6596.6.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_59 = {
+    name = "Wendel"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_55
+    mother = lake_56
+
+    trait = vengeful
+    trait = generous
+    trait = chaste
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 9
+    intrigue = 5
+    learning = 5
+    prowess = 2
+
+    trait = education_stewardship_3
+
+    6518.9.15 = {
+        birth = yes
+    }
+
+    6555.2.27 = {
+        add_spouse = lake_60
+    }
+
+    6592.8.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_60 = {
+    name = "Lysa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = compassionate
+    trait = calm
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 9
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    6538.6.12 = {
+        birth = yes
+    }
+
+    6605.4.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_61 = {
+    name = "Tormand"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_37
+    mother = lake_38
+
+    trait = honest
+    trait = impatient
+    trait = brave
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 8
+    intrigue = 8
+    learning = 3
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6448.5.2 = {
+        birth = yes
+    }
+
+    6471.12.5 = {
+        add_spouse = lake_62
+    }
+
+    6527.2.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_62 = {
+    name = "Krystyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = lustful
+    trait = craven
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 2
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6454.3.27 = {
+        birth = yes
+    }
+
+    6533.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_63 = {
+    name = "Ulf"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_61
+    mother = lake_62
+
+    trait = lustful
+    trait = brave
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 9
+    learning = 8
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6476.7.13 = {
+        birth = yes
+    }
+
+    6516.5.16 = {
+        add_spouse = lake_64
+    }
+
+    6526.9.19 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+lake_64 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = ambitious
+    trait = paranoid
+    trait = greedy
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 7
+    intrigue = 10
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    6499.1.14 = {
+        birth = yes
+    }
+
+    6533.4.12 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+lake_65 = {
+    name = "Edric"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_63
+    mother = lake_64
+
+    trait = callous
+    trait = arbitrary
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 10
+    prowess = 2
+
+    trait = education_learning_3
+
+    6518.2.21 = {
+        birth = yes
+    }
+
+    6562.12.9 = {
+        add_spouse = lake_66
+    }
+
+    6586.5.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_66 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = compassionate
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6545.9.26 = {
+        birth = yes
+    }
+
+    6616.4.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_67 = {
+    name = "Iris"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_63
+    mother = lake_64
+
+    trait = temperate
+    trait = ambitious
+    trait = fickle
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    6521.9.16 = {
+        birth = yes
+    }
+
+    6587.5.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_68 = {
+    name = "Barthogan"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_63
+    mother = lake_64
+
+    trait = calm
+    trait = content
+    trait = stubborn
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6523.9.16 = {
+        birth = yes
+    }
+
+    6551.10.10 = {
+        add_spouse = lake_69
+    }
+
+    6561.5.2 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+lake_69 = {
+    name = "Kataryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = chaste
+    trait = wrathful
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 11
+    learning = 6
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6534.6.4 = {
+        birth = yes
+    }
+
+    6616.6.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_70 = {
+    name = "Loboda"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_61
+    mother = lake_62
+
+    trait = shy
+    trait = lazy
+    trait = trusting
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_1
+
+    6481.12.6 = {
+        birth = yes
+    }
+
+    6518.8.13 = {
+        add_spouse = lake_71
+    }
+
+    6558.8.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_71 = {
+    name = "Margaret"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = temperate
+    trait = brave
+    trait = wrathful
+
+    diplomacy = 10
+    martial = 9
+    stewardship = 7
+    intrigue = 10
+    learning = 10
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6501.11.1 = {
+        birth = yes
+    }
+
+    6582.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_72 = {
+    name = "Kaelon"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_70
+    mother = lake_71
+
+    trait = callous
+    trait = gregarious
+    trait = diligent
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 5
+    intrigue = 9
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    6524.5.11 = {
+        birth = yes
+    }
+
+    6569.2.11 = {
+        add_spouse = lake_73
+    }
+
+    6602.12.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_73 = {
+    name = "Krystyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = patient
+    trait = zealous
+    trait = temperate
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6552.8.6 = {
+        birth = yes
+    }
+
+    6621.11.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_74 = {
+    name = "Barba"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_70
+    mother = lake_71
+
+    trait = compassionate
+    trait = lustful
+    trait = impatient
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 8
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_1
+
+    6528.12.22 = {
+        birth = yes
+    }
+
+    6604.8.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_75 = {
+    name = "Arnolf"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_70
+    mother = lake_71
+
+    trait = lustful
+    trait = calm
+    trait = cynical
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6529.5.9 = {
+        birth = yes
+    }
+
+    6546.6.7 = {
+        add_spouse = lake_76
+    }
+
+    6595.11.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_76 = {
+    name = "Ilyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arbitrary
+    trait = fickle
+    trait = shy
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 9
+    intrigue = 10
+    learning = 8
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    6529.11.19 = {
+        birth = yes
+    }
+
+    6606.9.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_77 = {
+    name = "Hrane"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_61
+    mother = lake_62
+
+    trait = arbitrary
+    trait = calm
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 9
+    intrigue = 8
+    learning = 8
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    6482.8.8 = {
+        birth = yes
+    }
+
+    6530.5.15 = {
+        add_spouse = lake_78
+    }
+
+    6552.8.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_78 = {
+    name = "Rikissa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = impatient
+    trait = content
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    6513.3.14 = {
+        birth = yes
+    }
+
+    6579.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_79 = {
+    name = "Edric"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_77
+    mother = lake_78
+
+    trait = fickle
+    trait = humble
+    trait = shy
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 9
+
+    trait = education_intrigue_4
+
+    6540.11.12 = {
+        birth = yes
+    }
+
+    6564.6.7 = {
+        add_spouse = lake_80
+    }
+
+    6617.6.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_80 = {
+    name = "Berta"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = diligent
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_learning_2
+
+    6547.6.9 = {
+        birth = yes
+    }
+
+    6617.5.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_81 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_77
+    mother = lake_78
+
+    trait = arrogant
+    trait = content
+    trait = calm
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 10
+
+    trait = education_martial_2
+
+    6542.10.6 = {
+        birth = yes
+    }
+
+    6614.6.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_82 = {
+    name = "Wyl"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_37
+    mother = lake_38
+
+    trait = shy
+    trait = trusting
+    trait = calm
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 3
+    intrigue = 4
+    learning = 9
+    prowess = 3
+
+    trait = education_martial_2
+
+    6450.9.20 = {
+        birth = yes
+    }
+
+    6471.8.28 = {
+        add_spouse = lake_83
+    }
+
+    6530.5.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_83 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = brave
+    trait = gluttonous
+    trait = lustful
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 2
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6454.10.9 = {
+        birth = yes
+    }
+
+    6536.2.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_84 = {
+    name = "Lyanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_82
+    mother = lake_83
+
+    trait = calm
+    trait = diligent
+    trait = shy
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 11
+
+    trait = education_martial_3
+
+    6472.4.1 = {
+        birth = yes
+    }
+
+    6545.4.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_85 = {
+    name = "Cellador"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_82
+    mother = lake_83
+
+    trait = craven
+    trait = generous
+    trait = temperate
+
+    diplomacy = 11
+    martial = 2
+    stewardship = 6
+    intrigue = 9
+    learning = 11
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    6473.11.15 = {
+        birth = yes
+    }
+
+    6507.7.27 = {
+        add_spouse = lake_86
+    }
+
+    6548.4.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_86 = {
+    name = "Dacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = zealous
+    trait = generous
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6490.2.12 = {
+        birth = yes
+    }
+
+    6562.3.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_87 = {
+    name = "Jonella"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_85
+    mother = lake_86
+
+    trait = honest
+    trait = gluttonous
+    trait = forgiving
+
+    diplomacy = 8
+    martial = 1
+    stewardship = 5
+    intrigue = 10
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    6516.2.20 = {
+        birth = yes
+    }
+
+    6594.2.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_88 = {
+    name = "Rowena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_85
+    mother = lake_86
+
+    trait = trusting
+    trait = callous
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 4
+    intrigue = 5
+    learning = 3
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6522.1.12 = {
+        birth = yes
+    }
+
+    6603.12.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_89 = {
+    name = "Chayle"
+
+    dynasty = dynasty_lake
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_85
+    mother = lake_86
+
+    trait = gluttonous
+    trait = compassionate
+    trait = zealous
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6524.8.10 = {
+        birth = yes
+    }
+
+    6547.4.4 = {
+        add_spouse = lake_90
+    }
+
+    6609.4.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_90 = {
+    name = "Tora"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gluttonous
+    trait = humble
+    trait = trusting
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 8
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_2
+
+    6530.2.25 = {
+        birth = yes
+    }
+
+    6601.2.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lake_91 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = lake_82
+    mother = lake_83
+
+    trait = deceitful
+    trait = craven
+    trait = trusting
+
+    diplomacy = 4
+    martial = 1
+    stewardship = 10
+    intrigue = 6
+    learning = 10
+    prowess = 3
+
+    trait = education_stewardship_2
+
+    6476.1.3 = {
+        birth = yes
+    }
+
+    6551.8.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

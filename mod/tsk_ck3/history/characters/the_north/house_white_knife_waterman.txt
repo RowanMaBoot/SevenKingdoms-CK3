@@ -1,0 +1,773 @@
+waterman_1 = {
+    name = "Wyl"
+
+    dynasty = dynasty_waterman
+    religion = the_old_gods
+    culture = northmen
+
+    trait = compassionate
+    trait = gregarious
+    trait = greedy
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 7
+    learning = 3
+    prowess = 6
+
+    trait = education_martial_2
+
+    6300.4.10 = {
+        birth = yes
+    }
+
+    6350.4.10 = {
+        add_spouse = waterman_2
+    }
+
+    6378.4.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+waterman_2 = {
+    name = "Ansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = impatient
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 10
+    intrigue = 11
+    learning = 8
+    prowess = 10
+
+    trait = education_intrigue_2
+
+    6333.3.26 = {
+        birth = yes
+    }
+
+    6407.10.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+waterman_3 = {
+    name = "Mors"
+
+    dynasty = dynasty_waterman
+    religion = the_old_gods
+    culture = northmen
+
+    father = waterman_1
+    mother = waterman_2
+
+    trait = temperate
+    trait = lazy
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6375.7.28 = {
+        birth = yes
+    }
+
+    6423.5.8 = {
+        add_spouse = waterman_4
+    }
+
+    6443.2.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+waterman_4 = {
+    name = "Cersera"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = callous
+    trait = zealous
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_2
+
+    6406.1.18 = {
+        birth = yes
+    }
+
+    6481.9.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+waterman_5 = {
+    name = "Ronnel"
+
+    dynasty = dynasty_waterman
+    religion = the_old_gods
+    culture = northmen
+
+    father = waterman_3
+    mother = waterman_4
+
+    trait = impatient
+    trait = trusting
+    trait = temperate
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 5
+    intrigue = 4
+    learning = 1
+    prowess = 5
+
+    trait = education_martial_2
+
+    6430.7.20 = {
+        birth = yes
+    }
+
+    6455.3.23 = {
+        add_spouse = waterman_6
+    }
+
+    6508.11.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+waterman_6 = {
+    name = "Maegelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = callous
+    trait = shy
+    trait = paranoid
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 6
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6438.4.3 = {
+        birth = yes
+    }
+
+    6508.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+waterman_7 = {
+    name = "Gorm"
+
+    dynasty = dynasty_waterman
+    religion = the_old_gods
+    culture = northmen
+
+    father = waterman_5
+    mother = waterman_6
+
+    trait = zealous
+    trait = temperate
+    trait = calm
+
+    diplomacy = 11
+    martial = 5
+    stewardship = 3
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6458.8.5 = {
+        birth = yes
+    }
+
+    6472.1.20 = {
+        add_spouse = waterman_8
+    }
+
+    6532.4.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+waterman_8 = {
+    name = "Serena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = patient
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 10
+    prowess = 4
+
+    trait = education_learning_3
+
+    6455.2.21 = {
+        birth = yes
+    }
+
+    6534.3.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+waterman_9 = {
+    name = "Harwin"
+
+    dynasty = dynasty_waterman
+    religion = the_old_gods
+    culture = northmen
+
+    father = waterman_7
+    mother = waterman_8
+
+    trait = humble
+    trait = gluttonous
+    trait = cynical
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    6473.12.1 = {
+        birth = yes
+    }
+
+    6494.10.28 = {
+        add_spouse = waterman_10
+    }
+
+    6509.1.11 = {
+        death = { death_reason = death_torture  }
+    }
+}
+
+waterman_10 = {
+    name = "Lidya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = gluttonous
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 11
+    intrigue = 3
+    learning = 8
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6477.11.1 = {
+        birth = yes
+    }
+
+    6557.8.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+waterman_11 = {
+    name = "Vesamar"
+
+    dynasty = dynasty_waterman
+    religion = the_old_gods
+    culture = northmen
+
+    father = waterman_9
+    mother = waterman_10
+
+    trait = callous
+    trait = fickle
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6496.8.4 = {
+        birth = yes
+    }
+
+    6522.12.15 = {
+        add_spouse = waterman_12
+    }
+
+    6566.10.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+waterman_12 = {
+    name = "Lyanna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = paranoid
+    trait = sadistic
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 8
+    intrigue = 8
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6505.7.27 = {
+        birth = yes
+    }
+
+    6576.4.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+waterman_13 = {
+    name = "Sarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = waterman_11
+    mother = waterman_12
+
+    trait = brave
+    trait = arrogant
+    trait = just
+
+    diplomacy = 9
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 3
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    6536.6.21 = {
+        birth = yes
+    }
+
+    6606.2.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+waterman_14 = {
+    name = "Falki"
+
+    dynasty = dynasty_waterman
+    religion = the_old_gods
+    culture = northmen
+
+    father = waterman_11
+    mother = waterman_12
+
+    trait = ambitious
+    trait = forgiving
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6540.10.10 = {
+        birth = yes
+    }
+
+    6583.5.24 = {
+        add_spouse = waterman_15
+    }
+
+    6612.11.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+waterman_15 = {
+    name = "Evalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = humble
+    trait = shy
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 5
+    intrigue = 8
+    learning = 2
+    prowess = 6
+
+    trait = education_martial_1
+
+    6566.3.19 = {
+        birth = yes
+    }
+
+    6642.8.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+waterman_16 = {
+    name = "Kennya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = waterman_9
+    mother = waterman_10
+
+    trait = zealous
+    trait = chaste
+    trait = craven
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 11
+    intrigue = 9
+    learning = 8
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6500.1.27 = {
+        birth = yes
+    }
+
+    6570.8.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+waterman_17 = {
+    name = "Mattis"
+
+    dynasty = dynasty_waterman
+    religion = the_old_gods
+    culture = northmen
+
+    father = waterman_9
+    mother = waterman_10
+
+    trait = chaste
+    trait = paranoid
+    trait = calm
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 4
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6502.7.12 = {
+        birth = yes
+    }
+
+    6542.7.8 = {
+        add_spouse = waterman_18
+    }
+
+    6568.10.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+waterman_18 = {
+    name = "Cecilia"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = paranoid
+    trait = stubborn
+    trait = lustful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 3
+    intrigue = 6
+    learning = 7
+    prowess = 1
+
+    trait = education_learning_3
+
+    6525.1.14 = {
+        birth = yes
+    }
+
+    6608.12.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+waterman_19 = {
+    name = "Garth"
+
+    dynasty = dynasty_waterman
+    religion = the_old_gods
+    culture = northmen
+
+    father = waterman_17
+    mother = waterman_18
+
+    trait = honest
+    trait = shy
+    trait = patient
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 4
+    intrigue = 9
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6549.7.10 = {
+        birth = yes
+    }
+
+    6567.11.13 = {
+        add_spouse = waterman_20
+    }
+
+    6634.4.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+waterman_20 = {
+    name = "Barbrey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = fickle
+    trait = greedy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 9
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6550.3.22 = {
+        birth = yes
+    }
+
+    6621.8.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+waterman_21 = {
+    name = "Kyt"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = waterman_17
+    mother = waterman_18
+
+    trait = diligent
+    trait = ambitious
+    trait = calm
+
+    diplomacy = 1
+    martial = 1
+    stewardship = 2
+    intrigue = 6
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6553.7.28 = {
+        birth = yes
+    }
+
+    6629.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+waterman_22 = {
+    name = "Arrana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = waterman_5
+    mother = waterman_6
+
+    trait = cynical
+    trait = impatient
+    trait = temperate
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 6
+    intrigue = 9
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_2
+
+    6462.10.5 = {
+        birth = yes
+    }
+
+    6529.10.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+waterman_23 = {
+    name = "Danelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = waterman_5
+    mother = waterman_6
+
+    trait = sadistic
+    trait = temperate
+    trait = patient
+
+    diplomacy = 10
+    martial = 3
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6464.6.5 = {
+        birth = yes
+    }
+
+    6531.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+waterman_24 = {
+    name = "Frenna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = waterman_5
+    mother = waterman_6
+
+    trait = gregarious
+    trait = chaste
+    trait = temperate
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 3
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    6466.11.2 = {
+        birth = yes
+    }
+
+    6543.3.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

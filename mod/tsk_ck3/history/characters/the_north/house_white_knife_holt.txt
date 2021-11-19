@@ -1,0 +1,1193 @@
+holt_1 = {
+    name = "Elric"
+
+    dynasty = dynasty_holt
+    religion = the_old_gods
+    culture = northmen
+
+    trait = vengeful
+    trait = cynical
+    trait = humble
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6300.4.7 = {
+        birth = yes
+    }
+
+    6335.4.20 = {
+        add_spouse = holt_2
+    }
+
+    6345.4.18 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+holt_2 = {
+    name = "Thora"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = fickle
+    trait = paranoid
+    trait = lazy
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 3
+    intrigue = 6
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_3
+
+    6318.4.4 = {
+        birth = yes
+    }
+
+    6398.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_3 = {
+    name = "Vesamar"
+
+    dynasty = dynasty_holt
+    religion = the_old_gods
+    culture = northmen
+
+    father = holt_1
+    mother = holt_2
+
+    trait = vengeful
+    trait = fickle
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6337.2.5 = {
+        birth = yes
+    }
+
+    6378.1.20 = {
+        add_spouse = holt_4
+    }
+
+    6403.6.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_4 = {
+    name = "Krysti"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = cynical
+    trait = patient
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 8
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    6361.12.2 = {
+        birth = yes
+    }
+
+    6446.8.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_5 = {
+    name = "Robett"
+
+    dynasty = dynasty_holt
+    religion = the_old_gods
+    culture = northmen
+
+    father = holt_3
+    mother = holt_4
+
+    trait = forgiving
+    trait = craven
+    trait = chaste
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 9
+    prowess = 4
+
+    trait = education_learning_3
+
+    6387.9.2 = {
+        birth = yes
+    }
+
+    6415.6.18 = {
+        add_spouse = holt_6
+    }
+
+    6461.4.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_6 = {
+    name = "Agnessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = impatient
+    trait = arrogant
+    trait = arbitrary
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    6398.12.26 = {
+        birth = yes
+    }
+
+    6480.3.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_7 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = holt_5
+    mother = holt_6
+
+    trait = arrogant
+    trait = gluttonous
+    trait = vengeful
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_4
+
+    6419.5.8 = {
+        birth = yes
+    }
+
+    6489.12.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_8 = {
+    name = "Daryn"
+
+    dynasty = dynasty_holt
+    religion = the_old_gods
+    culture = northmen
+
+    father = holt_5
+    mother = holt_6
+
+    trait = temperate
+    trait = ambitious
+    trait = forgiving
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    6430.12.12 = {
+        birth = yes
+    }
+
+    6450.7.21 = {
+        add_spouse = holt_9
+    }
+
+    6500.2.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_9 = {
+    name = "Izabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = lustful
+    trait = just
+    trait = stubborn
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 3
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6433.9.9 = {
+        birth = yes
+    }
+
+    6499.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_10 = {
+    name = "Greg"
+
+    dynasty = dynasty_holt
+    religion = the_old_gods
+    culture = northmen
+
+    father = holt_8
+    mother = holt_9
+
+    trait = honest
+    trait = callous
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6458.11.13 = {
+        birth = yes
+    }
+
+    6475.8.6 = {
+        add_spouse = holt_11
+    }
+
+    6510.10.18 = {
+        death = { death_reason = death_accident  }
+    }
+}
+
+holt_11 = {
+    name = "Maggi"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = sadistic
+    trait = paranoid
+    trait = impatient
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6458.10.14 = {
+        birth = yes
+    }
+
+    6525.7.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_12 = {
+    name = "Kymila"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = holt_10
+    mother = holt_11
+
+    trait = zealous
+    trait = gregarious
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 10
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6480.5.15 = {
+        birth = yes
+    }
+
+    6560.1.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_13 = {
+    name = "Pate"
+
+    dynasty = dynasty_holt
+    religion = the_old_gods
+    culture = northmen
+
+    father = holt_10
+    mother = holt_11
+
+    trait = cynical
+    trait = lazy
+    trait = honest
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 11
+    learning = 10
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6481.12.4 = {
+        birth = yes
+    }
+
+    6509.9.5 = {
+        add_spouse = holt_14
+    }
+
+    6566.12.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_14 = {
+    name = "Lyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = deceitful
+    trait = vengeful
+    trait = brave
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 8
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_1
+
+    6492.11.7 = {
+        birth = yes
+    }
+
+    6577.11.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_15 = {
+    name = "Eri"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = holt_13
+    mother = holt_14
+
+    trait = diligent
+    trait = calm
+    trait = shy
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6516.1.23 = {
+        birth = yes
+    }
+
+    6584.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_16 = {
+    name = "Frennie"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = holt_13
+    mother = holt_14
+
+    trait = gregarious
+    trait = gluttonous
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_3
+
+    6519.1.19 = {
+        birth = yes
+    }
+
+    6588.4.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_17 = {
+    name = "Elin"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = holt_13
+    mother = holt_14
+
+    trait = paranoid
+    trait = fickle
+    trait = calm
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 10
+    intrigue = 4
+    learning = 7
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    6524.6.7 = {
+        birth = yes
+    }
+
+    6598.2.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_18 = {
+    name = "Roger"
+
+    dynasty = dynasty_holt
+    religion = the_old_gods
+    culture = northmen
+
+    father = holt_13
+    mother = holt_14
+
+    trait = callous
+    trait = temperate
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 8
+    learning = 3
+    prowess = 10
+
+    trait = education_intrigue_3
+
+    6528.1.20 = {
+        birth = yes
+    }
+
+    6562.10.4 = {
+        add_spouse = holt_19
+    }
+
+    6596.4.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_19 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = arrogant
+    trait = trusting
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 3
+    learning = 6
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    6545.3.21 = {
+        birth = yes
+    }
+
+    6623.1.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_20 = {
+    name = "Greger"
+
+    dynasty = dynasty_holt
+    religion = the_old_gods
+    culture = northmen
+
+    father = holt_8
+    mother = holt_9
+
+    trait = brave
+    trait = gregarious
+    trait = greedy
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 5
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    6464.11.2 = {
+        birth = yes
+    }
+
+    6484.6.9 = {
+        add_spouse = holt_21
+    }
+
+    6517.11.16 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+holt_21 = {
+    name = "Ansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = wrathful
+    trait = forgiving
+    trait = diligent
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6467.11.23 = {
+        birth = yes
+    }
+
+    6540.10.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_22 = {
+    name = "Larence"
+
+    dynasty = dynasty_holt
+    religion = the_old_gods
+    culture = northmen
+
+    father = holt_20
+    mother = holt_21
+
+    trait = fickle
+    trait = paranoid
+    trait = gregarious
+
+    diplomacy = 9
+    martial = 3
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6491.8.3 = {
+        birth = yes
+    }
+
+    6534.9.24 = {
+        add_spouse = holt_23
+    }
+
+    6570.3.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_23 = {
+    name = "Kyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = paranoid
+    trait = fickle
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 5
+    intrigue = 8
+    learning = 7
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    6517.6.19 = {
+        birth = yes
+    }
+
+    6587.1.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_24 = {
+    name = "Benjen"
+
+    dynasty = dynasty_holt
+    religion = the_old_gods
+    culture = northmen
+
+    father = holt_22
+    mother = holt_23
+
+    trait = lazy
+    trait = compassionate
+    trait = paranoid
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 4
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_3
+
+    6535.5.19 = {
+        birth = yes
+    }
+
+    6553.10.5 = {
+        add_spouse = holt_25
+    }
+
+    6619.4.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_25 = {
+    name = "Jolyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = forgiving
+    trait = ambitious
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6536.1.2 = {
+        birth = yes
+    }
+
+    6612.6.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_26 = {
+    name = "Lysa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = holt_22
+    mother = holt_23
+
+    trait = fickle
+    trait = arrogant
+    trait = zealous
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_learning_2
+
+    6538.5.8 = {
+        birth = yes
+    }
+
+    6611.3.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_27 = {
+    name = "Robard"
+
+    dynasty = dynasty_holt
+    religion = the_old_gods
+    culture = northmen
+
+    father = holt_22
+    mother = holt_23
+
+    trait = compassionate
+    trait = greedy
+    trait = lazy
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6542.6.18 = {
+        birth = yes
+    }
+
+    6592.6.15 = {
+        add_spouse = holt_28
+    }
+
+    6627.9.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_28 = {
+    name = "Judyth"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = impatient
+    trait = fickle
+    trait = just
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 4
+    intrigue = 6
+    learning = 3
+    prowess = 4
+
+    trait = education_martial_2
+
+    6575.10.3 = {
+        birth = yes
+    }
+
+    6660.8.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_29 = {
+    name = "Morra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = holt_22
+    mother = holt_23
+
+    trait = just
+    trait = impatient
+    trait = generous
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 8
+    intrigue = 3
+    learning = 5
+    prowess = 3
+
+    trait = education_stewardship_2
+
+    6543.8.18 = {
+        birth = yes
+    }
+
+    6620.1.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_30 = {
+    name = "Heward"
+
+    dynasty = dynasty_holt
+    religion = the_old_gods
+    culture = northmen
+
+    father = holt_20
+    mother = holt_21
+
+    trait = arrogant
+    trait = lazy
+    trait = temperate
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 7
+    intrigue = 10
+    learning = 4
+    prowess = 10
+
+    trait = education_intrigue_3
+
+    6497.6.25 = {
+        birth = yes
+    }
+
+    6538.3.26 = {
+        add_spouse = holt_31
+    }
+
+    6576.1.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_31 = {
+    name = "Magya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = honest
+    trait = lustful
+    trait = ambitious
+
+    diplomacy = 10
+    martial = 10
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6521.8.10 = {
+        birth = yes
+    }
+
+    6598.11.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_32 = {
+    name = "Aefan"
+
+    dynasty = dynasty_holt
+    religion = the_old_gods
+    culture = northmen
+
+    father = holt_30
+    mother = holt_31
+
+    trait = cynical
+    trait = lustful
+    trait = stubborn
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    6563.6.13 = {
+        birth = yes
+    }
+
+    6609.10.15 = {
+        add_spouse = holt_33
+    }
+
+    6631.8.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_33 = {
+    name = "Mylessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = content
+    trait = honest
+    trait = arrogant
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 4
+    intrigue = 8
+    learning = 6
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6592.2.21 = {
+        birth = yes
+    }
+
+    6660.10.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_34 = {
+    name = "Alys"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = holt_20
+    mother = holt_21
+
+    trait = wrathful
+    trait = chaste
+    trait = humble
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_4
+
+    6500.10.7 = {
+        birth = yes
+    }
+
+    6579.8.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_35 = {
+    name = "Kristyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = holt_20
+    mother = holt_21
+
+    trait = humble
+    trait = cynical
+    trait = craven
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 8
+    intrigue = 7
+    learning = 3
+    prowess = 3
+
+    trait = education_martial_2
+
+    6501.7.21 = {
+        birth = yes
+    }
+
+    6584.8.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_36 = {
+    name = "Alysane"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = holt_8
+    mother = holt_9
+
+    trait = chaste
+    trait = patient
+    trait = diligent
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6465.10.6 = {
+        birth = yes
+    }
+
+    6541.9.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+holt_37 = {
+    name = "Serra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = holt_3
+    mother = holt_4
+
+    trait = just
+    trait = honest
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 9
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6395.10.4 = {
+        birth = yes
+    }
+
+    6467.4.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

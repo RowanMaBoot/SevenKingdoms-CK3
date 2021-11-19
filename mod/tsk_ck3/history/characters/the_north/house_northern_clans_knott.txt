@@ -1,0 +1,676 @@
+knott_1 = {
+    name = "Ragnar"
+
+    dynasty = dynasty_knott
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = vengeful
+    trait = just
+    trait = compassionate
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 3
+    intrigue = 7
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_2
+
+    6300.9.15 = {
+        birth = yes
+    }
+
+    6350.2.2 = {
+        add_spouse = knott_2
+    }
+
+    6369.1.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+knott_2 = {
+    name = "Una"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = wrathful
+    trait = impatient
+    trait = callous
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_1
+
+    6333.1.9 = {
+        birth = yes
+    }
+
+    6405.5.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+knott_3 = {
+    name = "Lenyl"
+
+    dynasty = dynasty_knott
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = knott_1
+    mother = knott_2
+
+    trait = brave
+    trait = temperate
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6363.8.17 = {
+        birth = yes
+    }
+
+    6401.10.20 = {
+        add_spouse = knott_4
+    }
+
+    6434.2.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+knott_4 = {
+    name = "Cassia"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = ambitious
+    trait = forgiving
+    trait = chaste
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6384.3.14 = {
+        birth = yes
+    }
+
+    6459.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+knott_5 = {
+    name = "Tilly"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = knott_3
+    mother = knott_4
+
+    trait = sadistic
+    trait = brave
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 3
+    intrigue = 1
+    learning = 1
+    prowess = 2
+
+    trait = education_diplomacy_3
+
+    6414.8.13 = {
+        birth = yes
+    }
+
+    6487.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+knott_6 = {
+    name = "Gorn"
+
+    dynasty = dynasty_knott
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = knott_3
+    mother = knott_4
+
+    trait = fickle
+    trait = humble
+    trait = cynical
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 9
+    intrigue = 6
+    learning = 9
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6417.4.5 = {
+        birth = yes
+    }
+
+    6432.9.20 = {
+        add_spouse = knott_7
+    }
+
+    6489.11.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+knott_7 = {
+    name = "Clematis"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = fickle
+    trait = sadistic
+    trait = temperate
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 3
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_3
+
+    6415.6.11 = {
+        birth = yes
+    }
+
+    6493.9.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+knott_8 = {
+    name = "Craster"
+
+    dynasty = dynasty_knott
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = knott_6
+    mother = knott_7
+
+    trait = arbitrary
+    trait = gregarious
+    trait = chaste
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 3
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    6435.12.4 = {
+        birth = yes
+    }
+
+    6466.11.24 = {
+        add_spouse = knott_9
+    }
+
+    6509.2.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+knott_9 = {
+    name = "Kadis"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = generous
+    trait = patient
+    trait = honest
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    6449.3.20 = {
+        birth = yes
+    }
+
+    6527.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+knott_10 = {
+    name = "Dok"
+
+    dynasty = dynasty_knott
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = knott_8
+    mother = knott_9
+
+    trait = fickle
+    trait = sadistic
+    trait = arbitrary
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 8
+    learning = 8
+    prowess = 9
+
+    trait = education_intrigue_2
+
+    6466.1.8 = {
+        birth = yes
+    }
+
+    6500.6.7 = {
+        add_spouse = knott_11
+    }
+
+    6547.7.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+knott_11 = {
+    name = "Winterberry"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = cynical
+    trait = honest
+    trait = humble
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 2
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6483.3.24 = {
+        birth = yes
+    }
+
+    6557.12.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+knott_12 = {
+    name = "Varn"
+
+    dynasty = dynasty_knott
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = knott_10
+    mother = knott_11
+
+    trait = cynical
+    trait = craven
+    trait = fickle
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 2
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    6506.5.5 = {
+        birth = yes
+    }
+
+    6530.2.20 = {
+        add_spouse = knott_13
+    }
+
+    6586.12.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+knott_13 = {
+    name = "Lupina"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = temperate
+    trait = ambitious
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 9
+    learning = 1
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    6513.1.24 = {
+        birth = yes
+    }
+
+    6597.10.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+knott_14 = {
+    name = "Vorel"
+
+    dynasty = dynasty_knott
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = knott_12
+    mother = knott_13
+
+    trait = fickle
+    trait = compassionate
+    trait = lustful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 6
+    learning = 8
+    prowess = 9
+
+    trait = education_learning_3
+
+    6538.8.9 = {
+        birth = yes
+    }
+
+    6565.11.23 = {
+        add_spouse = knott_15
+    }
+
+    6606.3.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+knott_15 = {
+    name = "Tilly"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = ambitious
+    trait = cynical
+    trait = lazy
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 1
+    intrigue = 5
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_3
+
+    6548.4.13 = {
+        birth = yes
+    }
+
+    6619.5.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+knott_16 = {
+    name = "Alder"
+
+    dynasty = dynasty_knott
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = knott_12
+    mother = knott_13
+
+    trait = diligent
+    trait = paranoid
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 1
+    stewardship = 4
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    6541.9.4 = {
+        birth = yes
+    }
+
+    6591.3.26 = {
+        add_spouse = knott_17
+    }
+
+    6617.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+knott_17 = {
+    name = "Ally"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    trait = forgiving
+    trait = lustful
+    trait = greedy
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6574.3.18 = {
+        birth = yes
+    }
+
+    6644.3.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+knott_18 = {
+    name = "Minya"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = knott_12
+    mother = knott_13
+
+    trait = deceitful
+    trait = paranoid
+    trait = greedy
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 1
+
+    trait = education_martial_2
+
+    6547.6.23 = {
+        birth = yes
+    }
+
+    6632.5.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+knott_19 = {
+    name = "Lennel"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = knott_8
+    mother = knott_9
+
+    trait = just
+    trait = gluttonous
+    trait = impatient
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 6
+    intrigue = 8
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_2
+
+    6470.3.6 = {
+        birth = yes
+    }
+
+    6555.6.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+knott_20 = {
+    name = "Myrtle"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = knott_8
+    mother = knott_9
+
+    trait = arbitrary
+    trait = chaste
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 7
+    intrigue = 3
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    6478.9.15 = {
+        birth = yes
+    }
+
+    6545.12.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+knott_21 = {
+    name = "Cassie"
+    female = yes
+
+    religion = the_old_gods
+    culture = hill_clansmen
+
+    father = knott_6
+    mother = knott_7
+
+    trait = arbitrary
+    trait = trusting
+    trait = brave
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_2
+
+    6441.8.28 = {
+        birth = yes
+    }
+
+    6514.7.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

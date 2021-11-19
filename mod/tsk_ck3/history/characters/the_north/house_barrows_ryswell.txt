@@ -1,0 +1,2368 @@
+ryswell_1 = {
+    name = "Arthor"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = generous
+    trait = cynical
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 11
+    intrigue = 3
+    learning = 7
+    prowess = 1
+
+    trait = education_stewardship_3
+
+    6300.1.18 = {
+        birth = yes
+    }
+
+    6331.9.27 = {
+        add_spouse = ryswell_2
+    }
+
+    6367.1.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_2 = {
+    name = "Kyna"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = impatient
+    trait = gregarious
+    trait = chaste
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 7
+    intrigue = 3
+    learning = 8
+    prowess = 8
+
+    trait = education_martial_3
+
+    6314.4.14 = {
+        birth = yes
+    }
+
+    6395.1.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_3 = {
+    name = "Rickon"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_1
+    mother = ryswell_2
+
+    trait = ambitious
+    trait = gluttonous
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 3
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_1
+
+    6341.1.8 = {
+        birth = yes
+    }
+
+    6367.4.2 = {
+        add_spouse = ryswell_4
+    }
+
+    6407.10.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_4 = {
+    name = "Ewalyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = gregarious
+    trait = deceitful
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 1
+    intrigue = 10
+    learning = 9
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6350.6.9 = {
+        birth = yes
+    }
+
+    6434.3.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_5 = {
+    name = "Jeyne"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_3
+    mother = ryswell_4
+
+    trait = compassionate
+    trait = forgiving
+    trait = fickle
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 2
+    intrigue = 4
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_1
+
+    6372.7.8 = {
+        birth = yes
+    }
+
+    6450.2.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_6 = {
+    name = "Leobald"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_3
+    mother = ryswell_4
+
+    trait = fickle
+    trait = wrathful
+    trait = vengeful
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 2
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_3
+
+    6379.6.4 = {
+        birth = yes
+    }
+
+    6421.5.25 = {
+        add_spouse = ryswell_7
+    }
+
+    6452.6.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_7 = {
+    name = "Barbrey"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = craven
+    trait = temperate
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    6404.7.24 = {
+        birth = yes
+    }
+
+    6476.5.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_8 = {
+    name = "Ingrid"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_6
+    mother = ryswell_7
+
+    trait = fickle
+    trait = compassionate
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 2
+    intrigue = 5
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_2
+
+    6426.10.20 = {
+        birth = yes
+    }
+
+    6499.7.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_9 = {
+    name = "Rogar"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_6
+    mother = ryswell_7
+
+    trait = paranoid
+    trait = sadistic
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 8
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6427.12.11 = {
+        birth = yes
+    }
+
+    6452.6.11 = {
+        add_spouse = ryswell_10
+    }
+
+    6499.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_10 = {
+    name = "Shyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = diligent
+    trait = humble
+    trait = ambitious
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 7
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    6435.12.25 = {
+        birth = yes
+    }
+
+    6487.3.21 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+ryswell_11 = {
+    name = "Vagmir"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_9
+    mother = ryswell_10
+
+    trait = deceitful
+    trait = shy
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 6
+    intrigue = 11
+    learning = 2
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    6473.5.25 = {
+        birth = yes
+    }
+
+    6505.3.1 = {
+        add_spouse = ryswell_12
+    }
+
+    6521.1.26 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+ryswell_12 = {
+    name = "Kamyla"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = lazy
+    trait = content
+    trait = craven
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 6
+    intrigue = 3
+    learning = 3
+    prowess = 9
+
+    trait = education_martial_1
+
+    6488.6.26 = {
+        birth = yes
+    }
+
+    6564.2.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_13 = {
+    name = "Vayon"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_11
+    mother = ryswell_12
+
+    trait = greedy
+    trait = forgiving
+    trait = content
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 2
+    intrigue = 6
+    learning = 4
+    prowess = 3
+
+    trait = education_diplomacy_3
+
+    6507.7.12 = {
+        birth = yes
+    }
+
+    6544.3.26 = {
+        add_spouse = ryswell_14
+    }
+
+    6582.10.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_14 = {
+    name = "Lidia"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = lustful
+    trait = cynical
+    trait = ambitious
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_1
+
+    6527.6.22 = {
+        birth = yes
+    }
+
+    6612.2.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_15 = {
+    name = "Jonnel"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_13
+    mother = ryswell_14
+
+    trait = deceitful
+    trait = trusting
+    trait = chaste
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 8
+    intrigue = 3
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6545.9.27 = {
+        birth = yes
+    }
+
+    6564.8.14 = {
+        add_spouse = ryswell_16
+    }
+
+    6613.8.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_16 = {
+    name = "Sage"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = calm
+    trait = shy
+    trait = honest
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 9
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6547.11.13 = {
+        birth = yes
+    }
+
+    6627.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_17 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_13
+    mother = ryswell_14
+
+    trait = just
+    trait = temperate
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 1
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_4
+
+    6547.2.5 = {
+        birth = yes
+    }
+
+    6615.2.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_18 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_13
+    mother = ryswell_14
+
+    trait = lustful
+    trait = cynical
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 2
+    intrigue = 4
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_1
+
+    6548.5.16 = {
+        birth = yes
+    }
+
+    6619.12.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_19 = {
+    name = "Izabell"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_13
+    mother = ryswell_14
+
+    trait = fickle
+    trait = vengeful
+    trait = gregarious
+
+    diplomacy = 8
+    martial = 9
+    stewardship = 5
+    intrigue = 8
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_3
+
+    6550.5.13 = {
+        birth = yes
+    }
+
+    6627.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_20 = {
+    name = "Lydia"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_11
+    mother = ryswell_12
+
+    trait = impatient
+    trait = cynical
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_learning_3
+
+    6511.9.15 = {
+        birth = yes
+    }
+
+    6583.3.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_21 = {
+    name = "Ormr"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_11
+    mother = ryswell_12
+
+    trait = zealous
+    trait = gregarious
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_3
+
+    6513.6.2 = {
+        birth = yes
+    }
+
+    6545.3.20 = {
+        add_spouse = ryswell_22
+    }
+
+    6555.10.21 = {
+        death = { death_reason = death_head_ripped_off }
+    }
+}
+
+ryswell_22 = {
+    name = "Elyssi"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = diligent
+    trait = gregarious
+    trait = cynical
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 8
+    intrigue = 4
+    learning = 11
+    prowess = 6
+
+    trait = education_learning_3
+
+    6528.6.8 = {
+        birth = yes
+    }
+
+    6612.8.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_23 = {
+    name = "Felip"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_21
+    mother = ryswell_22
+
+    trait = compassionate
+    trait = sadistic
+    trait = gregarious
+
+    diplomacy = 8
+    martial = 11
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    6548.7.21 = {
+        birth = yes
+    }
+
+    6563.5.18 = {
+        add_spouse = ryswell_24
+    }
+
+    6622.5.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_24 = {
+    name = "Thyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = trusting
+    trait = ambitious
+    trait = generous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 3
+
+    trait = education_stewardship_2
+
+    6546.2.1 = {
+        birth = yes
+    }
+
+    6628.8.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_25 = {
+    name = "Gorm"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_21
+    mother = ryswell_22
+
+    trait = fickle
+    trait = lustful
+    trait = diligent
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 4
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_3
+
+    6551.5.6 = {
+        birth = yes
+    }
+
+    6584.12.25 = {
+        add_spouse = ryswell_26
+    }
+
+    6630.7.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_26 = {
+    name = "Ewa"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = patient
+    trait = ambitious
+    trait = calm
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6567.7.7 = {
+        birth = yes
+    }
+
+    6633.10.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_27 = {
+    name = "Marna"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_11
+    mother = ryswell_12
+
+    trait = temperate
+    trait = just
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    6514.5.15 = {
+        birth = yes
+    }
+
+    6598.8.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_28 = {
+    name = "Owen"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_6
+    mother = ryswell_7
+
+    trait = calm
+    trait = zealous
+    trait = arrogant
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 8
+    intrigue = 8
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6429.8.22 = {
+        birth = yes
+    }
+
+    6450.1.26 = {
+        add_spouse = ryswell_29
+    }
+
+    6506.5.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_29 = {
+    name = "Anna"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = patient
+    trait = arrogant
+    trait = calm
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6433.2.4 = {
+        birth = yes
+    }
+
+    6516.10.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_30 = {
+    name = "Barba"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_28
+    mother = ryswell_29
+
+    trait = sadistic
+    trait = stubborn
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 2
+    intrigue = 5
+    learning = 6
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    6450.2.26 = {
+        birth = yes
+    }
+
+    6522.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_31 = {
+    name = "Sarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_28
+    mother = ryswell_29
+
+    trait = paranoid
+    trait = lazy
+    trait = stubborn
+
+    diplomacy = 4
+    martial = 11
+    stewardship = 5
+    intrigue = 9
+    learning = 7
+    prowess = 1
+
+    trait = education_martial_3
+
+    6451.11.9 = {
+        birth = yes
+    }
+
+    6520.2.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_32 = {
+    name = "Larence"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_28
+    mother = ryswell_29
+
+    trait = shy
+    trait = wrathful
+    trait = lustful
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 7
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    6454.7.18 = {
+        birth = yes
+    }
+
+    6471.12.11 = {
+        add_spouse = ryswell_33
+    }
+
+    6521.2.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_33 = {
+    name = "Tyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = greedy
+    trait = zealous
+    trait = honest
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    6454.10.21 = {
+        birth = yes
+    }
+
+    6527.4.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_34 = {
+    name = "Ned"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_32
+    mother = ryswell_33
+
+    trait = callous
+    trait = lazy
+    trait = brave
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 4
+    intrigue = 4
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_2
+
+    6497.4.3 = {
+        birth = yes
+    }
+
+    6540.6.21 = {
+        add_spouse = ryswell_35
+    }
+
+    6578.3.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_35 = {
+    name = "Cateryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = trusting
+    trait = gluttonous
+    trait = just
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6523.12.13 = {
+        birth = yes
+    }
+
+    6603.2.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_36 = {
+    name = "Cecilia"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_34
+    mother = ryswell_35
+
+    trait = cynical
+    trait = trusting
+    trait = honest
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 1
+    intrigue = 4
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    6540.11.1 = {
+        birth = yes
+    }
+
+    6622.11.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_37 = {
+    name = "Elyassa"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_34
+    mother = ryswell_35
+
+    trait = forgiving
+    trait = just
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_4
+
+    6545.8.3 = {
+        birth = yes
+    }
+
+    6626.12.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_38 = {
+    name = "Walton"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_34
+    mother = ryswell_35
+
+    trait = impatient
+    trait = callous
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 11
+    intrigue = 7
+    learning = 11
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    6551.5.14 = {
+        birth = yes
+    }
+
+    6593.6.20 = {
+        add_spouse = ryswell_39
+    }
+
+    6621.1.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_39 = {
+    name = "Anna"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = fickle
+    trait = cynical
+    trait = trusting
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    6576.5.28 = {
+        birth = yes
+    }
+
+    6659.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_40 = {
+    name = "Vagmir"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_34
+    mother = ryswell_35
+
+    trait = fickle
+    trait = arrogant
+    trait = zealous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 5
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6552.8.21 = {
+        birth = yes
+    }
+
+    6553.5.10 = {
+        give_nickname = nick_the_gracious
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6592.3.11 = {
+        add_spouse = ryswell_41
+    }
+
+    6622.4.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_41 = {
+    name = "Sera"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = ambitious
+    trait = arrogant
+    trait = brave
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 3
+    prowess = 1
+
+    trait = education_martial_2
+
+    6575.1.10 = {
+        birth = yes
+    }
+
+    6627.11.14 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+ryswell_42 = {
+    name = "Mors"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_28
+    mother = ryswell_29
+
+    trait = arbitrary
+    trait = greedy
+    trait = arrogant
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 1
+    intrigue = 7
+    learning = 5
+    prowess = 11
+
+    trait = education_diplomacy_3
+
+    6455.9.14 = {
+        birth = yes
+    }
+
+    6503.9.8 = {
+        add_spouse = ryswell_43
+    }
+
+    6513.2.10 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+ryswell_43 = {
+    name = "Jolyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = vengeful
+    trait = wrathful
+    trait = honest
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 2
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_3
+
+    6486.12.7 = {
+        birth = yes
+    }
+
+    6558.8.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_44 = {
+    name = "Aefan"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_42
+    mother = ryswell_43
+
+    trait = temperate
+    trait = honest
+    trait = lazy
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 9
+    intrigue = 2
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    6503.12.19 = {
+        birth = yes
+    }
+
+    6530.5.22 = {
+        add_spouse = ryswell_45
+    }
+
+    6588.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_45 = {
+    name = "Cersera"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = vengeful
+    trait = gluttonous
+    trait = generous
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 4
+    intrigue = 2
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_3
+
+    6513.6.20 = {
+        birth = yes
+    }
+
+    6597.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_46 = {
+    name = "Thyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_44
+    mother = ryswell_45
+
+    trait = craven
+    trait = zealous
+    trait = just
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_3
+
+    6534.6.1 = {
+        birth = yes
+    }
+
+    6604.1.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_47 = {
+    name = "Knut"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_44
+    mother = ryswell_45
+
+    trait = greedy
+    trait = impatient
+    trait = ambitious
+
+    diplomacy = 25
+    martial = 21
+    stewardship = 16
+    intrigue = 9
+    learning = 17
+    prowess = 10
+
+    trait = education_diplomacy_4
+
+    6545.11.8 = {
+        birth = yes
+    }
+
+    6566.2.12 = {
+        add_spouse = ryswell_48
+    }
+
+    6613.9.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_48 = {
+    name = "Lidia"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = calm
+    trait = humble
+    trait = paranoid
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_3
+
+    6549.4.25 = {
+        birth = yes
+    }
+
+    6633.8.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_49 = {
+    name = "Craster"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_42
+    mother = ryswell_43
+
+    trait = diligent
+    trait = trusting
+    trait = patient
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 8
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    6507.1.8 = {
+        birth = yes
+    }
+
+    6538.12.13 = {
+        add_spouse = ryswell_50
+    }
+
+    6582.12.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_50 = {
+    name = "Cecil"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = compassionate
+    trait = trusting
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 1
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6521.12.10 = {
+        birth = yes
+    }
+
+    6589.7.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_51 = {
+    name = "Cateryna"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_49
+    mother = ryswell_50
+
+    trait = gluttonous
+    trait = stubborn
+    trait = humble
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    6538.4.25 = {
+        birth = yes
+    }
+
+    6618.5.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_52 = {
+    name = "Bo"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_49
+    mother = ryswell_50
+
+    trait = impatient
+    trait = sadistic
+    trait = brave
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    6552.7.11 = {
+        birth = yes
+    }
+
+    6575.9.19 = {
+        add_spouse = ryswell_53
+    }
+
+    6636.9.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_53 = {
+    name = "Ygritte"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = trusting
+    trait = compassionate
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 2
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_2
+
+    6558.11.17 = {
+        birth = yes
+    }
+
+    6632.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_54 = {
+    name = "Cayn"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_42
+    mother = ryswell_43
+
+    trait = wrathful
+    trait = ambitious
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6508.10.23 = {
+        birth = yes
+    }
+
+    6543.11.10 = {
+        add_spouse = ryswell_55
+    }
+
+    6580.10.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_55 = {
+    name = "Kennya"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = fickle
+    trait = paranoid
+    trait = patient
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 3
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_diplomacy_1
+
+    6526.2.25 = {
+        birth = yes
+    }
+
+    6610.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_56 = {
+    name = "Lonnel"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_54
+    mother = ryswell_55
+
+    trait = generous
+    trait = zealous
+    trait = ambitious
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 2
+    prowess = 9
+
+    trait = education_martial_1
+
+    6548.9.2 = {
+        birth = yes
+    }
+
+    6590.9.24 = {
+        add_spouse = ryswell_57
+    }
+
+    6626.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_57 = {
+    name = "Osha"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = gregarious
+    trait = lustful
+    trait = paranoid
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 8
+    intrigue = 8
+    learning = 6
+    prowess = 2
+
+    trait = education_stewardship_2
+
+    6573.4.21 = {
+        birth = yes
+    }
+
+    6655.5.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_58 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_54
+    mother = ryswell_55
+
+    trait = forgiving
+    trait = sadistic
+    trait = temperate
+
+    diplomacy = 8
+    martial = 2
+    stewardship = 4
+    intrigue = 8
+    learning = 8
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6555.4.8 = {
+        birth = yes
+    }
+
+    6627.2.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_59 = {
+    name = "Mance"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_6
+    mother = ryswell_7
+
+    trait = zealous
+    trait = callous
+    trait = patient
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 8
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    6430.3.18 = {
+        birth = yes
+    }
+
+    6480.11.1 = {
+        add_spouse = ryswell_60
+    }
+
+    6509.3.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_60 = {
+    name = "Kymila"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = craven
+    trait = arbitrary
+    trait = ambitious
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 1
+    intrigue = 7
+    learning = 8
+    prowess = 11
+
+    trait = education_learning_3
+
+    6463.5.26 = {
+        birth = yes
+    }
+
+    6539.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_61 = {
+    name = "Leona"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_59
+    mother = ryswell_60
+
+    trait = callous
+    trait = paranoid
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 1
+    intrigue = 3
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_2
+
+    6481.8.16 = {
+        birth = yes
+    }
+
+    6562.4.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_62 = {
+    name = "Rikulf"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_59
+    mother = ryswell_60
+
+    trait = just
+    trait = greedy
+    trait = gregarious
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 6
+    intrigue = 3
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6487.10.9 = {
+        birth = yes
+    }
+
+    6537.1.27 = {
+        add_spouse = ryswell_63
+    }
+
+    6554.2.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_63 = {
+    name = "Rikyssa"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = temperate
+    trait = vengeful
+    trait = arrogant
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 3
+    intrigue = 7
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_4
+
+    6520.2.9 = {
+        birth = yes
+    }
+
+    6574.9.14 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+ryswell_64 = {
+    name = "Berta"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_62
+    mother = ryswell_63
+
+    trait = compassionate
+    trait = wrathful
+    trait = honest
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    6538.2.2 = {
+        birth = yes
+    }
+
+    6609.11.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_65 = {
+    name = "Ygritte"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_62
+    mother = ryswell_63
+
+    trait = zealous
+    trait = craven
+    trait = lustful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 7
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6539.6.4 = {
+        birth = yes
+    }
+
+    6615.2.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_66 = {
+    name = "Robett"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_62
+    mother = ryswell_63
+
+    trait = greedy
+    trait = wrathful
+    trait = gregarious
+
+    diplomacy = 11
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 8
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6541.1.24 = {
+        birth = yes
+    }
+
+    6573.12.23 = {
+        add_spouse = ryswell_67
+    }
+
+    6620.10.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_67 = {
+    name = "Dacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = gluttonous
+    trait = impatient
+    trait = paranoid
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 2
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    6556.12.6 = {
+        birth = yes
+    }
+
+    6625.1.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_68 = {
+    name = "Wylis"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_66
+    mother = ryswell_67
+
+    trait = forgiving
+    trait = fickle
+    trait = generous
+
+    diplomacy = 11
+    martial = 8
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6576.4.9 = {
+        birth = yes
+    }
+
+    6615.5.7 = {
+        add_spouse = ryswell_69
+    }
+
+    6651.10.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_69 = {
+    name = "Sarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = wrathful
+    trait = compassionate
+    trait = diligent
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 8
+    intrigue = 6
+    learning = 9
+    prowess = 3
+
+    trait = education_learning_2
+
+    6598.1.10 = {
+        birth = yes
+    }
+
+    6680.6.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_70 = {
+    name = "Rodwell"
+
+    dynasty = dynasty_ryswell
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_66
+    mother = ryswell_67
+
+    trait = callous
+    trait = vengeful
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6580.10.4 = {
+        birth = yes
+    }
+
+    6615.5.23 = {
+        add_spouse = ryswell_71
+    }
+
+    6653.6.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_71 = {
+    name = "Lynarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    trait = calm
+    trait = arbitrary
+    trait = arrogant
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 5
+    intrigue = 2
+    learning = 4
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    6598.12.18 = {
+        birth = yes
+    }
+
+    6680.9.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_72 = {
+    name = "Berta"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_62
+    mother = ryswell_63
+
+    trait = zealous
+    trait = brave
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 6
+    prowess = 1
+
+    trait = education_diplomacy_3
+
+    6545.9.8 = {
+        birth = yes
+    }
+
+    6620.1.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ryswell_73 = {
+    name = "Sybelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = barrowmen
+
+    father = ryswell_3
+    mother = ryswell_4
+
+    trait = stubborn
+    trait = callous
+    trait = patient
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 8
+    intrigue = 5
+    learning = 4
+    prowess = 2
+
+    trait = education_stewardship_2
+
+    6385.6.19 = {
+        birth = yes
+    }
+
+    6459.9.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}

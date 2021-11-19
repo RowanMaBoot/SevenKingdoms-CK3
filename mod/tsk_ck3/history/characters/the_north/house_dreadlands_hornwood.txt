@@ -1,0 +1,775 @@
+hornwood_1 = {
+    name = "Klas"
+
+    dynasty = dynasty_hornwood
+    religion = the_old_gods
+    culture = northmen
+
+    trait = trusting
+    trait = greedy
+    trait = shy
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 4
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_2
+
+    6300.11.17 = {
+        birth = yes
+    }
+
+    6319.3.13 = {
+        add_spouse = hornwood_2
+    }
+
+    6378.12.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+hornwood_2 = {
+    name = "Raya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = gluttonous
+    trait = generous
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 3
+    intrigue = 7
+    learning = 6
+    prowess = 3
+
+    trait = education_intrigue_4
+
+    6302.7.1 = {
+        birth = yes
+    }
+
+    6370.7.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+hornwood_3 = {
+    name = "Arthor"
+
+    dynasty = dynasty_hornwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = hornwood_1
+    mother = hornwood_2
+
+    trait = arbitrary
+    trait = brave
+    trait = vengeful
+
+    diplomacy = 10
+    martial = 10
+    stewardship = 4
+    intrigue = 3
+    learning = 10
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    6341.5.14 = {
+        birth = yes
+    }
+
+    6389.2.15 = {
+        add_spouse = hornwood_4
+    }
+
+    6413.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+hornwood_4 = {
+    name = "Lyra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = impatient
+    trait = just
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 9
+
+    trait = education_learning_4
+
+    6372.3.23 = {
+        birth = yes
+    }
+
+    6440.2.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+hornwood_5 = {
+    name = "Mors"
+
+    dynasty = dynasty_hornwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = hornwood_3
+    mother = hornwood_4
+
+    trait = shy
+    trait = craven
+    trait = generous
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 7
+    learning = 3
+    prowess = 3
+
+    trait = education_stewardship_2
+
+    6392.3.28 = {
+        birth = yes
+    }
+
+    6413.2.15 = {
+        add_spouse = hornwood_6
+    }
+
+    6440.8.4 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+hornwood_6 = {
+    name = "Faya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = greedy
+    trait = deceitful
+    trait = cynical
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 2
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6396.10.25 = {
+        birth = yes
+    }
+
+    6479.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+hornwood_7 = {
+    name = "Kettil"
+
+    dynasty = dynasty_hornwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = hornwood_5
+    mother = hornwood_6
+
+    trait = deceitful
+    trait = stubborn
+    trait = brave
+
+    diplomacy = 9
+    martial = 3
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6419.2.9 = {
+        birth = yes
+    }
+
+    6461.6.24 = {
+        add_spouse = hornwood_8
+    }
+
+    6494.5.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+hornwood_8 = {
+    name = "Lynarra"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = arrogant
+    trait = forgiving
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6444.10.9 = {
+        birth = yes
+    }
+
+    6511.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+hornwood_9 = {
+    name = "Starkad"
+
+    dynasty = dynasty_hornwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = hornwood_7
+    mother = hornwood_8
+
+    trait = humble
+    trait = vengeful
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 2
+
+    trait = education_stewardship_2
+
+    6468.3.2 = {
+        birth = yes
+    }
+
+    6516.3.7 = {
+        add_spouse = hornwood_10
+    }
+
+    6548.1.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+hornwood_10 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = gregarious
+    trait = craven
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_4
+
+    6499.9.23 = {
+        birth = yes
+    }
+
+    6571.9.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+hornwood_11 = {
+    name = "Oddr"
+
+    dynasty = dynasty_hornwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = hornwood_9
+    mother = hornwood_10
+
+    trait = wrathful
+    trait = craven
+    trait = gregarious
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 7
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_2
+
+    6517.2.1 = {
+        birth = yes
+    }
+
+    6545.4.28 = {
+        add_spouse = hornwood_12
+    }
+
+    6594.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+hornwood_12 = {
+    name = "Cassana"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = deceitful
+    trait = stubborn
+    trait = sadistic
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    6528.7.9 = {
+        birth = yes
+    }
+
+    6578.2.2 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+hornwood_13 = {
+    name = "Ulward"
+
+    dynasty = dynasty_hornwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = hornwood_11
+    mother = hornwood_12
+
+    trait = patient
+    trait = generous
+    trait = lustful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 3
+    intrigue = 5
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6573.8.5 = {
+        birth = yes
+    }
+
+    6612.10.4 = {
+        add_spouse = hornwood_14
+    }
+
+    6651.4.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+hornwood_14 = {
+    name = "Lacey"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = craven
+    trait = generous
+    trait = vengeful
+
+    diplomacy = 4
+    martial = 10
+    stewardship = 5
+    intrigue = 5
+    learning = 9
+    prowess = 4
+
+    trait = education_martial_4
+
+    6595.4.24 = {
+        birth = yes
+    }
+
+    6671.9.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+hornwood_15 = {
+    name = "Kael"
+
+    dynasty = dynasty_hornwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = hornwood_9
+    mother = hornwood_10
+
+    trait = patient
+    trait = fickle
+    trait = callous
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 7
+    intrigue = 9
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    6522.2.27 = {
+        birth = yes
+    }
+
+    6570.5.15 = {
+        add_spouse = hornwood_16
+    }
+
+    6599.6.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+hornwood_16 = {
+    name = "Bellena"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = humble
+    trait = vengeful
+    trait = wrathful
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6553.9.3 = {
+        birth = yes
+    }
+
+    6630.9.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+hornwood_17 = {
+    name = "Jory"
+
+    dynasty = dynasty_hornwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = hornwood_15
+    mother = hornwood_16
+
+    trait = patient
+    trait = just
+    trait = diligent
+
+    diplomacy = 1
+    martial = 8
+    stewardship = 6
+    intrigue = 8
+    learning = 8
+    prowess = 8
+
+    trait = education_martial_2
+
+    6575.1.9 = {
+        birth = yes
+    }
+
+    6624.8.1 = {
+        add_spouse = hornwood_18
+    }
+
+    6653.2.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+hornwood_18 = {
+    name = "Aregelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = stubborn
+    trait = patient
+    trait = just
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 11
+    intrigue = 7
+    learning = 11
+    prowess = 10
+
+    trait = education_stewardship_4
+
+    6607.11.18 = {
+        birth = yes
+    }
+
+    6674.3.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+hornwood_19 = {
+    name = "Bessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = hornwood_15
+    mother = hornwood_16
+
+    trait = just
+    trait = callous
+    trait = calm
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 3
+    intrigue = 6
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_3
+
+    6582.5.27 = {
+        birth = yes
+    }
+
+    6665.12.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+hornwood_20 = {
+    name = "Ricardya"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    father = hornwood_15
+    mother = hornwood_16
+
+    trait = craven
+    trait = zealous
+    trait = honest
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 8
+    intrigue = 3
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    6586.7.12 = {
+        birth = yes
+    }
+
+    6666.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+hornwood_21 = {
+    name = "Alaric"
+
+    dynasty = dynasty_hornwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = hornwood_9
+    mother = hornwood_10
+
+    trait = gluttonous
+    trait = lazy
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 9
+
+    trait = education_learning_1
+
+    6529.1.8 = {
+        birth = yes
+    }
+
+    6567.10.19 = {
+        add_spouse = hornwood_22
+    }
+
+    6610.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+hornwood_22 = {
+    name = "Palla"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = diligent
+    trait = trusting
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 8
+    intrigue = 5
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_4
+
+    6550.11.15 = {
+        birth = yes
+    }
+
+    6620.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+hornwood_23 = {
+    name = "Harrion"
+
+    dynasty = dynasty_hornwood
+    religion = the_old_gods
+    culture = northmen
+
+    father = hornwood_21
+    mother = hornwood_22
+
+    trait = cynical
+    trait = compassionate
+    trait = deceitful
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 5
+
+    trait = education_learning_3
+
+    6568.10.2 = {
+        birth = yes
+    }
+
+    6608.3.27 = {
+        add_spouse = hornwood_24
+    }
+
+    6634.2.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+hornwood_24 = {
+    name = "Sansa"
+    female = yes
+
+    religion = the_old_gods
+    culture = northmen
+
+    trait = calm
+    trait = deceitful
+    trait = humble
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 8
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    6591.7.15 = {
+        birth = yes
+    }
+
+    6673.11.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
