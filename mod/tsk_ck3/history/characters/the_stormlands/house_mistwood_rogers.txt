@@ -1,0 +1,848 @@
+rogers_1 = {
+    name = "Leobald"
+
+    dynasty = dynasty_rogers
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = honest
+    trait = humble
+    trait = fickle
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    6300.8.25 = {
+        birth = yes
+    }
+
+    6337.10.18 = {
+        add_spouse = rogers_2
+    }
+
+    6374.10.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+rogers_2 = {
+    name = "Ellyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = vengeful
+    trait = callous
+    trait = zealous
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 3
+
+    trait = education_martial_3
+
+    6320.3.26 = {
+        birth = yes
+    }
+
+    6396.3.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+rogers_3 = {
+    name = "Ralph"
+
+    dynasty = dynasty_rogers
+    religion = the_old_gods
+    culture = stormmen
+
+    father = rogers_1
+    mother = rogers_2
+
+    trait = arrogant
+    trait = just
+    trait = lazy
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 6
+    intrigue = 10
+    learning = 9
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    6353.10.16 = {
+        birth = yes
+    }
+
+    6354.7.20 = {
+        give_nickname = nick_the_shepherd
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    6393.1.17 = {
+        add_spouse = rogers_4
+    }
+
+    6425.8.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+rogers_4 = {
+    name = "Rhi"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = honest
+    trait = wrathful
+    trait = sadistic
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6376.3.19 = {
+        birth = yes
+    }
+
+    6451.6.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+rogers_5 = {
+    name = "Melessa"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = rogers_3
+    mother = rogers_4
+
+    trait = vengeful
+    trait = fickle
+    trait = callous
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    6406.2.16 = {
+        birth = yes
+    }
+
+    6487.9.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+rogers_6 = {
+    name = "Royce"
+
+    dynasty = dynasty_rogers
+    religion = the_old_gods
+    culture = stormmen
+
+    father = rogers_3
+    mother = rogers_4
+
+    trait = stubborn
+    trait = just
+    trait = ambitious
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 6
+    intrigue = 9
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    6409.7.27 = {
+        birth = yes
+    }
+
+    6442.4.20 = {
+        add_spouse = rogers_7
+    }
+
+    6489.1.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+rogers_7 = {
+    name = "Daisy"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = just
+    trait = arrogant
+    trait = generous
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 7
+    intrigue = 9
+    learning = 8
+    prowess = 2
+
+    trait = education_intrigue_3
+
+    6425.11.3 = {
+        birth = yes
+    }
+
+    6498.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+rogers_8 = {
+    name = "Leobald"
+
+    dynasty = dynasty_rogers
+    religion = the_old_gods
+    culture = stormmen
+
+    father = rogers_6
+    mother = rogers_7
+
+    trait = arbitrary
+    trait = shy
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 5
+    intrigue = 10
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6468.1.16 = {
+        birth = yes
+    }
+
+    6491.12.12 = {
+        add_spouse = rogers_9
+    }
+
+    6543.2.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+rogers_9 = {
+    name = "Eglantine"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = gregarious
+    trait = lazy
+    trait = just
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 9
+    intrigue = 7
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    6474.8.6 = {
+        birth = yes
+    }
+
+    6555.12.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+rogers_10 = {
+    name = "Benedict"
+
+    dynasty = dynasty_rogers
+    religion = the_old_gods
+    culture = stormmen
+
+    father = rogers_8
+    mother = rogers_9
+
+    trait = temperate
+    trait = humble
+    trait = paranoid
+
+    diplomacy = 18
+    martial = 12
+    stewardship = 17
+    intrigue = 14
+    learning = 9
+    prowess = 10
+
+    trait = education_diplomacy_4
+
+    6495.9.22 = {
+        birth = yes
+    }
+
+    6520.9.26 = {
+        add_spouse = rogers_11
+    }
+
+    6565.6.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+rogers_11 = {
+    name = "Brella"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = deceitful
+    trait = trusting
+    trait = calm
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_4
+
+    6503.10.19 = {
+        birth = yes
+    }
+
+    6581.3.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+rogers_12 = {
+    name = "Grance"
+
+    dynasty = dynasty_rogers
+    religion = the_old_gods
+    culture = stormmen
+
+    father = rogers_10
+    mother = rogers_11
+
+    trait = generous
+    trait = gregarious
+    trait = ambitious
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 4
+    intrigue = 9
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    6521.6.8 = {
+        birth = yes
+    }
+
+    6564.6.6 = {
+        add_spouse = rogers_13
+    }
+
+    6574.12.21 = {
+        death = { death_reason = death_beaten }
+    }
+}
+
+rogers_13 = {
+    name = "Larra"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = lazy
+    trait = arbitrary
+    trait = wrathful
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6547.12.5 = {
+        birth = yes
+    }
+
+    6628.3.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+rogers_14 = {
+    name = "Arion"
+
+    dynasty = dynasty_rogers
+    religion = the_old_gods
+    culture = stormmen
+
+    father = rogers_12
+    mother = rogers_13
+
+    trait = ambitious
+    trait = zealous
+    trait = humble
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 6
+    intrigue = 3
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6565.4.5 = {
+        birth = yes
+    }
+
+    6608.7.12 = {
+        add_spouse = rogers_15
+    }
+
+    6618.10.28 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+rogers_15 = {
+    name = "Roelle"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = arrogant
+    trait = forgiving
+    trait = lustful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 11
+    intrigue = 4
+    learning = 2
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    6591.3.8 = {
+        birth = yes
+    }
+
+    6670.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+rogers_16 = {
+    name = "Borros"
+
+    dynasty = dynasty_rogers
+    religion = the_old_gods
+    culture = stormmen
+
+    father = rogers_10
+    mother = rogers_11
+
+    trait = generous
+    trait = paranoid
+    trait = arbitrary
+
+    diplomacy = 11
+    martial = 5
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    6526.6.12 = {
+        birth = yes
+    }
+
+    6551.8.28 = {
+        add_spouse = rogers_17
+    }
+
+    6599.8.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+rogers_17 = {
+    name = "Mina"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = honest
+    trait = generous
+    trait = shy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_2
+
+    6534.2.18 = {
+        birth = yes
+    }
+
+    6613.6.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+rogers_18 = {
+    name = "Theo"
+
+    dynasty = dynasty_rogers
+    religion = the_old_gods
+    culture = stormmen
+
+    father = rogers_16
+    mother = rogers_17
+
+    trait = ambitious
+    trait = humble
+    trait = forgiving
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 7
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6559.12.27 = {
+        birth = yes
+    }
+
+    6588.11.16 = {
+        add_spouse = rogers_19
+    }
+
+    6598.3.14 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+rogers_19 = {
+    name = "Kelyce"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = callous
+    trait = calm
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 4
+    intrigue = 4
+    learning = 4
+    prowess = 3
+
+    trait = education_martial_3
+
+    6571.8.13 = {
+        birth = yes
+    }
+
+    6642.2.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+rogers_20 = {
+    name = "Bryen"
+
+    dynasty = dynasty_rogers
+    religion = the_old_gods
+    culture = stormmen
+
+    father = rogers_10
+    mother = rogers_11
+
+    trait = ambitious
+    trait = gregarious
+    trait = temperate
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 7
+    intrigue = 3
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_1
+
+    6534.11.1 = {
+        birth = yes
+    }
+
+    6551.7.12 = {
+        add_spouse = rogers_21
+    }
+
+    6610.9.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+rogers_21 = {
+    name = "Jocelyn"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = lazy
+    trait = sadistic
+    trait = trusting
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    6534.2.12 = {
+        birth = yes
+    }
+
+    6612.11.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+rogers_22 = {
+    name = "Daini"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = rogers_20
+    mother = rogers_21
+
+    trait = forgiving
+    trait = wrathful
+    trait = content
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 9
+    intrigue = 6
+    learning = 6
+    prowess = 10
+
+    trait = education_stewardship_2
+
+    6558.9.24 = {
+        birth = yes
+    }
+
+    6631.1.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+rogers_23 = {
+    name = "Rohanne"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = rogers_20
+    mother = rogers_21
+
+    trait = lazy
+    trait = shy
+    trait = chaste
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 6
+    intrigue = 9
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_3
+
+    6561.6.4 = {
+        birth = yes
+    }
+
+    6635.12.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+rogers_24 = {
+    name = "Olryn"
+
+    dynasty = dynasty_rogers
+    religion = the_old_gods
+    culture = stormmen
+
+    father = rogers_20
+    mother = rogers_21
+
+    trait = patient
+    trait = shy
+    trait = lustful
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 3
+    intrigue = 6
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_2
+
+    6567.12.10 = {
+        birth = yes
+    }
+
+    6611.12.21 = {
+        add_spouse = rogers_25
+    }
+
+    6651.3.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+rogers_25 = {
+    name = "Elinor"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    trait = arbitrary
+    trait = cynical
+    trait = generous
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 8
+    intrigue = 7
+    learning = 6
+    prowess = 2
+
+    trait = education_martial_2
+
+    6594.2.12 = {
+        birth = yes
+    }
+
+    6665.12.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+rogers_26 = {
+    name = "Bri"
+    female = yes
+
+    religion = the_old_gods
+    culture = stormmen
+
+    father = rogers_8
+    mother = rogers_9
+
+    trait = generous
+    trait = wrathful
+    trait = lazy
+
+    diplomacy = 7
+    martial = 8
+    stewardship = 6
+    intrigue = 4
+    learning = 8
+    prowess = 5
+
+    trait = education_martial_2
+
+    6501.7.4 = {
+        birth = yes
+    }
+
+    6583.3.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
