@@ -7,41 +7,41 @@ drowned_god_religion = {
 	doctrine = pagan_hostility_doctrine
 
 	#Main Group
-	doctrine = doctrine_no_head
+	doctrine = doctrine_no_head #Spiritual?
 	doctrine = doctrine_gender_male_dominated
-	doctrine = doctrine_pluralism_pluralistic
-	doctrine = doctrine_theocracy_temporal
+	doctrine = doctrine_pluralism_fundamentalist
+	doctrine = doctrine_theocracy_temporal #
 
 	#Marriage
-	doctrine = doctrine_concubines
+	doctrine = doctrine_concubines #Salt-wives
 	doctrine = doctrine_divorce_allowed
 	doctrine = doctrine_bastardry_legitimization
-	doctrine = doctrine_consanguinity_cousins
+	doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
 
 	#Crimes
-	doctrine = doctrine_homosexuality_crime
-	doctrine = doctrine_adultery_men_crime
-	doctrine = doctrine_adultery_women_crime
-	doctrine = doctrine_kinslaying_close_kin_crime
-	doctrine = doctrine_deviancy_crime
-	doctrine = doctrine_witchcraft_crime
+	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_adultery_men_shunned
+	doctrine = doctrine_adultery_women_shunned
+	doctrine = doctrine_kinslaying_close_kin_shunned
+	doctrine = doctrine_deviancy_shunned
+	doctrine = doctrine_witchcraft_shunned
 
 	#Clerical Functions
-	doctrine = doctrine_clerical_function_recruitment
-	doctrine = doctrine_clerical_gender_either
-	doctrine = doctrine_clerical_marriage_allowed
-	doctrine = doctrine_clerical_succession_temporal_appointment
+	doctrine = doctrine_clerical_function_recruitment #
+	doctrine = doctrine_clerical_gender_male_only #
+	doctrine = doctrine_clerical_marriage_disallowed
+	doctrine = doctrine_clerical_succession_temporal_fixed_appointment
 
 	traits = {
-		virtues = { brave wrathful vengeful poet one_eyed }
-		sins = { craven deceitful forgiving }
+		virtues = { brave wrathful vengeful }
+		sins = { craven lazy arrogant }
 	}
 
 	reserved_male_names = {
-		Bran Tormund
+		Anund 
 	}
 	reserved_female_names = {
-		Brienne
+		Aslaug 
 	}
 
 	custom_faith_icons = {
@@ -50,12 +50,9 @@ drowned_god_religion = {
 
 	holy_order_names = {
 		{ name = "holy_order_jomsvikings" }
-		{ name = "holy_order_faithful_of_tyr" }
-		{ name = "holy_order_odins_valkyries" }
-		{ name = "holy_order_chosen_of_freyja" }
 	}
 
-	holy_order_maa = { jomsviking_pirates }
+	holy_order_maa = { jomsviking_pirates } # Reaver
 
 	localization = {
 		#HighGodName
@@ -64,6 +61,8 @@ drowned_god_religion = {
 		HighGodNameSheHe = CHARACTER_SHEHE_HE
 		HighGodHerselfHimself = CHARACTER_HIMSELF
 		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = drowned_god_high_god_alternate
+		HighGodNameAlternatePossessive = drowned_god_high_god_alternate_possessive
 
 		#Creator
 		CreatorName = drowned_god_creator_god_name
@@ -78,7 +77,7 @@ drowned_god_religion = {
 		HealthGodSheHe = CHARACTER_SHEHE_SHE
 		HealthGodHerHis = CHARACTER_HERHIS_HER
 		HealthGodHerHim = CHARACTER_HERHIM_HER
-
+		
 		#FertilityGod
 		FertilityGodName = drowned_god_fertility_god_name
 		FertilityGodNamePossessive = drowned_god_fertility_god_name_possessive
@@ -151,7 +150,7 @@ drowned_god_religion = {
 		DevilSheHe = CHARACTER_SHEHE_HE
 		DevilHerHis = CHARACTER_HERHIS_HIS
 		DevilHerselfHimself = CHARACTER_HIMSELF
-		EvilGodNames = { drowned_god_evil_god_storm }
+		EvilGodNames = { drowned_god_evil_god_surtr drowned_god_evil_god_ymir }
 		HouseOfWorship = paganism_house_of_worship
 		HouseOfWorshipPlural = paganism_house_of_worship_plural
 		ReligiousSymbol = drowned_god_religious_symbol
@@ -197,31 +196,28 @@ drowned_god_religion = {
 	}
 
 	faiths = {
-        the_drowned_god = {
-			color = { 0.41 0.43 0.50 }
-			icon = germanic
-			reformed_icon = germanic_reformed
+		drowned_god = {
+			color = { 0.4 0.4 0.4 } #
+			icon = drowned_god #
+			#reformed_icon = drowned_god_reformed #
+
+			#holy_site = uppsala
+
+			#doctrine = unreformed_faith_doctrine
 
 			doctrine = tenet_warmonger
-
+			# Gruesome Festivals, else Human Sacrifice.
 			doctrine_selection_pair = {
 				requires_dlc_flag = the_northern_lords
 				doctrine = tenet_gruesome_festivals
 				fallback_doctrine = tenet_human_sacrifice
 			}
-		}
-		the_storm_god = {
-			color = { 0.41 0.43 0.50 }
-			icon = germanic
-			reformed_icon = germanic_reformed
-
-			doctrine = tenet_warmonger
-
+			# Bhakti, else Ancestor Worship.
 			doctrine_selection_pair = {
 				requires_dlc_flag = the_northern_lords
-				doctrine = tenet_gruesome_festivals
-				fallback_doctrine = tenet_human_sacrifice
+				doctrine = tenet_bhakti
+				fallback_doctrine = tenet_ancestor_worship
 			}
 		}
-    }
+	}
 }

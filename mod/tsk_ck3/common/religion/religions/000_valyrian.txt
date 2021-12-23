@@ -1,41 +1,42 @@
-the_seven_religion = {
-	family = rf_western_essosi
+valyrian_religion = {
+	family = rf_central_essosi
 
 	doctrine_background_icon = core_tenet_banner_christian.dds
-	doctrine = abrahamic_hostility_doctrine
+	doctrine = centeral_hostility_doctrine #Extreme Tolerance?
+	graphical_faith = "catholic_gfx" #Custom eventually?
 
 	#Main Group
-	doctrine = doctrine_spiritual_head
-	doctrine = doctrine_gender_male_dominated
-	doctrine = doctrine_pluralism_righteous
-	doctrine = doctrine_theocracy_temporal
+	doctrine = doctrine_no_head
+	doctrine = doctrine_gender_male_dominated #Equality
+	doctrine = doctrine_pluralism_righteous #
+	doctrine = doctrine_theocracy_temporal #
 
 	#Marriage
 	doctrine = doctrine_monogamy
 	doctrine = doctrine_divorce_approval
 	doctrine = doctrine_bastardry_legitimization
-	doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
+	doctrine = doctrine_consanguinity_cousins # Change to cousin
 
 	#Crimes
 	doctrine = doctrine_homosexuality_shunned
 	doctrine = doctrine_adultery_men_shunned
 	doctrine = doctrine_adultery_women_crime
-	doctrine = doctrine_kinslaying_close_kin_crime
-	doctrine = doctrine_deviancy_crime
-	doctrine = doctrine_witchcraft_crime
+	doctrine = doctrine_kinslaying_close_kin_crime # How much do the seven care?
+	doctrine = doctrine_deviancy_shunned # Not as important?
+	doctrine = doctrine_witchcraft_crime # ?
 
 	#Clerical Functions
 	doctrine = doctrine_clerical_function_taxation
-	doctrine = doctrine_clerical_gender_male_only
+	doctrine = doctrine_clerical_gender_male_only #Septa's?
 	doctrine = doctrine_clerical_marriage_disallowed
 	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
 
 	#Special Doctrine for Christian Syncretism
-	doctrine = special_doctrine_is_christian_faith
+	doctrine = special_doctrine_is_seven_faith
 
 	traits = {
-		virtues = { forgiving compassionate chaste }
-		sins = { vengeful sadistic lustful }
+		virtues = { humble generous chaste }
+		sins = { arrogant sadistic lustful }
 	}
 
 	reserved_male_names = {
@@ -53,16 +54,10 @@ the_seven_religion = {
 	}
 
 	holy_order_names = {
-		{ name = "holy_order_knights_of_the_chalice" }
-		{ name = "holy_order_order_of_the_holy_communion" }
-		{ name = "holy_order_knights_of_the_first_gospel" }
-		{ name = "holy_order_guardians_of_the_shroud" }
-		{ name = "holy_order_knights_of_the_reliquary" }
-		{ name = "holy_order_warriors_of_the_cross" }
-		{ name = "holy_order_christian" coat_of_arms = "ho_christian" }
+		{ name = "holy_order_christian" coat_of_arms = "ho_christian" } #
 	}
 
-	holy_order_maa = { teutonic_knights }
+	holy_order_maa = { andal_knights } #Andal Knight
 
 	localization = {
 		#HighGod
@@ -87,7 +82,7 @@ the_seven_religion = {
 		HealthGodSheHe = CHARACTER_SHEHE_HE
 		HealthGodHerHis = CHARACTER_HERHIS_HIS
 		HealthGodHerHim = CHARACTER_HERHIM_HIM
-
+		
 		#FertilityGod
 		FertilityGodName = christianity_fertility_god_name
 		FertilityGodNamePossessive = christianity_fertility_god_name_possessive
@@ -215,75 +210,197 @@ the_seven_religion = {
 		GHWNamePlural = ghw_crusades
 
 	}
-
+	
 	piety_icon_group = "christian"
 
 	faiths = {
 		the_seven = {
-			color = { 0.74 0.75 0.55 }
-			religious_head = c_oldtown
+			color = { 0.8 0.8 0.6 }
+			religious_head = k_papal_state #
 			graphical_faith = "catholic_gfx"
-
+			
+			#holy_site = jerusalem #
+			
 			#Special Tolerance
 			#doctrine = special_doctrine_ecumenical_christian
 
 			#Tenets
 			doctrine = tenet_communion
-			doctrine = tenet_armed_pilgrimages
+			doctrine = tenet_mendicant_preachers
 			doctrine = tenet_monasticism
 
 			holy_order_names = {
 				{ name = "holy_order_knights_templar" coat_of_arms = "ho_knights_templar" }
-				{ name = "holy_order_knights_hospitaller" coat_of_arms = "ho_knights_hospitaller"  }
-				{ name = "holy_order_teutonic_order" coat_of_arms = "ho_teutonic_order"  }
-				{ name = "holy_order_order_of_calatrava" coat_of_arms = "ho_order_of_calatrava"  }
-				{ name = "holy_order_order_of_alcantara" coat_of_arms = "ho_order_of_alcantara"  }
-				{ name = "holy_order_knights_of_santiago" coat_of_arms = "ho_knights_of_santiago"  }
 			}
 
-			localization = { # Utilizes the 'West Christian' Saints, shared by Catholics and Orthodox
-				#FertilityGod
-				FertilityGodName = west_christian_fertility_god_name
-				FertilityGodNamePossessive = west_christian_fertility_god_name_possessive
-				FertilityGodSheHe = CHARACTER_SHEHE_SHE
-				FertilityGodHerHis = CHARACTER_HERHIS_HER
-				FertilityGodHerHim = CHARACTER_HERHIM_HER
-
-				#WealthGod
-				WealthGodName = west_christian_wealth_god_name
-				WealthGodNamePossessive = west_christian_wealth_god_name_possessive
-				WealthGodSheHe = CHARACTER_SHEHE_HE
-				WealthGodHerHis = CHARACTER_HERHIS_HIS
-				WealthGodHerHim = CHARACTER_HERHIM_HIM
-
-				#HouseholdGod
-				HouseholdGodName = west_christian_household_god_name
-				HouseholdGodNamePossessive = west_christian_household_god_name_possessive
-				HouseholdGodSheHe = CHARACTER_SHEHE_HE
-				HouseholdGodHerHis = CHARACTER_HERHIS_HIS
-				HouseholdGodHerHim = CHARACTER_HERHIM_HIM
-
-				#KnowledgeGod
-				KnowledgeGodName = west_christian_knowledge_god_name
-				KnowledgeGodNamePossessive = west_christian_knowledge_god_name_possessive
-				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
-				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
-				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
-
-				#WarGod
-				WarGodName = west_christian_war_god_name
-				WarGodNamePossessive = west_christian_war_god_name_possessive
-				WarGodSheHe = CHARACTER_SHEHE_HE
-				WarGodHerHis = CHARACTER_HERHIS_HIS
-				WarGodHerHim = CHARACTER_HERHIM_HIM
-
-				#WaterGod
-				WaterGodName = west_christian_water_god_name
-				WaterGodNamePossessive = west_christian_water_god_name_possessive
-				WaterGodSheHe = CHARACTER_SHEHE_HE
-				WaterGodHerHis = CHARACTER_HERHIS_HIS
-				WaterGodHerHim = CHARACTER_HERHIM_HIM
+			localization = {
 			}
 		}
-    }
+		the_seven_gods = {
+			color = { 0.8 0.8 0.6 }
+			religious_head = k_papal_state #
+			graphical_faith = "catholic_gfx"
+			
+			holy_site = jerusalem #
+			holy_site = rome #
+			holy_site = cologne #
+			holy_site = santiago #
+			holy_site = kent #
+			holy_site = segrada_familia #
+			
+			#Special Tolerance
+			#doctrine = special_doctrine_ecumenical_christian
+
+			#Tenets
+			doctrine = tenet_gnosticism
+			doctrine = tenet_esotericism
+			doctrine = tenet_patron_gods
+
+			holy_order_names = {
+				{ name = "holy_order_knights_templar" coat_of_arms = "ho_knights_templar" }
+			}
+
+			localization = {
+			}
+		}
+		the_mother = {
+			color = { 0.8 0.8 0.6 }
+			religious_head = k_papal_state #
+			graphical_faith = "catholic_gfx"
+			
+			holy_site = jerusalem #
+			holy_site = rome #
+			holy_site = cologne #
+			holy_site = santiago #
+			holy_site = kent #
+			holy_site = segrada_familia #
+			
+			#Special Tolerance
+			#doctrine = special_doctrine_ecumenical_christian
+			
+			doctrine = doctrine_pluralism_pluralistic
+			
+			#Tenets
+			doctrine = tenet_sacred_childbirth
+			doctrine = tenet_communion
+			doctrine = tenet_monasticism
+
+			holy_order_names = {
+				{ name = "holy_order_knights_templar" coat_of_arms = "ho_knights_templar" }
+			}
+
+			localization = {
+			}
+		}
+		the_stranger = {
+			color = { 0.8 0.8 0.6 }
+			religious_head = k_papal_state #
+			graphical_faith = "catholic_gfx"
+			
+			holy_site = jerusalem #
+			holy_site = rome #
+			holy_site = cologne #
+			holy_site = santiago #
+			holy_site = kent #
+			holy_site = segrada_familia #
+			
+			#Special Tolerance
+			#doctrine = special_doctrine_ecumenical_christian
+
+			#Tenets
+			doctrine = tenet_gruesome_festivals
+			doctrine = tenet_sacred_lies
+			doctrine = tenet_dark_god
+
+			holy_order_names = {
+				{ name = "holy_order_knights_templar" coat_of_arms = "ho_knights_templar" }
+			}
+
+			localization = {
+			}
+		}
+		the_smith = {
+			color = { 0.8 0.8 0.6 }
+			religious_head = k_papal_state #
+			graphical_faith = "catholic_gfx"
+			
+			holy_site = jerusalem #
+			holy_site = rome #
+			holy_site = cologne #
+			holy_site = santiago #
+			holy_site = kent #
+			holy_site = segrada_familia #
+			
+			#Special Tolerance
+			#doctrine = special_doctrine_ecumenical_christian
+
+			#Tenets
+			doctrine = tenet_aniconism
+			doctrine = tenet_ship #
+			doctrine = tenet_communion
+
+			holy_order_names = {
+				{ name = "holy_order_knights_templar" coat_of_arms = "ho_knights_templar" }
+			}
+
+			localization = {
+			}
+		}
+		the_warrior = {
+			color = { 0.8 0.8 0.6 }
+			religious_head = k_papal_state #
+			graphical_faith = "catholic_gfx"
+			
+			holy_site = jerusalem #
+			holy_site = rome #
+			holy_site = cologne #
+			holy_site = santiago #
+			holy_site = kent #
+			holy_site = segrada_familia #
+			
+			#Special Tolerance
+			#doctrine = special_doctrine_ecumenical_christian
+
+			doctrine = doctrine_pluralism_fundamentalist
+
+			#Tenets
+			doctrine = tenet_warmonger
+			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_communion
+
+			holy_order_names = {
+				{ name = "holy_order_knights_templar" coat_of_arms = "ho_knights_templar" }
+			}
+
+			localization = {
+			}
+		}
+		the_seven_poverty = {
+			color = { 0.8 0.8 0.6 }
+			religious_head = k_papal_state #
+			graphical_faith = "catholic_gfx"
+			
+			holy_site = jerusalem #
+			holy_site = rome #
+			holy_site = cologne #
+			holy_site = santiago #
+			holy_site = kent #
+			holy_site = segrada_familia #
+			
+			#Special Tolerance
+			#doctrine = special_doctrine_ecumenical_christian
+
+			#Tenets
+			doctrine = tenet_asceticism
+			doctrine = tenet_religious_law
+			doctrine = tenet_communion
+
+			holy_order_names = {
+				{ name = "holy_order_knights_templar" coat_of_arms = "ho_knights_templar" }
+			}
+
+			localization = {
+			}
+		}
+	}
 }
